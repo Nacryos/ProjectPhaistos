@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-02-16T03:40:00Z",
+  "workspace": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior",
+  "repos": [
+    {
+      "name": "DecipherUnsegmented",
+      "url": "https://github.com/j-luo93/DecipherUnsegmented.git",
+      "commit": "3cdd0f42572a6af5f4c386a09f322d8fbf3b8347",
+      "commit_date": "2021-07-06T21:47:37-04:00",
+      "subject": "readme for iberian data",
+      "required": true
+    },
+    {
+      "name": "NeuroDecipher",
+      "url": "https://github.com/j-luo93/NeuroDecipher.git",
+      "commit": "480bad2487820e3737fecfdd108214efa769e34b",
+      "commit_date": "2021-09-20T17:14:17-04:00",
+      "subject": "updated README.md",
+      "required": true
+    },
+    {
+      "name": "ancient-scripts-datasets",
+      "url": "https://github.com/Nacryos/ancient-scripts-datasets.git",
+      "commit": "6efefde2cd4378d1ede05dac27d5cba80e78901e",
+      "commit_date": "2026-02-15T19:33:24-08:00",
+      "subject": "Add names validation subset: deity, proper, and place names across 30 languages",
+      "required": true
+    },
+    {
+      "name": "xib",
+      "url": "https://github.com/j-luo93/xib.git",
+      "commit": "db3c8a3def0ff47bf3bb2bccf9496fb507bbde07",
+      "commit_date": "2019-12-17T02:52:47-05:00",
+      "subject": "cleanup 10",
+      "required": false
+    },
+    {
+      "name": "dev_misc",
+      "url": "https://github.com/j-luo93/dev_misc.git",
+      "commit": "b712c8b21beb0ca9f23a4bcd428cfbfa2f703c77",
+      "commit_date": "2021-04-25T22:23:47-04:00",
+      "subject": "`pad_to_dense` supports 3d tensor",
+      "required": false
+    },
+    {
+      "name": "arglib",
+      "url": "https://github.com/j-luo93/arglib.git",
+      "commit": "6662216e7192fb87c1d04f53b074b538d7cd7df1",
+      "commit_date": "2019-11-17T16:40:01-05:00",
+      "subject": "decorators",
+      "required": false
+    }
+  ]
+}

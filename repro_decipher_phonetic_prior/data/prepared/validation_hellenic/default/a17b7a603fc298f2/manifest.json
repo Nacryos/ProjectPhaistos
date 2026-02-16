@@ -1,0 +1,20 @@
+{
+  "copied_assets": [],
+  "corpus": "validation_hellenic",
+  "exported": {
+    "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2/ground_truth.tsv",
+    "known_text": "{\"grc\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2/known_grc.txt\", \"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2/known_known_union.txt\"}",
+    "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2/lost.txt",
+    "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2/metadata.json",
+    "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2/splits.json"
+  },
+  "fingerprint": "a17b7a603fc298f2",
+  "num_ground_truth_rows": 12,
+  "num_known_vocab": {
+    "grc": 40,
+    "known_union": 40
+  },
+  "num_lost_lines": 12,
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "variant": null
+}

@@ -1,0 +1,15 @@
+{
+  "canonical_source": "ancient-scripts-datasets",
+  "config": {
+    "max_lines": 0,
+    "seed": 1234
+  },
+  "name": "gothic",
+  "notes": "Known-language vocabularies (PG/ON/OE) are external and prepared separately.",
+  "source_paths": {
+    "gotica": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/gothic/gotica.txt",
+    "pretrained_embedding": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/gothic/got.pretrained.pth",
+    "segments": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/gothic/segments.pkl"
+  },
+  "variant": null
+}

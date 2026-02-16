@@ -1,0 +1,99 @@
+{
+  "auroc": NaN,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:11:54+00:00",
+  "examples": [
+    {
+      "concept_id": "smith_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0261ov\u0251n\u02d0on",
+      "pred_top1": "eskender",
+      "score_top1": -14.513726234436035
+    }
+  ],
+  "history": [
+    {
+      "objective": -12.697842597961426,
+      "omega_cov": 0.0,
+      "omega_loss": 0.004066337365657091,
+      "quality": -12.69377613067627,
+      "step": 1
+    },
+    {
+      "objective": -12.692717552185059,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0032772570848464966,
+      "quality": -12.689440727233887,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "amh"
+  ],
+  "known_vocab_key": "amh",
+  "lost_language": "cym",
+  "mean_negative_score": -15.14886474609375,
+  "mean_positive_score": NaN,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "amh"
+    ],
+    "lost_language": "cym",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.0,
+  "n_eval": 0,
+  "n_neg_scored": 2,
+  "n_pos_scored": 0,
+  "num_known_vocab": 2,
+  "num_lost_tokens": 1,
+  "p_at_1": 0.0,
+  "score_margin": NaN,
+  "seed": 410234261,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:cym:amh"
+}

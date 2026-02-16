@@ -1,0 +1,99 @@
+{
+  "auroc": NaN,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:14:26+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "dju\u02d0wei",
+      "pred_top1": "t\u0251nr\u026f",
+      "score_top1": -11.552943229675293
+    }
+  ],
+  "history": [
+    {
+      "objective": -11.060281753540039,
+      "omega_cov": 0.0,
+      "omega_loss": 0.014512498863041401,
+      "quality": -11.045769691467285,
+      "step": 1
+    },
+    {
+      "objective": -10.96358871459961,
+      "omega_cov": 0.0,
+      "omega_loss": 0.014767373912036419,
+      "quality": -10.948821067810059,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "aze"
+  ],
+  "known_vocab_key": "aze",
+  "lost_language": "osc",
+  "mean_negative_score": -11.552943229675293,
+  "mean_positive_score": NaN,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "aze"
+    ],
+    "lost_language": "osc",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.0,
+  "n_eval": 0,
+  "n_neg_scored": 1,
+  "n_pos_scored": 0,
+  "num_known_vocab": 1,
+  "num_lost_tokens": 1,
+  "p_at_1": 0.0,
+  "score_margin": NaN,
+  "seed": 32088425,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:osc:aze"
+}

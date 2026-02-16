@@ -1,0 +1,503 @@
+{
+  "auroc": 0.5284455128205128,
+  "branch": "balto_slavic",
+  "corpus": "validation_balto_slavic",
+  "created_at": "2026-02-16T04:05:40+00:00",
+  "examples": [
+    {
+      "concept_id": "head",
+      "correct": false,
+      "first_positive_rank": 18,
+      "gold_candidates": [
+        "\u0261l\u0251v\u0251"
+      ],
+      "lost": "\u0261\u0250l\u02c8v\u0251\u02d0",
+      "pred_top1": "s\u0268n\u028a",
+      "score_top1": -19.823204040527344
+    },
+    {
+      "concept_id": "eye",
+      "correct": false,
+      "first_positive_rank": 16,
+      "gold_candidates": [
+        "oko"
+      ],
+      "lost": "\u0250\u02c8k\u02b2\u026as",
+      "pred_top1": "k\u0251m\u0268",
+      "score_top1": -17.116409301757812
+    },
+    {
+      "concept_id": "ear",
+      "correct": false,
+      "first_positive_rank": 21,
+      "gold_candidates": [
+        "uxo"
+      ],
+      "lost": "\u0250u\u02c8s\u02b2\u026as",
+      "pred_top1": "dom\u028a",
+      "score_top1": -19.8461856842041
+    },
+    {
+      "concept_id": "mouth",
+      "correct": false,
+      "first_positive_rank": 8,
+      "gold_candidates": [
+        "ust\u0251"
+      ],
+      "lost": "\u02c8burn\u0251",
+      "pred_top1": "o\u0261n\u02b2",
+      "score_top1": -17.131982803344727
+    },
+    {
+      "concept_id": "hand",
+      "correct": false,
+      "first_positive_rank": 23,
+      "gold_candidates": [
+        "ronk\u0251"
+      ],
+      "lost": "\u02c8r\u0250\u014bk\u0251",
+      "pred_top1": "p\u026as\u028a",
+      "score_top1": -17.13913917541504
+    },
+    {
+      "concept_id": "foot",
+      "correct": false,
+      "first_positive_rank": 5,
+      "gold_candidates": [
+        "no\u0261\u0251"
+      ],
+      "lost": "\u02c8ko\u02d0j\u0251",
+      "pred_top1": "o\u0261n\u02b2",
+      "score_top1": -17.143545150756836
+    },
+    {
+      "concept_id": "heart",
+      "correct": false,
+      "first_positive_rank": 34,
+      "gold_candidates": [
+        "srd\u02b2itse"
+      ],
+      "lost": "\u02c8\u0283\u02b2\u026ard\u02b2\u026as",
+      "pred_top1": "p\u02b2it\u02b2i",
+      "score_top1": -25.256139755249023
+    },
+    {
+      "concept_id": "blood",
+      "correct": false,
+      "first_positive_rank": 7,
+      "gold_candidates": [
+        "kr\u0268v\u02b2"
+      ],
+      "lost": "\u02c8kr\u0250uj\u0250s",
+      "pred_top1": "m\u0251t\u02b2i",
+      "score_top1": -22.5450496673584
+    },
+    {
+      "concept_id": "father",
+      "correct": false,
+      "first_positive_rank": 27,
+      "gold_candidates": [
+        "ot\u02b2\u026ats\u02b2"
+      ],
+      "lost": "\u02c8t\u02b2e\u02d0v\u0250s",
+      "pred_top1": "ronk\u0251",
+      "score_top1": -22.548114776611328
+    },
+    {
+      "concept_id": "mother",
+      "correct": false,
+      "first_positive_rank": 7,
+      "gold_candidates": [
+        "m\u0251t\u02b2i"
+      ],
+      "lost": "\u02c8mo\u02d0t\u02b2\u026an\u0251",
+      "pred_top1": "d\u028a\u0283t\u02b2i",
+      "score_top1": -25.255325317382812
+    },
+    {
+      "concept_id": "son",
+      "correct": false,
+      "first_positive_rank": 10,
+      "gold_candidates": [
+        "s\u0268n\u028a"
+      ],
+      "lost": "\u02c8su\u02d0nus",
+      "pred_top1": "p\u026as\u028a",
+      "score_top1": -19.829374313354492
+    },
+    {
+      "concept_id": "daughter",
+      "correct": false,
+      "first_positive_rank": 27,
+      "gold_candidates": [
+        "d\u028a\u0283t\u02b2i"
+      ],
+      "lost": "\u02c8dukte\u02d0",
+      "pred_top1": "p\u026as\u028a",
+      "score_top1": -19.836368560791016
+    },
+    {
+      "concept_id": "brother",
+      "correct": false,
+      "first_positive_rank": 12,
+      "gold_candidates": [
+        "br\u0251t\u028a"
+      ],
+      "lost": "\u02c8bro\u02d0l\u02b2\u026as",
+      "pred_top1": "zeml\u02b2\u0251",
+      "score_top1": -25.256515502929688
+    },
+    {
+      "concept_id": "water",
+      "correct": false,
+      "first_positive_rank": 17,
+      "gold_candidates": [
+        "vod\u0251"
+      ],
+      "lost": "v\u0250n\u02c8duo\u02d0",
+      "pred_top1": "m\u0251t\u02b2i",
+      "score_top1": -22.55010223388672
+    },
+    {
+      "concept_id": "fire",
+      "correct": false,
+      "first_positive_rank": 9,
+      "gold_candidates": [
+        "o\u0261n\u02b2"
+      ],
+      "lost": "\u02c8u\u0261n\u02b2\u026as",
+      "pred_top1": "dom\u028a",
+      "score_top1": -19.843124389648438
+    },
+    {
+      "concept_id": "sun",
+      "correct": false,
+      "first_positive_rank": 35,
+      "gold_candidates": [
+        "sl\u028an\u02b2tse"
+      ],
+      "lost": "\u02c8s\u0250ule\u02d0",
+      "pred_top1": "vol\u028a",
+      "score_top1": -19.830936431884766
+    },
+    {
+      "concept_id": "moon",
+      "correct": false,
+      "first_positive_rank": 24,
+      "gold_candidates": [
+        "m\u02b2esents\u02b2"
+      ],
+      "lost": "\u02c8m\u02b2e\u02d0nul\u02b2\u026as",
+      "pred_top1": "zv\u02b2ezd\u0251",
+      "score_top1": -30.613189697265625
+    },
+    {
+      "concept_id": "star",
+      "correct": false,
+      "first_positive_rank": 5,
+      "gold_candidates": [
+        "zv\u02b2ezd\u0251"
+      ],
+      "lost": "\u02c8\u0292v\u0250\u026a\u0261\u0292d\u02b2e\u02d0",
+      "pred_top1": "ot\u02b2\u026ats\u02b2",
+      "score_top1": -30.62229347229004
+    },
+    {
+      "concept_id": "earth",
+      "correct": false,
+      "first_positive_rank": 21,
+      "gold_candidates": [
+        "zeml\u02b2\u0251"
+      ],
+      "lost": "\u02c8\u0292\u02b2e\u02d0me\u02d0",
+      "pred_top1": "ronk\u0251",
+      "score_top1": -22.5552921295166
+    },
+    {
+      "concept_id": "mountain",
+      "correct": false,
+      "first_positive_rank": 13,
+      "gold_candidates": [
+        "\u0261or\u0251"
+      ],
+      "lost": "\u02c8k\u0250ln\u0250s",
+      "pred_top1": "k\u0251m\u0268",
+      "score_top1": -19.847108840942383
+    },
+    {
+      "concept_id": "river",
+      "correct": false,
+      "first_positive_rank": 23,
+      "gold_candidates": [
+        "r\u02b2ek\u0251"
+      ],
+      "lost": "\u02c8upe\u02d0",
+      "pred_top1": "oko",
+      "score_top1": -14.353015899658203
+    },
+    {
+      "concept_id": "stone",
+      "correct": false,
+      "first_positive_rank": 7,
+      "gold_candidates": [
+        "k\u0251m\u0268"
+      ],
+      "lost": "\u0250k\u02c8muo\u02d0",
+      "pred_top1": "vol\u028a",
+      "score_top1": -19.825363159179688
+    },
+    {
+      "concept_id": "tree",
+      "correct": false,
+      "first_positive_rank": 6,
+      "gold_candidates": [
+        "dr\u02b2evo"
+      ],
+      "lost": "\u02c8m\u02b2e\u02d0d\u02b2\u026as",
+      "pred_top1": "j\u0251st\u02b2i",
+      "score_top1": -25.258451461791992
+    },
+    {
+      "concept_id": "horse",
+      "correct": false,
+      "first_positive_rank": 20,
+      "gold_candidates": [
+        "kon\u02b2"
+      ],
+      "lost": "\u02c8\u0250rkl\u02b2\u026as",
+      "pred_top1": "\u0261l\u0251v\u0251",
+      "score_top1": -22.526962280273438
+    },
+    {
+      "concept_id": "dog",
+      "correct": false,
+      "first_positive_rank": 11,
+      "gold_candidates": [
+        "p\u026as\u028a"
+      ],
+      "lost": "\u02c8\u0283uo\u02d0",
+      "pred_top1": "oko",
+      "score_top1": -14.384658813476562
+    },
+    {
+      "concept_id": "fish",
+      "correct": false,
+      "first_positive_rank": 12,
+      "gold_candidates": [
+        "r\u0268b\u0251"
+      ],
+      "lost": "\u02c8\u0292uv\u02b2\u026as",
+      "pred_top1": "no\u0261\u0251",
+      "score_top1": -19.826799392700195
+    },
+    {
+      "concept_id": "bird",
+      "correct": false,
+      "first_positive_rank": 9,
+      "gold_candidates": [
+        "pt\u02b2its\u0251"
+      ],
+      "lost": "\u02c8p\u0250uk\u0283t\u02b2\u026as",
+      "pred_top1": "d\u028a\u0283t\u02b2i",
+      "score_top1": -27.911907196044922
+    },
+    {
+      "concept_id": "ox",
+      "correct": false,
+      "first_positive_rank": 17,
+      "gold_candidates": [
+        "vol\u028a"
+      ],
+      "lost": "\u02c8j\u0250ut\u02b2\u026as",
+      "pred_top1": "m\u0251t\u02b2i",
+      "score_top1": -22.528705596923828
+    },
+    {
+      "concept_id": "eat",
+      "correct": false,
+      "first_positive_rank": 6,
+      "gold_candidates": [
+        "j\u0251st\u02b2i"
+      ],
+      "lost": "v\u0250l\u02c8\u0261\u02b2i\u02d0t\u02b2\u026a",
+      "pred_top1": "tses\u0251r\u02b2",
+      "score_top1": -30.620071411132812
+    },
+    {
+      "concept_id": "drink",
+      "correct": false,
+      "first_positive_rank": 21,
+      "gold_candidates": [
+        "p\u02b2it\u02b2i"
+      ],
+      "lost": "\u02c8\u0261\u02b2ert\u02b2\u026a",
+      "pred_top1": "m\u0251t\u02b2i",
+      "score_top1": -22.544574737548828
+    },
+    {
+      "concept_id": "give",
+      "correct": false,
+      "first_positive_rank": 4,
+      "gold_candidates": [
+        "d\u0251t\u02b2i"
+      ],
+      "lost": "\u02c8duo\u02d0t\u02b2\u026a",
+      "pred_top1": "ronk\u0251",
+      "score_top1": -22.550756454467773
+    },
+    {
+      "concept_id": "come",
+      "correct": false,
+      "first_positive_rank": 8,
+      "gold_candidates": [
+        "pr\u02b2it\u02b2i"
+      ],
+      "lost": "\u0250\u02c8t\u02b2e\u02d0\u026at\u02b2\u026a",
+      "pred_top1": "j\u0251st\u02b2i",
+      "score_top1": -27.92640495300293
+    },
+    {
+      "concept_id": "die",
+      "correct": false,
+      "first_positive_rank": 35,
+      "gold_candidates": [
+        "umr\u02b2et\u02b2i"
+      ],
+      "lost": "\u02c8m\u02b2\u026art\u02b2\u026a",
+      "pred_top1": "m\u0251t\u02b2i",
+      "score_top1": -22.518285751342773
+    },
+    {
+      "concept_id": "know",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "zn\u0251t\u02b2i"
+      ],
+      "lost": "\u02c8\u0292\u02b2\u026ano\u02d0t\u02b2\u026a",
+      "pred_top1": "j\u0251st\u02b2i",
+      "score_top1": -27.922988891601562
+    },
+    {
+      "concept_id": "hear",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "sl\u0268\u0283\u0251t\u02b2i"
+      ],
+      "lost": "\u0261\u02b2\u026ar\u02c8d\u02b2e\u02d0t\u02b2\u026a",
+      "pred_top1": "sl\u0268\u0283\u0251t\u02b2i",
+      "score_top1": -33.32554244995117
+    },
+    {
+      "concept_id": "see",
+      "correct": false,
+      "first_positive_rank": 36,
+      "gold_candidates": [
+        "v\u02b2id\u02b2et\u02b2i"
+      ],
+      "lost": "\u02c8m\u0251\u02d0t\u02b2\u026at\u02b2\u026a",
+      "pred_top1": "zn\u0251t\u02b2i",
+      "score_top1": -27.90818214416504
+    },
+    {
+      "concept_id": "name",
+      "correct": false,
+      "first_positive_rank": 23,
+      "gold_candidates": [
+        "im\u1ebd"
+      ],
+      "lost": "\u02c8v\u0250rd\u0250s",
+      "pred_top1": "vol\u028a",
+      "score_top1": -19.85178565979004
+    },
+    {
+      "concept_id": "god",
+      "correct": false,
+      "first_positive_rank": 10,
+      "gold_candidates": [
+        "bo\u0261\u028a"
+      ],
+      "lost": "\u02c8d\u02b2e\u02d0v\u0250s",
+      "pred_top1": "ronk\u0251",
+      "score_top1": -22.551326751708984
+    },
+    {
+      "concept_id": "king",
+      "correct": false,
+      "first_positive_rank": 11,
+      "gold_candidates": [
+        "tses\u0251r\u02b2"
+      ],
+      "lost": "k\u0250\u02c8r\u0251\u02d0l\u02b2\u028as",
+      "pred_top1": "zeml\u02b2\u0251",
+      "score_top1": -27.94448471069336
+    },
+    {
+      "concept_id": "house",
+      "correct": false,
+      "first_positive_rank": 5,
+      "gold_candidates": [
+        "dom\u028a"
+      ],
+      "lost": "\u02c8n\u0251\u02d0m\u0250s",
+      "pred_top1": "vol\u028a",
+      "score_top1": -19.83803939819336
+    }
+  ],
+  "history": [
+    {
+      "objective": -12.952127456665039,
+      "omega_cov": 0.0,
+      "omega_loss": 4.33740842709085e-06,
+      "quality": -12.952122688293457,
+      "step": 1
+    },
+    {
+      "objective": -12.952127456665039,
+      "omega_cov": 0.0,
+      "omega_loss": 4.3370687308197375e-06,
+      "quality": -12.952122688293457,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "chu"
+  ],
+  "known_vocab_key": "chu",
+  "lost_language": "lit",
+  "mean_negative_score": -23.319404556812383,
+  "mean_positive_score": -22.95022678375244,
+  "metadata": {
+    "available_languages": [
+      "chu",
+      "lit",
+      "rus"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "chu"
+    ],
+    "lost_language": "lit",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/balto_slavic.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "balto_slavic"
+  },
+  "mrr": 0.12079839807701058,
+  "n_eval": 40,
+  "n_neg_scored": 1560,
+  "n_pos_scored": 40,
+  "num_known_vocab": 40,
+  "num_lost_tokens": 40,
+  "p_at_1": 0.025,
+  "score_margin": 0.3691777730599419,
+  "seed": 928207268,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.975,
+  "variant": "pair:lit:chu"
+}

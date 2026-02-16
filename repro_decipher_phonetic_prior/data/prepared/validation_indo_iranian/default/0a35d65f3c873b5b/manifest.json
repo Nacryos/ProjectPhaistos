@@ -1,0 +1,21 @@
+{
+  "copied_assets": [],
+  "corpus": "validation_indo_iranian",
+  "exported": {
+    "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/ground_truth.tsv",
+    "known_text": "{\"fas\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/known_fas.txt\", \"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/known_known_union.txt\", \"san\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/known_san.txt\"}",
+    "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/lost.txt",
+    "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/metadata.json",
+    "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/splits.json"
+  },
+  "fingerprint": "0a35d65f3c873b5b",
+  "num_ground_truth_rows": 36,
+  "num_known_vocab": {
+    "fas": 40,
+    "known_union": 79,
+    "san": 40
+  },
+  "num_lost_lines": 36,
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "variant": null
+}

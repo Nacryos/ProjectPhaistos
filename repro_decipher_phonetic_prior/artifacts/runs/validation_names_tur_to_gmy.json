@@ -1,0 +1,164 @@
+{
+  "auroc": 0.6428571428571429,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:15:06+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "diwe"
+      ],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "diwe",
+      "score_top1": -14.071683883666992
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0261yne\u0283",
+      "pred_top1": "diwe",
+      "score_top1": -15.80508041381836
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0251j",
+      "pred_top1": "diwe",
+      "score_top1": -8.423303604125977
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "diwe",
+      "score_top1": -14.071683883666992
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251jser",
+      "pred_top1": "diwe",
+      "score_top1": -17.390241622924805
+    },
+    {
+      "concept_id": "alexander_name",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "iskender",
+      "pred_top1": "diwe",
+      "score_top1": -23.45075225830078
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251f",
+      "pred_top1": "diwe",
+      "score_top1": -11.956961631774902
+    },
+    {
+      "concept_id": "holy_city",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ist\u0251nbul",
+      "pred_top1": "diwe",
+      "score_top1": -23.022720336914062
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.452000617980957,
+      "omega_cov": 0.0,
+      "omega_loss": 0.006327906157821417,
+      "quality": -8.445672988891602,
+      "step": 1
+    },
+    {
+      "objective": -8.451774597167969,
+      "omega_cov": 0.0,
+      "omega_loss": 0.006134636700153351,
+      "quality": -8.445639610290527,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "gmy"
+  ],
+  "known_vocab_key": "gmy",
+  "lost_language": "tur",
+  "mean_negative_score": -16.302963393075125,
+  "mean_positive_score": -14.071683883666992,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "gmy"
+    ],
+    "lost_language": "tur",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 1.0,
+  "n_eval": 1,
+  "n_neg_scored": 7,
+  "n_pos_scored": 1,
+  "num_known_vocab": 1,
+  "num_lost_tokens": 8,
+  "p_at_1": 1.0,
+  "score_margin": 2.2312795094081324,
+  "seed": 586833526,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:tur:gmy"
+}

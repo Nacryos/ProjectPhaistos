@@ -1,0 +1,242 @@
+category	known	lost	subcategory
+deity_name	['al']	il	supreme_deity
+deity_name	['alh', 'alwh']	ilh	supreme_deity
+deity_name	['alhym', 'alwhym']	ilhm	supreme_deity
+deity_name	['alym']	ilm	supreme_deity
+deity_name	['b<l']	b<l	storm_deity
+deity_name	['b<lh', 'b<lw']	b<lh	storm_deity
+deity_name	['b<lym']	b<lm	storm_deity
+deity_name	['b<lh', 'b<lt', 'b<lwt']	b<lt	storm_deity
+deity_name	['b<ly']	b<ly	storm_deity
+deity_name	['lb<l']	lb<l	storm_deity
+deity_name	['wb<l']	wb<l	storm_deity
+deity_name	['<th']	<nt	war_goddess
+deity_name	['l<th']	l<nt	war_goddess
+deity_name	['w<th']	w<nt	war_goddess
+deity_name	['dgn']	dgn	grain_deity
+deity_name	['ldgn']	ldgn	grain_deity
+deity_name	['wdgn']	wdgn	grain_deity
+deity_name	['mlk']	mlk	king_deity
+deity_name	['$m$']	$p$	sun_deity
+deity_name	['l$m$']	l$p$	sun_deity
+deity_name	['w$m$']	w$p$	sun_deity
+deity_name	['yrH']	yrx	moon_deity
+deity_name	['byrH']	byrx	moon_deity
+deity_name	['lyrH']	lyrx	moon_deity
+deity_name	['yrHym']	yrxm	moon_deity
+deity_name	['mt']	mt	death_deity
+deity_name	['ym', 'ywm']	ym	sea_deity
+deity_name	['_']	ktr	craftsman_deity
+deity_name	['r$p']	r$p	plague_deity
+deity_name	['lr$p']	lr$p	plague_deity
+deity_name	['r$pym']	r$pm	plague_deity
+theophoric_name	['_']	ilr$p	il_compound
+theophoric_name	['_']	ildgn	il_compound
+theophoric_name	['_']	il<nt	il_compound
+theophoric_name	['_']	ilb<l	il_compound
+theophoric_name	['_']	il$lm	il_compound
+theophoric_name	['_']	ilSdq	il_compound
+theophoric_name	['_']	b<l$lm	b<l_compound
+theophoric_name	['_']	b<lSdq	b<l_compound
+theophoric_name	['_']	mtnb<l	b<l_compound
+theophoric_name	['<bdmlk']	<bdmlk	<bd_compound
+theophoric_name	['_']	<bdr$p	<bd_compound
+theophoric_name	['_']	<bd<nt	<bd_compound
+theophoric_name	['_']	<bdb<l	<bd_compound
+theophoric_name	['_']	<bdilm	<bd_compound
+theophoric_name	['_']	<bdrpu	<bd_compound
+theophoric_name	['abymlk']	abmlk	mlk_compound
+theophoric_name	['_']	mlkr$p	mlk_compound
+theophoric_name	['_']	Sdqil	Sdq_compound
+theophoric_name	['_']	Sdq$lm	Sdq_compound
+ritual_verb	['zbH']	dbH	sacrifice
+ritual_verb	['wzbH']	wdbH	sacrifice
+ritual_verb	['yzbH']	ydbH	sacrifice
+ritual_verb	['nzbH']	ndbH	sacrifice
+ritual_verb	['tzbHnw']	tdbHn	sacrifice
+ritual_verb	['zbHym']	dbHm	sacrifice
+ritual_verb	['zbHnw']	dbHn	sacrifice
+ritual_verb	['qrb']	qrb	approach
+ritual_verb	['aqrb']	uqrb	approach
+ritual_verb	['tqrb']	tqrb	approach
+ritual_verb	['yqrb']	yqrb	approach
+ritual_verb	['wyqrb']	wyqrb	approach
+ritual_verb	['nsk']	nsk	libation
+ritual_verb	['nskh', 'nskw']	nskh	libation
+ritual_verb	['wynsk']	wynsk	libation
+ritual_verb	['brk']	brk	bless
+ritual_verb	['ybrk']	ybrk	bless
+ritual_verb	['tbrk']	tbrk	bless
+ritual_verb	['ybrknw']	ybrkn	bless
+ritual_verb	['brkh', 'brkt', 'brkty']	brkt	bless
+ritual_verb	['brkym']	brkm	bless
+ritual_verb	['ndr']	ndr	vow
+ritual_verb	['ndrh', 'ndrw']	ndrh	vow
+ritual_verb	['b<r']	b<r	purify
+ritual_verb	['yb<r']	yb<r	purify
+ritual_verb	['<bd']	<bd	serve
+ritual_verb	['y<bd']	y<bd	serve
+ritual_verb	['<bdym']	<bdm	serve
+ritual_verb	['<bdy']	<bdy	serve
+ritual_verb	['$b<', '&b<']	$b<	oath
+ritual_verb	['$b<h', '$b<t', '$b<wt']	$b<t	oath
+ritual_verb	['kpr']	kpr	atone
+ritual_verb	['bkpr']	bkpr	atone
+ritual_verb	['Hrm$']	xrmvt	devote
+ritual_verb	['yr$', 'ywr$']	yrv	inherit
+ritual_noun	['mzbH']	mdbH	altar
+ritual_noun	['mzbHh', 'mzbHt', 'mzbHwt']	mdbHt	altar
+ritual_noun	['mnHh']	mnH	offering
+ritual_noun	['mnHh', 'mnHt', 'mnHwt']	mnHt	offering
+ritual_noun	['_']	qTr	incense
+ritual_noun	['<&r']	<$r	tithe
+ritual_noun	['<&rh', '<&rt', '<&rwt']	<$rt	tithe
+ritual_noun	['_']	<lt	offering_burnt
+ritual_noun	['m<lh', 'm<lt', 'm<lwt']	m<lt	offering_burnt
+sacred_place	['hykl']	hkl	temple
+sacred_place	['bhykl']	bhkl	temple
+sacred_place	['hyklh', 'hyklw']	hklh	temple
+sacred_place	['hyklk']	hklk	temple
+sacred_place	['hykly']	hkly	temple
+sacred_place	['bt', 'byt']	bt	house_temple
+sacred_place	['qbr']	qbr	grave
+sacred_place	['bqbr']	bqbr	grave
+sacred_place	['wyqbr']	wyqbr	grave
+sacred_place	['yqbr']	yqbr	grave
+sacred_place	['_']	bmh	high_place
+sacred_place	['lm$knm', 'lm$knthm', 'lm$knwthm']	lm$knthm	tabernacle
+sacred_place	['mqd$']	mqd$t	sanctuary
+theology_adj	['qd$']	qd$	holy
+theology_adj	['qd$ym']	qd$m	holy
+theology_adj	['qd$h', 'qd$t', 'qd$wt']	qd$t	holy
+theology_adj	['tqd$']	tqd$	holy
+theology_adj	['Thr', 'Thwr']	Thr	pure
+theology_adj	['Thrym', 'Thwrym']	Thrm	pure
+theology_adj	['Sdyq']	Sdq	righteous
+theology_adj	['Sdqh', 'Sdqw', 'Sdyqh', 'Sdyqw']	Sdqh	righteous
+theology_adj	['Twb']	Tb	good
+theology_adj	['r<']	r<	evil
+theology_adj	['kbd']	kbd	glorious
+theology_adj	['kbdy']	kbdy	glorious
+theology_adj	['ykbd']	ykbd	glorious
+theology_noun	['np$']	np$	soul
+theology_noun	['np$h', 'np$w']	np$h	soul
+theology_noun	['np$y']	np$y	soul
+theology_noun	['np$ym']	np$m	soul
+theology_noun	['rwH', 'ryH']	rH	spirit
+theology_noun	['Hy']	Hy	life
+theology_noun	['Hyym']	Hym	life
+theology_noun	['mt']	mt	death
+theology_noun	['_']	Ht	sin
+theology_noun	['$m']	$m	name_heaven
+theology_noun	['$mym']	$mm	name_heaven
+theology_noun	['$lm', '$lwm']	$lm	peace
+theology_noun	['$lmk', '$lwmk']	$lmk	peace
+theology_noun	['$lmym']	$lmm	peace
+theology_noun	['y$lm']	y$lm	peace
+theology_noun	['Hnn']	Hnn	grace
+theology_noun	['Hnny']	Hnny	grace
+theology_noun	['rHm']	rHm	compassion
+theology_noun	['brHm']	brHm	compassion
+theology_noun	['mHmd']	mHmd	desire
+theology_noun	['Hlq']	xlq	portion
+theology_noun	['yHlq']	yxlq	portion
+theology_noun	['_']	<nn	cloud
+theology_noun	['rkb']	rkb	chariot
+theology_noun	['mrkbh', 'mrkbt', 'mrkbwt']	mrkbt	chariot
+high_risk	['yld']	yld	birth
+high_risk	['wyld']	wyld	birth
+high_risk	['yldy']	yldy	birth
+high_risk	['bkwrym']	bkrm	firstborn
+high_risk	['bkwrk']	bkrk	firstborn
+high_risk	['_']	<qr	barren
+high_risk	['qSr']	qSr	harvest
+high_risk	['zr<']	dr<	seed
+high_risk	['zr<', 'zrw<']	*r<	seed
+high_risk	['mzr<']	mdr<	seed
+high_risk	['tzr<']	tdr<	seed
+high_risk	['Sd']	Sd	field
+high_risk	['&dh', '&dhw']	$dh	field
+high_risk	['krm']	krm	vineyard
+high_risk	['krmym']	krmm	vineyard
+high_risk	['gpn']	gpn	vine
+high_risk	['gpnym']	gpnm	vine
+high_risk	['_']	$bl	grain
+high_risk	['$blt']	$blt	grain
+high_risk	['yyn']	yn	wine
+high_risk	['$mn']	$mn	oil
+high_risk	['$mny']	$mny	oil
+high_risk	['mTr']	mTr	rain
+high_risk	['mTrh', 'mTrw']	mTrh	rain
+high_risk	['t<l']	t<l	dew
+high_risk	['wt<l']	wt<l	dew
+high_risk	['nHl']	nHl	inheritance
+high_risk	['nHlh', 'nHlw']	nHlh	inheritance
+high_risk	['nHlty']	nHlty	inheritance
+high_risk	['alp']	alp	ox
+high_risk	['$wr']	vr	bull
+high_risk	['<gl']	<gl	calf
+high_risk	['<glh', '<glt', '<glwt']	<glt	calf
+high_risk	['<glym']	<glm	calf
+high_risk	['<wz']	<z	goat
+high_risk	['_']	$h	sheep
+high_risk	['Hmwr']	Hmr	donkey
+high_risk	['Hmwrym']	Hmrm	donkey
+high_risk	['lHm']	lHm	bread_war
+high_risk	['ylHm']	ylHm	bread_war
+high_risk	['tlHm']	tlHm	bread_war
+high_risk	['mlHmh', 'mlHmt', 'mlHmwt']	mlHmt	war
+high_risk	['drk', 'dwrk']	drk	journey
+high_risk	['_']	rpan	healing
+high_risk	['anyh', 'anyt', 'anywt']	anyt	sea
+high_risk	['any']	any	sea
+deity_name	['<&r']	<$r	fertility_goddess
+deity_name	['<&rym']	<$rm	fertility_goddess
+deity_name	['<&rh', '<&rt', '<&rwt']	<$rt	fertility_goddess
+deity_name	['Hrn']	Hrn	underworld_deity
+deity_name	['_']	$dy	divine_epithet
+deity_name	['<lh']	<ly	divine_epithet
+ritual_verb	['ntn']	ntn	give
+ritual_verb	['ytn']	ytn	give
+ritual_verb	['ttn']	ttn	give
+ritual_verb	['$m']	$m	place
+ritual_verb	['yrwm']	yrm	exalt
+theology_noun	['_']	brt	covenant
+theology_noun	['m$pT']	mvpT	judgment
+theology_noun	['m$pTk']	mvpTk	judgment
+ritual_noun	['dm']	dm	blood
+ritual_noun	['_']	dmm	blood
+ritual_noun	['a$']	i$t	fire
+ritual_noun	['mym']	mym	water
+sacred_place	['hr']	hr	mountain
+sacred_place	['<S']	<S	tree
+sacred_place	['<Sym']	<Sm	tree
+sacred_place	['abn']	abn	stone
+sacred_place	['<yn']	<n	spring
+sacred_place	['nhr']	nhr	river
+sacred_place	['nhrym']	nhrm	river
+theology_noun	['kws']	ks	throne
+theology_noun	['ksa']	ksa	throne
+theology_noun	['$r', '$yr', '&r']	$r	prince
+theology_noun	['$yrym', '&rym']	$rm	prince
+theology_noun	['<m']	<m	people
+ritual_verb	['zmr']	*mr	sing
+ritual_verb	['zmwrh']	azmr	sing
+ritual_verb	['wyzmr']	wy*mr	sing
+ritual_noun	['tp']	tp	drum
+theology_noun	['Hlm', 'Hlwm']	Hlm	dream
+theology_noun	['ab']	ab	father
+theology_noun	['am']	um	mother
+theology_noun	['bn', 'byn']	bn	son
+theology_noun	['bt', 'byt']	bt	daughter
+theology_noun	['aH']	ax	brother
+theology_noun	['yd']	yd	hand
+theology_noun	['ydm']	ydm	hand
+theology_noun	['lb']	lb	heart
+theology_noun	['_']	<yn	eye
+theology_noun	['ph']	p	mouth
+ritual_verb	['qra']	qra	call
+ritual_verb	['yqra']	yqra	call
+ritual_verb	['$m<']	$m<	hear
+ritual_verb	['y$m<']	y$m<	hear
+theology_noun	['qwl']	ql	voice

@@ -1,0 +1,68 @@
+category	known	lost	subcategory
+deity_name	war deity (cf. Irish Neit?)	neitin	war_deity
+deity_name	"possible deity element or ""city"""	iltiŕ	theophoric
+deity_name	possible deity name element	beleś	theophoric
+deity_name	father? or deity element	atin	theophoric
+votive_formula	dedication/offering formula	iunstir	dedication
+votive_formula	"""made"" / ""dedicated"" (cf. Lat. fecit)"	ekiar	dedication
+votive_formula	first person / dedicatory marker	ḿi	dedicant
+votive_formula	"""to give/dedicate"" (proposed verb)"	eban / ebanen	offering_term
+votive_formula	tomb/funerary monument	seltar	funerary
+votive_formula	funerary/ritual term	uśtalar	funerary
+votive_formula	silver/money/payment	śalir	counting
+votive_formula	inscription count? / quantity	karte	counting
+onomastic	determinative/son?	ban	name_element
+onomastic	name/title element	bilos	name_element
+onomastic	guardian? / ritual title	baite	name_element
+onomastic	title/designation	kutuŕ	name_element
+onomastic	name element (theophoric?)	oŕtin / ortin	name_element
+onomastic	name element (sacred?)	sakaŕ	name_element
+onomastic	forest/wild? / sanctuary	saltu	name_element
+onomastic	name element	biuŕ	name_element
+sanctuary_text	neitin+iunstir inscription	GI.15.09	Ullastret
+sanctuary_text	neitin+iunstir+karte	GI.01.03	Ullastret
+sanctuary_text	combined ritual text	T.07.03	Liria
+sanctuary_text	seltar dedication	CS.11.01	Castellon
+sanctuary_text	iunstir+ekiar text	CS.18.01	Castellon
+sanctuary_text	long votive text	CS.21.05	Castellon
+sanctuary_text	iunstir+śalir text	A.04.01b	Alcoy
+sanctuary_text	multiple iunstir	A.03.01	Alcoy
+sanctuary_text	ekiar+iumstiŕ	V.06.010	Valencia
+sanctuary_text	seltar+ḿi	V.01.01	Valencia
+sanctuary_text	aŕetake+eban	V.04.01	Valencia
+sanctuary_text	neitin text	HU.01.01	Huesca
+sanctuary_text	sakaŕ+eban	MU.04.01	Murcia
+sanctuary_text	neitinke	L.18.01	Lérida
+pattern	"""X made/dedicated (this)"""	[name]:ekiar	NPN_formula
+pattern	"""(this is) the tomb of X, mine"""	[name]:seltar:ḿi	seltar_formula
+pattern	"""(to) Neitin — offering"""	neitin(+iunstir)	neitin_formula
+pattern	"""X gave/offered"""	[name]:eban(en)	eban_formula
+pattern	"""X silver/units"""	śalir + numeral	counting
+pattern	"""performed rite ... gave"""	aŕe:take + teban	double_verb
+pattern	repeated ritual formula	uskéiké + iunstir	uskeike_iunstir
+pattern	categorized offering counts	a/o/e/ki/ka + III...	numeral_prefix
+votive_formula	proposed ritual action verb	aŕe:take / aŕetake	ritual_verb
+votive_formula	proposed verbal form	biteŕoke / biteŕokan	ritual_verb
+votive_formula	"""gave"" (proposed verb)"	teban	ritual_verb
+votive_formula	formula element with iunstir	bankite	ritual_verb
+votive_formula	repeated ritual formula word	uskéiké	ritual_verb
+votive_formula	proposed ritual/divine term	bototaś	ritual_noun
+votive_formula	epithet/qualifier with neitin	basetiŕa	ritual_noun
+votive_formula	proposed ritual noun (-lir class)	etesilir	ritual_noun
+votive_formula	proposed ritual object	borsté	ritual_noun
+votive_formula	proposed ritual term	saltukó / saltuki	ritual_noun
+votive_formula	text-opener / invocation marker	iŕe	ritual_noun
+onomastic	settlement/fortress name	buŕka / alaśbuŕ	place_name
+onomastic	common toponym/name element	lauŕ	place_name
+onomastic	name element	tikiŕ / tikeŕ	name_element
+onomastic	name element	baś (standalone)	name_element
+onomastic	name element (in sanctuary texts)	bekon / bekoŕ	name_element
+onomastic	name element (possible theophoric)	neŕse	name_element
+onomastic	common name-final element	taneś / táneś	name_element
+pattern	offering tallies	Roman numerals (I, III, IIII...)	counting_marks
+pattern	offering category markers	a/o/e/ki/ka before numerals	category_prefix
+pattern	ritual section break	vacat (intentional blank)	vacat_marker
+sanctuary_text	borsté+saltukó+neitékeŕu	GI.15.04	Ullastret
+sanctuary_text	uskéiké+iunstir+bototaś	CS.21.06	Castellon
+sanctuary_text	multiple uskéiké+iunstir	CS.21.07	Castellon
+sanctuary_text	śalir+biteŕokan	AUD.05.38a	Ensérune

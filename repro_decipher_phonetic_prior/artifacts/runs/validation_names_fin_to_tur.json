@@ -1,0 +1,170 @@
+{
+  "auroc": 0.5889423076923077,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:23+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": 4,
+      "gold_candidates": [
+        "t\u0251nr\u026f"
+      ],
+      "lost": "uk\u02d0o",
+      "pred_top1": "k\u0251f",
+      "score_top1": -10.188711166381836
+    },
+    {
+      "concept_id": "thunder_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "uk\u02d0o",
+      "pred_top1": "k\u0251f",
+      "score_top1": -10.188711166381836
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "\u0251j"
+      ],
+      "lost": "ku\u02d0",
+      "pred_top1": "\u0251j",
+      "score_top1": -7.778802871704102
+    },
+    {
+      "concept_id": "death_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "tuoni",
+      "pred_top1": "k\u0251f",
+      "score_top1": -12.70566463470459
+    },
+    {
+      "concept_id": "sea_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0251hti",
+      "pred_top1": "k\u0251f",
+      "score_top1": -10.163315773010254
+    },
+    {
+      "concept_id": "smith_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ilm\u0251rinen",
+      "pred_top1": "k\u0251jser",
+      "score_top1": -21.988231658935547
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "t\u0251nr\u026f"
+      ],
+      "lost": "jum\u0251l\u0251",
+      "pred_top1": "\u0261yne\u0283",
+      "score_top1": -14.81002426147461
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": 4,
+      "gold_candidates": [
+        "k\u0251f"
+      ],
+      "lost": "pohjol\u0251",
+      "pred_top1": "t\u0251nr\u026f",
+      "score_top1": -17.219911575317383
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.430548667907715,
+      "omega_cov": 0.0,
+      "omega_loss": 5.7906432630261406e-05,
+      "quality": -8.430490493774414,
+      "step": 1
+    },
+    {
+      "objective": -8.430548667907715,
+      "omega_cov": 0.0,
+      "omega_loss": 5.787889676867053e-05,
+      "quality": -8.430490493774414,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "tur"
+  ],
+  "known_vocab_key": "tur",
+  "lost_language": "fin",
+  "mean_negative_score": -15.06282744040856,
+  "mean_positive_score": -13.247336387634277,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "tur"
+    ],
+    "lost_language": "fin",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.5,
+  "n_eval": 4,
+  "n_neg_scored": 52,
+  "n_pos_scored": 4,
+  "num_known_vocab": 7,
+  "num_lost_tokens": 8,
+  "p_at_1": 0.25,
+  "score_margin": 1.8154910527742825,
+  "seed": 191005677,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.75,
+  "variant": "pair:fin:tur"
+}

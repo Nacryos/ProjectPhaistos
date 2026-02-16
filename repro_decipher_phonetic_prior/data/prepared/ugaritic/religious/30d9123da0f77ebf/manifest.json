@@ -1,0 +1,19 @@
+{
+  "copied_assets": [],
+  "corpus": "ugaritic",
+  "exported": {
+    "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/religious/30d9123da0f77ebf/ground_truth.tsv",
+    "known_text": "{\"hebrew\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/religious/30d9123da0f77ebf/known_hebrew.txt\"}",
+    "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/religious/30d9123da0f77ebf/lost.txt",
+    "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/religious/30d9123da0f77ebf/metadata.json",
+    "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/religious/30d9123da0f77ebf/splits.json"
+  },
+  "fingerprint": "30d9123da0f77ebf",
+  "num_ground_truth_rows": 241,
+  "num_known_vocab": {
+    "hebrew": 258
+  },
+  "num_lost_lines": 241,
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "variant": "religious"
+}

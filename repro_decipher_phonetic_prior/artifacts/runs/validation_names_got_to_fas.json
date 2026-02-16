@@ -1,0 +1,121 @@
+{
+  "auroc": 0.6538461538461539,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:29+00:00",
+  "examples": [
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "xor\u0283i\u02d0d"
+      ],
+      "lost": "s\u0254\u02d0il",
+      "pred_top1": "d\u0292\u0251m",
+      "score_top1": -11.294368743896484
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "me\u02d0n\u0251",
+      "pred_top1": "d\u0292\u0251m",
+      "score_top1": -11.344865798950195
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "qejs\u00e6r"
+      ],
+      "lost": "k\u0251is\u0251r",
+      "pred_top1": "qejs\u00e6r",
+      "score_top1": -13.757731437683105
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.576102256774902,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00028644740814343095,
+      "quality": -8.57581615447998,
+      "step": 1
+    },
+    {
+      "objective": -8.576102256774902,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00028594330069608986,
+      "quality": -8.57581615447998,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "fas"
+  ],
+  "known_vocab_key": "fas",
+  "lost_language": "got",
+  "mean_negative_score": -14.341543711148775,
+  "mean_positive_score": -13.548601627349854,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "fas"
+    ],
+    "lost_language": "got",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.6666666666666666,
+  "n_eval": 2,
+  "n_neg_scored": 13,
+  "n_pos_scored": 2,
+  "num_known_vocab": 5,
+  "num_lost_tokens": 3,
+  "p_at_1": 0.5,
+  "score_margin": 0.7929420837989216,
+  "seed": 265127394,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.5,
+  "variant": "pair:got:fas"
+}

@@ -1,0 +1,194 @@
+{
+  "auroc": 0.5511039886039886,
+  "branch": "hellenic",
+  "corpus": "validation_hellenic",
+  "created_at": "2026-02-16T04:09:35+00:00",
+  "examples": [
+    {
+      "concept_id": "father",
+      "correct": false,
+      "first_positive_rank": 19,
+      "gold_candidates": [
+        "p\u0251te\u02d0r"
+      ],
+      "lost": "p\u0251te",
+      "pred_top1": "\u0261e\u02d0",
+      "score_top1": -10.120734214782715
+    },
+    {
+      "concept_id": "mother",
+      "correct": false,
+      "first_positive_rank": 30,
+      "gold_candidates": [
+        "me\u02d0te\u02d0r"
+      ],
+      "lost": "m\u0251tere",
+      "pred_top1": "oikos",
+      "score_top1": -14.76361083984375
+    },
+    {
+      "concept_id": "daughter",
+      "correct": false,
+      "first_positive_rank": 37,
+      "gold_candidates": [
+        "t\u02b0u\u0261\u0251te\u02d0r"
+      ],
+      "lost": "tuk\u0251te",
+      "pred_top1": "ornis",
+      "score_top1": -14.715476989746094
+    },
+    {
+      "concept_id": "water",
+      "correct": false,
+      "first_positive_rank": 24,
+      "gold_candidates": [
+        "hy\u02d0do\u02d0r"
+      ],
+      "lost": "udor",
+      "pred_top1": "\u0261e\u02d0",
+      "score_top1": -10.134705543518066
+    },
+    {
+      "concept_id": "fire",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "py\u02d0r"
+      ],
+      "lost": "puro",
+      "pred_top1": "\u0261e\u02d0",
+      "score_top1": -10.123798370361328
+    },
+    {
+      "concept_id": "horse",
+      "correct": false,
+      "first_positive_rank": 21,
+      "gold_candidates": [
+        "hip\u02d0os"
+      ],
+      "lost": "ikwo",
+      "pred_top1": "\u0261e\u02d0",
+      "score_top1": -10.085104942321777
+    },
+    {
+      "concept_id": "dog",
+      "correct": false,
+      "first_positive_rank": 18,
+      "gold_candidates": [
+        "ky\u02d0o\u02d0n"
+      ],
+      "lost": "kuwo",
+      "pred_top1": "\u0261e\u02d0",
+      "score_top1": -10.134228706359863
+    },
+    {
+      "concept_id": "ox",
+      "correct": false,
+      "first_positive_rank": 12,
+      "gold_candidates": [
+        "bo\u02d0us"
+      ],
+      "lost": "bous",
+      "pred_top1": "\u0261e\u02d0",
+      "score_top1": -10.127102851867676
+    },
+    {
+      "concept_id": "give",
+      "correct": false,
+      "first_positive_rank": 29,
+      "gold_candidates": [
+        "dido\u02d0mi"
+      ],
+      "lost": "didosi",
+      "pred_top1": "h\u0251im\u0251",
+      "score_top1": -14.886468887329102
+    },
+    {
+      "concept_id": "name",
+      "correct": false,
+      "first_positive_rank": 12,
+      "gold_candidates": [
+        "onom\u0251"
+      ],
+      "lost": "onom\u0251",
+      "pred_top1": "py\u02d0r",
+      "score_top1": -12.543195724487305
+    },
+    {
+      "concept_id": "god",
+      "correct": false,
+      "first_positive_rank": 14,
+      "gold_candidates": [
+        "t\u02b0eos"
+      ],
+      "lost": "teo",
+      "pred_top1": "\u0261e\u02d0",
+      "score_top1": -7.790213584899902
+    },
+    {
+      "concept_id": "king",
+      "correct": false,
+      "first_positive_rank": 33,
+      "gold_candidates": [
+        "b\u0251sileus"
+      ],
+      "lost": "w\u0251n\u0251k\u0251",
+      "pred_top1": "k\u02b0e\u02d0r",
+      "score_top1": -14.893572807312012
+    }
+  ],
+  "history": [
+    {
+      "objective": -7.508124828338623,
+      "omega_cov": 0.0,
+      "omega_loss": 4.789217564393766e-05,
+      "quality": -7.508077144622803,
+      "step": 1
+    },
+    {
+      "objective": -7.508124828338623,
+      "omega_cov": 0.0,
+      "omega_loss": 4.787715806742199e-05,
+      "quality": -7.508077144622803,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "grc"
+  ],
+  "known_vocab_key": "grc",
+  "lost_language": "gmy",
+  "mean_negative_score": -14.167269706726074,
+  "mean_positive_score": -13.740063508351644,
+  "metadata": {
+    "available_languages": [
+      "gmy",
+      "grc"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "grc"
+    ],
+    "lost_language": "gmy",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/hellenic.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "hellenic"
+  },
+  "mrr": 0.0745039641251075,
+  "n_eval": 12,
+  "n_neg_scored": 468,
+  "n_pos_scored": 12,
+  "num_known_vocab": 40,
+  "num_lost_tokens": 12,
+  "p_at_1": 0.0,
+  "score_margin": 0.42720619837442975,
+  "seed": 878448065,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:gmy:grc"
+}

@@ -1,0 +1,10 @@
+delta_vs_paper,known,lost,method,metric,score,score_reproduced
+,Hebrew,Ugaritic,Bayesian,P@1,0.604,
+-0.10199999999999998,Hebrew,Ugaritic,NeuroCipher,P@1,0.659,0.557
+,Hebrew,Ugaritic,base,P@1,0.778,
+,PG,Gothic,NeuroCipher,P@10,0.753,
+,ON,Gothic,NeuroCipher,P@10,0.543,
+,OE,Gothic,NeuroCipher,P@10,0.313,
+,PG,Gothic,base,P@10,0.865,
+,ON,Gothic,base,P@10,0.558,
+,OE,Gothic,base,P@10,0.472,

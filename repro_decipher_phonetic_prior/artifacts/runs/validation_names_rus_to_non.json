@@ -1,0 +1,119 @@
+{
+  "auroc": 0.1724137931034483,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:14:33+00:00",
+  "examples": [
+    {
+      "concept_id": "thunder_god",
+      "correct": false,
+      "first_positive_rank": 5,
+      "gold_candidates": [
+        "\u03b8o\u02d0r\u02d0"
+      ],
+      "lost": "p\u02b2e\u02c8run",
+      "pred_top1": "o\u02d0\u00f0in\u02d0",
+      "score_top1": -16.045894622802734
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ts\u0251r",
+      "pred_top1": "hel",
+      "score_top1": -9.494815826416016
+    },
+    {
+      "concept_id": "sacred_river",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "dun\u0251j",
+      "pred_top1": "ty\u02d0r",
+      "score_top1": -11.619096755981445
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.5691556930542,
+      "omega_cov": 0.0,
+      "omega_loss": 4.96424654556904e-05,
+      "quality": -8.569106101989746,
+      "step": 1
+    },
+    {
+      "objective": -8.5691556930542,
+      "omega_cov": 0.0,
+      "omega_loss": 4.961299418937415e-05,
+      "quality": -8.569106101989746,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "non"
+  ],
+  "known_vocab_key": "non",
+  "lost_language": "rus",
+  "mean_negative_score": -13.440964106855722,
+  "mean_positive_score": -16.253637313842773,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "non"
+    ],
+    "lost_language": "rus",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.2,
+  "n_eval": 1,
+  "n_neg_scored": 29,
+  "n_pos_scored": 1,
+  "num_known_vocab": 10,
+  "num_lost_tokens": 3,
+  "p_at_1": 0.0,
+  "score_margin": -2.8126732069870517,
+  "seed": 1802509098,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:rus:non"
+}

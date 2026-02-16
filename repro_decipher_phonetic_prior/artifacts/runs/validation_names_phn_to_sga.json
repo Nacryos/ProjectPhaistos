@@ -1,0 +1,99 @@
+{
+  "auroc": NaN,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:14:30+00:00",
+  "examples": [
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0294el",
+      "pred_top1": "\u0261ov\u02b2n\u02b2u",
+      "score_top1": -8.446853637695312
+    }
+  ],
+  "history": [
+    {
+      "objective": -4.8401713371276855,
+      "omega_cov": 0.0,
+      "omega_loss": 0.013408717699348927,
+      "quality": -4.826762676239014,
+      "step": 1
+    },
+    {
+      "objective": -4.8382086753845215,
+      "omega_cov": 0.0,
+      "omega_loss": 0.011450033634901047,
+      "quality": -4.826758861541748,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "sga"
+  ],
+  "known_vocab_key": "sga",
+  "lost_language": "phn",
+  "mean_negative_score": -9.873592853546143,
+  "mean_positive_score": NaN,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "sga"
+    ],
+    "lost_language": "phn",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.0,
+  "n_eval": 0,
+  "n_neg_scored": 2,
+  "n_pos_scored": 0,
+  "num_known_vocab": 2,
+  "num_lost_tokens": 1,
+  "p_at_1": 0.0,
+  "score_margin": NaN,
+  "seed": 425178463,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:phn:sga"
+}

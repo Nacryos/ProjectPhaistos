@@ -1,0 +1,135 @@
+{
+  "auroc": NaN,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:12+00:00",
+  "examples": [
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "xor\u0283i\u02d0d",
+      "pred_top1": "\u0261ov\u02b2n\u02b2u",
+      "score_top1": -19.136829376220703
+    },
+    {
+      "concept_id": "death_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "d\u0292\u0251m",
+      "pred_top1": "\u0261ov\u02b2n\u02b2u",
+      "score_top1": -14.626941680908203
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "qejs\u00e6r",
+      "pred_top1": "\u0261ov\u02b2n\u02b2u",
+      "score_top1": -17.390182495117188
+    },
+    {
+      "concept_id": "alexander_name",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "esk\u00e6nd\u00e6r",
+      "pred_top1": "\u0261ov\u02b2n\u02b2u",
+      "score_top1": -21.285900115966797
+    },
+    {
+      "concept_id": "holy_city",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "persepolis",
+      "pred_top1": "\u0261ov\u02b2n\u02b2u",
+      "score_top1": -25.758352279663086
+    }
+  ],
+  "history": [
+    {
+      "objective": -11.26585578918457,
+      "omega_cov": 0.0,
+      "omega_loss": 7.58793976274319e-05,
+      "quality": -11.265779495239258,
+      "step": 1
+    },
+    {
+      "objective": -11.26585578918457,
+      "omega_cov": 0.0,
+      "omega_loss": 7.583474507555366e-05,
+      "quality": -11.265779495239258,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "sga"
+  ],
+  "known_vocab_key": "sga",
+  "lost_language": "fas",
+  "mean_negative_score": -20.458467483520508,
+  "mean_positive_score": NaN,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "sga"
+    ],
+    "lost_language": "fas",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.0,
+  "n_eval": 0,
+  "n_neg_scored": 10,
+  "n_pos_scored": 0,
+  "num_known_vocab": 2,
+  "num_lost_tokens": 5,
+  "p_at_1": 0.0,
+  "score_margin": NaN,
+  "seed": 1826522295,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:fas:sga"
+}

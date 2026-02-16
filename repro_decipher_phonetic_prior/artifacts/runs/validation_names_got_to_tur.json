@@ -1,0 +1,123 @@
+{
+  "auroc": 0.6296296296296297,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:31+00:00",
+  "examples": [
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "\u0261yne\u0283"
+      ],
+      "lost": "s\u0254\u02d0il",
+      "pred_top1": "t\u0251nr\u026f",
+      "score_top1": -11.62433910369873
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": 5,
+      "gold_candidates": [
+        "\u0251j"
+      ],
+      "lost": "me\u02d0n\u0251",
+      "pred_top1": "t\u0251nr\u026f",
+      "score_top1": -11.496397972106934
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "k\u0251jser"
+      ],
+      "lost": "k\u0251is\u0251r",
+      "pred_top1": "\u0261yne\u0283",
+      "score_top1": -13.342086791992188
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.547375679016113,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0001553880429128185,
+      "quality": -8.547220230102539,
+      "step": 1
+    },
+    {
+      "objective": -8.54737377166748,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00015501247253268957,
+      "quality": -8.547218322753906,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "tur"
+  ],
+  "known_vocab_key": "tur",
+  "lost_language": "got",
+  "mean_negative_score": -13.54695987701416,
+  "mean_positive_score": -12.83017381032308,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "tur"
+    ],
+    "lost_language": "got",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.3444444444444444,
+  "n_eval": 3,
+  "n_neg_scored": 18,
+  "n_pos_scored": 3,
+  "num_known_vocab": 7,
+  "num_lost_tokens": 3,
+  "p_at_1": 0.0,
+  "score_margin": 0.7167860666910801,
+  "seed": 462484299,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:got:tur"
+}

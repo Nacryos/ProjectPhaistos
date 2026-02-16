@@ -1,0 +1,166 @@
+{
+  "auroc": 0.7678571428571429,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:15:08+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "\u0283iu"
+      ],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "\u0283iu",
+      "score_top1": -12.930447578430176
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0261yne\u0283",
+      "pred_top1": "\u0283iu",
+      "score_top1": -13.262531280517578
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0251j",
+      "pred_top1": "\u0283iu",
+      "score_top1": -7.770566940307617
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "\u0283iu",
+      "score_top1": -12.930447578430176
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251jser",
+      "pred_top1": "\u0283iu",
+      "score_top1": -15.961173057556152
+    },
+    {
+      "concept_id": "alexander_name",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "iskender",
+      "pred_top1": "x\u0251t\u02d0si",
+      "score_top1": -21.064794540405273
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "x\u0251t\u02d0si"
+      ],
+      "lost": "k\u0251f",
+      "pred_top1": "\u0283iu",
+      "score_top1": -8.524126052856445
+    },
+    {
+      "concept_id": "holy_city",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ist\u0251nbul",
+      "pred_top1": "x\u0251t\u02d0si",
+      "score_top1": -20.311996459960938
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.437020301818848,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00011799313506344333,
+      "quality": -8.436902046203613,
+      "step": 1
+    },
+    {
+      "objective": -8.437018394470215,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00011796770559158176,
+      "quality": -8.43690013885498,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "hit"
+  ],
+  "known_vocab_key": "hit",
+  "lost_language": "tur",
+  "mean_negative_score": -15.432553018842425,
+  "mean_positive_score": -12.63391399383545,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "hit"
+    ],
+    "lost_language": "tur",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.75,
+  "n_eval": 2,
+  "n_neg_scored": 14,
+  "n_pos_scored": 2,
+  "num_known_vocab": 2,
+  "num_lost_tokens": 8,
+  "p_at_1": 0.5,
+  "score_margin": 2.7986390250069757,
+  "seed": 2031109164,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.5,
+  "variant": "pair:tur:hit"
+}

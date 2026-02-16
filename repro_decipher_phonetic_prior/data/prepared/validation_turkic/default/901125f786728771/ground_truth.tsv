@@ -1,0 +1,41 @@
+branch	concept_id	known	known_languages	lost	lost_language
+turkic	head	['bɑʃ']	otk|tur	bɑʃ	aze
+turkic	eye	['køz', 'ɡøz']	otk|tur	ɡøz	aze
+turkic	ear	['kulɑk', 'qulqɑq']	otk|tur	qulɑq	aze
+turkic	mouth	['ɑɣɯz', 'ɑːɯz']	otk|tur	ɑːɯz	aze
+turkic	hand	['el']	otk|tur	əl	aze
+turkic	foot	['ɑdɑq', 'ɑjɑk']	otk|tur	ɑjɑq	aze
+turkic	heart	['jyrek', 'jyræk']	otk|tur	yræk	aze
+turkic	blood	['kɑn', 'qɑn']	otk|tur	qɑn	aze
+turkic	father	['ɑtɑ']	otk|tur	ɑtɑ	aze
+turkic	mother	['ɑnɑ', 'ɑnːe']	otk|tur	ɑnɑ	aze
+turkic	son	['oɣul', 'oːul']	otk|tur	oːul	aze
+turkic	daughter	['kɯz', 'qɯz']	otk|tur	qɯz	aze
+turkic	brother	['ini', 'kɑrdeʃ']	otk|tur	qɑrdɑʃ	aze
+turkic	water	['su', 'sub']	otk|tur	su	aze
+turkic	fire	['ot', 'ɑteʃ']	otk|tur	od	aze
+turkic	sun	['kyn', 'ɡyneʃ']	otk|tur	ɡynæʃ	aze
+turkic	moon	['ɑj']	otk|tur	ɑj	aze
+turkic	star	['julduz', 'jɯldɯz']	otk|tur	ulduz	aze
+turkic	earth	['jer', 'jir']	otk|tur	jer	aze
+turkic	mountain	['dɑː', 'tɑɣ']	otk|tur	dɑː	aze
+turkic	river	['øɡyz', 'ɯrmɑk']	otk|tur	tʃɑj	aze
+turkic	stone	['tɑʃ']	otk|tur	dɑʃ	aze
+turkic	tree	['jɯɣɑtʃ', 'ɑːɑtʃ']	otk|tur	ɑːɑdʒ	aze
+turkic	horse	['ɑt']	otk|tur	ɑt	aze
+turkic	dog	['køpek', 'ɯt']	otk|tur	it	aze
+turkic	fish	['bɑlɯk', 'bɑlɯq']	otk|tur	bɑlɯq	aze
+turkic	bird	['kuʃ', 'quʃ']	otk|tur	quʃ	aze
+turkic	ox	['ud', 'økyz']	otk|tur	økyz	aze
+turkic	eat	['je', 'jemek']	otk|tur	jemæk	aze
+turkic	drink	['itʃ', 'itʃmek']	otk|tur	itʃmæk	aze
+turkic	give	['bir', 'vermek']	otk|tur	vermæk	aze
+turkic	come	['kæl', 'ɡelmek']	otk|tur	ɡælmæk	aze
+turkic	die	['øl', 'ølmek']	otk|tur	ølmæk	aze
+turkic	know	['bil', 'bilmek']	otk|tur	bilmæk	aze
+turkic	hear	['eʃit', 'iʃitmek']	otk|tur	eʃitmæk	aze
+turkic	see	['kør', 'ɡørmek']	otk|tur	ɡørmæk	aze
+turkic	name	['ɑd', 'ɑt']	otk|tur	ɑd	aze
+turkic	god	['teŋri', 'tɑnrɯ']	otk|tur	tɑnrɯ	aze
+turkic	king	['krɑl', 'qɑɣɑn']	otk|tur	krɑl	aze
+turkic	house	['ev', 'æv']	otk|tur	ev	aze

@@ -1,0 +1,51 @@
+{
+  "created_at": "2026-02-16T02:55:14+00:00",
+  "mode": "reference",
+  "note": "Values are from the paper's reported tables.",
+  "rows": [
+    {
+      "known": "PG",
+      "lost": "Gothic",
+      "method": "NeuroCipher",
+      "metric": "P@10",
+      "score": 0.753
+    },
+    {
+      "known": "ON",
+      "lost": "Gothic",
+      "method": "NeuroCipher",
+      "metric": "P@10",
+      "score": 0.543
+    },
+    {
+      "known": "OE",
+      "lost": "Gothic",
+      "method": "NeuroCipher",
+      "metric": "P@10",
+      "score": 0.313
+    },
+    {
+      "known": "PG",
+      "lost": "Gothic",
+      "method": "base",
+      "metric": "P@10",
+      "score": 0.865
+    },
+    {
+      "known": "ON",
+      "lost": "Gothic",
+      "method": "base",
+      "metric": "P@10",
+      "score": 0.558
+    },
+    {
+      "known": "OE",
+      "lost": "Gothic",
+      "method": "base",
+      "metric": "P@10",
+      "score": 0.472
+    }
+  ],
+  "status": "ok",
+  "task": "table3_gothic"
+}

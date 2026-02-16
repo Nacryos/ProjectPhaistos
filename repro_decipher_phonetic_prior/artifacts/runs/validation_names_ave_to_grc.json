@@ -1,0 +1,134 @@
+{
+  "auroc": 0.578125,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:11:47+00:00",
+  "examples": [
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": 5,
+      "gold_candidates": [
+        "he\u02d0lios"
+      ],
+      "lost": "xv\u0251r",
+      "pred_top1": "\u0251re\u02d0s",
+      "score_top1": -11.488964080810547
+    },
+    {
+      "concept_id": "war_god",
+      "correct": false,
+      "first_positive_rank": 9,
+      "gold_candidates": [
+        "\u0251re\u02d0s"
+      ],
+      "lost": "v\u0259r\u0259\u03b8r\u0251\u0263n\u0251",
+      "pred_top1": "selen\u02d0e\u02d0",
+      "score_top1": -23.676767349243164
+    },
+    {
+      "concept_id": "death_god",
+      "correct": false,
+      "first_positive_rank": 7,
+      "gold_candidates": [
+        "h\u0251\u02d0de\u02d0s"
+      ],
+      "lost": "jim\u0251",
+      "pred_top1": "zdeus",
+      "score_top1": -11.442097663879395
+    },
+    {
+      "concept_id": "sacred_river",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "neilos"
+      ],
+      "lost": "d\u0251\u02d0nu",
+      "pred_top1": "\u0251re\u02d0s",
+      "score_top1": -12.65739631652832
+    }
+  ],
+  "history": [
+    {
+      "objective": -9.252347946166992,
+      "omega_cov": 0.0,
+      "omega_loss": 7.490435382351279e-05,
+      "quality": -9.252272605895996,
+      "step": 1
+    },
+    {
+      "objective": -9.252346992492676,
+      "omega_cov": 0.0,
+      "omega_loss": 7.480120257241651e-05,
+      "quality": -9.252272605895996,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "grc"
+  ],
+  "known_vocab_key": "grc",
+  "lost_language": "ave",
+  "mean_negative_score": -17.395978569984436,
+  "mean_positive_score": -16.514648914337158,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "grc"
+    ],
+    "lost_language": "ave",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.19682539682539682,
+  "n_eval": 4,
+  "n_neg_scored": 48,
+  "n_pos_scored": 4,
+  "num_known_vocab": 13,
+  "num_lost_tokens": 4,
+  "p_at_1": 0.0,
+  "score_margin": 0.8813296556472778,
+  "seed": 654809787,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:ave:grc"
+}

@@ -1,0 +1,240 @@
+{
+  "auroc": 0.5372549019607843,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:14:43+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": 10,
+      "gold_candidates": [
+        "\u0294\u0251l\u02d0\u0251\u02d0h"
+      ],
+      "lost": "dj\u0251us",
+      "pred_top1": "m\u0251wt",
+      "score_top1": -13.57672119140625
+    },
+    {
+      "concept_id": "thunder_god",
+      "correct": false,
+      "first_positive_rank": 10,
+      "gold_candidates": [
+        "b\u0251\u0295l"
+      ],
+      "lost": "p\u0251rd\u0292\u0251nj\u0251",
+      "pred_top1": "\u0294urdun",
+      "score_top1": -23.65056610107422
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "\u0283\u0251ms"
+      ],
+      "lost": "su\u02d0rj\u0251",
+      "pred_top1": "b\u0251\u0295l",
+      "score_top1": -16.034080505371094
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": 5,
+      "gold_candidates": [
+        "q\u0251m\u0251r"
+      ],
+      "lost": "m\u0251\u02d0s\u0251",
+      "pred_top1": "\u0283\u0251ms",
+      "score_top1": -13.589734077453613
+    },
+    {
+      "concept_id": "war_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "indr\u0251",
+      "pred_top1": "b\u0251\u0295l",
+      "score_top1": -13.529764175415039
+    },
+    {
+      "concept_id": "love_deity",
+      "correct": false,
+      "first_positive_rank": 6,
+      "gold_candidates": [
+        "\u0295\u0251\u03b8t\u0251r"
+      ],
+      "lost": "r\u0251ti",
+      "pred_top1": "\u0283\u0251ms",
+      "score_top1": -11.419702529907227
+    },
+    {
+      "concept_id": "death_god",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "m\u0251wt"
+      ],
+      "lost": "j\u0251m\u0251",
+      "pred_top1": "\u0283\u0251ms",
+      "score_top1": -11.469160079956055
+    },
+    {
+      "concept_id": "sea_god",
+      "correct": false,
+      "first_positive_rank": 4,
+      "gold_candidates": [
+        "j\u0251m\u02d0"
+      ],
+      "lost": "v\u0251ru\u0273\u0251",
+      "pred_top1": "b\u0251\u0295l",
+      "score_top1": -16.043699264526367
+    },
+    {
+      "concept_id": "smith_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "tv\u0251\u0282tr\u0329",
+      "pred_top1": "q\u0251m\u0251r",
+      "score_top1": -18.63542938232422
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": 7,
+      "gold_candidates": [
+        "\u0294il\u0251\u02d0h"
+      ],
+      "lost": "dev\u0251",
+      "pred_top1": "j\u0251m\u02d0",
+      "score_top1": -11.36711311340332
+    },
+    {
+      "concept_id": "alexander_name",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "isk\u0251nd\u0251r"
+      ],
+      "lost": "\u0251lik\u0251sund\u0251r\u0251",
+      "pred_top1": "isk\u0251nd\u0251r",
+      "score_top1": -31.24749183654785
+    },
+    {
+      "concept_id": "sacred_river",
+      "correct": false,
+      "first_positive_rank": 6,
+      "gold_candidates": [
+        "\u0294urdun"
+      ],
+      "lost": "d\u0251\u02d0nu",
+      "pred_top1": "m\u0251wt",
+      "score_top1": -13.612014770507812
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": 12,
+      "gold_candidates": [
+        "si\u02d0n\u0251\u02d0\u0294"
+      ],
+      "lost": "meru",
+      "pred_top1": "m\u0251wt",
+      "score_top1": -11.360441207885742
+    },
+    {
+      "concept_id": "holy_city",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "\u0294\u0251lquds"
+      ],
+      "lost": "v\u0251\u02d0r\u0251\u02d0\u0273\u0251si\u02d0",
+      "pred_top1": "isk\u0251nd\u0251r",
+      "score_top1": -28.706567764282227
+    }
+  ],
+  "history": [
+    {
+      "objective": -9.998427391052246,
+      "omega_cov": 0.0,
+      "omega_loss": 2.1250727513688616e-05,
+      "quality": -9.998406410217285,
+      "step": 1
+    },
+    {
+      "objective": -9.998427391052246,
+      "omega_cov": 0.0,
+      "omega_loss": 2.124647107848432e-05,
+      "quality": -9.998406410217285,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "arb"
+  ],
+  "known_vocab_key": "arb",
+  "lost_language": "san",
+  "mean_negative_score": -18.053947992885814,
+  "mean_positive_score": -17.94921127955119,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "arb"
+    ],
+    "lost_language": "san",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.29523809523809524,
+  "n_eval": 12,
+  "n_neg_scored": 170,
+  "n_pos_scored": 12,
+  "num_known_vocab": 13,
+  "num_lost_tokens": 14,
+  "p_at_1": 0.08333333333333333,
+  "score_margin": 0.1047367133346242,
+  "seed": 1809794104,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.9166666666666666,
+  "variant": "pair:san:arb"
+}

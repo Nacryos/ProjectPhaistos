@@ -1,0 +1,101 @@
+{
+  "auroc": 1.0,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:11:49+00:00",
+  "examples": [
+    {
+      "concept_id": "supreme_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "te\u014bri"
+      ],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "te\u014bri",
+      "score_top1": -7.47598123550415
+    }
+  ],
+  "history": [
+    {
+      "objective": -7.6400275230407715,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0012553971027955413,
+      "quality": -7.638772010803223,
+      "step": 1
+    },
+    {
+      "objective": -7.637785911560059,
+      "omega_cov": 0.0,
+      "omega_loss": 0.001157816150225699,
+      "quality": -7.636628150939941,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "otk"
+  ],
+  "known_vocab_key": "otk",
+  "lost_language": "aze",
+  "mean_negative_score": -10.448418140411377,
+  "mean_positive_score": -7.47598123550415,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "otk"
+    ],
+    "lost_language": "aze",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 1.0,
+  "n_eval": 1,
+  "n_neg_scored": 2,
+  "n_pos_scored": 1,
+  "num_known_vocab": 3,
+  "num_lost_tokens": 1,
+  "p_at_1": 1.0,
+  "score_margin": 2.9724369049072266,
+  "seed": 209520134,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:aze:otk"
+}

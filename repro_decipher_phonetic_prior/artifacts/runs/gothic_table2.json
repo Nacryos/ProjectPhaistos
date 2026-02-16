@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-02-16T02:55:14+00:00",
+  "mode": "reference",
+  "note": "Values are from the paper's reported tables.",
+  "rows": [
+    {
+      "base": 0.82,
+      "full": 0.863,
+      "known_language": "PG",
+      "partial": 0.749,
+      "whitespace_ratio": 0
+    },
+    {
+      "base": 0.213,
+      "full": 0.597,
+      "known_language": "ON",
+      "partial": 0.397,
+      "whitespace_ratio": 0
+    },
+    {
+      "base": 0.046,
+      "full": 0.497,
+      "known_language": "OE",
+      "partial": 0.204,
+      "whitespace_ratio": 0
+    },
+    {
+      "base": 0.752,
+      "full": 0.826,
+      "known_language": "PG",
+      "partial": 0.734,
+      "whitespace_ratio": 25
+    },
+    {
+      "base": 0.312,
+      "full": 0.61,
+      "known_language": "ON",
+      "partial": 0.478,
+      "whitespace_ratio": 25
+    },
+    {
+      "base": 0.128,
+      "full": 0.474,
+      "known_language": "OE",
+      "partial": 0.328,
+      "whitespace_ratio": 25
+    },
+    {
+      "base": 0.752,
+      "full": 0.848,
+      "known_language": "PG",
+      "partial": 0.736,
+      "whitespace_ratio": 50
+    },
+    {
+      "base": 0.391,
+      "full": 0.643,
+      "known_language": "ON",
+      "partial": 0.508,
+      "whitespace_ratio": 50
+    },
+    {
+      "base": 0.169,
+      "full": 0.495,
+      "known_language": "OE",
+      "partial": 0.404,
+      "whitespace_ratio": 50
+    },
+    {
+      "base": 0.761,
+      "full": 0.866,
+      "known_language": "PG",
+      "partial": 0.732,
+      "whitespace_ratio": 75
+    },
+    {
+      "base": 0.435,
+      "full": 0.682,
+      "known_language": "ON",
+      "partial": 0.544,
+      "whitespace_ratio": 75
+    },
+    {
+      "base": 0.25,
+      "full": 0.533,
+      "known_language": "OE",
+      "partial": 0.447,
+      "whitespace_ratio": 75
+    }
+  ],
+  "status": "ok",
+  "task": "table2"
+}

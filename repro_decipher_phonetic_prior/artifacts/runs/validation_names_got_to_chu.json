@@ -1,0 +1,119 @@
+{
+  "auroc": 0.0,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:29+00:00",
+  "examples": [
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "s\u0254\u02d0il",
+      "pred_top1": "dun\u0251j\u026a",
+      "score_top1": -12.671819686889648
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "me\u02d0n\u0251",
+      "pred_top1": "perun\u028a",
+      "score_top1": -12.616278648376465
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "tses\u0251r\u02b2"
+      ],
+      "lost": "k\u0251is\u0251r",
+      "pred_top1": "dun\u0251j\u026a",
+      "score_top1": -13.575377464294434
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.580245971679688,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0002659907331690192,
+      "quality": -8.57997989654541,
+      "step": 1
+    },
+    {
+      "objective": -8.580245018005371,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00026533243362791836,
+      "quality": -8.57997989654541,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "chu"
+  ],
+  "known_vocab_key": "chu",
+  "lost_language": "got",
+  "mean_negative_score": -13.116498231887817,
+  "mean_positive_score": -14.638421058654785,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "chu"
+    ],
+    "lost_language": "got",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.3333333333333333,
+  "n_eval": 1,
+  "n_neg_scored": 8,
+  "n_pos_scored": 1,
+  "num_known_vocab": 3,
+  "num_lost_tokens": 3,
+  "p_at_1": 0.0,
+  "score_margin": -1.5219228267669678,
+  "seed": 605440337,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:got:chu"
+}

@@ -1,0 +1,99 @@
+{
+  "auroc": NaN,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:22+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "diwe",
+      "pred_top1": "mo\u02d0n\u0251",
+      "score_top1": -7.102427959442139
+    }
+  ],
+  "history": [
+    {
+      "objective": -6.3798956871032715,
+      "omega_cov": 0.0,
+      "omega_loss": 0.003650912782177329,
+      "quality": -6.37624454498291,
+      "step": 1
+    },
+    {
+      "objective": -6.379672050476074,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0034995400346815586,
+      "quality": -6.3761725425720215,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "ang"
+  ],
+  "known_vocab_key": "ang",
+  "lost_language": "gmy",
+  "mean_negative_score": -7.685462570190429,
+  "mean_positive_score": NaN,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "ang"
+    ],
+    "lost_language": "gmy",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.0,
+  "n_eval": 0,
+  "n_neg_scored": 5,
+  "n_pos_scored": 0,
+  "num_known_vocab": 5,
+  "num_lost_tokens": 1,
+  "p_at_1": 0.0,
+  "score_margin": NaN,
+  "seed": 864282512,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:gmy:ang"
+}

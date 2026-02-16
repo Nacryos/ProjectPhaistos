@@ -1,0 +1,101 @@
+{
+  "auroc": 1.0,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:14:30+00:00",
+  "examples": [
+    {
+      "concept_id": "supreme_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "dev\u0251"
+      ],
+      "lost": "\u0294el",
+      "pred_top1": "dev\u0251",
+      "score_top1": -5.188810348510742
+    }
+  ],
+  "history": [
+    {
+      "objective": -4.781713485717773,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00016375893028452992,
+      "quality": -4.78154993057251,
+      "step": 1
+    },
+    {
+      "objective": -4.781702995300293,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00015880777209531516,
+      "quality": -4.781544208526611,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "san"
+  ],
+  "known_vocab_key": "san",
+  "lost_language": "phn",
+  "mean_negative_score": -7.831883100362925,
+  "mean_positive_score": -5.188810348510742,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "san"
+    ],
+    "lost_language": "phn",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 1.0,
+  "n_eval": 1,
+  "n_neg_scored": 13,
+  "n_pos_scored": 1,
+  "num_known_vocab": 14,
+  "num_lost_tokens": 1,
+  "p_at_1": 1.0,
+  "score_margin": 2.6430727518521824,
+  "seed": 1833370039,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:phn:san"
+}

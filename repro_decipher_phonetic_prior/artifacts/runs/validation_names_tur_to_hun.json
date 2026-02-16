@@ -1,0 +1,166 @@
+{
+  "auroc": 0.5,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:15:08+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "i\u0283t\u025bn"
+      ],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "i\u0283t\u025bn",
+      "score_top1": -14.403868675231934
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0261yne\u0283",
+      "pred_top1": "i\u0283t\u025bn",
+      "score_top1": -14.202006340026855
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0251j",
+      "pred_top1": "i\u0283t\u025bn",
+      "score_top1": -9.819280624389648
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "i\u0283t\u025bn"
+      ],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "i\u0283t\u025bn",
+      "score_top1": -14.403868675231934
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251jser",
+      "pred_top1": "i\u0283t\u025bn",
+      "score_top1": -16.373620986938477
+    },
+    {
+      "concept_id": "alexander_name",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "iskender",
+      "pred_top1": "i\u0283t\u025bn",
+      "score_top1": -20.10854721069336
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251f",
+      "pred_top1": "i\u0283t\u025bn",
+      "score_top1": -11.965412139892578
+    },
+    {
+      "concept_id": "holy_city",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ist\u0251nbul",
+      "pred_top1": "i\u0283t\u025bn",
+      "score_top1": -21.032442092895508
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.447269439697266,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0005833755130879581,
+      "quality": -8.446685791015625,
+      "step": 1
+    },
+    {
+      "objective": -8.447264671325684,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0005796306068077683,
+      "quality": -8.446684837341309,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "hun"
+  ],
+  "known_vocab_key": "hun",
+  "lost_language": "tur",
+  "mean_negative_score": -15.58355156580607,
+  "mean_positive_score": -14.403868675231934,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "hun"
+    ],
+    "lost_language": "tur",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 1.0,
+  "n_eval": 2,
+  "n_neg_scored": 6,
+  "n_pos_scored": 2,
+  "num_known_vocab": 1,
+  "num_lost_tokens": 8,
+  "p_at_1": 1.0,
+  "score_margin": 1.1796828905741368,
+  "seed": 1387286235,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:tur:hun"
+}

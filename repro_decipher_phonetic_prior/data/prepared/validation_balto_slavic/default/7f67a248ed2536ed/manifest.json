@@ -1,0 +1,21 @@
+{
+  "copied_assets": [],
+  "corpus": "validation_balto_slavic",
+  "exported": {
+    "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/ground_truth.tsv",
+    "known_text": "{\"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/known_known_union.txt\", \"lit\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/known_lit.txt\", \"rus\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/known_rus.txt\"}",
+    "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/lost.txt",
+    "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/metadata.json",
+    "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/splits.json"
+  },
+  "fingerprint": "7f67a248ed2536ed",
+  "num_ground_truth_rows": 40,
+  "num_known_vocab": {
+    "known_union": 80,
+    "lit": 40,
+    "rus": 40
+  },
+  "num_lost_lines": 40,
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "variant": null
+}

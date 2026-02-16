@@ -1,0 +1,22 @@
+{
+  "copied_assets": [],
+  "corpus": "validation_germanic",
+  "exported": {
+    "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/ground_truth.tsv",
+    "known_text": "{\"goh\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/known_goh.txt\", \"got\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/known_got.txt\", \"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/known_known_union.txt\", \"non\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/known_non.txt\"}",
+    "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/lost.txt",
+    "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/metadata.json",
+    "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/splits.json"
+  },
+  "fingerprint": "83317dd43911b5e4",
+  "num_ground_truth_rows": 40,
+  "num_known_vocab": {
+    "goh": 40,
+    "got": 37,
+    "known_union": 115,
+    "non": 40
+  },
+  "num_lost_lines": 40,
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "variant": null
+}

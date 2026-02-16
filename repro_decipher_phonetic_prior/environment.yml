@@ -1,0 +1,14 @@
+name: repro_decipher_phonetic_prior
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=24.2
+  - setuptools=73.0.1
+  - wheel=0.44.0
+  - pytorch=2.2.2
+  - cpuonly
+  - pip:
+      - -r requirements.txt

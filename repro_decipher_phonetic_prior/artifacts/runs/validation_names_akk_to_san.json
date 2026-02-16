@@ -1,0 +1,112 @@
+{
+  "auroc": 0.8269230769230769,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:11:11+00:00",
+  "examples": [
+    {
+      "concept_id": "love_deity",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "r\u0251ti"
+      ],
+      "lost": "i\u0283t\u0251r",
+      "pred_top1": "indr\u0251",
+      "score_top1": -9.3057279586792
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "dev\u0251"
+      ],
+      "lost": "ilu",
+      "pred_top1": "r\u0251ti",
+      "score_top1": -7.491800308227539
+    }
+  ],
+  "history": [
+    {
+      "objective": -6.409857273101807,
+      "omega_cov": 0.0,
+      "omega_loss": 5.4117241234052926e-05,
+      "quality": -6.40980339050293,
+      "step": 1
+    },
+    {
+      "objective": -6.409855365753174,
+      "omega_cov": 0.0,
+      "omega_loss": 5.3892294090474024e-05,
+      "quality": -6.409801483154297,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "san"
+  ],
+  "known_vocab_key": "san",
+  "lost_language": "akk",
+  "mean_negative_score": -10.752269359735342,
+  "mean_positive_score": -8.499893426895142,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "san"
+    ],
+    "lost_language": "akk",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.5,
+  "n_eval": 2,
+  "n_neg_scored": 26,
+  "n_pos_scored": 2,
+  "num_known_vocab": 14,
+  "num_lost_tokens": 2,
+  "p_at_1": 0.0,
+  "score_margin": 2.2523759328402004,
+  "seed": 417876080,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:akk:san"
+}

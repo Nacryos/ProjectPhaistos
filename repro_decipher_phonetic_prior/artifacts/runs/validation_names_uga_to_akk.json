@@ -1,0 +1,175 @@
+{
+  "auroc": 0.53125,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:15:12+00:00",
+  "examples": [
+    {
+      "concept_id": "thunder_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "b\u0251\u0295lu",
+      "pred_top1": "ilu",
+      "score_top1": -13.28048324584961
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0283\u0251p\u0283u",
+      "pred_top1": "ilu",
+      "score_top1": -13.541665077209473
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "j\u0251rixu",
+      "pred_top1": "i\u0283t\u0251r",
+      "score_top1": -16.370445251464844
+    },
+    {
+      "concept_id": "war_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0294\u0251n\u0251tu",
+      "pred_top1": "i\u0283t\u0251r",
+      "score_top1": -15.7763032913208
+    },
+    {
+      "concept_id": "love_deity",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "i\u0283t\u0251r"
+      ],
+      "lost": "\u0295\u0251\u03b8t\u0251rtu",
+      "pred_top1": "i\u0283t\u0251r",
+      "score_top1": -21.134872436523438
+    },
+    {
+      "concept_id": "death_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "mo\u02d0tu",
+      "pred_top1": "ilu",
+      "score_top1": -13.487449645996094
+    },
+    {
+      "concept_id": "sea_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "j\u0251m\u02d0u",
+      "pred_top1": "ilu",
+      "score_top1": -13.937552452087402
+    },
+    {
+      "concept_id": "smith_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ko\u03b8\u0251ru",
+      "pred_top1": "i\u0283t\u0251r",
+      "score_top1": -15.888714790344238
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "ilu"
+      ],
+      "lost": "\u0294ilu",
+      "pred_top1": "ilu",
+      "score_top1": -10.3923978805542
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.928731918334961,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00020857033086940646,
+      "quality": -8.928523063659668,
+      "step": 1
+    },
+    {
+      "objective": -8.928727149963379,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00020785671949852258,
+      "quality": -8.928519248962402,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "akk"
+  ],
+  "known_vocab_key": "akk",
+  "lost_language": "uga",
+  "mean_negative_score": -15.04726654291153,
+  "mean_positive_score": -15.763635158538818,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "akk"
+    ],
+    "lost_language": "uga",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 1.0,
+  "n_eval": 2,
+  "n_neg_scored": 16,
+  "n_pos_scored": 2,
+  "num_known_vocab": 2,
+  "num_lost_tokens": 9,
+  "p_at_1": 1.0,
+  "score_margin": -0.7163686156272888,
+  "seed": 1205580905,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:uga:akk"
+}

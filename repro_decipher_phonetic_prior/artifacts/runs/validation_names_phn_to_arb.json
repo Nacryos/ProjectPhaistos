@@ -1,0 +1,101 @@
+{
+  "auroc": 0.4166666666666667,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:14:30+00:00",
+  "examples": [
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": 8,
+      "gold_candidates": [
+        "\u0294il\u0251\u02d0h"
+      ],
+      "lost": "\u0294el",
+      "pred_top1": "j\u0251m\u02d0",
+      "score_top1": -5.179306983947754
+    }
+  ],
+  "history": [
+    {
+      "objective": -4.788270950317383,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0001671042264206335,
+      "quality": -4.788104057312012,
+      "step": 1
+    },
+    {
+      "objective": -4.788264751434326,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00016291062638629228,
+      "quality": -4.788101673126221,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "arb"
+  ],
+  "known_vocab_key": "arb",
+  "lost_language": "phn",
+  "mean_negative_score": -6.995258887608846,
+  "mean_positive_score": -7.42331075668335,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "arb"
+    ],
+    "lost_language": "phn",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.125,
+  "n_eval": 1,
+  "n_neg_scored": 12,
+  "n_pos_scored": 1,
+  "num_known_vocab": 13,
+  "num_lost_tokens": 1,
+  "p_at_1": 0.0,
+  "score_margin": -0.4280518690745039,
+  "seed": 1907549395,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:phn:arb"
+}

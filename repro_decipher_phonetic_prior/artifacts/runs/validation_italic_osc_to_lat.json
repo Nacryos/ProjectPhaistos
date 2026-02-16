@@ -1,0 +1,140 @@
+{
+  "auroc": 0.5714285714285714,
+  "branch": "italic",
+  "corpus": "validation_italic",
+  "created_at": "2026-02-16T04:11:11+00:00",
+  "examples": [
+    {
+      "concept_id": "hand",
+      "correct": false,
+      "first_positive_rank": 18,
+      "gold_candidates": [
+        "m\u0251nus"
+      ],
+      "lost": "m\u0251nim",
+      "pred_top1": "\u0251kw\u0251",
+      "score_top1": -12.141535758972168
+    },
+    {
+      "concept_id": "father",
+      "correct": false,
+      "first_positive_rank": 22,
+      "gold_candidates": [
+        "p\u0251ter"
+      ],
+      "lost": "p\u0251tir",
+      "pred_top1": "\u0251kw\u0251",
+      "score_top1": -12.204237937927246
+    },
+    {
+      "concept_id": "mother",
+      "correct": false,
+      "first_positive_rank": 9,
+      "gold_candidates": [
+        "m\u0251\u02d0ter"
+      ],
+      "lost": "m\u0251\u02d0tre\u02d0is",
+      "pred_top1": "flu\u02d0men",
+      "score_top1": -21.404388427734375
+    },
+    {
+      "concept_id": "water",
+      "correct": false,
+      "first_positive_rank": 6,
+      "gold_candidates": [
+        "\u0251kw\u0251"
+      ],
+      "lost": "\u0251\u02d0p\u0251",
+      "pred_top1": "o\u02d0s",
+      "score_top1": -9.92262077331543
+    },
+    {
+      "concept_id": "earth",
+      "correct": false,
+      "first_positive_rank": 4,
+      "gold_candidates": [
+        "ter\u02d0\u0251"
+      ],
+      "lost": "teo\u02d0rum",
+      "pred_top1": "\u0251rbor",
+      "score_top1": -16.82621955871582
+    },
+    {
+      "concept_id": "give",
+      "correct": false,
+      "first_positive_rank": 4,
+      "gold_candidates": [
+        "d\u0251re"
+      ],
+      "lost": "didum",
+      "pred_top1": "pe\u02d0s",
+      "score_top1": -12.196475982666016
+    },
+    {
+      "concept_id": "god",
+      "correct": false,
+      "first_positive_rank": 23,
+      "gold_candidates": [
+        "deus"
+      ],
+      "lost": "dei\u02d0w\u0251i",
+      "pred_top1": "ekwus",
+      "score_top1": -16.85726547241211
+    }
+  ],
+  "history": [
+    {
+      "objective": -9.646235466003418,
+      "omega_cov": 0.0,
+      "omega_loss": 7.33013148419559e-05,
+      "quality": -9.646162033081055,
+      "step": 1
+    },
+    {
+      "objective": -9.646235466003418,
+      "omega_cov": 0.0,
+      "omega_loss": 7.323804311454296e-05,
+      "quality": -9.646162033081055,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "lat"
+  ],
+  "known_vocab_key": "lat",
+  "lost_language": "osc",
+  "mean_negative_score": -15.405244600205194,
+  "mean_positive_score": -14.80283260345459,
+  "metadata": {
+    "available_languages": [
+      "lat",
+      "osc",
+      "xum"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "lat"
+    ],
+    "lost_language": "osc",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/italic.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "italic"
+  },
+  "mrr": 0.13175230566534915,
+  "n_eval": 7,
+  "n_neg_scored": 273,
+  "n_pos_scored": 7,
+  "num_known_vocab": 40,
+  "num_lost_tokens": 7,
+  "p_at_1": 0.0,
+  "score_margin": 0.6024119967506039,
+  "seed": 223270743,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:osc:lat"
+}

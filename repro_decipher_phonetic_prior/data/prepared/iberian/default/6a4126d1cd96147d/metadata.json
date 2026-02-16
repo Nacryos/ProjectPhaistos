@@ -1,0 +1,13 @@
+{
+  "canonical_source": "DecipherUnsegmented",
+  "config": {
+    "max_lines": 0,
+    "seed": 1234
+  },
+  "name": "iberian",
+  "notes": "Known vocab for personal-name experiment comes from Rodriguez Ramos (2014).",
+  "source_paths": {
+    "iberian_csv": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/DecipherUnsegmented/data/iberian.csv"
+  },
+  "variant": null
+}

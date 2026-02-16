@@ -1,0 +1,164 @@
+{
+  "auroc": 0.7,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:15:04+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "ilu",
+      "score_top1": -12.862363815307617
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0261yne\u0283",
+      "pred_top1": "ilu",
+      "score_top1": -13.63122844696045
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0251j",
+      "pred_top1": "ilu",
+      "score_top1": -7.231212139129639
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "ilu"
+      ],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "ilu",
+      "score_top1": -12.862363815307617
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251jser",
+      "pred_top1": "i\u0283t\u0251r",
+      "score_top1": -15.587909698486328
+    },
+    {
+      "concept_id": "alexander_name",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "iskender",
+      "pred_top1": "i\u0283t\u0251r",
+      "score_top1": -20.647201538085938
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251f",
+      "pred_top1": "ilu",
+      "score_top1": -7.970210075378418
+    },
+    {
+      "concept_id": "holy_city",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ist\u0251nbul",
+      "pred_top1": "i\u0283t\u0251r",
+      "score_top1": -20.924701690673828
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.436187744140625,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0004728536296170205,
+      "quality": -8.435714721679688,
+      "step": 1
+    },
+    {
+      "objective": -8.436179161071777,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00047135239583440125,
+      "quality": -8.435708045959473,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "akk"
+  ],
+  "known_vocab_key": "akk",
+  "lost_language": "tur",
+  "mean_negative_score": -14.717321300506592,
+  "mean_positive_score": -12.862363815307617,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "akk"
+    ],
+    "lost_language": "tur",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 1.0,
+  "n_eval": 1,
+  "n_neg_scored": 15,
+  "n_pos_scored": 1,
+  "num_known_vocab": 2,
+  "num_lost_tokens": 8,
+  "p_at_1": 1.0,
+  "score_margin": 1.854957485198975,
+  "seed": 846831349,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:tur:akk"
+}

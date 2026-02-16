@@ -1,0 +1,21 @@
+{
+  "copied_assets": [],
+  "corpus": "validation_celtic",
+  "exported": {
+    "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/ground_truth.tsv",
+    "known_text": "{\"cym\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/known_cym.txt\", \"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/known_known_union.txt\", \"sga\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/known_sga.txt\"}",
+    "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/lost.txt",
+    "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/metadata.json",
+    "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/splits.json"
+  },
+  "fingerprint": "399c8c4f7c30c935",
+  "num_ground_truth_rows": 40,
+  "num_known_vocab": {
+    "cym": 40,
+    "known_union": 80,
+    "sga": 40
+  },
+  "num_lost_lines": 40,
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "variant": null
+}

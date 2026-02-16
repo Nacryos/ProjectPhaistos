@@ -1,0 +1,101 @@
+{
+  "auroc": 0.6666666666666666,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:23+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "t\u0251nr\u026f"
+      ],
+      "lost": "diwe",
+      "pred_top1": "k\u0251f",
+      "score_top1": -6.300751209259033
+    }
+  ],
+  "history": [
+    {
+      "objective": -6.247535705566406,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0033237654715776443,
+      "quality": -6.2442121505737305,
+      "step": 1
+    },
+    {
+      "objective": -6.24725341796875,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0032126326113939285,
+      "quality": -6.2440409660339355,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "tur"
+  ],
+  "known_vocab_key": "tur",
+  "lost_language": "gmy",
+  "mean_negative_score": -8.101205746332804,
+  "mean_positive_score": -7.217960357666016,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "tur"
+    ],
+    "lost_language": "gmy",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.3333333333333333,
+  "n_eval": 1,
+  "n_neg_scored": 6,
+  "n_pos_scored": 1,
+  "num_known_vocab": 7,
+  "num_lost_tokens": 1,
+  "p_at_1": 0.0,
+  "score_margin": 0.8832453886667881,
+  "seed": 1527884058,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:gmy:tur"
+}

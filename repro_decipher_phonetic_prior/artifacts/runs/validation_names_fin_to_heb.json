@@ -1,0 +1,176 @@
+{
+  "auroc": 0.6594911937377691,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:19+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "\u0294el"
+      ],
+      "lost": "uk\u02d0o",
+      "pred_top1": "\u0294el",
+      "score_top1": -10.13641357421875
+    },
+    {
+      "concept_id": "thunder_god",
+      "correct": false,
+      "first_positive_rank": 5,
+      "gold_candidates": [
+        "b\u0251\u0295\u0251l"
+      ],
+      "lost": "uk\u02d0o",
+      "pred_top1": "\u0294el",
+      "score_top1": -10.13641357421875
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": 7,
+      "gold_candidates": [
+        "j\u0251re\u0251x"
+      ],
+      "lost": "ku\u02d0",
+      "pred_top1": "\u0294el",
+      "score_top1": -7.979185104370117
+    },
+    {
+      "concept_id": "death_god",
+      "correct": false,
+      "first_positive_rank": 6,
+      "gold_candidates": [
+        "m\u0251\u02d0vet"
+      ],
+      "lost": "tuoni",
+      "pred_top1": "j\u0251\u02d0m",
+      "score_top1": -12.524438858032227
+    },
+    {
+      "concept_id": "sea_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "j\u0251\u02d0m"
+      ],
+      "lost": "\u0251hti",
+      "pred_top1": "\u0294el",
+      "score_top1": -10.159036636352539
+    },
+    {
+      "concept_id": "smith_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ilm\u0251rinen",
+      "pred_top1": "j\u0251rde\u02d0n",
+      "score_top1": -21.852069854736328
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": 7,
+      "gold_candidates": [
+        "\u0294el"
+      ],
+      "lost": "jum\u0251l\u0251",
+      "pred_top1": "\u0283eme\u0283",
+      "score_top1": -14.899022102355957
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": 5,
+      "gold_candidates": [
+        "sin\u0251j"
+      ],
+      "lost": "pohjol\u0251",
+      "pred_top1": "\u0283eme\u0283",
+      "score_top1": -17.190792083740234
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.442869186401367,
+      "omega_cov": 0.0,
+      "omega_loss": 6.659296195721254e-05,
+      "quality": -8.442802429199219,
+      "step": 1
+    },
+    {
+      "objective": -8.442869186401367,
+      "omega_cov": 0.0,
+      "omega_loss": 6.655339529970661e-05,
+      "quality": -8.442802429199219,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "heb"
+  ],
+  "known_vocab_key": "heb",
+  "lost_language": "fin",
+  "mean_negative_score": -15.391076884857595,
+  "mean_positive_score": -12.98832906995501,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "heb"
+    ],
+    "lost_language": "fin",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.3360544217687075,
+  "n_eval": 7,
+  "n_neg_scored": 73,
+  "n_pos_scored": 7,
+  "num_known_vocab": 10,
+  "num_lost_tokens": 8,
+  "p_at_1": 0.14285714285714285,
+  "score_margin": 2.402747814902586,
+  "seed": 1122080165,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.8571428571428571,
+  "variant": "pair:fin:heb"
+}

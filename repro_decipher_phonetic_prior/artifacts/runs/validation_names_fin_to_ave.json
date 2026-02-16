@@ -1,0 +1,164 @@
+{
+  "auroc": 0.6129032258064516,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:15+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "uk\u02d0o",
+      "pred_top1": "jim\u0251",
+      "score_top1": -10.272134780883789
+    },
+    {
+      "concept_id": "thunder_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "uk\u02d0o",
+      "pred_top1": "jim\u0251",
+      "score_top1": -10.272134780883789
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ku\u02d0",
+      "pred_top1": "jim\u0251",
+      "score_top1": -9.432685852050781
+    },
+    {
+      "concept_id": "death_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "jim\u0251"
+      ],
+      "lost": "tuoni",
+      "pred_top1": "jim\u0251",
+      "score_top1": -12.218087196350098
+    },
+    {
+      "concept_id": "sea_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0251hti",
+      "pred_top1": "jim\u0251",
+      "score_top1": -10.190672874450684
+    },
+    {
+      "concept_id": "smith_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ilm\u0251rinen",
+      "pred_top1": "d\u0251\u02d0nu",
+      "score_top1": -22.549467086791992
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "jum\u0251l\u0251",
+      "pred_top1": "d\u0251\u02d0nu",
+      "score_top1": -14.714374542236328
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "pohjol\u0251",
+      "pred_top1": "d\u0251\u02d0nu",
+      "score_top1": -17.18865966796875
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.441496849060059,
+      "omega_cov": 0.0,
+      "omega_loss": 6.984026549616829e-05,
+      "quality": -8.441427230834961,
+      "step": 1
+    },
+    {
+      "objective": -8.441496849060059,
+      "omega_cov": 0.0,
+      "omega_loss": 6.981846672715619e-05,
+      "quality": -8.441427230834961,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "ave"
+  ],
+  "known_vocab_key": "ave",
+  "lost_language": "fin",
+  "mean_negative_score": -15.158959111859721,
+  "mean_positive_score": -12.218087196350098,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "ave"
+    ],
+    "lost_language": "fin",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 1.0,
+  "n_eval": 1,
+  "n_neg_scored": 31,
+  "n_pos_scored": 1,
+  "num_known_vocab": 4,
+  "num_lost_tokens": 8,
+  "p_at_1": 1.0,
+  "score_margin": 2.9408719155096232,
+  "seed": 1229041615,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:fin:ave"
+}

@@ -1,0 +1,101 @@
+{
+  "auroc": 0.75,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:14:27+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "tsiu\u02d0"
+      ],
+      "lost": "dju\u02d0wei",
+      "pred_top1": "wuot\u0251n",
+      "score_top1": -13.1211576461792
+    }
+  ],
+  "history": [
+    {
+      "objective": -11.110269546508789,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0005742617067880929,
+      "quality": -11.109695434570312,
+      "step": 1
+    },
+    {
+      "objective": -11.109989166259766,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0005673289997503161,
+      "quality": -11.109421730041504,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "goh"
+  ],
+  "known_vocab_key": "goh",
+  "lost_language": "osc",
+  "mean_negative_score": -13.399066686630249,
+  "mean_positive_score": -13.138413429260254,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "goh"
+    ],
+    "lost_language": "osc",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.5,
+  "n_eval": 1,
+  "n_neg_scored": 4,
+  "n_pos_scored": 1,
+  "num_known_vocab": 5,
+  "num_lost_tokens": 1,
+  "p_at_1": 0.0,
+  "score_margin": 0.2606532573699951,
+  "seed": 1283934103,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:osc:goh"
+}

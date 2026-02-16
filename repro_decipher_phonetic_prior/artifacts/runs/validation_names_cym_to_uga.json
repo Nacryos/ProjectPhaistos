@@ -1,0 +1,101 @@
+{
+  "auroc": 0.75,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:11:57+00:00",
+  "examples": [
+    {
+      "concept_id": "smith_god",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "ko\u03b8\u0251ru"
+      ],
+      "lost": "\u0261ov\u0251n\u02d0on",
+      "pred_top1": "\u0295\u0251\u03b8t\u0251rtu",
+      "score_top1": -14.036733627319336
+    }
+  ],
+  "history": [
+    {
+      "objective": -12.556119918823242,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0003683636023197323,
+      "quality": -12.55575180053711,
+      "step": 1
+    },
+    {
+      "objective": -12.555540084838867,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00035557764931581914,
+      "quality": -12.555184364318848,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "uga"
+  ],
+  "known_vocab_key": "uga",
+  "lost_language": "cym",
+  "mean_negative_score": -15.21896755695343,
+  "mean_positive_score": -14.395282745361328,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "uga"
+    ],
+    "lost_language": "cym",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.3333333333333333,
+  "n_eval": 1,
+  "n_neg_scored": 8,
+  "n_pos_scored": 1,
+  "num_known_vocab": 9,
+  "num_lost_tokens": 1,
+  "p_at_1": 0.0,
+  "score_margin": 0.823684811592102,
+  "seed": 2053016274,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:cym:uga"
+}

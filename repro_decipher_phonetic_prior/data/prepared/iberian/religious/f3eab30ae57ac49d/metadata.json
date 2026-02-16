@@ -1,0 +1,14 @@
+{
+  "canonical_source": "ancient-scripts-datasets",
+  "config": {
+    "max_lines": 0,
+    "seed": 1234
+  },
+  "is_religious_subset": true,
+  "name": "iberian",
+  "source_paths": {
+    "religious_terms": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/religious_terms/iberian_religious.tsv"
+  },
+  "unused_by_default": true,
+  "variant": "religious"
+}

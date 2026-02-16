@@ -1,0 +1,101 @@
+{
+  "auroc": 0.5833333333333334,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:14:27+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": 6,
+      "gold_candidates": [
+        "zdeus"
+      ],
+      "lost": "dju\u02d0wei",
+      "pred_top1": "k\u0251is\u0251r",
+      "score_top1": -12.973567962646484
+    }
+  ],
+  "history": [
+    {
+      "objective": -11.212294578552246,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0005480415420606732,
+      "quality": -11.211746215820312,
+      "step": 1
+    },
+    {
+      "objective": -11.212268829345703,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0005442125839181244,
+      "quality": -11.211724281311035,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "grc"
+  ],
+  "known_vocab_key": "grc",
+  "lost_language": "osc",
+  "mean_negative_score": -14.34281055132548,
+  "mean_positive_score": -13.563822746276855,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "grc"
+    ],
+    "lost_language": "osc",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.16666666666666666,
+  "n_eval": 1,
+  "n_neg_scored": 12,
+  "n_pos_scored": 1,
+  "num_known_vocab": 13,
+  "num_lost_tokens": 1,
+  "p_at_1": 0.0,
+  "score_margin": 0.7789878050486241,
+  "seed": 80704858,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:osc:grc"
+}

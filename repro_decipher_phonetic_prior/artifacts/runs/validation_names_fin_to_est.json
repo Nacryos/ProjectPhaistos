@@ -1,0 +1,172 @@
+{
+  "auroc": 0.6028571428571429,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:16+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "uk\u02d0o",
+      "pred_top1": "uku",
+      "score_top1": -10.07811164855957
+    },
+    {
+      "concept_id": "thunder_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "uku"
+      ],
+      "lost": "uk\u02d0o",
+      "pred_top1": "uku",
+      "score_top1": -10.07811164855957
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "ku\u02d0"
+      ],
+      "lost": "ku\u02d0",
+      "pred_top1": "ku\u02d0",
+      "score_top1": -7.934115886688232
+    },
+    {
+      "concept_id": "death_god",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "to\u02d0ni"
+      ],
+      "lost": "tuoni",
+      "pred_top1": "uku",
+      "score_top1": -12.570104598999023
+    },
+    {
+      "concept_id": "sea_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0251hti",
+      "pred_top1": "uku",
+      "score_top1": -9.863283157348633
+    },
+    {
+      "concept_id": "smith_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "ilm\u0251rine"
+      ],
+      "lost": "ilm\u0251rinen",
+      "pred_top1": "ilm\u0251rine",
+      "score_top1": -22.346853256225586
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "jum\u0251l"
+      ],
+      "lost": "jum\u0251l\u0251",
+      "pred_top1": "to\u02d0ni",
+      "score_top1": -14.976308822631836
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "pohjol\u0251",
+      "pred_top1": "jum\u0251l",
+      "score_top1": -17.15835952758789
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.433412551879883,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00017543892317917198,
+      "quality": -8.433237075805664,
+      "step": 1
+    },
+    {
+      "objective": -8.433412551879883,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00017530168406665325,
+      "quality": -8.433237075805664,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "est"
+  ],
+  "known_vocab_key": "est",
+  "lost_language": "fin",
+  "mean_negative_score": -14.581224714006696,
+  "mean_positive_score": -13.610703945159912,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "est"
+    ],
+    "lost_language": "fin",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.7666666666666667,
+  "n_eval": 5,
+  "n_neg_scored": 35,
+  "n_pos_scored": 5,
+  "num_known_vocab": 5,
+  "num_lost_tokens": 8,
+  "p_at_1": 0.6,
+  "score_margin": 0.9705207688467841,
+  "seed": 936194117,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.4,
+  "variant": "pair:fin:est"
+}

@@ -1,0 +1,168 @@
+{
+  "auroc": 0.7522522522522522,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:15:07+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "tsiu\u02d0"
+      ],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "m\u0251\u02d0no",
+      "score_top1": -13.495904922485352
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "sun\u02d0\u0251"
+      ],
+      "lost": "\u0261yne\u0283",
+      "pred_top1": "m\u0251\u02d0no",
+      "score_top1": -13.681809425354004
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "m\u0251\u02d0no"
+      ],
+      "lost": "\u0251j",
+      "pred_top1": "m\u0251\u02d0no",
+      "score_top1": -10.093247413635254
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "m\u0251\u02d0no",
+      "score_top1": -13.495904922485352
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251jser",
+      "pred_top1": "m\u0251\u02d0no",
+      "score_top1": -15.745673179626465
+    },
+    {
+      "concept_id": "alexander_name",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "iskender",
+      "pred_top1": "wuot\u0251n",
+      "score_top1": -20.631507873535156
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251f",
+      "pred_top1": "m\u0251\u02d0no",
+      "score_top1": -10.651330947875977
+    },
+    {
+      "concept_id": "holy_city",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ist\u0251nbul",
+      "pred_top1": "wuot\u0251n",
+      "score_top1": -20.544933319091797
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.447108268737793,
+      "omega_cov": 0.0,
+      "omega_loss": 8.352722215931863e-05,
+      "quality": -8.44702434539795,
+      "step": 1
+    },
+    {
+      "objective": -8.447108268737793,
+      "omega_cov": 0.0,
+      "omega_loss": 8.346309914486483e-05,
+      "quality": -8.44702434539795,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "goh"
+  ],
+  "known_vocab_key": "goh",
+  "lost_language": "tur",
+  "mean_negative_score": -15.296522166277912,
+  "mean_positive_score": -12.513111432393393,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "goh"
+    ],
+    "lost_language": "tur",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.611111111111111,
+  "n_eval": 3,
+  "n_neg_scored": 37,
+  "n_pos_scored": 3,
+  "num_known_vocab": 5,
+  "num_lost_tokens": 8,
+  "p_at_1": 0.3333333333333333,
+  "score_margin": 2.7834107338845193,
+  "seed": 1155391225,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.6666666666666666,
+  "variant": "pair:tur:goh"
+}

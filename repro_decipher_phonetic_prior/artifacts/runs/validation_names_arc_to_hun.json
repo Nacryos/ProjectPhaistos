@@ -1,0 +1,101 @@
+{
+  "auroc": NaN,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:11:41+00:00",
+  "examples": [
+    {
+      "concept_id": "supreme_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "i\u0283t\u025bn"
+      ],
+      "lost": "\u0294el\u0251\u02d0h\u0251\u02d0",
+      "pred_top1": "i\u0283t\u025bn",
+      "score_top1": -12.291579246520996
+    }
+  ],
+  "history": [
+    {
+      "objective": -11.814275741577148,
+      "omega_cov": 0.0,
+      "omega_loss": 0.008992980234324932,
+      "quality": -11.805282592773438,
+      "step": 1
+    },
+    {
+      "objective": -10.0621976852417,
+      "omega_cov": 0.625,
+      "omega_loss": 0.026454584673047066,
+      "quality": -10.66074275970459,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "hun"
+  ],
+  "known_vocab_key": "hun",
+  "lost_language": "arc",
+  "mean_negative_score": NaN,
+  "mean_positive_score": -12.291579246520996,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "hun"
+    ],
+    "lost_language": "arc",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 1.0,
+  "n_eval": 1,
+  "n_neg_scored": 0,
+  "n_pos_scored": 1,
+  "num_known_vocab": 1,
+  "num_lost_tokens": 1,
+  "p_at_1": 1.0,
+  "score_margin": NaN,
+  "seed": 1772792271,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:arc:hun"
+}

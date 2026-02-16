@@ -1,0 +1,21 @@
+{
+  "copied_assets": [],
+  "corpus": "validation_italic",
+  "exported": {
+    "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/ground_truth.tsv",
+    "known_text": "{\"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/known_known_union.txt\", \"osc\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/known_osc.txt\", \"xum\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/known_xum.txt\"}",
+    "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/lost.txt",
+    "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/metadata.json",
+    "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/splits.json"
+  },
+  "fingerprint": "255c835a61e439e2",
+  "num_ground_truth_rows": 40,
+  "num_known_vocab": {
+    "known_union": 18,
+    "osc": 7,
+    "xum": 11
+  },
+  "num_lost_lines": 40,
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "variant": null
+}

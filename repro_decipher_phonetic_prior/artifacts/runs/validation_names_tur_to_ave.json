@@ -1,0 +1,164 @@
+{
+  "auroc": 0.7096774193548387,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:15:05+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "jim\u0251",
+      "score_top1": -13.1593656539917
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "xv\u0251r"
+      ],
+      "lost": "\u0261yne\u0283",
+      "pred_top1": "jim\u0251",
+      "score_top1": -13.140376091003418
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0251j",
+      "pred_top1": "xv\u0251r",
+      "score_top1": -8.324322700500488
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "jim\u0251",
+      "score_top1": -13.1593656539917
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251jser",
+      "pred_top1": "xv\u0251r",
+      "score_top1": -15.602171897888184
+    },
+    {
+      "concept_id": "alexander_name",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "iskender",
+      "pred_top1": "d\u0251\u02d0nu",
+      "score_top1": -20.66942024230957
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251f",
+      "pred_top1": "xv\u0251r",
+      "score_top1": -9.703043937683105
+    },
+    {
+      "concept_id": "holy_city",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ist\u0251nbul",
+      "pred_top1": "d\u0251\u02d0nu",
+      "score_top1": -20.765052795410156
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.444661140441895,
+      "omega_cov": 0.0,
+      "omega_loss": 6.198763003339991e-05,
+      "quality": -8.444599151611328,
+      "step": 1
+    },
+    {
+      "objective": -8.444661140441895,
+      "omega_cov": 0.0,
+      "omega_loss": 6.193939043441787e-05,
+      "quality": -8.444599151611328,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "ave"
+  ],
+  "known_vocab_key": "ave",
+  "lost_language": "tur",
+  "mean_negative_score": -16.05003030838505,
+  "mean_positive_score": -13.24055290222168,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "ave"
+    ],
+    "lost_language": "tur",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.5,
+  "n_eval": 1,
+  "n_neg_scored": 31,
+  "n_pos_scored": 1,
+  "num_known_vocab": 4,
+  "num_lost_tokens": 8,
+  "p_at_1": 0.0,
+  "score_margin": 2.8094774061633707,
+  "seed": 1481681912,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:tur:ave"
+}

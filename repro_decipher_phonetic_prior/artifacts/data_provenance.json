@@ -1,0 +1,653 @@
+{
+  "external_cache_checksums": {
+    "data_external/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "missing_external_requirements": {
+    "gothic": [
+      "wiktionary_descendants_pg.tsv",
+      "wiktionary_descendants_on.tsv",
+      "wiktionary_descendants_oe.tsv"
+    ],
+    "iberian": [
+      "rodriguez_ramos_2014_personal_names.tsv"
+    ]
+  },
+  "paper_pdf_used": "/Users/aaronbao/Downloads/DecipherUnsegmented (3).pdf",
+  "prepared": [
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/gothic",
+          "repo": "ancient-scripts-datasets"
+        },
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/DecipherUnsegmented/data",
+          "repo": "DecipherUnsegmented"
+        }
+      ],
+      "canonical_source": "ancient-scripts-datasets",
+      "fingerprint": "9de74d4ebb3a086b",
+      "manifest": {
+        "copied_assets": [
+          "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b/assets/segments.pkl",
+          "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b/assets/got.pretrained.pth",
+          "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b/assets/gotica.xml.zip"
+        ],
+        "corpus": "gothic",
+        "exported": {
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b/splits.json"
+        },
+        "fingerprint": "9de74d4ebb3a086b",
+        "num_ground_truth_rows": 0,
+        "num_known_vocab": {},
+        "num_lost_lines": 4340,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "gothic",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b",
+      "variant": null
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/gothic",
+          "repo": "ancient-scripts-datasets"
+        },
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/DecipherUnsegmented/data",
+          "repo": "DecipherUnsegmented"
+        }
+      ],
+      "canonical_source": "ancient-scripts-datasets",
+      "fingerprint": "ae45fb556bae27bb",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "gothic",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/religious/ae45fb556bae27bb/ground_truth.tsv",
+          "known_text": "{\"english_gloss\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/religious/ae45fb556bae27bb/known_english_gloss.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/religious/ae45fb556bae27bb/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/religious/ae45fb556bae27bb/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/religious/ae45fb556bae27bb/splits.json"
+        },
+        "fingerprint": "ae45fb556bae27bb",
+        "num_ground_truth_rows": 90,
+        "num_known_vocab": {
+          "english_gloss": 90
+        },
+        "num_lost_lines": 90,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": "religious"
+      },
+      "name": "gothic",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/religious/ae45fb556bae27bb",
+      "variant": "religious"
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/NeuroDecipher/data",
+          "repo": "NeuroDecipher"
+        },
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/ugaritic",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "NeuroDecipher",
+      "fingerprint": "d5b7a79d2cb69b67",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "ugaritic",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/default/d5b7a79d2cb69b67/ground_truth.tsv",
+          "known_text": "{\"hebrew\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/default/d5b7a79d2cb69b67/known_hebrew.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/default/d5b7a79d2cb69b67/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/default/d5b7a79d2cb69b67/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/default/d5b7a79d2cb69b67/splits.json"
+        },
+        "fingerprint": "d5b7a79d2cb69b67",
+        "num_ground_truth_rows": 38898,
+        "num_known_vocab": {
+          "hebrew": 39451
+        },
+        "num_lost_lines": 38898,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "ugaritic",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/default/d5b7a79d2cb69b67",
+      "variant": null
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/NeuroDecipher/data",
+          "repo": "NeuroDecipher"
+        },
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/ugaritic",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "NeuroDecipher",
+      "fingerprint": "30d9123da0f77ebf",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "ugaritic",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/religious/30d9123da0f77ebf/ground_truth.tsv",
+          "known_text": "{\"hebrew\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/religious/30d9123da0f77ebf/known_hebrew.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/religious/30d9123da0f77ebf/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/religious/30d9123da0f77ebf/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/religious/30d9123da0f77ebf/splits.json"
+        },
+        "fingerprint": "30d9123da0f77ebf",
+        "num_ground_truth_rows": 241,
+        "num_known_vocab": {
+          "hebrew": 258
+        },
+        "num_lost_lines": 241,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": "religious"
+      },
+      "name": "ugaritic",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/religious/30d9123da0f77ebf",
+      "variant": "religious"
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/DecipherUnsegmented/data",
+          "repo": "DecipherUnsegmented"
+        },
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/iberian",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "DecipherUnsegmented",
+      "fingerprint": "6a4126d1cd96147d",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "iberian",
+        "exported": {
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/default/6a4126d1cd96147d/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/default/6a4126d1cd96147d/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/default/6a4126d1cd96147d/splits.json"
+        },
+        "fingerprint": "6a4126d1cd96147d",
+        "num_ground_truth_rows": 0,
+        "num_known_vocab": {},
+        "num_lost_lines": 2090,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "iberian",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/default/6a4126d1cd96147d",
+      "variant": null
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/DecipherUnsegmented/data",
+          "repo": "DecipherUnsegmented"
+        },
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/iberian",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "DecipherUnsegmented",
+      "fingerprint": "f3eab30ae57ac49d",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "iberian",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/religious/f3eab30ae57ac49d/ground_truth.tsv",
+          "known_text": "{\"proposed_meaning\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/religious/f3eab30ae57ac49d/known_proposed_meaning.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/religious/f3eab30ae57ac49d/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/religious/f3eab30ae57ac49d/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/religious/f3eab30ae57ac49d/splits.json"
+        },
+        "fingerprint": "f3eab30ae57ac49d",
+        "num_ground_truth_rows": 67,
+        "num_known_vocab": {
+          "proposed_meaning": 65
+        },
+        "num_lost_lines": 67,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": "religious"
+      },
+      "name": "iberian",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/religious/f3eab30ae57ac49d",
+      "variant": "religious"
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "ancient-scripts-datasets",
+      "fingerprint": "7f67a248ed2536ed",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "validation_balto_slavic",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/ground_truth.tsv",
+          "known_text": "{\"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/known_known_union.txt\", \"lit\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/known_lit.txt\", \"rus\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/known_rus.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed/splits.json"
+        },
+        "fingerprint": "7f67a248ed2536ed",
+        "num_ground_truth_rows": 40,
+        "num_known_vocab": {
+          "known_union": 80,
+          "lit": 40,
+          "rus": 40
+        },
+        "num_lost_lines": 40,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "validation_balto_slavic",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_balto_slavic/default/7f67a248ed2536ed",
+      "variant": null
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "ancient-scripts-datasets",
+      "fingerprint": "399c8c4f7c30c935",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "validation_celtic",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/ground_truth.tsv",
+          "known_text": "{\"cym\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/known_cym.txt\", \"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/known_known_union.txt\", \"sga\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/known_sga.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935/splits.json"
+        },
+        "fingerprint": "399c8c4f7c30c935",
+        "num_ground_truth_rows": 40,
+        "num_known_vocab": {
+          "cym": 40,
+          "known_union": 80,
+          "sga": 40
+        },
+        "num_lost_lines": 40,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "validation_celtic",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_celtic/default/399c8c4f7c30c935",
+      "variant": null
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "ancient-scripts-datasets",
+      "fingerprint": "83317dd43911b5e4",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "validation_germanic",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/ground_truth.tsv",
+          "known_text": "{\"goh\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/known_goh.txt\", \"got\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/known_got.txt\", \"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/known_known_union.txt\", \"non\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/known_non.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4/splits.json"
+        },
+        "fingerprint": "83317dd43911b5e4",
+        "num_ground_truth_rows": 40,
+        "num_known_vocab": {
+          "goh": 40,
+          "got": 37,
+          "known_union": 115,
+          "non": 40
+        },
+        "num_lost_lines": 40,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "validation_germanic",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_germanic/default/83317dd43911b5e4",
+      "variant": null
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "ancient-scripts-datasets",
+      "fingerprint": "a17b7a603fc298f2",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "validation_hellenic",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2/ground_truth.tsv",
+          "known_text": "{\"grc\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2/known_grc.txt\", \"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2/known_known_union.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2/splits.json"
+        },
+        "fingerprint": "a17b7a603fc298f2",
+        "num_ground_truth_rows": 12,
+        "num_known_vocab": {
+          "grc": 40,
+          "known_union": 40
+        },
+        "num_lost_lines": 12,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "validation_hellenic",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_hellenic/default/a17b7a603fc298f2",
+      "variant": null
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "ancient-scripts-datasets",
+      "fingerprint": "0a35d65f3c873b5b",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "validation_indo_iranian",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/ground_truth.tsv",
+          "known_text": "{\"fas\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/known_fas.txt\", \"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/known_known_union.txt\", \"san\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/known_san.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b/splits.json"
+        },
+        "fingerprint": "0a35d65f3c873b5b",
+        "num_ground_truth_rows": 36,
+        "num_known_vocab": {
+          "fas": 40,
+          "known_union": 79,
+          "san": 40
+        },
+        "num_lost_lines": 36,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "validation_indo_iranian",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_indo_iranian/default/0a35d65f3c873b5b",
+      "variant": null
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "ancient-scripts-datasets",
+      "fingerprint": "255c835a61e439e2",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "validation_italic",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/ground_truth.tsv",
+          "known_text": "{\"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/known_known_union.txt\", \"osc\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/known_osc.txt\", \"xum\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/known_xum.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2/splits.json"
+        },
+        "fingerprint": "255c835a61e439e2",
+        "num_ground_truth_rows": 40,
+        "num_known_vocab": {
+          "known_union": 18,
+          "osc": 7,
+          "xum": 11
+        },
+        "num_lost_lines": 40,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "validation_italic",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_italic/default/255c835a61e439e2",
+      "variant": null
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "ancient-scripts-datasets",
+      "fingerprint": "41985179591cacf9",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "validation_names",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/ground_truth.tsv",
+          "known_text": "{\"amh\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_amh.txt\", \"ang\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_ang.txt\", \"arb\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_arb.txt\", \"arc\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_arc.txt\", \"ave\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_ave.txt\", \"aze\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_aze.txt\", \"chu\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_chu.txt\", \"cym\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_cym.txt\", \"est\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_est.txt\", \"fas\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_fas.txt\", \"fin\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_fin.txt\", \"gmy\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_gmy.txt\", \"goh\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_goh.txt\", \"got\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_got.txt\", \"grc\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_grc.txt\", \"heb\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_heb.txt\", \"hit\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_hit.txt\", \"hun\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_hun.txt\", \"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_known_union.txt\", \"lat\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_lat.txt\", \"lit\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_lit.txt\", \"non\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_non.txt\", \"osc\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_osc.txt\", \"otk\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_otk.txt\", \"phn\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_phn.txt\", \"rus\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_rus.txt\", \"san\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_san.txt\", \"sga\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_sga.txt\", \"tur\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_tur.txt\", \"uga\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/known_uga.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9/splits.json"
+        },
+        "fingerprint": "41985179591cacf9",
+        "num_ground_truth_rows": 2,
+        "num_known_vocab": {
+          "amh": 2,
+          "ang": 5,
+          "arb": 13,
+          "arc": 1,
+          "ave": 4,
+          "aze": 1,
+          "chu": 3,
+          "cym": 1,
+          "est": 5,
+          "fas": 5,
+          "fin": 7,
+          "gmy": 1,
+          "goh": 5,
+          "got": 3,
+          "grc": 13,
+          "heb": 10,
+          "hit": 2,
+          "hun": 1,
+          "known_union": 145,
+          "lat": 14,
+          "lit": 6,
+          "non": 10,
+          "osc": 1,
+          "otk": 3,
+          "phn": 1,
+          "rus": 3,
+          "san": 14,
+          "sga": 2,
+          "tur": 7,
+          "uga": 9
+        },
+        "num_lost_lines": 2,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "validation_names",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_names/default/41985179591cacf9",
+      "variant": null
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "ancient-scripts-datasets",
+      "fingerprint": "6f2bcada1a26abc8",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "validation_semitic",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_semitic/default/6f2bcada1a26abc8/ground_truth.tsv",
+          "known_text": "{\"arb\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_semitic/default/6f2bcada1a26abc8/known_arb.txt\", \"heb\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_semitic/default/6f2bcada1a26abc8/known_heb.txt\", \"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_semitic/default/6f2bcada1a26abc8/known_known_union.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_semitic/default/6f2bcada1a26abc8/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_semitic/default/6f2bcada1a26abc8/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_semitic/default/6f2bcada1a26abc8/splits.json"
+        },
+        "fingerprint": "6f2bcada1a26abc8",
+        "num_ground_truth_rows": 40,
+        "num_known_vocab": {
+          "arb": 40,
+          "heb": 40,
+          "known_union": 77
+        },
+        "num_lost_lines": 40,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "validation_semitic",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_semitic/default/6f2bcada1a26abc8",
+      "variant": null
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "ancient-scripts-datasets",
+      "fingerprint": "901125f786728771",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "validation_turkic",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/ground_truth.tsv",
+          "known_text": "{\"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/known_known_union.txt\", \"otk\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/known_otk.txt\", \"tur\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/known_tur.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/splits.json"
+        },
+        "fingerprint": "901125f786728771",
+        "num_ground_truth_rows": 40,
+        "num_known_vocab": {
+          "known_union": 73,
+          "otk": 39,
+          "tur": 40
+        },
+        "num_lost_lines": 40,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "validation_turkic",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771",
+      "variant": null
+    },
+    {
+      "candidate_sources": [
+        {
+          "exists": true,
+          "path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation",
+          "repo": "ancient-scripts-datasets"
+        }
+      ],
+      "canonical_source": "ancient-scripts-datasets",
+      "fingerprint": "cbb538388175ec50",
+      "manifest": {
+        "copied_assets": [],
+        "corpus": "validation_uralic",
+        "exported": {
+          "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/ground_truth.tsv",
+          "known_text": "{\"fin\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/known_fin.txt\", \"hun\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/known_hun.txt\", \"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/known_known_union.txt\"}",
+          "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/lost.txt",
+          "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/metadata.json",
+          "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/splits.json"
+        },
+        "fingerprint": "cbb538388175ec50",
+        "num_ground_truth_rows": 40,
+        "num_known_vocab": {
+          "fin": 40,
+          "hun": 40,
+          "known_union": 80
+        },
+        "num_lost_lines": 40,
+        "prepared_at": "2026-02-16T03:46:42+00:00",
+        "variant": null
+      },
+      "name": "validation_uralic",
+      "out_dir": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50",
+      "variant": null
+    }
+  ],
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "project_root": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior",
+  "repos": {
+    "DecipherUnsegmented": {
+      "commit": "3cdd0f42572a6af5f4c386a09f322d8fbf3b8347",
+      "commit_date": "2021-07-06T21:47:37-04:00",
+      "url": "https://github.com/j-luo93/DecipherUnsegmented.git"
+    },
+    "NeuroDecipher": {
+      "commit": "480bad2487820e3737fecfdd108214efa769e34b",
+      "commit_date": "2021-09-20T17:14:17-04:00",
+      "url": "https://github.com/j-luo93/NeuroDecipher.git"
+    },
+    "ancient-scripts-datasets": {
+      "commit": "6efefde2cd4378d1ede05dac27d5cba80e78901e",
+      "commit_date": "2026-02-15T19:33:24-08:00",
+      "url": "https://github.com/Nacryos/ancient-scripts-datasets.git"
+    },
+    "arglib": {
+      "commit": "6662216e7192fb87c1d04f53b074b538d7cd7df1",
+      "commit_date": "2019-11-17T16:40:01-05:00",
+      "url": "https://github.com/j-luo93/arglib.git"
+    },
+    "dev_misc": {
+      "commit": "b712c8b21beb0ca9f23a4bcd428cfbfa2f703c77",
+      "commit_date": "2021-04-25T22:23:47-04:00",
+      "url": "https://github.com/j-luo93/dev_misc.git"
+    },
+    "xib": {
+      "commit": "db3c8a3def0ff47bf3bb2bccf9496fb507bbde07",
+      "commit_date": "2019-12-17T02:52:47-05:00",
+      "url": "https://github.com/j-luo93/xib.git"
+    }
+  }
+}

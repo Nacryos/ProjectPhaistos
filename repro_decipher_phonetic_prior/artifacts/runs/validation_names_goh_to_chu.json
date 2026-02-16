@@ -1,0 +1,137 @@
+{
+  "auroc": 0.9285714285714286,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:24+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "tsiu\u02d0",
+      "pred_top1": "perun\u028a",
+      "score_top1": -13.040631294250488
+    },
+    {
+      "concept_id": "thunder_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "perun\u028a"
+      ],
+      "lost": "don\u0251r",
+      "pred_top1": "perun\u028a",
+      "score_top1": -13.013336181640625
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "sun\u02d0\u0251",
+      "pred_top1": "dun\u0251j\u026a",
+      "score_top1": -13.038689613342285
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "m\u0251\u02d0no",
+      "pred_top1": "dun\u0251j\u026a",
+      "score_top1": -12.845511436462402
+    },
+    {
+      "concept_id": "war_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "wuot\u0251n",
+      "pred_top1": "dun\u0251j\u026a",
+      "score_top1": -14.320694923400879
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.367098808288574,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00029514619382098317,
+      "quality": -8.366804122924805,
+      "step": 1
+    },
+    {
+      "objective": -8.367098808288574,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0002945060550700873,
+      "quality": -8.366804122924805,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "chu"
+  ],
+  "known_vocab_key": "chu",
+  "lost_language": "goh",
+  "mean_negative_score": -13.647541931697301,
+  "mean_positive_score": -13.013336181640625,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "chu"
+    ],
+    "lost_language": "goh",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 1.0,
+  "n_eval": 1,
+  "n_neg_scored": 14,
+  "n_pos_scored": 1,
+  "num_known_vocab": 3,
+  "num_lost_tokens": 5,
+  "p_at_1": 1.0,
+  "score_margin": 0.634205750056676,
+  "seed": 803137734,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:goh:chu"
+}

@@ -1,0 +1,242 @@
+{
+  "auroc": 0.5334174022698613,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:13:53+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "dj\u0251us"
+      ],
+      "lost": "ju\u02d0piter",
+      "pred_top1": "v\u0251ru\u0273\u0251",
+      "score_top1": -20.264049530029297
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": 10,
+      "gold_candidates": [
+        "su\u02d0rj\u0251"
+      ],
+      "lost": "so\u02d0l",
+      "pred_top1": "j\u0251m\u0251",
+      "score_top1": -10.862060546875
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": 6,
+      "gold_candidates": [
+        "m\u0251\u02d0s\u0251"
+      ],
+      "lost": "lu\u02d0n\u0251",
+      "pred_top1": "meru",
+      "score_top1": -12.869893074035645
+    },
+    {
+      "concept_id": "war_god",
+      "correct": false,
+      "first_positive_rank": 8,
+      "gold_candidates": [
+        "indr\u0251"
+      ],
+      "lost": "m\u0251\u02d0rs",
+      "pred_top1": "dev\u0251",
+      "score_top1": -12.989129066467285
+    },
+    {
+      "concept_id": "love_deity",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "r\u0251ti"
+      ],
+      "lost": "wenus",
+      "pred_top1": "r\u0251ti",
+      "score_top1": -12.931780815124512
+    },
+    {
+      "concept_id": "death_god",
+      "correct": false,
+      "first_positive_rank": 10,
+      "gold_candidates": [
+        "j\u0251m\u0251"
+      ],
+      "lost": "plu\u02d0to\u02d0",
+      "pred_top1": "indr\u0251",
+      "score_top1": -17.845918655395508
+    },
+    {
+      "concept_id": "sea_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "v\u0251ru\u0273\u0251"
+      ],
+      "lost": "neptu\u02d0nus",
+      "pred_top1": "tv\u0251\u0282tr\u0329",
+      "score_top1": -22.712326049804688
+    },
+    {
+      "concept_id": "smith_god",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "tv\u0251\u0282tr\u0329"
+      ],
+      "lost": "wulk\u0251\u02d0nus",
+      "pred_top1": "v\u0251ru\u0273\u0251",
+      "score_top1": -22.69409942626953
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": 4,
+      "gold_candidates": [
+        "dev\u0251"
+      ],
+      "lost": "deus",
+      "pred_top1": "r\u0251ti",
+      "score_top1": -10.79566478729248
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251es\u0251r",
+      "pred_top1": "dj\u0251us",
+      "score_top1": -15.348023414611816
+    },
+    {
+      "concept_id": "alexander_name",
+      "correct": false,
+      "first_positive_rank": 14,
+      "gold_candidates": [
+        "\u0251lik\u0251sund\u0251r\u0251"
+      ],
+      "lost": "\u0251leks\u0251nder",
+      "pred_top1": "tv\u0251\u0282tr\u0329",
+      "score_top1": -25.080280303955078
+    },
+    {
+      "concept_id": "sacred_river",
+      "correct": false,
+      "first_positive_rank": 6,
+      "gold_candidates": [
+        "d\u0251\u02d0nu"
+      ],
+      "lost": "d\u0251\u02d0nuwius",
+      "pred_top1": "su\u02d0rj\u0251",
+      "score_top1": -22.733304977416992
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": 8,
+      "gold_candidates": [
+        "meru"
+      ],
+      "lost": "olumpus",
+      "pred_top1": "m\u0251\u02d0s\u0251",
+      "score_top1": -17.84572410583496
+    },
+    {
+      "concept_id": "holy_city",
+      "correct": false,
+      "first_positive_rank": 13,
+      "gold_candidates": [
+        "v\u0251\u02d0r\u0251\u02d0\u0273\u0251si\u02d0"
+      ],
+      "lost": "ro\u02d0m\u0251",
+      "pred_top1": "j\u0251m\u0251",
+      "score_top1": -12.91828727722168
+    }
+  ],
+  "history": [
+    {
+      "objective": -10.685304641723633,
+      "omega_cov": 0.0,
+      "omega_loss": 3.0277486075647175e-05,
+      "quality": -10.685274124145508,
+      "step": 1
+    },
+    {
+      "objective": -10.685304641723633,
+      "omega_cov": 0.0,
+      "omega_loss": 3.026568992936518e-05,
+      "quality": -10.685274124145508,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "san"
+  ],
+  "known_vocab_key": "san",
+  "lost_language": "lat",
+  "mean_negative_score": -18.57360296301503,
+  "mean_positive_score": -18.20886362515963,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "san"
+    ],
+    "lost_language": "lat",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.2575655114116653,
+  "n_eval": 13,
+  "n_neg_scored": 183,
+  "n_pos_scored": 13,
+  "num_known_vocab": 14,
+  "num_lost_tokens": 14,
+  "p_at_1": 0.07692307692307693,
+  "score_margin": 0.3647393378554007,
+  "seed": 1883651408,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.9230769230769231,
+  "variant": "pair:lat:san"
+}

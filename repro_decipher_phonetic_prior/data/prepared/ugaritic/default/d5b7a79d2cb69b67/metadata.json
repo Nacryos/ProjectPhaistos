@@ -1,0 +1,14 @@
+{
+  "canonical_source": "NeuroDecipher",
+  "config": {
+    "max_lines": 0,
+    "seed": 1234
+  },
+  "known_column": "heb-no_spe",
+  "lost_column": "uga-no_spe",
+  "name": "ugaritic",
+  "source_paths": {
+    "cognates": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/NeuroDecipher/data/uga-heb.no_spe.cog"
+  },
+  "variant": null
+}

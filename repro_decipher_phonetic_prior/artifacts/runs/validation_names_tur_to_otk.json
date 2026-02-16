@@ -1,0 +1,170 @@
+{
+  "auroc": 0.7125,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:15:11+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "te\u014bri"
+      ],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "kyn",
+      "score_top1": -13.150263786315918
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "kyn"
+      ],
+      "lost": "\u0261yne\u0283",
+      "pred_top1": "kyn",
+      "score_top1": -13.266002655029297
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "\u0251j"
+      ],
+      "lost": "\u0251j",
+      "pred_top1": "\u0251j",
+      "score_top1": -5.721590042114258
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "te\u014bri"
+      ],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "kyn",
+      "score_top1": -13.150263786315918
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251jser",
+      "pred_top1": "te\u014bri",
+      "score_top1": -15.80152702331543
+    },
+    {
+      "concept_id": "alexander_name",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "iskender",
+      "pred_top1": "te\u014bri",
+      "score_top1": -20.73306655883789
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251f",
+      "pred_top1": "\u0251j",
+      "score_top1": -8.190492630004883
+    },
+    {
+      "concept_id": "holy_city",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ist\u0251nbul",
+      "pred_top1": "te\u014bri",
+      "score_top1": -20.826873779296875
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.419151306152344,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0001473132288083434,
+      "quality": -8.419004440307617,
+      "step": 1
+    },
+    {
+      "objective": -8.419148445129395,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0001471314753871411,
+      "quality": -8.419001579284668,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "otk"
+  ],
+  "known_vocab_key": "otk",
+  "lost_language": "tur",
+  "mean_negative_score": -15.396077823638915,
+  "mean_positive_score": -11.65141487121582,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "otk"
+    ],
+    "lost_language": "tur",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.75,
+  "n_eval": 4,
+  "n_neg_scored": 20,
+  "n_pos_scored": 4,
+  "num_known_vocab": 3,
+  "num_lost_tokens": 8,
+  "p_at_1": 0.5,
+  "score_margin": 3.744662952423095,
+  "seed": 1096449561,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.5,
+  "variant": "pair:tur:otk"
+}

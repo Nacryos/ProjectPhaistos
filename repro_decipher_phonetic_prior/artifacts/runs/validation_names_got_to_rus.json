@@ -1,0 +1,119 @@
+{
+  "auroc": 0.125,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:30+00:00",
+  "examples": [
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "s\u0254\u02d0il",
+      "pred_top1": "ts\u0251r",
+      "score_top1": -11.289321899414062
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "me\u02d0n\u0251",
+      "pred_top1": "ts\u0251r",
+      "score_top1": -11.576147079467773
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "ts\u0251r"
+      ],
+      "lost": "k\u0251is\u0251r",
+      "pred_top1": "dun\u0251j",
+      "score_top1": -13.515304565429688
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.56933879852295,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0008138738921843469,
+      "quality": -8.568525314331055,
+      "step": 1
+    },
+    {
+      "objective": -8.5693359375,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0008111190400086343,
+      "quality": -8.568524360656738,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "rus"
+  ],
+  "known_vocab_key": "rus",
+  "lost_language": "got",
+  "mean_negative_score": -12.556841850280762,
+  "mean_positive_score": -13.928657531738281,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "rus"
+    ],
+    "lost_language": "got",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.5,
+  "n_eval": 1,
+  "n_neg_scored": 8,
+  "n_pos_scored": 1,
+  "num_known_vocab": 3,
+  "num_lost_tokens": 3,
+  "p_at_1": 0.0,
+  "score_margin": -1.3718156814575195,
+  "seed": 607818062,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:got:rus"
+}

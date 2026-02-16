@@ -1,0 +1,100 @@
+{
+  "created_at": "2026-02-16T03:01:24+00:00",
+  "mode": "neuro",
+  "neuro_run": {
+    "best_score": 0.557,
+    "cfg": "UgaHebSmallNoSpe",
+    "cmd": [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-m",
+      "nd.main",
+      "--config",
+      "UgaHebSmallNoSpe",
+      "--num_rounds",
+      "1",
+      "--num_epochs_per_M_step",
+      "150"
+    ],
+    "log_path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/runs/neurodecipher/run.log",
+    "nd_log_dir": "log/02-15/UgaHebSmallNoSpe-18:55:15",
+    "returncode": 0,
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.023,
+      0.023,
+      0.0,
+      0.009,
+      0.009,
+      0.0,
+      0.032,
+      0.023,
+      0.009,
+      0.095,
+      0.041,
+      0.0,
+      0.29,
+      0.118,
+      0.072,
+      0.443,
+      0.186,
+      0.095,
+      0.48,
+      0.195,
+      0.109,
+      0.557,
+      0.19,
+      0.149,
+      0.471,
+      0.176,
+      0.09,
+      0.498,
+      0.167,
+      0.054,
+      0.48,
+      0.154,
+      0.081,
+      0.507,
+      0.172,
+      0.127,
+      0.457,
+      0.145,
+      0.05,
+      0.113,
+      0.063,
+      0.009
+    ],
+    "status": "ok"
+  },
+  "note": "NeuroDecipher output can differ due to optimization and dependency/runtime drift.",
+  "overrides": {
+    "num_epochs_per_M_step": "150",
+    "num_rounds": "1"
+  },
+  "paper_neuro_score": 0.659,
+  "rows": [
+    {
+      "known": "Hebrew",
+      "lost": "Ugaritic",
+      "method": "Bayesian",
+      "metric": "P@1",
+      "score": 0.604
+    },
+    {
+      "known": "Hebrew",
+      "lost": "Ugaritic",
+      "method": "NeuroCipher",
+      "metric": "P@1",
+      "score": 0.659
+    },
+    {
+      "known": "Hebrew",
+      "lost": "Ugaritic",
+      "method": "base",
+      "metric": "P@1",
+      "score": 0.778
+    }
+  ],
+  "status": "ok"
+}

@@ -1,0 +1,67 @@
+neitin
+iltiŕ
+beleś
+atin
+iunstir
+ekiar
+ḿi
+eban / ebanen
+seltar
+uśtalar
+śalir
+karte
+ban
+bilos
+baite
+kutuŕ
+oŕtin / ortin
+sakaŕ
+saltu
+biuŕ
+GI.15.09
+GI.01.03
+T.07.03
+CS.11.01
+CS.18.01
+CS.21.05
+A.04.01b
+A.03.01
+V.06.010
+V.01.01
+V.04.01
+HU.01.01
+MU.04.01
+L.18.01
+[name]:ekiar
+[name]:seltar:ḿi
+neitin(+iunstir)
+[name]:eban(en)
+śalir + numeral
+aŕe:take + teban
+uskéiké + iunstir
+a/o/e/ki/ka + III...
+aŕe:take / aŕetake
+biteŕoke / biteŕokan
+teban
+bankite
+uskéiké
+bototaś
+basetiŕa
+etesilir
+borsté
+saltukó / saltuki
+iŕe
+buŕka / alaśbuŕ
+lauŕ
+tikiŕ / tikeŕ
+baś (standalone)
+bekon / bekoŕ
+neŕse
+taneś / táneś
+Roman numerals (I, III, IIII...)
+a/o/e/ki/ka before numerals
+vacat (intentional blank)
+GI.15.04
+CS.21.06
+CS.21.07
+AUD.05.38a

@@ -1,0 +1,101 @@
+{
+  "auroc": 0.15384615384615385,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:11:43+00:00",
+  "examples": [
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": 12,
+      "gold_candidates": [
+        "dev\u0251"
+      ],
+      "lost": "\u0294el\u0251\u02d0h\u0251\u02d0",
+      "pred_top1": "tv\u0251\u0282tr\u0329",
+      "score_top1": -13.722127914428711
+    }
+  ],
+  "history": [
+    {
+      "objective": -12.5534086227417,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0005395933403633535,
+      "quality": -12.552868843078613,
+      "step": 1
+    },
+    {
+      "objective": -12.55327320098877,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0005351146683096886,
+      "quality": -12.552738189697266,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "san"
+  ],
+  "known_vocab_key": "san",
+  "lost_language": "arc",
+  "mean_negative_score": -15.548195838928223,
+  "mean_positive_score": -16.879016876220703,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "san"
+    ],
+    "lost_language": "arc",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.08333333333333333,
+  "n_eval": 1,
+  "n_neg_scored": 13,
+  "n_pos_scored": 1,
+  "num_known_vocab": 14,
+  "num_lost_tokens": 1,
+  "p_at_1": 0.0,
+  "score_margin": -1.3308210372924805,
+  "seed": 1527347496,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:arc:san"
+}

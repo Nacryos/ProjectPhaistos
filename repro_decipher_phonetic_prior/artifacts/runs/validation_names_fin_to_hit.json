@@ -1,0 +1,166 @@
+{
+  "auroc": 0.5178571428571429,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:17+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "\u0283iu"
+      ],
+      "lost": "uk\u02d0o",
+      "pred_top1": "\u0283iu",
+      "score_top1": -10.583015441894531
+    },
+    {
+      "concept_id": "thunder_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "uk\u02d0o",
+      "pred_top1": "\u0283iu",
+      "score_top1": -10.583015441894531
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ku\u02d0",
+      "pred_top1": "\u0283iu",
+      "score_top1": -7.8683061599731445
+    },
+    {
+      "concept_id": "death_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "tuoni",
+      "pred_top1": "\u0283iu",
+      "score_top1": -12.760998725891113
+    },
+    {
+      "concept_id": "sea_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0251hti",
+      "pred_top1": "\u0283iu",
+      "score_top1": -10.341711044311523
+    },
+    {
+      "concept_id": "smith_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "ilm\u0251rinen",
+      "pred_top1": "x\u0251t\u02d0si",
+      "score_top1": -21.749122619628906
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "jum\u0251l\u0251",
+      "pred_top1": "\u0283iu",
+      "score_top1": -15.40820598602295
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "x\u0251t\u02d0si"
+      ],
+      "lost": "pohjol\u0251",
+      "pred_top1": "x\u0251t\u02d0si",
+      "score_top1": -17.35556411743164
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.431686401367188,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00046418941929005086,
+      "quality": -8.431221961975098,
+      "step": 1
+    },
+    {
+      "objective": -8.431680679321289,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00046195770846679807,
+      "quality": -8.431219100952148,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "hit"
+  ],
+  "known_vocab_key": "hit",
+  "lost_language": "fin",
+  "mean_negative_score": -14.258992740086146,
+  "mean_positive_score": -13.969289779663086,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "hit"
+    ],
+    "lost_language": "fin",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 1.0,
+  "n_eval": 2,
+  "n_neg_scored": 14,
+  "n_pos_scored": 2,
+  "num_known_vocab": 2,
+  "num_lost_tokens": 8,
+  "p_at_1": 1.0,
+  "score_margin": 0.2897029604230603,
+  "seed": 1571521370,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.0,
+  "variant": "pair:fin:hit"
+}

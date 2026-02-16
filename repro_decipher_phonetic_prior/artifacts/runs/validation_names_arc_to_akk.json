@@ -1,0 +1,101 @@
+{
+  "auroc": 0.0,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:11:37+00:00",
+  "examples": [
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "ilu"
+      ],
+      "lost": "\u0294el\u0251\u02d0h\u0251\u02d0",
+      "pred_top1": "i\u0283t\u0251r",
+      "score_top1": -15.046278953552246
+    }
+  ],
+  "history": [
+    {
+      "objective": -12.317895889282227,
+      "omega_cov": 0.0,
+      "omega_loss": 0.022336483001708984,
+      "quality": -12.29555892944336,
+      "step": 1
+    },
+    {
+      "objective": -12.296217918395996,
+      "omega_cov": 0.0,
+      "omega_loss": 0.021572189405560493,
+      "quality": -12.274645805358887,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "akk"
+  ],
+  "known_vocab_key": "akk",
+  "lost_language": "arc",
+  "mean_negative_score": -15.046278953552246,
+  "mean_positive_score": -18.844287872314453,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "akk"
+    ],
+    "lost_language": "arc",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.5,
+  "n_eval": 1,
+  "n_neg_scored": 1,
+  "n_pos_scored": 1,
+  "num_known_vocab": 2,
+  "num_lost_tokens": 1,
+  "p_at_1": 0.0,
+  "score_margin": -3.798008918762207,
+  "seed": 1653407852,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:arc:akk"
+}

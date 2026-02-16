@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-02-16T02:55:14+00:00",
+  "history": [
+    {
+      "num_sequences": 5,
+      "objective": -12.522550582885742,
+      "omega_cov": 0.0,
+      "omega_loss": 5.996139589115046e-05,
+      "quality": -12.522490501403809,
+      "step": 1
+    },
+    {
+      "num_sequences": 5,
+      "objective": -12.522550582885742,
+      "omega_cov": 0.0,
+      "omega_loss": 5.9930454881396145e-05,
+      "quality": -12.522490501403809,
+      "step": 2
+    },
+    {
+      "num_sequences": 5,
+      "objective": -12.522550582885742,
+      "omega_cov": 0.0,
+      "omega_loss": 5.9899295592913404e-05,
+      "quality": -12.522490501403809,
+      "step": 3
+    },
+    {
+      "num_sequences": 5,
+      "objective": -12.522549629211426,
+      "omega_cov": 0.0,
+      "omega_loss": 5.9868183598155156e-05,
+      "quality": -12.522489547729492,
+      "step": 4
+    },
+    {
+      "num_sequences": 5,
+      "objective": -12.522549629211426,
+      "omega_cov": 0.0,
+      "omega_loss": 5.983734445180744e-05,
+      "quality": -12.522489547729492,
+      "step": 5
+    }
+  ],
+  "seed": 1234,
+  "status": "ok",
+  "steps": 5
+}

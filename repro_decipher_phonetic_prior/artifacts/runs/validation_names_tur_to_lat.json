@@ -1,0 +1,178 @@
+{
+  "auroc": 0.5709134615384616,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:15:12+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": 10,
+      "gold_candidates": [
+        "ju\u02d0piter"
+      ],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "so\u02d0l",
+      "score_top1": -13.086858749389648
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "so\u02d0l"
+      ],
+      "lost": "\u0261yne\u0283",
+      "pred_top1": "deus",
+      "score_top1": -13.200318336486816
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": 4,
+      "gold_candidates": [
+        "lu\u02d0n\u0251"
+      ],
+      "lost": "\u0251j",
+      "pred_top1": "so\u02d0l",
+      "score_top1": -8.317787170410156
+    },
+    {
+      "concept_id": "supreme_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "deus"
+      ],
+      "lost": "t\u0251nr\u026f",
+      "pred_top1": "so\u02d0l",
+      "score_top1": -13.086858749389648
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": 7,
+      "gold_candidates": [
+        "k\u0251es\u0251r"
+      ],
+      "lost": "k\u0251jser",
+      "pred_top1": "lu\u02d0n\u0251",
+      "score_top1": -15.668180465698242
+    },
+    {
+      "concept_id": "alexander_name",
+      "correct": false,
+      "first_positive_rank": 14,
+      "gold_candidates": [
+        "\u0251leks\u0251nder"
+      ],
+      "lost": "iskender",
+      "pred_top1": "k\u0251es\u0251r",
+      "score_top1": -20.51272964477539
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": 9,
+      "gold_candidates": [
+        "olumpus"
+      ],
+      "lost": "k\u0251f",
+      "pred_top1": "so\u02d0l",
+      "score_top1": -9.89741325378418
+    },
+    {
+      "concept_id": "holy_city",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "ro\u02d0m\u0251"
+      ],
+      "lost": "ist\u0251nbul",
+      "pred_top1": "k\u0251es\u0251r",
+      "score_top1": -20.562253952026367
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.447402954101562,
+      "omega_cov": 0.0,
+      "omega_loss": 4.5844411943107843e-05,
+      "quality": -8.447357177734375,
+      "step": 1
+    },
+    {
+      "objective": -8.447402954101562,
+      "omega_cov": 0.0,
+      "omega_loss": 4.583235568134114e-05,
+      "quality": -8.447357177734375,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "lat"
+  ],
+  "known_vocab_key": "lat",
+  "lost_language": "tur",
+  "mean_negative_score": -16.533200053068306,
+  "mean_positive_score": -15.851547598838806,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "lat"
+    ],
+    "lost_language": "tur",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.2719246031746032,
+  "n_eval": 8,
+  "n_neg_scored": 104,
+  "n_pos_scored": 8,
+  "num_known_vocab": 14,
+  "num_lost_tokens": 8,
+  "p_at_1": 0.0,
+  "score_margin": 0.6816524542294999,
+  "seed": 341476808,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:tur:lat"
+}

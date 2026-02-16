@@ -1,0 +1,471 @@
+$ /Library/Developer/CommandLineTools/usr/bin/python3 -m nd.main --config UgaHebSmallNoSpe --num_rounds 1 --num_epochs_per_M_step 150
+
+# STDOUT
+
+
+# STDERR
+INFO - 02/15/26 18:55:15 - 0:00:00 at logger.py:180 - 
+          {'batch_size': 500,
+           'capacity': (3,),
+           'char_emb_dim': 250,
+           'check_interval': 10,
+           'cog_path': 'data/uga-heb.small.no_spe.cog',
+           'config': 'UgaHebSmallNoSpe',
+           'control_mode': 'relative',
+           'dropout': 0.3,
+           'eval_interval': 10,
+           'gpu': None,
+           'hidden_size': 250,
+           'inc': 50,
+           'known_lang': 'heb-no_spe',
+           'learning_rate': 0.005,
+           'log_dir': 'log/02-15/UgaHebSmallNoSpe-18:55:15',
+           'log_level': 'INFO',
+           'lost_lang': 'uga-no_spe',
+           'momentum': 0.25,
+           'msg': None,
+           'n_similar': 5,
+           'norms_or_ratios': (1.0, 0.2),
+           'num_cognates': 221,
+           'num_epochs_per_M_step': 150,
+           'num_layers': 1,
+           'num_rounds': 1,
+           'random': None,
+           'reg_hyper': 1.0,
+           'residual': True,
+           'save_all': None,
+           'saved_path': None,
+           'seed': 1234,
+           'universal_charset_size': 50,
+           'unsafe': None,
+           'warm_up_steps': 5}
+INFO - 02/15/26 18:55:16 - 0:00:00 at logger.py:180 - 
+          +-------------------+
+          |       train       |
+          +------------+------+
+          | lang       | size |
+          +------------+------+
+          | uga-no_spe | 735  |
+          | heb-no_spe | 4103 |
+          +------------+------+
+INFO - 02/15/26 18:55:16 - 0:00:00 at logger.py:180 - 
+          +-------------------+
+          |        eval       |
+          +------------+------+
+          | lang       | size |
+          +------------+------+
+          | uga-no_spe | 221  |
+          | heb-no_spe | 4103 |
+          +------------+------+
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/NeuroDecipher/nd/model/trie.py:51: UserWarning: torch.sparse.SparseTensor(indices, values, shape, *, device=) is deprecated.  Please use torch.sparse_coo_tensor(indices, values, shape, dtype=, device=). (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:620.)
+  weight = torch.sparse.FloatTensor(
+/Users/aaronbao/Library/Python/3.9/lib/python/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.3 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+INFO - 02/15/26 18:55:16 - 0:00:00 at logger.py:180 - 
+          DecipherModelWithFlow(
+            (encoder): LSTM(250, 250, batch_first=True, dropout=0.3, bidirectional=True)
+            (decoder): MultiLayerLSTMCell(
+              500, 250, num_layers=1
+              (drop): Dropout(p=0.3, inplace=False)
+              (cells): ModuleList(
+                (0): LSTMCell(500, 250)
+              )
+            )
+            (attention): GlobalAttention(
+              src=500, tgt=250
+              (drop): Dropout(p=0.3, inplace=False)
+            )
+            (char_emb): UniversalCharEmbedding(
+              (char_emb): Embedding(50, 250)
+              (char_weights): ModuleDict(
+                (uga-no_spe): Embedding(34, 50)
+                (heb-no_spe): Embedding(27, 50)
+              )
+            )
+            (hidden): Sequential(
+              (0): Linear(in_features=750, out_features=250, bias=True)
+              (1): LeakyReLU(negative_slope=0.01)
+            )
+            (drop): Dropout(p=0.3, inplace=False)
+            (controlled_residual): NormControlledResidual()
+          )
+IMP - 02/15/26 18:55:16 - 0:00:00 at logger.py:151 - *STARTING* _init_optimizer
+IMP - 02/15/26 18:55:16 - 0:00:01 at logger.py:151 - *FINISHED* _init_optimizer
+INFO - 02/15/26 18:55:16 - 0:00:01 at logger.py:180 - 
+          b'Stage(name=decipher, num_steps=1)\n\xe2\x94\x94\xe2\x94\x80\xe2\x94\x80 Stage(name=round, num_steps=1)\n    \xe2\x94\x9c\xe2\x94\x80\xe2\x94\x80 Stage(name=E step, num_steps=1)\n    \xe2\x94\x94\xe2\x94\x80\xe2\x94\x80 Stage(name=M step, num_steps=150)\n'
+          
+INFO - 02/15/26 18:55:16 - 0:00:01 at logger.py:180 - 
+          +------------+------------+-----------+------------+------+-------+----------+
+          | lost       | known      | lost_size | known_size | mode | edit  | capacity |
+          +------------+------------+-----------+------------+------+-------+----------+
+          | uga-no_spe | heb-no_spe | 221       | 4103       | mle  | None  | None     |
+          | uga-no_spe | heb-no_spe | 221       | 4103       | flow | False | 3        |
+          | uga-no_spe | heb-no_spe | 221       | 4103       | flow | True  | 3        |
+          +------------+------------+-----------+------------+------+-------+----------+
+IMP - 02/15/26 18:55:16 - 0:00:01 at logger.py:151 - *STARTING* _init_params
+IMP - 02/15/26 18:55:16 - 0:00:01 at logger.py:151 - *FINISHED* _init_params
+IMP - 02/15/26 18:55:16 - 0:00:01 at logger.py:151 - *STARTING* _E_step_kernel
+IMP - 02/15/26 18:55:16 - 0:00:01 at logger.py:151 - *ARG_LIST* {'num_cognates': 0, 'warm_up': True, 'edit': False}
+IMP - 02/15/26 18:55:16 - 0:00:01 at logger.py:151 - *STARTING* warm_up
+IMP - 02/15/26 18:55:16 - 0:00:01 at logger.py:151 - *FINISHED* warm_up
+IMP - 02/15/26 18:55:16 - 0:00:01 at logger.py:151 - *FINISHED* _E_step_kernel
+INFO - 02/15/26 18:55:39 - 0:00:23 at logger.py:180 - 
+          +-----------------------------------------------------------------+
+          |                            Epoch: 10                            |
+          +------------+------------+------+-------+----------+-------------+
+          | lost       | known      | mode | edit  | capacity | score       |
+          +------------+------------+------+-------+----------+-------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 0/221=0.000 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 0/221=0.000 |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 0/221=0.000 |
+          +------------+------------+------+-------+----------+-------------+
+INFO - 02/15/26 18:55:39 - 0:00:23 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 18:55:39 - 0:00:23 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 18:55:39 - 0:00:23 at logger.py:180 - 
+          +---------------------------------------------+
+          |                  Epoch: 10                  |
+          +-------------+-------------+--------+--------+
+          | name        | value       | weight | mean   |
+          +-------------+-------------+--------+--------+
+          | grad_norm   | 1867874.625 | 41030  | 45.525 |
+          | loss        | 3515.778    | 90     | 39.064 |
+          | nll_loss    | 44204.816   | 2210.0 | 20.002 |
+          | num_samples | 41030       | N/A    | N/A    |
+          | reg_loss    | 39220.988   | 2210.0 | 17.747 |
+          +-------------+-------------+--------+--------+
+INFO - 02/15/26 18:56:02 - 0:00:47 at logger.py:180 - 
+          +-----------------------------------------------------------------+
+          |                            Epoch: 20                            |
+          +------------+------------+------+-------+----------+-------------+
+          | lost       | known      | mode | edit  | capacity | score       |
+          +------------+------------+------+-------+----------+-------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 5/221=0.023 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 5/221=0.023 |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 0/221=0.000 |
+          +------------+------------+------+-------+----------+-------------+
+INFO - 02/15/26 18:56:02 - 0:00:47 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 18:56:02 - 0:00:47 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 18:56:02 - 0:00:47 at logger.py:180 - 
+          +--------------------------------------------+
+          |                 Epoch: 20                  |
+          +-------------+------------+--------+--------+
+          | name        | value      | weight | mean   |
+          +-------------+------------+--------+--------+
+          | grad_norm   | 335587.812 | 41030  | 8.179  |
+          | loss        | 1794.707   | 90     | 19.941 |
+          | nll_loss    | 41056.156  | 2210.0 | 18.577 |
+          | num_samples | 41030      | N/A    | N/A    |
+          | reg_loss    | 2619.53    | 2210.0 | 1.185  |
+          +-------------+------------+--------+--------+
+INFO - 02/15/26 18:56:25 - 0:01:09 at logger.py:180 - 
+          +-----------------------------------------------------------------+
+          |                            Epoch: 30                            |
+          +------------+------------+------+-------+----------+-------------+
+          | lost       | known      | mode | edit  | capacity | score       |
+          +------------+------------+------+-------+----------+-------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 2/221=0.009 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 2/221=0.009 |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 0/221=0.000 |
+          +------------+------------+------+-------+----------+-------------+
+INFO - 02/15/26 18:56:25 - 0:01:09 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 18:56:25 - 0:01:09 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 18:56:25 - 0:01:09 at logger.py:180 - 
+          +--------------------------------------------+
+          |                 Epoch: 30                  |
+          +-------------+------------+--------+--------+
+          | name        | value      | weight | mean   |
+          +-------------+------------+--------+--------+
+          | grad_norm   | 145165.141 | 41030  | 3.538  |
+          | loss        | 1689.71    | 90     | 18.775 |
+          | nll_loss    | 40500.562  | 2210.0 | 18.326 |
+          | num_samples | 41030      | N/A    | N/A    |
+          | reg_loss    | 789.911    | 2210.0 | 0.357  |
+          +-------------+------------+--------+--------+
+INFO - 02/15/26 18:56:47 - 0:01:31 at logger.py:180 - 
+          +-----------------------------------------------------------------+
+          |                            Epoch: 40                            |
+          +------------+------------+------+-------+----------+-------------+
+          | lost       | known      | mode | edit  | capacity | score       |
+          +------------+------------+------+-------+----------+-------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 7/221=0.032 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 5/221=0.023 |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 2/221=0.009 |
+          +------------+------------+------+-------+----------+-------------+
+INFO - 02/15/26 18:56:47 - 0:01:31 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 18:56:47 - 0:01:31 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 18:56:47 - 0:01:32 at logger.py:180 - 
+          +-------------------------------------------+
+          |                 Epoch: 40                 |
+          +-------------+-----------+--------+--------+
+          | name        | value     | weight | mean   |
+          +-------------+-----------+--------+--------+
+          | grad_norm   | 91701.75  | 41030  | 2.235  |
+          | loss        | 1654.419  | 90     | 18.382 |
+          | nll_loss    | 40251.254 | 2210.0 | 18.213 |
+          | num_samples | 41030     | N/A    | N/A    |
+          | reg_loss    | 319.449   | 2210.0 | 0.145  |
+          +-------------+-----------+--------+--------+
+INFO - 02/15/26 18:57:14 - 0:01:59 at logger.py:180 - 
+          +------------------------------------------------------------------+
+          |                            Epoch: 50                             |
+          +------------+------------+------+-------+----------+--------------+
+          | lost       | known      | mode | edit  | capacity | score        |
+          +------------+------------+------+-------+----------+--------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 21/221=0.095 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 9/221=0.041  |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 0/221=0.000  |
+          +------------+------------+------+-------+----------+--------------+
+INFO - 02/15/26 18:57:14 - 0:01:59 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 18:57:14 - 0:01:59 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 18:57:14 - 0:01:59 at logger.py:180 - 
+          +--------------------------------------------+
+          |                 Epoch: 50                  |
+          +-------------+------------+--------+--------+
+          | name        | value      | weight | mean   |
+          +-------------+------------+--------+--------+
+          | grad_norm   | 126182.688 | 41030  | 3.075  |
+          | loss        | 1655.302   | 90     | 18.392 |
+          | nll_loss    | 40094.746  | 2210.0 | 18.142 |
+          | num_samples | 41030      | N/A    | N/A    |
+          | reg_loss    | 353.873    | 2210.0 | 0.16   |
+          +-------------+------------+--------+--------+
+INFO - 02/15/26 18:57:37 - 0:02:22 at logger.py:180 - 
+          +------------------------------------------------------------------+
+          |                            Epoch: 60                             |
+          +------------+------------+------+-------+----------+--------------+
+          | lost       | known      | mode | edit  | capacity | score        |
+          +------------+------------+------+-------+----------+--------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 64/221=0.290 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 26/221=0.118 |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 16/221=0.072 |
+          +------------+------------+------+-------+----------+--------------+
+INFO - 02/15/26 18:57:37 - 0:02:22 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 18:57:37 - 0:02:22 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 18:57:37 - 0:02:22 at logger.py:180 - 
+          +--------------------------------------------+
+          |                 Epoch: 60                  |
+          +-------------+------------+--------+--------+
+          | name        | value      | weight | mean   |
+          +-------------+------------+--------+--------+
+          | grad_norm   | 113562.961 | 41030  | 2.768  |
+          | loss        | 1645.839   | 90     | 18.287 |
+          | nll_loss    | 39964.074  | 2210.0 | 18.083 |
+          | num_samples | 41030      | N/A    | N/A    |
+          | reg_loss    | 365.681    | 2210.0 | 0.165  |
+          +-------------+------------+--------+--------+
+INFO - 02/15/26 18:57:59 - 0:02:44 at logger.py:180 - 
+          +------------------------------------------------------------------+
+          |                            Epoch: 70                             |
+          +------------+------------+------+-------+----------+--------------+
+          | lost       | known      | mode | edit  | capacity | score        |
+          +------------+------------+------+-------+----------+--------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 98/221=0.443 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 41/221=0.186 |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 21/221=0.095 |
+          +------------+------------+------+-------+----------+--------------+
+INFO - 02/15/26 18:57:59 - 0:02:44 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 18:57:59 - 0:02:44 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 18:57:59 - 0:02:44 at logger.py:180 - 
+          +-------------------------------------------+
+          |                 Epoch: 70                 |
+          +-------------+-----------+--------+--------+
+          | name        | value     | weight | mean   |
+          +-------------+-----------+--------+--------+
+          | grad_norm   | 89123.633 | 41030  | 2.172  |
+          | loss        | 1623.137  | 90     | 18.035 |
+          | nll_loss    | 39827.559 | 2210.0 | 18.022 |
+          | num_samples | 41030     | N/A    | N/A    |
+          | reg_loss    | 30.706    | 2210.0 | 0.014  |
+          +-------------+-----------+--------+--------+
+INFO - 02/15/26 18:58:23 - 0:03:08 at logger.py:180 - 
+          +-------------------------------------------------------------------+
+          |                             Epoch: 80                             |
+          +------------+------------+------+-------+----------+---------------+
+          | lost       | known      | mode | edit  | capacity | score         |
+          +------------+------------+------+-------+----------+---------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 106/221=0.480 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 43/221=0.195  |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 24/221=0.109  |
+          +------------+------------+------+-------+----------+---------------+
+INFO - 02/15/26 18:58:23 - 0:03:08 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 18:58:23 - 0:03:08 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 18:58:23 - 0:03:08 at logger.py:180 - 
+          +-------------------------------------------+
+          |                 Epoch: 80                 |
+          +-------------+-----------+--------+--------+
+          | name        | value     | weight | mean   |
+          +-------------+-----------+--------+--------+
+          | grad_norm   | 80506.859 | 41030  | 1.962  |
+          | loss        | 1615.764  | 90     | 17.953 |
+          | nll_loss    | 39676.613 | 2210.0 | 17.953 |
+          | num_samples | 41030     | N/A    | N/A    |
+          | reg_loss    | 2.396     | 2210.0 | 0.001  |
+          +-------------+-----------+--------+--------+
+INFO - 02/15/26 18:58:48 - 0:03:32 at logger.py:180 - 
+          +-------------------------------------------------------------------+
+          |                             Epoch: 90                             |
+          +------------+------------+------+-------+----------+---------------+
+          | lost       | known      | mode | edit  | capacity | score         |
+          +------------+------------+------+-------+----------+---------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 123/221=0.557 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 42/221=0.190  |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 33/221=0.149  |
+          +------------+------------+------+-------+----------+---------------+
+INFO - 02/15/26 18:58:48 - 0:03:32 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 18:58:48 - 0:03:32 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 18:58:48 - 0:03:32 at logger.py:180 - 
+          +-------------------------------------------+
+          |                 Epoch: 90                 |
+          +-------------+-----------+--------+--------+
+          | name        | value     | weight | mean   |
+          +-------------+-----------+--------+--------+
+          | grad_norm   | 130294.57 | 41030  | 3.176  |
+          | loss        | 1613.617  | 90     | 17.929 |
+          | nll_loss    | 39599.711 | 2210.0 | 17.918 |
+          | num_samples | 41030     | N/A    | N/A    |
+          | reg_loss    | 50.569    | 2210.0 | 0.023  |
+          +-------------+-----------+--------+--------+
+INFO - 02/15/26 18:59:14 - 0:03:59 at logger.py:180 - 
+          +-------------------------------------------------------------------+
+          |                             Epoch: 100                            |
+          +------------+------------+------+-------+----------+---------------+
+          | lost       | known      | mode | edit  | capacity | score         |
+          +------------+------------+------+-------+----------+---------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 104/221=0.471 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 39/221=0.176  |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 20/221=0.090  |
+          +------------+------------+------+-------+----------+---------------+
+INFO - 02/15/26 18:59:14 - 0:03:59 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 18:59:14 - 0:03:59 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 18:59:14 - 0:03:59 at logger.py:180 - 
+          +--------------------------------------------+
+          |                 Epoch: 100                 |
+          +-------------+------------+--------+--------+
+          | name        | value      | weight | mean   |
+          +-------------+------------+--------+--------+
+          | grad_norm   | 101288.953 | 41030  | 2.469  |
+          | loss        | 1612.005   | 90     | 17.911 |
+          | nll_loss    | 39540.68   | 2210.0 | 17.892 |
+          | num_samples | 41030      | N/A    | N/A    |
+          | reg_loss    | 27.095     | 2210.0 | 0.012  |
+          +-------------+------------+--------+--------+
+INFO - 02/15/26 18:59:40 - 0:04:25 at logger.py:180 - 
+          +-------------------------------------------------------------------+
+          |                             Epoch: 110                            |
+          +------------+------------+------+-------+----------+---------------+
+          | lost       | known      | mode | edit  | capacity | score         |
+          +------------+------------+------+-------+----------+---------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 110/221=0.498 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 37/221=0.167  |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 12/221=0.054  |
+          +------------+------------+------+-------+----------+---------------+
+INFO - 02/15/26 18:59:40 - 0:04:25 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 18:59:40 - 0:04:25 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 18:59:40 - 0:04:25 at logger.py:180 - 
+          +-------------------------------------------+
+          |                 Epoch: 110                |
+          +-------------+-----------+--------+--------+
+          | name        | value     | weight | mean   |
+          +-------------+-----------+--------+--------+
+          | grad_norm   | 96490.328 | 41030  | 2.352  |
+          | loss        | 1604.82   | 90     | 17.831 |
+          | nll_loss    | 39409.191 | 2210.0 | 17.832 |
+          | num_samples | 41030     | N/A    | N/A    |
+          | reg_loss    | 14.795    | 2210.0 | 0.007  |
+          +-------------+-----------+--------+--------+
+INFO - 02/15/26 19:00:03 - 0:04:48 at logger.py:180 - 
+          +-------------------------------------------------------------------+
+          |                             Epoch: 120                            |
+          +------------+------------+------+-------+----------+---------------+
+          | lost       | known      | mode | edit  | capacity | score         |
+          +------------+------------+------+-------+----------+---------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 106/221=0.480 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 34/221=0.154  |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 18/221=0.081  |
+          +------------+------------+------+-------+----------+---------------+
+INFO - 02/15/26 19:00:03 - 0:04:48 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 19:00:03 - 0:04:48 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 19:00:03 - 0:04:48 at logger.py:180 - 
+          +-------------------------------------------+
+          |                 Epoch: 120                |
+          +-------------+-----------+--------+--------+
+          | name        | value     | weight | mean   |
+          +-------------+-----------+--------+--------+
+          | grad_norm   | 104757.0  | 41030  | 2.553  |
+          | loss        | 1600.13   | 90     | 17.779 |
+          | nll_loss    | 39276.988 | 2210.0 | 17.772 |
+          | num_samples | 41030     | N/A    | N/A    |
+          | reg_loss    | 9.323     | 2210.0 | 0.004  |
+          +-------------+-----------+--------+--------+
+INFO - 02/15/26 19:00:25 - 0:05:10 at logger.py:180 - 
+          +-------------------------------------------------------------------+
+          |                             Epoch: 130                            |
+          +------------+------------+------+-------+----------+---------------+
+          | lost       | known      | mode | edit  | capacity | score         |
+          +------------+------------+------+-------+----------+---------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 112/221=0.507 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 38/221=0.172  |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 28/221=0.127  |
+          +------------+------------+------+-------+----------+---------------+
+INFO - 02/15/26 19:00:25 - 0:05:10 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 19:00:25 - 0:05:10 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 19:00:25 - 0:05:10 at logger.py:180 - 
+          +--------------------------------------------+
+          |                 Epoch: 130                 |
+          +-------------+------------+--------+--------+
+          | name        | value      | weight | mean   |
+          +-------------+------------+--------+--------+
+          | grad_norm   | 115455.281 | 41030  | 2.814  |
+          | loss        | 1604.1     | 90     | 17.823 |
+          | nll_loss    | 39269.918  | 2210.0 | 17.769 |
+          | num_samples | 41030      | N/A    | N/A    |
+          | reg_loss    | 80.888     | 2210.0 | 0.037  |
+          +-------------+------------+--------+--------+
+INFO - 02/15/26 19:00:54 - 0:05:39 at logger.py:180 - 
+          +-------------------------------------------------------------------+
+          |                             Epoch: 140                            |
+          +------------+------------+------+-------+----------+---------------+
+          | lost       | known      | mode | edit  | capacity | score         |
+          +------------+------------+------+-------+----------+---------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 101/221=0.457 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 32/221=0.145  |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 11/221=0.050  |
+          +------------+------------+------+-------+----------+---------------+
+INFO - 02/15/26 19:00:54 - 0:05:39 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 19:00:54 - 0:05:39 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 19:00:54 - 0:05:39 at logger.py:180 - 
+          +--------------------------------------------+
+          |                 Epoch: 140                 |
+          +-------------+------------+--------+--------+
+          | name        | value      | weight | mean   |
+          +-------------+------------+--------+--------+
+          | grad_norm   | 124808.055 | 41030  | 3.042  |
+          | loss        | 1597.355   | 90     | 17.748 |
+          | nll_loss    | 39205.438  | 2210.0 | 17.74  |
+          | num_samples | 41030      | N/A    | N/A    |
+          | reg_loss    | 23.483     | 2210.0 | 0.011  |
+          +-------------+------------+--------+--------+
+INFO - 02/15/26 19:01:24 - 0:06:08 at logger.py:180 - 
+          +------------------------------------------------------------------+
+          |                            Epoch: 150                            |
+          +------------+------------+------+-------+----------+--------------+
+          | lost       | known      | mode | edit  | capacity | score        |
+          +------------+------------+------+-------+----------+--------------+
+          | uga-no_spe | heb-no_spe | mle  | None  | None     | 25/221=0.113 |
+          | uga-no_spe | heb-no_spe | flow | False | 3        | 14/221=0.063 |
+          | uga-no_spe | heb-no_spe | flow | True  | 3        | 2/221=0.009  |
+          +------------+------------+------+-------+----------+--------------+
+INFO - 02/15/26 19:01:24 - 0:06:08 at trainer.py:73 - Saving to log/02-15/UgaHebSmallNoSpe-18:55:15
+INFO - 02/15/26 19:01:24 - 0:06:08 at trainer.py:77 - Finished saving decipher trainer
+INFO - 02/15/26 19:01:24 - 0:06:08 at logger.py:180 - 
+          +-------------------------------------------+
+          |                 Epoch: 150                |
+          +-------------+-----------+--------+--------+
+          | name        | value     | weight | mean   |
+          +-------------+-----------+--------+--------+
+          | grad_norm   | 630613.5  | 41030  | 15.37  |
+          | loss        | 2099.127  | 90     | 23.324 |
+          | nll_loss    | 39562.344 | 2210.0 | 17.902 |
+          | num_samples | 41030     | N/A    | N/A    |
+          | reg_loss    | 8982.417  | 2210.0 | 4.064  |
+          +-------------+-----------+--------+--------+

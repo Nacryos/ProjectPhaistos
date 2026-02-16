@@ -1,0 +1,41 @@
+branch	concept_id	known	known_languages	lost	lost_language
+semitic	head	['raʔs', 'roːʃ']	arb|heb	rɑs	amh
+semitic	eye	['ʕɑjin', 'ʕɑjn']	arb|heb	ɑjn	amh
+semitic	ear	['ʔozen', 'ʔuðun']	arb|heb	dʒoro	amh
+semitic	mouth	['fɑm', 'pe']	arb|heb	ɑf	amh
+semitic	hand	['jɑd']	arb|heb	ədʒ	amh
+semitic	foot	['reɡel', 'ridʒl']	arb|heb	əɡr	amh
+semitic	heart	['lev', 'qɑlb']	arb|heb	ləbː	amh
+semitic	blood	['dɑm']	arb|heb	dɑm	amh
+semitic	father	['ʔɑb', 'ʔɑv']	arb|heb	ɑbːɑt	amh
+semitic	mother	['ʔem', 'ʔumː']	arb|heb	ənːɑt	amh
+semitic	son	['ben', 'ibn']	arb|heb	wənd	amh
+semitic	daughter	['bint', 'bɑt']	arb|heb	lədʒ	amh
+semitic	brother	['ʔɑx']	arb|heb	wəndəm	amh
+semitic	water	['mɑjim', 'mɑːʔ']	arb|heb	wuhɑ	amh
+semitic	fire	['nɑːr', 'ʔeʃ']	arb|heb	əsɑt	amh
+semitic	sun	['ʃemeʃ', 'ʃɑms']	arb|heb	tsəhɑj	amh
+semitic	moon	['jɑreɑx', 'qɑmɑr']	arb|heb	tʃərəqɑ	amh
+semitic	star	['koxɑv', 'nɑdʒm']	arb|heb	kokəb	amh
+semitic	earth	['ʔerets', 'ʔɑrd']	arb|heb	mərət	amh
+semitic	mountain	['dʒɑbɑl', 'hɑr']	arb|heb	tərɑrɑ	amh
+semitic	river	['nɑhr', 'nɑhɑr']	arb|heb	wənz	amh
+semitic	stone	['ħɑdʒɑr', 'ʔeven']	arb|heb	dəŋɡɑj	amh
+semitic	tree	['ʃɑdʒɑrɑ', 'ʕets']	arb|heb	zɑf	amh
+semitic	horse	['sus', 'ħisˤɑːn']	arb|heb	fərəs	amh
+semitic	dog	['kelev', 'kɑlb']	arb|heb	wəʃːɑ	amh
+semitic	fish	['dɑɡ', 'sɑmɑk']	arb|heb	ɑsɑ	amh
+semitic	bird	['tsipːor', 'tˤɑjr']	arb|heb	wof	amh
+semitic	ox	['ʃor', 'θɑwr']	arb|heb	bəre	amh
+semitic	eat	['ʔɑkɑlɑ', 'ʔɑxɑl']	arb|heb	bəlːɑ	amh
+semitic	drink	['ʃɑribɑ', 'ʃɑtɑ']	arb|heb	tˤətˤːɑ	amh
+semitic	give	['nɑtɑn', 'ʔɑʕtˤɑː']	arb|heb	sətˤːɑ	amh
+semitic	come	['bo', 'dʒɑːʔɑ']	arb|heb	mətˤːɑ	amh
+semitic	die	['mut', 'mɑːtɑ']	arb|heb	mote	amh
+semitic	know	['jɑdɑʕ', 'ʕɑlimɑ']	arb|heb	ɑwːəqe	amh
+semitic	hear	['sɑmiʕɑ', 'ʃɑmɑʕ']	arb|heb	səmːɑ	amh
+semitic	see	['rɑʔɑ', 'rɑʔɑː']	arb|heb	ɑjːɑ	amh
+semitic	name	['ism', 'ʃem']	arb|heb	səm	amh
+semitic	god	['ʔeloɑh', 'ʔilɑːh']	arb|heb	ɑmlɑk	amh
+semitic	king	['melex', 'mɑlik']	arb|heb	nəɡuʃ	amh
+semitic	house	['bɑjit', 'bɑjt']	arb|heb	bet	amh

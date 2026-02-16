@@ -1,0 +1,41 @@
+branch	concept_id	known	known_languages	lost	lost_language
+germanic	head	['houbit', 'hɔvuð', 'hɔːbiθ']	goh|got|non	hæːɑvod	ang
+germanic	eye	['ouɣɑ', 'ɔuɣɑ', 'ɔːɣoː']	goh|got|non	æːɑje	ang
+germanic	ear	['eirɑ', 'oːrɑ', 'ɔːsoː']	goh|got|non	æːɑre	ang
+germanic	mouth	['mund', 'munːr', 'munθs']	goh|got|non	muːθ	ang
+germanic	hand	['hɑndus', 'hɑnt', 'hɔnd']	goh|got|non	hɑnd	ang
+germanic	foot	['foːtr', 'foːtus', 'fuoz']	goh|got|non	foːt	ang
+germanic	heart	['hertsɑ', 'hjɑrtɑ', 'hɛrtoː']	goh|got|non	heorte	ang
+germanic	blood	['bloːð', 'bloːθ', 'bluot']	goh|got|non	bloːd	ang
+germanic	father	['fɑter', 'fɑðir', 'fɑðɑr']	goh|got|non	fæder	ang
+germanic	mother	['moːðir', 'muoter', 'ɛθiː']	goh|got|non	moːdor	ang
+germanic	son	['sunr', 'sunu', 'sunus']	goh|got|non	sunu	ang
+germanic	daughter	['doːtːir', 'dɔːxtɑr', 'toxter']	goh|got|non	doxtor	ang
+germanic	brother	['broːðir', 'broːθɑr', 'bruoder']	goh|got|non	broːθor	ang
+germanic	water	['vɑtn', 'wɑtoː', 'wɑtsːɑr']	goh|got|non	wæter	ang
+germanic	fire	['eldr', 'fiur', 'foːn']	goh|got|non	fyːr	ang
+germanic	sun	['soːl', 'sunːoː', 'sunːɑ']	goh|got|non	sunːe	ang
+germanic	moon	['meːnɑ', 'moːni', 'mɑːno']	goh|got|non	moːnɑ	ang
+germanic	star	['sterno', 'stjɑrnɑ', 'stɛrnoː']	goh|got|non	steorːɑ	ang
+germanic	earth	['erdɑ', 'jɔrð', 'ɛrθɑ']	goh|got|non	eorθe	ang
+germanic	mountain	['berɣ', 'fjɑlː', 'fɛrɣuni']	goh|got|non	beorɣ	ang
+germanic	river	['ɑhɑ', 'ɑː']	goh|got|non	æːɑ	ang
+germanic	stone	['stein', 'steinː', 'stɛns']	goh|got|non	stɑːn	ang
+germanic	tree	['boum', 'treː', 'triu']	goh|got|non	treːow	ang
+germanic	horse	['hestr', 'hros']	goh|got|non	hors	ang
+germanic	dog	['hundr', 'hunt']	goh|got|non	hund	ang
+germanic	fish	['fisk', 'fiskr', 'fisks']	goh|got|non	fiʃ	ang
+germanic	bird	['foɣɑl', 'fuɣl', 'fuɣls']	goh|got|non	fuɣol	ang
+germanic	ox	['oxso', 'uxi', 'ɔːxsɑ']	goh|got|non	oxɑ	ang
+germanic	eat	['etsːɑn', 'etɑ', 'itɑn']	goh|got|non	etɑn	ang
+germanic	drink	['drekːɑ', 'driɣkɑn', 'trinkɑn']	goh|got|non	drinkɑn	ang
+germanic	give	['ɣebɑn', 'ɣevɑ', 'ɣibɑn']	goh|got|non	jievɑn	ang
+germanic	come	['komɑ', 'kwemɑn', 'kwimɑn']	goh|got|non	kumɑn	ang
+germanic	die	['deijɑ', 'diwɑn', 'sterbɑn']	goh|got|non	steorfɑn	ang
+germanic	know	['kunːɑ', 'kunːɑn']	goh|got|non	kunːɑn	ang
+germanic	hear	['heirɑ', 'hoːren', 'hɔːsjɑn']	goh|got|non	hiːerɑn	ang
+germanic	see	['sehɑn', 'sjɑː', 'sɛxwɑn']	goh|got|non	seːon	ang
+germanic	name	['nɑmo', 'nɑmoː', 'nɑvn']	goh|got|non	nɑmɑ	ang
+germanic	god	['ɣot', 'ɣuð', 'ɣuθ']	goh|got|non	ɣod	ang
+germanic	king	['konuŋr', 'kuniŋ', 'θiudɑns']	goh|got|non	kyniŋ	ang
+germanic	house	['huːs', 'rɑzn']	goh|got|non	huːs	ang

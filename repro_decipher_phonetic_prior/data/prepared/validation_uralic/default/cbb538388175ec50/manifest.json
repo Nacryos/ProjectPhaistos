@@ -1,0 +1,21 @@
+{
+  "copied_assets": [],
+  "corpus": "validation_uralic",
+  "exported": {
+    "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/ground_truth.tsv",
+    "known_text": "{\"fin\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/known_fin.txt\", \"hun\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/known_hun.txt\", \"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/known_known_union.txt\"}",
+    "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/lost.txt",
+    "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/metadata.json",
+    "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_uralic/default/cbb538388175ec50/splits.json"
+  },
+  "fingerprint": "cbb538388175ec50",
+  "num_ground_truth_rows": 40,
+  "num_known_vocab": {
+    "fin": 40,
+    "hun": 40,
+    "known_union": 80
+  },
+  "num_lost_lines": 40,
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "variant": null
+}

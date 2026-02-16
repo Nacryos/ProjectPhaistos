@@ -1,0 +1,24 @@
+{
+  "available_languages": [
+    "gmy",
+    "grc"
+  ],
+  "canonical_source": "ancient-scripts-datasets",
+  "config": {
+    "max_lines": 0,
+    "seed": 1234
+  },
+  "known_languages": [
+    "grc"
+  ],
+  "lost_language": "gmy",
+  "name": "validation_hellenic",
+  "representation": "IPA_first_fallback_form",
+  "selection": "default",
+  "source_paths": {
+    "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/hellenic.tsv",
+    "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+  },
+  "validation_branch": "hellenic",
+  "variant": null
+}

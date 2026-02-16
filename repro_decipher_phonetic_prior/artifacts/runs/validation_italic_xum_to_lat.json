@@ -1,0 +1,184 @@
+{
+  "auroc": 0.5371900826446281,
+  "branch": "italic",
+  "corpus": "validation_italic",
+  "created_at": "2026-02-16T04:11:13+00:00",
+  "examples": [
+    {
+      "concept_id": "head",
+      "correct": false,
+      "first_positive_rank": 20,
+      "gold_candidates": [
+        "k\u0251put"
+      ],
+      "lost": "k\u0251put",
+      "pred_top1": "pe\u02d0s",
+      "score_top1": -12.474947929382324
+    },
+    {
+      "concept_id": "hand",
+      "correct": false,
+      "first_positive_rank": 16,
+      "gold_candidates": [
+        "m\u0251nus"
+      ],
+      "lost": "m\u0251nf",
+      "pred_top1": "kor",
+      "score_top1": -10.029099464416504
+    },
+    {
+      "concept_id": "father",
+      "correct": false,
+      "first_positive_rank": 25,
+      "gold_candidates": [
+        "p\u0251ter"
+      ],
+      "lost": "p\u0251ter",
+      "pred_top1": "d\u0251re",
+      "score_top1": -12.44079303741455
+    },
+    {
+      "concept_id": "mother",
+      "correct": false,
+      "first_positive_rank": 28,
+      "gold_candidates": [
+        "m\u0251\u02d0ter"
+      ],
+      "lost": "m\u0251trer",
+      "pred_top1": "p\u0251ter",
+      "score_top1": -14.865785598754883
+    },
+    {
+      "concept_id": "brother",
+      "correct": false,
+      "first_positive_rank": 34,
+      "gold_candidates": [
+        "fr\u0251\u02d0ter"
+      ],
+      "lost": "fr\u0251trom",
+      "pred_top1": "domus",
+      "score_top1": -17.223085403442383
+    },
+    {
+      "concept_id": "water",
+      "correct": false,
+      "first_positive_rank": 10,
+      "gold_candidates": [
+        "\u0251kw\u0251"
+      ],
+      "lost": "utur",
+      "pred_top1": "kor",
+      "score_top1": -10.117424011230469
+    },
+    {
+      "concept_id": "fire",
+      "correct": false,
+      "first_positive_rank": 20,
+      "gold_candidates": [
+        "i\u0261nis"
+      ],
+      "lost": "pir",
+      "pred_top1": "kor",
+      "score_top1": -7.917294979095459
+    },
+    {
+      "concept_id": "bird",
+      "correct": false,
+      "first_positive_rank": 8,
+      "gold_candidates": [
+        "\u0251wis"
+      ],
+      "lost": "\u0251wif",
+      "pred_top1": "kor",
+      "score_top1": -9.973681449890137
+    },
+    {
+      "concept_id": "ox",
+      "correct": false,
+      "first_positive_rank": 5,
+      "gold_candidates": [
+        "bo\u02d0s"
+      ],
+      "lost": "bum",
+      "pred_top1": "kor",
+      "score_top1": -7.923438549041748
+    },
+    {
+      "concept_id": "come",
+      "correct": false,
+      "first_positive_rank": 37,
+      "gold_candidates": [
+        "weni\u02d0re"
+      ],
+      "lost": "benust",
+      "pred_top1": "re\u02d0ks",
+      "score_top1": -14.776902198791504
+    },
+    {
+      "concept_id": "name",
+      "correct": false,
+      "first_positive_rank": 30,
+      "gold_candidates": [
+        "no\u02d0men"
+      ],
+      "lost": "nome",
+      "pred_top1": "o\u02d0s",
+      "score_top1": -10.063851356506348
+    }
+  ],
+  "history": [
+    {
+      "objective": -7.456956386566162,
+      "omega_cov": 0.0,
+      "omega_loss": 3.0664828955195844e-05,
+      "quality": -7.456925868988037,
+      "step": 1
+    },
+    {
+      "objective": -7.456956386566162,
+      "omega_cov": 0.0,
+      "omega_loss": 3.064859993173741e-05,
+      "quality": -7.456925868988037,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "lat"
+  ],
+  "known_vocab_key": "lat",
+  "lost_language": "xum",
+  "mean_negative_score": -13.127595086753507,
+  "mean_positive_score": -12.78131458976052,
+  "metadata": {
+    "available_languages": [
+      "lat",
+      "osc",
+      "xum"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "lat"
+    ],
+    "lost_language": "xum",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/italic.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "italic"
+  },
+  "mrr": 0.06845331007095713,
+  "n_eval": 11,
+  "n_neg_scored": 429,
+  "n_pos_scored": 11,
+  "num_known_vocab": 40,
+  "num_lost_tokens": 11,
+  "p_at_1": 0.0,
+  "score_margin": 0.34628049699298735,
+  "seed": 2113177828,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:xum:lat"
+}

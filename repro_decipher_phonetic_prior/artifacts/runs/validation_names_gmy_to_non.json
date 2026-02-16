@@ -1,0 +1,101 @@
+{
+  "auroc": 0.8888888888888888,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:23+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "ty\u02d0r"
+      ],
+      "lost": "diwe",
+      "pred_top1": "so\u02d0l",
+      "score_top1": -5.399788856506348
+    }
+  ],
+  "history": [
+    {
+      "objective": -6.280198097229004,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00015164498472586274,
+      "quality": -6.280046463012695,
+      "step": 1
+    },
+    {
+      "objective": -6.280084609985352,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00015176857414189726,
+      "quality": -6.279932975769043,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "non"
+  ],
+  "known_vocab_key": "non",
+  "lost_language": "gmy",
+  "mean_negative_score": -7.438618924882677,
+  "mean_positive_score": -5.427196025848389,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "non"
+    ],
+    "lost_language": "gmy",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.5,
+  "n_eval": 1,
+  "n_neg_scored": 9,
+  "n_pos_scored": 1,
+  "num_known_vocab": 10,
+  "num_lost_tokens": 1,
+  "p_at_1": 0.0,
+  "score_margin": 2.0114228990342884,
+  "seed": 1091655652,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:gmy:non"
+}

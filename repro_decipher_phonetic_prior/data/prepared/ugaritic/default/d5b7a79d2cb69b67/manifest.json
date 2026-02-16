@@ -1,0 +1,19 @@
+{
+  "copied_assets": [],
+  "corpus": "ugaritic",
+  "exported": {
+    "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/default/d5b7a79d2cb69b67/ground_truth.tsv",
+    "known_text": "{\"hebrew\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/default/d5b7a79d2cb69b67/known_hebrew.txt\"}",
+    "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/default/d5b7a79d2cb69b67/lost.txt",
+    "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/default/d5b7a79d2cb69b67/metadata.json",
+    "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/ugaritic/default/d5b7a79d2cb69b67/splits.json"
+  },
+  "fingerprint": "d5b7a79d2cb69b67",
+  "num_ground_truth_rows": 38898,
+  "num_known_vocab": {
+    "hebrew": 39451
+  },
+  "num_lost_lines": 38898,
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "variant": null
+}

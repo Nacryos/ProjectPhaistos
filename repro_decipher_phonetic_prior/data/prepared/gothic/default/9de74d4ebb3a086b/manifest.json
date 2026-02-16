@@ -1,0 +1,19 @@
+{
+  "copied_assets": [
+    "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b/assets/segments.pkl",
+    "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b/assets/got.pretrained.pth",
+    "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b/assets/gotica.xml.zip"
+  ],
+  "corpus": "gothic",
+  "exported": {
+    "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b/lost.txt",
+    "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b/metadata.json",
+    "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/gothic/default/9de74d4ebb3a086b/splits.json"
+  },
+  "fingerprint": "9de74d4ebb3a086b",
+  "num_ground_truth_rows": 0,
+  "num_known_vocab": {},
+  "num_lost_lines": 4340,
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "variant": null
+}

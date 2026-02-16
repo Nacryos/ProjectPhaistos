@@ -1,0 +1,26 @@
+{
+  "available_languages": [
+    "ave",
+    "fas",
+    "san"
+  ],
+  "canonical_source": "ancient-scripts-datasets",
+  "config": {
+    "max_lines": 0,
+    "seed": 1234
+  },
+  "known_languages": [
+    "fas",
+    "san"
+  ],
+  "lost_language": "ave",
+  "name": "validation_indo_iranian",
+  "representation": "IPA_first_fallback_form",
+  "selection": "default",
+  "source_paths": {
+    "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/indo_iranian.tsv",
+    "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+  },
+  "validation_branch": "indo_iranian",
+  "variant": null
+}

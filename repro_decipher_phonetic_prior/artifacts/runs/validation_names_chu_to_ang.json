@@ -1,0 +1,119 @@
+{
+  "auroc": 0.7142857142857143,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:11:50+00:00",
+  "examples": [
+    {
+      "concept_id": "thunder_god",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "\u03b8unor"
+      ],
+      "lost": "perun\u028a",
+      "pred_top1": "mo\u02d0n\u0251",
+      "score_top1": -14.27767562866211
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "tses\u0251r\u02b2",
+      "pred_top1": "sun\u02d0e",
+      "score_top1": -16.380651473999023
+    },
+    {
+      "concept_id": "sacred_river",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "dun\u0251j\u026a",
+      "pred_top1": "\u03b8unor",
+      "score_top1": -14.210823059082031
+    }
+  ],
+  "history": [
+    {
+      "objective": -10.185178756713867,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00019241437257733196,
+      "quality": -10.184986114501953,
+      "step": 1
+    },
+    {
+      "objective": -10.18517780303955,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0001920528884511441,
+      "quality": -10.184986114501953,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "ang"
+  ],
+  "known_vocab_key": "ang",
+  "lost_language": "chu",
+  "mean_negative_score": -15.37071977342878,
+  "mean_positive_score": -14.369826316833496,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "ang"
+    ],
+    "lost_language": "chu",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.3333333333333333,
+  "n_eval": 1,
+  "n_neg_scored": 14,
+  "n_pos_scored": 1,
+  "num_known_vocab": 5,
+  "num_lost_tokens": 3,
+  "p_at_1": 0.0,
+  "score_margin": 1.0008934565952838,
+  "seed": 619388661,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:chu:ang"
+}

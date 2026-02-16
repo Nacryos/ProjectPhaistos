@@ -1,0 +1,28 @@
+{
+  "available_languages": [
+    "ang",
+    "goh",
+    "got",
+    "non"
+  ],
+  "canonical_source": "ancient-scripts-datasets",
+  "config": {
+    "max_lines": 0,
+    "seed": 1234
+  },
+  "known_languages": [
+    "goh",
+    "got",
+    "non"
+  ],
+  "lost_language": "ang",
+  "name": "validation_germanic",
+  "representation": "IPA_first_fallback_form",
+  "selection": "default",
+  "source_paths": {
+    "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/germanic.tsv",
+    "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+  },
+  "validation_branch": "germanic",
+  "variant": null
+}

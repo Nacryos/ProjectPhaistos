@@ -1,0 +1,21 @@
+{
+  "copied_assets": [],
+  "corpus": "validation_turkic",
+  "exported": {
+    "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/ground_truth.tsv",
+    "known_text": "{\"known_union\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/known_known_union.txt\", \"otk\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/known_otk.txt\", \"tur\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/known_tur.txt\"}",
+    "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/lost.txt",
+    "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/metadata.json",
+    "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/validation_turkic/default/901125f786728771/splits.json"
+  },
+  "fingerprint": "901125f786728771",
+  "num_ground_truth_rows": 40,
+  "num_known_vocab": {
+    "known_union": 73,
+    "otk": 39,
+    "tur": 40
+  },
+  "num_lost_lines": 40,
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "variant": null
+}

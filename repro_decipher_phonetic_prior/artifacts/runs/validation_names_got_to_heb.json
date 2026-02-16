@@ -1,0 +1,121 @@
+{
+  "auroc": 0.7678571428571429,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:12:30+00:00",
+  "examples": [
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "\u0283eme\u0283"
+      ],
+      "lost": "s\u0254\u02d0il",
+      "pred_top1": "j\u0251\u02d0m",
+      "score_top1": -11.410757064819336
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": 6,
+      "gold_candidates": [
+        "j\u0251re\u0251x"
+      ],
+      "lost": "me\u02d0n\u0251",
+      "pred_top1": "j\u0251\u02d0m",
+      "score_top1": -11.379573822021484
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251is\u0251r",
+      "pred_top1": "b\u0251\u0295\u0251l",
+      "score_top1": -13.354142189025879
+    }
+  ],
+  "history": [
+    {
+      "objective": -8.568347930908203,
+      "omega_cov": 0.0,
+      "omega_loss": 0.0001224293082486838,
+      "quality": -8.568225860595703,
+      "step": 1
+    },
+    {
+      "objective": -8.568346977233887,
+      "omega_cov": 0.0,
+      "omega_loss": 0.00012221746146678925,
+      "quality": -8.568224906921387,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "heb"
+  ],
+  "known_vocab_key": "heb",
+  "lost_language": "got",
+  "mean_negative_score": -13.576291288648333,
+  "mean_positive_score": -12.122419357299805,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "heb"
+    ],
+    "lost_language": "got",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.25,
+  "n_eval": 2,
+  "n_neg_scored": 28,
+  "n_pos_scored": 2,
+  "num_known_vocab": 10,
+  "num_lost_tokens": 3,
+  "p_at_1": 0.0,
+  "score_margin": 1.4538719313485284,
+  "seed": 648976650,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 1.0,
+  "variant": "pair:got:heb"
+}

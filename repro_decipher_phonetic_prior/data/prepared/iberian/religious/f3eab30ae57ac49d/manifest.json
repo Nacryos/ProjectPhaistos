@@ -1,0 +1,19 @@
+{
+  "copied_assets": [],
+  "corpus": "iberian",
+  "exported": {
+    "ground_truth": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/religious/f3eab30ae57ac49d/ground_truth.tsv",
+    "known_text": "{\"proposed_meaning\": \"/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/religious/f3eab30ae57ac49d/known_proposed_meaning.txt\"}",
+    "lost_text": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/religious/f3eab30ae57ac49d/lost.txt",
+    "metadata": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/religious/f3eab30ae57ac49d/metadata.json",
+    "splits": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data/prepared/iberian/religious/f3eab30ae57ac49d/splits.json"
+  },
+  "fingerprint": "f3eab30ae57ac49d",
+  "num_ground_truth_rows": 67,
+  "num_known_vocab": {
+    "proposed_meaning": 65
+  },
+  "num_lost_lines": 67,
+  "prepared_at": "2026-02-16T03:46:42+00:00",
+  "variant": "religious"
+}

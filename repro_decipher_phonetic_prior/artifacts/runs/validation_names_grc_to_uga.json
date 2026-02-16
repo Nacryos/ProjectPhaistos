@@ -1,0 +1,221 @@
+{
+  "auroc": 0.4584415584415584,
+  "branch": "names",
+  "corpus": "validation_names",
+  "created_at": "2026-02-16T04:13:06+00:00",
+  "examples": [
+    {
+      "concept_id": "sky_father",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "zdeus",
+      "pred_top1": "\u0294ilu",
+      "score_top1": -13.209310531616211
+    },
+    {
+      "concept_id": "sun_god",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "\u0283\u0251p\u0283u"
+      ],
+      "lost": "he\u02d0lios",
+      "pred_top1": "b\u0251\u0295lu",
+      "score_top1": -18.045785903930664
+    },
+    {
+      "concept_id": "moon_god",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "j\u0251rixu"
+      ],
+      "lost": "selen\u02d0e\u02d0",
+      "pred_top1": "\u0294\u0251n\u0251tu",
+      "score_top1": -20.49862289428711
+    },
+    {
+      "concept_id": "war_god",
+      "correct": false,
+      "first_positive_rank": 8,
+      "gold_candidates": [
+        "\u0294\u0251n\u0251tu"
+      ],
+      "lost": "\u0251re\u02d0s",
+      "pred_top1": "\u0294ilu",
+      "score_top1": -13.105095863342285
+    },
+    {
+      "concept_id": "love_deity",
+      "correct": true,
+      "first_positive_rank": 1,
+      "gold_candidates": [
+        "\u0295\u0251\u03b8t\u0251rtu"
+      ],
+      "lost": "\u0251p\u02b0rodi\u02d0te\u02d0",
+      "pred_top1": "\u0295\u0251\u03b8t\u0251rtu",
+      "score_top1": -27.943357467651367
+    },
+    {
+      "concept_id": "death_god",
+      "correct": false,
+      "first_positive_rank": 2,
+      "gold_candidates": [
+        "mo\u02d0tu"
+      ],
+      "lost": "h\u0251\u02d0de\u02d0s",
+      "pred_top1": "b\u0251\u0295lu",
+      "score_top1": -18.03094482421875
+    },
+    {
+      "concept_id": "sea_god",
+      "correct": false,
+      "first_positive_rank": 6,
+      "gold_candidates": [
+        "j\u0251m\u02d0u"
+      ],
+      "lost": "poseido\u02d0n",
+      "pred_top1": "ko\u03b8\u0251ru",
+      "score_top1": -23.036640167236328
+    },
+    {
+      "concept_id": "smith_god",
+      "correct": false,
+      "first_positive_rank": 3,
+      "gold_candidates": [
+        "ko\u03b8\u0251ru"
+      ],
+      "lost": "he\u02d0p\u02b0\u0251istos",
+      "pred_top1": "\u0295\u0251\u03b8t\u0251rtu",
+      "score_top1": -27.91448211669922
+    },
+    {
+      "concept_id": "caesar_title",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "k\u0251is\u0251r",
+      "pred_top1": "\u0294ilu",
+      "score_top1": -15.672128677368164
+    },
+    {
+      "concept_id": "alexander_name",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0251leks\u0251ndros",
+      "pred_top1": "\u0295\u0251\u03b8t\u0251rtu",
+      "score_top1": -27.90280532836914
+    },
+    {
+      "concept_id": "sacred_river",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "neilos",
+      "pred_top1": "j\u0251m\u02d0u",
+      "score_top1": -15.657675743103027
+    },
+    {
+      "concept_id": "sacred_mountain",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "olumpos",
+      "pred_top1": "b\u0251\u0295lu",
+      "score_top1": -18.06072998046875
+    },
+    {
+      "concept_id": "holy_city",
+      "correct": false,
+      "first_positive_rank": null,
+      "gold_candidates": [],
+      "lost": "\u0251t\u02b0e\u02d0n\u0251i",
+      "pred_top1": "ko\u03b8\u0251ru",
+      "score_top1": -20.544448852539062
+    }
+  ],
+  "history": [
+    {
+      "objective": -12.49892807006836,
+      "omega_cov": 0.0,
+      "omega_loss": 6.130732799647376e-05,
+      "quality": -12.49886703491211,
+      "step": 1
+    },
+    {
+      "objective": -12.49892807006836,
+      "omega_cov": 0.0,
+      "omega_loss": 6.128454697318375e-05,
+      "quality": -12.49886703491211,
+      "step": 2
+    }
+  ],
+  "known_languages": [
+    "uga"
+  ],
+  "known_vocab_key": "uga",
+  "lost_language": "grc",
+  "mean_negative_score": -20.517652268843218,
+  "mean_positive_score": -21.608110155378068,
+  "metadata": {
+    "available_languages": [
+      "akk",
+      "amh",
+      "ang",
+      "arb",
+      "arc",
+      "ave",
+      "aze",
+      "chu",
+      "cym",
+      "est",
+      "fas",
+      "fin",
+      "gmy",
+      "goh",
+      "got",
+      "grc",
+      "heb",
+      "hit",
+      "hun",
+      "lat",
+      "lit",
+      "non",
+      "osc",
+      "otk",
+      "phn",
+      "rus",
+      "san",
+      "sga",
+      "tur",
+      "uga"
+    ],
+    "canonical_source": "ancient-scripts-datasets",
+    "known_languages": [
+      "uga"
+    ],
+    "lost_language": "grc",
+    "representation": "IPA_first_fallback_form",
+    "selection": "pair",
+    "source_paths": {
+      "validation_branch": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/names.tsv",
+      "validation_concepts": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/ancient-scripts-datasets/data/validation/concepts.tsv"
+    },
+    "validation_branch": "names"
+  },
+  "mrr": 0.3988095238095238,
+  "n_eval": 7,
+  "n_neg_scored": 110,
+  "n_pos_scored": 7,
+  "num_known_vocab": 9,
+  "num_lost_tokens": 13,
+  "p_at_1": 0.14285714285714285,
+  "score_margin": -1.0904578865348498,
+  "seed": 1113944495,
+  "status": "ok",
+  "steps": 2,
+  "top1_false_positive_rate": 0.8571428571428571,
+  "variant": "pair:grc:uga"
+}

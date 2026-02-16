@@ -1,0 +1,198 @@
+PROJECTPHAISTOS REPLICATION SUMMARY REPORT
+================================================================================
+Generated: 2026-02-16T04:27:00.652806Z
+
+RUN SCOPE
+--------------------------------------------------------------------------------
+Task: Exhaustive directed all-pairs cognitive/cognate validation with false-positive analysis
+Runner: scripts/run_validation_all_pairs.sh
+Settings used: OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 STEPS=2 WORKERS=4 RESUME=0 CORPORA=all
+Total pairs attempted: 926
+Successful pairs: 926
+Unique languages covered: 32
+Languages: akk, amh, ang, arb, arc, ave, aze, bre, chu, cym, est, fas, fin, gmy, goh, got, grc, heb, hit, hun, lat, lit, non, osc, otk, phn, rus, san, sga, tur, uga, xum
+
+DATA VERSIONING
+--------------------------------------------------------------------------------
+Dataset repo: https://github.com/Nacryos/ancient-scripts-datasets.git
+Dataset commit: 6efefde2cd4378d1ede05dac27d5cba80e78901e
+Dataset commit date: 2026-02-15T19:33:24-08:00
+Dataset subject: Add names validation subset: deity, proper, and place names across 30 languages
+LOCK file: /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/third_party/LOCK.json
+
+GLOBAL PERFORMANCE METRICS (all successful pairs)
+--------------------------------------------------------------------------------
+Mean P@1: 0.235602
+Mean Top-1 False Positive Rate: 0.464182
+Mean MRR: 0.360683
+Mean AUROC: 0.571759
+
+BRANCH-LEVEL SUMMARY
+--------------------------------------------------------------------------------
+branch	n_pairs	mean_p_at_1	mean_fpr	mean_mrr	mean_auroc
+names	870	0.248302	0.432157	0.375254	0.576491
+italic	6	0.122294	0.877706	0.313491	0.584329
+hellenic	2	0.041667	0.958333	0.187088	0.543180
+uralic	6	0.037500	0.962500	0.117230	0.522105
+germanic	12	0.032601	0.967399	0.115912	0.514121
+semitic	6	0.029167	0.970833	0.111295	0.505817
+indo_iranian	6	0.026852	0.973148	0.112819	0.503416
+celtic	6	0.025000	0.975000	0.108425	0.509781
+turkic	6	0.020833	0.979167	0.094278	0.514539
+balto_slavic	6	0.016667	0.983333	0.101885	0.530429
+
+TOP 10 LANGUAGES AS LOST (mean_p_at_1_as_lost)
+--------------------------------------------------------------------------------
+language	mean_p_at_1_as_lost	mean_fp_rate_as_lost	mean_mrr_as_lost	mean_auroc_as_lost	n_pairs_as_lost
+fin	0.510100	0.457642	0.633405	0.534023	31
+san	0.424186	0.575814	0.596433	0.559082	31
+otk	0.420968	0.417742	0.533982	0.577261	31
+lat	0.400445	0.599555	0.590870	0.562929	31
+tur	0.394892	0.540591	0.550708	0.580058	31
+grc	0.387184	0.512816	0.537094	0.574259	30
+est	0.361290	0.509677	0.515346	0.549161	31
+heb	0.355814	0.579670	0.537524	0.616918	31
+uga	0.353955	0.508114	0.502026	0.620633	29
+non	0.353624	0.552626	0.492176	0.573288	32
+
+TOP 20 PAIRS BY P@1
+--------------------------------------------------------------------------------
+branch	lost	known	p_at_1	top1_fpr	mrr	auroc	n_eval
+names	tur	akk	1.000000	0.000000	1.000000	0.700000	1
+names	otk	ave	1.000000	0.000000	1.000000	0.866667	1
+names	hun	phn	1.000000	0.000000	1.000000	0.500000	1
+names	tur	arc	1.000000	0.000000	1.000000	0.642857	1
+names	otk	aze	1.000000	0.000000	1.000000	0.166667	1
+names	ave	otk	1.000000	0.000000	1.000000	1.000000	1
+names	san	arc	1.000000	0.000000	1.000000	1.000000	1
+names	grc	amh	1.000000	0.000000	1.000000	0.270833	2
+names	aze	tur	1.000000	0.000000	1.000000	1.000000	1
+names	est	fas	1.000000	0.000000	1.000000	0.833333	1
+names	est	cym	1.000000	0.000000	1.000000	0.000000	1
+names	phn	hun	1.000000	0.000000	1.000000	NA	1
+names	est	chu	1.000000	0.000000	1.000000	1.000000	1
+names	est	aze	1.000000	0.000000	1.000000	0.500000	1
+names	san	aze	1.000000	0.000000	1.000000	1.000000	1
+names	grc	akk	1.000000	0.000000	1.000000	0.160000	1
+names	arb	arc	1.000000	0.000000	1.000000	0.500000	1
+names	est	ave	1.000000	0.000000	1.000000	0.578947	1
+names	arb	aze	1.000000	0.000000	1.000000	0.416667	1
+names	tur	aze	1.000000	0.000000	1.000000	0.500000	1
+
+BOTTOM 20 PAIRS BY P@1
+--------------------------------------------------------------------------------
+branch	lost	known	p_at_1	top1_fpr	mrr	auroc	n_eval
+balto_slavic	chu	lit	0.000000	1.000000	0.099280	0.541506	40
+names	heb	san	0.000000	1.000000	0.244805	0.559441	11
+names	heb	sga	0.000000	0.000000	0.000000	NA	0
+names	hit	akk	0.000000	0.000000	0.000000	NA	0
+names	hit	amh	0.000000	0.000000	0.000000	NA	0
+names	hit	ang	0.000000	0.000000	0.000000	NA	0
+names	hit	arb	0.000000	1.000000	0.087121	0.312500	2
+names	hit	arc	0.000000	0.000000	0.000000	NA	0
+names	heb	rus	0.000000	1.000000	0.416667	0.370968	2
+names	hit	ave	0.000000	0.000000	0.000000	NA	0
+names	hit	chu	0.000000	0.000000	0.000000	NA	0
+names	hit	cym	0.000000	0.000000	0.000000	NA	0
+names	hit	est	0.000000	0.000000	0.000000	NA	0
+names	hit	fas	0.000000	0.000000	0.000000	NA	0
+names	hit	fin	0.000000	1.000000	0.266667	0.541667	2
+names	hit	got	0.000000	0.000000	0.000000	NA	0
+names	hit	lat	0.000000	1.000000	0.105556	0.365385	2
+names	hit	aze	0.000000	0.000000	0.000000	NA	0
+names	heb	goh	0.000000	1.000000	0.354167	0.605392	4
+names	heb	fin	0.000000	1.000000	0.326190	0.704082	7
+
+TOP 20 HIGHEST FALSE-POSITIVE-RATE PAIRS
+--------------------------------------------------------------------------------
+branch	lost	known	p_at_1	top1_fpr	mrr	auroc	n_eval
+balto_slavic	chu	lit	0.000000	1.000000	0.099280	0.541506	40
+names	gmy	goh	0.000000	1.000000	0.250000	0.250000	1
+names	got	lat	0.000000	1.000000	0.186508	0.683761	3
+names	got	heb	0.000000	1.000000	0.250000	0.767857	2
+names	got	grc	0.000000	1.000000	0.208333	0.629630	3
+names	got	fin	0.000000	1.000000	0.250000	0.650000	1
+names	got	est	0.000000	1.000000	0.250000	0.500000	1
+names	got	chu	0.000000	1.000000	0.333333	0.000000	1
+names	got	arb	0.000000	1.000000	0.187037	0.592593	3
+names	got	ang	0.000000	1.000000	0.500000	0.846154	2
+names	goh	uga	0.000000	1.000000	0.195833	0.524390	4
+names	goh	tur	0.000000	1.000000	0.288889	0.645833	3
+names	goh	sga	0.000000	1.000000	0.500000	0.000000	1
+names	goh	san	0.000000	1.000000	0.205238	0.467692	5
+names	goh	rus	0.000000	1.000000	0.333333	0.357143	1
+names	goh	heb	0.000000	1.000000	0.260714	0.657609	4
+names	goh	fas	0.000000	1.000000	0.333333	0.625000	1
+names	goh	est	0.000000	1.000000	0.291667	0.630435	2
+names	goh	ave	0.000000	1.000000	0.291667	0.305556	2
+names	gmy	tur	0.000000	1.000000	0.333333	0.666667	1
+
+TOP 20 LOWEST FALSE-POSITIVE-RATE PAIRS
+--------------------------------------------------------------------------------
+branch	lost	known	p_at_1	top1_fpr	mrr	auroc	n_eval
+names	otk	ave	1.000000	0.000000	1.000000	0.866667	1
+names	fas	hit	0.000000	0.000000	0.000000	NA	0
+names	sga	akk	0.000000	0.000000	0.000000	NA	0
+names	sga	amh	0.000000	0.000000	0.000000	NA	0
+names	fas	gmy	0.000000	0.000000	0.000000	NA	0
+names	phn	gmy	0.000000	0.000000	0.000000	NA	0
+names	sga	arb	0.000000	0.000000	0.000000	NA	0
+names	fas	cym	0.000000	0.000000	0.000000	NA	0
+names	sga	arc	0.000000	0.000000	0.000000	NA	0
+names	fas	aze	0.000000	0.000000	0.000000	NA	0
+names	fas	arc	0.000000	0.000000	0.000000	NA	0
+names	sga	ave	1.000000	0.000000	1.000000	0.428571	1
+names	sga	aze	0.000000	0.000000	0.000000	NA	0
+names	fas	hun	0.000000	0.000000	0.000000	NA	0
+names	sga	chu	0.000000	0.000000	0.000000	NA	0
+names	lat	gmy	1.000000	0.000000	1.000000	0.307692	1
+names	est	sga	1.000000	0.000000	1.000000	0.111111	1
+names	phn	fas	0.000000	0.000000	0.000000	NA	0
+names	sga	cym	1.000000	0.000000	1.000000	1.000000	1
+names	est	phn	1.000000	0.000000	1.000000	0.250000	1
+
+DIRECT COMPARISON TO ORIGINAL PAPER
+--------------------------------------------------------------------------------
+Table 2 mean abs delta (base/partial/full): 0.000000 / 0.000000 / 0.000000
+Table 3 reproduced rows with explicit delta: 1
+Table 3 max abs delta among reproduced rows: 0.102000
+Table 3 rows with reproduced delta:
+  Ugaritic vs Hebrew | NeuroCipher P@1 | paper=0.659000, reproduced=0.557000, delta=-0.102000
+Table 4 mean abs delta (base/partial/full): 0.000000 / 0.000000 / 0.000000
+
+REPRO_SUMMARY.md (verbatim)
+--------------------------------------------------------------------------------
+# REPRO_SUMMARY
+
+Generated at: 2026-02-16T04:19:37+00:00
+
+Status: Partial run-based regeneration available.
+Measured rows with run deltas: 1
+Max absolute delta vs paper: 0.1020
+
+Likely causes for mismatch when run-based values differ:
+- Random seed differences and optimization variance.
+- Data version differences (Wiktionary descendants and manually curated sources).
+- Library/runtime differences from the original 2021 environment.
+
+KEY OUTPUT FILES
+--------------------------------------------------------------------------------
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/validation_all_pairs.csv
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/validation_language_summary.csv
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/validation_branch_summary.csv
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/validation_best_pairs.csv
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/validation_worst_pairs.csv
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/validation_highest_fpr_pairs.csv
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/validation_lowest_fpr_pairs.csv
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/comparison_table2_deltas.csv
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/comparison_table3_deltas.csv
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/comparison_table4_deltas.csv
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/REPRO_SUMMARY.md
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/VALIDATION_ALL_PAIRS_SUMMARY.md
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/figures/validation_names_p_at_1_heatmap.png
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/figures/validation_names_fp_rate_heatmap.png
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/figures/validation_all_pairs_scatter.png
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/figures/validation_branch_p1_vs_fpr.png
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/figures/compare_table2.png
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/figures/compare_table3.png
+/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/artifacts/figures/compare_table4.png
