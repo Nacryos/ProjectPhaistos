@@ -1,0 +1,2 @@
+ancient-scripts-datasets/data/training/validation/**/*.tsv !text !filter !merge !diff
+ancient-scripts-datasets/data/training/validation/*.tsv !text !filter !merge !diff
