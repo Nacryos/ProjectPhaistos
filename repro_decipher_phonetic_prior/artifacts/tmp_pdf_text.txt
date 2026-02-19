@@ -1,0 +1,1043 @@
+
+
+===== PAGE 1 =====
+Deciphering Undersegmented Ancient Scripts Using Phonetic Prior
+Jiaming Luo
+CSAIL, MIT
+j_luo@csail.mit.eduFrederik Hartmann
+University of Konstanz
+frederik.hartmann@uni-konstanz.de
+Enrico Santus
+Bayer
+enrico.santus@bayer.comYuan Cao
+Google Brain
+yuancao@google.comRegina Barzilay
+CSAIL, MIT
+regina@csail.mit.edu
+Abstract
+Most undeciphered lost languages exhibit
+two characteristics that pose signiﬁcant de-
+cipherment challenges: (1) the scripts are
+not fully segmented into words; (2) the clos-
+est known language is not determined. We
+propose a decipherment model that handles
+both of these challenges by building on rich
+linguistic constraints reﬂecting consistent
+patterns in historical sound change. We cap-
+ture the natural phonological geometry by
+learning character embeddings based on the
+International Phonetic Alphabet (IPA). The
+resulting generative framework jointly mod-
+els word segmentation and cognate align-
+ment, informed by phonological constraints.
+We evaluate the model on both deciphered
+languages (Gothic, Ugaritic) and an undeci-
+phered one (Iberian). The experiments show
+that incorporating phonetic geometry leads
+to clear and consistent gains. Additionally,
+we propose a measure for language close-
+ness which correctly identiﬁes related lan-
+guages for Gothic and Ugaritic. For Iberian,
+the method does not show strong evidence
+supporting Basque as a related language,
+concurring with the favored position by the
+current scholarship.1
+1 Introduction
+All the known cases of lost language decipher-
+ment have been accomplished by human experts,
+oftentimes over decades of painstaking efforts. At
+least a dozen languages are still undeciphered to-
+day. For some of those languages, even the most
+fundamental questions pertaining to their origins
+and connections to known languages are shrouded
+in mystery, igniting ﬁerce scientiﬁc debate among
+humanities scholars. Can NLP methods be help-
+ful in bringing some clarity to these questions?
+1Code and data available at https://github.com/
+j-luo93/DecipherUnsegmented/ .Recent work has already demonstrated that algo-
+rithms can successfully decipher lost languages
+like Ugaritic and Linear B (Luo et al., 2019), rely-
+ing only on non-parallel data in known languages
+– Hebrew and Ancient Greek, respectively. How-
+ever, these methods are based on assumptions that
+are not applicable to many undeciphered scripts.
+The ﬁrst assumption relates to the knowledge of
+language family of the lost language. This infor-
+mation enables us to identify the closest living lan-
+guage, which anchors the decipherment process.
+Moreover, the models assume signiﬁcant proxim-
+ity between the two languages so that a signiﬁ-
+cant portion of their vocabulary is matched. The
+second assumption presumes that word boundaries
+are provided, which uniquely deﬁnes the vocabu-
+lary of the lost language.
+One of the famous counterexamples to both of
+these assumptions is Iberian. The Iberian scripts
+are undersegmented with inconsistent use of word
+dividers. At the same time, there is no deﬁnitive
+consensus on its close known language — over the
+years, Greek, Latin and Basque were all consid-
+ered as possibilities.
+In this paper, we introduce a decipherment ap-
+proach that relaxes the above assumptions. The
+model is provided with undersegmented inscrip-
+tions in the lost language and the vocabulary in a
+known language. No assumptions are made about
+the proximity between the lost and the known lan-
+guages and the goal is to match spans in the lost
+texts with known tokens. As a by-product of this
+model, we propose a measure of language close-
+ness that drives the selection of the best target lan-
+guage from the wealth of world languages.
+Given the vast space of possible mappings and
+the scarcity of guiding signal in the input data,
+decipherment algorithms are commonly informed
+by linguistic constraints. These constraints re-
+ﬂect consistent patterns in language change and
+linguistic borrowings. Examples of previously
+
+===== PAGE 2 =====
+utilized constraints include skewness of vocabu-
+lary mapping, and monotonicity of character level
+alignment within cognates. We further expand
+the linguistic foundations of decipherment mod-
+els, and incorporate phonological regularities of
+sound change into the matching procedure. For in-
+stance, a velar consonant [k] is unlikely to change
+into a labial [m]. Another important constraint
+in this class pertains to sound preservation, i.e.,
+the size of phonological inventories is largely pre-
+served during language evolution.
+Our approach is designed to encapsulate these
+constraints while addressing the segmentation is-
+sue. We devise a generative framework that jointly
+models word segmentation and cognate alignment.
+To capture the natural phonological geometry, we
+incorporate phonological features into character
+representations using the International Phonetic
+Alphabet (IPA). We introduce a regularization
+term to explicitly discourage the reduction of the
+phonological system and employ an edit distance-
+based formulation to model the monotonic align-
+ment between cognates. The model is trained in
+an end-to-end fashion to optimize both the quality
+and the coverage of the matched tokens in the lost
+texts.
+The ultimate goal of this work is to evaluate the
+model on an undeciphered language, speciﬁcally
+Iberian. Given how little is known about the lan-
+guage, it is impossible to directly assess prediction
+accuracy. Therefore, we adopt two complemen-
+tary evaluation strategies to analyze model perfor-
+mance. First, we apply the model to deciphered
+ancient languages, Ugaritic and Gothic, which
+share some common challenges with Iberian. Sec-
+ond, we consider evaluation scenarios which capi-
+talize on a few known facts about Iberian, such as
+personal names, and report the model’s accuracy
+against these ground truths.
+The results demonstrate that our model can
+robustly handle unsegmented or undersegmented
+scripts. In the Iberian personal name experi-
+ment, our model achieves a precision@10 score
+of 75.0%. Across all the evaluation scenarios, in-
+corporating phonological geometry leads to clear
+and consistent gains. For instance, the model in-
+formed by IPA obtains 12.8% increase in Gothic-
+Old Norse experiments. We also demonstrate that
+the proposed unsupervised measure of language
+closeness is consistent with historical linguistics
+ﬁndings on known languages.2 Related Work
+Non-parallel machine translation At a high
+level, our work falls into research on non-parallel
+machine translation. One of the important re-
+cent advancements in that area is the ability to
+induce accurate cross-lingual lexical representa-
+tions without access to parallel data (Lample
+et al., 2018b,a; Conneau and Lample, 2019). This
+is achieved by aligning embedding spaces con-
+structed from large amounts of monolingual data.
+The size of data for both languages is key: high-
+quality monolingual embeddings are required for
+successful matching. This assumption, however,
+does not hold for ancient languages where we can
+typically access a few thousands of words at most.
+Decoding cipher texts Man-made ciphers have
+been the focal points for most of the early work
+on decipherment. They usually employ EM al-
+gorithms which are tailored towards these speciﬁc
+types of ciphers, most prominently substitution ci-
+phers (Knight and Yamada, 1999; Knight et al.,
+2006). Later work by Nuhn et al. (2013); Hauer
+et al. (2014); Kambhatla et al. (2018) addresses
+the problem using a heuristic search procedure,
+guided by a pretrained language model. To the
+best of our knowledge, these methods developed
+for tackling man-made ciphers have so far not
+been successfully applied to archaeological data.
+One contributing factor could be the inherent com-
+plexity in the evolution of natural languages.
+Deciphering ancient scripts Our research is
+most closely aligned with computational decipher-
+ment of ancient scripts. Prior work has already
+featured several successful instances of ancient
+language decipherment previously done by human
+experts (Snyder et al., 2010; Berg-Kirkpatrick and
+Klein, 2013; Luo et al., 2019). Our work incorpo-
+rates many linguistic insights about the structure
+of valid alignments introduced in prior work, such
+as monotonicity. We further expand the linguistic
+foundation by incorporating phonetic regularities
+which have been beneﬁcial in early, pre-neural de-
+cipherment work (Knight et al., 2006). However,
+our model is designed to handle challenging cases
+not addressed by prior work, where segmentation
+of the ancient scripts is unknown. Moreover, we
+are interested in dead languages without a known
+relative and introduce an unsupervised measure of
+language closeness that enables us to select an in-
+formative known language for decipherment.
+
+===== PAGE 3 =====
+Figure 1: An overview of our framework which generates the lost texts from smaller units — from characters to
+tokens and from tokens to inscriptions. Character mappings are ﬁrst performed on the phonetic alphabet of the
+known language. Based on these mappings, a token yin the known vocabulary Yis converted into a token xin the
+lost language according to the latent alignment variable a. Lastly, all generated tokens, together with characters
+in unmatched spans, are concatenated to form a lost inscription. Blue boxes display the corresponding linguistic
+properties associated with each level of modeling.
+3 Model
+We design a model for the automatic extraction of
+cognates2directly from unsegmented or underseg-
+mented texts (detailed setting in Section 3.1). In
+order to properly handle the uncertainties caused
+by the issue of segmentation, we devise a genera-
+tive framework which composes the lost texts us-
+ing smaller units — from characters to tokens, and
+from tokens to inscriptions. The model is trained
+in an end-to-end fashion to optimize both the qual-
+ity and the coverage of the matched tokens.
+To help the model navigate the complex search
+space, we consider the following linguistic prop-
+erties of sound change, including phonology and
+phonetics in our model design:
+•Plausibility of sound change : Similar
+sounds rarely change into drastically differ-
+ent sounds. This pattern is captured by
+the natural phonological geometry in human
+speech sounds and we incorporate relevant
+phonological features into the representation
+of characters.
+2Throughout this paper, the term cognate is liberally
+used to also include loanwords, as the sound correspondences
+in cognates and loanwords are both regular, although usually
+different.•Preservation of sounds : The size of phono-
+logical inventories tends to be largely pre-
+served over time. This implies that total dis-
+appearance of any sound is uncommon. In
+light of this, we employ a regularization term
+to discourage any sound loss in the phonolog-
+ical system of the lost language.
+•Monotonicity of alignment : The alignment
+between any matched pair is predominantly
+monotonic, which means that character-level
+alignments do not cross each other. This
+property inspires our edit distance-based for-
+mulation at the token level.
+To reason about phonetic proximity, we need to
+ﬁnd character representation that explicitly reﬂects
+its phonetic properties. One such representation
+is provided by the International Phonetic Alpha-
+bet (IPA), where each character is represented by
+a vector of phonological features. As an exam-
+ple, consider IPA representation for two phoneti-
+cally close characters [b] and [p] (See Figure 3),
+which share two identical coordinates. To further
+reﬁne this representation, the model learns to em-
+bed these features into a new space, optimized for
+the decipherment task.
+
+===== PAGE 4 =====
+Figure 2: A graphical model representation for our
+framework to generate a span x. Characters in un-
+matched spans are generated in an i.i.d. fashion
+whereas matched spans are additionally conditioned on
+two latent variables: yrepresenting a known cognate
+andathe character-level alignment between xandy.
+3.1 Problem setting
+We are given a list of unsegmented orunderseg-
+mented inscriptionsX={X}in the lost lan-
+guage, and a vocabulary, i.e., a list of tokens Y=
+{y}in the known language. For each lost text X,
+the goal is to identify a list of non-overlapping
+spans{x}that correspond to cognates in Y. We
+refer to these spans as matched spans and any re-
+maining character as unmatched spans .
+We denote the character sets of the lost and
+the known languages by CL={cL}andCK=
+{cK}, respectively. To exploit the phonetic prior,
+IPA transcriptions are used for CK, while ortho-
+graphic characters are used for CL. For this paper,
+we only consider alphabetical scripts for the lost
+language.3
+3.2 Generative framework
+We design the following generative framework to
+handle the issue of segmentation. It jointly mod-
+els segmentation and cognate alignment, which re-
+quires different treatments for matched spans and
+unmatched spans. An overview of the framework
+is provided in Figure 1 and a graphical model rep-
+resentation in Figure 2.
+For matched spans, we introduce two latent
+variables:yrepresenting the corresponding cog-
+nate in the known language and aindicating the
+character alignment between xandy(see the To-
+kenbox in Figure 1). More concretely, a={aτ}
+3Given that the known side uses IPA, an alphabetical sys-
+tem, having an alphabetical system on the lost side makes it
+much easier to enforce the linguistic constraints in this paper.
+For other types of scripts, it requires more thorough investi-
+gation which is beyond the scope of this work.is a sequence of indices, with aτrepresenting the
+aligned position for yτinx. The lost token is gen-
+erated by applying a character-level mapping to y
+according to the alignment provided by a. For un-
+matched spans, we assume each character is gen-
+erated in an i.i.d. fashion under a uniform distri-
+butionp0=1
+|CL|.
+Whether a span is matched or not is indicated
+by another latent variable z, and the correspond-
+ing span is denoted by xz. More speciﬁcally,
+each character in an unmatched span is tagged by
+z=Owhereas the entirety of a matched span of
+lengthlis marked by z=Elat the end of the span
+(see the Inscription box in Figure 1). All spans are
+then concatenated to form the inscription, with a
+corresponding (sparse) tag sequence Z={z}.
+Under this framework, we arrive at the follow-
+ing derivation for the marginal distribution for
+each lost inscription X:
+Pr(X)
+=∑
+Z[∏
+z∈ZPr(z)][∏
+z∈Z
+z=Op0][∏
+z∈Z
+z̸=OPr(xz|z)]
+(1)
+where Pr(xz|z̸=O)is further broken down into
+individual character mappings:
+Pr(xz|z̸=O)
+=∑
+y∈Y∑
+a∈APr(y) Pr(a)·Pr(xz|y,z,a )
+∝∑
+y∈Y∑
+a∈APr(xz|y,z,a )
+≈∑
+y∈Ymax
+aPr(xz|y,z,a )
+=∑
+y∈Ymax
+a∏
+τPr(xaτ|yτ) (2)
+Note that we assume a uniform prior for both y
+anda, and use the maximum to approximate the
+sum of Pr(xz|y,z,a )over the latent variable a.A
+is the set of valid alignment values to be detailed
+in §3.2.2.
+3.2.1 Phonetics-aware parameterization
+The character mapping distributions are speciﬁed
+as follows:
+Prθ(xaτ=cL
+j|yτ=cK
+i)
+∝exp(EL(cL
+j)·EK(cK
+i)
+T)
+, (3)
+
+===== PAGE 5 =====
+Figure 3: An illustration of IPA embeddings. Each
+phone is ﬁrst represented by a vector of phonolog-
+ical features. The model ﬁrst embeds each feature
+and then IPA embedding is obtained by concatenating
+all its relevant feature embeddings. For instance, the
+phone [b] can be represented as the concatenation of
+thevoiced ,stop and the labial embeddings.
+whereTis a temperature hyperparameter, EL(·)
+andEK(·)are the embedding functions for the lost
+characters and the known characters, respectively,
+andθis the collection of all trainable parameters
+(i.e., the embeddings).
+In order to capture the similarity within certain
+sound classes, we use IPA embeddings to repre-
+sent each IPA character in the known language.
+More speciﬁcally, each IPA character is repre-
+sented by a vector of phonological features. The
+model learns to embed these features into a new
+space and the full IPA embedding for cKis com-
+posed by concatenating all of its relevant feature
+embeddings. For the example in Figure 3, the
+phone [b] can be represented as the concatenation
+of the voiced embedding, the stop embedding
+and the labial embedding.
+This compositional structure encodes the nat-
+ural geometry existent in sound classes (Stevens,
+2000) and biases the model towards utilizing such
+a structure. By design, the representations for [b]
+and [p] are close as they share the same values for
+two out of three feature groups. This structural
+bias is crucial for realistic character mappings.
+For the lost language, we represent each char-
+actercL
+jas a weighted sum of IPA embeddings on
+the known side. Speciﬁcally,
+EL(cL
+j) =∑
+iwi,j·EK(cK
+i), (4)
+where{wi,j}are learnable parameters.3.2.2 Monotonic alignment and edit distance
+Individual characters in the known token yare
+mapped to a lost token xaccording to the align-
+ment variable a. The monotonic nature of charac-
+ter alignment between cognate pairings motivates
+our design of an edit distance-based formulation
+to capture the dominant mechanisms involved in
+cognate pairings: substitutions, deletions and in-
+sertions (Campbell, 2013). In addition to aτtak-
+ing the value of an integer signifying the substi-
+tuted position, aτcan beϵ, which indicates that yτ
+is deleted. To model insertions, aτ= (aτ,1,aτ,2)
+can be two4adjacent indices in x.
+This formulation inherently deﬁnes a set Aof
+valid values for the alignment. Firstly, they are
+monotonically increasing with respect to τ, with
+the exception of ϵ. Secondly, they cover every in-
+dex ofx, which means every character in xis ac-
+counted for by some character in y. The Token
+box in Figure 1 showcases such an example with
+all three types of edit operations. More concretely,
+we have the following alignment model:
+Pr(xaτ|yτ) =
+
+Prθ(xaτ|yτ) (substitution)
+Prθ(ϵ|yτ) (deletion)
+Prθ(xaτ,1|yτ)
+·αPrθ(xaτ,2|yτ)(insertion)
+whereα∈[0,1]is a hyperparameter to control the
+use of insertions.
+3.3 Objective
+Given the generative framework, our training ob-
+jective is designed to optimize the quality of the
+extracted cognates, while matching a reasonable
+proportion of the text.
+Quality We aim to optimize the quality of
+matched spans under the posterior distribu-
+tionPr(Z|X), measured by a scoring function
+Φ(X,Z).Φ(X,Z)is computed by aggregating
+the likelihoods of these matched spans normalized
+by length. The objective is deﬁned as follows:
+Q(X) =EZ∼Pr(Z|X)Φ(X,Z) (5)
+Φ(X,Z) =∑
+z∈Z
+z̸=Oφ(xz,z) (6)
+φ(xz,z) = Pr(xz|z)1
+|xz| (7)
+4Insertions of even longer character sequences are rare.
+
+===== PAGE 6 =====
+Algorithm 1 One training step for our decipherment model
+Input: One batch of lost inscriptions ˜X, entire known vocabulary Y={y}
+Parameters: Feature embeddings θ
+1:Pr(cL
+j|cK
+i)←ComputeCharDistr (θ)⊿Compute character mapping distributions (Section 3.2.1)
+2:Pr(x|y)←EditDistDP(
+x,y,Pr(cL
+j|cK
+i))
+⊿Compute token alignment probability (Section 3.2.2)
+3:S(˜X;CL,CK)←WordBoundaryDP(
+Pr(x|y))
+⊿Compute ﬁnal objective (Section 3.3)
+4:θ←SGD(S) ⊿Backprop and update parameters
+This term encourages the model to explicitly fo-
+cus on improving the probability of generating the
+matched spans.
+Regularity and coverage The regularity of
+sound change, as stated by the Neogrammarian
+hypothesis (Campbell, 2013), implies that we need
+to ﬁnd a reasonable number of matched spans. To
+achieve this goal, we incur a penalty if the ex-
+pected coverage ratio of the matched characters
+under the posterior distribution falls below a given
+thresholdrcov:
+Ωcov(X) = max(
+rcov−∑
+X∈Xcov(X)
+|X|,0.0)
+cov(X) =EZ∼Pr(Z|X)Ψ(X,Z) (8)
+Ψ(X,Z) =∑
+z∈Z
+z̸=Oψ(xz,z) =∑
+z∈Z
+z̸=O|xz| (9)
+Note that the ratio is computed on the entire cor-
+pusXinstead of individual texts Xsince the cov-
+erage ratio can vary greatly for different individ-
+ual texts. The hyperparameter rcovcontrols the ex-
+pected overlap between two languages, which en-
+ables us to apply the method even when languages
+share some loanwords but are not closely related.
+Preservation of sounds The size of phonologi-
+cal inventories tends to be largely preserved over
+time. This implies that total disappearance of any
+sound is uncommon. To reﬂect this tendency, we
+introduce an additional regularization term to dis-
+courage any sound loss. The intuition is to en-
+courage any lost character to be mapped to exactly
+one5known IPA symbol. Formally we have the
+following term
+Ωloss(CL,CK) =∑
+cL(∑
+cKPr(cL|cK)−1.0)2
+5We experimented with looser constraints (e.g., with at
+least instead of exactly one correspondence), but obtained
+worse results.Final objective Putting the terms together, we
+have the following ﬁnal objective:
+S(X;CL,CK) =∑
+X∈XQ(X) +λcovΩcov(X)
++λlossΩloss(CL,CK)(10)
+whereλcovandλlossare both hyperparameters.
+3.4 Training
+Training with the ﬁnal objective involves either
+ﬁnding the best latent variable, as in Equation (2),
+or computing the expectation under a distribution
+that involves one latent variable, as in Equation (5)
+and Equation (8). In both cases, we resort to dy-
+namic programming to facilitate efﬁcient compu-
+tation and end-to-end training. We refer interested
+readers to A.1 for more detailed derivations. We
+illustrate one training step in Algorithm 1.
+4 Experimental setup
+Our ultimate goal is to evaluate the decipherment
+capacity for unsegmented lost languages, without
+information about a known counterpart. Iberian
+ﬁts both of these criteria. However, our ability to
+evaluate decipherment of Iberian is limited since
+a full ground truth is not known. Therefore, we
+supplement our evaluation on Iberian with more
+complete evaluation on lost languages with known
+translation, such as Gothic and Ugaritic.
+4.1 Languages
+We focus our description on the Gothic and
+Iberian corpora which we compiled for this paper.
+Ugaritic data was reused from the prior work on
+decipherment (Snyder et al., 2010). Table 1 pro-
+vides statistics about these languages. To evalu-
+ate the validity for our proposed language prox-
+imity measure, we additionally include six known
+languages: Spanish (Romance), Arabic (Semitic),
+Hungarian (Uralic), Turkish (Turkic), classical
+Latin (Latino-Faliscan) and Basque (isolate).
+
+===== PAGE 7 =====
+Language Family Source #TokensSegmentation
+situationCentury
+Gothic Germanic Wulﬁla†40,518 unsegmented 3–10 AD
+Ugaritic Semitic Snyder et al. (2010) 7,353‡segmented 14–12 BC
+Iberian unclassiﬁed Hesperia††3,466‡‡undersegmented 6–1 BC
+†http://www.wulfila.be/gothic/download/
+††http://hesperia.ucm.es/ . Iberian language is semi-syllabic, but this database has already
+transliterated the inscriptions into Latin scripts.
+‡This dataset directly provides the Ugaritic vocabulary, i.e., each word occurs exactly once.
+‡‡Since the texts are undersegmented and we do not know the ground truth segmentations, this represents the
+number of unsegmented chunks , each of which might contain multiple tokens.
+Table 1: Basic information about the lost languages
+Gothic Several features of Gothic make it an
+ideal candidate for studying decipherment mod-
+els. Since Gothic is fully deciphered, we can com-
+pare our predictions against ground truth. Like
+Iberian, Gothic is unsegmented. Its alphabet was
+adapted from a diverse set of languages: Greek,
+Latin and Runic, but some characters are of un-
+known origin. The latter were in the center of de-
+cipherment efforts on Gothic (Zacher, 1855; Wag-
+ner, 2006). Another appealing feature of Gothic
+is its relatedness to several known Germanic lan-
+guages which exhibit various degree of proximity
+to Gothic. The closest is its reconstructed ancestor
+Proto-Germanic, with Old Norse and Old English
+being more distantly related to Gothic. This varia-
+tion in linguistic proximity enables us to study the
+robustness of decipherment methods to the histor-
+ical change in the source and the target.
+Iberian Iberian serves as a real test scenario for
+automatic methods – it is still undeciphered, with-
+standing multiple attempts over at least two cen-
+turies. Iberian scripts present two issues facing
+many undeciphered languages today: underseg-
+mentation and lack of a well-researched relative.
+Many theories of origin have been proposed in the
+past, most notably linking Iberian to Basque, an-
+other non-Indo-European language on the Iberian
+peninsular. However, due to a lack of conclusive
+evidence, the current scholarship favors the posi-
+tion that Iberian is not genetically related to any
+living language. Our knowledge of Iberian owes
+much to the phonological system proposed by
+Manuel Gómez Moreno in the mid 20th century,
+based on fragmentary evidences such as bilingual
+coin legends (Sinner and Velaza, 2019). Another
+area with a broad consensus relates to Iberian per-
+sonal names, thanks to a key Latin epigraph, As-coli Bronze , which recorded the grant of Roman
+citizenship to Iberian soldiers who had fought for
+Rome (Martí et al., 2017). We use these personal
+names recorded in Latin as the known vocabulary.
+4.2 Evaluation
+Stemming and Segmentation Our matching
+process operates at the stem level for the known
+language, instead of full words . Stems are more
+consistently preserved during language change or
+linguistic borrowings. While we always assume
+that gold stems are provided for the known lan-
+guage, we estimate them for the lost language.
+The original Gothic texts are only segmented
+into sentences. To study the effect of having vary-
+ing degrees of prior knowledge about the word
+segmentations, we create separate datasets by ran-
+domly inserting ground truth segmentations (i.e.,
+whitespaces) with a preset probability to simulate
+undersegmentation scenarios.
+Model Variants In multiple decipherment sce-
+narios, partial information about phonetic assign-
+ments is available. This is the case with both
+Iberian and Gothic. Therefore, we evaluate per-
+formance of our model with respect to available
+phonological knowledge for the lost language.
+Thebase model assumes no knowledge while the
+full model has full knowledge of the phonologi-
+cal system and therefore the character mappings.
+For the Gothic experiment, we additionally ex-
+periment with a partial model which assumes
+that we know the phonetic values for the charac-
+tersk,l,m,n,p,sandt. The sound values of
+these characters can be used as prior knowledge as
+they closely resemble their original counterparts in
+Latin or Greek alphabets. These known mappings
+are incorporated through an additional term which
+
+===== PAGE 8 =====
+WR† Known language
+Proto-Germanic (PG) Old Norse (ON) Old English (OE) avg††
+0% 0.820 / 0.749 / 0.863 0.213 / 0.397 / 0.597 0.046 / 0.204 / 0.497 0.360 / 0.450 / 0.652
+25% 0.752 / 0.734 / 0.826 0.312 / 0.478 / 0.610 0.128 / 0.328 / 0.474 0.398 / 0.513 / 0.637
+50% 0.752 / 0.736 / 0.848 0.391 / 0.508 / 0.643 0.169 / 0.404 / 0.495 0.438 / 0.549 / 0.662
+75% 0.761 / 0.732 / 0.866 0.435 / 0.544 / 0.682 0.250 / 0.447 / 0.533 0.482 / 0.574 / 0.693
+avg‡0.771 / 0.737 / 0.851 0.338 / 0.482 / 0.633 0.148 / 0.346 / 0.500 0.419 / 0.522 / 0.661
+†Short for whitespace ratio .
+‡Averaged over all whitespace ratio values.
+††Averaged over all known languages.
+Table 2: Main results on Gothic in a variety of settings using P@10 scores. All scores are reported in the format
+of triplets, corresponding to base /partial /full models. In general, more phonological knowledge about
+the lost language, more segmentations improve the model performance. The choice of the known language also
+plays a signiﬁcant role as Proto-Germanic has a noticeably higher score than the other two choices.
+encourages the model to match its predicted distri-
+butions with the ground truths.
+In scenarios with full segmentations where it is
+possible to compare with previous work, we re-
+port the results for the Bayesian model pro-
+posed by Snyder et al. (2010) and NeuroCipher
+by Luo et al. (2019).
+Metric We evaluate the model performance us-
+ing precision at K (P@K) scores. The prediction
+(i.e., the stem-span pair) is considered correct if
+and only if the stem is correct and the the span is
+the preﬁx of the ground truth. For instance, the
+ground truth for the Gothic word garda has the
+stem gard spanning the ﬁrst four letters, matching
+the Old Norse stem garð . We only consider the
+prediction as correct if it correctly matches garð
+and the predicted span starts with the ﬁrst letter.
+5 Results
+Decipherment of undersegmentated texts Our
+main results on Gothic in Table 2 demonstrate
+that our model can effectively extract cognates in
+a variety of settings. Averaged over all choices
+of whitespace ratios and known languages (bot-
+tom right), our base /partial /full models
+achieve P@10 scores of 0.419/0.522/0.661, re-
+spectively. Not surprisingly, access to addi-
+tional knowledge either about phonological map-
+pings and/or segmentation lead to improved per-
+formance.
+The choice of the known language also plays
+a signiﬁcant role. On the closest language pair
+Gothic-PG, P@10 reaches 75% even without as-
+suming any phonological knowledge about thelost language. As expected, language proxim-
+ity directly impacts the complexity of the de-
+cipherment tasks which in turn translates into
+lower model performance on Old English and Old
+Norse. These results reafﬁrm that choosing a close
+known language is vital for decipherment.
+The results on Iberian shows that our model per-
+forms well on a real undeciphered language with
+undersegmented texts. As shown in Figure 4a,
+base model reaches 60% in P@10 while full
+model reaches 75%. Note that Iberian is non-Indo-
+European with no genetic relationship with Latin,
+but our model can still discover regular correspon-
+dences for this particular set of personal names.
+Ablation study To investigate the contribution
+of phonetic and phonological knowledge, we con-
+duct an ablation study using Gothic/Old Norse
+(Table 4). The IPA embeddings consistently im-
+prove all the model variants. As expected, the
+gains are most noticeable – +12.8% – for the hard-
+est matching scenario where no prior information
+is available ( base model). As expected, Ωlossis
+vital for base but unnecessary for full which
+has readily available character mapping.
+Comparison with previous work To com-
+pare with the state-of-the-art decipherment mod-
+els (Snyder et al., 2010; Luo et al., 2019), we
+consider the version of our model that oper-
+ates with 100% whitespace ratio for the lost lan-
+guage. Table 3 demonstrates that our model
+consistently outperforms the baselines for both
+Ugaritic and Gothic. For instance, it reaches over
+11% gain for Hebrew/Ugaritic pair and over 15%
+for Gotchic/Old English.
+
+===== PAGE 9 =====
+Lost Ugaritic†Gothic
+Known Hebrew PG ON OE
+Bayesian 0.604 - - -
+NeuroCipher 0.659 0.753 0.543 0.313
+base 0.778 0.865 0.558 0.472
+†P@1 is reported for Ugaritic to make direct comparison with previous work.
+P@10 is still used for Gothic experiments.
+Table 3: Results for comparing base model with previous work.
+Bayesian andNeuroCipher are the models proposed by Snyder et al.
+(2010) and Luo et al. (2019), respectively. Ugaritic results for previous
+work are taken from their papers. For NeuroCipher , we run the au-
+thors’ public implementation to obtain the results for Gothic.
+IPA Ωloss base partial full
++ + 0.435 0.544 0.682
+- + 0.307 0.490 0.599
++ - 0.000 0.493 0.695
+Table 4: Ablation study on the pair Gothic-ON. Both
+IPA embeddings and the regularization on sound loss
+are beneﬁcial, especially when we do not assume much
+phonological knowledge about the lost language.
+Identifying close known languages Next we
+evaluate model’s ability to identify a close known
+language to anchor the decipherment process. We
+expect that for a closer language pair, the predic-
+tions of the model will be more conﬁdent while
+matching more characters. We illustrate this idea
+with a plot that charts character coverage (i.e.,
+what percentage of the lost texts are matched re-
+gardless of its correctness) as a function of pre-
+diction conﬁdence value (i.e., probability of gen-
+erating this span normalized by its length). As
+Figure 4b and Figure 4c illustrate the model ac-
+curately predicts the closest languages for both
+Ugaritic and Gothic. Moreover, languages within
+the same family as the lost language stand out
+from the rest.
+The picture is quite different for Iberian (see
+Figure 4d). No language seems to have a pro-
+nounced advantage over others. This seems to ac-
+cord with the current scholarly understanding that
+Iberian is a language isolate, with no established
+kinship with others. Basque somewhat stands out
+from the rest, which might be attributed to its sim-
+ilar phonological system with Iberian (Sinner and
+Velaza, 2019) and very limited vocabulary over-
+lap (numeral names) (Aznar, 2005) which doesn’tInscription Matched stem
+þammuhsaminhaidau xaið
+þammuhsaminhaidau xaið
+þammuhsaminhaidau raið
+þammuhsaminhaidau braið
+Table 5: One example of top 3 model predictions for
+base on Gothic-PG in WR 0% setting. Spans are high-
+lighted in the inscriptions. The ﬁrst row presents the
+ground truth and the others are the model predictions.
+Green color is used for correct predictions and red for
+incorrect ones.
+carry over to the lexical system.6
+6 Conclusions
+We propose a decipherment model to extract cog-
+nates from undersegmented texts, without assum-
+ing proximity between lost and known languages.
+Linguistics properties are incorporated into the
+model design, such as phonetic plausibility of
+sound change and preservation of sounds. Our re-
+sults on Gothic, Ugaritic and Iberian shows that
+our model can effectively handle undersegmented
+texts even when source and target languages are
+not related. Additionally, we introduce a method
+for identifying close languages which correctly
+ﬁnds related languages for Gothic and Ugaritic.
+For Iberian, the method does not show strong ev-
+idence supporting Basque as a related language,
+concurring with the favored position by current
+scholarship.
+Potential applications of our method are not
+limited to decipherment. The phonetic values of
+6For true isolates, whether the predicted segmentations
+are reliable despite the lack of cognates is beyond our current
+scope of investigation.
+
+===== PAGE 10 =====
+Figure 4: (a) P@K scores on Iberian using personal name recorded in Latin; (b), (c) and (d): Closeness plots for
+Gothic, Ugaritic and Iberian, respectively.
+lost characters can be inferred by mapping them
+to the known cognates. These values can serve
+as the starting point for lost sound reconstruction
+and more investigation is needed to establish their
+efﬁcacy. Moreover, the effectiveness of incorpo-
+rating phonological feature embeddings provides
+a path for future improvement for cognate detec-
+tion in computational historical linguistics (Rama
+and List, 2019). Currently our method operates
+on a pair of languages. To simultaneously process
+multiple languages as it is common in the cognate
+detection task, more work is needed to modify our
+current model and its inference procedure.
+Acknowledgments
+We sincerely thank Noemí Moncunill Martí for
+her invaluable guidance on Iberian onomastics,
+and Eduardo Orduña Aznar for his tremendous
+help on the Hesperia database and the Vasco-
+Iberian theories. Special thanks also go to Igna-cio Fuentes and Carme Huertas for the insightful
+discussions. This research is based upon work
+supported in part by the Ofﬁce of the Director
+of National Intelligence (ODNI), Intelligence Ad-
+vanced Research Projects Activity (IARPA), via
+contract # FA8650-17-C-9116. The views and
+conclusions contained herein are those of the au-
+thors and should not be interpreted as necessarily
+representing the ofﬁcial policies, either expressed
+or implied, of ODNI, IARPA, or the U.S. Gov-
+ernment. The U.S. Government is authorized to
+reproduce and distribute reprints for governmen-
+tal purposes notwithstanding any copyright anno-
+tation therein.
+References
+Eduardo Orduña Aznar. 2005. Sobre algunos
+posibles numerales en textos ibéricos. Palaeo-
+hispanica , 5:491–506.
+
+===== PAGE 11 =====
+Taylor Berg-Kirkpatrick and Dan Klein. 2013.
+Decipherment with a million random restarts.
+InProceedings of the 2013 Conference on Em-
+pirical Methods in Natural Language Process-
+ing, pages 874–878. Association for Computa-
+tional Linguistics.
+Steven Bird. 2006. NLTK: The Natural Language
+Toolkit. In Proceedings of the COLING/ACL
+2006 Interactive Presentation Sessions , pages
+69–72, Sydney, Australia. Association for Com-
+putational Linguistics.
+Lyle Campbell. 2013. Historical linguistics . Ed-
+inburgh University Press.
+Christos Christodouloupoulos and Mark Steed-
+man. 2015. A massively parallel corpus: the
+bible in 100 languages. Language resources
+and evaluation , 49(2):375–395.
+Alexis Conneau and Guillaume Lample. 2019.
+Cross-lingual language model pretraining. In
+Advances in Neural Information Processing
+Systems , pages 7059–7069.
+Bradley Hauer, Ryan Hayward, and Grzegorz
+Kondrak. 2014. Solving substitution ciphers
+with combined language models. In Pro-
+ceedings of COLING 2014, the 25th Inter-
+national Conference on Computational Lin-
+guistics: Technical Papers , pages 2314–2325,
+Dublin, Ireland. Dublin City University and As-
+sociation for Computational Linguistics.
+Nishant Kambhatla, Anahita Mansouri Bigvand,
+and Anoop Sarkar. 2018. Decipherment of sub-
+stitution ciphers with neural language models.
+InProceedings of the 2018 Conference on Em-
+pirical Methods in Natural Language Process-
+ing, pages 869–874, Brussels, Belgium. Asso-
+ciation for Computational Linguistics.
+Kevin Knight, Anish Nair, Nishit Rathod, and
+Kenji Yamada. 2006. Unsupervised analysis
+for decipherment problems. In Proceedings
+of the COLING/ACL 2006 Main Conference
+Poster Sessions , pages 499–506, Sydney, Aus-
+tralia. Association for Computational Linguis-
+tics.
+Kevin Knight and Kenji Yamada. 1999. A com-
+putational approach to deciphering unknown
+scripts. Unsupervised Learning in Natural Lan-
+guage Processing .Guillaume Lample, Alexis Conneau, Ludovic De-
+noyer, and Marc’Aurelio Ranzato. 2018a. Un-
+supervised machine translation using monolin-
+gual corpora only.
+Guillaume Lample, Alexis Conneau,
+Marc’Aurelio Ranzato, Ludovic Denoyer,
+and Hervé Jégou. 2018b. Word transla-
+tion without parallel data. In International
+Conference on Learning Representations .
+Jiaming Luo, Yuan Cao, and Regina Barzilay.
+2019. Neural decipherment via minimum-cost
+ﬂow: From ugaritic to linear b. In Proceedings
+of the 57th Annual Meeting of the Association
+for Computational Linguistics , pages 3146–
+3155, Florence, Italy. Association for Compu-
+tational Linguistics.
+Noemí Moncunill Martí et al. 2017. Indigenous
+naming practices in the western mediterranean:
+the case of iberian. Studia Antiqua et Archaeo-
+logica , 23(1):7–20.
+David R. Mortensen, Siddharth Dalmia, and
+Patrick Littell. 2018. Epitran: Precision
+G2P for many languages. In Proceedings of
+the Eleventh International Conference on Lan-
+guage Resources and Evaluation (LREC 2018) ,
+Paris, France. European Language Resources
+Association (ELRA).
+Malte Nuhn, Julian Schamper, and Hermann Ney.
+2013. Beam search for solving substitution ci-
+phers. In Proceedings of the 51st Annual Meet-
+ing of the Association for Computational Lin-
+guistics (Volume 1: Long Papers) , pages 1568–
+1576, Soﬁa, Bulgaria. Association for Compu-
+tational Linguistics.
+Taraka Rama and Johann-Mattis List. 2019. An
+automated framework for fast cognate detection
+and bayesian phylogenetic inference in compu-
+tational historical linguistics. Association for
+Computational Linguistics.
+Jesús Rodríguez Ramos. 2014. Nuevo índice
+crítico de formantes de compuestos de tipo
+onomástico íberos. Arqueoweb: Revista sobre
+Arqueología en Internet , 15(1):7–158.
+Donald A. Ringe. 2017. From Proto-Indo-
+European to Proto-Germanic . Oxford.
+
+===== PAGE 12 =====
+Alejandro Garcia Sinner and Javier Velaza. 2019.
+Palaeohispanic Languages and Epigraphies .
+Oxford University Press.
+Benjamin Snyder, Regina Barzilay, and Kevin
+Knight. 2010. A statistical model for lost lan-
+guage decipherment. In Proceedings of the 48th
+Annual Meeting of the Association for Com-
+putational Linguistics , pages 1048–1057, Up-
+psala, Sweden. Association for Computational
+Linguistics.
+Kenneth N Stevens. 2000. Acoustic phonetics ,
+volume 30. MIT press.
+Larry Trask. Etymological dictionary of Basque .
+Norbert Wagner. 2006. Zu got. hv, q und ai,
+au. Historische Sprachforschung/Historical
+Linguistics , pages 286–291.
+Julius Zacher. 1855. Das Gothische Alphabet Vul-
+ﬁlas und das Runen Alphabet: eine Sprachwis-
+senschaftliche Untersuchung . FA Brockhaus.
+
+===== PAGE 13 =====
+A Appendices
+A.1 Derivations for dynamic programming
+We show the derivation for Pr(X)here — other
+quantities can be derived in a similar fashion.
+Given anyXwith length n, letpi(X)be the
+probability of generating the preﬁx subsequence
+X:i, andpi,z(X)be the probability of generating
+X:iusingzas the lastlatent variable. By deﬁni-
+tion, we have
+Pr(X) =pn(X) (11)
+pi(X) =∑
+zpi,z(X) (12)
+pi,zcan be recursively computed using the follow-
+ing equations:
+pi,O= Pr( O)·p0·pi−1 (13)
+pi,El= Pr( El)·Pr(xi−l+1:l|El)·pi−l(14)
+A.2 Data preparation
+Stemming Gothic stemmers are developed
+based on the documentations of Gomorphv27.
+Stemmers for Proto-Germanic, Old Norse and
+Old English are derived from relevant Wikipedia
+entries on their grammar and phonology. For all
+other languages, we use the Snowball stemmer
+from NLTK (Bird, 2006).
+IPA transcription We use the CLTK library8
+for Old Norse and Old English, and a rule-based
+converter for Proto-Germanic based on (Ringe,
+2017, pp. 242-260). Basque transcriber is
+based on its Wikipedia guide for transcription,
+and all other languages are transcribed using Epi-
+tran (Mortensen et al., 2018). The ipapy library9
+is used to obtain their phonetic features. There are
+7 feature groups in total.
+Known vocabulary For Proto-Germanic, Old
+Norse and Old English, we extract the information
+from the descendant trees in Wiktionary10. All
+matched stems with at least four characters form
+the known vocabulary. It resulted in 7883, 10754
+and 11067 matches with Gothic inscriptions, and
+613, 529, 627 unique words in the vocabularies for
+Proto-Germanic, Old Norse and Old English, re-
+spectively. For Ugaritic-Hebrew, we retain stems
+7http://www.wulfila.be/gomorph/
+gothic/html/
+8http://cltk.org/
+9https://github.com/pettarin/ipapy
+10https://www.wiktionary.org/with at least three characters due to its shorter
+average stem length. For the Iberian-Latin per-
+sonal name experiments, we take the list provided
+by Ramos (2014) and select the elements that have
+both Latin and Iberian correspondences. We ob-
+tain 64 unique Latin stems in total. For Basque,
+we use a Basque etymological dictionary (Trask),
+and extract Basque words of unknown origins to
+have a better chance to match Iberian tokens.
+For all other known languages used for
+the closeness experiments, we use the Book
+of Genesis in these languages compiled
+by Christodouloupoulos and Steedman (2015)
+and take the most frequent stems. The number
+of stems is chosen to be roughly the same as
+the actual close relative, in order to remove any
+potential impact due to different vocabulary
+sizes. For instance, for the Gothic experiments in
+Figure 4b, this number is set to be 600 since the
+PG vocabulary has 613 words.
+A.3 Training details
+Architecture For the majority of our experi-
+ments, we use a dimensionality of 100 for each
+feature embedding, making the character embed-
+ding of size 700 (there are 7 feature groups).
+For ablation study without IPA embeddings, each
+character is directly represented by a vector of
+size 700 instead. To compare with previous work,
+we use the default setting from Neurocipher
+which has a hidden size of 250, and therefore for
+our model we use a feature embedding size of 35 ,
+making it 245 for each character.
+Hyperparameters We use SGD with a learning
+rate of 0.2 for all experiments. Dropout with a rate
+of 0.5 is applied after the embedding layer. The
+length for matched spans lin the range [4,10]for
+most experiments and [3,10]for Ugaritic. Other
+settings include T= 0.2,λcov= 10.0,λcov=
+100.0. We experimented with two annealing
+schedules for the insertion penalty α:lnαis an-
+nealed from 10.0to3.5or from 0.0to3.5. These
+values are chosen based on our preliminary results,
+representing an extreme (10.0), a moderate (3.5)
+or a non-existent (0.0) penalty. Annealing last for
+2000 steps, and the model is trained for an addi-
+tional 1000 step afterwards. Five random runs are
+conducted for each setting and annealing schedule,
+and the best result is reported.

@@ -1,0 +1,5 @@
+best_seed,known,lost,method,metric,score_best,score_mean,score_std
+1234,Hebrew,Ugaritic,base,P@1,0.2,0.2,0.0
+1234,Hebrew,Ugaritic,full,P@1,0.2,0.2,0.0
+paper,Hebrew,Ugaritic,Bayesian,P@1,0.604,0.604,0.0
+paper,Hebrew,Ugaritic,NeuroCipher,P@1,0.659,0.659,0.0

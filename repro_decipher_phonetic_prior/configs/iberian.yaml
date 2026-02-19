@@ -1,0 +1,180 @@
+experiment: iberian
+
+restarts: 5
+eval_ks: [1, 3, 5, 10]
+smoke_num_steps: 3
+smoke_known_vocab_max: 120
+smoke_train_lines_max: 24
+
+# Required machine-readable personal-name correspondences from Rodriguez Ramos (2014).
+personal_names_path: data_external/rodriguez_ramos_2014_personal_names.tsv
+name_lost_col_candidates: [iberian, iberian_stem, lost, source, query]
+name_known_col_candidates: [latin, latin_stem, known, target, cognate]
+
+min_lost_stem_len: 1
+min_known_stem_len: 2
+
+training:
+  num_steps: 3000
+  anneal_steps: 2000
+  alpha_start: 10.0
+  alpha_end: 3.5
+  temperature: 0.2
+  lambda_cov: 10.0
+  lambda_loss: 100.0
+  min_span: 4
+  max_span: 10
+  learning_rate: 0.2
+  embedding_dim: 100
+  p_o: 0.2
+  log_interval: 100
+
+variants:
+  base:
+    ipa: true
+    omega_loss: true
+    mapping_prior: none
+    prior_strength: 0.0
+  full:
+    ipa: true
+    omega_loss: true
+    mapping_prior: full
+    prior_strength: 10.0
+
+# Confidence thresholds for coverage-confidence curves.
+closeness_thresholds: [0.0, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95, 1.0]
+
+# Figure 4b/c/d style targets. This keeps the paper's language choices where available.
+# External vocabulary files for Arabic/Spanish/Hungarian/Turkish are optional placeholders.
+closeness_targets:
+  gothic:
+    lost_corpus: gothic
+    whitespace_ratio: 0
+    candidate_vocab_max_items: 700
+    eval_query_max: 0
+    candidate_languages:
+      PG:
+        source: bilingual_tsv
+        path: data_external/wiktionary_descendants_pg.tsv
+        known_col_candidates: [proto_germanic_stem, proto_germanic, pg, known, target, cognate]
+      ON:
+        source: bilingual_tsv
+        path: data_external/wiktionary_descendants_on.tsv
+        known_col_candidates: [old_norse_stem, old_norse, on, known, target, cognate]
+      OE:
+        source: bilingual_tsv
+        path: data_external/wiktionary_descendants_oe.tsv
+        known_col_candidates: [old_english_stem, old_english, oe, known, target, cognate]
+      Latin:
+        source: xml_vocab
+        path: third_party/ancient-scripts-datasets/data/cited_sources/genesis/Latin.xml
+        min_len: 4
+        required: true
+      Basque:
+        source: xml_vocab
+        path: third_party/ancient-scripts-datasets/data/cited_sources/basque/Basque-NT.xml
+        min_len: 4
+        required: true
+      Arabic:
+        source: plain_vocab
+        path: data_external/closeness_arabic_vocab.tsv
+        min_len: 4
+        required: false
+      Spanish:
+        source: plain_vocab
+        path: data_external/closeness_spanish_vocab.tsv
+        min_len: 4
+        required: false
+      Hungarian:
+        source: plain_vocab
+        path: data_external/closeness_hungarian_vocab.tsv
+        min_len: 4
+        required: false
+      Turkish:
+        source: plain_vocab
+        path: data_external/closeness_turkish_vocab.tsv
+        min_len: 4
+        required: false
+    eval_pairs:
+      PG:
+        path: data_external/wiktionary_descendants_pg.tsv
+      ON:
+        path: data_external/wiktionary_descendants_on.tsv
+      OE:
+        path: data_external/wiktionary_descendants_oe.tsv
+
+  ugaritic:
+    lost_corpus: ugaritic
+    whitespace_ratio: 100
+    candidate_vocab_max_items: 700
+    eval_query_max: 0
+    candidate_languages:
+      Hebrew:
+        source: bilingual_tsv
+        path: third_party/NeuroDecipher/data/uga-heb.small.no_spe.cog
+        lost_col_candidates: [uga-no_spe, ugaritic, lost, source, query]
+        known_col_candidates: [heb-no_spe, hebrew, known, target, cognate]
+        min_len: 3
+      Arabic:
+        source: plain_vocab
+        path: data_external/closeness_arabic_vocab.tsv
+        min_len: 3
+        required: false
+      Aramaic:
+        source: plain_vocab
+        path: data_external/closeness_aramaic_vocab.tsv
+        min_len: 3
+        required: false
+      Latin:
+        source: xml_vocab
+        path: third_party/ancient-scripts-datasets/data/cited_sources/genesis/Latin.xml
+        min_len: 3
+        required: true
+      Basque:
+        source: xml_vocab
+        path: third_party/ancient-scripts-datasets/data/cited_sources/basque/Basque-NT.xml
+        min_len: 3
+        required: true
+    eval_pairs:
+      Hebrew:
+        path: third_party/NeuroDecipher/data/uga-heb.small.no_spe.cog
+        lost_col_candidates: [uga-no_spe, ugaritic, lost, source, query]
+        known_col_candidates: [heb-no_spe, hebrew, known, target, cognate]
+
+  iberian:
+    lost_corpus: iberian
+    whitespace_ratio: 100
+    candidate_vocab_max_items: 700
+    eval_query_max: 0
+    candidate_languages:
+      Latin:
+        source: names_tsv
+        path: data_external/rodriguez_ramos_2014_personal_names.tsv
+        known_col_candidates: [latin, latin_stem, known, target, cognate]
+      Basque:
+        source: xml_vocab
+        path: third_party/ancient-scripts-datasets/data/cited_sources/basque/Basque-NT.xml
+        min_len: 2
+        required: true
+      Hebrew:
+        source: xml_vocab
+        path: third_party/ancient-scripts-datasets/data/cited_sources/genesis/Hebrew.xml
+        min_len: 2
+        required: true
+      PG:
+        source: bilingual_tsv
+        path: data_external/wiktionary_descendants_pg.tsv
+        known_col_candidates: [proto_germanic_stem, proto_germanic, pg, known, target, cognate]
+      ON:
+        source: bilingual_tsv
+        path: data_external/wiktionary_descendants_on.tsv
+        known_col_candidates: [old_norse_stem, old_norse, on, known, target, cognate]
+      OE:
+        source: bilingual_tsv
+        path: data_external/wiktionary_descendants_oe.tsv
+        known_col_candidates: [old_english_stem, old_english, oe, known, target, cognate]
+    eval_pairs:
+      Latin:
+        path: data_external/rodriguez_ramos_2014_personal_names.tsv
+        lost_col_candidates: [iberian, iberian_stem, lost, source, query]
+        known_col_candidates: [latin, latin_stem, known, target, cognate]

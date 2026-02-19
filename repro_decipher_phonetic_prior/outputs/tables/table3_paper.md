@@ -1,0 +1,13 @@
+| Lost | Known | Method | Metric | Score | Source |
+| --- | --- | --- | --- | --- | --- |
+| Ugaritic | Hebrew | Bayesian | P@1 | 0.604 | paper |
+| Ugaritic | Hebrew | NeuroCipher | P@1 | 0.659 | paper |
+| Ugaritic | Hebrew | base | P@1 | 0.778 | paper |
+| Gothic | PG | NeuroCipher | P@10 | 0.753 | paper |
+| Gothic | ON | NeuroCipher | P@10 | 0.543 | paper |
+| Gothic | OE | NeuroCipher | P@10 | 0.313 | paper |
+| Gothic | PG | base | P@10 | 0.865 | paper |
+| Gothic | ON | base | P@10 | 0.558 | paper |
+| Gothic | OE | base | P@10 | 0.472 | paper |
+| Ugaritic | Hebrew | base | P@1 | 0.200 | reproduced |
+| Ugaritic | Hebrew | full | P@1 | 0.200 | reproduced |

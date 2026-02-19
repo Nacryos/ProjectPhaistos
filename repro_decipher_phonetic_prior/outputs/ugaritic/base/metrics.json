@@ -1,0 +1,22 @@
+{
+  "config_path": "/Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/configs/ugaritic.yaml",
+  "created_at": "2026-02-16T05:16:57+00:00",
+  "experiment": "ugaritic",
+  "restart_rows": [
+    {
+      "mrr": 0.2628684003152088,
+      "p_at_1": 0.2,
+      "p_at_10": 0.4,
+      "seed": 1234
+    }
+  ],
+  "restarts": 1,
+  "seed_base": 1234,
+  "summary": {
+    "best": 0.2,
+    "best_seed": 1234,
+    "mean": 0.2,
+    "std": 0.0
+  },
+  "variant": "base"
+}

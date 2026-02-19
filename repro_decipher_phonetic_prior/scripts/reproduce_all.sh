@@ -4,23 +4,20 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
 
-PYTHON_BIN="${PYTHON_BIN:-python3}"
-
 if [ "${SKIP_SETUP:-1}" = "0" ]; then
   scripts/setup.sh
 fi
 
 scripts/prepare_datasets.sh
-scripts/smoke_test.sh
-scripts/train_gothic.sh
-scripts/eval_gothic.sh
 
-if ! scripts/run_neurocipher.sh; then
-  echo "NeuroCipher run failed, falling back to reference values for table3 Ugaritic rows."
-  NEURO_MODE=reference scripts/run_neurocipher.sh
+if [ "${USE_LEGACY_REFERENCE_PIPELINE:-0}" = "1" ]; then
+  scripts/smoke_test.sh
+  scripts/train_gothic.sh
+  scripts/eval_gothic.sh
+  scripts/fig4.sh
+  python3 -m repro.report
+  echo "Legacy reference pipeline complete."
+else
+  scripts/reproduce_paper.sh
+  echo "Paper-style reproduction pipeline complete."
 fi
-
-scripts/fig4.sh
-"$PYTHON_BIN" -m repro.report
-
-echo "Reproduction pipeline complete."

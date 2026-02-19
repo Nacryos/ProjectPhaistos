@@ -1,0 +1,70 @@
+TACL 2021 Paper-Style Reproduction Summary
+Generated: 2026-02-15 (local)
+Workspace: /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior
+
+Run mode executed in this session
+- Command: python3 -m repro.run_experiment ugaritic --restarts 1 --max-queries 5 --smoke --output-root outputs
+- Status: SUCCESS
+- Runtime: ~31.6s (CPU)
+- Output root: /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/outputs
+
+Paper-style experiment status
+1) Gothic (P@10, Table 2/4 style)
+- Command attempted: python3 -m repro.run_experiment gothic --restarts 1 --max-queries 5 --smoke --output-root outputs
+- Status: BLOCKED (missing required data file)
+- Missing file:
+  /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data_external/wiktionary_descendants_pg.tsv
+
+2) Ugaritic (P@1, Table 3 style)
+- Base: P@1=0.200, P@10=0.400, MRR=0.2629 (seed=1234)
+- Full: P@1=0.200, P@10=0.200, MRR=0.2203 (seed=1234)
+- Output files:
+  /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/outputs/ugaritic/base/metrics.json
+  /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/outputs/ugaritic/full/metrics.json
+  /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/outputs/ugaritic/table3_ugaritic.csv
+
+3) Iberian names (Figure 4a style)
+- Command attempted: python3 -m repro.run_experiment iberian-names --restarts 1 --max-queries 5 --smoke --output-root outputs
+- Status: BLOCKED (missing required data file)
+- Missing file:
+  /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data_external/rodriguez_ramos_2014_personal_names.tsv
+
+4) Iberian closeness (Figure 4b/c/d style)
+- Command attempted: python3 -m repro.run_experiment iberian-closeness --restarts 1 --max-queries 5 --smoke --output-root outputs
+- Status: BLOCKED (missing required candidate vocabulary file)
+- Missing file:
+  /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/data_external/wiktionary_descendants_pg.tsv
+
+Direct comparison to original paper numbers
+- Table source: /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/outputs/tables/table3_paper.csv
+- Overlap comparison CSV:
+  /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/outputs/tables/table3_overlap_comparison.csv
+- Compared overlap rows: 1
+- Ugaritic/Hebrew/base (P@1):
+  paper=0.778, reproduced=0.200, delta=-0.578
+
+Comparative graphs generated
+- /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/outputs/figures/table3_overlap_bars.png
+- /Users/aaronbao/Developer/ProjectPhaistos/repro_decipher_phonetic_prior/outputs/figures/table3_overlap_scatter.png
+
+Updated languages from ancient-scripts-datasets integrated via dataset registry
+- Repo pinned commit:
+  6efefde2cd4378d1ede05dac27d5cba80e78901e
+- Validation branches available:
+  validation_balto_slavic (3)
+  validation_celtic (3)
+  validation_germanic (4)
+  validation_hellenic (2)
+  validation_indo_iranian (3)
+  validation_italic (3)
+  validation_names (30)
+  validation_semitic (3)
+  validation_turkic (3)
+  validation_uralic (3)
+- Base corpora available: gothic, ugaritic, iberian
+- Religious variants exposed (not used by default):
+  gothic/religious, ugaritic/religious, iberian/religious
+
+Notes
+- This session produced a smoke-scale validation run, not full 5-restart final replication.
+- Full paper replication remains blocked until required external files are provided in data_external/.

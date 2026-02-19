@@ -1,0 +1,12 @@
+known,lost,method,metric,score,source
+Hebrew,Ugaritic,Bayesian,P@1,0.604,paper
+Hebrew,Ugaritic,NeuroCipher,P@1,0.659,paper
+Hebrew,Ugaritic,base,P@1,0.778,paper
+PG,Gothic,NeuroCipher,P@10,0.753,paper
+ON,Gothic,NeuroCipher,P@10,0.543,paper
+OE,Gothic,NeuroCipher,P@10,0.313,paper
+PG,Gothic,base,P@10,0.865,paper
+ON,Gothic,base,P@10,0.558,paper
+OE,Gothic,base,P@10,0.472,paper
+Hebrew,Ugaritic,base,P@1,0.2,reproduced
+Hebrew,Ugaritic,full,P@1,0.2,reproduced

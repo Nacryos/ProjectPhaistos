@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: setup data fetch_data smoke train_gothic eval_gothic fig4 table2 table3 table4 report compare_graphs run_validation run_validation_all_pairs reproduce_all
+.PHONY: setup data fetch_data smoke train_gothic eval_gothic fig4 table2 table3 table4 report compare_graphs compare_paper run_validation run_validation_all_pairs reproduce_all reproduce_paper make_tables
 
 setup:
 	bash scripts/setup.sh
@@ -47,3 +47,12 @@ run_validation_all_pairs:
 
 reproduce_all:
 	bash scripts/reproduce_all.sh
+
+reproduce_paper:
+	bash scripts/reproduce_paper.sh
+
+make_tables:
+	$(PYTHON) scripts/make_tables.py --output-root outputs
+
+compare_paper:
+	$(PYTHON) scripts/make_comparative_graphs.py --output-root outputs

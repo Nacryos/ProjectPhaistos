@@ -1,0 +1,43 @@
+experiment: ugaritic
+
+restarts: 5
+top_k: 10
+smoke_num_steps: 3
+smoke_known_vocab_max: 120
+smoke_train_lines_max: 24
+
+# NeuroDecipher cognate file used by the paper baseline setting.
+cognate_path: third_party/NeuroDecipher/data/uga-heb.small.no_spe.cog
+lost_col_candidates: [uga-no_spe, ugaritic, lost, source, query]
+known_col_candidates: [heb-no_spe, hebrew, known, target, cognate]
+
+min_lost_stem_len: 1
+min_known_stem_len: 3
+
+training:
+  # Appendix A.3 reports [3,10] span setting for Ugaritic.
+  num_steps: 3000
+  anneal_steps: 2000
+  alpha_start: 10.0
+  alpha_end: 3.5
+  temperature: 0.2
+  lambda_cov: 10.0
+  lambda_loss: 100.0
+  min_span: 3
+  max_span: 10
+  learning_rate: 0.2
+  embedding_dim: 35
+  p_o: 0.2
+  log_interval: 100
+
+variants:
+  base:
+    ipa: true
+    omega_loss: true
+    mapping_prior: none
+    prior_strength: 0.0
+  full:
+    ipa: true
+    omega_loss: true
+    mapping_prior: full
+    prior_strength: 10.0

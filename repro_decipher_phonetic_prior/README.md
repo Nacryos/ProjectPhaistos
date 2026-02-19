@@ -120,6 +120,113 @@ bash scripts/fetch_data.sh
 `fetch_data.sh` caches downloads in `data_external/` and writes SHA256 checksums to `data_external/checksums.sha256`.
 For non-machine-readable appendix assets (Wiktionary descendant-tree extracts, Iberian personal-name TSV), the script fails with explicit required filenames unless `ALLOW_INCOMPLETE=1` is set.
 
+## Reproducing the TACL 2021 experiments
+
+This repository now includes a paper-style experiment CLI that is separate from the all-pairs validation harness.
+It runs the same experiment families as the paper:
+
+- `gothic` (P@10, Table 2/4 style)
+- `ugaritic` (P@1, Table 3 style)
+- `iberian-names` (personal names, Figure 4a style)
+- `iberian-closeness` (coverage-confidence curves + closeness ranking, Figure 4b/c/d style)
+- `all` (runs all of the above)
+
+### New entrypoint
+
+```bash
+python3 -m repro.run_experiment --help
+python3 -m repro.run_experiment gothic --help
+python3 -m repro.run_experiment ugaritic --help
+python3 -m repro.run_experiment iberian-names --help
+python3 -m repro.run_experiment iberian-closeness --help
+python3 -m repro.run_experiment all --help
+```
+
+Equivalent convenience wrapper:
+
+```bash
+python3 -m run_experiment gothic --help
+```
+
+### Config files (paper settings)
+
+- `configs/gothic.yaml`
+- `configs/ugaritic.yaml`
+- `configs/iberian.yaml`
+
+These include paper-style defaults from Appendix A.3:
+
+- 5 restarts
+- SGD with learning rate 0.2
+- insertion penalty annealing
+- span lengths `[4,10]` (or `[3,10]` for Ugaritic)
+- `T=0.2`, `lambda_cov=10.0`, `lambda_loss=100.0`
+
+### One-command paper run
+
+```bash
+bash scripts/reproduce_paper.sh
+```
+
+This executes:
+
+- `python3 -m repro.run_experiment gothic --variants base,partial,full`
+- `python3 -m repro.run_experiment ugaritic --variants base,full`
+- `python3 -m repro.run_experiment iberian-names --variants base,full`
+- `python3 -m repro.run_experiment iberian-closeness --variants base,full`
+- `python3 scripts/make_tables.py --output-root outputs`
+- `python3 scripts/make_comparative_graphs.py --output-root outputs`
+
+### Smoke test mode (fast)
+
+Runs 1 restart with a small subset (`<=50` queries) for each experiment:
+
+```bash
+SMOKE=1 MAX_QUERIES=50 RESTARTS=1 bash scripts/reproduce_paper.sh
+```
+
+### Outputs
+
+Primary outputs are written to `outputs/`:
+
+- `outputs/gothic/{base,partial,full}/metrics.json`
+- `outputs/gothic/{base,partial,full}/per_query.csv`
+- `outputs/gothic/table2.csv`
+- `outputs/gothic/table4.csv`
+- `outputs/ugaritic/{base,full}/metrics.json`
+- `outputs/ugaritic/{base,full}/per_query.csv`
+- `outputs/ugaritic/table3_ugaritic.csv`
+- `outputs/iberian_names/{base,full}/metrics.json`
+- `outputs/iberian_names/{base,full}/per_query.csv`
+- `outputs/iberian_names/p_at_k.csv`
+- `outputs/iberian_names/p_at_k_curve.png`
+- `outputs/iberian_closeness/{base,full}/curve.csv`
+- `outputs/iberian_closeness/{base,full}/curve.png`
+- `outputs/iberian_closeness/{base,full}/closeness_ranking.csv`
+- `outputs/tables/table2_paper.{csv,md,tex}`
+- `outputs/tables/table3_paper.{csv,md,tex}`
+- `outputs/tables/table4_paper.{csv,md,tex}`
+- `outputs/tables/table3_overlap_comparison.csv`
+- `outputs/figures/table3_overlap_bars.png`
+- `outputs/figures/table3_overlap_scatter.png`
+- `outputs/SUMMARY_REPORT.txt`
+
+For reproducibility and recomputation:
+
+- each restart writes raw rankings to both CSV and JSONL under `outputs/**/restarts/**/`
+
+### Data acquisition note (required files)
+
+Paper-style runs require machine-readable files in `data_external/`:
+
+- `data_external/wiktionary_descendants_pg.tsv`
+- `data_external/wiktionary_descendants_on.tsv`
+- `data_external/wiktionary_descendants_oe.tsv`
+- `data_external/rodriguez_ramos_2014_personal_names.tsv`
+
+If any required file is missing, the run exits with a clear error naming the missing file and expected path.
+This is intentional to avoid silently falling back to reference-only numbers.
+
 ## Single-command pipeline
 
 ```bash

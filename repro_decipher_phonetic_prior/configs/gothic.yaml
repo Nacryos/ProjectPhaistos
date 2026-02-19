@@ -1,0 +1,82 @@
+experiment: gothic
+
+# Paper setup: 5 random runs and best reported.
+restarts: 5
+
+whitespace_ratios:
+  - 0
+  - 25
+  - 50
+  - 75
+
+top_k: 10
+min_lost_stem_len: 1
+min_known_stem_len: 4
+max_training_lines: 5000
+smoke_num_steps: 3
+smoke_known_vocab_max: 120
+smoke_train_lines_max: 24
+
+training:
+  # Paper hyperparameter style (Appendix A.3)
+  num_steps: 3000
+  anneal_steps: 2000
+  alpha_start: 10.0
+  alpha_end: 3.5
+  temperature: 0.2
+  lambda_cov: 10.0
+  lambda_loss: 100.0
+  min_span: 4
+  max_span: 10
+  learning_rate: 0.2
+  embedding_dim: 100
+  p_o: 0.2
+  log_interval: 100
+
+# Each file is expected to provide Gothic-to-known cognate correspondences.
+# If these files are absent, the run fails with a clear missing-file message.
+known_languages:
+  PG:
+    path: data_external/wiktionary_descendants_pg.tsv
+    lost_col_candidates: [gothic_stem, gothic, got, lost, source, query]
+    known_col_candidates: [proto_germanic_stem, proto_germanic, pg, known, target, cognate]
+  ON:
+    path: data_external/wiktionary_descendants_on.tsv
+    lost_col_candidates: [gothic_stem, gothic, got, lost, source, query]
+    known_col_candidates: [old_norse_stem, old_norse, on, known, target, cognate]
+  OE:
+    path: data_external/wiktionary_descendants_oe.tsv
+    lost_col_candidates: [gothic_stem, gothic, got, lost, source, query]
+    known_col_candidates: [old_english_stem, old_english, oe, known, target, cognate]
+
+variants:
+  base:
+    ipa: true
+    omega_loss: true
+    mapping_prior: none
+    prior_strength: 0.0
+  partial:
+    ipa: true
+    omega_loss: true
+    mapping_prior: partial
+    partial_chars: [k, l, m, n, p, s, t]
+    prior_strength: 8.0
+  full:
+    ipa: true
+    omega_loss: true
+    mapping_prior: full
+    prior_strength: 10.0
+
+ablation:
+  known_language: ON
+  whitespace_ratio: 75
+  rows:
+    - label: ipa_on_omega_on
+      ipa: true
+      omega_loss: true
+    - label: ipa_off_omega_on
+      ipa: false
+      omega_loss: true
+    - label: ipa_on_omega_off
+      ipa: true
+      omega_loss: false
