@@ -4,6 +4,85 @@ Reverse-chronological notes, reports, and observations from model investigation,
 
 ---
 
+## 2026-02-20 — IPA Feature Bottleneck: Root Cause & Solution Selection
+
+**Phase:** Pre-implementation analysis
+**Status:** Solution D (panphon + grouped embeddings) selected for implementation
+**Scope:** Paper vs. reproduction gap analysis, feature encoding options, architectural decision
+
+---
+
+### Root Cause: Paper vs. Reproduction Mismatch
+
+The paper (Luo et al. 2021, Section 3.2.1 + Figure 3 + Appendix A.2-A.3) describes a **compositional IPA embedding** system:
+
+> "Each IPA character is represented by a vector of phonological features. The model learns to embed these features into a new space... the phone [b] can be represented as the concatenation of the **voiced** embedding, the **stop** embedding and the **labial** embedding."
+
+The **original code** (in `j-luo93/xib` and `j-luo93/DecipherUnsegmented`) implements this correctly:
+- Uses `ipapy` to extract **14 phonological categories** (112 total feature values)
+- Selects **7 feature groups**: ptype, c_voicing, c_place, c_manner, v_height, v_backness, v_roundness
+- Each group gets a learned `nn.Embedding(num_features_in_group, 100)`
+- Concatenates all 7 group embeddings -> **700-dimensional** character embedding
+- Result: [b] and [p] share 2/3 of their embedding (both are stop + labial)
+
+The **reproduction code** (`repro/eval/common.py:253-282`) replaces all of this with:
+```python
+# Pseudo-random features -- NOT phonologically grounded
+float(code % 2), float(code % 3)/2.0, float(code % 5)/4.0, ...
+```
+This produces an **8-dimensional** vector where 6 of 8 dimensions are Unicode codepoint modular arithmetic. Under this scheme, [b] (U+0062) and [p] (U+0070) get completely unrelated feature vectors -- destroying the geometric structure that is the entire point of the phonetic prior.
+
+The paper's ablation (Table 4) shows IPA embeddings provide a **+12.8% improvement** on Gothic-Old Norse. Without real phonological features, the "phonetic prior" variant operates on noise.
+
+---
+
+### Solutions Evaluated
+
+| Solution | Description | Feature Dim | Grouped? | Phonological Geometry |
+|---|---|---|---|---|
+| **A: panphon flat** | 21 ternary features -> single nn.Linear | 21 | No | Encoded in input, but mixed by projection |
+| **B: soundvectors** | 39 ternary features (incl. tone, diphthongs) | 39 | No | Richest input, but 15 dims wasted on non-tonal languages |
+| **C: Original ipapy** | Port authors' 112-feature system from xib | 700 | Yes (7 groups) | Exact paper reproduction |
+| **D: panphon grouped** | 21 features in 5 groups, per-group nn.Linear | 5 x group_d | Yes (5 groups) | Best: real features + group independence |
+
+### Why Not B (soundvectors)?
+
+Soundvectors has 39 features: 24 core + 6 tone + 7 diphthong trajectory + 2 additional place. For our target languages (Ugaritic, Gothic, Iberian): none are tonal (6 dims = 0), diphthongs are transcribed as monophthong sequences at the character level (7 dims = 0). So 15/39 dimensions carry no signal. The 24 core features are only marginally richer than panphon's 21 (adding explicit pharyngeal/laryngeal which panphon encodes via feature combinations). The CLTS data dependency adds setup fragility for no gain.
+
+### Why D Over A: Group Independence Matters for Sound Shifts
+
+Sound changes operate along **specific phonological dimensions**:
+- Grimm's Law: voiced stops -> voiceless stops (voicing change only)
+- Palatalization: velars -> palatals before front vowels (place change only)
+- Lenition: stops -> fricatives (manner change only)
+- Great Vowel Shift: systematic height changes (vowel height only)
+
+**Solution A** (flat projection) passes 21 features through a single `nn.Linear(21, d)`. This freely mixes all features in one 35-dimensional space. The model must discover from limited data that voicing and place are independent dimensions -- a structural fact it should get for free.
+
+**Solution D** (grouped projections) gives each phonological category its own `nn.Linear(group_size, group_d)`, then concatenates. The character embedding naturally decomposes into independent subspaces:
+```
+emb([b]) = [manner_emb | laryngeal_emb | place_emb | vowel_emb | class_emb]
+```
+When the model learns that Gothic [p] maps to Old Norse [f] (Grimm's Law), it learns a transformation in the manner subspace without disturbing place or voicing. This is the paper's key inductive bias.
+
+### Selected: Solution D — panphon Features with Grouped Embeddings
+
+**Feature groups (matching standard phonological categories):**
+
+| Group | panphon Features | Dim |
+|---|---|---|
+| major_class | syl, son, cons | 3 |
+| manner | cont, delrel, lat, nas, strid | 5 |
+| laryngeal | voi, sg, cg | 3 |
+| place | ant, cor, distr, lab | 4 |
+| vowel_body | hi, lo, back, round, tense, long | 6 |
+
+5 groups, 21 total features. Each group projected to `embedding_dim // 5` dimensions.
+
+**Architecture change:** Replace `self.ipa_projector = nn.Linear(feat_dim, d)` with per-group `nn.Linear` modules that concatenate to produce the same output dimension. The rest of the model (`compute_char_distr`, `edit_distance_dp`, `word_boundary_dp`) remains unchanged.
+
+---
+
 ## 2026-02-20 — Pre-Run Investigation: Model Architecture Deep Dive
 
 **Phase:** Pre-training investigation
