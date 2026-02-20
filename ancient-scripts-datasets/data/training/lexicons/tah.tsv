@@ -1,0 +1,528 @@
+Word	IPA	SCA	Source	Concept_ID	Cognate_Set_ID
+'a'ahu	aahu	AAHU	abvd	BITE	abvd_41_tobite_7
+'a'ano	aano	AANO	abvd	WIDE	abvd_159_wide_7
+'a'ati	aati	AATI	abvd	BITE	abvd_41_tobite_1
+'a'e	ae	AE	abvd	CLIMB	abvd_172_toclimb_32
+'a'ii	aii	AII	abvd	NECK	abvd_25_neck_20
+'a'o	ao	AO	abvd	FAT (ORGANIC SUBSTANCE)	abvd_104_fatgrease_14
+'a'ī	a	A	abvd	NECK	abvd_25_neck_20
+'aa'au	aaau	AAAU	abvd	INTESTINES	abvd_16_intestines_12
+'aafaro	aafaro	AAPARO	abvd	CORRECT (RIGHT)	abvd_166_correcttrue_39
+'aama'a	aamaa	AAMAA	abvd	BRANCH	abvd_113_branch_2
+'aapii	aapii	AAPII	abvd	NEW	abvd_163_new_7
+'aava'e	aavae	AABAE	abvd	MOON	abvd_129_moon_6
+'aavae	aavae	AABAE	abvd	FOOT OR LEG	abvd_4_legfoot_1
+'aero	aero	AERO	abvd	TAIL	abvd_105_tail_10
+'afulu	afulu	APULU	abvd	TEN	abvd_206_ten_5
+'ahuru	ahuru	AHURU	abvd	TEN	abvd_206_ten_5
+'ai	ai	AI	abvd	EAT	abvd_37_toeat_1
+'aihere	aihere	AIHERE	abvd	FOREST	abvd_127_woodsforest_16
+'aima	aima	AIMA	abvd	NO OR NOT	-
+'aio	aio	AIO	abvd	LEFT	-
+'aita	aita	AITA	abvd	NO OR NOT	-
+'amu	amu	AMU	abvd	EAT	abvd_37_toeat_1
+'ata	ata	ATA	abvd	LAUGH	abvd_33_tolaugh_7
+'atau	atau	ATAU	abvd	RIGHT	abvd_3_right_5
+'ati	ati	ATI	abvd	BITE	abvd_41_tobite_1
+'au	au	AU	abvd	SWIM	abvd_9_toswim_5
+'au'au	auau	AUAU	abvd	CHEW	abvd_38_tochew_8
+'aui	aui	AUI	abvd	LEFT	abvd_2_left_1
+'e	e	E	abvd	AND	abvd_192_and_8
+'ee	ee	EE	abvd	AND	abvd_192_and_8
+'ee'a	eea	EEA	abvd	PATH OR ROAD	abvd_6_roadpath_52
+'eiaa	eiaa	EIAA	abvd	STEAL	abvd_73_tosteal_7
+'eiā	ei	EI	abvd	STEAL	abvd_73_tosteal_7
+'ere'ere	ereere	EREERE	abvd	BLACK	abvd_147_black_5
+'eru	eru	ERU	abvd	DIG	abvd_90_todig_1
+'eu	eu	EU	abvd	COOK (SOMETHING)	abvd_39_tocook_10
+'i'o	io	IO	abvd	FLESH OR MEAT	abvd_103_meatflesh_10
+'ia	ia	IA	abvd	IF	-
+'ino	ino	INO	abvd	BAD OR EVIL	abvd_165_badevil_9
+'iore	iore	IORE	abvd	RAT	abvd_102_rat_12
+'iri	iri	IRI	abvd	SKIN	abvd_12_skin_1
+'ite	ite	ITE	abvd	KNOW (SOMETHING)	abvd_20_toknowbeknowledgeable_12
+'itere	itere	ITERE	abvd	TAIL	-
+'o v|ai	ovai	OBAI	abvd	WHO	abvd_189_who_1
+'oe	oe	OE	abvd	THOU	abvd_183_thou_1
+'oe'oe	oeoe	OEOE	abvd	SHARP	abvd_81_sharp_14
+'ohipa	ohipa	OHIPA	abvd	WORK (ACTIVITY)	abvd_83_towork_92
+'oi	oi	OI	abvd	SHARP	abvd_81_sharp_14
+'oia	oia	OIA	abvd	HE OR SHE	abvd_184_heshe_1
+'oofa'i	oofai	OOPAI	abvd	STONE	abvd_120_stone_1
+'oofii	oofii	OOPII	abvd	SNAKE	-
+'oona	oona	OONA	abvd	HE OR SHE	abvd_184_heshe_5
+'oopee	oopee	OOPEE	abvd	ROTTEN	abvd_112_rotten_16
+'oopuu	oopuu	OOPUU	abvd	BELLY	abvd_14_belly_2
+'oouma	oouma	OOUMA	abvd	BREAST	abvd_18_breast_7
+'oru	oru	ORU	abvd	SWELL	abvd_87_toswell_6
+'ote	ote	OTE	abvd	SUCK	abvd_42_tosuck_9
+'outou	outou	OUTOU	abvd	YOU	abvd_186_you_16
+'u'umu	uumu	UUMU	abvd	SQUEEZE	abvd_88_tosqueeze_14
+'uo'uo	uouo	UOUO	abvd	WHITE	abvd_148_white_108
+'upa'a	upaa	UPAA	abvd	LIVER	abvd_17_liver_6
+'ura	ura	URA	abvd	RED	abvd_149_red_13
+'urii	urii	URII	abvd	DOG	abvd_96_dog_7
+'ute'ute	uteute	UTEUTE	abvd	RED	abvd_149_red_14
+'utu	utu	UTU	abvd	LOUSE	abvd_108_louse_1
+'ā'ano	ano	ANO	abvd	WIDE	abvd_159_wide_7
+'ā'aro	aro	ARO	abvd	DIG	abvd_90_todig_1
+'ā'au	au	AU	abvd	INTESTINES	abvd_16_intestines_12
+'āero	ero	ERO	abvd	TAIL	abvd_105_tail_10
+'āhani	hani	HANI	abvd	IF	abvd_193_if_1
+'āma'a	maa	MAA	abvd	BRANCH	abvd_113_branch_2
+'āpī	p	P	abvd	NEW	abvd_163_new_7
+'āva'e	vae	BAE	abvd	MOON	abvd_129_moon_6
+'āvae	vae	BAE	abvd	FOOT OR LEG	abvd_4_legfoot_1
+'ōfa'i	fai	PAI	abvd	STONE	abvd_120_stone_1
+'ōfī	f	P	abvd	SNAKE	-
+'ōpū	p	P	abvd	BELLY	abvd_14_belly_2
+'ūrī	r	R	abvd	DOG	abvd_96_dog_7
+a'a	aa	AA	abvd	ROOT	abvd_115_root_2
+a'u	au	AU	abvd	HUNT	abvd_69_tohunt_7
+a'ua'u	auau	AUAU	abvd	HUNT	abvd_69_tohunt_7
+aafea	aafea	AAPEA	abvd	WHEN	abvd_170_when_5
+aatea	aatea	AATEA	abvd	FAR	abvd_180_far_14
+afea	afea	APEA	abvd	WHEN	abvd_170_when_5
+aha	aha	AHA	abvd	WHAT	abvd_188_what_1
+aheine	aheine	AHEINE	abvd	FEMALE PERSON	abvd_55_womanfemale_1
+ahi	ahi	AHI	abvd	FIRE	abvd_143_fire_1
+airareè	airare	AIRARE	abvd	FLY (MOVE THROUGH AIR)	abvd_101_tofly_11
+aiwee	aiwee	AIWEE	abvd	HEAR	-
+amama	amama	AMAMA	abvd	YAWN	abvd_47_toyawn_19
+anu	anu	ANU	abvd	COLD	abvd_139_cold_8
+ao	ao	AO	abvd	CLOUD	abvd_131_cloud_12
+ara	ara	ARA	abvd	PATH OR ROAD	abvd_6_roadpath_1
+arapo'a	arapoa	ARAPOA	abvd	NECK	abvd_25_neck_132
+arero	arero	ARERO	abvd	TONGUE	abvd_32_tongue_15
+arooato	arooato	AROOATO	abvd	TWENTY	-
+aruri	aruri	ARURI	abvd	LEFT	-
+ata	ata	ATA	abvd	CLOUD	abvd_131_cloud_118
+atepa'u	atepau	ATEPAU	abvd	LIVER	abvd_17_liver_1
+ato	ato	ATO	abvd	THATCH OR ROOF	abvd_62_thatchroof_1
+ato'a	atoa	ATOA	abvd	ALL	abvd_191_all_13
+au	au	AU	abvd	SEW	abvd_67_tosew_14
+auahi	auahi	AUAHI	abvd	FIRE	abvd_143_fire_1
+auauahi	auauahi	AUAUAHI	abvd	SMOKE (EXHAUST)	abvd_145_smoke_2
+au|ahi	auahi	AUAHI	abvd	SMOKE (EXHAUST)	abvd_145_smoke_2
+avy	avy	ABU	abvd	WATER	abvd_122_water_2
+e aha	eaha	EAHA	abvd	WHAT	abvd_188_what_1
+eaee	eaee	EAEE	abvd	NECK	abvd_25_neck_20
+eahoo	eahoo	EAHOO	abvd	NOSE	abvd_27_nose_1
+eairo	eairo	EAIRO	abvd	TAIL	abvd_105_tail_10
+eaow	eaow	EAOW	abvd	SWIM	abvd_9_toswim_5
+earee	earee	EAREE	abvd	CHILD	abvd_56_child_63?
+earo	earo	EARO	abvd	ABOVE	-
+eat	eat	EAT	abvd	CLOUD	abvd_131_cloud_118
+eawy	eawy	EAWU	abvd	FOOT OR LEG	abvd_4_legfoot_1
+eei	eei	EEI	abvd	EAT	abvd_37_toeat_1
+eeree	eeree	EEREE	abvd	FLESH OR MEAT	-
+eetoò	eeto	EETO	abvd	STAND	abvd_52_tostand_2
+efedee	efedee	EPEDEE	abvd	STAR	abvd_130_star_1
+ehai	ehai	EHAI	abvd	WHEN	abvd_170_when_5
+ehaòe	ehae	EHAE	abvd	TURN	-
+ehaòwpè	ehawp	EHAWP	abvd	TAIL	-
+eheèroharreehòe	eheroharreehe	EHEROHARREEHE	abvd	COME	-
+ehò	eh	EH	abvd	BUY	abvd_91_tobuy_7
+eiya	eiya	EIUA	abvd	FISH	abvd_111_fish_1
+eneeho	eneeho	ENEEHO	abvd	TOOTH	abvd_31_tooth_1
+eninnei	eninnei	ENINNEI	abvd	SQUEEZE	abvd_88_tosqueeze_11
+eoboo	eoboo	EOBOO	abvd	BELLY	abvd_14_belly_2
+eohoo	eohoo	EOHOO	abvd	SMOKE (EXHAUST)	-
+eom	eom	EOM	abvd	BREAST	abvd_18_breast_7
+eoo	eoo	EOO	abvd	BREAST	abvd_18_breast_1
+eotte	eotte	EOTTE	abvd	SUCK	abvd_42_tosuck_9
+epeea	epeea	EPEEA	abvd	STICK	-
+ephàow	ephow	EPHOW	abvd	SMELL (PERCEIVE)	-
+eraowroo	eraowroo	ERAOWROO	abvd	HAIR	abvd_26_hair_40
+erowroo	erowroo	EROWROO	abvd	HEAD	abvd_24_head_1
+etapon	etapon	ETAPON	abvd	SHOULDER	-
+etoo	etoo	ETOO	abvd	BACK	abvd_13_back_11
+etooa	etooa	ETOOA	abvd	BELOW OR UNDER	-
+etoomoo	etoomoo	ETOOMOO	abvd	STICK	-
+ewauh	ewauh	EWAUH	abvd	MOUTH	abvd_30_mouth_1
+ewawaowerao	ewawaowerao	EWAWAOWERAO	abvd	LEAF	abvd_114_leaf_1?
+eweyoraèe	eweyorae	EWEUORAE	abvd	SKIN	abvd_12_skin_1
+eworooai	eworooai	EWOROOAI	abvd	RAIN (PRECIPITATION)	-
+eyoare	eyoare	EUOARE	abvd	RAT	abvd_102_rat_12
+eàeenietematto	eeenietematto	EEENIETEMATTO	abvd	CLIMB	abvd_172_toclimb_32
+eàrahow	erahow	ERAHOW	abvd	ASH	abvd_146_ashes_67
+fa'a'ā	faa	PAA	abvd	COOK (SOMETHING)	abvd_39_tocook_2?
+fa'ahū	faah	PAAH	abvd	SQUEEZE	-
+fa'aro'o	faaroo	PAAROO	abvd	HEAR	abvd_44_tohear_1
+fa'arūa'i	faarai	PAARAI	abvd	VOMIT	abvd_35_tovomit_8
+faatata	faatata	PAATATA	abvd	NEAR	abvd_179_near_9
+fale	fale	PALE	abvd	HOUSE	abvd_61_house_14
+fana	fana	PANA	abvd	SHOOT	abvd_70_toshoot_1
+farara	farara	PARARA	abvd	BLOW (OF WIND)	abvd_137_toblow_9
+fare	fare	PARE	abvd	HOUSE	abvd_61_house_14
+fea	fea	PEA	abvd	HOW	abvd_194_how_11
+fene	fene	PENE	abvd	SIX	abvd_202_six_25
+feruri	feruri	PERURI	abvd	THINK	-
+feti'a	fetia	PETIA	abvd	STAR	abvd_130_star_32
+fetuu	fetuu	PETUU	abvd	STAR	abvd_130_star_1
+fetū	fet	PET	abvd	STAR	abvd_130_star_1
+fā	f	P	abvd	FOUR	abvd_200_four_1
+fātata	ftata	PTATA	abvd	NEAR	abvd_179_near_9
+fēti'i	ftii	PTII	abvd	FASTEN	abvd_66_totieupfasten_148
+ha	ha	HA	abvd	FOUR	abvd_200_four_1
+ha'a	haa	HAA	abvd	WORK (ACTIVITY)	abvd_83_towork_10
+ha'amaa	haamaa	HAAMAA	abvd	SHY OR ASHAMED	abvd_161_shyashamed_1
+ha'amate	haamate	HAAMATE	abvd	KILL	abvd_74_tokill_2
+ha'a|maa	haamaa	HAAMAA	abvd	SHY OR ASHAMED	abvd_161_shyashamed_1
+haa	haa	HAA	abvd	FOUR	abvd_200_four_1
+haamama	haamama	HAAMAMA	abvd	YAWN	abvd_47_toyawn_19
+haanere	haanere	HAANERE	abvd	HUNDRED	abvd_209_onehundred_11
+haere	haere	HAERE	abvd	WALK	abvd_5_towalk_6
+haere mai	haeremai	HAEREMAI	abvd	COME	abvd_7_tocome_1
+hamama	hamama	HAMAMA	abvd	YAWN	abvd_47_toyawn_19
+hamu	hamu	HAMU	abvd	THROW	-
+hanere	hanere	HANERE	abvd	HUNDRED	-
+harehie	harehie	HAREHIE	abvd	WHERE	-
+hau'a	haua	HAUA	abvd	SMELL (PERCEIVE)	abvd_29_tosniffsmell_10
+hea	hea	HEA	abvd	WHERE	abvd_181_where_3
+heheu	heheu	HEHEU	abvd	OPEN	abvd_92_toopenuncover_36
+hi'o	hio	HIO	abvd	SEE	abvd_46_tosee_132
+hi'u	hiu	HIU	abvd	TAIL	abvd_105_tail_13
+hiamòorre	hiamorre	HIAMORRE	abvd	BLOW (OF WIND)	-
+hitoo	hitoo	HITOO	abvd	SEVEN	abvd_203_seven_1
+hitu	hitu	HITU	abvd	SEVEN	abvd_203_seven_1
+ho'e	hoe	HOE	abvd	ONE	abvd_197_one_15
+ho'i	hoi	HOI	abvd	SMELL (PERCEIVE)	abvd_29_tosniffsmell_9
+ho'o	hoo	HOO	abvd	BUY	abvd_91_tobuy_7
+ho'o mai	hoomai	HOOMAI	abvd	BUY	abvd_91_tobuy_7
+hohoni	hohoni	HOHONI	abvd	BITE	abvd_41_tobite_14
+hoo'ee	hooee	HOOEE	abvd	ONE	abvd_197_one_15
+hooirmoa	hooirmoa	HOOIRMOA	abvd	EGG	-
+hoolhoo	hoolhoo	HOOLHOO	abvd	TEN	-
+hoora-ooiro	hooraooiro	HOORAOOIRO	abvd	FRUIT	abvd_117_fruit_1
+hooro	hooro	HOORO	abvd	EGG	abvd_98_egg_94
+hoou	hoou	HOOU	abvd	NEW	abvd_163_new_1
+hooàre	hoore	HOORE	abvd	SPIT	abvd_36_tospit_18
+hope	hope	HOPE	abvd	TAIL	-
+hoònnehoònne	honnehonne	HONNEHONNE	abvd	SWELL	-
+hu'a repo	huarepo	HUAREPO	abvd	DUST	abvd_11_dust_90
+hu'ahuaa	huahuaa	HUAHUAA	abvd	DUST	abvd_11_dust_90
+hu'i	hui	HUI	abvd	STAB	abvd_71_tostabpierce_1
+hua	hua	HUA	abvd	FRUIT	abvd_117_fruit_1
+hua'i	huai	HUAI	abvd	OPEN	abvd_92_toopenuncover_8
+huaheine	huaheine	HUAHEINE	abvd	WIFE	abvd_58_wife_5
+huero	huero	HUERO	abvd	EGG	abvd_98_egg_94
+huruhuru	huruhuru	HURUHURU	abvd	FEATHER	abvd_99_feather_1
+huti	huti	HUTI	abvd	BREATHE	abvd_28_tobreathe_9
+huti i te aho	hutiiteaho	HUTIITEAHO	abvd	BREATHE	abvd_28_tobreathe_9
+hāmama	hmama	HMAMA	abvd	YAWN	abvd_47_toyawn_19
+hō'ē	h	H	abvd	ONE	abvd_197_one_15
+i	i	I	abvd	AT	abvd_173_at_1
+i roto	iroto	IROTO	abvd	IN	abvd_174_ininside_5
+i'a	ia	IA	abvd	FISH	abvd_111_fish_1
+i'oa	ioa	IOA	abvd	NAME	abvd_63_name_6
+ia	ia	IA	abvd	HE OR SHE	abvd_184_heshe_1
+ihu	ihu	IHU	abvd	NOSE	abvd_27_nose_1
+illemei	illemei	ILLEMEI	abvd	FIVE	abvd_201_five_1
+inaafea	inaafea	INAAPEA	abvd	WHEN	abvd_170_when_5
+inu	inu	INU	abvd	DRINK	abvd_40_todrink_1
+iraòwai	irawai	IRAWAI	abvd	SLEEP	-
+iro	iro	IRO	abvd	WORM	abvd_107_wormearthworm_80
+iti	iti	ITI	abvd	SMALL	abvd_152_small_1
+itop	itop	ITOP	abvd	FALL	abvd_95_tofall_124
+iva	iva	IBA	abvd	NINE	abvd_205_nine_5
+ivi	ivi	IBI	abvd	BONE	abvd_15_bone_52
+ma'ariri	maariri	MAARIRI	abvd	COLD	abvd_139_cold_1
+ma'i	mai	MAI	abvd	FAT (ORGANIC SUBSTANCE)	abvd_104_fatgrease_13
+ma'iti	maiti	MAITI	abvd	CHOOSE	abvd_85_tochoose_6
+maa'a	maaa	MAAA	abvd	FRUIT	-
+maahanahana	maahanahana	MAAHANAHANA	abvd	WARM	abvd_138_warm_1
+maamaa	maamaa	MAAMAA	abvd	MOTHER	-
+maamahu	maamahu	MAAMAHU	abvd	SHY OR ASHAMED	abvd_161_shyashamed_1
+maatou	maatou	MAATOU	abvd	WE	abvd_185_we_2
+maaua	maaua	MAAUA	abvd	WE	abvd_185_we_2
+maha	maha	MAHA	abvd	FOUR	abvd_200_four_1
+mahan	mahan	MAHAN	abvd	DAY (NOT NIGHT)	abvd_168_day_8
+mahana	mahana	MAHANA	abvd	DAY (NOT NIGHT)	abvd_168_day_8
+mahanahana	mahanahana	MAHANAHANA	abvd	WARM	abvd_138_warm_1
+maheineeawaow	maheineeawaow	MAHEINEEAWAOW	abvd	WIFE	abvd_58_wife_5
+maita'i	maitai	MAITAI	abvd	GOOD	abvd_164_good_15
+mama	mama	MAMA	abvd	CHEW	abvd_38_tochew_1
+mamae	mamae	MAMAE	abvd	PAINFUL OR SICK	abvd_160_painfulsick_10
+mana'o	manao	MANAO	abvd	THINK	abvd_21_tothink_7
+manamanatey	manamanatey	MANAMANATEU	abvd	GOOD	abvd_164_good_15?
+mania	mania	MANIA	abvd	BLUNT	abvd_82_dullblunt_11
+mano	mano	MANO	abvd	THOUSAND	abvd_210_onethousand_2
+manoo	manoo	MANOO	abvd	BIRD	abvd_97_bird_1
+manu	manu	MANU	abvd	BIRD	abvd_97_bird_1
+maram	maram	MARAM	abvd	MOON	abvd_129_moon_7
+marama	marama	MARAMA	abvd	MOON	abvd_129_moon_7
+mareere	mareere	MAREERE	abvd	COLD	abvd_139_cold_1
+maroo	maroo	MAROO	abvd	DRY	abvd_140_dry_13
+marroowhai	marroowhai	MARROOWHAI	abvd	DRY	abvd_140_dry_13
+marō	mar	MAR	abvd	DRY	abvd_140_dry_13
+mata	mata	MATA	abvd	EYE	abvd_45_eye_1
+mata'i	matai	MATAI	abvd	WIND	abvd_136_wind_1
+mata'u	matau	MATAU	abvd	FEAR (BE AFRAID)	abvd_22_tofear_1
+matahiti	matahiti	MATAHITI	abvd	YEAR	abvd_169_year_7
+matai	matai	MATAI	abvd	WIND	abvd_136_wind_1
+matau	matau	MATAU	abvd	EYE	abvd_45_eye_1
+mate	mate	MATE	abvd	BE DEAD OR DIE	abvd_75_todiebedead_1
+matee	matee	MATEE	abvd	BLOOD	-
+matie	matie	MATIE	abvd	GREEN	abvd_151_green_1
+mau	mau	MAU	abvd	CORRECT (RIGHT)	abvd_166_correcttrue_10
+mayneeneeormyneere	mayneeneeormyneere	MAUNEENEEORMUNEERE	abvd	SCRATCH	-
+me'ume'u	meumeu	MEUMEU	abvd	THICK	abvd_157_thick_39
+metua	metua	METUA	abvd	MOTHER	abvd_59_mother_4
+metua taane	metuataane	METUATAANE	abvd	FATHER	abvd_60_father_9
+metua vahine	metuavahine	METUABAHINE	abvd	MOTHER	abvd_59_mother_4
+mi'i	mii	MII	abvd	FAT (ORGANIC SUBSTANCE)	abvd_104_fatgrease_13
+midee	midee	MIDEE	abvd	CHILD	abvd_56_child_64?
+miri	miri	MIRI	abvd	SALT	abvd_125_salt_7
+miti	miti	MITI	abvd	SUCK	abvd_42_tosuck_8
+mituaheine	mituaheine	MITUAHEINE	abvd	MOTHER	abvd_59_mother_4
+mituatane	mituatane	MITUATANE	abvd	FATHER	abvd_60_father_9
+moana	moana	MOANA	abvd	SEA	abvd_124_sea_10
+moe	moe	MOE	abvd	SLEEP	abvd_48_tosleep_10
+moemoeaa	moemoeaa	MOEMOEAA	abvd	DREAM (SOMETHING)	abvd_50_todream_7
+moemoeā	moemoe	MOEMOE	abvd	DREAM (SOMETHING)	abvd_50_todream_7
+myty	myty	MUTU	abvd	GOOD	abvd_164_good_15
+màtteno	mtteno	MTTENO	abvd	BE DEAD OR DIE	abvd_75_todiebedead_1
+màtteroah	mtteroah	MTTEROAH	abvd	BE DEAD OR DIE	abvd_75_todiebedead_1
+mènne	mnne	MNNE	abvd	THICK	-
+mā'a	ma	MA	abvd	FRUIT	-
+mā'iti	miti	MITI	abvd	CHOOSE	abvd_85_tochoose_6
+māhanahana	mhanahana	MHANAHANA	abvd	WARM	abvd_138_warm_1
+māhina	mhina	MHINA	abvd	MOON	abvd_129_moon_37
+māhu	mhu	MHU	abvd	FOG	abvd_132_fog_10
+māmahu	mmahu	MMAHU	abvd	SHY OR ASHAMED	abvd_161_shyashamed_1
+mātou	mtou	MTOU	abvd	WE	abvd_185_we_2
+na'ina'i	nainai	NAINAI	abvd	SMALL	-
+naafea	naafea	NAAPEA	abvd	HOW	abvd_194_how_11
+naahea	naahea	NAAHEA	abvd	WHEN	abvd_170_when_5
+namu	namu	NAMU	abvd	MOSQUITO	abvd_109_mosquito_1
+nanaihere	nanaihere	NANAIHERE	abvd	HUNDRED	abvd_209_onehundred_11
+naonao	naonao	NAONAO	abvd	MOSQUITO	abvd_109_mosquito_1
+naow	naow	NAOW	abvd	I	abvd_182_i_1
+nape	nape	NAPE	abvd	ROPE	abvd_65_rope_64
+nehàia	nehia	NEHIA	abvd	WHEN	abvd_170_when_5
+nene'i	nenei	NENEI	abvd	SQUEEZE	abvd_88_tosqueeze_11
+ni'a	nia	NIA	abvd	ABOVE	abvd_175_above_9
+niho	niho	NIHO	abvd	TOOTH	abvd_31_tooth_1
+niinamu	niinamu	NIINAMU	abvd	GREEN	-
+nira	nira	NIRA	abvd	SEW	-
+noho	noho	NOHO	abvd	SIT	abvd_51_tosit_16
+nooie tehai	nooietehai	NOOIETEHAI	abvd	WHERE	-
+norothoedéadeet'avai	norothoedadeetavai	NOROTHOEDADEETABAI	abvd	DRINK	-
+nui	nui	NUI	abvd	BIG	abvd_153_big_11
+nūnui	nnui	NNUI	abvd	BIG	abvd_153_big_11
+oaoa	oaoa	OAOA	abvd	NARROW	abvd_158_narrow_12
+oatoo	oatoo	OATOO	abvd	LOUSE	abvd_108_louse_1
+oi	oi	OI	abvd	SHARP	abvd_81_sharp_14
+one	one	ONE	abvd	SAND	abvd_121_sand_1
+ono	ono	ONO	abvd	SIX	abvd_202_six_1
+ootooròhonnoo	ootoorhonnoo	OOTOORHONNOO	abvd	SPIDER	abvd_110_spider_5
+ora	ora	ORA	abvd	BE ALIVE	abvd_76_tolivebealive_6
+ori	ori	ORI	abvd	WALK	-
+oròmàtoo	ormtoo	ORMTOO	abvd	BREATHE	-
+owhai	owhai	OWHAI	abvd	STONE	abvd_120_stone_1
+oëoëteres	ooteres	OOTERES	abvd	LONG	-
+pa'ufifi	paufifi	PAUPIPI	abvd	SHOULDER	abvd_19_shoulder_8
+pa'uma	pauma	PAUMA	abvd	CLIMB	abvd_172_toclimb_44
+paapaa	paapaa	PAAPAA	abvd	FATHER	-
+paapaahia	paapaahia	PAAPAAHIA	abvd	POUND	abvd_93_topoundbeat_72
+paarahi	paarahi	PAARAHI	abvd	SIT	abvd_51_tosit_17
+paatia	paatia	PAATIA	abvd	STAB	abvd_71_tostabpierce_9
+paatiri	paatiri	PAATIRI	abvd	THUNDER	abvd_134_thunder_14
+pae	pae	PAE	abvd	FIVE	abvd_201_five_9
+pahu	pahu	PAHU	abvd	SWELL	abvd_87_toswell_10
+paiy	paiy	PAIU	abvd	FAT (ORGANIC SUBSTANCE)	-
+pape	pape	PAPE	abvd	WATER	abvd_122_water_47
+parahei	parahei	PARAHEI	abvd	SIT	abvd_51_tosit_17
+paraowmai	paraowmai	PARAOWMAI	abvd	SAY	abvd_64_tosay_12
+parau	parau	PARAU	abvd	SAY	abvd_64_tosay_12
+patiree	patiree	PATIREE	abvd	THUNDER	abvd_134_thunder_14
+pee	pee	PEE	abvd	ROTTEN	abvd_112_rotten_16
+pererau	pererau	PERERAU	abvd	WING	abvd_100_wing_9
+perforer	perforer	PERPORER	abvd	STAB	-
+piha'e	pihae	PIHAE	abvd	VOMIT	abvd_35_tovomit_30
+piripiri	piripiri	PIRIPIRI	abvd	NARROW	abvd_158_narrow_11
+piti	piti	PITI	abvd	TWO	abvd_198_two_4
+piti 'ahuru	pitiahuru	PITIAHURU	abvd	TWENTY	abvd_207_twenty_28
+po	po	PO	abvd	NIGHT	abvd_167_night_1
+poemeedee	poemeedee	POEMEEDEE	abvd	GREEN	abvd_151_green_1
+poeooleoole	poeooleoole	POEOOLEOOLE	abvd	YELLOW	-
+pohe	pohe	POHE	abvd	BE DEAD OR DIE	abvd_75_todiebedead_3
+poo	poo	POO	abvd	NIGHT	abvd_167_night_1
+porai	porai	PORAI	abvd	SAY	abvd_64_tosay_12
+poria	poria	PORIA	abvd	FAT (ORGANIC SUBSTANCE)	-
+poroomu	poroomu	POROOMU	abvd	PATH OR ROAD	abvd_6_roadpath_3
+poto	poto	POTO	abvd	SHORT	abvd_154_short_9
+pu'u	puu	PUU	abvd	SWELL	abvd_87_toswell_24
+pua	pua	PUA	abvd	FLOWER	abvd_116_flower_1
+puhi	puhi	PUHI	abvd	BLOW (OF WIND)	abvd_137_toblow_6
+puhuhi	puhuhi	PUHUHI	abvd	BLOW (OF WIND)	abvd_137_toblow_6
+pupuni	pupuni	PUPUNI	abvd	HIDE	abvd_171_tohide_1
+puruumu	puruumu	PURUUMU	abvd	PATH OR ROAD	abvd_6_roadpath_3
+pā	p	P	abvd	BLOW (OF WIND)	abvd_137_toblow_7
+pārahi	prahi	PRAHI	abvd	SIT	abvd_51_tosit_17
+pātia	ptia	PTIA	abvd	STAB	abvd_71_tostabpierce_9
+pātiri	ptiri	PTIRI	abvd	THUNDER	abvd_134_thunder_14
+pē	p	P	abvd	ROTTEN	abvd_112_rotten_16
+pō	p	P	abvd	NIGHT	abvd_167_night_1
+pūhi	phi	PHI	abvd	WIND	abvd_136_wind_6
+ra'i	rai	RAI	abvd	SKY	abvd_128_sky_1
+ra'ura'u	raurau	RAURAU	abvd	SCRATCH	abvd_77_toscratch_9
+raa'au	raaau	RAAAU	abvd	STICK	abvd_79_stickwood_1
+raatou	raatou	RAATOU	abvd	THEY	abvd_187_they_1
+rahi	rahi	RAHI	abvd	BIG	abvd_153_big_12
+rairai	rairai	RAIRAI	abvd	THIN	abvd_156_thin_5
+rao'ere	raoere	RAOERE	abvd	LEAF	abvd_114_leaf_1
+rari	rari	RARI	abvd	WET	abvd_141_wet_9
+raro	raro	RARO	abvd	BELOW OR UNDER	abvd_176_below_8
+rau	rau	RAU	abvd	LEAF	abvd_114_leaf_1
+rau'ere	rauere	RAUERE	abvd	LEAF	abvd_114_leaf_1
+rave	rave	RABE	abvd	HOLD	abvd_89_tohold_120
+re'are'a	rearea	REAREA	abvd	YELLOW	abvd_150_yellow_10
+rehu	rehu	REHU	abvd	ASH	abvd_146_ashes_67
+repo	repo	REPO	abvd	DIRTY	abvd_10_dirty_9
+repo puehu	repopuehu	REPOPUEHU	abvd	DUST	abvd_11_dust_1
+repoa	repoa	REPOA	abvd	DIRTY	abvd_10_dirty_9
+rere	rere	RERE	abvd	FLY (MOVE THROUGH AIR)	abvd_101_tofly_11
+ri'ari'a	riaria	RIARIA	abvd	FEAR (BE AFRAID)	abvd_22_tofear_8
+ri'i	rii	RII	abvd	SMALL	abvd_152_small_66
+rima	rima	RIMA	abvd	HAND	abvd_1_hand_1
+roa	roa	ROA	abvd	LONG	abvd_155_long_12
+rooa	rooa	ROOA	abvd	TWO	abvd_198_two_1
+roto	roto	ROTO	abvd	LAKE	abvd_126_lake_6
+rouru	rouru	ROURU	abvd	HAIR	abvd_26_hair_40
+ru'i	rui	RUI	abvd	NIGHT	abvd_167_night_70
+rua	rua	RUA	abvd	TWO	abvd_198_two_1
+rua'i	ruai	RUAI	abvd	VOMIT	abvd_35_tovomit_8
+ruhiruhia	ruhiruhia	RUHIRUHIA	abvd	OLD	-
+ruru'u	ruruu	RURUU	abvd	FASTEN	-
+ruu'au	ruuau	RUUAU	abvd	OLD	abvd_162_old_11
+ruupehu	ruupehu	RUUPEHU	abvd	FOG	abvd_132_fog_88
+rā'au	rau	RAU	abvd	STICK	abvd_79_stickwood_1
+rātou	rtou	RTOU	abvd	THEY	abvd_187_they_1
+rū'au	rau	RAU	abvd	OLD	abvd_162_old_11
+t'èna	tna	TNA	abvd	THIS	-
+ta'ai	taai	TAAI	abvd	FASTEN	-
+ta'amu	taamu	TAAMU	abvd	FASTEN	abvd_66_totieupfasten_149
+ta'ata	taata	TAATA	abvd	PERSON	abvd_53_personhumanbeing_1
+ta'au	taau	TAAU	abvd	TWENTY	abvd_207_twenty_4
+ta'i	tai	TAI	abvd	CRY	abvd_34_tocry_1
+ta'oto	taoto	TAOTO	abvd	SLEEP	-
+ta'oto'otoaa	taotootoaa	TAOTOOTOAA	abvd	DREAM (SOMETHING)	abvd_50_todream_78
+ta'uma	tauma	TAUMA	abvd	CLIMB	abvd_172_toclimb_44
+taa'iri	taairi	TAAIRI	abvd	HIT	abvd_72_tohit_9
+taane	taane	TAANE	abvd	HUSBAND	abvd_57_husband_14
+taaora	taaora	TAAORA	abvd	THROW	abvd_94_tothrow_10
+taape'a	taapea	TAAPEA	abvd	HOLD	abvd_89_tohold_11
+taapo'i fare	taapoifare	TAAPOIPARE	abvd	THATCH OR ROOF	abvd_62_thatchroof_10
+taapuni	taapuni	TAAPUNI	abvd	HIDE	abvd_171_tohide_1
+taapuu	taapuu	TAAPUU	abvd	CUT OR HACK	abvd_78_tocuthack_12
+taatou	taatou	TAATOU	abvd	WE	abvd_185_we_1
+taaua	taaua	TAAUA	abvd	WE	abvd_185_we_1
+tahe	tahe	TAHE	abvd	FLOW	abvd_123_toflow_10
+tahi	tahi	TAHI	abvd	ONE	abvd_197_one_41
+tai	tai	TAI	abvd	SEA	abvd_124_sea_1
+tai'o	taio	TAIO	abvd	COUNT	abvd_196_tocount_9
+taire	taire	TAIRE	abvd	FLOWER	abvd_116_flower_7
+taitai	taitai	TAITAI	abvd	SALT	abvd_125_salt_20
+tama	tama	TAMA	abvd	CHILD	abvd_56_child_6
+tamaiti	tamaiti	TAMAITI	abvd	CHILD	abvd_56_child_6
+tamari'i	tamarii	TAMARII	abvd	CHILD	abvd_56_child_6
+tane	tane	TANE	abvd	HUSBAND	abvd_57_husband_14
+tano	tano	TANO	abvd	CORRECT (RIGHT)	abvd_166_correcttrue_8
+tanu	tanu	TANU	abvd	BUY	-
+taod	taod	TAOD	abvd	ROPE	abvd_65_rope_9
+taparahi	taparahi	TAPARAHI	abvd	KILL	abvd_74_tokill_10
+tapono	tapono	TAPONO	abvd	SHOULDER	-
+tarai	tarai	TARAI	abvd	CUT OR HACK	abvd_78_tocuthack_1
+tareeh	tareeh	TAREEH	abvd	EAR	abvd_43_ear_1
+tari'a	taria	TARIA	abvd	EAR	abvd_43_ear_1
+tata	tata	TATA	abvd	PERSON	abvd_53_personhumanbeing_1
+tatau	tatau	TATAU	abvd	COUNT	abvd_196_tocount_8
+tauatini	tauatini	TAUATINI	abvd	THOUSAND	abvd_210_onethousand_11
+taura	taura	TAURA	abvd	ROPE	abvd_65_rope_9
+ta|ane	taane	TAANE	abvd	MALE PERSON	abvd_54_manmale_1
+te'a	tea	TEA	abvd	SHOOT	abvd_70_toshoot_3
+tea	tea	TEA	abvd	WHITE	abvd_148_white_8
+teatea	teatea	TEATEA	abvd	WHITE	abvd_148_white_8
+teeraa	teeraa	TEERAA	abvd	THAT	abvd_178_that_65
+tee|naa	teenaa	TEENAA	abvd	THAT	abvd_178_that_1
+tehai	tehai	TEHAI	abvd	WHERE	-
+tei hea	teihea	TEIHEA	abvd	WHERE	abvd_181_where_3
+teiaha	teiaha	TEIAHA	abvd	HEAVY	abvd_142_heavy_46
+teie	teie	TEIE	abvd	THIS	abvd_177_this_7
+teie nei	teienei	TEIENEI	abvd	THIS	abvd_177_this_7
+teimaha	teimaha	TEIMAHA	abvd	HEAVY	abvd_142_heavy_46
+tenā	ten	TEN	abvd	THAT	abvd_178_that_1
+teà	te	TE	abvd	WHITE	abvd_148_white_8
+ti'a	tia	TIA	abvd	CORRECT (RIGHT)	abvd_166_correcttrue_9
+tiare	tiare	TIARE	abvd	FLOWER	abvd_116_flower_7
+tiipu'u	tiipuu	TIIPUU	abvd	TURN	-
+tiitii	tiitii	TIITII	abvd	BREAST	-
+to'e	toe	TOE	abvd	WORM	abvd_107_wormearthworm_7
+to'eto'e	toetoe	TOETOE	abvd	COLD	abvd_139_cold_9
+tohe	tohe	TOHE	abvd	ONE	abvd_197_one_15
+toiaha	toiaha	TOIAHA	abvd	HEAVY	abvd_142_heavy_46
+tootoòà	tooto	TOOTO	abvd	SPIT	abvd_36_tospit_120
+topa	topa	TOPA	abvd	FALL	abvd_95_tofall_124
+torhoo	torhoo	TORHOO	abvd	THREE	abvd_199_three_1
+toru	toru	TORU	abvd	THREE	abvd_199_three_1
+toto	toto	TOTO	abvd	BLOOD	abvd_23_blood_4
+toòmmoo	tommoo	TOMMOO	abvd	BLUNT	abvd_82_dullblunt_10
+treero	treero	TREERO	abvd	TONGUE	abvd_32_tongue_15
+tu'i	tui	TUI	abvd	POUND	abvd_93_topoundbeat_2
+tu'itu'i	tuitui	TUITUI	abvd	BURN	abvd_144_toburn_1
+tu'u	tuu	TUU	abvd	SPIDER	abvd_110_spider_5
+tua	tua	TUA	abvd	BACK	abvd_13_back_11
+tue	tue	TUE	abvd	BACK	abvd_13_back_11
+tuetue	tuetue	TUETUE	abvd	THICK	abvd_157_thick_10
+tufa	tufa	TUPA	abvd	SPIT	abvd_36_tospit_120
+tuha	tuha	TUHA	abvd	SPIT	abvd_36_tospit_120
+tui	tui	TUI	abvd	SEW	abvd_67_tosew_13
+tunu	tunu	TUNU	abvd	COOK (SOMETHING)	abvd_39_tocook_9
+tupu	tupu	TUPU	abvd	GROW	abvd_86_togrow_1
+tutu'i	tutui	TUTUI	abvd	BURN	abvd_144_toburn_1
+tutuha	tutuha	TUTUHA	abvd	SPIT	abvd_36_tospit_120
+tuu	tuu	TUU	abvd	STAND	abvd_52_tostand_2
+tuumuu	tuumuu	TUUMUU	abvd	BLUNT	abvd_82_dullblunt_10
+tuutuurahonui	tuutuurahonui	TUUTUURAHONUI	abvd	SPIDER	abvd_110_spider_5
+tā'ō'oto	toto	TOTO	abvd	LIE DOWN	abvd_49_toliedown_7
+tāne	tne	TNE	abvd	MALE PERSON	abvd_54_manmale_1
+tāora	tora	TORA	abvd	THROW	abvd_94_tothrow_10
+tāpuni	tpuni	TPUNI	abvd	HIDE	abvd_171_tohide_1
+tāpūpū	tpp	TPP	abvd	CUT OR HACK	abvd_78_tocuthack_12
+tārava	trava	TRABA	abvd	LIE DOWN	-
+tātou	ttou	TTOU	abvd	WE	abvd_185_we_1
+tātā	tt	TT	abvd	HIT	abvd_72_tohit_10
+tīoi	toi	TOI	abvd	TURN	abvd_8_toturn_10
+tū	t	T	abvd	STAND	abvd_52_tostand_2
+tūtūrahonui	ttrahonui	TTRAHONUI	abvd	SPIDER	abvd_110_spider_5
+ua	ua	UA	abvd	RAIN (PRECIPITATION)	abvd_133_rain_1
+uira	uira	UIRA	abvd	LIGHTNING	abvd_135_lightning_2
+upo'o	upoo	UPOO	abvd	HEAD	abvd_24_head_10
+uru	uru	URU	abvd	FOREST	abvd_127_woodsforest_15
+ururaa'au	ururaaau	URURAAAU	abvd	FOREST	abvd_127_woodsforest_15
+uu	uu	UU	abvd	BREAST	abvd_18_breast_1
+va'u	vau	BAU	abvd	EIGHT	abvd_204_eight_3
+vaahi	vaahi	BAAHI	abvd	SPLIT	abvd_80_tosplit_4
+vaha	vaha	BAHA	abvd	MOUTH	abvd_30_mouth_1
+vahine	vahine	BAHINE	abvd	FEMALE PERSON	abvd_55_womanfemale_1
+vai	vai	BAI	abvd	WATER	abvd_122_water_2
+varu	varu	BARU	abvd	EIGHT	abvd_204_eight_3
+vau	vau	BAU	abvd	I	abvd_182_i_1
+vera	vera	BERA	abvd	WARM	abvd_138_warm_8
+verrverra	verrverra	BERRBERRA	abvd	WARM	abvd_138_warm_8
+vetahi	vetahi	BETAHI	abvd	OTHER	abvd_190_other_7
+v|ai	vai	BAI	abvd	WHO	abvd_189_who_1
+v|au	vau	BAU	abvd	I	abvd_182_i_1
+vāhi	vhi	BHI	abvd	SPLIT	abvd_80_tosplit_4
+wahaeahei	wahaeahei	WAHAEAHEI	abvd	FIRE	abvd_143_fire_1
+wahoee	wahoee	WAHOEE	abvd	TURN	-
+walhoo	walhoo	WALHOO	abvd	EIGHT	abvd_204_eight_3
+waow	waow	WAOW	abvd	I	abvd_182_i_1
+whaine	whaine	WHAINE	abvd	SIX	abvd_202_six_25
+wharrawai	wharrawai	WHARRAWAI	abvd	BE DEAD OR DIE	-
+whattata	whattata	WHATTATA	abvd	NEAR	abvd_179_near_9
+woreede	woreede	WOREEDE	abvd	STEAL	-
+ātea	tea	TEA	abvd	FAR	abvd_180_far_14
+ūpa'a	paa	PAA	abvd	LIVER	-

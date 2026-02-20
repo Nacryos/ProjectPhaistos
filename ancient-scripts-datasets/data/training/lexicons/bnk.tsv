@@ -1,0 +1,518 @@
+Word	IPA	SCA	Source	Concept_ID	Cognate_Set_ID
+-isa	isa	ISA	abvd	FLY (MOVE THROUGH AIR)	abvd_101_tofly_89
+-kaka	kaka	KAKA	abvd	FLY (MOVE THROUGH AIR)	abvd_101_tofly_14
+-karia	karia	KARIA	abvd	BITE	abvd_41_tobite_1
+-kilia	kilia	KILIA	abvd	DIG	abvd_90_todig_1
+-kina·na	kinana	KINANA	abvd	EAT	abvd_37_toeat_1
+-kuania	kuania	KUANIA	abvd	THROW	abvd_94_tothrow_85
+-kuβaria	kuaria	KUARIA	abvd	SCRATCH	abvd_77_toscratch_73
+-latəri	latəri	LATERI	abvd	SPIT	abvd_36_tospit_104
+-laɣatir	laɣatir	LAGATIR	abvd	SPIT	abvd_36_tospit_104
+-lele	lele	LELE	abvd	SWIM	abvd_9_toswim_77
+-leru	leru	LERU	abvd	FALL	abvd_95_tofall_7
+-lilua	lilua	LILUA	abvd	VOMIT	abvd_35_tovomit_8
+-liw	liw	LIW	abvd	HUNT	abvd_69_tohunt_74
+-loŋea	loea	LOEA	abvd	HEAR	abvd_44_tohear_1
+-loᵑgəlea	logəlea	LOGELEA	abvd	KNOW (SOMETHING)	abvd_20_toknowbeknowledgeable_19
+-mali	mali	MALI	abvd	BE ALIVE	abvd_76_tolivebealive_1
+-mamaŋa	mamaa	MAMAA	abvd	BREATHE	abvd_28_tobreathe_47
+-mere	mere	MERE	abvd	BE DEAD OR DIE	abvd_75_todiebedead_1
+-mi	mi	MI	abvd	COME	abvd_7_tocome_1
+-mie	mie	MIE	abvd	FLOW	abvd_123_toflow_59
+-mio	mio	MIO	abvd	FLOW	abvd_123_toflow_59
+-mira	mira	MIRA	abvd	FEAR (BE AFRAID)	abvd_22_tofear_1
+-miyiliβi	miyilii	MIUILII	abvd	HUNT	-
+-miβeβ	mie	MIE	abvd	BREATHE	abvd_28_tobreathe_62
+-moli	moli	MOLI	abvd	BE ALIVE	abvd_76_tolivebealive_1
+-mon-mælio	monmlio	MONMLIO	abvd	SLEEP	abvd_48_tosleep_19
+-mono	mono	MONO	abvd	LIE DOWN	abvd_49_toliedown_15
+-mra	mra	MRA	abvd	FEAR (BE AFRAID)	abvd_22_tofear_1
+-munia	munia	MUNIA	abvd	DRINK	abvd_40_todrink_1
+-mæl	ml	ML	abvd	BE ALIVE	abvd_76_tolivebealive_1
+-mær	mr	MR	abvd	BE DEAD OR DIE	abvd_75_todiebedead_1
+-mære	mre	MRE	abvd	BE DEAD OR DIE	abvd_75_todiebedead_1
+-məraku	məraku	MERAKU	abvd	FEAR (BE AFRAID)	abvd_22_tofear_1
+-mʷeno	meno	MENO	abvd	LIE DOWN	abvd_49_toliedown_15
+-mʷenu	menu	MENU	abvd	SLEEP	abvd_48_tosleep_19
+-mʷono	mono	MONO	abvd	SLEEP	abvd_48_tosleep_19
+-nəmi	nəmi	NEMI	abvd	COME	abvd_7_tocome_1
+-ñomia	ñomia	OMIA	abvd	SUCK	abvd_42_tosuck_50
+-sa	sa	SA	abvd	FLY (MOVE THROUGH AIR)	abvd_101_tofly_89
+-saria	saria	SARIA	abvd	BITE	abvd_41_tobite_62
+-sa·ɣa	saɣa	SAGA	abvd	FLY (MOVE THROUGH AIR)	abvd_101_tofly_14
+-saŋi	sai	SAI	abvd	CRY	abvd_34_tocry_1
+-saβia	saia	SAIA	abvd	BURN	abvd_144_toburn_84
+-sikapia	sikapia	SIKAPIA	abvd	BURN	abvd_144_toburn_84
+-siⁿdomi	sidomi	SIDOMI	abvd	THINK	abvd_21_tothink_13
+-snana	snana	SNANA	abvd	EAT	abvd_37_toeat_34
+-snaŋana	snaana	SNAANA	abvd	EAT	abvd_37_toeat_34
+-sokania	sokania	SOKANIA	abvd	THROW	abvd_94_tothrow_85?
+-soβia	soia	SOIA	abvd	BURN	abvd_144_toburn_84
+-sparia	sparia	SPARIA	abvd	SCRATCH	abvd_77_toscratch_73
+-sponia	sponia	SPONIA	abvd	SMELL (PERCEIVE)	abvd_29_tosniffsmell_76
+-spʷaria	sparia	SPARIA	abvd	SCRATCH	abvd_77_toscratch_73
+-suasepi	suasepi	SUASEPI	abvd	BURN	abvd_144_toburn_84
+-suluia	suluia	SULUIA	abvd	SEW	abvd_67_tosew_60
+-suwaɣania	suwaɣania	SUWAGANIA	abvd	THROW	abvd_94_tothrow_85?
+-swaia	swaia	SWAIA	abvd	THROW	abvd_94_tothrow_85?
+-səmʷalu	səmalu	SEMALU	abvd	STAND	abvd_52_tostand_25
+-sβaria	saria	SARIA	abvd	SCRATCH	abvd_77_toscratch_73
+-sⁿdemyuia	sdemyuia	SDEMUUIA	abvd	THINK	abvd_21_tothink_13
+-sⁿdomia	sdomia	SDOMIA	abvd	THINK	abvd_21_tothink_13
+-taia	taia	TAIA	abvd	CUT OR HACK	abvd_78_tocuthack_1
+-tatanu	tatanu	TATANU	abvd	SIT	abvd_51_tosit_121
+-taβʷaɣaia	taaɣaia	TAAGAIA	abvd	SPLIT	abvd_80_tosplit_4
+-taᵑgaria	tagaria	TAGARIA	abvd	FASTEN	abvd_66_totieupfasten_85
+-teia	teia	TEIA	abvd	CUT OR HACK	abvd_78_tocuthack_1
+-tepʷaia	tepaia	TEPAIA	abvd	SPLIT	abvd_80_tosplit_4
+-tepʷeia	tepeia	TEPEIA	abvd	SPLIT	abvd_80_tosplit_4
+-teŋ	te	TE	abvd	CRY	abvd_34_tocry_1
+-tlia	tlia	TLIA	abvd	STAB	abvd_71_tostabpierce_14
+-tluia	tluia	TLUIA	abvd	SEW	abvd_67_tosew_60
+-tmalu	tmalu	TMALU	abvd	STAND	abvd_52_tostand_25
+-totano	totano	TOTANO	abvd	SIT	abvd_51_tosit_1
+-totono	totono	TOTONO	abvd	SIT	abvd_51_tosit_1
+-toɣtan	toɣtan	TOGTAN	abvd	SIT	abvd_51_tosit_80
+-ukinia	ukinia	UKINIA	abvd	SQUEEZE	-
+-uluia	uluia	ULUIA	abvd	COUNT	abvd_196_tocount_81
+-unuia	unuia	UNUIA	abvd	SMELL (PERCEIVE)	-
+-waia	waia	WAIA	abvd	HIT	abvd_72_tohit_86
+-wamær	wamr	WAMR	abvd	KILL	abvd_74_tokill_66
+-we pinia	wepinia	WEPINIA	abvd	KILL	abvd_74_tokill_66
+-we piñia	wepiñia	WEPIIA	abvd	KILL	abvd_74_tokill_66
+-we βinuia	weinuia	WEINUIA	abvd	KILL	abvd_74_tokill_66
+-wea	wea	WEA	abvd	HIT	abvd_72_tohit_93
+-weia	weia	WEIA	abvd	HIT	abvd_72_tohit_93
+-winia	winia	WINIA	abvd	SQUEEZE	abvd_88_tosqueeze_87
+-wiwoea	wiwoea	WIWOEA	abvd	SQUEEZE	abvd_88_tosqueeze_87
+-wuluia	wuluia	WULUIA	abvd	COUNT	abvd_196_tocount_81
+-wuᵑgaria	wugaria	WUGARIA	abvd	HOLD	abvd_89_tohold_3
+-yali	yali	UALI	abvd	WALK	abvd_5_towalk_10
+-yeli	yeli	UELI	abvd	WALK	abvd_5_towalk_10
+-yelia	yelia	UELIA	abvd	STAB	abvd_71_tostabpierce_14
+-yeⁿdea	yedea	UEDEA	abvd	SEW	abvd_67_tosew_61
+-yiᵑgaria	yigaria	UIGARIA	abvd	FASTEN	abvd_66_totieupfasten_85
+-yu	yu	UU	abvd	BLOW (OF WIND)	abvd_137_toblow_62
+-yuia	yuia	UUIA	abvd	BLOW (OF WIND)	abvd_137_toblow_62
+-yuse	yuse	UUSE	abvd	BLOW (OF WIND)	-
+-čačeŋ	ae	AE	abvd	BREATHE	-
+-čea	ea	EA	abvd	SEE	abvd_46_tosee_14
+-čeia	eia	EIA	abvd	SEE	abvd_46_tosee_14
+-čele	ele	ELE	abvd	SWIM	abvd_9_toswim_49
+-čeᵑgečeia	egeeia	EGEEIA	abvd	KNOW (SOMETHING)	abvd_20_toknowbeknowledgeable_110
+-čeᵑgičeia	egieia	EGIEIA	abvd	KNOW (SOMETHING)	abvd_20_toknowbeknowledgeable_110
+-čilua	ilua	ILUA	abvd	VOMIT	abvd_35_tovomit_8
+-čiluwa	iluwa	ILUWA	abvd	VOMIT	abvd_35_tovomit_8
+-čimia	imia	IMIA	abvd	SUCK	abvd_42_tosuck_51
+-čoponea	oponea	OPONEA	abvd	SMELL (PERCEIVE)	abvd_29_tosniffsmell_76
+-čoru	oru	ORU	abvd	FALL	abvd_95_tofall_7
+-čoŋoia	ooia	OOIA	abvd	HEAR	abvd_44_tohear_1
+-čuluwa	uluwa	ULUWA	abvd	VOMIT	abvd_35_tovomit_8
+-čuweča	uwea	UWEA	abvd	BREATHE	abvd_28_tobreathe_75
+-βilatir	ilatir	ILATIR	abvd	SPIT	abvd_36_tospit_104
+-βiliŋ-sa	ilisa	ILISA	abvd	TURN	abvd_8_toturn_4
+-βiliŋ-soɣo	ilisoɣo	ILISOGO	abvd	TURN	abvd_8_toturn_4
+-βiliŋi-ko	iliiko	ILIIKO	abvd	TURN	abvd_8_toturn_4
+-βirimi	irimi	IRIMI	abvd	COME	abvd_7_tocome_1
+-βisale	isale	ISALE	abvd	LAUGH	abvd_33_tolaugh_84
+-βisi	isi	ISI	abvd	SAY	abvd_64_tosay_47
+-βisiraᵑgaria	isiragaria	ISIRAGARIA	abvd	FASTEN	abvd_66_totieupfasten_85
+-βisuia	isuia	ISUIA	abvd	SEE	abvd_46_tosee_86
+-βit	it	IT	abvd	SAY	abvd_64_tosay_47
+-βitaŋa	itaa	ITAA	abvd	SAY	abvd_64_tosay_118
+-βituia	ituia	ITUIA	abvd	SEE	abvd_46_tosee_86
+-βičasiri	iasiri	IASIRI	abvd	SPIT	abvd_36_tospit_104
+-βičaŋa	iaa	IAA	abvd	SAY	abvd_64_tosay_118
+-βlini-so	liniso	LINISO	abvd	TURN	abvd_8_toturn_4
+-βlukia	lukia	LUKIA	abvd	COUNT	abvd_196_tocount_1
+-βtali	tali	TALI	abvd	LAUGH	abvd_33_tolaugh_84
+-βtaŋare	taare	TAARE	abvd	FASTEN	abvd_66_totieupfasten_85
+-βtaɣal	taɣal	TAGAL	abvd	LAUGH	abvd_33_tolaugh_84
+-ᵑgaria	garia	GARIA	abvd	HOLD	abvd_89_tohold_3
+-ᵑgilia	gilia	GILIA	abvd	DIG	abvd_90_todig_1
+-ᵑgičea	giea	GIEA	abvd	KNOW (SOMETHING)	abvd_20_toknowbeknowledgeable_110
+-ⁿdaŋa	daa	DAA	abvd	CRY	abvd_34_tocry_1
+-ⁿdeŋe	dee	DEE	abvd	CRY	abvd_34_tocry_1
+arɣa	arɣa	ARGA	abvd	SIX	abvd_202_six_24
+ata	ata	ATA	abvd	FATHER	abvd_60_father_19
+auna	auna	AUNA	abvd	MOTHER	abvd_59_mother_71
+aβoŋ	ao	AO	abvd	NIGHT	abvd_167_night_1
+aᵐbe	abe	ABE	abvd	WHERE	abvd_181_where_3
+ia	ia	IA	abvd	WHAT	abvd_188_what_1
+ika	ika	IKA	abvd	FISH	abvd_111_fish_1
+in-on	inon	INON	abvd	SAND	abvd_121_sand_1
+isa	isa	ISA	abvd	FISH	abvd_111_fish_1
+iuma	iuma	IUMA	abvd	HOUSE	abvd_61_house_1
+ka-naru-ᵑgu	kanarugu	KANARUGU	abvd	CHILD	abvd_56_child_5
+ka-rma-ᵑgu	karmagu	KARMAGU	abvd	FATHER	abvd_60_father_1
+ka-rme-ᵑgu	karmegu	KARMEGU	abvd	FATHER	abvd_60_father_1
+kamiu	kamiu	KAMIU	abvd	YOU	abvd_186_you_1
+kanai	kanai	KANAI	abvd	WHO	abvd_189_who_64
+kaña-ᵑgu	kañagu	KAAGU	abvd	MOTHER	abvd_59_mother_64
+kañe-ᵑgu	kañegu	KAEGU	abvd	MOTHER	abvd_59_mother_64
+kapi	kapi	KAPI	abvd	FIRE	abvd_143_fire_19
+kapi miu	kapimiu	KAPIMIU	abvd	SMOKE (EXHAUST)	abvd_145_smoke_2
+kata	kata	KATA	abvd	FATHER	abvd_60_father_19
+kawe	kawe	KAWE	abvd	RAT	abvd_102_rat_3
+kawiya	kawiya	KAWIUA	abvd	MOTHER	abvd_59_mother_49
+ke	ke	KE	abvd	WHO	abvd_189_who_1
+keni	keni	KENI	abvd	WHO	abvd_189_who_64
+ketelisu	ketelisu	KETELISU	abvd	SMALL	abvd_152_small_162
+keβiu	keiu	KEIU	abvd	BIG	abvd_153_big_106
+ki-ñare-ᵑgu	kiñaregu	KIAREGU	abvd	CHILD	abvd_56_child_5
+kiaᵑgi	kiagi	KIAGI	abvd	NAME	abvd_63_name_66
+kiaᵑgu	kiagu	KIAGU	abvd	NAME	abvd_63_name_66
+kileβis	kileis	KILEIS	abvd	NEAR	-
+kilika	kilika	KILIKA	abvd	ROPE	abvd_65_rope_5
+kilŋa-ᵑgu	kilagu	KILAGU	abvd	EAR	abvd_43_ear_1
+kimimi	kimimi	KIMIMI	abvd	WE	abvd_185_we_E
+kinu	kinu	KINU	abvd	I	abvd_182_i_1
+kiñu	kiñu	KIU	abvd	I	abvd_182_i_1
+kita	kita	KITA	abvd	WE	abvd_185_we_I
+kita čua	kitaua	KITAUA	abvd	WE	-
+koa-ᵑgu	koagu	KOAGU	abvd	HUSBAND	abvd_57_husband_62
+kona-mæræ-ᵑgu	konamrgu	KONAMRGU	abvd	EYE	abvd_45_eye_1
+kono-mere-ᵑgu	konomeregu	KONOMEREGU	abvd	EYE	abvd_45_eye_1
+kono-məra-ᵑku	konoməraku	KONOMERAKU	abvd	EYE	abvd_45_eye_1
+koru	koru	KORU	abvd	LOUSE	abvd_108_louse_1
+koræsi	korsi	KORSI	abvd	GRASS	abvd_118_grass_77
+koᵑgie-ᵑgu	kogiegu	KOGIEGU	abvd	NECK	abvd_25_neck_101
+koⁿdo-tono	kodotono	KODOTONO	abvd	EARTH (SOIL)	abvd_119_earthsoil_1
+kuli	kuli	KULI	abvd	DOG	abvd_96_dog_7
+kulieβa-ᵑgu	kulieagu	KULIEAGU	abvd	SKIN	abvd_12_skin_1
+kuliča-ᵑgu	kuliagu	KULIAGU	abvd	SKIN	abvd_12_skin_1
+kulspena	kulspena	KULSPENA	abvd	WING	abvd_100_wing_2
+kulsuena	kulsuena	KULSUENA	abvd	WING	abvd_100_wing_2
+kulute	kulute	KULUTE	abvd	SKIN	abvd_12_skin_1
+kuluyeβe-ᵑgu	kuluyeegu	KULUUEEGU	abvd	SKIN	abvd_12_skin_1
+kumemi	kumemi	KUMEMI	abvd	WE	abvd_185_we_E42
+kumemi čua	kumemiua	KUMEMIUA	abvd	WE	-
+kumæm	kumm	KUMM	abvd	WE	abvd_185_we_E42
+kunu-ᵐbu	kunubu	KUNUBU	abvd	FLESH OR MEAT	abvd_103_meatflesh_15
+kunu-ᵑgu	kunugu	KUNUGU	abvd	NOSE	abvd_27_nose_1
+kuru-sa	kurusa	KURUSA	abvd	BLOOD	abvd_23_blood_45
+kuβario	kuario	KUARIO	abvd	MOON	abvd_129_moon_6
+kuβena	kuena	KUENA	abvd	WING	abvd_100_wing_2
+kwo-ᵑgu	kwogu	KWOGU	abvd	WIFE	abvd_58_wife_1
+kəla-wæru	kəlawru	KELAWRU	abvd	STONE	abvd_120_stone_1
+kəla-βeru	kəlaeru	KELAERU	abvd	STONE	abvd_120_stone_1
+kəlamʷe	kəlame	KELAME	abvd	FLESH OR MEAT	abvd_103_meatflesh_15
+kərəᵑgasi	kərəgasi	KEREGASI	abvd	SMALL	abvd_152_small_158
+kʷo-ᵑgu	kogu	KOGU	abvd	HUSBAND	abvd_57_husband_62
+lala	lala	LALA	abvd	THEY	abvd_187_they_1
+laŋ	la	LA	abvd	WIND	abvd_136_wind_1
+lesi	lesi	LESI	abvd	STICK	abvd_79_stickwood_27?
+limesi	limesi	LIMESI	abvd	LEAF	abvd_114_leaf_46
+limæ	lim	LIM	abvd	FIVE	abvd_201_five_1
+limæ-ᵑku	limku	LIMKU	abvd	HAND	abvd_1_hand_1
+liŋe	lie	LIE	abvd	WHEN	abvd_170_when_1
+lua	lua	LUA	abvd	TWO	abvd_198_two_1
+lualima	lualima	LUALIMA	abvd	TEN	abvd_206_ten_4
+lualimæ	lualim	LUALIM	abvd	TEN	abvd_206_ten_4
+lukute	lukute	LUKUTE	abvd	FEATHER	-
+lumʷəne	luməne	LUMENE	abvd	GRASS	abvd_118_grass_31
+luwo-ᵑk	luwok	LUWOK	abvd	TOOTH	abvd_31_tooth_1
+mal	mal	MAL	abvd	SHARP	abvd_81_sharp_14
+mali	mali	MALI	abvd	SHARP	abvd_81_sharp_14
+malsuŋ	malsu	MALSU	abvd	BLACK	-
+manini	manini	MANINI	abvd	COLD	abvd_139_cold_1
+manu	manu	MANU	abvd	BIRD	abvd_97_bird_1
+mara-yu-na	marayuna	MARAUUNA	abvd	BREAST	abvd_18_breast_47
+mara-yu-ᵑgu	marayugu	MARAUUGU	abvd	BREAST	abvd_18_breast_47
+mara-česi	maraesi	MARAESI	abvd	FRUIT	abvd_117_fruit_36
+mara-čua-ᵑgu	marauagu	MARAUAGU	abvd	TOOTH	abvd_31_tooth_1
+marare	marare	MARARE	abvd	NO OR NOT	abvd_195_nonot_32
+marasi	marasi	MARASI	abvd	FRUIT	abvd_117_fruit_36
+marua	marua	MARUA	abvd	OLD	abvd_162_old_1
+mau	mau	MAU	abvd	FOG	abvd_132_fog_3
+ma·li	mali	MALI	abvd	SHARP	abvd_81_sharp_14
+maᵐbulu toa	mabulutoa	MABULUTOA	abvd	EGG	abvd_98_egg_1
+maᵐbuluto	mabuluto	MABULUTO	abvd	EGG	abvd_98_egg_1
+me-ma	mema	MEMA	abvd	DRY	abvd_140_dry_11
+me-mæ	mem	MEM	abvd	DRY	abvd_140_dry_11
+meaɣa	meaɣa	MEAGA	abvd	PAINFUL OR SICK	abvd_160_painfulsick_1
+meleβil	meleil	MELEIL	abvd	DIRTY	abvd_10_dirty_13
+mema	mema	MEMA	abvd	GREEN	abvd_151_green_8
+memeaɣa	memeaɣa	MEMEAGA	abvd	GREEN	abvd_151_green_8
+memeña	memeña	MEMEA	abvd	GREEN	abvd_151_green_8
+memæ	mem	MEM	abvd	GREEN	abvd_151_green_8
+menaɣa	menaɣa	MENAGA	abvd	COOK (SOMETHING)	abvd_39_tocook_21
+meniniwi	meniniwi	MENINIWI	abvd	THIN	abvd_156_thin_1
+meniniβ	menini	MENINI	abvd	THIN	abvd_156_thin_1
+meniniβi	meninii	MENINII	abvd	THIN	abvd_156_thin_1
+menmenəβə	menmenəə	MENMENEE	abvd	WARM	-
+meno	meno	MENO	abvd	COOK (SOMETHING)	abvd_39_tocook_21
+menu	menu	MENU	abvd	BIRD	abvd_97_bird_1
+menun	menun	MENUN	abvd	ROTTEN	abvd_112_rotten_51
+menunu	menunu	MENUNU	abvd	ROTTEN	abvd_112_rotten_51
+meña	meña	MEA	abvd	PAINFUL OR SICK	abvd_160_painfulsick_103
+mererel	mererel	MEREREL	abvd	THICK	abvd_157_thick_3
+mererol	mererol	MEREROL	abvd	THICK	abvd_157_thick_3
+mereyaβo	mereyao	MEREUAO	abvd	PATH OR ROAD	abvd_6_roadpath_41
+meriaβa	meriaa	MERIAA	abvd	PATH OR ROAD	abvd_6_roadpath_41
+merorolu	merorolu	MEROROLU	abvd	THICK	abvd_157_thick_3
+meⁿdu	medu	MEDU	abvd	WET	abvd_141_wet_35
+mi	mi	MI	abvd	HEAVY	abvd_142_heavy_72?
+mi-manin	mimanin	MIMANIN	abvd	COLD	abvd_139_cold_1
+mi-ñemñeme	miñemñeme	MIEMEME	abvd	DIRTY	abvd_10_dirty_65
+miasaria	miasaria	MIASARIA	abvd	COLD	-
+mira-ᵑgu	miragu	MIRAGU	abvd	EYE	abvd_45_eye_1
+miuwe	miuwe	MIUWE	abvd	WHITE	abvd_148_white_98
+miwe	miwe	MIWE	abvd	WHITE	abvd_148_white_98
+miyu	miyu	MIUU	abvd	SMOKE (EXHAUST)	abvd_145_smoke_2
+miyuwe	miyuwe	MIUUWE	abvd	WHITE	abvd_148_white_98
+mǰeleru	mǰeleru	MELERU	abvd	YELLOW	abvd_150_yellow_76
+moroᵑge	moroge	MOROGE	abvd	PATH OR ROAD	abvd_6_roadpath_64
+moᵐblu toa	moblutoa	MOBLUTOA	abvd	EGG	abvd_98_egg_1
+moᵐbo-ᵑku	moboku	MOBOKU	abvd	BELLY	abvd_14_belly_74
+mæ	m	M	abvd	PAINFUL OR SICK	abvd_160_painfulsick_1
+mæl	ml	ML	abvd	SHARP	abvd_81_sharp_14
+mæles	mles	MLES	abvd	BLACK	abvd_147_black_41?
+mæliᵑgo	mligo	MLIGO	abvd	CLOUD	abvd_131_cloud_34
+mælsio	mlsio	MLSIO	abvd	BLACK	abvd_147_black_41
+mænin	mnin	MNIN	abvd	COLD	abvd_139_cold_1
+mæno	mno	MNO	abvd	COOK (SOMETHING)	abvd_39_tocook_21
+mænu	mnu	MNU	abvd	BIRD	abvd_97_bird_1
+mæraβa	mraa	MRAA	abvd	PATH OR ROAD	abvd_6_roadpath_41
+mære-čua-ᵑgu	mreuagu	MREUAGU	abvd	TOOTH	abvd_31_tooth_1
+mærua	mrua	MRUA	abvd	RIGHT	abvd_3_right_5
+mæræ-česi	mresi	MRESI	abvd	FRUIT	abvd_117_fruit_36
+mæræ-čuwa-ᵑgu	mruwagu	MRUWAGU	abvd	TOOTH	abvd_31_tooth_1
+mə-leleru	məleleru	MELELERU	abvd	YELLOW	abvd_150_yellow_76
+məra-lasi	məralasi	MERALASI	abvd	FRUIT	abvd_117_fruit_36
+mərua	mərua	MERUA	abvd	RIGHT	abvd_3_right_5
+mʷara	mara	MARA	abvd	SNAKE	abvd_106_snake_12
+mʷau	mau	MAU	abvd	FOG	abvd_132_fog_3
+mʷawo	mawo	MAWO	abvd	FOG	abvd_132_fog_3
+mʷaⁿdo-ᵑgu	madogu	MADOGU	abvd	BACK	abvd_13_back_35
+mʷaⁿdu-ᵑgu	madugu	MADUGU	abvd	BACK	abvd_13_back_35
+mʷel	mel	MEL	abvd	LEFT	abvd_2_left_1
+mʷeli	meli	MELI	abvd	LEFT	abvd_2_left_1
+mʷænin	mnin	MNIN	abvd	FOG	abvd_132_fog_64
+na-ᵑku	naku	NAKU	abvd	FOOT OR LEG	abvd_4_legfoot_98
+nal	nal	NAL	abvd	THEY	abvd_187_they_1
+nal nai	nalnai	NALNAI	abvd	THEY	abvd_187_they_1
+nalesi	nalesi	NALESI	abvd	FLOWER	abvd_116_flower_54
+namu	namu	NAMU	abvd	MOSQUITO	abvd_109_mosquito_1
+namu̥	namu̥	NAMU	abvd	MOSQUITO	abvd_109_mosquito_1
+nani	nani	NANI	abvd	THIS	abvd_177_this_1
+naŋa	naa	NAA	abvd	HE OR SHE	abvd_184_heshe_1
+naŋana	naana	NAANA	abvd	HE OR SHE	abvd_184_heshe_1
+naŋaru	naaru	NAARU	abvd	THAT	abvd_178_that_36
+ne	ne	NE	abvd	WHEN	-
+nisa	nisa	NISA	abvd	THOU	abvd_183_thou_1
+niŋe	nie	NIE	abvd	WHEN	abvd_170_when_1
+niᵑga	niga	NIGA	abvd	THOU	abvd_183_thou_1
+nǰapa	nǰapa	NAPA	abvd	FAT (ORGANIC SUBSTANCE)	abvd_104_fatgrease_15
+nǰeleru	nǰeleru	NELERU	abvd	YELLOW	abvd_150_yellow_76
+no-ᵑku	noku	NOKU	abvd	MOUTH	abvd_30_mouth_46
+nčœpa	npa	NPA	abvd	FAT (ORGANIC SUBSTANCE)	abvd_104_fatgrease_15
+nəsa	nəsa	NESA	abvd	THOU	abvd_183_thou_1
+ñ-one	ñone	ONE	abvd	SAND	abvd_121_sand_1
+ñ-umʷa	ñuma	UMA	abvd	HOUSE	abvd_61_house_1
+ñamu	ñamu	AMU	abvd	MOSQUITO	abvd_109_mosquito_1
+ñačesi	ñaesi	AESI	abvd	FLOWER	abvd_116_flower_54
+ñaⁿda	ñada	ADA	abvd	FISH	abvd_111_fish_80
+ñečesi	ñeesi	EESI	abvd	FLOWER	abvd_116_flower_54
+ñiñe	ñiñe	IE	abvd	WHEN	abvd_170_when_1
+o-lua	olua	OLUA	abvd	SEVEN	abvd_203_seven_2
+o-rolu	orolu	OROLU	abvd	EIGHT	abvd_204_eight_7
+o-βeri	oeri	OERI	abvd	NINE	abvd_205_nine_20
+oko-lua	okolua	OKOLUA	abvd	SEVEN	abvd_203_seven_4
+oko-rolu	okorolu	OKOROLU	abvd	EIGHT	abvd_204_eight_5
+oko-weri	okoweri	OKOWERI	abvd	NINE	abvd_205_nine_20
+oko-βeri	okoeri	OKOERI	abvd	NINE	abvd_205_nine_20
+ora	ora	ORA	abvd	SIX	abvd_202_six_24
+oɣo-lua	oɣolua	OGOLUA	abvd	SEVEN	abvd_203_seven_4
+oɣo-relu	oɣorelu	OGORELU	abvd	EIGHT	abvd_204_eight_5
+oɣo-rolu	oɣorolu	OGOROLU	abvd	EIGHT	abvd_204_eight_5
+oɣo-wær	oɣowr	OGOWR	abvd	NINE	abvd_205_nine_20
+paru-ᵑgu	parugu	PARUGU	abvd	HEAD	abvd_24_head_9
+pe-ñomñomi	peñomñomi	PEOMOMI	abvd	DIRTY	abvd_10_dirty_65
+peowa	peowa	PEOWA	abvd	BAD OR EVIL	abvd_165_badevil_101
+pias	pias	PIAS	abvd	ROOT	abvd_115_root_45
+piaβi	piai	PIAI	abvd	LONG	abvd_155_long_16
+pilil	pilil	PILIL	abvd	RED	abvd_149_red_18
+pilili	pilili	PILILI	abvd	RED	abvd_149_red_18
+piliβili	piliili	PILIILI	abvd	RED	abvd_149_red_18
+pičučun	piuun	PIUUN	abvd	WARM	abvd_138_warm_12
+por-paru-ᵑgu	porparugu	PORPARUGU	abvd	HEAD	abvd_24_head_9
+pora-tano	poratano	PORATANO	abvd	EARTH (SOIL)	abvd_119_earthsoil_1
+pora-tanu	poratanu	PORATANU	abvd	EARTH (SOIL)	abvd_119_earthsoil_1
+poŋian	poian	POIAN	abvd	NIGHT	abvd_167_night_1
+poŋiana	poiana	POIANA	abvd	NIGHT	abvd_167_night_1
+poŋiena	poiena	POIENA	abvd	NIGHT	abvd_167_night_1
+pua	pua	PUA	abvd	BAD OR EVIL	abvd_165_badevil_101
+puliña-ᵑgu	puliagu	PULIAGU	abvd	MOUTH	-
+pulu-yewi	puluyewi	PULUUEWI	abvd	DUST	abvd_11_dust_25
+pulu-yeβi	puluyei	PULUUEI	abvd	DUST	abvd_11_dust_25
+pulu-yæβi	puluyi	PULUUI	abvd	DUST	abvd_11_dust_25
+pur-iu	puriu	PURIU	abvd	BONE	abvd_15_bone_71
+pur-mene-ᵑgu	purmenegu	PURMENEGU	abvd	TONGUE	abvd_32_tongue_7
+pur-məna-ᵑgu	purmənagu	PURMENAGU	abvd	TONGUE	abvd_32_tongue_7
+pur-wæru	purwru	PURWRU	abvd	STONE	abvd_120_stone_1
+pur-βaru-ᵑgu	purarugu	PURARUGU	abvd	HEAD	abvd_24_head_9
+puri-ara	puriara	PURIARA	abvd	LIVER	abvd_17_liver_34
+puri-aru	puriaru	PURIARU	abvd	LIVER	abvd_17_liver_34
+puru-məna-ᵑgu	purumənagu	PURUMENAGU	abvd	TONGUE	abvd_32_tongue_7
+puru-sa	purusa	PURUSA	abvd	BLOOD	abvd_23_blood_45
+puru-sa-ᵑgu	purusagu	PURUSAGU	abvd	BLOOD	abvd_23_blood_45
+puru-wæru	puruwru	PURUWRU	abvd	STONE	abvd_120_stone_1
+puru-yu	puruyu	PURUUU	abvd	BONE	abvd_15_bone_71
+puru-ᵑgia-ᵑgu	purugiagu	PURUGIAGU	abvd	NECK	abvd_25_neck_77
+puru-ᵑgio-ᵑgu	purugiogu	PURUGIOGU	abvd	NECK	abvd_25_neck_77
+purumalso	purumalso	PURUMALSO	abvd	CLOUD	abvd_131_cloud_34?
+purumaɣa	purumaɣa	PURUMAGA	abvd	CLOUD	-
+puruᵑgea-ᵑku	purugeaku	PURUGEAKU	abvd	SHOULDER	abvd_19_shoulder_55
+puruᵑgia-ᵑgu	purugiagu	PURUGIAGU	abvd	SHOULDER	abvd_19_shoulder_55
+pəlatuᵑgien	pəlatugien	PELATUGIEN	abvd	TAIL	abvd_105_tail_61
+pəro-tan	pərotan	PEROTAN	abvd	EARTH (SOIL)	abvd_119_earthsoil_1
+pʷačesi	paesi	PAESI	abvd	ROOT	abvd_115_root_45
+pʷaŋa	paa	PAA	abvd	ALL	-
+pʷesi	pesi	PESI	abvd	ROOT	abvd_115_root_45
+sa-ᵑgu	sagu	SAGU	abvd	BLOOD	abvd_23_blood_54
+sau	sau	SAU	abvd	RAT	abvd_102_rat_3
+saβi	sai	SAI	abvd	FIRE	abvd_143_fire_38
+sep miyuwi	sepmiyuwi	SEPMIUUWI	abvd	SMOKE (EXHAUST)	abvd_145_smoke_2
+sep ⁿdœβi	sepdi	SEPDI	abvd	SMOKE (EXHAUST)	-
+sepi	sepi	SEPI	abvd	FIRE	abvd_143_fire_38
+seβe	see	SEE	abvd	HOW	abvd_194_how_58
+si	si	SI	abvd	SEA	abvd_124_sea_1
+sine-ᵑgu	sinegu	SINEGU	abvd	INTESTINES	abvd_16_intestines_1
+sinu-ᵑgu	sinugu	SINUGU	abvd	NOSE	abvd_27_nose_1
+sira	sira	SIRA	abvd	FEMALE PERSON	abvd_55_womanfemale_79
+siᵑgiena-kuli	sigienakuli	SIGIENAKULI	abvd	TAIL	abvd_105_tail_61
+soro	soro	SORO	abvd	DIRTY	abvd_10_dirty_98
+souwe	souwe	SOUWE	abvd	RAT	abvd_102_rat_3
+sowe	sowe	SOWE	abvd	RAT	abvd_102_rat_3
+soɣo	soɣo	SOGO	abvd	THOU	-
+soᵑgiaru-ᵑgu	sogiarugu	SOGIARUGU	abvd	NECK	abvd_25_neck_101
+spario	spario	SPARIO	abvd	MOON	abvd_129_moon_54
+su-ᵐbui	subui	SUBUI	abvd	FLESH OR MEAT	abvd_103_meatflesh_15
+sua	sua	SUA	abvd	DRY	abvd_140_dry_11
+sun-ᵐbui	sunbui	SUNBUI	abvd	FLESH OR MEAT	abvd_103_meatflesh_15
+sunu-ᵑgu	sunugu	SUNUGU	abvd	NOSE	abvd_27_nose_1
+suru	suru	SURU	abvd	LOUSE	abvd_108_louse_1
+sənu-ᵑgu	sənugu	SENUGU	abvd	NOSE	abvd_27_nose_1
+səru	səru	SERU	abvd	LOUSE	abvd_108_louse_1
+sβario	sario	SARIO	abvd	MOON	abvd_129_moon_54
+sβena	sena	SENA	abvd	WING	abvd_100_wing_2
+ta	ta	TA	abvd	ONE	abvd_197_one_14
+takoran	takoran	TAKORAN	abvd	ONE	abvd_197_one_14
+takore	takore	TAKORE	abvd	ONE	abvd_197_one_14
+tali̥	tali̥	TALI	abvd	ROPE	abvd_65_rope_1
+taru	taru	TARU	abvd	PERSON	abvd_53_personhumanbeing_4
+taɣana	taɣana	TAGANA	abvd	ONE	abvd_197_one_14
+tekaki	tekaki	TEKAKI	abvd	SMALL	abvd_152_small_104?
+teli	teli	TELI	abvd	ROPE	abvd_65_rope_1
+teline-ᵑgu	telinegu	TELINEGU	abvd	EAR	abvd_43_ear_1
+telu	telu	TELU	abvd	THREE	abvd_199_three_1
+ti	ti	TI	abvd	SEA	abvd_124_sea_1
+ti-pieβi	tipiei	TIPIEI	abvd	LONG	abvd_155_long_16
+ti-piyewi	tipiyewi	TIPIUEWI	abvd	LONG	abvd_155_long_16
+tilaβa	tilaa	TILAA	abvd	BIG	abvd_153_big_10
+tilña-ᵑgu	tilagu	TILAGU	abvd	EAR	abvd_43_ear_1
+tiñe-ᵑgu	tiegu	TIEGU	abvd	INTESTINES	abvd_16_intestines_1
+tiᵑgian	tigian	TIGIAN	abvd	TAIL	abvd_105_tail_61
+tiᵑgiona-kuli	tigionakuli	TIGIONAKULI	abvd	TAIL	abvd_105_tail_61
+tolu	tolu	TOLU	abvd	THREE	abvd_199_three_1
+tua	tua	TUA	abvd	BAD OR EVIL	abvd_165_badevil_129
+tuaᵑa	tuaa	TUAA	abvd	BAD OR EVIL	abvd_165_badevil_129
+təlne-ᵑk	təlnek	TELNEK	abvd	EAR	abvd_43_ear_1
+təra	təra	TERA	abvd	FEMALE PERSON	abvd_55_womanfemale_80
+təraɣa	təraɣa	TERAGA	abvd	FEMALE PERSON	abvd_55_womanfemale_80
+wales	wales	WALES	abvd	ROOT	abvd_115_root_2
+wara	wara	WARA	abvd	SIX	abvd_202_six_24
+way-one	wayone	WAUONE	abvd	SAND	abvd_121_sand_1
+weruwe	weruwe	WERUWE	abvd	STAR	abvd_130_star_70
+wi	wi	WI	abvd	WATER	abvd_122_water_2
+wiñaⁿda	wiñada	WIADA	abvd	FISH	abvd_111_fish_80
+wiču-ᵑgu	wiugu	WIUGU	abvd	HAIR	abvd_26_hair_63
+wora	wora	WORA	abvd	SIX	abvd_202_six_24
+wuia	wuia	WUIA	abvd	SQUEEZE	abvd_88_tosqueeze_87
+wur-mærua	wurmrua	WURMRUA	abvd	OLD	abvd_162_old_1
+wuru-mæruwa	wurumruwa	WURUMRUWA	abvd	OLD	abvd_162_old_1
+wuru-pieβi	wurupiei	WURUPIEI	abvd	LONG	abvd_155_long_16
+wuru-βiu	wuruiu	WURUIU	abvd	NEW	abvd_163_new_10
+wurumiu	wurumiu	WURUMIU	abvd	HEAVY	abvd_142_heavy_78
+wutə-βi	wutəi	WUTEI	abvd	NEW	abvd_163_new_10
+wæy-one	wyone	WUONE	abvd	SAND	abvd_121_sand_1
+ya	ya	UA	abvd	WHAT	abvd_188_what_1
+yani	yani	UANI	abvd	WHAT	abvd_188_what_1
+yaɣai	yaɣai	UAGAI	abvd	WHAT	abvd_188_what_1
+ye-pče	yepe	UEPE	abvd	LIGHTNING	abvd_135_lightning_26
+ye-ᵐbiče	yebie	UEBIE	abvd	LIGHTNING	abvd_135_lightning_26
+yimʷaɣaian	yimaɣaian	UIMAGAIAN	abvd	WORK (ACTIVITY)	abvd_83_towork_1
+yirumʷen	yirumen	UIRUMEN	abvd	MALE PERSON	abvd_54_manmale_1
+yirumʷene	yirumene	UIRUMENE	abvd	MALE PERSON	abvd_54_manmale_1
+yo-βle	yole	UOLE	abvd	LIGHTNING	abvd_135_lightning_26
+yomarua	yomarua	UOMARUA	abvd	FOREST	abvd_127_woodsforest_79
+yomʷarowa	yomarowa	UOMAROWA	abvd	FOREST	abvd_127_woodsforest_79
+yoru	yoru	UORU	abvd	PERSON	abvd_53_personhumanbeing_57
+yu-ᵑgu	yugu	UUGU	abvd	BREAST	abvd_18_breast_47
+yuma	yuma	UUMA	abvd	HOUSE	abvd_61_house_1
+yumaiena	yumaiena	UUMAIENA	abvd	WORK (ACTIVITY)	abvd_83_towork_1
+yuman	yuman	UUMAN	abvd	WORK (ACTIVITY)	abvd_83_towork_1
+yumʷaiena	yumaiena	UUMAIENA	abvd	WORK (ACTIVITY)	abvd_83_towork_1
+yurumʷene	yurumene	UURUMENE	abvd	MALE PERSON	abvd_54_manmale_1
+yuwa	yuwa	UUWA	abvd	RAIN (PRECIPITATION)	abvd_133_rain_1
+yuwi	yuwi	UUWI	abvd	YEAR	abvd_169_year_29
+yœrumʷan	yruman	URUMAN	abvd	MALE PERSON	abvd_54_manmale_1
+ño-ᵑgu	ogu	OGU	abvd	MOUTH	abvd_30_mouth_46
+ča-ᵑgu	agu	AGU	abvd	FOOT OR LEG	abvd_4_legfoot_98
+čaŋi	ai	AI	abvd	WIND	abvd_136_wind_1
+če-ᵑgu	egu	EGU	abvd	FOOT OR LEG	abvd_4_legfoot_98
+čeki	eki	EKI	abvd	STICK	abvd_79_stickwood_27?
+čese	ese	ESE	abvd	STICK	abvd_79_stickwood_27
+česi	esi	ESI	abvd	STICK	abvd_79_stickwood_27
+čeŋ	e	E	abvd	WIND	abvd_136_wind_1
+čeŋiena	eiena	EIENA	abvd	DAY (NOT NIGHT)	abvd_168_day_6
+čima	ima	IMA	abvd	FIVE	abvd_201_five_1
+čima-ᵑgu	imagu	IMAGU	abvd	HAND	abvd_1_hand_59
+ču mæn	umn	UMN	abvd	FEATHER	abvd_99_feather_1
+ču toa	utoa	UTOA	abvd	FEATHER	abvd_99_feather_1
+čua	ua	UA	abvd	TWO	abvd_198_two_1
+čuma	uma	UMA	abvd	IN	abvd_174_ininside_18
+čuma-ᵑgu	umagu	UMAGU	abvd	HAND	abvd_1_hand_59
+čumasi	umasi	UMASI	abvd	LEAF	abvd_114_leaf_46
+čumo-ᵑgu	umogu	UMOGU	abvd	HAND	abvd_1_hand_59
+čumoki	umoki	UMOKI	abvd	LEAF	abvd_114_leaf_46
+čumʷene	umene	UMENE	abvd	GRASS	abvd_118_grass_31
+čumʷese	umese	UMESE	abvd	LEAF	abvd_114_leaf_46
+čumʷesi	umesi	UMESI	abvd	LEAF	abvd_114_leaf_46
+čuwa	uwa	UWA	abvd	TWO	abvd_198_two_1
+ŋo-ᵑgu	ogu	OGU	abvd	MOUTH	abvd_30_mouth_80
+βaru-ᵑk	aruk	ARUK	abvd	HEAD	abvd_24_head_9
+βere	ere	ERE	abvd	IF	abvd_193_if_17
+βeri	eri	ERI	abvd	FOUR	abvd_200_four_1
+βerue	erue	ERUE	abvd	STAR	abvd_130_star_70
+βeruwe	eruwe	ERUWE	abvd	STAR	abvd_130_star_70
+βerwe	erwe	ERWE	abvd	STAR	abvd_130_star_70
+βilaβa	ilaa	ILAA	abvd	BIG	abvd_153_big_10
+βilu-ᵑk	iluk	ILUK	abvd	HAIR	abvd_26_hair_31
+βinasi	inasi	INASI	abvd	FLOWER	abvd_116_flower_56
+βit-marua	itmarua	ITMARUA	abvd	OLD	abvd_162_old_1
+βit-βu	itu	ITU	abvd	NEW	abvd_163_new_10
+βiču-namenu	iunamenu	IUNAMENU	abvd	FEATHER	abvd_99_feather_1
+βiču-ᵑgu	iugu	IUGU	abvd	HAIR	abvd_26_hair_63
+βotelik	otelik	OTELIK	abvd	SMALL	-
+βær	r	R	abvd	FOUR	abvd_200_four_1
+βər-i	əri	ERI	abvd	BONE	abvd_15_bone_71
+ᵐbe	be	BE	abvd	WHERE	abvd_181_where_3
+ᵐben	ben	BEN	abvd	SKY	abvd_128_sky_29
+ᵐberina	berina	BERINA	abvd	FAR	abvd_180_far_88
+ᵐbilil	bilil	BILIL	abvd	RED	abvd_149_red_18
+ᵐbini	bini	BINI	abvd	CLOUD	abvd_131_cloud_1
+ᵐbo	bo	BO	abvd	GOOD	abvd_164_good_108
+ᵐbolul	bolul	BOLUL	abvd	THUNDER	abvd_134_thunder_83
+ᵐbolulu	bolulu	BOLULU	abvd	THUNDER	abvd_134_thunder_83
+ᵐboŋate	boate	BOATE	abvd	DAY (NOT NIGHT)	abvd_168_day_16
+ᵐboŋote	boote	BOOTE	abvd	DAY (NOT NIGHT)	abvd_168_day_16
+ᵐboᵐba-ᵑgu	bobagu	BOBAGU	abvd	BELLY	abvd_14_belly_100
+ᵐboᵐbokiña	bobokiña	BOBOKIA	abvd	BLACK	abvd_147_black_79
+ᵐboᵐbʷa-ᵑgu	bobagu	BOBAGU	abvd	BELLY	abvd_14_belly_100
+ᵑgit	git	GIT	abvd	WE	abvd_185_we_I
+ᵑgit čuwa	gituwa	GITUWA	abvd	WE	-
+ᵑgita	gita	GITA	abvd	WE	abvd_185_we_I
+ⁿdimi	dimi	DIMI	abvd	HEAVY	abvd_142_heavy_72
+ⁿdolu	dolu	DOLU	abvd	OTHER	abvd_190_other_54

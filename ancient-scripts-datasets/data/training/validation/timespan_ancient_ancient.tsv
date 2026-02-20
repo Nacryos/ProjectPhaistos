@@ -1,4 +1,3 @@
-Lang_A	Word_A	IPA_A	SCA_A	Lang_B	Word_B	IPA_B	SCA_B	Concept_ID	Label	Phylo_Dist	Timespan	Score	Source
-obr	five	ṅāḥ		och	five	Cŋˤaʔ	0NAH	five	true_cognate	L3	ancient_ancient	0.5000	sinotibetan
-obr	cold (of temperature)	ʔeḥ	HE	och	cold (of temperature)	rˤeŋʔ	TSENS	cold (of temperature)	true_cognate	L3	ancient_ancient	0.5000	concept_align_sino_tibetan
-lat	aŋɡʷɫʊs	aŋgʷlˠʊs	ANGLUS	och	to buy	mˤrajʔ	MRAYH	EDGE / to buy	true_negative	L4	ancient_ancient	0.3167	random_sample
+version https://git-lfs.github.com/spec/v1
+oid sha256:25cf56b3cbc29978264cfa8a4aa2a73fc3679e221a995b92d72fc2965390ce18
+size 500

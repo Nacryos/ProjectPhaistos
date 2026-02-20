@@ -22,7 +22,9 @@ data/
 │   └── gotica.xml.zip               # Gothic Bible TEI XML (Wulfila project)
 │
 ├── ugaritic/                        # Ugaritic-Hebrew cognate data
-│   ├── uga-heb.no_spe.cog          # Full cognate pairs (TSV, ~7,353 tokens)
+│   ├── README.md                    # Format docs, data structure breakdown
+│   ├── uga-heb.no_spe.cog          # Full file incl. Hebrew search vocab (43,925 rows)
+│   ├── uga-heb.pairs_only.cog      # Cognate pairs only (2,187 rows)
 │   └── uga-heb.small.no_spe.cog    # Small training subset (~10% of full)
 │
 ├── iberian/                         # Iberian inscription data
@@ -30,9 +32,9 @@ data/
 │
 ├── religious_terms/                 # ** CURATED SUBSET: Religious vocabulary **
 │   ├── README.md                    # Methodology and category definitions
-│   ├── ugaritic_hebrew_religious.tsv  # ~170 Ug-Heb cognate pairs (deity, ritual, sacred)
-│   ├── gothic_religious.tsv         # ~65 Gothic Bible religious terms
-│   └── iberian_religious.tsv        # ~40 Iberian votive/religious elements
+│   ├── ugaritic_hebrew_religious.tsv  # ~241 Ug-Heb cognate pairs (deity, ritual, sacred)
+│   ├── gothic_religious.tsv         # ~90 Gothic Bible religious terms
+│   └── iberian_religious.tsv        # ~68 Iberian votive/religious elements
 │
 ├── validation/                      # Phylogenetic validation dataset (9 branches)
 │   ├── README.md                    # Format, sources, concept list
@@ -46,6 +48,12 @@ data/
 │   ├── semitic.tsv                  # heb, arb, amh (~120 entries)
 │   ├── turkic.tsv                   # otk, tur, aze (~120 entries)
 │   └── uralic.tsv                   # fin, hun, est (~120 entries)
+│
+├── training/                        # ** TRAINING DATA: 1,097 languages **
+│   ├── README.md                    # Format, tiers, source details
+│   ├── lexicons/                    # Per-language TSV files (1,097 files, 3.2M entries)
+│   ├── language_profiles/           # Per-language markdown profiles (1,097 files)
+│   └── metadata/                    # languages.tsv, source_stats.tsv, etc.
 │
 └── cited_sources/                   # External datasets cited in the paper
     ├── genesis/
@@ -77,10 +85,11 @@ The Gothic Bible is the primary source of Gothic text. The paper uses unsegmente
 
 | File | Source | Description |
 |---|---|---|
-| `uga-heb.no_spe.cog` | [NeuroDecipher](https://github.com/j-luo93/NeuroDecipher) | Full Ugaritic-Hebrew cognate pairs |
-| `uga-heb.small.no_spe.cog` | [NeuroDecipher](https://github.com/j-luo93/NeuroDecipher) | ~10% training subset |
+| `uga-heb.no_spe.cog` | [NeuroDecipher](https://github.com/j-luo93/NeuroDecipher) | Full file incl. Hebrew search vocab (43,925 rows) |
+| `uga-heb.pairs_only.cog` | Filtered from above | Cognate pairs only — both languages present (2,187 rows) |
+| `uga-heb.small.no_spe.cog` | [NeuroDecipher](https://github.com/j-luo93/NeuroDecipher) | ~10% stratified sample of the full file |
 
-**Format:** Tab-separated values. Each row is a cognate pair. Column 1 = Ugaritic transliteration, Column 2 = Hebrew transliteration. `|` separates multiple cognates; `_` marks missing entries. Originally from Snyder et al. (2010), covering 7,353 segmented tokens from the 14th-12th century BC.
+**Format:** Tab-separated values. Column 1 = Ugaritic transliteration, Column 2 = Hebrew transliteration. `|` separates multiple cognates; `_` marks missing entries. Originally from Snyder et al. (2010), covering 7,236 unique Ugaritic types from the 14th-12th century BC. The full file (43,925 rows) contains 2,187 true cognate pairs (both languages present), 36,684 Hebrew-only rows (the model's search vocabulary), and 5,054 Ugaritic-only rows. See `data/ugaritic/README.md` for details.
 
 ### Iberian (`data/iberian/`)
 
@@ -129,7 +138,9 @@ The `cognate_pipeline/` directory contains a full Python package for cross-lingu
 - **Export** to CLDF Wordlist and JSON-LD formats
 - **Full provenance tracking** through every pipeline stage
 
-Supports 36 languages across 9 phylogenetic branches (Germanic, Celtic, Balto-Slavic, Indo-Iranian, Italic, Hellenic, Semitic, Turkic, Uralic) plus isolates, with Glottocode resolution and IPA transcriptions.
+Training data covers 1,097 languages across 56 families (3.2M entries from WikiPron, NorthEuraLex, WOLD, ABVD). The validation dataset spans 9 phylogenetic branches (Germanic, Celtic, Balto-Slavic, Indo-Iranian, Italic, Hellenic, Semitic, Turkic, Uralic) with Glottocode resolution and IPA transcriptions.
+
+See `data/training/README.md` for training data details and quality tiers.
 
 See `data/validation/README.md` for the phylogenetic validation dataset.
 

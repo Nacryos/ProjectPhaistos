@@ -1,0 +1,901 @@
+Word	IPA	SCA	Source	Concept_ID	Cognate_Set_ID
+'imaʔ	imaʔ	IMAH	abvd	FIVE	abvd_201_five_1
+*acuʔ	acuʔ	AKUH	abvd	DOG	-
+*amin	amin	AMIN	abvd	ALL	-
+*atikic	atikic	ATIKIK	abvd	SMALL	-
+*aŋkuc	akuc	AKUK	abvd	HOLD	-
+*balva	balva	BALBA	abvd	SWELL	-
+*bananað	banana	BANANA	abvd	MALE PERSON	abvd_54_manmale_58
+*bantac	bantac	BANTAK	abvd	FOOT OR LEG	abvd_4_legfoot_51
+*baqlu	baqlu	BAKLU	abvd	NEW	abvd_163_new_1
+*batu	batu	BATU	abvd	STONE	abvd_120_stone_1
+*bilva	bilva	BILBA	abvd	THUNDER	-
+*binanauʔað	binanauʔa	BINANAUHA	abvd	FEMALE PERSON	abvd_55_womanfemale_1
+*bintuqan	bintuqan	BINTUKAN	abvd	STAR	abvd_130_star_1
+*biðuq	biuq	BIUK	abvd	FAT (ORGANIC SUBSTANCE)	abvd_104_fatgrease_53
+*buan	buan	BUAN	abvd	MOON	abvd_129_moon_1
+*bunuk	bunuk	BUNUK	abvd	SAND	abvd_121_sand_71
+*bunul	bunul	BUNUL	abvd	LAKE	-
+*bunun	bunun	BUNUN	abvd	PERSON	-
+*busqu	busqu	BUSKU	abvd	DUST	-
+*buŋuʔ	buuʔ	BUUH	abvd	HEAD	abvd_24_head_2
+*ciin	ciin	KIIN	abvd	AND	abvd_192_and_50
+*cima	cima	KIMA	abvd	WHO	abvd_189_who_2
+*ciqai	ciqai	KIKAI	abvd	BRANCH	-
+*cucu	cucu	KUKU	abvd	BREAST	abvd_18_breast_1
+*cupcup	cupcup	KUPKUP	abvd	SUCK	-
+*daan	daan	DAAN	abvd	PATH OR ROAD	abvd_6_roadpath_1
+*dalaq	dalaq	DALAK	abvd	EARTH (SOIL)	abvd_119_earthsoil_30
+*danum	danum	DANUM	abvd	WATER	abvd_122_water_1
+*daqvisan	daqvisan	DAKBISAN	abvd	FAR	abvd_180_far_2
+*dauluq	dauluq	DAULUK	abvd	WORM	-
+*daða	daa	DAA	abvd	ABOVE	abvd_175_above_41
+*daŋkað	daka	DAKA	abvd	STAND	-
+*diqanin	diqanin	DIKANIN	abvd	SKY	abvd_128_sky_57
+*duldul	duldul	DULDUL	abvd	STAND	-
+*duma	duma	DUMA	abvd	OTHER	-
+*dusa	dusa	DUSA	abvd	TWO	abvd_198_two_1
+*duun	duun	DUUN	abvd	ROPE	abvd_65_rope_38
+*hanuin	hanuin	HANUIN	abvd	COME	-
+*hikuʔ	hikuʔ	HIKUH	abvd	BACK	abvd_13_back_1
+*hima	hima	HIMA	abvd	FIVE	abvd_201_five_1
+*hivhiv	hivhiv	HIBHIB	abvd	WIND	-
+*ica	ica	IKA	abvd	WHERE	-
+*ikul	ikul	IKUL	abvd	TAIL	abvd_105_tail_1
+*ima	ima	IMA	abvd	HAND	abvd_1_hand_1
+*iskaan	iskaan	ISKAAN	abvd	FISH	-
+*ismuut	ismuut	ISMUUT	abvd	GRASS	-
+*ivut	ivut	IBUT	abvd	SNAKE	-
+*kahuŋ	kahu	KAHU	abvd	SKIN	abvd_12_skin_59
+*kalat	kalat	KALAT	abvd	BITE	abvd_41_tobite_1
+*katukatu	katukatu	KATUKATU	abvd	SPIDER	-
+*kulali	kulali	KULALI	abvd	OLD	-
+*kumbu	kumbu	KUMBU	abvd	IN	-
+*kusbai	kusbai	KUSBAI	abvd	FLY (MOVE THROUGH AIR)	abvd_101_tofly_51
+*kutdaqun	kutdaqun	KUTDAKUN	abvd	FRUIT	-
+*kutu	kutu	KUTU	abvd	LOUSE	abvd_108_louse_1
+*laac	laac	LAAK	abvd	FLESH OR MEAT	-
+*lakua	lakua	LAKUA	abvd	WHEN	abvd_170_when_51
+*lamis	lamis	LAMIS	abvd	ROOT	abvd_115_root_3
+*lisav	lisav	LISAB	abvd	LEAF	abvd_114_leaf_41
+*luhum	luhum	LUHUM	abvd	CLOUD	abvd_131_cloud_2
+*lumaq	lumaq	LUMAK	abvd	HOUSE	abvd_61_house_1
+*luvuc	luvuc	LUBUK	abvd	WET	abvd_141_wet_76
+*mabaliv	mabaliv	MABALIB	abvd	BUY	abvd_91_tobuy_23
+*mabaðu	mabau	MABAU	abvd	POUND	-
+*mabulcuk	mabulcuk	MABULKUK	abvd	DRY	abvd_140_dry_89
+*macaqbit	macaqbit	MAKAKBIT	abvd	PAINFUL OR SICK	-
+*macihal	macihal	MAKIHAL	abvd	GOOD	-
+*macinhav	macinhav	MAKINHAB	abvd	YELLOW	-
+*macuað	macua	MAKUA	abvd	PLANT (SOMETHING)	abvd_84_toplant_56
+*madaiŋ	madai	MADAI	abvd	BIG	abvd_153_big_2
+*madauqpus	madauqpus	MADAUKPUS	abvd	LONG	abvd_155_long_70
+*madaŋqac	madaqac	MADAKAK	abvd	RED	abvd_149_red_76
+*madikla	madikla	MADIKLA	abvd	BAD OR EVIL	abvd_165_badevil_65
+*maduqlac	maduqlac	MADUKLAK	abvd	WHITE	abvd_148_white_78
+*mahanat	mahanat	MAHANAT	abvd	COOK (SOMETHING)	abvd_39_tocook_71
+*maichuan	maichuan	MAIKHUAN	abvd	NEAR	-
+*makai	makai	MAKAI	abvd	DIG	abvd_90_todig_1
+*makalav	makalav	MAKALAB	abvd	SCRATCH	abvd_77_toscratch_1
+*makatpal	makatpal	MAKATPAL	abvd	THICK	abvd_157_thick_1
+*makaðhav	makahav	MAKAHAB	abvd	COLD	abvd_139_cold_84
+*makua	makua	MAKUA	abvd	HOW	abvd_194_how_1
+*makuis	makuis	MAKUIS	abvd	NARROW	abvd_158_narrow_53
+*malaupa	malaupa	MALAUPA	abvd	STAB	-
+*malidikuc	malidikuc	MALIDIKUK	abvd	HOLD	-
+*maludaq	maludaq	MALUDAK	abvd	HIT	abvd_72_tohit_77
+*maluquc	maluquc	MALUKUK	abvd	FASTEN	abvd_66_totieupfasten_73
+*maluŋqu	maluqu	MALUKU	abvd	SIT	abvd_51_tosit_88
+*mama	mama	MAMA	abvd	TONGUE	abvd_32_tongue_37
+*manaq	manaq	MANAK	abvd	SHOOT	abvd_70_toshoot_1
+*manaŋqat	manaqat	MANAKAT	abvd	WARM	-
+*mantuk	mantuk	MANTUK	abvd	CORRECT (RIGHT)	-
+*manucqait	manucqait	MANUKKAIT	abvd	SHARP	-
+*mapatað	mapata	MAPATA	abvd	KILL	abvd_74_tokill_2
+*mapisiŋ	mapisi	MAPISI	abvd	FEAR (BE AFRAID)	abvd_22_tofear_55
+*mapuckit	mapuckit	MAPUKKIT	abvd	NARROW	-
+*mapusʔaq	mapusʔaq	MAPUSHAK	abvd	VOMIT	-
+*maqabin	maqabin	MAKABIN	abvd	HIDE	-
+*maqainan	maqainan	MAKAINAN	abvd	LAUGH	abvd_33_tolaugh_75
+*maqaliv	maqaliv	MAKALIB	abvd	DRY	-
+*maqutŋu	maqutu	MAKUTU	abvd	BLUNT	-
+*masabaq	masabaq	MASABAK	abvd	SLEEP	abvd_48_tosleep_72
+*masauqbuŋ	masauqbu	MASAUKBU	abvd	HEAVY	abvd_142_heavy_51
+*masaŋlav	masalav	MASALAB	abvd	GREEN	abvd_151_green_78
+*masipul	masipul	MASIPUL	abvd	COUNT	abvd_196_tocount_3
+*masuað	masua	MASUA	abvd	PLANT (SOMETHING)	abvd_84_toplant_56
+*mataqais	mataqais	MATAKAIS	abvd	SEW	-
+*mataqduŋ	mataqdu	MATAKDU	abvd	DIRTY	abvd_10_dirty_89
+*matað	mata	MATA	abvd	BE DEAD OR DIE	abvd_75_todiebedead_1
+*mataʔ	mataʔ	MATAH	abvd	EYE	abvd_45_eye_1
+*matua	matua	MATUA	abvd	OPEN	-
+*matuktuk	matuktuk	MATUKTUK	abvd	CUT OR HACK	abvd_78_tocuthack_3
+*maʔað	maʔa	MAHA	abvd	WHAT	abvd_188_what_39
+*maʔiqtic	maʔiqtic	MAHIKTIK	abvd	SQUEEZE	-
+*maʔiup	maʔiup	MAHIUP	abvd	BLOW (OF WIND)	abvd_137_toblow_1
+*maʔun	maʔun	MAHUN	abvd	EAT	abvd_37_toeat_1
+*milickin	milickin	MILIKKIN	abvd	THINK	-
+*mindaiŋ	mindai	MINDAI	abvd	GROW	-
+*minpuhuq	minpuhuq	MINPUHUK	abvd	ROTTEN	abvd_112_rotten_81
+*miqumic	miqumic	MIKUMIK	abvd	BE ALIVE	abvd_76_tolivebealive_52
+*mistaba	mistaba	MISTABA	abvd	BURN	-
+*mudadan	mudadan	MUDADAN	abvd	WALK	-
+*muliqliq	muliqliq	MULIKLIK	abvd	SPLIT	-
+*muluŋqu	muluqu	MULUKU	abvd	SIT	abvd_51_tosit_88
+*mumudan	mumudan	MUMUDAN	abvd	NECK	abvd_25_neck_57
+*mutaq	mutaq	MUTAK	abvd	VOMIT	abvd_35_tovomit_1
+*mutmut	mutmut	MUTMUT	abvd	FOG	-
+*muŋqanu	muqanu	MUKANU	abvd	FLOW	-
+*nastu	nastu	NASTU	abvd	BELOW OR UNDER	-
+*nibu	nibu	NIBU	abvd	EGG	-
+*nii	nii	NII	abvd	NO OR NOT	-
+*nipun	nipun	NIPUN	abvd	TOOTH	abvd_31_tooth_1
+*nuum	nuum	NUUM	abvd	SIX	abvd_202_six_1
+*paat	paat	PAAT	abvd	FOUR	abvd_200_four_1
+*paniʔ	paniʔ	PANIH	abvd	WING	abvd_100_wing_2
+*pismantuk	pismantuk	PISMANTUK	abvd	THINK	-
+*pitdia	pitdia	PITDIA	abvd	COOK (SOMETHING)	abvd_39_tocook_70
+*pitu	pitu	PITU	abvd	SEVEN	abvd_203_seven_1
+*puaq	puaq	PUAK	abvd	FLOWER	abvd_116_flower_48
+*qabuʔ	qabuʔ	KABUH	abvd	ASH	abvd_146_ashes_1
+*qacilaʔ	qacilaʔ	KAKILAH	abvd	SALT	-
+*qaidaŋ	qaida	KAIDA	abvd	BLOOD	abvd_23_blood_36
+*qaiðuŋðuŋ	qaiuu	KAIUU	abvd	TURN	-
+*qamisan	qamisan	KAMISAN	abvd	YEAR	abvd_169_year_23
+*qamutic	qamutic	KAMUTIK	abvd	RAT	-
+*qanciap	qanciap	KANKIAP	abvd	KNOW (SOMETHING)	-
+*qaniʔan	qaniʔan	KANIHAN	abvd	DAY (NOT NIGHT)	abvd_168_day_15
+*qanup	qanup	KANUP	abvd	HUNT	abvd_69_tohunt_1
+*qatað	qata	KATA	abvd	LIVER	abvd_17_liver_1
+*qatibiŋ	qatibi	KATIBI	abvd	MOSQUITO	abvd_109_mosquito_69
+*qaðam	qaam	KAAM	abvd	BIRD	abvd_97_bird_2
+*qucdul	qucdul	KUKDUL	abvd	SMOKE (EXHAUST)	-
+*qudan	qudan	KUDAN	abvd	RAIN (PRECIPITATION)	abvd_133_rain_1
+*qulbu	qulbu	KULBU	abvd	HAIR	-
+*qumbu	qumbu	KUMBU	abvd	SMOKE (EXHAUST)	abvd_145_smoke_70
+*quuʔ	quuʔ	KUUH	abvd	DRINK	abvd_40_todrink_41
+*sadu	sadu	SADU	abvd	SEE	abvd_46_tosee_71
+*sak	sak	SAK	abvd	SMELL (PERCEIVE)	-
+*sanavan	sanavan	SANABAN	abvd	NIGHT	-
+*sapuð	sapu	SAPU	abvd	FIRE	abvd_143_fire_1
+*sasaubu	sasaubu	SASAUBU	abvd	SWELL	-
+*sibinsiq	sibinsiq	SIBINSIK	abvd	CHOOSE	-
+*silup	silup	SILUP	abvd	INTESTINES	abvd_16_intestines_50
+*simal	simal	SIMAL	abvd	FAT (ORGANIC SUBSTANCE)	abvd_104_fatgrease_2
+*siqailað	siqaila	SIKAILA	abvd	CHOOSE	-
+*siva	siva	SIBA	abvd	NINE	abvd_205_nine_5
+*sumbaŋ	sumba	SUMBA	abvd	BREATHE	abvd_28_tobreathe_55
+*susuaʔ	susuaʔ	SUSUAH	abvd	YAWN	abvd_47_toyawn_19
+*taisaq	taisaq	TAISAK	abvd	DREAM (SOMETHING)	-
+*taiŋa	taia	TAIA	abvd	EAR	abvd_43_ear_1
+*takiqabas	takiqabas	TAKIKABAS	abvd	OLD	-
+*takunav	takunav	TAKUNAB	abvd	THROW	-
+*takðaŋ	taka	TAKA	abvd	LIE DOWN	-
+*taldaiŋ	taldai	TALDAI	abvd	GROW	-
+*talʔia	talʔia	TALHIA	abvd	GROW	abvd_86_togrow_39
+*tama	tama	TAMA	abvd	FATHER	abvd_60_father_1
+*tanbaq	tanbaq	TANBAK	abvd	BELOW OR UNDER	-
+*tanʔa	tanʔa	TANHA	abvd	HEAR	abvd_44_tohear_44
+*tasʔa	tasʔa	TASHA	abvd	ONE	abvd_197_one_41
+*tatuʔun	tatuʔun	TATUHUN	abvd	OLD	-
+*tau	tau	TAU	abvd	THREE	abvd_199_three_1
+*tavi	tavi	TABI	abvd	THATCH OR ROOF	abvd_62_thatchroof_2
+*taŋic	taic	TAIK	abvd	CRY	abvd_34_tocry_1
+*taŋqaiʔiu	taqaiʔiu	TAKAIHIU	abvd	STEAL	-
+*tian	tian	TIAN	abvd	BELLY	abvd_14_belly_1
+*tikas	tikas	TIKAS	abvd	MOSQUITO	abvd_109_mosquito_68
+*tina	tina	TINA	abvd	MOTHER	abvd_59_mother_1
+*tismuq	tismuq	TISMUK	abvd	SWELL	-
+*titi	titi	TITI	abvd	FLESH OR MEAT	abvd_103_meatflesh_64
+*tunkalapat	tunkalapat	TUNKALAPAT	abvd	CLIMB	-
+*tupa	tupa	TUPA	abvd	SAY	-
+*tuqnað	tuqna	TUKNA	abvd	BONE	abvd_15_bone_1
+*tuŋqað	tuqa	TUKA	abvd	FALL	-
+*uvaʔað	uvaʔa	UBAHA	abvd	CHILD	-
+*vanan	vanan	BANAN	abvd	RIGHT	abvd_3_right_1
+*vau	vau	BAU	abvd	EIGHT	-
+*vaʔu	vaʔu	BAHU	abvd	SHOULDER	abvd_19_shoulder_48
+*ŋadaq	adaq	ADAK	abvd	BELOW OR UNDER	-
+*ŋan	an	AN	abvd	NAME	abvd_63_name_1
+*ŋulus	ulus	ULUS	abvd	MOUTH	abvd_30_mouth_65
+*ŋutuc	utuc	UTUK	abvd	NOSE	abvd_27_nose_42
+-am	am	AM	abvd	YOU	abvd_186_you_1
+aas	aas	AAS	abvd	NEEDLE (FOR SEWING)	abvd_68_needle_27
+antan nastuʔ	antannastuʔ	ANTANNASTUH	abvd	BELOW OR UNDER	abvd_176_below_65
+antanŋadah	antanadah	ANTANADAH	abvd	IN	-
+asu	asu	ASU	abvd	THOU	abvd_183_thou_1
+atso	atso	ATSO	abvd	DOG	abvd_96_dog_1
+awou	awou	AWOU	abvd	EIGHT	abvd_204_eight_3
+bahlu	bahlu	BAHLU	abvd	NEW	abvd_163_new_1
+bainin	bainin	BAININ	abvd	COME	-
+balivuṣ	balivu	BALIBU	abvd	WIND	abvd_136_wind_2
+bananað	banana	BANANA	abvd	MALE PERSON	abvd_54_manmale_58
+bantac	bantac	BANTAK	abvd	FOOT OR LEG	abvd_4_legfoot_51
+bantas	bantas	BANTAS	abvd	FOOT OR LEG	abvd_4_legfoot_51
+baqlu	baqlu	BAKLU	abvd	NEW	abvd_163_new_1
+basau	basau	BASAU	abvd	TEN	-
+batu	batu	BATU	abvd	STONE	abvd_120_stone_1
+baynahay	baynahay	BAUNAHAU	abvd	COME	-
+baðbað	baba	BABA	abvd	SAY	abvd_64_tosay_102
+bicvaq	bicvaq	BIKBAK	abvd	THUNDER	abvd_134_thunder_24
+bilvaan	bilvaan	BILBAAN	abvd	LIGHTNING	abvd_135_lightning_61
+bilvaʔan	bilvaʔan	BILBAHAN	abvd	LIGHTNING	abvd_135_lightning_61
+binanauʔað	binanauʔa	BINANAUHA	abvd	FEMALE PERSON	abvd_55_womanfemale_1
+binhal	binhal	BINHAL	abvd	LIGHTNING	-
+bintuhan	bintuhan	BINTUHAN	abvd	STAR	abvd_130_star_1
+bintuqan	bintuqan	BINTUKAN	abvd	STAR	abvd_130_star_1
+bitvah	bitvah	BITBAH	abvd	THUNDER	abvd_134_thunder_24
+bitvaq	bitvaq	BITBAK	abvd	THUNDER	abvd_134_thunder_24
+bitvaqan	bitvaqan	BITBAKAN	abvd	THUNDER	abvd_134_thunder_24
+biðuh	biuh	BIUH	abvd	FAT (ORGANIC SUBSTANCE)	abvd_104_fatgrease_53
+biðuq	biuq	BIUK	abvd	FAT (ORGANIC SUBSTANCE)	abvd_104_fatgrease_53
+biɬvaʔ	biɬvaʔ	BILBAH	abvd	THUNDER	abvd_134_thunder_24
+buan	buan	BUAN	abvd	MOON	abvd_129_moon_1
+bunuk	bunuk	BUNUK	abvd	SAND	abvd_121_sand_71
+buŋu	buu	BUU	abvd	HEAD	abvd_24_head_2
+buŋuʔ	buuʔ	BUUH	abvd	HEAD	abvd_24_head_2
+b̂ab̂aŋoʔ	b̂ab̂aoʔ	BABAOH	abvd	WORM	-
+b̂ahloʔ	b̂ahloʔ	BAHLOH	abvd	NEW	abvd_163_new_1
+b̂ananað	b̂anana	BANANA	abvd	MALE PERSON	abvd_54_manmale_58
+b̂atuʔ	b̂atuʔ	BATUH	abvd	STONE	abvd_120_stone_1
+b̂ilvaʔ	b̂ilvaʔ	BILBAH	abvd	THUNDER	abvd_134_thunder_24
+b̂intóhan	b̂inthan	BINTHAN	abvd	STAR	abvd_130_star_1
+b̂oan	b̂oan	BOAN	abvd	MOON	abvd_129_moon_1
+b̂unnok	b̂unnok	BUNNOK	abvd	SAND	abvd_121_sand_71
+b̂ántaṣ	b̂nta	BNTA	abvd	FOOT OR LEG	abvd_4_legfoot_51
+b̂únun	b̂nun	BNUN	abvd	PERSON	-
+b̂úŋuʔ	b̂uʔ	BUH	abvd	HEAD	abvd_24_head_2
+cia	cia	KIA	abvd	HE OR SHE	abvd_184_heshe_1
+cian	cian	KIAN	abvd	BELLY	abvd_14_belly_1
+ciciʔ	ciciʔ	KIKIH	abvd	FLESH OR MEAT	abvd_103_meatflesh_64
+ciin	ciin	KIIN	abvd	AND	abvd_192_and_50
+cikas	cikas	KIKAS	abvd	MOSQUITO	abvd_109_mosquito_68
+cima	cima	KIMA	abvd	WHO	abvd_189_who_2
+cinaʔ	cinaʔ	KINAH	abvd	MOTHER	abvd_59_mother_1
+ciqiʔ	ciqiʔ	KIKIH	abvd	BRANCH	abvd_113_branch_39
+cucuʔ	cucuʔ	KUKUH	abvd	BREAST	abvd_18_breast_1
+culkuʔ	culkuʔ	KULKUH	abvd	STICK	-
+daan	daan	DAAN	abvd	PATH OR ROAD	abvd_6_roadpath_1
+dadaðacia	dadaacia	DADAAKIA	abvd	ABOVE	abvd_175_above_41
+dahvian	dahvian	DAHBIAN	abvd	FAR	abvd_180_far_2
+dalah	dalah	DALAH	abvd	EARTH (SOIL)	abvd_119_earthsoil_30
+dalaq	dalaq	DALAK	abvd	EARTH (SOIL)	abvd_119_earthsoil_30
+danum	danum	DANUM	abvd	WATER	abvd_122_water_1
+daqvisan	daqvisan	DAKBISAN	abvd	FAR	abvd_180_far_2
+daðaʔ	daaʔ	DAAH	abvd	ABOVE	abvd_175_above_41
+di	di	DI	abvd	THIS	abvd_177_this_13
+dihanin	dihanin	DIHANIN	abvd	SKY	abvd_128_sky_57
+diki	diki	DIKI	abvd	THIS	abvd_177_this_13?
+dimaɬ	dimaɬ	DIMAL	abvd	LIGHTNING	abvd_135_lightning_60
+diqanin	diqanin	DIKANIN	abvd	SKY	abvd_128_sky_57
+do'on	doon	DOON	abvd	ROPE	abvd_65_rope_38
+dumaʔ	dumaʔ	DUMAH	abvd	OTHER	abvd_190_other_1
+dusa	dusa	DUSA	abvd	TWO	abvd_198_two_1
+dusaʔ	dusaʔ	DUSAH	abvd	TWO	abvd_198_two_1
+duun	duun	DUUN	abvd	ROPE	abvd_65_rope_38
+dārak	drak	DRAK	abvd	EARTH (SOIL)	abvd_119_earthsoil_30
+d̂a'an	d̂aan	DAAN	abvd	PATH OR ROAD	abvd_6_roadpath_1
+d̂a'as	d̂aas	DAAS	abvd	SAND	abvd_121_sand_70
+d̂ad̂áðaʔ	d̂ad̂aʔ	DADAH	abvd	ABOVE	abvd_175_above_41
+d̂alah	d̂alah	DALAH	abvd	EARTH (SOIL)	abvd_119_earthsoil_30
+d̂anom	d̂anom	DANOM	abvd	WATER	abvd_122_water_1
+d̂ehánin	d̂ehnin	DEHNIN	abvd	SKY	abvd_128_sky_57
+d̂émal	d̂mal	DMAL	abvd	LIGHTNING	abvd_135_lightning_60
+eskuan	eskuan	ESKUAN	abvd	NEAR	abvd_179_near_80
+habuʔ	habuʔ	HABUH	abvd	ASH	abvd_146_ashes_1
+hab̌oʔ	hab̌oʔ	HABOH	abvd	ASH	abvd_146_ashes_1
+haidaŋ	haida	HAIDA	abvd	BLOOD	abvd_23_blood_36
+haiðin	haiin	HAIIN	abvd	COME	-
+hamis-an	hamisan	HAMISAN	abvd	YEAR	abvd_169_year_23
+hamisan	hamisan	HAMISAN	abvd	YEAR	abvd_169_year_23
+hanian	hanian	HANIAN	abvd	DAY (NOT NIGHT)	abvd_168_day_15
+hanup	hanup	HANUP	abvd	HUNT	abvd_69_tohunt_1
+hanuŋqan	hanuqan	HANUKAN	abvd	COME	-
+hasilaʔ	hasilaʔ	HASILAH	abvd	SALT	abvd_125_salt_1
+hatað	hata	HATA	abvd	LIVER	abvd_17_liver_1
+hatáð	hat	HAT	abvd	LIVER	abvd_17_liver_1
+hayap	hayap	HAUAP	abvd	KNOW (SOMETHING)	-
+haðam	haam	HAAM	abvd	BIRD	abvd_97_bird_2
+heuhen	heuhen	HEUHEN	abvd	WIND	-
+hikuʔ	hikuʔ	HIKUH	abvd	BACK	abvd_13_back_1
+hima	hima	HIMA	abvd	FIVE	abvd_201_five_1
+himaʔ	himaʔ	HIMAH	abvd	HAND	abvd_1_hand_1
+ho'od	hood	HOOD	abvd	DRINK	-
+hodhod	hodhod	HODHOD	abvd	NECK	-
+holb̂óʔ	holb̂ʔ	HOLBH	abvd	HAIR	abvd_26_hair_16
+hudan	hudan	HUDAN	abvd	RAIN (PRECIPITATION)	abvd_133_rain_1
+hulbuʔ	hulbuʔ	HULBUH	abvd	HAIR	abvd_26_hair_16
+husʔul	husʔul	HUSHUL	abvd	SMOKE (EXHAUST)	abvd_145_smoke_62
+husʔuɬ	husʔuɬ	HUSHUL	abvd	SMOKE (EXHAUST)	abvd_145_smoke_62
+huud	huud	HUUD	abvd	DRINK	abvd_40_todrink_41
+háiraŋ	hira	HIRA	abvd	BLOOD	abvd_23_blood_36
+hánop	hnop	HNOP	abvd	HUNT	abvd_69_tohunt_1
+hód̂an	hd̂an	HDAN	abvd	RAIN (PRECIPITATION)	abvd_133_rain_1
+imaʔ	imaʔ	IMAH	abvd	HAND	abvd_1_hand_1
+iuvluv	iuvluv	IUBLUB	abvd	WIND	abvd_136_wind_75
+ka'oŋ	kao	KAO	abvd	SKIN	abvd_12_skin_59
+kaan	kaan	KAAN	abvd	FISH	abvd_111_fish_1
+kahuŋ	kahu	KAHU	abvd	SKIN	abvd_12_skin_59
+kaidan	kaidan	KAIDAN	abvd	BLOOD	abvd_23_blood_36
+kaimin	kaimin	KAIMIN	abvd	WE	abvd_185_we_2
+kak	kak	KAK	abvd	I	abvd_182_i_1
+kakatuʔ	kakatuʔ	KAKATUH	abvd	SPIDER	abvd_110_spider_2
+kakaunun	kakaunun	KAKAUNUN	abvd	FRUIT	abvd_117_fruit_7
+kalat	kalat	KALAT	abvd	BITE	abvd_41_tobite_1
+kalinastuun	kalinastuun	KALINASTUUN	abvd	HIT	abvd_72_tohit_78
+kalinastuʔ	kalinastuʔ	KALINASTUH	abvd	HIT	abvd_72_tohit_78
+kalinastuʔun	kalinastuʔun	KALINASTUHUN	abvd	HIT	abvd_72_tohit_78
+kam	kam	KAM	abvd	WE	abvd_185_we_2
+kamuʔ	kamuʔ	KAMUH	abvd	YOU	abvd_186_you_1
+kasuʔ	kasuʔ	KASUH	abvd	THOU	abvd_183_thou_1
+kataʔ	kataʔ	KATAH	abvd	WE	abvd_185_we_1
+katukatuh	katukatuh	KATUKATUH	abvd	SPIDER	abvd_110_spider_2
+katukatuʔ	katukatuʔ	KATUKATUH	abvd	SPIDER	abvd_110_spider_2
+kaununkaunun	kaununkaunun	KAUNUNKAUNUN	abvd	FRUIT	abvd_117_fruit_7
+kauŋ	kau	KAU	abvd	SKIN	abvd_12_skin_59
+ki	ki	KI	abvd	AND	abvd_192_and_53
+kidikus	kidikus	KIDIKUS	abvd	HOLD	abvd_89_tohold_80
+kinsapiyun	kinsapiyun	KINSAPIUUN	abvd	ROPE	abvd_65_rope_43?
+kiṣ-b̂uŋánan	kib̂unan	KIBUNAN	abvd	STAB	-
+koranan	koranan	KORANAN	abvd	RAIN (PRECIPITATION)	-
+koruvo	koruvo	KORUBO	abvd	HAIR	abvd_26_hair_16
+koṣb̂ái	kob̂i	KOBI	abvd	FLY (MOVE THROUGH AIR)	abvd_101_tofly_51
+kudadaʔ	kudadaʔ	KUDADAH	abvd	CLIMB	abvd_172_toclimb_42
+kukuaʔ	kukuaʔ	KUKUAH	abvd	WORM	abvd_107_wormearthworm_2?
+kukuða	kukua	KUKUA	abvd	WORK (ACTIVITY)	abvd_83_towork_27
+kumbuʔ	kumbuʔ	KUMBUH	abvd	IN	abvd_174_ininside_39
+kusbai	kusbai	KUSBAI	abvd	FLY (MOVE THROUGH AIR)	abvd_101_tofly_51
+kutu	kutu	KUTU	abvd	LOUSE	abvd_108_louse_1
+kutúʔ	kutʔ	KUTH	abvd	LOUSE	abvd_108_louse_1
+kuðakuða	kuakua	KUAKUA	abvd	WORK (ACTIVITY)	abvd_83_towork_27
+kuðakúðaʔ	kuakaʔ	KUAKAH	abvd	WORK (ACTIVITY)	abvd_83_towork_27
+kámuʔ	kmuʔ	KMUH	abvd	YOU	abvd_186_you_1
+káuman	kuman	KUMAN	abvd	SMALL	-
+kəkátuʔ	kəktuʔ	KEKTUH	abvd	SPIDER	abvd_110_spider_2
+kəlavun	kəlavun	KELABUN	abvd	SCRATCH	abvd_77_toscratch_1
+la'aṣ	laa	LAA	abvd	FRUIT	abvd_117_fruit_4
+laac	laac	LAAK	abvd	FRUIT	abvd_117_fruit_4
+labian	labian	LABIAN	abvd	NIGHT	abvd_167_night_21
+lab̂átoʔ	lab̂toʔ	LABTOH	abvd	THROW	abvd_94_tothrow_76
+lahvíṣan	lahvan	LAHBAN	abvd	FAR	abvd_180_far_2
+laipáð	laip	LAIP	abvd	HAND	-
+lakdaa	lakdaa	LAKDAA	abvd	STONE	abvd_120_stone_35
+lakdaʔ	lakdaʔ	LAKDAH	abvd	STONE	abvd_120_stone_35
+lakoáʔ	lakoʔ	LAKOH	abvd	WHEN	abvd_170_when_51
+lakua	lakua	LAKUA	abvd	WHEN	abvd_170_when_51
+lamis	lamis	LAMIS	abvd	ROOT	abvd_115_root_3
+laquaq	laquaq	LAKUAK	abvd	WHEN	abvd_170_when_51
+lili'uʔ	liliuʔ	LILIUH	abvd	WORM	-
+lisav	lisav	LISAB	abvd	LEAF	abvd_114_leaf_41
+lolob̂unún	lolob̂unn	LOLOBUNN	abvd	EGG	abvd_98_egg_48
+lovus	lovus	LOBUS	abvd	WET	abvd_141_wet_76
+luhum	luhum	LUHUM	abvd	CLOUD	abvd_131_cloud_2
+lukic	lukic	LUKIK	abvd	STICK	abvd_79_stickwood_19
+lukis	lukis	LUKIS	abvd	STICK	abvd_79_stickwood_19
+lumah	lumah	LUMAH	abvd	HOUSE	abvd_61_house_1
+lumaq	lumaq	LUMAK	abvd	HOUSE	abvd_61_house_1
+lusha	lusha	LUSHA	abvd	TWO	abvd_198_two_1
+luvluv	luvluv	LUBLUB	abvd	WIND	abvd_136_wind_75
+luvuc	luvuc	LUBUK	abvd	WET	abvd_141_wet_76
+luvus	luvus	LUBUS	abvd	WET	abvd_141_wet_76
+luðaʔ	luaʔ	LUAH	abvd	COME	-
+lámiṣ	lmi	LMI	abvd	ROOT	abvd_115_root_3
+líbuṣ	lbu	LBU	abvd	FOREST	-
+lókiṣ	lki	LKI	abvd	STICK	abvd_79_stickwood_19
+lə'əm	ləəm	LEEM	abvd	CLOUD	abvd_131_cloud_2
+ləvləv	ləvləv	LEBLEB	abvd	WIND	abvd_136_wind_75
+m-aʔun	maʔun	MAHUN	abvd	EAT	abvd_37_toeat_1
+ma'ad	maad	MAAD	abvd	WHAT	abvd_188_what_39
+ma'íp	map	MAP	abvd	BLOW (OF WIND)	abvd_137_toblow_1
+ma'ún	man	MAN	abvd	EAT	abvd_37_toeat_1
+ma-cakbit	macakbit	MAKAKBIT	abvd	PAINFUL OR SICK	-
+ma-cuað	macua	MAKUA	abvd	PLANT (SOMETHING)	abvd_84_toplant_56
+ma-cʔan	macʔan	MAKHAN	abvd	TEN	abvd_206_ten_2
+ma-daŋqac	madaqac	MADAKAK	abvd	RED	abvd_149_red_76
+ma-dikla	madikla	MADIKLA	abvd	BAD OR EVIL	abvd_165_badevil_65
+ma-duqpus	maduqpus	MADUKPUS	abvd	LONG	abvd_155_long_70
+ma-kai	makai	MAKAI	abvd	DIG	abvd_90_todig_1
+ma-kaðhav	makahav	MAKAHAB	abvd	COLD	abvd_139_cold_84
+ma-qmut	maqmut	MAKMUT	abvd	NIGHT	abvd_167_night_58
+ma-taqis	mataqis	MATAKIS	abvd	SEW	abvd_67_tosew_1
+ma-tumaqi	matumaqi	MATUMAKI	abvd	CHEW	-
+ma-ŋaðʔaq	maaʔaq	MAAHAK	abvd	WIDE	abvd_159_wide_32
+ma-ʔiup	maʔiup	MAHIUP	abvd	BLOW (OF WIND)	abvd_137_toblow_1
+maað	maa	MAA	abvd	WHAT	abvd_188_what_39
+mabaliv	mabaliv	MABALIB	abvd	BUY	abvd_91_tobuy_23
+mabatu	mabatu	MABATU	abvd	THROW	abvd_94_tothrow_76
+mabaðuʔ	mabauʔ	MABAUH	abvd	POUND	abvd_93_topoundbeat_37
+mabaɬiv	mabaɬiv	MABALIB	abvd	BUY	abvd_91_tobuy_23
+mabulcuk	mabulcuk	MABULKUK	abvd	DRY	abvd_140_dry_89
+mabulsuk	mabulsuk	MABULSUK	abvd	DRY	abvd_140_dry_89
+mabuɬsuk	mabuɬsuk	MABULSUK	abvd	DRY	abvd_140_dry_89
+maca	maca	MAKA	abvd	IF	-
+machuan	machuan	MAKHUAN	abvd	NEAR	abvd_179_near_81
+macian	macian	MAKIAN	abvd	GOOD	abvd_164_good_88
+mackaʔ	mackaʔ	MAKKAH	abvd	THAT	-
+macki	macki	MAKKI	abvd	THIS	-
+macuað	macua	MAKUA	abvd	PLANT (SOMETHING)	abvd_84_toplant_56
+macʔan	macʔan	MAKHAN	abvd	TEN	abvd_206_ten_2
+madahpaʔ	madahpaʔ	MADAHPAH	abvd	PAINFUL OR SICK	abvd_160_painfulsick_77
+madaipuhín	madaipuhn	MADAIPUHN	abvd	COOK (SOMETHING)	-
+madaiŋ	madai	MADAI	abvd	BIG	abvd_153_big_2
+madauqlac	madauqlac	MADAUKLAK	abvd	WHITE	abvd_148_white_78
+madauqpus	madauqpus	MADAUKPUS	abvd	LONG	abvd_155_long_70
+madayŋað	madaya	MADAUA	abvd	OLD	abvd_162_old_2
+madaŋhas	madahas	MADAHAS	abvd	RED	abvd_149_red_76
+madaŋqac	madaqac	MADAKAK	abvd	RED	abvd_149_red_76
+madaŋqas	madaqas	MADAKAS	abvd	RED	abvd_149_red_76
+madi'av	madiav	MADIAB	abvd	YELLOW	-
+madiklaʔ	madiklaʔ	MADIKLAH	abvd	BAD OR EVIL	abvd_165_badevil_65
+maduhlas	maduhlas	MADUHLAS	abvd	WHITE	abvd_148_white_78
+maduhpus	maduhpus	MADUHPUS	abvd	LONG	abvd_155_long_70
+madulóʔ	madulʔ	MADULH	abvd	LONG	-
+maduqlac	maduqlac	MADUKLAK	abvd	WHITE	abvd_148_white_78
+maduqlas	maduqlas	MADUKLAS	abvd	WHITE	abvd_148_white_78
+madá'in	madin	MADIN	abvd	BIG	abvd_153_big_2
+mad̂ahpaʔ	mad̂ahpaʔ	MADAHPAH	abvd	PAINFUL OR SICK	abvd_160_painfulsick_77
+mad̂aiŋád	mad̂aid	MADAID	abvd	OLD	abvd_162_old_2
+mad̂ohlás	mad̂ohls	MADOHLS	abvd	WHITE	abvd_148_white_78
+mad̂áŋhas	mad̂has	MADHAS	abvd	RED	abvd_149_red_76
+mahaháinan	mahahinan	MAHAHINAN	abvd	LAUGH	abvd_33_tolaugh_75
+mahainan	mahainan	MAHAINAN	abvd	LAUGH	abvd_33_tolaugh_75
+mahaivusvus	mahaivusvus	MAHAIBUSBUS	abvd	TURN	abvd_8_toturn_60
+mahaliv	mahaliv	MAHALIB	abvd	DRY	abvd_140_dry_2
+mahanat	mahanat	MAHANAT	abvd	COOK (SOMETHING)	abvd_39_tocook_71
+mahansiap	mahansiap	MAHANSIAP	abvd	KNOW (SOMETHING)	abvd_20_toknowbeknowledgeable_70
+mahmut	mahmut	MAHMUT	abvd	NIGHT	abvd_167_night_58
+mahosb̂óʔ	mahosb̂ʔ	MAHOSBH	abvd	HEAVY	abvd_142_heavy_51
+mahusbuʔ	mahusbuʔ	MAHUSBUH	abvd	HEAVY	abvd_142_heavy_51
+mais	mais	MAIS	abvd	IF	-
+makai	makai	MAKAI	abvd	DIG	abvd_90_todig_1
+makalav	makalav	MAKALAB	abvd	SCRATCH	abvd_77_toscratch_1
+makaspál	makaspl	MAKASPL	abvd	THICK	abvd_157_thick_1
+makatpal	makatpal	MAKATPAL	abvd	THICK	abvd_157_thick_1
+makatpaɬ	makatpaɬ	MAKATPAL	abvd	THICK	abvd_157_thick_1
+makaðav	makaav	MAKAAB	abvd	COLD	abvd_139_cold_84
+makaðhav	makahav	MAKAHAB	abvd	COLD	abvd_139_cold_84
+makaðkað	makaka	MAKAKA	abvd	DIG	abvd_90_todig_1
+maki	maki	MAKI	abvd	IF	-
+maklaŋ	makla	MAKLA	abvd	WARM	abvd_138_warm_81
+maku'iṣ	makui	MAKUI	abvd	NARROW	abvd_158_narrow_53
+maku'áŋ	maku	MAKU	abvd	BAD OR EVIL	abvd_165_badevil_64
+makua	makua	MAKUA	abvd	HOW	abvd_194_how_1
+makuaŋ	makua	MAKUA	abvd	BAD OR EVIL	abvd_165_badevil_2?
+makuis	makuis	MAKUIS	abvd	NARROW	abvd_158_narrow_53
+makulút	makult	MAKULT	abvd	CUT OR HACK	-
+makáðav	makav	MAKAB	abvd	COLD	abvd_139_cold_84
+malawpa	malawpa	MALAWPA	abvd	STAB	abvd_71_tostabpierce_72
+maludah	maludah	MALUDAH	abvd	HIT	abvd_72_tohit_77
+maludaq	maludaq	MALUDAK	abvd	HIT	abvd_72_tohit_77
+maluhus	maluhus	MALUHUS	abvd	FASTEN	abvd_66_totieupfasten_73
+maluquc	maluquc	MALUKUK	abvd	FASTEN	abvd_66_totieupfasten_73
+maluqus	maluqus	MALUKUS	abvd	FASTEN	abvd_66_totieupfasten_73
+maluvus	maluvus	MALUBUS	abvd	WET	abvd_141_wet_76
+maluŋqu	maluqu	MALUKU	abvd	SIT	abvd_51_tosit_88
+malúdah	maldah	MALDAH	abvd	HIT	abvd_72_tohit_77
+malʔánohoʔ	malʔnohoʔ	MALHNOHOH	abvd	SIT	abvd_51_tosit_88?
+mama	mama	MAMA	abvd	TONGUE	abvd_32_tongue_37
+mamantok	mamantok	MAMANTOK	abvd	CORRECT (RIGHT)	abvd_166_correcttrue_63
+mamantuk	mamantuk	MAMANTUK	abvd	CORRECT (RIGHT)	abvd_166_correcttrue_63
+manah	manah	MANAH	abvd	SHOOT	abvd_70_toshoot_1
+manakis	manakis	MANAKIS	abvd	CLIMB	abvd_172_toclimb_2
+manaq	manaq	MANAK	abvd	SHOOT	abvd_70_toshoot_1
+manaŋhát	manaht	MANAHT	abvd	WARM	-
+manbaɬvaʔ	manbaɬvaʔ	MANBALBAH	abvd	SWELL	abvd_87_toswell_26
+manisbis	manisbis	MANISBIS	abvd	THIN	abvd_156_thin_1
+maniṣb̂ís	manib̂s	MANIBS	abvd	THIN	abvd_156_thin_1
+manucqit	manucqit	MANUKKIT	abvd	SHARP	abvd_81_sharp_54
+manushit	manushit	MANUSHIT	abvd	SHARP	abvd_81_sharp_54
+manusháiʔ	manushiʔ	MANUSHIH	abvd	SHARP	abvd_81_sharp_54
+manusqit	manusqit	MANUSKIT	abvd	SHARP	abvd_81_sharp_54
+mapapah	mapapah	MAPAPAH	abvd	CHEW	abvd_38_tochew_46
+mapapaq	mapapaq	MAPAPAK	abvd	CHEW	abvd_38_tochew_46
+mapaqpaq	mapaqpaq	MAPAKPAK	abvd	CHEW	abvd_38_tochew_46
+mapatað	mapata	MAPATA	abvd	KILL	abvd_74_tokill_2
+mapisiŋ	mapisi	MAPISI	abvd	FEAR (BE AFRAID)	abvd_22_tofear_55
+mapusan	mapusan	MAPUSAN	abvd	TWENTY	abvd_207_twenty_1
+maputul	maputul	MAPUTUL	abvd	SHORT	abvd_154_short_30
+maputůl	maputl	MAPUTL	abvd	SHORT	abvd_154_short_30
+mapútul	maptul	MAPTUL	abvd	SHORT	abvd_154_short_30
+mapúṣan	mapan	MAPAN	abvd	TWENTY	abvd_207_twenty_1
+maqainan	maqainan	MAKAINAN	abvd	LAUGH	abvd_33_tolaugh_75
+maqanciap	maqanciap	MAKANKIAP	abvd	KNOW (SOMETHING)	abvd_20_toknowbeknowledgeable_70
+maqayðuŋðuŋ	maqayuu	MAKAUUU	abvd	TURN	-
+maqmut	maqmut	MAKMUT	abvd	NIGHT	abvd_167_night_58
+maquaq	maquaq	MAKUAK	abvd	HOW	abvd_194_how_1
+mas	mas	MAS	abvd	AND	abvd_192_and_2
+masabah	masabah	MASABAH	abvd	SLEEP	abvd_48_tosleep_72
+masabaq	masabaq	MASABAK	abvd	SLEEP	abvd_48_tosleep_72
+masasput	masasput	MASASPUT	abvd	SQUEEZE	abvd_88_tosqueeze_40
+masauqbuŋ	masauqbu	MASAUKBU	abvd	HEAVY	abvd_142_heavy_51
+masaŋlav lisav	masalavlisav	MASALABLISAB	abvd	GREEN	abvd_151_green_78
+masaŋɬav	masaɬav	MASALAB	abvd	GREEN	abvd_151_green_78
+masial	masial	MASIAL	abvd	GOOD	abvd_164_good_88
+masihal	masihal	MASIHAL	abvd	GOOD	abvd_164_good_88
+masipul	masipul	MASIPUL	abvd	COUNT	abvd_196_tocount_3
+masipuɬ	masipuɬ	MASIPUL	abvd	COUNT	abvd_196_tocount_3
+masnipaq	masnipaq	MASNIPAK	abvd	SPIT	abvd_36_tospit_74
+masput	masput	MASPUT	abvd	SQUEEZE	abvd_88_tosqueeze_40
+massan	massan	MASSAN	abvd	TEN	abvd_206_ten_2
+masuað	masua	MASUA	abvd	PLANT (SOMETHING)	abvd_84_toplant_56
+masɔqbuŋ	masɔqbu	MASOKBU	abvd	HEAVY	abvd_142_heavy_51
+masʔan	masʔan	MASHAN	abvd	TEN	abvd_206_ten_2
+mata	mata	MATA	abvd	EYE	abvd_45_eye_1
+matacput	matacput	MATAKPUT	abvd	SQUEEZE	abvd_88_tosqueeze_40
+matahduŋ	matahdu	MATAHDU	abvd	DIRTY	abvd_10_dirty_89
+matahd̂óŋ	matahd̂	MATAHD	abvd	BLACK	abvd_147_black_62
+matahis	matahis	MATAHIS	abvd	SEW	abvd_67_tosew_1
+mataisah	mataisah	MATAISAH	abvd	DREAM (SOMETHING)	abvd_50_todream_43
+mataisaq	mataisaq	MATAISAK	abvd	DREAM (SOMETHING)	abvd_50_todream_43
+matakunav	matakunav	MATAKUNAB	abvd	THROW	-
+mataqduŋ	mataqdu	MATAKDU	abvd	DIRTY	abvd_10_dirty_89
+mataqis	mataqis	MATAKIS	abvd	SEW	abvd_67_tosew_1
+matasaq	matasaq	MATASAK	abvd	DREAM (SOMETHING)	abvd_50_todream_43
+matað	mata	MATA	abvd	BE DEAD OR DIE	abvd_75_todiebedead_1
+mataʔ	mataʔ	MATAH	abvd	EYE	abvd_45_eye_1
+matnipah	matnipah	MATNIPAH	abvd	SPIT	abvd_36_tospit_74
+matnipaq	matnipaq	MATNIPAK	abvd	SPIT	abvd_36_tospit_74
+matodon	matodon	MATODON	abvd	SLEEP	-
+matuaʔ	matuaʔ	MATUAH	abvd	OPEN	abvd_92_toopenuncover_50
+matuktuk	matuktuk	MATUKTUK	abvd	CUT OR HACK	abvd_78_tocuthack_3
+matumpuʔ	matumpuʔ	MATUMPUH	abvd	CUT OR HACK	-
+matáhiṣ	mathi	MATHI	abvd	SEW	abvd_67_tosew_1
+matáhluŋ	mathlu	MATHLU	abvd	DIRTY	abvd_10_dirty_89
+maun	maun	MAUN	abvd	EAT	abvd_37_toeat_1
+maðʔav	maʔav	MAHAB	abvd	SHY OR ASHAMED	abvd_161_shyashamed_46
+maŋabðan	maaban	MAABAN	abvd	WIDE	abvd_159_wide_32
+maŋapðán	maapn	MAAPN	abvd	WIDE	abvd_159_wide_32
+maŋaðʔaq	maaʔaq	MAAHAK	abvd	WIDE	abvd_159_wide_32
+maŋhánoʔ	mahnoʔ	MAHNOH	abvd	FLOW	abvd_123_toflow_30
+maŋisbic	maisbic	MAISBIK	abvd	THIN	abvd_156_thin_1
+maɬaupaʔ	maɬaupaʔ	MALAUPAH	abvd	STAB	abvd_71_tostabpierce_72
+maɬuspiŋað	maɬuspia	MALUSPIA	abvd	FEMALE PERSON	abvd_55_womanfemale_1
+maɬuŋhuʔ	maɬuhuʔ	MALUHUH	abvd	SIT	abvd_51_tosit_88
+maʔacaʔ	maʔacaʔ	MAHAKAH	abvd	WHAT	abvd_188_what_39?
+maʔanat	maʔanat	MAHANAT	abvd	COOK (SOMETHING)	abvd_39_tocook_71
+maʔaq	maʔaq	MAHAK	abvd	WHAT	abvd_188_what_39?
+maʔað	maʔa	MAHA	abvd	WHAT	abvd_188_what_39
+maʔaŋkus	maʔakus	MAHAKUS	abvd	HOLD	abvd_89_tohold_79
+maʔiup	maʔiup	MAHIUP	abvd	BLOW (OF WIND)	abvd_137_toblow_1
+maʔmaʔ	maʔmaʔ	MAHMAH	abvd	TONGUE	abvd_32_tongue_37
+maʔun	maʔun	MAHUN	abvd	EAT	abvd_37_toeat_1
+maṣavah	maavah	MAABAH	abvd	SLEEP	abvd_48_tosleep_72
+maṣi'al	maial	MAIAL	abvd	GOOD	abvd_164_good_88
+maṣáb̂ah	mab̂ah	MABAH	abvd	LIE DOWN	-
+maṣáŋlav	malav	MALAB	abvd	GREEN	abvd_151_green_78
+maṣípul	mapul	MAPUL	abvd	COUNT	abvd_196_tocount_3
+mi-halaŋ	mihala	MIHALA	abvd	PAINFUL OR SICK	abvd_160_painfulsick_78
+mi:ṣúmaʔ	mimaʔ	MIMAH	abvd	COME	abvd_7_tocome_29
+mihalaŋ	mihala	MIHALA	abvd	PAINFUL OR SICK	abvd_160_painfulsick_78
+mihumis	mihumis	MIHUMIS	abvd	BE ALIVE	abvd_76_tolivebealive_52
+mihú:mis	mihmis	MIHMIS	abvd	BE ALIVE	abvd_76_tolivebealive_52
+miliskin	miliskin	MILISKIN	abvd	THINK	abvd_21_tothink_55
+milískin	milskin	MILSKIN	abvd	THINK	abvd_21_tothink_55
+min-puhuq	minpuhuq	MINPUHUK	abvd	ROTTEN	abvd_112_rotten_81
+minbalva	minbalva	MINBALBA	abvd	SWELL	abvd_87_toswell_26
+minbalvaʔ	minbalvaʔ	MINBALBAH	abvd	SWELL	abvd_87_toswell_26
+minb̂ohb̂óh	minb̂ohb̂h	MINBOHBH	abvd	TURN	-
+mindaŋkað	mindaka	MINDAKA	abvd	STAND	abvd_52_tostand_49
+mindaŋkaðaʔ	mindakaaʔ	MINDAKAAH	abvd	STAND	abvd_52_tostand_49
+mindia	mindia	MINDIA	abvd	CHOOSE	abvd_85_tochoose_38
+mind̂aŋkað	mind̂aka	MINDAKA	abvd	STAND	abvd_52_tostand_49
+minpoʔóʔ	minpoʔʔ	MINPOHH	abvd	ROTTEN	abvd_112_rotten_81
+minpuhuq	minpuhuq	MINPUHUK	abvd	ROTTEN	abvd_112_rotten_81
+minpuʔuh	minpuʔuh	MINPUHUH	abvd	ROTTEN	abvd_112_rotten_81
+minsumin	minsumin	MINSUMIN	abvd	COME	abvd_7_tocome_29
+minsuŋap	minsuap	MINSUAP	abvd	BURN	-
+mintokan	mintokan	MINTOKAN	abvd	STAR	abvd_130_star_1
+miqumic	miqumic	MIKUMIK	abvd	BE ALIVE	abvd_76_tolivebealive_52
+miqumis	miqumis	MIKUMIS	abvd	BE ALIVE	abvd_76_tolivebealive_52
+mis-cunaʔ	miscunaʔ	MISKUNAH	abvd	BURN	-
+mishuan	mishuan	MISHUAN	abvd	NEAR	abvd_179_near_81
+miŋqaylað	miqayla	MIKAULA	abvd	CHOOSE	-
+miṣtab̂aʔ	mitab̂aʔ	MITABAH	abvd	BURN	-
+mu-luŋqu	muluqu	MULUKU	abvd	SIT	abvd_51_tosit_88
+mu-mudan	mumudan	MUMUDAN	abvd	NECK	abvd_25_neck_57
+mudadaan	mudadaan	MUDADAAN	abvd	WALK	abvd_5_towalk_21
+mudan	mudan	MUDAN	abvd	NECK	abvd_25_neck_57
+mud̂ad̂á'an	mud̂ad̂an	MUDADAN	abvd	WALK	abvd_5_towalk_21
+muhalhal	muhalhal	MUHALHAL	abvd	FALL	abvd_95_tofall_84
+mumudan	mumudan	MUMUDAN	abvd	NECK	abvd_25_neck_57
+muqalqal	muqalqal	MUKALKAL	abvd	FALL	abvd_95_tofall_84
+mutah	mutah	MUTAH	abvd	VOMIT	abvd_35_tovomit_1
+mutaq	mutaq	MUTAK	abvd	VOMIT	abvd_35_tovomit_1
+muut	muut	MUUT	abvd	GRASS	abvd_118_grass_64
+muŋ-qanuʔ	muqanuʔ	MUKANUH	abvd	FLOW	abvd_123_toflow_30
+muŋhanuʔ	muhanuʔ	MUHANUH	abvd	FLOW	abvd_123_toflow_30
+muŋhav	muhav	MUHAB	abvd	THROW	-
+muŋqanuʔ	muqanuʔ	MUKANUH	abvd	FLOW	abvd_123_toflow_30
+mánah	mnah	MNAH	abvd	SHOOT	abvd_70_toshoot_1
+másʔan	msʔan	MSHAN	abvd	TEN	abvd_206_ten_2
+mátað	mta	MTA	abvd	BE DEAD OR DIE	abvd_75_todiebedead_1
+mátaʔ	mtaʔ	MTAH	abvd	EYE	abvd_45_eye_1
+mínuʔ	mnuʔ	MNUH	abvd	FLOWER	-
+mótah	mtah	MTAH	abvd	VOMIT	abvd_35_tovomit_1
+múdan	mdan	MDAN	abvd	NECK	abvd_25_neck_57
+məkálav	məklav	MEKLAB	abvd	SCRATCH	abvd_77_toscratch_1
+nai	nai	NAI	abvd	THEY	abvd_187_they_32
+nai'iaʔ	naiiaʔ	NAIIAH	abvd	THEY	abvd_187_they_32
+naitaʔ	naitaʔ	NAITAH	abvd	THEY	abvd_187_they_32
+namakua	namakua	NAMAKUA	abvd	HOW	abvd_194_how_1
+napikó'on	napikon	NAPIKON	abvd	HOW	abvd_194_how_44
+nastuʔ	nastuʔ	NASTUH	abvd	BELOW OR UNDER	abvd_176_below_65
+nay	nay	NAU	abvd	THEY	abvd_187_they_32
+neʔ	neʔ	NEH	abvd	NO OR NOT	abvd_195_nonot_3
+ngurus	ngurus	NGURUS	abvd	MOUTH	abvd_30_mouth_65
+ngutos	ngutos	NGUTOS	abvd	NOSE	abvd_27_nose_42
+nibuʔ	nibuʔ	NIBUH	abvd	EGG	-
+niepon	niepon	NIEPON	abvd	TOOTH	abvd_31_tooth_1
+nipun	nipun	NIPUN	abvd	TOOTH	abvd_31_tooth_1
+nituʔ	nituʔ	NITUH	abvd	NO OR NOT	abvd_195_nonot_87
+niŋʔav	niʔav	NIHAB	abvd	SEA	abvd_124_sea_55
+niʔ	niʔ	NIH	abvd	NO OR NOT	abvd_195_nonot_3
+no'om	noom	NOOM	abvd	SIX	abvd_202_six_1
+noum	noum	NOUM	abvd	SIX	abvd_202_six_1
+num	num	NUM	abvd	SIX	abvd_202_six_1
+nuum	nuum	NUUM	abvd	SIX	abvd_202_six_1
+nípah	npah	NPAH	abvd	SPIT	abvd_36_tospit_74
+nípun	npun	NPUN	abvd	TOOTH	abvd_31_tooth_1
+níto manushái	ntomanushi	NTOMANUSHI	abvd	BLUNT	-
+p'at	pat	PAT	abvd	FOUR	abvd_200_four_1
+pa-patað	papata	PAPATA	abvd	KILL	abvd_74_tokill_2
+paat	paat	PAAT	abvd	FOUR	abvd_200_four_1
+padasa	padasa	PADASA	abvd	SPLIT	abvd_80_tosplit_68
+padusaʔ	padusaʔ	PADUSAH	abvd	SPLIT	abvd_80_tosplit_68
+palnatuʔ	palnatuʔ	PALNATUH	abvd	SAY	-
+paniʔ	paniʔ	PANIH	abvd	FEATHER	abvd_99_feather_2
+papísiŋ	papsi	PAPSI	abvd	FEAR (BE AFRAID)	abvd_22_tofear_55
+parantahón	parantahn	PARANTAHN	abvd	FASTEN	-
+pat	pat	PAT	abvd	FOUR	abvd_200_four_1
+patáðun	patun	PATUN	abvd	KILL	abvd_74_tokill_2
+pikaʔun	pikaʔun	PIKAHUN	abvd	HOW	abvd_194_how_44
+pikuun	pikuun	PIKUUN	abvd	HOW	abvd_194_how_44
+piquʔuq	piquʔuq	PIKUHUK	abvd	HOW	abvd_194_how_44
+pisdua	pisdua	PISDUA	abvd	BURN	-
+pismantuk	pismantuk	PISMANTUK	abvd	THINK	-
+pitdia	pitdia	PITDIA	abvd	COOK (SOMETHING)	abvd_39_tocook_70
+pitoʔ	pitoʔ	PITOH	abvd	SEVEN	abvd_203_seven_1
+pitu	pitu	PITU	abvd	SEVEN	abvd_203_seven_1
+pituʔ	pituʔ	PITUH	abvd	SEVEN	abvd_203_seven_1
+pitò	pit	PIT	abvd	SEVEN	abvd_203_seven_1
+popunoʔ	popunoʔ	POPUNOH	abvd	DUST	-
+powaq	powaq	POWAK	abvd	FLOWER	abvd_116_flower_48
+puaq	puaq	PUAK	abvd	FLOWER	abvd_116_flower_48
+pulahuq	pulahuq	PULAHUK	abvd	FEATHER	abvd_99_feather_56
+puláu	pulu	PULU	abvd	FEATHER	abvd_99_feather_56
+puɬaʔuh	puɬaʔuh	PULAHUH	abvd	FEATHER	abvd_99_feather_56
+pádan	pdan	PDAN	abvd	GRASS	-
+páneʔ	pneʔ	PNEH	abvd	FEATHER	abvd_99_feather_2
+píŋað	pa	PA	abvd	FEMALE PERSON	abvd_55_womanfemale_1
+pā-ăt	pt	PT	abvd	FOUR	abvd_200_four_1
+qabu	qabu	KABU	abvd	ASH	abvd_146_ashes_1
+qabuʔ	qabuʔ	KABUH	abvd	ASH	abvd_146_ashes_1
+qacila	qacila	KAKILA	abvd	SALT	abvd_125_salt_1
+qaidaŋ	qaida	KAIDA	abvd	BLOOD	abvd_23_blood_36
+qaipuan	qaipuan	KAIPUAN	abvd	EGG	abvd_98_egg_49
+qamisan	qamisan	KAMISAN	abvd	YEAR	abvd_169_year_23
+qamutic	qamutic	KAMUTIK	abvd	RAT	-
+qaniʔ-an	qaniʔan	KANIHAN	abvd	DAY (NOT NIGHT)	abvd_168_day_15
+qansiap	qansiap	KANSIAP	abvd	KNOW (SOMETHING)	abvd_20_toknowbeknowledgeable_70
+qanup	qanup	KANUP	abvd	HUNT	abvd_69_tohunt_1
+qasilaʔ	qasilaʔ	KASILAH	abvd	SALT	abvd_125_salt_1
+qatað	qata	KATA	abvd	LIVER	abvd_17_liver_1
+qatibiŋ	qatibi	KATIBI	abvd	MOSQUITO	abvd_109_mosquito_69
+qaypuan	qaypuan	KAUPUAN	abvd	EGG	abvd_98_egg_49
+qaðam	qaam	KAAM	abvd	BIRD	abvd_97_bird_2
+qi-na-piʔ	qinapiʔ	KINAPIH	abvd	ROPE	abvd_65_rope_43
+qidaŋ	qida	KIDA	abvd	BLOOD	abvd_23_blood_36
+qipiʔun	qipiʔun	KIPIHUN	abvd	ROPE	abvd_65_rope_43
+qucʔul	qucʔul	KUKHUL	abvd	SMOKE (EXHAUST)	abvd_145_smoke_62
+qudan	qudan	KUDAN	abvd	RAIN (PRECIPITATION)	abvd_133_rain_1
+qulbuʔ	qulbuʔ	KULBUH	abvd	HAIR	abvd_26_hair_16
+qumbu	qumbu	KUMBU	abvd	SMOKE (EXHAUST)	abvd_145_smoke_70
+qumbuʔ	qumbuʔ	KUMBUH	abvd	SMOKE (EXHAUST)	abvd_145_smoke_70
+qusʔul	qusʔul	KUSHUL	abvd	SMOKE (EXHAUST)	abvd_145_smoke_62
+quuʔ	quuʔ	KUUH	abvd	DRINK	abvd_40_todrink_41
+quŋquŋan	ququan	KUKUAN	abvd	NECK	-
+quʔ	quʔ	KUH	abvd	DRINK	abvd_40_todrink_41
+ruhon	ruhon	RUHON	abvd	CLOUD	abvd_131_cloud_2
+rumaʔ	rumaʔ	RUMAH	abvd	OTHER	abvd_190_other_1
+rusya	rusya	RUSUA	abvd	TWO	abvd_198_two_1
+rúmaʔ	rmaʔ	RMAH	abvd	THEY	-
+saak	saak	SAAK	abvd	SMELL (PERCEIVE)	abvd_29_tosniffsmell_1
+sadu	sadu	SADU	abvd	SEE	abvd_46_tosee_71
+sai'ia	saiia	SAIIA	abvd	HE OR SHE	abvd_184_heshe_1?
+saicia	saicia	SAIKIA	abvd	THAT	-
+saicin	saicin	SAIKIN	abvd	THIS	-
+saikin	saikin	SAIKIN	abvd	I	abvd_182_i_1?
+sam	sam	SAM	abvd	WE	abvd_185_we_2
+sapos	sapos	SAPOS	abvd	FIRE	abvd_143_fire_1
+sapuð	sapu	SAPU	abvd	FIRE	abvd_143_fire_1
+sasput	sasput	SASPUT	abvd	SQUEEZE	abvd_88_tosqueeze_40
+si-cupcup	sicupcup	SIKUPKUP	abvd	SUCK	abvd_42_tosuck_1
+sia di	siadi	SIADI	abvd	THIS	abvd_177_this_13
+sicupcup	sicupcup	SIKUPKUP	abvd	SUCK	abvd_42_tosuck_1
+sihiʔ	sihiʔ	SIHIH	abvd	BRANCH	abvd_113_branch_39
+siin	siin	SIIN	abvd	AND	abvd_192_and_50
+silup	silup	SILUP	abvd	INTESTINES	abvd_16_intestines_50
+sima	sima	SIMA	abvd	WHO	abvd_189_who_2
+simal	simal	SIMAL	abvd	FLESH OR MEAT	abvd_103_meatflesh_56
+siqaivusvus	siqaivusvus	SIKAIBUSBUS	abvd	TURN	abvd_8_toturn_60
+siqiʔ	siqiʔ	SIKIH	abvd	BRANCH	abvd_113_branch_39
+sisusuab	sisusuab	SISUSUAB	abvd	YAWN	abvd_47_toyawn_19
+siva	siva	SIBA	abvd	NINE	abvd_205_nine_5
+sivaʔ	sivaʔ	SIBAH	abvd	NINE	abvd_205_nine_5
+sivà	siv	SIB	abvd	NINE	abvd_205_nine_5
+su	su	SU	abvd	THOU	abvd_183_thou_1
+su-suaʔ	susuaʔ	SUSUAH	abvd	YAWN	abvd_47_toyawn_19
+suksuk	suksuk	SUKSUK	abvd	NECK	-
+sumbaŋ	sumba	SUMBA	abvd	BREATHE	abvd_28_tobreathe_55
+supsup	supsup	SUPSUP	abvd	SUCK	abvd_42_tosuck_1
+supsup'ún	supsupn	SUPSUPN	abvd	SUCK	abvd_42_tosuck_1
+susua	susua	SUSUA	abvd	YAWN	abvd_47_toyawn_19
+susuʔ	susuʔ	SUSUH	abvd	BREAST	abvd_18_breast_1
+suŋhahaul	suhahaul	SUHAHAUL	abvd	SWIM	-
+suʔu	suʔu	SUHU	abvd	THOU	abvd_183_thou_1
+sáitiaʔ	sitiaʔ	SITIAH	abvd	HE OR SHE	abvd_184_heshe_1?
+sáya'	sya	SUA	abvd	THAT	abvd_178_that_3?
+sílav	slav	SLAB	abvd	LEAF	abvd_114_leaf_41
+sílup	slup	SLUP	abvd	INTESTINES	abvd_16_intestines_50
+símal	smal	SMAL	abvd	FAT (ORGANIC SUBSTANCE)	abvd_104_fatgrease_2
+símaʔ	smaʔ	SMAH	abvd	WHO	abvd_189_who_2
+sívaʔ	svaʔ	SBAH	abvd	NINE	abvd_205_nine_5
+súsuʔ	ssuʔ	SSUH	abvd	BREAST	abvd_18_breast_1
+t-ama	tama	TAMA	abvd	FATHER	abvd_60_father_1
+t-ina	tina	TINA	abvd	MOTHER	abvd_59_mother_1
+ta'uʔ	tauʔ	TAUH	abvd	THREE	abvd_199_three_1
+ta-vanan	tavanan	TABANAN	abvd	RIGHT	abvd_3_right_1
+ta-vili	tavili	TABILI	abvd	LEFT	abvd_2_left_1
+tainga	tainga	TAINGA	abvd	EAR	abvd_43_ear_1
+taiŋa	taia	TAIA	abvd	EAR	abvd_43_ear_1
+takidauluq	takidauluq	TAKIDAULUK	abvd	WORM	abvd_107_wormearthworm_53
+takiluhað	takiluha	TAKILUHA	abvd	WORM	-
+takiyuc	takiyuc	TAKIUUK	abvd	SMALL	abvd_152_small_86
+takiŋadaq	takiadaq	TAKIADAK	abvd	LIVER	-
+tal'i'ia	taliia	TALIIA	abvd	GROW	abvd_86_togrow_39
+tal'ia	talia	TALIA	abvd	GROW	abvd_86_togrow_39
+talʔia	talʔia	TALHIA	abvd	GROW	abvd_86_togrow_39
+tama	tama	TAMA	abvd	FATHER	abvd_60_father_1
+tamaʔ	tamaʔ	TAMAH	abvd	FATHER	abvd_60_father_1
+tampahukað	tampahuka	TAMPAHUKA	abvd	RAT	abvd_102_rat_35
+tampaʔukað	tampaʔuka	TAMPAHUKA	abvd	RAT	abvd_102_rat_35
+tampuhukað	tampuhuka	TAMPUHUKA	abvd	RAT	abvd_102_rat_35
+tanavanan	tanavanan	TANABANAN	abvd	RIGHT	abvd_3_right_1
+tanavili	tanavili	TANABILI	abvd	LEFT	abvd_2_left_1
+tanavíliʔ	tanavliʔ	TANABLIH	abvd	LEFT	abvd_2_left_1
+tanaṣká'un	tanakun	TANAKUN	abvd	RIGHT	-
+tandauluq	tandauluq	TANDAULUK	abvd	WORM	abvd_107_wormearthworm_53
+tantavanan	tantavanan	TANTABANAN	abvd	RIGHT	abvd_3_right_1
+tanʔa	tanʔa	TANHA	abvd	HEAR	abvd_44_tohear_44
+taou	taou	TAOU	abvd	THREE	abvd_199_three_1
+tasi-a	tasia	TASIA	abvd	ONE	abvd_197_one_41
+tasto hanian	tastohanian	TASTOHANIAN	abvd	DAY (NOT NIGHT)	abvd_168_day_15
+tasʔa	tasʔa	TASHA	abvd	ONE	abvd_197_one_41
+tataviʔ	tataviʔ	TATABIH	abvd	THATCH OR ROOF	abvd_62_thatchroof_2
+tau	tau	TAU	abvd	THREE	abvd_199_three_1
+tavi	tavi	TABI	abvd	THATCH OR ROOF	abvd_62_thatchroof_2
+tavili	tavili	TABILI	abvd	LEFT	abvd_2_left_1
+tayŋa	taya	TAUA	abvd	EAR	abvd_43_ear_1
+taŋhaiuʔ	tahaiuʔ	TAHAIUH	abvd	STEAL	abvd_73_tosteal_38
+taŋi'áʔ	taiʔ	TAIH	abvd	EAR	abvd_43_ear_1
+taŋiaʔ	taiaʔ	TAIAH	abvd	EAR	abvd_43_ear_1
+taŋic	taic	TAIK	abvd	CRY	abvd_34_tocry_1
+taŋis	tais	TAIS	abvd	CRY	abvd_34_tocry_1
+taŋiṣ	tai	TAI	abvd	CRY	abvd_34_tocry_1
+taŋqaiuʔ	taqaiuʔ	TAKAIUH	abvd	STEAL	abvd_73_tosteal_38
+taʔaðaʔ	taʔaaʔ	TAHAAH	abvd	HEAR	abvd_44_tohear_45
+taʔáðaʔ	taʔaʔ	TAHAH	abvd	HEAR	abvd_44_tohear_45
+taṣaʔ	taaʔ	TAAH	abvd	ONE	abvd_197_one_41
+tena	tena	TENA	abvd	MOTHER	abvd_59_mother_1
+ti'án	tin	TIN	abvd	BELLY	abvd_14_belly_1
+tian	tian	TIAN	abvd	BELLY	abvd_14_belly_1
+tikas	tikas	TIKAS	abvd	MOSQUITO	abvd_109_mosquito_68
+tikaṣ	tika	TIKA	abvd	MOSQUITO	abvd_109_mosquito_68
+tikiṣ	tiki	TIKI	abvd	SMALL	abvd_152_small_84
+timpusláʔ	timpuslʔ	TIMPUSLH	abvd	SPLIT	-
+tina	tina	TINA	abvd	MOTHER	abvd_59_mother_1
+tiquc	tiquc	TIKUK	abvd	BLOOD	abvd_23_blood_37
+tismuq	tismuq	TISMUK	abvd	SWELL	-
+titiʔ	titiʔ	TITIH	abvd	FLESH OR MEAT	abvd_103_meatflesh_64
+tteyan	tteyan	TTEUAN	abvd	BELLY	abvd_14_belly_1
+tuhnað	tuhna	TUHNA	abvd	BONE	abvd_15_bone_1
+tunhapav	tunhapav	TUNHAPAB	abvd	SWIM	abvd_9_toswim_68
+tunʔapʔap	tunʔapʔap	TUNHAPHAP	abvd	SWIM	abvd_9_toswim_68
+tuqnað	tuqna	TUKNA	abvd	BONE	abvd_15_bone_1
+tuðaʔ	tuaʔ	TUAH	abvd	CORRECT (RIGHT)	-
+tínaʔ	tnaʔ	TNAH	abvd	MOTHER	abvd_59_mother_1
+títiʔ	ttiʔ	TTIH	abvd	FLESH OR MEAT	abvd_103_meatflesh_64
+tóhnað	thna	THNA	abvd	BONE	abvd_15_bone_1
+túmb̂əṣ	tmb̂ə	TMBE	abvd	LOUSE	abvd_108_louse_3
+túpaʔ	tpaʔ	TPAH	abvd	SAY	-
+tāo	to	TO	abvd	THREE	abvd_199_three_1
+uváð	uv	UB	abvd	CHILD	abvd_56_child_34
+uwa'a	uwaa	UWAA	abvd	CHILD	abvd_56_child_34
+va'u'	vau	BAU	abvd	SHOULDER	abvd_19_shoulder_48
+va'uʔ	vauʔ	BAUH	abvd	EIGHT	abvd_204_eight_3
+vali	vali	BALI	abvd	DAY (NOT NIGHT)	abvd_168_day_17
+vananak	vananak	BANANAK	abvd	MALE PERSON	abvd_54_manmale_58
+vantas	vantas	BANTAS	abvd	FOOT OR LEG	abvd_4_legfoot_51
+vauʔ	vauʔ	BAUH	abvd	EIGHT	abvd_204_eight_3
+vaɬiʔ	vaɬiʔ	BALIH	abvd	DAY (NOT NIGHT)	abvd_168_day_17
+vaʔu	vaʔu	BAHU	abvd	SHOULDER	abvd_19_shoulder_48
+vaʔuʔ	vaʔuʔ	BAHUH	abvd	SHOULDER	abvd_19_shoulder_48
+vennoa	vennoa	BENNOA	abvd	FEMALE PERSON	-
+visvis	visvis	BISBIS	abvd	TAIL	abvd_105_tail_40
+viṣviṣ	vivi	BIBI	abvd	TAIL	abvd_105_tail_40
+voan	voan	BOAN	abvd	MOON	abvd_129_moon_1
+vongō	vong	BONG	abvd	HEAD	abvd_24_head_2
+vāo	vo	BO	abvd	EIGHT	abvd_204_eight_3
+yakanen	yakanen	UAKANEN	abvd	SKY	-
+íku'	ku	KU	abvd	BACK	abvd_13_back_1
+íkul	kul	KUL	abvd	TAIL	abvd_105_tail_1
+ðaas	aas	AAS	abvd	SAND	abvd_121_sand_70
+ðaku	aku	AKU	abvd	I	abvd_182_i_1
+ðákuʔ	kuʔ	KUH	abvd	I	abvd_182_i_1
+ðámi'	mi	MI	abvd	WE	abvd_185_we_2
+ŋa'an	aan	AAN	abvd	NAME	abvd_63_name_1
+ŋaan	aan	AAN	abvd	NAME	abvd_63_name_1
+ŋulus	ulus	ULUS	abvd	MOUTH	abvd_30_mouth_65
+ŋutuc	utuc	UTUK	abvd	NOSE	abvd_27_nose_42
+ŋutus	utus	UTUS	abvd	NOSE	abvd_27_nose_42
+ŋúluṣ	lu	LU	abvd	MOUTH	abvd_30_mouth_65
+ŋútus	tus	TUS	abvd	NOSE	abvd_27_nose_42
+ɬabian	ɬabian	LABIAN	abvd	NIGHT	abvd_167_night_21
+ɬamis	ɬamis	LAMIS	abvd	ROOT	abvd_115_root_3
+ɬukis	ɬukis	LUKIS	abvd	STICK	abvd_79_stickwood_19
+ɬuɬubunun	ɬuɬubunun	LULUBUNUN	abvd	EGG	abvd_98_egg_48
+ɬuʔum	ɬuʔum	LUHUM	abvd	CLOUD	abvd_131_cloud_2
+ʔa-ʔnum	ʔaʔnum	HAHNUM	abvd	SIX	abvd_202_six_1
+ʔaas	ʔaas	HAAS	abvd	NEEDLE (FOR SEWING)	abvd_68_needle_27
+ʔacuʔ	ʔacuʔ	HAKUH	abvd	DOG	abvd_96_dog_1
+ʔaipaʔ	ʔaipaʔ	HAIPAH	abvd	THAT	-
+ʔaipiʔ	ʔaipiʔ	HAIPIH	abvd	THIS	-
+ʔaisko'án	ʔaiskon	HAISKON	abvd	NEAR	abvd_179_near_80
+ʔalikúsan	ʔaliksan	HALIKSAN	abvd	HOLD	abvd_89_tohold_80
+ʔalu'áð	ʔalu	HALU	abvd	RAT	abvd_102_rat_15
+ʔamu	ʔamu	HAMU	abvd	YOU	abvd_186_you_1
+ʔamuʔ	ʔamuʔ	HAMUH	abvd	YOU	abvd_186_you_1
+ʔapʔap	ʔapʔap	HAPHAP	abvd	SWIM	abvd_9_toswim_68
+ʔarishótan	ʔarishtan	HARISHTAN	abvd	SQUEEZE	-
+ʔasu	ʔasu	HASU	abvd	THOU	abvd_183_thou_1
+ʔasuʔ	ʔasuʔ	HASUH	abvd	DOG	abvd_96_dog_1
+ʔasílaʔ	ʔaslaʔ	HASLAH	abvd	SALT	abvd_125_salt_1
+ʔata	ʔata	HATA	abvd	WE	abvd_185_we_1
+ʔataʔ	ʔataʔ	HATAH	abvd	WE	abvd_185_we_1
+ʔaðak	ʔaak	HAAK	abvd	I	abvd_182_i_1
+ʔaðam	ʔaam	HAAM	abvd	WE	abvd_185_we_2
+ʔaðʔað	ʔaʔa	HAHA	abvd	ALL	abvd_191_all_57
+ʔaŋkuc	ʔakuc	HAKUK	abvd	HOLD	abvd_89_tohold_79
+ʔi-ca-ca	ʔicaca	HIKAKA	abvd	WHERE	abvd_181_where_50
+ʔicaca	ʔicaca	HIKAKA	abvd	WHERE	abvd_181_where_50
+ʔicaʔ	ʔicaʔ	HIKAH	abvd	WHERE	abvd_181_where_50
+ʔiisa	ʔiisa	HIISA	abvd	WHERE	abvd_181_where_50
+ʔikul	ʔikul	HIKUL	abvd	TAIL	abvd_105_tail_1
+ʔikuɬ	ʔikuɬ	HIKUL	abvd	TAIL	abvd_105_tail_1
+ʔikuʔ	ʔikuʔ	HIKUH	abvd	BACK	abvd_13_back_1
+ʔilúmah	ʔilmah	HILMAH	abvd	IN	abvd_174_ininside_18
+ʔima	ʔima	HIMA	abvd	HAND	abvd_1_hand_1
+ʔimaʔ	ʔimaʔ	HIMAH	abvd	FIVE	abvd_201_five_1
+ʔindín	ʔindn	HINDN	abvd	THIS	abvd_177_this_13?
+ʔináṣtoʔ	ʔintoʔ	HINTOH	abvd	BELOW OR UNDER	abvd_176_below_65
+ʔisaq	ʔisaq	HISAK	abvd	WHERE	abvd_181_where_50
+ʔiskaan	ʔiskaan	HISKAAN	abvd	FISH	abvd_111_fish_1
+ʔismuut	ʔismuut	HISMUUT	abvd	GRASS	abvd_118_grass_64
+ʔisʔas	ʔisʔas	HISHAS	abvd	NEEDLE (FOR SEWING)	abvd_68_needle_27
+ʔivut	ʔivut	HIBUT	abvd	SNAKE	abvd_106_snake_55
+ʔivutáð	ʔivut	HIBUT	abvd	WORM	-
+ʔiṣkan	ʔikan	HIKAN	abvd	FISH	abvd_111_fish_1
+ʔiṣmút	ʔimt	HIMT	abvd	GRASS	abvd_118_grass_64
+ʔiṣúʔ	ʔiʔ	HIH	abvd	THOU	abvd_183_thou_1
+ʔuvað	ʔuva	HUBA	abvd	CHILD	abvd_56_child_34
+ʔuvaðʔað	ʔuvaʔa	HUBAHA	abvd	CHILD	abvd_56_child_34
+ʔuvaʔað	ʔuvaʔa	HUBAHA	abvd	CHILD	abvd_56_child_34
+ʔámin	ʔmin	HMIN	abvd	ALL	abvd_191_all_1
+ʔásuʔ	ʔsuʔ	HSUH	abvd	DOG	abvd_96_dog_1
+ʔísaʔ	ʔsaʔ	HSAH	abvd	WHERE	abvd_181_where_50
+ʔívut	ʔvut	HBUT	abvd	SNAKE	abvd_106_snake_55
+ḍuṣaʔ	uaʔ	UAH	abvd	TWO	abvd_198_two_1
+ṣádoʔ	doʔ	DOH	abvd	SEE	abvd_46_tosee_71
+ṣákun	kun	KUN	abvd	SMELL (PERCEIVE)	abvd_29_tosniffsmell_1
+ṣáɓaʔ	ɓaʔ	BAH	abvd	HUNDRED	-
+ṣúmb̂aŋ	mb̂a	MBA	abvd	BREATHE	abvd_28_tobreathe_55

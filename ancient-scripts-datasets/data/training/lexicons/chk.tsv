@@ -1,0 +1,586 @@
+Word	IPA	SCA	Source	Concept_ID	Cognate_Set_ID
+-:r	r	R	abvd	THEY	abvd_187_they_1
+-ariker	ariker	ARIKER	abvd	SCRATCH	abvd_77_toscratch_12
+-chik	chik	KHIK	abvd	SMALL	abvd_152_small_81
+-chis	chis	KHIS	abvd	SMALL	abvd_152_small_81
+-feefin	feefin	PEEPIN	abvd	LEFT	-
+-ffas	ffas	PPAS	abvd	LAUGH	abvd_33_tolaugh_10
+-finifin	finifin	PINIPIN	abvd	CHOOSE	abvd_85_tochoose_1
+-kich	kich	KIKH	abvd	WE	abvd_185_we_1
+-kke-mʷuu-n	kkemuun	KKEMUUN	abvd	THAT	abvd_178_that_11
+-kkich	kkich	KKIKH	abvd	RAT	abvd_102_rat_16
+-kéttú	ktt	KTT	abvd	SCRATCH	abvd_77_toscratch_11
+-mmééŋ	mm	MM	abvd	LEFT	abvd_2_left_13
+-mwáán	mwn	MWN	abvd	RIGHT	abvd_3_right_5
+-mééŋ	m	M	abvd	LEFT	abvd_2_left_13
+-mʷuu-n	muun	MUUN	abvd	THAT	abvd_178_that_11
+-mʷéchú	mch	MKH	abvd	HOLD	abvd_89_tohold_16
+-nee-t	neet	NEET	abvd	WHEN	abvd_170_when_1
+-nómʷ	nm	NM	abvd	MOSQUITO	abvd_109_mosquito_1
+-nómʷu-	nmu	NMU	abvd	MOSQUITO	abvd_109_mosquito_1
+-pwúkú	pwk	PWK	abvd	HUNDRED	abvd_209_onehundred_20
+-pwúkúú-	pwk	PWK	abvd	HUNDRED	abvd_209_onehundred_20
+-pʷute-	pute	PUTE	abvd	FEMALE PERSON	abvd_55_womanfemale_7
+-roŋa	roa	ROA	abvd	HEAR	abvd_44_tohear_1
+-rúú	r	R	abvd	TWO	abvd_198_two_1
+-rúúw	rw	RW	abvd	TWO	abvd_198_two_1
+-se	se	SE	abvd	NO OR NOT	abvd_195_nonot_4
+-set	set	SET	abvd	SEA	abvd_124_sea_1
+-sich	sich	SIKH	abvd	SMALL	abvd_152_small_81
+-yé	y	U	abvd	WHO	abvd_189_who_9
+-yéé-	y	U	abvd	WHO	abvd_189_who_9
+-ŋi	i	I	abvd	TOOTH	abvd_31_tooth_30
+-ŋin	in	IN	abvd	SMALL	abvd_152_small_39
+-ŋoon	oon	OON	abvd	TEN	abvd_206_ten_5
+-ŋoonu-	oonu	OONU	abvd	TEN	abvd_206_ten_5
+-ŋé-réw	rw	RW	abvd	THOUSAND	abvd_210_onethousand_17
+-ʋr	ʋr	WR	abvd	THEY	abvd_187_they_22
+a-kka-ch	akkach	AKKAKH	abvd	THROW	abvd_94_tothrow_14
+a-rap	arap	ARAP	abvd	NEAR	abvd_179_near_13
+a-rapa-	arapa	ARAPA	abvd	NEAR	abvd_179_near_13
+aaf	aaf	AAP	abvd	INTESTINES	-
+aan	aan	AAN	abvd	PATH OR ROAD	abvd_6_roadpath_1
+aapʷ	aap	AAP	abvd	NO OR NOT	abvd_195_nonot_14
+aaw	aaw	AAW	abvd	MOUTH	abvd_30_mouth_36
+aawp	aawp	AAWP	abvd	NO OR NOT	abvd_195_nonot_14
+afar	afar	APAR	abvd	SHOULDER	abvd_19_shoulder_1
+afara-	afara	APARA	abvd	SHOULDER	abvd_19_shoulder_1
+akka-rap	akkarap	AKKARAP	abvd	NEAR	abvd_179_near_13
+an	an	AN	abvd	PATH OR ROAD	abvd_6_roadpath_1
+ane-	ane	ANE	abvd	PATH OR ROAD	abvd_6_roadpath_1
+angaang	angaang	ANGAANG	abvd	WORK (ACTIVITY)	abvd_83_towork_12
+anni	anni	ANNI	abvd	EAT	abvd_37_toeat_1
+apasa	apasa	APASA	abvd	SAY	-
+ara	ara	ARA	abvd	SAY	abvd_64_tosay_61
+ara-mas	aramas	ARAMAS	abvd	PERSON	abvd_53_personhumanbeing_67
+ara-mase-	aramase	ARAMASE	abvd	PERSON	abvd_53_personhumanbeing_67
+aramas	aramas	ARAMAS	abvd	PERSON	abvd_53_personhumanbeing_67
+arapa-	arapa	ARAPA	abvd	NEAR	abvd_179_near_13
+araw	araw	ARAW	abvd	GREEN	abvd_151_green_13
+arawaraw	arawaraw	ARAWARAW	abvd	GREEN	abvd_151_green_13
+are	are	ARE	abvd	IF	abvd_193_if_7
+asapwan	asapwan	ASAPWAN	abvd	WIND	abvd_136_wind_81
+awa-	awa	AWA	abvd	MOUTH	abvd_30_mouth_36
+awe-	awe	AWE	abvd	MOUTH	abvd_30_mouth_36
+aŋaŋ	aa	AA	abvd	WORK (ACTIVITY)	abvd_83_towork_12
+ch-chow	chchow	KHKHOW	abvd	HEAVY	abvd_142_heavy_9
+chaan	chaan	KHAAN	abvd	WATER	abvd_122_water_1
+chang	chang	KHANG	abvd	FLY (MOVE THROUGH AIR)	abvd_101_tofly_33
+chcha	chcha	KHKHA	abvd	BLOOD	abvd_23_blood_1
+chchaa-	chchaa	KHKHAA	abvd	BLOOD	abvd_23_blood_1
+chchow	chchow	KHKHOW	abvd	HEAVY	abvd_142_heavy_9
+chchowu-	chchowu	KHKHOWU	abvd	HEAVY	abvd_142_heavy_9
+che-chen	chechen	KHEKHEN	abvd	WET	abvd_141_wet_12
+chee-y	cheey	KHEEU	abvd	HUNT	abvd_69_tohunt_9
+chiin-nap	chiinnap	KHIINNAP	abvd	OLD	abvd_162_old_56
+chiki-	chiki	KHIKI	abvd	SMALL	abvd_152_small_81
+chikichiiki-	chikichiiki	KHIKIKHIIKI	abvd	SMALL	abvd_152_small_81
+chinup	chinup	KHINUP	abvd	OLD	abvd_162_old_56
+chopwunap	chopwunap	KHOPWUNAP	abvd	THUNDER	-
+chách-cháák	chchchk	KHKHKHK	abvd	THIN	-
+chécho-chén	chchochn	KHKHOKHN	abvd	WET	abvd_141_wet_12
+chénn-aaw	chnnaaw	KHNNAAW	abvd	TONGUE	abvd_32_tongue_19
+chénú-	chn	KHN	abvd	WATER	abvd_122_water_1
+chéé	ch	KH	abvd	LEAF	abvd_114_leaf_1
+chéé-	ch	KH	abvd	LEAF	abvd_114_leaf_1
+chéé-mwakkún	chmwakkn	KHMWAKKN	abvd	NARROW	-
+chéé-nap	chnap	KHNAP	abvd	WIDE	abvd_159_wide_9
+chéé-watte	chwatte	KHWATTE	abvd	WIDE	abvd_159_wide_9
+chënakanaaw	chnakanaaw	KHNAKANAAW	abvd	TONGUE	abvd_32_tongue_19
+chëënmwongo	chnmwongo	KHNMWONGO	abvd	TONGUE	abvd_32_tongue_19
+chóchchón	chchchn	KHKHKHN	abvd	BLACK	abvd_147_black_8
+chón	chn	KHN	abvd	BLACK	abvd_147_black_8
+chóó-pʷut	chput	KHPUT	abvd	FEMALE PERSON	abvd_55_womanfemale_7
+chóópwut	chpwut	KHPWUT	abvd	FEMALE PERSON	abvd_55_womanfemale_7
+chúú	ch	KH	abvd	BONE	abvd_15_bone_2
+chúú-	ch	KH	abvd	BONE	abvd_15_bone_2
+e-	e	E	abvd	ONE	abvd_197_one_1
+e-ey	eey	EEU	abvd	THIS	abvd_177_this_1
+e-na	ena	ENA	abvd	THAT	abvd_178_that_1
+eech	eech	EEKH	abvd	GOOD	-
+een	een	EEN	abvd	THOU	abvd_183_thou_6
+eet	eet	EET	abvd	ONE	abvd_197_one_1
+efi-	efi	EPI	abvd	FIRE	abvd_143_fire_1
+eki-	eki	EKI	abvd	THINK	abvd_21_tothink_12
+eki-yek	ekiyek	EKIUEK	abvd	THINK	abvd_21_tothink_12
+ekkoch	ekkoch	EKKOKH	abvd	OTHER	-
+engnon	engnon	ENGNON	abvd	TEN	abvd_206_ten_5
+engörou	engrou	ENGROU	abvd	THOUSAND	-
+eni	eni	ENI	abvd	EAT	abvd_37_toeat_1
+eni-	eni	ENI	abvd	WIND	abvd_136_wind_1
+eniyen	eniyen	ENIUEN	abvd	WIND	abvd_136_wind_1
+eri-ker	eriker	ERIKER	abvd	SCRATCH	abvd_77_toscratch_12
+erikeri	erikeri	ERIKERI	abvd	SCRATCH	abvd_77_toscratch_12
+eyi-	eyi	EUI	abvd	STICK	abvd_79_stickwood_1
+eyi-wen	eyiwen	EUIWEN	abvd	LIE DOWN	abvd_49_toliedown_1
+f-fót	fft	PPT	abvd	PLANT (SOMETHING)	abvd_84_toplant_6
+fa-	fa	PA	abvd	FOUR	abvd_200_four_1
+faa-	faa	PAA	abvd	BELOW OR UNDER	abvd_176_below_1
+faan	faan	PAAN	abvd	FOUR	abvd_200_four_1
+faaw	faaw	PAAW	abvd	STONE	abvd_120_stone_1
+fan	fan	PAN	abvd	BELOW OR UNDER	abvd_176_below_1
+fanang	fanang	PANANG	abvd	DUST	-
+fanaŋ	fana	PANA	abvd	ASH	abvd_146_ashes_8
+feefin	feefin	PEEPIN	abvd	FEMALE PERSON	abvd_55_womanfemale_1
+feten	feten	PETEN	abvd	WALK	abvd_5_towalk_8
+fetin	fetin	PETIN	abvd	GRASS	abvd_118_grass_1
+fetini-	fetini	PETINI	abvd	GRASS	abvd_118_grass_1
+fetán	fetn	PETN	abvd	WALK	abvd_5_towalk_8
+ffé	ff	PP	abvd	NEW	abvd_163_new_1
+ffééw	ffw	PPW	abvd	COLD	abvd_139_cold_11
+ffót	fft	PPT	abvd	PLANT (SOMETHING)	abvd_84_toplant_6
+ffóón	ffn	PPN	abvd	GROW	abvd_86_togrow_8
+fi	fi	PI	abvd	SQUEEZE	abvd_88_tosqueeze_15
+fiifi	fiifi	PIIPI	abvd	LIGHTNING	abvd_135_lightning_34
+fiin	fiin	PIIN	abvd	FEMALE PERSON	abvd_55_womanfemale_1
+fini	fini	PINI	abvd	CHOOSE	abvd_85_tochoose_1
+fisu	fisu	PISU	abvd	SEVEN	abvd_203_seven_1
+fiye-e-	fiyee	PIUEE	abvd	SQUEEZE	abvd_88_tosqueeze_15
+fiyee-y	fiyeey	PIUEEU	abvd	SQUEEZE	abvd_88_tosqueeze_15
+fiyefi	fiyefi	PIUEPI	abvd	SQUEEZE	abvd_88_tosqueeze_15
+fus	fus	PUS	abvd	SEVEN	abvd_203_seven_1
+futuk	futuk	PUTUK	abvd	FLESH OR MEAT	abvd_103_meatflesh_10
+futuke-n	futuken	PUTUKEN	abvd	FLESH OR MEAT	abvd_103_meatflesh_10
+futukotuk	futukotuk	PUTUKOTUK	abvd	FLESH OR MEAT	abvd_103_meatflesh_10
+fátán	ftn	PTN	abvd	WALK	abvd_5_towalk_8
+fátánátán	ftntn	PTNTN	abvd	WALK	abvd_5_towalk_8
+fáán	fn	PN	abvd	FOUR	abvd_200_four_1
+fé	f	P	abvd	NEW	abvd_163_new_1
+féwú-	fw	PW	abvd	STONE	abvd_120_stone_1
+féé-ti	fti	PTI	abvd	FASTEN	abvd_66_totieupfasten_11
+fééfé	ff	PP	abvd	FASTEN	abvd_66_totieupfasten_11
+fóto-	fto	PTO	abvd	PLANT (SOMETHING)	abvd_84_toplant_6
+fúú	f	P	abvd	STAR	abvd_130_star_1
+fúú-	f	P	abvd	STAR	abvd_130_star_1
+fúúwe-	fwe	PWE	abvd	STAR	abvd_130_star_1
+i-	i	I	abvd	AT	abvd_173_at_1
+i-fa	ifa	IPA	abvd	WHERE	abvd_181_where_3
+i-fa-a	ifaa	IPAA	abvd	WHERE	abvd_181_where_3
+ichchi-	ichchi	IKHKHI	abvd	STAR	abvd_130_star_12
+ifa	ifa	IPA	abvd	HOW	abvd_194_how_12
+iich	iich	IIKH	abvd	STAR	abvd_130_star_12
+iik	iik	IIK	abvd	FISH	abvd_111_fish_1
+iimw	iimw	IIMW	abvd	HOUSE	abvd_61_house_1
+iimʷ	iim	IIM	abvd	HOUSE	abvd_61_house_1
+iin	iin	IIN	abvd	MOTHER	abvd_59_mother_1
+iir	iir	IIR	abvd	THEY	abvd_187_they_1
+iit	iit	IIT	abvd	NAME	abvd_63_name_66
+iiy	iiy	IIU	abvd	HE OR SHE	abvd_184_heshe_1
+iiya	iiya	IIUA	abvd	WHERE	abvd_181_where_37
+ika	ika	IKA	abvd	IF	abvd_193_if_1
+imʷa-	ima	IMA	abvd	HOUSE	abvd_61_house_1
+ina-	ina	INA	abvd	MOTHER	abvd_59_mother_1
+ineet	ineet	INEET	abvd	WHEN	abvd_170_when_1
+inik	inik	INIK	abvd	HUNDRED	-
+irá	ir	IR	abvd	STICK	abvd_79_stickwood_2
+irá-nnap	irnnap	IRNNAP	abvd	FOREST	-
+ita-	ita	ITA	abvd	NAME	abvd_63_name_66
+ite-	ite	ITE	abvd	NAME	abvd_63_name_66
+iya	iya	IUA	abvd	WHERE	abvd_181_where_37
+iyaa-	iyaa	IUAA	abvd	WHERE	abvd_181_where_37
+iyé	iy	IU	abvd	WHO	abvd_189_who_9
+iyér	iyr	IUR	abvd	YEAR	-
+k-kúú-w	kkw	KKW	abvd	BITE	abvd_41_tobite_9
+ka-	ka	KA	abvd	THOU	abvd_183_thou_1
+kama	kama	KAMA	abvd	BUY	-
+ke	ke	KE	abvd	THOU	abvd_183_thou_1
+ke-	ke	KE	abvd	THOU	abvd_183_thou_1
+kekkey	kekkey	KEKKEU	abvd	LAUGH	abvd_33_tolaugh_11
+ketchiw	ketchiw	KETKHIW	abvd	CRY	abvd_34_tocry_63
+kich	kich	KIKH	abvd	WE	abvd_185_we_1
+kichùùchúú	kichch	KIKHKH	abvd	THIN	-
+kiich	kiich	KIIKH	abvd	WE	abvd_185_we_1
+kiriis	kiriis	KIRIIS	abvd	FAT (ORGANIC SUBSTANCE)	-
+kisi-kiis	kisikiis	KISIKIIS	abvd	SMALL	abvd_152_small_80
+kkar	kkar	KKAR	abvd	BURN	-
+kkechiw	kkechiw	KKEKHIW	abvd	CRY	abvd_34_tocry_63
+kken	kken	KKEN	abvd	SHARP	abvd_81_sharp_14
+kkey	kkey	KKEU	abvd	LAUGH	abvd_33_tolaugh_11
+kkeyi-si-ni	kkeyisini	KKEUISINI	abvd	LAUGH	abvd_33_tolaugh_11
+kkopʷ	kkop	KKOP	abvd	BLUNT	abvd_82_dullblunt_13
+kkopʷu-	kkopu	KKOPU	abvd	BLUNT	abvd_82_dullblunt_13
+kkén	kkn	KKN	abvd	SHARP	abvd_81_sharp_14
+kkéét	kkt	KKT	abvd	SCRATCH	abvd_77_toscratch_11
+kkónik	kknik	KKNIK	abvd	WATER	abvd_122_water_59
+kkópw	kkpw	KKPW	abvd	BLUNT	abvd_82_dullblunt_13
+ko	ko	KO	abvd	THOU	abvd_183_thou_1
+ko-	ko	KO	abvd	THOU	abvd_183_thou_1
+konaak	konaak	KONAAK	abvd	DOG	-
+konak	konak	KONAK	abvd	DOG	-
+konik	konik	KONIK	abvd	WATER	abvd_122_water_59
+kuchu	kuchu	KUKHU	abvd	CLOUD	abvd_131_cloud_15
+kuchuu-	kuchuu	KUKHUU	abvd	CLOUD	abvd_131_cloud_15
+kumwuch	kumwuch	KUMWUKH	abvd	HAND	abvd_1_hand_9
+kupii-y	kupiiy	KUPIIU	abvd	CUT OR HACK	abvd_78_tocuthack_20
+ká- kó-	kk	KK	abvd	THOU	abvd_183_thou_1
+ké-	k	K	abvd	THOU	abvd_183_thou_1
+kúna	kna	KNA	abvd	SEE	abvd_46_tosee_18
+kúú	k	K	abvd	LOUSE	abvd_108_louse_1
+kúú-	k	K	abvd	HUNT	-
+kúú-ri	kri	KRI	abvd	BURN	abvd_144_toburn_10
+kúúwe-	kwe	KWE	abvd	LOUSE	abvd_108_louse_1
+küü	k	K	abvd	BITE	abvd_41_tobite_9
+m-maw	mmaw	MMAW	abvd	YAWN	abvd_47_toyawn_19
+ma	ma	MA	abvd	SHY OR ASHAMED	abvd_161_shyashamed_1
+ma-anúún	maann	MAANN	abvd	THICK	abvd_157_thick_3
+ma-naw	manaw	MANAW	abvd	BE ALIVE	abvd_76_tolivebealive_7
+ma-ram	maram	MARAM	abvd	MOON	abvd_129_moon_7
+ma-taw	mataw	MATAW	abvd	SEA	abvd_124_sea_13
+maan	maan	MAAN	abvd	BIRD	abvd_97_bird_1
+maanúún	maann	MAANN	abvd	THICK	abvd_157_thick_3
+maas	maas	MAAS	abvd	EYE	abvd_45_eye_1
+mach	mach	MAKH	abvd	ROTTEN	abvd_112_rotten_50
+mach-chang	machchang	MAKHKHANG	abvd	BIRD	abvd_97_bird_1
+machaŋ	macha	MAKHA	abvd	BIRD	-
+mammach	mammach	MAMMAKH	abvd	ROTTEN	abvd_112_rotten_50
+manaw	manaw	MANAW	abvd	BE ALIVE	abvd_76_tolivebealive_7
+maram	maram	MARAM	abvd	MOON	abvd_129_moon_7
+masa-	masa	MASA	abvd	EYE	abvd_45_eye_1
+me	me	ME	abvd	AND	abvd_192_and_2
+me-ttip	mettip	METTIP	abvd	SPIT	abvd_36_tospit_19
+meeta	meeta	MEETA	abvd	WHAT	abvd_188_what_1
+memme-ttip	memmettip	MEMMETTIP	abvd	SPIT	abvd_36_tospit_19
+menisin	menisin	MENISIN	abvd	ALL	abvd_191_all_3
+mes	mes	MES	abvd	EYE	abvd_45_eye_1
+mese-	mese	MESE	abvd	EYE	abvd_45_eye_1
+met	met	MET	abvd	WHAT	abvd_188_what_1
+metek	metek	METEK	abvd	PAINFUL OR SICK	abvd_160_painfulsick_1
+meteki-	meteki	METEKI	abvd	PAINFUL OR SICK	abvd_160_painfulsick_1
+meyinisin	meyinisin	MEUINISIN	abvd	ALL	abvd_191_all_3
+mmach	mmach	MMAKH	abvd	ROTTEN	abvd_112_rotten_50
+mmaw	mmaw	MMAW	abvd	YAWN	abvd_47_toyawn_19
+moot	moot	MOOT	abvd	COOK (SOMETHING)	abvd_39_tocook_19
+mukur	mukur	MUKUR	abvd	HAIR	-
+mwirinné	mwirinn	MWIRINN	abvd	GOOD	-
+mwmwus	mwmwus	MWMWUS	abvd	VOMIT	abvd_35_tovomit_1
+mwoch	mwoch	MWOKH	abvd	SHORT	abvd_154_short_12
+mwoot	mwoot	MWOOT	abvd	COOK (SOMETHING)	abvd_39_tocook_19
+mwáán	mwn	MWN	abvd	MALE PERSON	abvd_54_manmale_1
+mwéngé	mwng	MWNG	abvd	EAT	abvd_37_toeat_8
+mwócho	mwcho	MWKHO	abvd	STEAL	abvd_73_tosteal_9
+má	m	M	abvd	BE DEAD OR DIE	abvd_75_todiebedead_1
+máá-	m	M	abvd	BE DEAD OR DIE	abvd_75_todiebedead_1
+mé	m	M	abvd	AND	abvd_192_and_2
+mé-sék	msk	MSK	abvd	FEAR (BE AFRAID)	abvd_22_tofear_1
+mékúr	mkr	MKR	abvd	HEAD	abvd_24_head_13
+ménúng	mnng	MNNG	abvd	THUNDER	abvd_134_thunder_17
+mésék	msk	MSK	abvd	FEAR (BE AFRAID)	abvd_22_tofear_1
+méwúr	mwr	MWR	abvd	SLEEP	abvd_48_tosleep_1
+méwúrú-	mwr	MWR	abvd	SLEEP	abvd_48_tosleep_1
+méé-ni	mni	MNI	abvd	BUY	abvd_91_tobuy_11
+mómmóót	mmmt	MMMT	abvd	SIT	abvd_51_tosit_18
+mót-	mt	MT	abvd	SIT	abvd_51_tosit_18
+móót	mt	MT	abvd	SIT	abvd_51_tosit_18
+móót-	mt	MT	abvd	SIT	abvd_51_tosit_18
+möch	mch	MKH	abvd	HOLD	abvd_89_tohold_16
+mʷmʷor	mmor	MMOR	abvd	FALL	abvd_95_tofall_16
+mʷmʷus	mmus	MMUS	abvd	VOMIT	abvd_35_tovomit_1
+mʷoch	moch	MOKH	abvd	SHORT	abvd_154_short_12
+mʷochomʷoch	mochomoch	MOKHOMOKH	abvd	SHORT	abvd_154_short_12
+mʷoot	moot	MOOT	abvd	COOK (SOMETHING)	abvd_39_tocook_19
+mʷooto-	mooto	MOOTO	abvd	COOK (SOMETHING)	abvd_39_tocook_19
+mʷor	mor	MOR	abvd	FALL	abvd_95_tofall_16
+mʷoro-	moro	MORO	abvd	FALL	abvd_95_tofall_16
+mʷáán	mn	MN	abvd	MALE PERSON	abvd_54_manmale_1
+mʷéŋé	m	M	abvd	EAT	abvd_37_toeat_8
+mʷéŋéé-	m	M	abvd	EAT	abvd_37_toeat_8
+mʷócho	mcho	MKHO	abvd	STEAL	abvd_73_tosteal_9
+naaw	naaw	NAAW	abvd	CHILD	abvd_56_child_5
+nakkich	nakkich	NAKKIKH	abvd	RAT	abvd_102_rat_16
+nap	nap	NAP	abvd	BIG	abvd_153_big_10
+napanap	napanap	NAPANAP	abvd	BIG	abvd_153_big_10
+nee-	nee	NEE	abvd	AT	-
+neme-ni	nemeni	NEMENI	abvd	THINK	abvd_21_tothink_28
+neŋi-	nei	NEI	abvd	SKY	abvd_128_sky_1
+ngaang	ngaang	NGAANG	abvd	I	abvd_182_i_12
+ngas	ngas	NGAS	abvd	BREATHE	abvd_28_tobreathe_10
+nge	nge	NGE	abvd	AND	abvd_192_and_10
+ngngaw	ngngaw	NGNGAW	abvd	BAD OR EVIL	abvd_165_badevil_11
+ngúti	ngti	NGTI	abvd	CHEW	abvd_38_tochew_11
+nii	nii	NII	abvd	TOOTH	abvd_31_tooth_30
+nii-	nii	NII	abvd	TOOTH	abvd_31_tooth_30
+niim	niim	NIIM	abvd	FIVE	abvd_201_five_1
+nikanu pwun	nikanupwun	NIKANUPWUN	abvd	WORM	abvd_107_wormearthworm_78
+nikkin	nikkin	NIKKIN	abvd	MOSQUITO	-
+nikááp	nikp	NIKP	abvd	BIRD	abvd_97_bird_9
+nikénúúnúpwpwún	niknnpwpwn	NIKNNPWPWN	abvd	WORM	abvd_107_wormearthworm_78
+nim	nim	NIM	abvd	FIVE	abvd_201_five_1
+nima-	nima	NIMA	abvd	FIVE	abvd_201_five_1
+nime	nime	NIME	abvd	FIFTY	abvd_208_fifty_11
+nime-	nime	NIME	abvd	FIVE	abvd_201_five_1
+nime-e-	nimee	NIMEE	abvd	FIFTY	abvd_208_fifty_11
+nimiŋau	nimiau	NIMIAU	abvd	DIRTY	-
+nimu	nimu	NIMU	abvd	FIVE	abvd_201_five_1
+nimwmwukonó	nimwmwukon	NIMWMWUKON	abvd	GROW	-
+ninni	ninni	NINNI	abvd	KILL	abvd_74_tokill_11
+nittopwuráán	nittopwurn	NITTOPWURN	abvd	SPIDER	abvd_110_spider_7
+niya-	niya	NIUA	abvd	FEMALE PERSON	abvd_55_womanfemale_6
+niye-	niye	NIUE	abvd	FEMALE PERSON	abvd_55_womanfemale_6
+nnap	nnap	NNAP	abvd	BIG	abvd_153_big_10
+nnii-y	nniiy	NNIIU	abvd	KILL	abvd_74_tokill_11
+nnó-	nn	NN	abvd	IN	abvd_174_ininside_1
+nom	nom	NOM	abvd	OLD	-
+nááney	nney	NNEU	abvd	LONG	abvd_155_long_13
+nááng	nng	NNG	abvd	SKY	abvd_128_sky_1
+nááŋ	n	N	abvd	SKY	abvd_128_sky_1
+néwú-	nw	NW	abvd	CHILD	abvd_56_child_5
+néwú-n	nwn	NWN	abvd	CHILD	abvd_56_child_5
+nó	n	N	abvd	WALK	abvd_5_towalk_1
+nóó-	n	N	abvd	IN	abvd_174_ininside_1
+núúnú	nn	NN	abvd	CHEW	abvd_38_tochew_11
+núúnúú-	nn	NN	abvd	CHEW	abvd_38_tochew_11
+nǒǒmw	nmw	NMW	abvd	MOSQUITO	abvd_109_mosquito_1
+ochei	ochei	OKHEI	abvd	BITE	-
+on	on	ON	abvd	SIX	abvd_202_six_1
+paach	paach	PAAKH	abvd	THUNDER	abvd_134_thunder_15
+paaw	paaw	PAAW	abvd	WING	abvd_100_wing_7
+par	par	PAR	abvd	RED	abvd_149_red_17
+parapar	parapar	PARAPAR	abvd	RED	abvd_149_red_17
+pe	pe	PE	abvd	BE DEAD OR DIE	abvd_75_todiebedead_4
+peche	peche	PEKHE	abvd	FOOT OR LEG	abvd_4_legfoot_15
+pechee-	pechee	PEKHEE	abvd	FOOT OR LEG	abvd_4_legfoot_15
+pee-	pee	PEE	abvd	BE DEAD OR DIE	abvd_75_todiebedead_4
+pekin mwan	pekinmwan	PEKINMWAN	abvd	RIGHT	abvd_3_right_5
+pekki	pekki	PEKKI	abvd	SHOOT	abvd_70_toshoot_4
+pii	pii	PII	abvd	SAND	abvd_121_sand_12
+ppi	ppi	PPI	abvd	SAND	abvd_121_sand_12
+punuwomw	punuwomw	PUNUWOMW	abvd	HUSBAND	abvd_57_husband_16
+pwa	pwa	PWA	abvd	ROTTEN	abvd_112_rotten_17
+pwas	pwas	PWAS	abvd	DRY	abvd_140_dry_14
+pwecha-	pwecha	PWEKHA	abvd	WHITE	abvd_148_white_11
+pwichi-kkar	pwichikkar	PWIKHIKKAR	abvd	WARM	abvd_138_warm_10
+pwitch	pwitch	PWITKH	abvd	WHITE	abvd_148_white_11
+pwo	pwo	PWO	abvd	SWELL	abvd_87_toswell_9
+pwongú-	pwong	PWONG	abvd	NIGHT	abvd_167_night_1
+pwpwo	pwpwo	PWPWO	abvd	POUND	abvd_93_topoundbeat_3
+pwpwún	pwpwn	PWPWN	abvd	EARTH (SOIL)	abvd_119_earthsoil_13
+pwpún	pwpn	PWPN	abvd	DIRTY	abvd_10_dirty_74
+pwu	pwu	PWU	abvd	FLOW	abvd_123_toflow_11
+pwéét	pwt	PWT	abvd	NOSE	abvd_27_nose_1
+pwúng	pwng	PWNG	abvd	CORRECT (RIGHT)	abvd_166_correcttrue_12
+pé	p	P	abvd	BLOW (OF WIND)	abvd_137_toblow_14
+pékúú-w	pkw	PKW	abvd	SPLIT	abvd_80_tosplit_8
+péwú-	pw	PW	abvd	HAND	abvd_1_hand_8
+péé-	p	P	abvd	FLOWER	abvd_116_flower_10
+péé-n	pn	PN	abvd	FLOWER	abvd_116_flower_10
+péé-ni	pni	PNI	abvd	BLOW (OF WIND)	abvd_137_toblow_14
+péépé	pp	PP	abvd	BLOW (OF WIND)	abvd_137_toblow_14
+pön ira	pnira	PNIRA	abvd	FLOWER	-
+púngú-	png	PNG	abvd	FALL	abvd_95_tofall_15
+pʷa	pa	PA	abvd	ROTTEN	abvd_112_rotten_17
+pʷaa-	paa	PAA	abvd	ROTTEN	abvd_112_rotten_17
+pʷer	per	PER	abvd	COME	abvd_7_tocome_10
+pʷere-	pere	PERE	abvd	COME	abvd_7_tocome_10
+pʷiin	piin	PIIN	abvd	NIGHT	abvd_167_night_1
+pʷini-	pini	PINI	abvd	NIGHT	abvd_167_night_1
+pʷpʷoo-ni	ppooni	PPOONI	abvd	POUND	abvd_93_topoundbeat_3
+pʷpʷún	ppn	PPN	abvd	EARTH (SOIL)	abvd_119_earthsoil_13
+pʷpʷúnú	ppn	PPN	abvd	EARTH (SOIL)	abvd_119_earthsoil_13
+pʷuu-	puu	PUU	abvd	FLOW	abvd_123_toflow_11
+pʷéét	pt	PT	abvd	NOSE	abvd_27_nose_1
+pʷéétú-	pt	PT	abvd	NOSE	abvd_27_nose_1
+pʷúnú-wa-	pnwa	PNWA	abvd	HUSBAND	abvd_57_husband_16
+pʷúúŋ	p	P	abvd	CORRECT (RIGHT)	abvd_166_correcttrue_12
+pʷúŋu-	pu	PU	abvd	CORRECT (RIGHT)	abvd_166_correcttrue_12
+ra-	ra	RA	abvd	THEY	abvd_187_they_1
+rar	rar	RAR	abvd	WARM	abvd_138_warm_9
+rarrar	rarrar	RARRAR	abvd	WARM	abvd_138_warm_9
+re	re	RE	abvd	THEY	abvd_187_they_1
+re-	re	RE	abvd	THEY	abvd_187_they_1
+ree-	ree	REE	abvd	AT	abvd_173_at_20
+rii-ti	riiti	RIITI	abvd	FASTEN	-
+riiki	riiki	RIIKI	abvd	TURN	abvd_8_toturn_16
+rik	rik	RIK	abvd	TURN	abvd_8_toturn_16
+ris	ris	RIS	abvd	GOOD	abvd_164_good_112
+rongo-rong	rongorong	RONGORONG	abvd	HEAR	abvd_44_tohear_1
+roŋ	ro	RO	abvd	HEAR	abvd_44_tohear_1
+roŋe-	roe	ROE	abvd	HEAR	abvd_44_tohear_1
+roŋoroŋ	rooro	ROORO	abvd	HEAR	abvd_44_tohear_1
+rue	rue	RUE	abvd	TWENTY	abvd_207_twenty_26
+ráá	r	R	abvd	BRANCH	abvd_113_branch_1
+ráá-n	rn	RN	abvd	STICK	abvd_79_stickwood_2
+ráán	rn	RN	abvd	DAY (NOT NIGHT)	abvd_168_day_6
+rááni-	rni	RNI	abvd	DAY (NOT NIGHT)	abvd_168_day_6
+ró-	r	R	abvd	THEY	abvd_187_they_1
+rúwa-	rwa	RWA	abvd	TWO	abvd_198_two_1
+s-sin	ssin	SSIN	abvd	DIG	abvd_90_todig_1
+sa-	sa	SA	abvd	NO OR NOT	abvd_195_nonot_4
+sa-mʷaaw	samaaw	SAMAAW	abvd	PAINFUL OR SICK	abvd_160_painfulsick_14
+sa-mʷaawe-	samaawe	SAMAAWE	abvd	PAINFUL OR SICK	abvd_160_painfulsick_14
+saa	saa	SAA	abvd	BELLY	-
+saam	saam	SAAM	abvd	FATHER	abvd_60_father_1
+sai	sai	SAI	abvd	FLY (MOVE THROUGH AIR)	-
+san	san	SAN	abvd	SALT	-
+sap	sap	SAP	abvd	TURN	abvd_8_toturn_14
+se-	se	SE	abvd	ONE	abvd_197_one_14
+se-miriit	semiriit	SEMIRIIT	abvd	CHILD	-
+seme-	seme	SEME	abvd	FATHER	abvd_60_father_1
+seni-	seni	SENI	abvd	ROPE	abvd_65_rope_1
+senig	senig	SENIG	abvd	EAR	abvd_43_ear_1
+seniŋ	seni	SENI	abvd	EAR	abvd_43_ear_1
+seniŋa	senia	SENIA	abvd	EAR	abvd_43_ear_1
+sepe-si	sepesi	SEPESI	abvd	CUT OR HACK	abvd_78_tocuthack_19
+serepenit	serepenit	SEREPENIT	abvd	SNAKE	-
+seti-	seti	SETI	abvd	SEA	abvd_124_sea_1
+si	si	SI	abvd	WE	abvd_185_we_9
+siin	siin	SIIN	abvd	SKIN	abvd_12_skin_1
+sin-ni	sinni	SINNI	abvd	DIG	abvd_90_todig_1
+sine	sine	SINE	abvd	KNOW (SOMETHING)	abvd_20_toknowbeknowledgeable_18
+sineēy	siney	SINEU	abvd	KNOW (SOMETHING)	abvd_20_toknowbeknowledgeable_18
+sini	sini	SINI	abvd	SKIN	abvd_12_skin_1
+sini-ni	sinini	SININI	abvd	DIG	abvd_90_todig_1
+sor	sor	SOR	abvd	TURN	abvd_8_toturn_13
+ssin	ssin	SSIN	abvd	DIG	abvd_90_todig_1
+sukur	sukur	SUKUR	abvd	BACK	abvd_13_back_12
+suuki	suuki	SUUKI	abvd	OPEN	abvd_92_toopenuncover_11
+sáp	sp	SP	abvd	TURN	abvd_8_toturn_14
+sáán	sn	SN	abvd	ROPE	abvd_65_rope_1
+sáát	st	ST	abvd	SEA	abvd_124_sea_1
+sááw	sw	SW	abvd	SHY OR ASHAMED	abvd_161_shyashamed_5
+sááwá-ási-ni	swsini	SWSINI	abvd	SHY OR ASHAMED	abvd_161_shyashamed_5
+sékúr	skr	SKR	abvd	BACK	abvd_13_back_12
+sékúrú-	skr	SKR	abvd	BACK	abvd_13_back_12
+séé	s	S	abvd	YEAR	-
+sókkun	skkun	SKKUN	abvd	EGG	abvd_98_egg_1
+sókunnu-	skunnu	SKUNNU	abvd	EGG	abvd_98_egg_1
+sókuun	skuun	SKUUN	abvd	EGG	abvd_98_egg_1
+sóón	sn	SN	abvd	EARTH (SOIL)	abvd_119_earthsoil_1
+t-tumw	ttumw	TTUMW	abvd	SUCK	abvd_42_tosuck_81
+t-tuu-	ttuu	TTUU	abvd	STAB	abvd_71_tostabpierce_13
+taa	taa	TAA	abvd	INTESTINES	abvd_16_intestines_14
+taa-	taa	TAA	abvd	INTESTINES	abvd_16_intestines_14
+taas	taas	TAAS	abvd	DUST	abvd_11_dust_60
+takir	takir	TAKIR	abvd	LAUGH	abvd_33_tolaugh_98
+tan	tan	TAN	abvd	LIE DOWN	-
+tas	tas	TAS	abvd	DUST	abvd_11_dust_60
+tee-te	teete	TEETE	abvd	SEW	abvd_67_tosew_2
+tee-yi	teeyi	TEEUI	abvd	SEW	abvd_67_tosew_2
+teete	teete	TEETE	abvd	SEW	abvd_67_tosew_2
+teriwi	teriwi	TERIWI	abvd	GROW	abvd_86_togrow_9
+tikek	tikek	TIKEK	abvd	NEEDLE (FOR SEWING)	abvd_68_needle_11
+tin	tin	TIN	abvd	SPLIT	abvd_80_tosplit_29
+tine-ni	tineni	TINENI	abvd	SPLIT	abvd_80_tosplit_29
+tinetin	tinetin	TINETIN	abvd	SPLIT	abvd_80_tosplit_29
+tini	tini	TINI	abvd	SMELL (PERCEIVE)	abvd_29_tosniffsmell_11
+tiu	tiu	TIU	abvd	NINE	abvd_205_nine_5
+tomwun	tomwun	TOMWUN	abvd	ROTTEN	-
+too-	too	TOO	abvd	COME	abvd_7_tocome_9
+toopw	toopw	TOOPW	abvd	FOG	abvd_132_fog_76
+toow	toow	TOOW	abvd	FAR	abvd_180_far_1
+topwutopw	topwutopw	TOPWUTOPW	abvd	FOG	abvd_132_fog_76
+ttan	ttan	TTAN	abvd	DREAM (SOMETHING)	abvd_50_todream_9
+ttana	ttana	TTANA	abvd	DREAM (SOMETHING)	abvd_50_todream_9
+ttiiw	ttiiw	TTIIW	abvd	NINE	abvd_205_nine_5
+ttin	ttin	TTIN	abvd	SMELL (PERCEIVE)	abvd_29_tosniffsmell_11?
+ttiwa-	ttiwa	TTIWA	abvd	NINE	abvd_205_nine_5
+ttiwe-	ttiwe	TTIWE	abvd	NINE	abvd_205_nine_5
+ttiwu-	ttiwu	TTIWU	abvd	NINE	abvd_205_nine_5
+ttu	ttu	TTU	abvd	STAB	abvd_71_tostabpierce_13
+ttú-	tt	TT	abvd	BREAST	abvd_18_breast_1
+ttúút	ttt	TTT	abvd	SUCK	abvd_42_tosuck_25
+tukken	tukken	TUKKEN	abvd	SWIM	-
+turitiw	turitiw	TURITIW	abvd	FALL	-
+tuutu	tuutu	TUUTU	abvd	DIG	abvd_90_todig_8
+téé-	t	T	abvd	CLIMB	abvd_172_toclimb_8
+tééki	tki	TKI	abvd	CLIMB	abvd_172_toclimb_8
+túttú-	ttt	TTT	abvd	SUCK	abvd_42_tosuck_25
+waan	waan	WAAN	abvd	EIGHT	abvd_204_eight_3
+waar	waar	WAAR	abvd	ROOT	abvd_115_root_2
+waara-	waara	WAARA	abvd	ROOT	abvd_115_root_2
+wan	wan	WAN	abvd	EIGHT	abvd_204_eight_3
+wanu	wanu	WANU	abvd	EIGHT	abvd_204_eight_3
+wanu-uw	wanuuw	WANUUW	abvd	EIGHT	abvd_204_eight_3
+wanú-	wan	WAN	abvd	EIGHT	abvd_204_eight_3
+watte	watte	WATTE	abvd	BIG	-
+wech	wech	WEKH	abvd	HIT	abvd_72_tohit_15
+wechee-	wechee	WEKHEE	abvd	HIT	abvd_72_tohit_15
+wechee-y	wecheey	WEKHEEU	abvd	HIT	abvd_72_tohit_15
+weri	weri	WERI	abvd	SEE	abvd_46_tosee_10
+wo	wo	WO	abvd	THOU	abvd_183_thou_1
+won	won	WON	abvd	LIE DOWN	abvd_49_toliedown_1
+wona-	wona	WONA	abvd	SIX	abvd_202_six_1
+wone-	wone	WONE	abvd	SIX	abvd_202_six_1
+wono-	wono	WONO	abvd	MALE PERSON	abvd_54_manmale_13
+wonowut	wonowut	WONOWUT	abvd	LIE DOWN	abvd_49_toliedown_1
+wonu-	wonu	WONU	abvd	SIX	abvd_202_six_1
+woné-	won	WON	abvd	SIX	abvd_202_six_1
+woon	woon	WOON	abvd	SIX	abvd_202_six_1
+wop	wop	WOP	abvd	HIDE	abvd_171_tohide_5
+wuki	wuki	WUKI	abvd	BLOW (OF WIND)	abvd_137_toblow_15
+wupʷa-	wupa	WUPA	abvd	BELLY	abvd_14_belly_11
+wuupw	wuupw	WUUPW	abvd	BELLY	abvd_14_belly_11
+wuupʷ	wuup	WUUP	abvd	BELLY	abvd_14_belly_11
+wuwa	wuwa	WUWA	abvd	FRUIT	abvd_117_fruit_1
+wuwaa-	wuwaa	WUWAA	abvd	FRUIT	abvd_117_fruit_1
+wá	w	W	abvd	OPEN	abvd_92_toopenuncover_12
+wén-nap	wnnap	WNNAP	abvd	FOREST	abvd_127_woodsforest_17
+wénúwén	wnwn	WNWN	abvd	FOREST	abvd_127_woodsforest_17
+wópwu-wópw	wpwuwpw	WPWUWPW	abvd	HIT	-
+wóó-	w	W	abvd	ABOVE	abvd_175_above_2
+wú	w	W	abvd	STAND	abvd_52_tostand_2
+wúkú-	wk	WK	abvd	TAIL	abvd_105_tail_1
+wún	wn	WN	abvd	DRINK	abvd_40_todrink_1
+wúne-	wne	WNE	abvd	HAIR	abvd_26_hair_10
+wúnú-	wn	WN	abvd	LIE DOWN	abvd_49_toliedown_1
+wúnúmi	wnmi	WNMI	abvd	DRINK	abvd_40_todrink_1
+wúnúún	wnn	WNN	abvd	HEAD	abvd_24_head_1
+wúnúúne-	wnne	WNNE	abvd	HEAD	abvd_24_head_1
+wúnúúnú-	wnn	WNN	abvd	HEAD	abvd_24_head_1
+wúsi	wsi	WSI	abvd	POUND	abvd_93_topoundbeat_20
+wúsú-ús	wss	WSS	abvd	POUND	abvd_93_topoundbeat_20
+wúsúús	wss	WSS	abvd	POUND	abvd_93_topoundbeat_20
+wúte-	wte	WTE	abvd	RAIN (PRECIPITATION)	abvd_133_rain_1
+wúwa-	wwa	WWA	abvd	NECK	abvd_25_neck_18
+wúú	w	W	abvd	NECK	abvd_25_neck_18
+wúú-	w	W	abvd	STAND	abvd_52_tostand_2
+wúúk	wk	WK	abvd	TAIL	abvd_105_tail_1
+wúún	wn	WN	abvd	HAIR	abvd_26_hair_10
+wúút	wt	WT	abvd	RAIN (PRECIPITATION)	abvd_133_rain_1
+yááyá	yy	UU	abvd	LIVER	abvd_17_liver_1
+áche-e-	chee	KHEE	abvd	THROW	abvd_94_tothrow_14
+áney	ney	NEU	abvd	LONG	abvd_155_long_13
+áneyi-	neyi	NEUI	abvd	LONG	abvd_155_long_13
+áni	ni	NI	abvd	EAT	abvd_37_toeat_1
+ánne-	nne	NNE	abvd	COUNT	abvd_196_tocount_12
+ánney	nney	NNEU	abvd	LONG	abvd_155_long_13
+ánná-	nn	NN	abvd	COUNT	abvd_196_tocount_12
+ánnáyá	nny	NNU	abvd	COUNT	abvd_196_tocount_12
+ásápwán	spwn	SPWN	abvd	WIND	abvd_136_wind_81
+áyi-	yi	UI	abvd	WE	-
+áá-yá	y	U	abvd	LIVER	abvd_17_liver_1
+ááf	f	P	abvd	FIRE	abvd_143_fire_1
+áák	k	K	abvd	THINK	abvd_21_tothink_12
+áám	m	M	abvd	WE	abvd_185_we_2
+áámi	mi	MI	abvd	YOU	abvd_186_you_1
+áás	s	S	abvd	FLY (MOVE THROUGH AIR)	-
+é-mwéchú	mwch	MWKH	abvd	HOLD	abvd_89_tohold_16
+érá	r	R	abvd	SAY	abvd_64_tosay_14
+ét	t	T	abvd	SMOKE (EXHAUST)	abvd_145_smoke_2
+étú-	t	T	abvd	SMOKE (EXHAUST)	abvd_145_smoke_2
+étúwét	twt	TWT	abvd	SMOKE (EXHAUST)	abvd_145_smoke_2
+éwú-	w	W	abvd	YOU	-
+één	n	N	abvd	THREE	abvd_199_three_1
+éét	t	T	abvd	SMOKE (EXHAUST)	abvd_145_smoke_2
+ó-mwóna	mwna	MWNA	abvd	HIDE	abvd_171_tohide_4
+ó-ttif	ttif	TTIP	abvd	SPIT	abvd_36_tospit_19
+ón	n	N	abvd	YELLOW	abvd_150_yellow_9
+óneyón	neyn	NEUN	abvd	YELLOW	abvd_150_yellow_9
+óno-	no	NO	abvd	YELLOW	abvd_150_yellow_9
+ónoyón	noyn	NOUN	abvd	YELLOW	abvd_150_yellow_9
+ósu-	su	SU	abvd	THATCH OR ROOF	abvd_62_thatchroof_1
+ótiffa-	tiffa	TIPPA	abvd	SPIT	abvd_36_tospit_19
+óttif	ttif	TTIP	abvd	SPIT	abvd_36_tospit_19
+óós	s	S	abvd	THATCH OR ROOF	abvd_62_thatchroof_1
+öch	ch	KH	abvd	GOOD	-
+ööch	ch	KH	abvd	OTHER	-
+úún	n	N	abvd	FEATHER	abvd_99_feather_30
+ŋaaŋ	aa	AA	abvd	I	abvd_182_i_12
+ŋas	as	AS	abvd	BREATHE	abvd_28_tobreathe_10
+ŋasaŋas	asaas	ASAAS	abvd	BREATHE	abvd_28_tobreathe_10
+ŋau	au	AU	abvd	BAD OR EVIL	abvd_165_badevil_11
+ŋaŋa	aa	AA	abvd	I	abvd_182_i_12
+ŋii	ii	II	abvd	TOOTH	abvd_31_tooth_30
+ŋii-	ii	II	abvd	TOOTH	abvd_31_tooth_30
+ŋiniŋiin	iniiin	INIIIN	abvd	SMALL	abvd_152_small_39
+ŋiniŋin	iniin	INIIN	abvd	SMALL	abvd_152_small_39
+ŋú-ti	ti	TI	abvd	CHEW	abvd_38_tochew_11

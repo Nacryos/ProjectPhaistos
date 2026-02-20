@@ -1,0 +1,964 @@
+Word	IPA	SCA	Source	Concept_ID	Cognate_Set_ID
+bukvæ	bukvæ	BUKBA	northeuralex	CHARACTER	-
+cɨk	cɨk	KIK	northeuralex	FOR A LONG TIME	-
+cɨr̥	cɨr̥	KIR	northeuralex	FRINGE	-
+cɨu	cɨu	KIU	northeuralex	NOISE	-
+cɨŋ	cɨŋ	KIN	northeuralex	391_force	-
+cɨɪ	cɨɪ	KII	northeuralex	AGAIN	-
+cʰi	cʰi	KI	northeuralex	SHADE	-
+cʰin	cʰin	KIN	northeuralex	YOU	-
+cʰir̥	cʰir̥	KIR	northeuralex	MOUNTAIN	-
+cʰiŋrɟ	cʰiŋrɟ	KINRG	northeuralex	BAD LUCK	-
+cʰjoklo	cʰjoklo	KYOKLO	northeuralex	GLASS	-
+cʰmɨz_lɨtc	cʰmɨzlɨtc	KMISLITK	northeuralex	PAY	-
+cʰo	cʰo	KO	northeuralex	FISH	-
+cʰolæ	cʰolæ	KOLA	northeuralex	POOR	-
+cʰoŋi	cʰoŋi	KONI	northeuralex	FLY (INSECT)	-
+cʰoŋɨŋɟ	cʰoŋɨŋɟ	KONING	northeuralex	FISHING	-
+cʰoʁ	cʰoʁ	KOR	northeuralex	FLOCK (OF ANIMALS)	-
+cʰoʁd	cʰoʁd	KORD	northeuralex	THAW (DEW)	-
+cʰoʁɟ	cʰoʁɟ	KORG	northeuralex	THAW (DEW)	-
+cʰoχ	cʰoχ	KOK	northeuralex	BLOOD	-
+cʰrovs	cʰrovs	KROBS	northeuralex	NAIL (TOOL)	-
+cʰrætloŋ	cʰrætloŋ	KRATLON	northeuralex	MARCH	-
+cʰu	cʰu	KU	northeuralex	FAMILY	-
+cʰuz	cʰuz	KUS	northeuralex	FRESH	-
+cʰxɨf	cʰxɨf	KKIP	northeuralex	BEAR	-
+cʰæcf	cʰæcf	KAKP	northeuralex	SWAMP	-
+cʰæmloŋ	cʰæmloŋ	KAMLON	northeuralex	JANUARY	-
+cʰæmŋ	cʰæmŋ	KAMN	northeuralex	EAGLE	-
+cʰærŋi	cʰærŋi	KARNI	northeuralex	CLOUD	-
+cʰætɨ	cʰætɨ	KATI	northeuralex	WELL	-
+cʰævq	cʰævq	KABK	northeuralex	FORK	-
+cʰævr̥	cʰævr̥	KABR	northeuralex	GREY	-
+cʰæɪ	cʰæɪ	KAI	northeuralex	TEA	-
+cʰæχ	cʰæχ	KAK	northeuralex	WATER	-
+cʰæχ_si_uɲs	cʰæχsiuɲs	KAKSIUNS	northeuralex	BUCKET	-
+cʰŋæɪ	cʰŋæɪ	KNAI	northeuralex	PICTURE (PAINTING)	-
+cʰŋæɪ_æid	cʰŋæɪæid	KNAIAID	northeuralex	PAINTING	-
+cʰŋɨr	cʰŋɨr	KNIR	northeuralex	GRASS	-
+cʰɨlm	cʰɨlm	KILM	northeuralex	PALM OF HAND	-
+cʰɨlɨ	cʰɨlɨ	KILI	northeuralex	FOG	-
+cʰɨŋ	cʰɨŋ	KIN	northeuralex	YOU	-
+cʰɪe_sŋɨr̥	cʰɪesŋɨr̥	KIESNIR	northeuralex	HAY	-
+cʰɪetvɪerɡ	cʰɪetvɪerg	KIETBIERG	northeuralex	THURSDAY	-
+cʰɪevcʰɪevu	cʰɪevcʰɪevu	KIEBKIEBU	northeuralex	WET	-
+cʰɪeɟ	cʰɪeɟ	KIEG	northeuralex	DRY UP	-
+cʰχoqr̥	cʰχoqr̥	KKOKR	northeuralex	THIRTY	-
+cʰχoɪtjuɟ	cʰχoɪtjuɟ	KKOITYUG	northeuralex	WASH	-
+cʰχæ	cʰχæ	KKA	northeuralex	MONEY	-
+cʰχær̥	cʰχær̥	KKAR	northeuralex	TREE	-
+doktor	doktor	DOKTOR	northeuralex	PHYSICIAN	-
+fir̥kuɟ	fir̥kuɟ	PIRKUG	northeuralex	TURN (SOMETHING)	-
+fir̥pʰirud	fir̥pʰirud	PIRPIRUD	northeuralex	843_spin	-
+fir̥pʰiruɟ	fir̥pʰiruɟ	PIRPIRUG	northeuralex	843_spin	-
+fitir̥	fitir̥	PITIR	northeuralex	BLANKET	-
+fitis	fitis	PITIS	northeuralex	BLANKET	-
+fiŋud	fiŋud	PINUD	northeuralex	HIDE (ONESELF)	-
+fulvuld	fulvuld	PULBULD	northeuralex	CREEP	-
+fulvulɟ	fulvulɟ	PULBULG	northeuralex	CREEP	-
+furd	furd	PURD	northeuralex	TELL	-
+furɟ	furɟ	PURG	northeuralex	TELL	-
+fuvɟ	fuvɟ	PUBG	northeuralex	BLOW (WITH MOUTH)	-
+fuɲkuɟ	fuɲkuɟ	PUNKUG	northeuralex	845_turnturnaround	-
+fætjuɟ	fætjuɟ	PATYUG	northeuralex	BOLT (MOVE IN HASTE)	-
+fæzuɟ	fæzuɟ	PASUG	northeuralex	UNDRESS	-
+fɨvɨɟ	fɨvɨɟ	PIBIG	northeuralex	CREEP	-
+fɪevʔjuɟ	fɪevʔjuɟ	PIEBHYUG	northeuralex	WHISTLE	-
+fɪeɟ	fɪeɟ	PIEG	northeuralex	GATHER	-
+hilmr̥	hilmr̥	HILMR	northeuralex	ASH	-
+hilx	hilx	HILK	northeuralex	TONGUE	-
+hims	hims	HIMS	northeuralex	ASH	-
+hir̥kuɟ	hir̥kuɟ	HIRKUG	northeuralex	951_catch	-
+hitf	hitf	HITP	northeuralex	ISLAND	-
+hivs	hivs	HIBS	northeuralex	BIRCH	-
+hivs_cʰχær̥	hivscʰχær̥	HIBSKKAR	northeuralex	BIRCH	-
+hiɣr̥	hiɣr̥	HIGR	northeuralex	STOMACH	-
+honf	honf	HONP	northeuralex	SPRINGTIME	-
+hontq	hontq	HONTK	northeuralex	POUCH	-
+hoɲʁæ	hoɲʁæ	HONRA	northeuralex	EMPTY	-
+hoʁɟ	hoʁɟ	HORG	northeuralex	811_becold	-
+hukt	hukt	HUKT	northeuralex	STREAM (FLOW CONTINUOUSLY)	-
+humɟ	humɟ	HUMG	northeuralex	BE ALIVE	-
+hupid	hupid	HUPID	northeuralex	SIT DOWN	-
+hurur̥	hurur̥	HURUR	northeuralex	EVERYWHERE	-
+hur̥tʰivs	hur̥tʰivs	HURTIBS	northeuralex	CHAIR	-
+hur̥tʰivɟ	hur̥tʰivɟ	HURTIBG	northeuralex	SIT DOWN	-
+hur̥xroɟ	hur̥xroɟ	HURKROG	northeuralex	HANG UP	-
+hut	hut	HUT	northeuralex	BODY	-
+hutɨ	hutɨ	HUTI	northeuralex	MIDDLE	-
+huzus	huzus	HUSUS	northeuralex	EVERYWHERE	-
+huŋɡuf	huŋguf	HUNGUP	northeuralex	NIGHT	-
+hæ	hæ	HA	northeuralex	TRAP (PITFALL)	-
+hæk	hæk	HAK	northeuralex	CAP	-
+hæl	hæl	HAL	northeuralex	BODY	-
+hæmæmlæ	hæmæmlæ	HAMAMLA	northeuralex	SOFT	-
+hæræ	hæræ	HARA	northeuralex	AND	-
+hætχ	hætχ	HATK	northeuralex	SKIN (OF FRUIT)	-
+hæɣær̥	hæɣær̥	HAGAR	northeuralex	CLOTHES	-
+hɨɪk	hɨɪk	HIIK	northeuralex	HARE	-
+hɨɪm	hɨɪm	HIIM	northeuralex	OLD (AGED)	-
+hɪesqr̥	hɪesqr̥	HIESKR	northeuralex	THROAT	-
+hɪeuŋi	hɪeuŋi	HIEUNI	northeuralex	WILLOW	-
+hɪeʁæɟ	hɪeʁæɟ	HIERAG	northeuralex	FEAR (BE AFRAID)	-
+idɨnd	idɨnd	IDIND	northeuralex	FIND	-
+idɨɪd	idɨɪd	IDIID	northeuralex	SEE	-
+if	if	IP	northeuralex	HE	-
+imŋ	imŋ	IMN	northeuralex	THEY	-
+in	in	IN	northeuralex	THEY	-
+inluɟ	inluɟ	INLUG	northeuralex	DIVE	-
+ird	ird	IRD	northeuralex	KEEP	-
+irlɨd	irlɨd	IRLID	northeuralex	PULL	-
+irlɨɟ	irlɨɟ	IRLIG	northeuralex	PULL	-
+irɟ	irɟ	IRG	northeuralex	KEEP	-
+ir̥pc	ir̥pc	IRPK	northeuralex	SIT	-
+itc	itc	ITK	northeuralex	TALK	-
+itnd	itnd	ITND	northeuralex	SAY	-
+itt	itt	ITT	northeuralex	TALK	-
+itɨ	itɨ	ITI	northeuralex	CHIN	-
+iu	iu	IU	northeuralex	DUCK	-
+ius	ius	IUS	northeuralex	PIKE (FISH)	-
+iɣɟ	iɣɟ	IGG	northeuralex	KILL	-
+iɲnɨɟ	iɲnɨɟ	INNIG	northeuralex	MEAL	-
+jord	jord	YORD	northeuralex	MEET	-
+jorɟ	jorɟ	YORG	northeuralex	MEET	-
+jotc	jotc	YOTK	northeuralex	SEW	-
+jovɟ	jovɟ	YOBG	northeuralex	NET	-
+jozuɟ	jozuɟ	YOSUG	northeuralex	WAKE UP (SOMEONE)	-
+jupc	jupc	YUPK	northeuralex	TIE	-
+jupid	jupid	YUPID	northeuralex	TIE UP (TETHER)	-
+juruɟ	juruɟ	YURUG	northeuralex	COUNT	-
+juskid	juskid	YUSKID	northeuralex	1013_payfor	-
+juskiɟ	juskiɟ	YUSKIG	northeuralex	1013_payfor	-
+juɣt	juɣt	YUGT	northeuralex	SET (HEAVENLY BODIES)	-
+juɣɟ	juɣɟ	YUGG	northeuralex	SET (HEAVENLY BODIES)	-
+jæbloko	jæbloko	YABLOKO	northeuralex	APPLE	-
+jæmæɟ	jæmæɟ	YAMAG	northeuralex	LOOK	-
+jæmχtæd	jæmχtæd	YAMKTAD	northeuralex	COMMEND	-
+jæmχtæɟ	jæmχtæɟ	YAMKTAG	northeuralex	COMMEND	-
+jæqc	jæqc	YAKK	northeuralex	CUT	-
+jæqt	jæqt	YAKT	northeuralex	CUT	-
+jærd	jærd	YARD	northeuralex	FEED	-
+jærɟ	jærɟ	YARG	northeuralex	FEED	-
+jætŋud	jætŋud	YATNUD	northeuralex	927_guard	-
+jævʁuɪd	jævʁuɪd	YABRUID	northeuralex	GLUE	-
+jævʁɟ	jævʁɟ	YABRG	northeuralex	GLUE	-
+jæŋr̥	jæŋr̥	YANR	northeuralex	WHY	-
+jæŋɡur̥	jæŋgur̥	YANGUR	northeuralex	HOW	-
+jæŋɡut	jæŋgut	YANGUT	northeuralex	HOW	-
+jæɪmnd	jæɪmnd	YAIMND	northeuralex	BE ABLE	-
+jæʁɲɟ	jæʁɲɟ	YARNG	northeuralex	WANT	-
+kikr̥	kikr̥	KIKR	northeuralex	OAR	-
+kikt	kikt	KIKT	northeuralex	ROW	-
+kis	kis	KIS	northeuralex	DIRT	-
+kistɨlɨɣɨ	kistɨlɨɣɨ	KISTILIGI	northeuralex	CLEAN	-
+krɨu_muɣv	krɨumuɣv	KRIUMUGB	northeuralex	SUNDAY	-
+kurŋ	kurŋ	KURN	northeuralex	DEITY	-
+kurʔjuɟ	kurʔjuɟ	KURHYUG	northeuralex	SHIVER	-
+kur̥	kur̥	KUR	northeuralex	WORLD	-
+kuɪvæ	kuɪvæ	KUIBA	northeuralex	RING	-
+kælmr̥	kælmr̥	KALMR	northeuralex	BOARD	-
+kæprd	kæprd	KAPRD	northeuralex	STAND	-
+kæstrjuljæ	kæstrjuljæ	KASTRYULYA	northeuralex	POT	-
+kævkævæ	kævkævæ	KABKABA	northeuralex	HARD	-
+kɨdr̥	kɨdr̥	KIDR	northeuralex	BACK	-
+kɨjud	kɨjud	KIYUD	northeuralex	SHIVER	-
+kɨls	kɨls	KILS	northeuralex	LENGTH	-
+kɨlæ	kɨlæ	KILA	northeuralex	LONG	-
+kɨlæŋæ	kɨlæŋæ	KILANA	northeuralex	SNAKE	-
+kɨlɡɪerŋ	kɨlgɪerŋ	KILGIERN	northeuralex	SNAKE	-
+kɨprɟ	kɨprɟ	KIPRG	northeuralex	STAND	-
+kɨrɟ	kɨrɟ	KIRG	northeuralex	HALT (STOP)	-
+kɨxkɨx	kɨxkɨx	KIKKIK	northeuralex	SWAN	-
+kɨŋɟ	kɨŋɟ	KING	northeuralex	FREEZE	-
+kɨɟ	kɨɟ	KIG	northeuralex	RAIN (RAINING)	-
+kɪespi	kɪespi	KIESPI	northeuralex	DROP (OF A LIQUID)	-
+kɪeŋræ	kɪeŋræ	KIENRA	northeuralex	MERRY	-
+kɪeʁd	kɪeʁd	KIERD	northeuralex	HOARFROST	-
+kɪeʁɟ	kɪeʁɟ	KIERG	northeuralex	HOARFROST	-
+kʰikr̥	kʰikr̥	KIKR	northeuralex	UP	-
+kʰikr̥uin	kʰikr̥uin	KIKRUIN	northeuralex	HIGH	-
+kʰikr̥ux	kʰikr̥ux	KIKRUK	northeuralex	HIGH	-
+kʰitc	kʰitc	KITK	northeuralex	FLEE	-
+kʰod	kʰod	KOD	northeuralex	FALL ASLEEP	-
+kʰoɟ	kʰoɟ	KOG	northeuralex	FALL ASLEEP	-
+kʰrɨuz	kʰrɨuz	KRIUS	northeuralex	GIFT	-
+kʰu	kʰu	KU	northeuralex	ARROW	-
+kʰutɨ	kʰutɨ	KUTI	northeuralex	LAIR	-
+kʰuvæ	kʰuvæ	KUBA	northeuralex	THREAD	-
+kʰuvæŋ	kʰuvæŋ	KUBAN	northeuralex	THREAD	-
+kʰɨmlɨd	kʰɨmlɨd	KIMLID	northeuralex	THINK (REFLECT)	-
+kʰɨmlɨɟ	kʰɨmlɨɟ	KIMLIG	northeuralex	THINK (REFLECT)	-
+kʰɨr̥	kʰɨr̥	KIR	northeuralex	HUNGER	-
+kʰɨs	kʰɨs	KIS	northeuralex	HAPPINESS	-
+kʰɨvɣɨv	kʰɨvɣɨv	KIBGIB	northeuralex	SPIDER	-
+kʰɪe	kʰɪe	KIE	northeuralex	NET	-
+kʰɪeotnux	kʰɪeotnux	KIEOTNUK	northeuralex	NEEDLE (FOR SEWING)	-
+kʰɪeq	kʰɪeq	KIEK	northeuralex	FOX	-
+kʰɪeræɪd	kʰɪeræɪd	KIERAID	northeuralex	CHAT (WITH SOMEBODY)	-
+kʰɪer̥	kʰɪer̥	KIER	northeuralex	MESSAGE	-
+kʰɪer̥qoɟ	kʰɪer̥qoɟ	KIERKOG	northeuralex	951_catch	-
+kʰɪes	kʰɪes	KIES	northeuralex	MESSAGE	-
+kʰɪespʰurd	kʰɪespʰurd	KIESPURD	northeuralex	CHAT (WITH SOMEBODY)	-
+kʰɪeŋ	kʰɪeŋ	KIEN	northeuralex	SUN	-
+kʰɪeŋ_juɣf_ɤr̥q	kʰɪeŋjuɣfɤr̥q	KIENYUGPRK	northeuralex	WEST	-
+kʰɪeŋ_mɨrf_ɤr̥q	kʰɪeŋmɨrfɤr̥q	KIENMIRPRK	northeuralex	EAST	-
+liɣr̥	liɣr̥	LIGR	northeuralex	WOLF	-
+liɣs	liɣs	LIGS	northeuralex	WOLF	-
+loŋ	loŋ	LON	northeuralex	MOON	-
+lu	lu	LU	northeuralex	SONG	-
+lud	lud	LUD	northeuralex	SING	-
+lur̥	lur̥	LUR	northeuralex	ICE	-
+luvr̥	luvr̥	LUBR	northeuralex	SPOON	-
+luɟ	luɟ	LUG	northeuralex	SING	-
+læ	læ	LA	northeuralex	WIND	-
+læjuɟ	læjuɟ	LAYUG	northeuralex	ROAR (OF SEA)	-
+læq	læq	LAK	northeuralex	SKI	-
+læqrɟ	læqrɟ	LAKRG	northeuralex	PLAY	-
+læqr̥	læqr̥	LAKR	northeuralex	SQUIRREL	-
+lærvilɟ	lærvilɟ	LARBILG	northeuralex	ROAR (OF SEA)	-
+lær̥	lær̥	LAR	northeuralex	WAVE	-
+lær̥q	lær̥q	LARK	northeuralex	SHIRT	-
+lætnd	lætnd	LATND	northeuralex	MAKE	-
+læx	læx	LAK	northeuralex	CLOUD	-
+læʁæ	læʁæ	LARA	northeuralex	NEXT TO	-
+lɨtc	lɨtc	LITK	northeuralex	PRODUCE	-
+lɨx	lɨx	LIK	northeuralex	WEATHER	-
+lɨɣivotæloŋ	lɨɣivotæloŋ	LIGIBOTALON	northeuralex	JULY	-
+lɨɪ	lɨɪ	LII	northeuralex	THUNDER	-
+lɨɪɟ	lɨɪɟ	LIIG	northeuralex	THUNDER (VERB)	-
+lɪef	lɪef	LIEP	northeuralex	NEXT TO	-
+lɪelɪe	lɪelɪe	LIELIE	northeuralex	VERY	-
+lɪep	lɪep	LIEP	northeuralex	BREAD	-
+lɪerɟ	lɪerɟ	LIERG	northeuralex	PLAY	-
+mif	mif	MIP	northeuralex	GROUND	-
+minr̥	minr̥	MINR	northeuralex	EIGHT	-
+minr̥mχoqr̥	minr̥mχoqr̥	MINRMKOKR	northeuralex	EIGHTY	-
+mlæ	mlæ	MLA	northeuralex	EAR	-
+mocc	mocc	MOKK	northeuralex	KISS	-
+moqr̥	moqr̥	MOKR	northeuralex	PIECE	-
+moqs	moqs	MOKS	northeuralex	PIECE	-
+mor̥qæ	mor̥qæ	MORKA	northeuralex	BE ALIVE	-
+mot	mot	MOT	northeuralex	PILLOW	-
+mrolv	mrolv	MROLB	northeuralex	OLD	-
+mræ	mræ	MRA	northeuralex	FAULT	-
+mræŋ	mræŋ	MRAN	northeuralex	FAULT	-
+mræŋilæ	mræŋilæ	MRANILA	northeuralex	LAZY	-
+mrɨd	mrɨd	MRID	northeuralex	BATHE	-
+mrɨɟ	mrɨɟ	MRIG	northeuralex	BATHE	-
+mu	mu	MU	northeuralex	BOAT	-
+mur̥	mur̥	MUR	northeuralex	HORSE	-
+mur̥ki	mur̥ki	MURKI	northeuralex	HORN (ANATOMY)	-
+muv	muv	MUB	northeuralex	DAY (NOT NIGHT)	-
+muxitiloŋ	muxitiloŋ	MUKITILON	northeuralex	NOVEMBER	-
+muxtuk	muxtuk	MUKTUK	northeuralex	MOUSE	-
+muɟ	muɟ	MUG	northeuralex	BECOME	-
+muɣv	muɣv	MUGB	northeuralex	DAY (NOT NIGHT)	-
+muɣvɲlæmi	muɣvɲlæmi	MUGBNLAMI	northeuralex	MIDDAY	-
+muɪnɨ	muɪnɨ	MUINI	northeuralex	SICK	-
+muɪnɨɟ	muɪnɨɟ	MUINIG	northeuralex	BECOME SICK	-
+muɪvud	muɪvud	MUIBUD	northeuralex	BECOME SICK	-
+mæcki	mæcki	MAKKI	northeuralex	SMALL	-
+mær̥kc	mær̥kc	MARKK	northeuralex	POUR	-
+mær̥kæd	mær̥kæd	MARKAD	northeuralex	POUR	-
+mæsksoroŋ	mæsksoroŋ	MASKSORON	northeuralex	MAY (MONTH)	-
+mæŋɢlæ	mæŋɢlæ	MANGLA	northeuralex	POWERFUL	-
+mæχ	mæχ	MAK	northeuralex	SAND	-
+mɣɪeɟ	mɣɪeɟ	MGIEG	northeuralex	ROW	-
+mɨd	mɨd	MID	northeuralex	LISTEN	-
+mɨkrlæ	mɨkrlæ	MIKRLA	northeuralex	CORRECT (RIGHT)	-
+mɨks	mɨks	MIKS	northeuralex	TRUTH	-
+mɨɟ	mɨɟ	MIG	northeuralex	LISTEN	-
+mɪem	mɪem	MIEM	northeuralex	RAINBOW	-
+mɪeqr̥	mɪeqr̥	MIEKR	northeuralex	TWO	-
+mɪeutiŋ	mɪeutiŋ	MIEUTIN	northeuralex	GUN	-
+mɪeutju	mɪeutju	MIEUTYU	northeuralex	GUN	-
+mɪeŋ	mɪeŋ	MIEN	northeuralex	WE	-
+mɪeʁoqr̥	mɪeʁoqr̥	MIEROKR	northeuralex	TWENTY	-
+mχoqr̥	mχoqr̥	MKOKR	northeuralex	TEN	-
+ni	ni	NI	northeuralex	I	-
+nisæχ	nisæχ	NISAK	northeuralex	TEAR (OF EYE)	-
+nivx	nivx	NIBK	northeuralex	PEOPLE	-
+nivxɡu	nivxgu	NIBKGU	northeuralex	243_people	-
+nivŋ	nivŋ	NIBN	northeuralex	PERSON	-
+nix	nix	NIK	northeuralex	TEAR (OF EYE)	-
+njoni	njoni	NYONI	northeuralex	GOOSE	-
+njuɡud	njugud	NYUGUD	northeuralex	SHOW	-
+njuɡuɟ	njuguɟ	NYUGUG	northeuralex	SHOW	-
+njæqr̥	njæqr̥	NYAKR	northeuralex	ONE	-
+njævr̥	njævr̥	NYABR	northeuralex	SPACE (AVAILABLE)	-
+njæχ	njæχ	NYAK	northeuralex	EYE	-
+nocrlæ	nocrlæ	NOKRLA	northeuralex	DEAF	-
+noklæ	noklæ	NOKLA	northeuralex	NARROW	-
+nud	nud	NUD	northeuralex	WHAT	-
+nux	nux	NUK	northeuralex	NEEDLE (FOR SEWING)	-
+nuɣnuɣɟ	nuɣnuɣɟ	NUGNUGG	northeuralex	SMELL (PERCEIVE)	-
+nxukr̥	nxukr̥	NKUKR	northeuralex	FORTY	-
+næf	næf	NAP	northeuralex	NOW	-
+næmæ	næmæ	NAMA	northeuralex	DILIGENT	-
+nænx	nænx	NANK	northeuralex	AUNT	-
+nænæk	nænæk	NANAK	northeuralex	AUNT	-
+nɨir	nɨir	NIIR	northeuralex	RIGHT	-
+nɨkr̥	nɨkr̥	NIKR	northeuralex	FOUR	-
+nɨmr̥	nɨmr̥	NIMR	northeuralex	YESTERDAY	-
+nɨux	nɨux	NIUK	northeuralex	TODAY	-
+nɨx	nɨx	NIK	northeuralex	TODAY	-
+nɨŋɟ	nɨŋɟ	NING	northeuralex	WALK	-
+nɨɟ	nɨɟ	NIG	northeuralex	DO	-
+nɪedɪeljæ	nɪedɪeljæ	NIEDIELYA	northeuralex	WEEK	-
+nɪemqæ	nɪemqæ	NIEMKA	northeuralex	THOUSAND	-
+nɪenilæ	nɪenilæ	NIENILA	northeuralex	SWEET	-
+nɪenɪeq	nɪenɪeq	NIENIEK	northeuralex	A LITTLE	-
+nɪeŋɢ	nɪeŋɢ	NIENG	northeuralex	MOSQUITO	-
+oloŋ	oloŋ	OLON	northeuralex	PIG	-
+olʁoŋ	olʁoŋ	OLRON	northeuralex	PIG	-
+om	om	OM	northeuralex	BARK	-
+orbot	orbot	ORBOT	northeuralex	WORK (LABOUR)	-
+orbotc	orbotc	ORBOTK	northeuralex	WORK (ACTIVITY)	-
+ori	ori	ORI	northeuralex	NAPE (OF NECK)	-
+ormi	ormi	ORMI	northeuralex	CLAY	-
+orqotc	orqotc	ORKOTK	northeuralex	TUMBLE (FALL DOWN)	-
+ozd	ozd	OSD	northeuralex	WAKE UP	-
+ozɟ	ozɟ	OSG	northeuralex	WAKE UP	-
+oɣri	oɣri	OGRI	northeuralex	NAPE (OF NECK)	-
+oʁlæ	oʁlæ	ORLA	northeuralex	DAUGHTER	-
+oʁm	oʁm	ORM	northeuralex	BARK	-
+oχt	oχt	OKT	northeuralex	MEDICINE	-
+pilæ	pilæ	PILA	northeuralex	BIG	-
+pitɣɨ	pitɣɨ	PITGI	northeuralex	LETTER	-
+pix	pix	PIK	northeuralex	KNEE	-
+piŋrlæ	piŋrlæ	PINRLA	northeuralex	CHEAP	-
+pjætnit͡sæ	pjætnitsæ	PYATNITSA	northeuralex	FRIDAY	-
+plisid	plisid	PLISID	northeuralex	DANCE	-
+plisiɟ	plisiɟ	PLISIG	northeuralex	DANCE	-
+plotk	plotk	PLOTK	northeuralex	389_scarf	-
+plæjuɟ	plæjuɟ	PLAYUG	northeuralex	717_shine	-
+plætok	plætok	PLATOK	northeuralex	389_scarf	-
+plɪeud	plɪeud	PLIEUD	northeuralex	WALK (TAKE A WALK)	-
+plɪeuɟ	plɪeuɟ	PLIEUG	northeuralex	WALK (TAKE A WALK)	-
+poftr̥	poftr̥	POPTR	northeuralex	FOAM	-
+poid	poid	POID	northeuralex	EMERGE (APPEAR)	-
+polm	polm	POLM	northeuralex	BLIND	-
+polɟ	polɟ	POLG	northeuralex	FALL	-
+ponɪedɪelʲnik	ponɪedɪelʲnik	PONIEDIELNIK	northeuralex	MONDAY	-
+porɟ	porɟ	PORG	northeuralex	LIE (REST)	-
+potjurlæ	potjurlæ	POTYURLA	northeuralex	BEAUTIFUL	-
+poɪɟ	poɪɟ	POIG	northeuralex	EMERGE (APPEAR)	-
+pud	pud	PUD	northeuralex	RIPEN	-
+puid	puid	PUID	northeuralex	FLY (MOVE THROUGH AIR)	-
+puk	puk	PUK	northeuralex	MUSHROOM	-
+pulbulɨ	pulbulɨ	PULBULI	northeuralex	ROUND	-
+pur̥pur̥	pur̥pur̥	PURPUR	northeuralex	COLD (OF WEATHER)	-
+putis	putis	PUTIS	northeuralex	BROOM	-
+putiɟ	putiɟ	PUTIG	northeuralex	SWEEP	-
+puɟ	puɟ	PUG	northeuralex	RIPEN	-
+puɪŋæ	puɪŋæ	PUINA	northeuralex	BIRD	-
+puɲɟ	puɲɟ	PUNG	northeuralex	BOW	-
+pæl	pæl	PAL	northeuralex	FOREST	-
+pænd	pænd	PAND	northeuralex	GROW	-
+pænɟ	pænɟ	PANG	northeuralex	GROW	-
+pærf	pærf	PARP	northeuralex	EVENING	-
+pær̥k	pær̥k	PARK	northeuralex	ONLY	-
+pæɪ	pæɪ	PAI	northeuralex	IN VAIN	-
+pæʁlæ	pæʁlæ	PARLA	northeuralex	RED	-
+pæχ	pæχ	PAK	northeuralex	STONE	-
+pɨiɟ	pɨiɟ	PIIG	northeuralex	FLY (MOVE THROUGH AIR)	-
+pɨk	pɨk	PIK	northeuralex	CUCKOO	-
+pɨt	pɨt	PIT	northeuralex	TOMORROW	-
+pɨtir̥	pɨtir̥	PITIR	northeuralex	BROOM	-
+pɨx	pɨx	PIK	northeuralex	PAINT (PIGMENTS)	-
+pɨɲx	pɨɲx	PINK	northeuralex	SOUP	-
+pʰimd	pʰimd	PIMD	northeuralex	FLEE	-
+pʰimɟ	pʰimɟ	PIMG	northeuralex	FLEE	-
+pʰlæqr̥	pʰlæqr̥	PLAKR	northeuralex	SUDDENLY	-
+pʰlævlævɟ	pʰlævlævɟ	PLABLABG	northeuralex	TWINKLE	-
+pʰolæʁɟ	pʰolæʁɟ	POLARG	northeuralex	719_benoisy	-
+pʰovæ	pʰovæ	POBA	northeuralex	INSTANTLY (IMMEDIATELY)	-
+pʰræud	pʰræud	PRAUD	northeuralex	LEARN	-
+pʰrɨuɟ	pʰrɨuɟ	PRIUG	northeuralex	LEARN	-
+pʰr̥ætuɟ	pʰr̥ætuɟ	PRATUG	northeuralex	LEARN	-
+pʰr̥ɨd	pʰr̥ɨd	PRID	northeuralex	COME	-
+pʰr̥ɨɟ	pʰr̥ɨɟ	PRIG	northeuralex	COME	-
+pʰsud	pʰsud	PSUD	northeuralex	WASH (ONESELF)	-
+pʰsuɟ	pʰsuɟ	PSUG	northeuralex	WASH (ONESELF)	-
+pʰxɨd	pʰxɨd	PKID	northeuralex	COME BACK	-
+pʰxɨdoχ	pʰxɨdoχ	PKIDOK	northeuralex	BACK (DIRECTION)	-
+pʰxɨɟ	pʰxɨɟ	PKIG	northeuralex	COME BACK	-
+pʰæl	pʰæl	PAL	northeuralex	FLOOR	-
+pʰælŋ	pʰælŋ	PALN	northeuralex	FLOOR	-
+pʰæmχtæɟ	pʰæmχtæɟ	PAMKTAG	northeuralex	BOAST	-
+pʰæχ	pʰæχ	PAK	northeuralex	WINDOW	-
+pʰŋæʁ	pʰŋæʁ	PNAR	northeuralex	YOUNG	-
+pʰɨiɟ	pʰɨiɟ	PIIG	northeuralex	831_leave	-
+pʰɪeq	pʰɪeq	PIEK	northeuralex	CHICKEN	-
+pʰɪert	pʰɪert	PIERT	northeuralex	GET TIRED	-
+pʰɪerɟ	pʰɪerɟ	PIERG	northeuralex	GET TIRED	-
+pʰɪeŋr̥	pʰɪeŋr̥	PIENR	northeuralex	FLY (INSECT)	-
+pʰɪeɲŋæuɟ	pʰɪeɲŋæuɟ	PIENNAUG	northeuralex	BUDGE (ONESELF)	-
+pʰɪeʁod	pʰɪeʁod	PIEROD	northeuralex	BOLT (MOVE IN HASTE)	-
+pʰɪeʁoɟ	pʰɪeʁoɟ	PIEROG	northeuralex	BOLT (MOVE IN HASTE)	-
+pʰχæklæ	pʰχæklæ	PKAKLA	northeuralex	SHORT	-
+qlæɪ	qlæɪ	KLAI	northeuralex	NOOSE	-
+qod	qod	KOD	northeuralex	ACHE	-
+qolæf	qolæf	KOLAP	northeuralex	DISEASE	-
+qolæf_lɨɣɨɟ	qolæflɨɣɨɟ	KOLAPLIGIG	northeuralex	HEALTHY	-
+qolæf_ɲr̥ɨɟ	qolæfɲr̥ɨɟ	KOLAPNRIG	northeuralex	SINK (DESCEND)	-
+qomr̥	qomr̥	KOMR	northeuralex	SAND	-
+qoqrux	qoqrux	KOKRUK	northeuralex	LOW	-
+qoqr̥_ɤr̥q	qoqr̥ɤr̥q	KOKRRK	northeuralex	SOUTH	-
+qorqorɟ	qorqorɟ	KORKORG	northeuralex	BOIL (OF LIQUID)	-
+qor̥qr̥	qor̥qr̥	KORKR	northeuralex	THROAT	-
+qoɟ	qoɟ	KOG	northeuralex	ACHE	-
+qælʁælæ	qælʁælæ	KALRALA	northeuralex	BRIGHT	-
+qælʁælχ	qælʁælχ	KALRALK	northeuralex	GOOSE	-
+qæmæɟ	qæmæɟ	KAMAG	northeuralex	RUN	-
+qæn	qæn	KAN	northeuralex	DOG	-
+qænŋ	qænŋ	KANN	northeuralex	DOG	-
+qærloŋ	qærloŋ	KARLON	northeuralex	FEBRUARY	-
+qæʁŋ	qæʁŋ	KARN	northeuralex	PINE	-
+qɪer̥q	qɪer̥q	KIERK	northeuralex	SEA	-
+qɪer̥qŋ	qɪer̥qŋ	KIERKN	northeuralex	SEA	-
+qʰod	qʰod	KOD	northeuralex	SLEEP	-
+qʰof	qʰof	KOP	northeuralex	NIGHT	-
+qʰojud	qʰojud	KOYUD	northeuralex	SHOUT	-
+qʰonu	qʰonu	KONU	northeuralex	WHITE	-
+qʰorlæ	qʰorlæ	KORLA	northeuralex	RICH	-
+qʰos	qʰos	KOS	northeuralex	NECK	-
+qʰos_æɪs	qʰosæɪs	KOSAIS	northeuralex	COLLAR	-
+qʰotr̥	qʰotr̥	KOTR	northeuralex	BEAR	-
+qʰoɟ	qʰoɟ	KOG	northeuralex	SLEEP	-
+qʰoʁæ	qʰoʁæ	KORA	northeuralex	SPIRIT	-
+qʰæ	qʰæ	KA	northeuralex	NAME	-
+qʰær̥	qʰær̥	KAR	northeuralex	SPADE	-
+qʰæud	qʰæud	KAUD	northeuralex	DRY UP	-
+qʰæuɟ	qʰæuɟ	KAUG	northeuralex	NOT	-
+qʰævlæ	qʰævlæ	KABLA	northeuralex	HEAT	-
+roqc	roqc	ROKK	northeuralex	855_tearoff	-
+rovɟ	rovɟ	ROBG	northeuralex	TIE UP (TETHER)	-
+rulku	rulku	RULKU	northeuralex	THROUGH	-
+ruɣd	ruɣd	RUGD	northeuralex	CHOOSE	-
+ruɣruɣɟ	ruɣruɣɟ	RUGRUGG	northeuralex	CHOOSE	-
+ruɣɟ	ruɣɟ	RUGG	northeuralex	CHOOSE	-
+ræd	ræd	RAD	northeuralex	DRINK	-
+ræjud	ræjud	RAYUD	northeuralex	WRITE	-
+ræjuɟ	ræjuɟ	RAYUG	northeuralex	WRITE	-
+rænd	rænd	RAND	northeuralex	SMOKE (EMIT SMOKE)	-
+ræɟ	ræɟ	RAG	northeuralex	SHINE	-
+ræɣrɟ	ræɣrɟ	RAGRG	northeuralex	WATCH	-
+rɨmzuɟ	rɨmzuɟ	RIMSUG	northeuralex	DROP (SOMETHING)	-
+r̥oɟ	r̥oɟ	ROG	northeuralex	CARRY	-
+r̥ud	r̥ud	RUD	northeuralex	SHARPEN (SOMETHING)	-
+r̥uvɟ	r̥uvɟ	RUBG	northeuralex	BURN (SOMETHING)	-
+r̥uɟ	r̥uɟ	RUG	northeuralex	SHARPEN (SOMETHING)	-
+r̥æprd	r̥æprd	RAPRD	northeuralex	BRING	-
+r̥ær̥	r̥ær̥	RAR	northeuralex	WHERE	-
+r̥ætuɟ	r̥ætuɟ	RATUG	northeuralex	TEACH	-
+r̥æŋs	r̥æŋs	RANS	northeuralex	HOW MANY	-
+r̥æŋɢ	r̥æŋɢ	RANG	northeuralex	WOMAN	-
+r̥æŋɢɤʁlŋ	r̥æŋɢɤʁlŋ	RANGRLN	northeuralex	GIRL	-
+r̥æɟ	r̥æɟ	RAG	northeuralex	BAKE	-
+r̥ɨ	r̥ɨ	RI	northeuralex	DOOR	-
+r̥ɨju	r̥ɨju	RIYU	northeuralex	DAMP	-
+r̥ɨmd	r̥ɨmd	RIMD	northeuralex	SWIM	-
+r̥ɨmɟ	r̥ɨmɟ	RIMG	northeuralex	SWIM	-
+r̥ɨprɟ	r̥ɨprɟ	RIPRG	northeuralex	BRING	-
+siɟ	siɟ	SIG	northeuralex	WHAT	-
+slovo	slovo	SLOBO	northeuralex	WORD	-
+srɪedæ	srɪedæ	SRIEDA	northeuralex	WEDNESDAY	-
+strænæ	strænæ	STRANA	northeuralex	COUNTRY	-
+stɪeklo	stɪeklo	STIEKLO	northeuralex	GLASS	-
+subbotæ	subbotæ	SUBBOTA	northeuralex	SATURDAY	-
+særuɟ	særuɟ	SARUG	northeuralex	FILL	-
+sɪentjæbrʲ	sɪentjæbrʲ	SIENTYABR	northeuralex	SEPTEMBER	-
+tid	tid	TID	northeuralex	THUNDER (VERB)	-
+tif	tif	TIP	northeuralex	PATH OR ROAD	-
+tilf	tilf	TILP	northeuralex	AUTUMN	-
+tivlæ	tivlæ	TIBLA	northeuralex	COLD	-
+tivlæŋ	tivlæŋ	TIBLAN	northeuralex	FROST	-
+tivs	tivs	TIBS	northeuralex	LIVER	-
+tivt	tivt	TIBT	northeuralex	FROST	-
+tiɟ	tiɟ	TIG	northeuralex	THUNDER (VERB)	-
+tjo	tjo	TYO	northeuralex	SHORE OF LAKE	-
+tjomr̥	tjomr̥	TYOMR	northeuralex	LEAF	-
+tjoŋr̥	tjoŋr̥	TYONR	northeuralex	HEAD	-
+tjoŋr̥_hæɟ	tjoŋr̥hæɟ	TYONRHAG	northeuralex	COMB (VERB)	-
+tjoŋɣr̥	tjoŋɣr̥	TYONGR	northeuralex	HEAD	-
+tjoɲχ	tjoɲχ	TYONK	northeuralex	CORNER	-
+tjus	tjus	TYUS	northeuralex	MEAT	-
+tjæq	tjæq	TYAK	northeuralex	CRADLE	-
+tjæqo	tjæqo	TYAKO	northeuralex	KNIFE	-
+tjæqr̥	tjæqr̥	TYAKR	northeuralex	THREE	-
+tjær̥qc	tjær̥qc	TYARKK	northeuralex	JUMP	-
+tjær̥qt	tjær̥qt	TYARKT	northeuralex	JUMP	-
+tjæŋɡi	tjæŋgi	TYANGI	northeuralex	BOSS	-
+tloid	tloid	TLOID	northeuralex	RUN	-
+tlɨ	tlɨ	TLI	northeuralex	SKY	-
+tolf	tolf	TOLP	northeuralex	SUMMER	-
+tolæ	tolæ	TOLA	northeuralex	THICK	-
+toto	toto	TOTO	northeuralex	SILVER	-
+toŋq	toŋq	TONK	northeuralex	ELBOW	-
+toŋs	toŋs	TONS	northeuralex	VEIN	-
+toɟ	toɟ	TOG	northeuralex	CRY	-
+trovr̥	trovr̥	TROBR	northeuralex	NAIL (TOOL)	-
+tu	tu	TU	northeuralex	LAKE	-
+tuin	tuin	TUIN	northeuralex	HERE	-
+tukrux	tukrux	TUKRUK	northeuralex	FROM HERE	-
+tulks	tulks	TULKS	northeuralex	PIT (POTHOLE)	-
+tupr̥	tupr̥	TUPR	northeuralex	FEATHER	-
+tur̥toχ	tur̥toχ	TURTOK	northeuralex	HITHER (HERE TO)	-
+tus	tus	TUS	northeuralex	HERE	-
+tutχ	tutχ	TUTK	northeuralex	HITHER (HERE TO)	-
+tuɣs	tuɣs	TUGS	northeuralex	LANGUAGE	-
+tuɲ	tuɲ	TUN	northeuralex	FINGER	-
+tviɟ	tviɟ	TBIG	northeuralex	817_stop	-
+tæfc	tæfc	TAPK	northeuralex	SALT	-
+tæftiŋ	tæftiŋ	TAPTIN	northeuralex	SALT	-
+tæli	tæli	TALI	northeuralex	POUCH	-
+tælvæ	tælvæ	TALBA	northeuralex	RAW	-
+tæmk	tæmk	TAMK	northeuralex	ARM	-
+tæp	tæp	TAP	northeuralex	BUTTERFLY	-
+tæqæɲ	tæqæɲ	TAKAN	northeuralex	FINGERNAIL	-
+tær̥	tær̥	TAR	northeuralex	BETWEEN	-
+tæɪʁæŋ	tæɪʁæŋ	TAIRAN	northeuralex	DEITY	-
+tæʁr̥	tæʁr̥	TARR	northeuralex	PATTERN	-
+tæʁs	tæʁs	TARS	northeuralex	PATTERN	-
+tɨdænk	tɨdænk	TIDANK	northeuralex	BEFORE	-
+tɨf	tɨf	TIP	northeuralex	HOUSE	-
+tɨklæ	tɨklæ	TIKLA	northeuralex	WARM	-
+tɨkɲ	tɨkɲ	TIKN	northeuralex	FINGERNAIL	-
+tɨr	tɨr	TIR	northeuralex	TABLE	-
+tɨtŋɨs	tɨtŋɨs	TITNIS	northeuralex	ROOF	-
+tɨvɨɟ	tɨvɨɟ	TIBIG	northeuralex	ENTER	-
+tɨŋz	tɨŋz	TINS	northeuralex	WEIGHT	-
+tɨŋænk	tɨŋænk	TINANK	northeuralex	BEFORE	-
+tɨɟ	tɨɟ	TIG	northeuralex	THIS	-
+tɨɟ_ɨnk	tɨɟɨnk	TIGINK	northeuralex	BEFORE	-
+tɪeqælæ	tɪeqælæ	TIEKALA	northeuralex	SOLID	-
+tɪer̥	tɪer̥	TIER	northeuralex	BRANCH	-
+tɪes	tɪes	TIES	northeuralex	BRANCH	-
+tɪeŋiloŋ	tɪeŋiloŋ	TIENILON	northeuralex	JUNE	-
+tɪeʁɟ	tɪeʁɟ	TIERG	northeuralex	ROAR (OF SEA)	-
+tʰifc	tʰifc	TIPK	northeuralex	CHAIR	-
+tʰom	tʰom	TOM	northeuralex	FAT (ORGANIC SUBSTANCE)	-
+tʰoqr̥	tʰoqr̥	TOKR	northeuralex	FIVE	-
+tʰoŋr̥	tʰoŋr̥	TONR	northeuralex	TENDON	-
+tʰoŋs	tʰoŋs	TONS	northeuralex	TENDON	-
+tʰoʁoqr̥	tʰoʁoqr̥	TOROKR	northeuralex	FIFTY	-
+tʰoχŋæ	tʰoχŋæ	TOKNA	northeuralex	ELK	-
+tʰu	tʰu	TU	northeuralex	SLED	-
+tʰuf	tʰuf	TUP	northeuralex	SMOKE (EXHAUST)	-
+tʰulf	tʰulf	TULP	northeuralex	WINTER	-
+tʰuri	tʰuri	TURI	northeuralex	BRIDGE	-
+tʰur̥	tʰur̥	TUR	northeuralex	FIRE	-
+tʰuɣr̥	tʰuɣr̥	TUGR	northeuralex	FIRE	-
+tʰuɣs	tʰuɣs	TUGS	northeuralex	BED	-
+tʰuɲ	tʰuɲ	TUN	northeuralex	POINTED	-
+tʰvɨsk	tʰvɨsk	TBISK	northeuralex	FIR	-
+tʰxur̥	tʰxur̥	TKUR	northeuralex	BED	-
+tʰxɨr̥pc	tʰxɨr̥pc	TKIRPK	northeuralex	FORGET	-
+tʰædm	tʰædm	TADM	northeuralex	SUMMIT	-
+tʰæf	tʰæf	TAP	northeuralex	AIR	-
+tʰæs	tʰæs	TAS	northeuralex	WHERE	-
+tʰætŋ	tʰætŋ	TATN	northeuralex	MORNING	-
+tʰæxtæɟ	tʰæxtæɟ	TAKTAG	northeuralex	BE ANGRY	-
+tʰæɟ	tʰæɟ	TAG	northeuralex	BREATHE	-
+tʰæɣr̥	tʰæɣr̥	TAGR	northeuralex	BETWEEN	-
+tʰɨir̥	tʰɨir̥	TIIR	northeuralex	LEFT	-
+tʰɨt	tʰɨt	TIT	northeuralex	MORNING	-
+tʰɨx	tʰɨx	TIK	northeuralex	FOREHEAD	-
+tʰɪeŋ	tʰɪeŋ	TIEN	northeuralex	COAL	-
+tʰɪeʁɟ	tʰɪeʁɟ	TIERG	northeuralex	BLOW (OF WIND)	-
+t͡svɪetok	tsvɪetok	TSBIETOK	northeuralex	FLOWER	-
+tχær̥pt	tχær̥pt	TKARPT	northeuralex	FORGET	-
+ucʰitɪelʲ	ucʰitɪelʲ	UKITIEL	northeuralex	TEACHER	-
+ulæf	ulæf	ULAP	northeuralex	ELEVATION	-
+ulŋɨf	ulŋɨf	ULNIP	northeuralex	KNOT	-
+umlæ	umlæ	UMLA	northeuralex	EVIL	-
+umɡu	umgu	UMGU	northeuralex	WOMAN	-
+umɡuoʁlæ	umguoʁlæ	UMGUORLA	northeuralex	GIRL	-
+urlæ	urlæ	URLA	northeuralex	GOOD	-
+urɨt	urɨt	URIT	northeuralex	TOGETHER	-
+ur̥	ur̥	UR	northeuralex	ISLAND	-
+uski	uski	USKI	northeuralex	PRICE	-
+utku	utku	UTKU	northeuralex	MAN	-
+utkuoʁlæ	utkuoʁlæ	UTKUORLA	northeuralex	BOY	-
+ux	ux	UK	northeuralex	NOSE	-
+uɣrɨt	uɣrɨt	UGRIT	northeuralex	TOGETHER	-
+uɣr̥	uɣr̥	UGR	northeuralex	BUTTON	-
+uɣs	uɣs	UGS	northeuralex	BUTTON	-
+uɪɣr̥	uɪɣr̥	UIGR	northeuralex	SLEEVE	-
+uɲs	uɲs	UNS	northeuralex	DISH	-
+uɲɣr̥	uɲɣr̥	UNGR	northeuralex	STAR	-
+uɲɣur̥	uɲɣur̥	UNGUR	northeuralex	STAR	-
+vid	vid	BID	northeuralex	MOVE (ONESELF)	-
+vilkæ	vilkæ	BILKA	northeuralex	FORK	-
+vir̥kɨrlæ	vir̥kɨrlæ	BIRKIRLA	northeuralex	THICK	-
+vivus	vivus	BIBUS	northeuralex	BELT	-
+vix	vix	BIK	northeuralex	NOSE	-
+vizlɨx	vizlɨx	BISLIK	northeuralex	ROOT	-
+viɟ	viɟ	BIG	northeuralex	MOVE (ONESELF)	-
+vo	vo	BO	northeuralex	VILLAGE	-
+voskrɪesɪeɲɪe	voskrɪesɪeɲɪe	BOSKRIESIENIE	northeuralex	SUNDAY	-
+voɪnæ	voɪnæ	BOINA	northeuralex	WAR	-
+vtornik	vtornik	BTORNIK	northeuralex	TUESDAY	-
+vukvuku	vukvuku	BUKBUKU	northeuralex	DARK	-
+vuvud	vuvud	BUBUD	northeuralex	CALL	-
+vuvuɟ	vuvuɟ	BUBUG	northeuralex	CALL	-
+vuɣud	vuɣud	BUGUD	northeuralex	822_put	-
+vuɣuɟ	vuɣuɟ	BUGUG	northeuralex	822_put	-
+væd	væd	BAD	northeuralex	BRAWL (FIGHT)	-
+vædud	vædud	BADUD	northeuralex	RAISE (BRING UP)	-
+vælst	vælst	BALST	northeuralex	DECEIVE	-
+væltc	væltc	BALTK	northeuralex	DECEIVE	-
+vænduɟ	vænduɟ	BANDUG	northeuralex	RAISE (BRING UP)	-
+væqi	væqi	BAKI	northeuralex	BOX	-
+væqlæ	væqlæ	BAKLA	northeuralex	BITTER	-
+væqo	væqo	BAKO	northeuralex	MERRY	-
+væqæɪ	væqæɪ	BAKAI	northeuralex	BOX	-
+værʁot	værʁot	BARROT	northeuralex	719_benoisy	-
+værʔjuɟ	værʔjuɟ	BARHYUG	northeuralex	719_benoisy	-
+vær̥	vær̥	BAR	northeuralex	TROUSERS	-
+væt	væt	BAT	northeuralex	IRON	-
+væzr̥	væzr̥	BASR	northeuralex	FENCE	-
+væɟ	væɟ	BAG	northeuralex	BRAWL (FIGHT)	-
+væɪmuk	væɪmuk	BAIMUK	northeuralex	FAMILY	-
+væχtjuɟ	væχtjuɟ	BAKTYUG	northeuralex	TEAR (SHRED)	-
+væχtud	væχtud	BAKTUD	northeuralex	TEAR (SHRED)	-
+vɨc	vɨc	BIK	northeuralex	IRON	-
+vɨlvɨlɨ	vɨlvɨlɨ	BILBILI	northeuralex	BLACK	-
+vɨlŋud	vɨlŋud	BILNUD	northeuralex	845_turnturnaround	-
+vɨlŋuɟ	vɨlŋuɟ	BILNUG	northeuralex	845_turnturnaround	-
+vɨnirɟ	vɨnirɟ	BINIRG	northeuralex	BOIL (SOMETHING)	-
+vɨpɨd	vɨpɨd	BIPID	northeuralex	905_rock	-
+vɨpɨɟ	vɨpɨɟ	BIPIG	northeuralex	905_rock	-
+vɨr̥kc	vɨr̥kc	BIRKK	northeuralex	SPOIL (BECOME SPOILED)	-
+vɨr̥kt	vɨr̥kt	BIRKT	northeuralex	SPOIL (BECOME SPOILED)	-
+vɨɣid	vɨɣid	BIGID	northeuralex	DRAG	-
+vɨɣiɟ	vɨɣiɟ	BIGIG	northeuralex	DRAG	-
+vɨɣvɨɣɟ	vɨɣvɨɣɟ	BIGBIGG	northeuralex	IMPROVE (SOMETHING)	-
+vɨɪ	vɨɪ	BII	northeuralex	BELOW OR UNDER	-
+vɨɪn	vɨɪn	BIIN	northeuralex	LOW	-
+vɨɪroχ	vɨɪroχ	BIIROK	northeuralex	DOWN	-
+vɨɪux	vɨɪux	BIIUK	northeuralex	LOW	-
+vɨɲ	vɨɲ	BIN	northeuralex	KETTLE	-
+vɪerlæ	vɪerlæ	BIERLA	northeuralex	WIDE	-
+vɪesqærlæ	vɪesqærlæ	BIESKARLA	northeuralex	POWERFUL	-
+vɪezvæχ	vɪezvæχ	BIESBAK	northeuralex	COAL	-
+ximi	ximi	KIMI	northeuralex	UP	-
+xitid	xitid	KITID	northeuralex	PICK UP	-
+xitiɟ	xitiɟ	KITIG	northeuralex	PICK UP	-
+xuɟ	xuɟ	KUG	northeuralex	LIE (REST)	-
+xɨvid	xɨvid	KIBID	northeuralex	CHOP (INTO PIECES)	-
+xɨvɟ	xɨvɟ	KIBG	northeuralex	CHOP (INTO PIECES)	-
+xɨznd	xɨznd	KISND	northeuralex	DIG	-
+xɪedrd	xɪedrd	KIEDRD	northeuralex	RUB	-
+xɪedrɟ	xɪedrɟ	KIEDRG	northeuralex	RUB	-
+xɪevæ	xɪevæ	KIEBA	northeuralex	STRING	-
+xɪevæŋ	xɪevæŋ	KIEBAN	northeuralex	STRING	-
+xɪezɟ	xɪezɟ	KIESG	northeuralex	SAY	-
+xɪeɟ	xɪeɟ	KIEG	northeuralex	PUT ON	-
+zitc	zitc	SITK	northeuralex	SPEAK	-
+zosqc	zosqc	SOSKK	northeuralex	BREAK (DESTROY OR GET DESTROYED)	-
+zosqt	zosqt	SOSKT	northeuralex	BREAK (DESTROY OR GET DESTROYED)	-
+zoɟ	zoɟ	SOG	northeuralex	841_bow	-
+zæɟ	zæɟ	SAG	northeuralex	STRIKE (SOMETHING)	-
+zæɪd	zæɪd	SAID	northeuralex	KNOCK	-
+zɪeljonɨɪ	zɪeljonɨɪ	SIELYONII	northeuralex	GREEN	-
+æcʰim	æcʰim	AKIM	northeuralex	GRANDMOTHER	-
+æf	æf	AP	northeuralex	MOUSTACHE	-
+ælr̥	ælr̥	ALR	northeuralex	BERRY	-
+æls	æls	ALS	northeuralex	BERRY	-
+ælvɪer̥q	ælvɪer̥q	ALBIERK	northeuralex	BEHIND	-
+ælʁælʁæ	ælʁælʁæ	ALRALRA	northeuralex	COLORFUL	-
+æmræ	æmræ	AMRA	northeuralex	TASTE	-
+æmræŋ	æmræŋ	AMRAN	northeuralex	TASTE	-
+æmræɟ	æmræɟ	AMRAG	northeuralex	TASTE (SOMETHING)	-
+æmæmd	æmæmd	AMAMD	northeuralex	STEP (VERB)	-
+æmæmɟ	æmæmɟ	AMAMG	northeuralex	STEP (VERB)	-
+æntχ	æntχ	ANTK	northeuralex	GUEST	-
+ænɣi	ænɣi	ANGI	northeuralex	HEEL	-
+æpæk	æpæk	APAK	northeuralex	UNCLE	-
+ærfɪeq	ærfɪeq	ARPIEK	northeuralex	ROOSTER	-
+æri_ɤrq	æriɤrq	ARIRK	northeuralex	NORTH	-
+ærqiloŋ	ærqiloŋ	ARKILON	northeuralex	APRIL	-
+ætk	ætk	ATK	northeuralex	GRANDFATHER	-
+ætkɨcx	ætkɨcx	ATKIKK	northeuralex	GRANDFATHER	-
+ætur̥	ætur̥	ATUR	northeuralex	LID (COVER, CAP)	-
+ætæk	ætæk	ATAK	northeuralex	GRANDFATHER	-
+æu	æu	AU	northeuralex	SOUND OR NOISE	-
+ævi	ævi	ABI	northeuralex	MOUTH	-
+æx	æx	AK	northeuralex	ALREADY	-
+æzmɨcɤʁlŋ	æzmɨcɤʁlŋ	ASMIKRLN	northeuralex	BOY	-
+æŋ	æŋ	AN	northeuralex	WHO	-
+æɡ	æg	AG	northeuralex	THERE	-
+æɣrtiŋ	æɣrtiŋ	AGRTIN	northeuralex	ALWAYS	-
+æɣt	æɣt	AGT	northeuralex	BARKING	-
+æɪs	æɪs	AIS	northeuralex	GOLD	-
+æɪzŋ	æɪzŋ	AISN	northeuralex	GOLD	-
+æɲ	æɲ	AN	northeuralex	AGE	-
+æɲcɨɪ	æɲcɨɪ	ANKII	northeuralex	AGAIN	-
+æɲdjæɪ	æɲdjæɪ	ANDYAI	northeuralex	AGAIN	-
+æɲloŋ	æɲloŋ	ANLON	northeuralex	DECEMBER	-
+æχtɨnd	æχtɨnd	AKTIND	northeuralex	BELIEVE	-
+ŋif	ŋif	NIP	northeuralex	HEART	-
+ŋir	ŋir	NIR	northeuralex	CUP	-
+ŋirŋ	ŋirŋ	NIRN	northeuralex	CUP	-
+ŋoɪq	ŋoɪq	NOIK	northeuralex	EGG	-
+ŋæ	ŋæ	NA	northeuralex	ANIMAL	-
+ŋæcx	ŋæcx	NAKK	northeuralex	FOOT	-
+ŋæfq	ŋæfq	NAPK	northeuralex	FRIEND	-
+ŋælu	ŋælu	NALU	northeuralex	BAY	-
+ŋælɟ	ŋælɟ	NALG	northeuralex	GROAN	-
+ŋæmɡ	ŋæmg	NAMG	northeuralex	SEVEN	-
+ŋæmɡmχoqr̥	ŋæmgmχoqr̥	NAMGMKOKR	northeuralex	SEVENTY	-
+ŋænɣd	ŋænɣd	NANGD	northeuralex	LOOK FOR	-
+ŋæqr̥	ŋæqr̥	NAKR	northeuralex	SNOW	-
+ŋæri	ŋæri	NARI	northeuralex	SHOULDER	-
+ŋærlæ	ŋærlæ	NARLA	northeuralex	FAT (OBESE)	-
+ŋærmæɟ	ŋærmæɟ	NARMAG	northeuralex	WAIT (FOR)	-
+ŋærmɨd	ŋærmɨd	NARMID	northeuralex	WAIT (FOR)	-
+ŋærʁocloŋ	ŋærʁocloŋ	NARROKLON	northeuralex	OCTOBER	-
+ŋær̥	ŋær̥	NAR	northeuralex	BLOOD	-
+ŋæstud	ŋæstud	NASTUD	northeuralex	FAIRY TALE	-
+ŋæstund	ŋæstund	NASTUND	northeuralex	FAIRY TALE	-
+ŋætc	ŋætc	NATK	northeuralex	MEASURE	-
+ŋæur̥	ŋæur̥	NAUR	northeuralex	BRAIN	-
+ŋævd	ŋævd	NABD	northeuralex	WRAP	-
+ŋævi	ŋævi	NABI	northeuralex	NEST	-
+ŋævr̥qi	ŋævr̥qi	NABRKI	northeuralex	ODOR (SMELL)	-
+ŋævɟ	ŋævɟ	NABG	northeuralex	WRAP	-
+ŋæx	ŋæx	NAK	northeuralex	SIX	-
+ŋæxmχoqr̥	ŋæxmχoqr̥	NAKMKOKR	northeuralex	SIXTY	-
+ŋæɣri	ŋæɣri	NAGRI	northeuralex	SHOULDER	-
+ŋæɣr̥	ŋæɣr̥	NAGR	northeuralex	LEATHER	-
+ŋæɣɲ	ŋæɣɲ	NAGN	northeuralex	CHEEK	-
+ŋɨki	ŋɨki	NIKI	northeuralex	TAIL	-
+ŋɨnɟ	ŋɨnɟ	NING	northeuralex	FRY	-
+ŋɨriɟ	ŋɨriɟ	NIRIG	northeuralex	COOK (SOMETHING)	-
+ŋɨrɣɨr̥	ŋɨrɣɨr̥	NIRGIR	northeuralex	CHEST	-
+ŋɨusorkc	ŋɨusorkc	NIUSORKK	northeuralex	GRIEF	-
+ŋɨusor̥k	ŋɨusor̥k	NIUSORK	northeuralex	SAD	-
+ŋɨzit	ŋɨzit	NISIT	northeuralex	FAIRY TALE	-
+ŋɨŋɟ	ŋɨŋɟ	NING	northeuralex	HUNT	-
+ŋɨŋɡ	ŋɨŋg	NING	northeuralex	HAIR	-
+ŋɨɣr̥	ŋɨɣr̥	NIGR	northeuralex	FUR	-
+ŋɨɣs	ŋɨɣs	NIGS	northeuralex	TOOTH	-
+ŋɨɪju	ŋɨɪju	NIIYU	northeuralex	BROOK	-
+ŋɨɲf	ŋɨɲf	NINP	northeuralex	BONE	-
+ŋɨɲk	ŋɨɲk	NINK	northeuralex	FACE	-
+ŋɨɲk_nɪevs	ŋɨɲknɪevs	NINKNIEBS	northeuralex	TOWEL	-
+ŋɨɲɣlæ	ŋɨɲɣlæ	NINGLA	northeuralex	STINGY	-
+ŋɪevɟ	ŋɪevɟ	NIEBG	northeuralex	WIPE	-
+ɡæzɪetæ	gæzɪetæ	GASIETA	northeuralex	NEWSPAPER	-
+ɣukuɟ	ɣukuɟ	GUKUG	northeuralex	SHAKE	-
+ɣɪeɟ	ɣɪeɟ	GIEG	northeuralex	BUY	-
+ɤ	ɤ		northeuralex	COMB	-
+ɤkc	ɤkc	KK	northeuralex	ASK (REQUEST)	-
+ɤmqc	ɤmqc	MKK	northeuralex	856_cutoff	-
+ɤmqt	ɤmqt	MKT	northeuralex	856_cutoff	-
+ɤpc	ɤpc	PK	northeuralex	HIDE (CONCEAL)	-
+ɤpt	ɤpt	PT	northeuralex	HIDE (CONCEAL)	-
+ɤri	ɤri	RI	northeuralex	RIVER	-
+ɤrʁopc	ɤrʁopc	RROPK	northeuralex	MOVE (AFFECT EMOTIONALLY)	-
+ɤrʁopt	ɤrʁopt	RROPT	northeuralex	MOVE (AFFECT EMOTIONALLY)	-
+ɤr̥q	ɤr̥q	RK	northeuralex	SIDE	-
+ɤvd	ɤvd	BD	northeuralex	HOLD	-
+ɤvɟ	ɤvɟ	BG	northeuralex	HOLD	-
+ɤzmud	ɤzmud	SMUD	northeuralex	LOVE	-
+ɤzmuɟ	ɤzmuɟ	SMUG	northeuralex	LOVE	-
+ɤŋvk	ɤŋvk	NBK	northeuralex	FLOWER	-
+ɤɲlæuɟ	ɤɲlæuɟ	NLAUG	northeuralex	DIVE	-
+ɤɲŋæud	ɤɲŋæud	NNAUD	northeuralex	TOUCH	-
+ɤɲŋæuɟ	ɤɲŋæuɟ	NNAUG	northeuralex	TOUCH	-
+ɤʁlŋ	ɤʁlŋ	RLN	northeuralex	SON	-
+ɤʁrqæd	ɤʁrqæd	RRKAD	northeuralex	DIRT	-
+ɤʁr̥qæ	ɤʁr̥qæ	RRKA	northeuralex	DIRTY	-
+ɤʁs	ɤʁs	RS	northeuralex	THERE	-
+ɤʁæ	ɤʁæ	RA	northeuralex	COW	-
+ɤʁæŋ	ɤʁæŋ	RAN	northeuralex	COW	-
+ɤʁŋævd	ɤʁŋævd	RNABD	northeuralex	LAUGH	-
+ɤʁɡur̥	ɤʁgur̥	RGUR	northeuralex	INSTANTLY (IMMEDIATELY)	-
+ɤʁɪeʁd	ɤʁɪeʁd	RIERD	northeuralex	COUGH	-
+ɨkilæ	ɨkilæ	IKILA	northeuralex	BAD	-
+ɨkɨn	ɨkɨn	IKIN	northeuralex	BROTHER	-
+ɨlvs	ɨlvs	ILBS	northeuralex	ROOF	-
+ɨlɨ	ɨlɨ	ILI	northeuralex	ONION	-
+ɨmk	ɨmk	IMK	northeuralex	MOTHER	-
+ɨmɨk	ɨmɨk	IMIK	northeuralex	MOTHER	-
+ɨrk	ɨrk	IRK	northeuralex	ALREADY	-
+ɨrkɨr̥	ɨrkɨr̥	IRKIR	northeuralex	SHORE OF LAKE	-
+ɨrŋ	ɨrŋ	IRN	northeuralex	TIME	-
+ɨtk	ɨtk	ITK	northeuralex	FATHER	-
+ɨts	ɨts	ITS	northeuralex	LID (COVER, CAP)	-
+ɨtɨk	ɨtɨk	ITIK	northeuralex	FATHER	-
+ɨtɨkxo	ɨtɨkxo	ITIKKO	northeuralex	PARENTS	-
+ɨu	ɨu	IU	northeuralex	VOICE	-
+ɨuɟ	ɨuɟ	IUG	northeuralex	HOWL	-
+ɨvlɨx	ɨvlɨx	IBLIK	northeuralex	LIP	-
+ɨvɲ	ɨvɲ	IBN	northeuralex	OAR	-
+ɨx	ɨx	IK	northeuralex	END (OF SPACE)	-
+ɨxt	ɨxt	IKT	northeuralex	SHORE OF LAKE	-
+ɨŋɡæɪs	ɨŋgæɪs	INGAIS	northeuralex	MEAL	-
+ɨɣrhæɡin	ɨɣrhægin	IGRHAGIN	northeuralex	ALWAYS	-
+ɨɣɟ	ɨɣɟ	IGG	northeuralex	BARKING	-
+ɪeræq	ɪeræq	IERAK	northeuralex	MUSH (FOOD)	-
+ɪim	ɪim	IIM	northeuralex	FAMILIAR	-
+ɪimɟ	ɪimɟ	IIMG	northeuralex	KNOW (SOMETHING)	-
+ɪɨlɣɟ	ɪɨlɣɟ	IILGG	northeuralex	OPEN	-
+ɪɨr̥pc	ɪɨr̥pc	IIRPK	northeuralex	SHUT	-
+ɪɨtuɟ	ɪɨtuɟ	IITUG	northeuralex	COVER	-
+ɪɨtŋuɟ	ɪɨtŋuɟ	IITNUG	northeuralex	927_guard	-
+ɪɨxc	ɪɨxc	IIKK	northeuralex	937_shove	-
+ɪɨzɟ	ɪɨzɟ	IISG	northeuralex	INVITE	-
+ɪɨɣɟ	ɪɨɣɟ	IIGG	northeuralex	IRRIGATE	-
+ɪɨɪmɟ	ɪɨɪmɟ	IIIMG	northeuralex	BE ABLE	-
+ɲlæmi	ɲlæmi	NLAMI	northeuralex	HALF	-
+ɲlæɪsvælæ	ɲlæɪsvælæ	NLAISBALA	northeuralex	GREEN	-
+ɲr̥æk	ɲr̥æk	NRAK	northeuralex	ONCE (IN THE PAST)	-
+ɲr̥æŋq	ɲr̥æŋq	NRANK	northeuralex	HUNDRED	-
+ɲŋær̥	ɲŋær̥	NNAR	northeuralex	LADDER	-
+ɲɨŋ	ɲɨŋ	NIN	northeuralex	WE	-
+ɲɨɲbɪen	ɲɨɲbɪen	NINBIEN	northeuralex	NINE	-
+ɲɨɲbɪenmχoqr̥	ɲɨɲbɪenmχoqr̥	NINBIENMKOKR	northeuralex	NINETY	-
+ʁonid	ʁonid	RONID	northeuralex	DEFEND	-
+ʁoniɟ	ʁoniɟ	RONIG	northeuralex	RESCUE	-
+ʁoʁcʰŋæɪ	ʁoʁcʰŋæɪ	RORKNAI	northeuralex	PICTURE (PAINTING)	-
+ʁoʁd	ʁoʁd	RORD	northeuralex	1008_draw	-
+ʁoʁɟ	ʁoʁɟ	RORG	northeuralex	1008_draw	-
+ʁæuɟ	ʁæuɟ	RAUG	northeuralex	SWALLOW	-
+ʁævd	ʁævd	RABD	northeuralex	DRAW MILK	-
+ʁævɟ	ʁævɟ	RABG	northeuralex	DRAW MILK	-
+χotæ	χotæ	KOTA	northeuralex	TOWN	-
+χotæŋ	χotæŋ	KOTAN	northeuralex	TOWN	-
+χoɲ	χoɲ	KON	northeuralex	SHEEP	-
+χænd	χænd	KAND	northeuralex	SHOOT	-
+а	a	A	wikipron	-	-
+авсӄ	avsq	ABSK	wikipron	-	-
+авғс	avɣs	ABGS	wikipron	-	-
+авғур̌	avɣur̥	ABGUR	wikipron	-	-
+аг	aɡ	AG	wikipron	-	-
+азмыть	azmɤc	ASMK	wikipron	-	-
+азмытьэӻлӈ	azmɤceʁlŋ	ASMKERLN	wikipron	-	-
+анғи	anɣi	ANGI	wikipron	-	-
+арак	arak	ARAK	wikipron	-	-
+атим	atim	ATIM	wikipron	-	-
+ау	au	AU	wikipron	-	-
+аф	af	AP	wikipron	-	-
+ағр̌	aɣr̥	AGR	wikipron	-	-
+аӻаӄм	aʁaqm	ARAKM	wikipron	-	-
+ват	vat	BAT	wikipron	-	-
+восӄ	vosq	BOSK	wikipron	-	-
+вукс	vuks	BUKS	wikipron	-	-
+вызғалр̌	vɤzɣalr̥	BSGALR	wikipron	-	-
+выскф	vɤskf	BSKP	wikipron	-	-
+выть	vəc	BEK	wikipron	-	-
+еф	jef	YEP	wikipron	-	-
+йытӈунивх	jɤtŋuɲivx	YTNUNIBK	wikipron	-	-
+кʼлы	kʰlɤ	KL	wikipron	-	-
+кʼмый	kʰməj	KMEY	wikipron	-	-
+кер̌ӄ	ker̥q	KERK	wikipron	-	-
+кер̌ӄӈ	ker̥qŋ	KERKN	wikipron	-	-
+курӈай	kurŋaj	KURNAY	wikipron	-	-
+ла	la	LA	wikipron	-	-
+леп	lep	LEP	wikipron	-	-
+мамӻать	mamʁac	MAMRAK	wikipron	-	-
+мар̌	mar̥	MAR	wikipron	-	-
+менӈ	menŋ	MENN	wikipron	-	-
+меӄр̌	meqr̥	MEKR	wikipron	-	-
+минр̌	minr̥	MINR	wikipron	-	-
+мор̌	mor̥	MOR	wikipron	-	-
+моть	moc	MOK	wikipron	-	-
+мур	mur	MUR	wikipron	-	-
+мурӈ	murŋ	MURN	wikipron	-	-
+муғф	muɣf	MUGP	wikipron	-	-
+мӈаӄ	mŋaq	MNAK	wikipron	-	-
+мӽос	mχos	MKOS	wikipron	-	-
+мӽоу	mχou	MKOU	wikipron	-	-
+мӽоӄр̌	mχoqr̥	MKOKR	wikipron	-	-
+мӽоӈ	mχoŋ	MKON	wikipron	-	-
+намр̌	namr̥	NAMR	wikipron	-	-
+ненӈ	nenŋ	NENN	wikipron	-	-
+ненӈ	ɲenŋ	NENN	wikipron	-	-
+нео	ɲeo	NEO	wikipron	-	-
+нивх	ɲivx	NIBK	wikipron	-	-
+нивӈ	ɲivŋ	NIBN	wikipron	-	-
+ним	ɲim	NIM	wikipron	-	-
+нин	ɲin	NIN	wikipron	-	-
+нир̌	ɲir̥	NIR	wikipron	-	-
+ниу	ɲiu	NIU	wikipron	-	-
+нос	nos	NOS	wikipron	-	-
+нур̌	nur̥	NUR	wikipron	-	-
+ныкр̌	nɤkr̥	NKR	wikipron	-	-
+ныкы	nɤkɤ	NK	wikipron	-	-
+нырӈ	nɤrŋ	NRN	wikipron	-	-
+ньвор	ɲvor	NBOR	wikipron	-	-
+Ньи	ɲi	NI	wikipron	-	-
+ньлай	ɲlaj	NLAY	wikipron	-	-
+ньфат	ɲfat	NPAT	wikipron	-	-
+ньын	ɲɤn	NN	wikipron	-	-
+ньӈаӄ	ɲŋaq	NNAK	wikipron	-	-
+нян	ɲan	NAN	wikipron	-	-
+няндор̌	ɲandor̥	NANDOR	wikipron	-	-
+няндорӈ	ɲandorŋ	NANDORN	wikipron	-	-
+няр	ɲar	NAR	wikipron	-	-
+няӄр	ɲaqr	NAKR	wikipron	-	-
+няӄр̌	ɲaqr̥	NAKR	wikipron	-	-
+остол	ostol	OSTOL	wikipron	-	-
+пʼова	pʰova	POBA	wikipron	-	-
+пʼорпʼорс	pʰorpʰors	PORPORS	wikipron	-	-
+парф	parf	PARP	wikipron	-	-
+р̌	r̥	R	wikipron	-	-
+р̌аӈӷ	r̥aŋɢ	RANG	wikipron	-	-
+р̌аӈӷэӻлӈ	r̥aŋɢæʁlŋ	RANGARLN	wikipron	-	-
+тʼатӈ	tʰatŋ	TATN	wikipron	-	-
+тʼор̌	tʰor̥	TOR	wikipron	-	-
+тʼорӈ	tʰorŋ	TORN	wikipron	-	-
+тʼоӄр̌	tʰoqr̥	TOKR	wikipron	-	-
+тамк	tamk	TAMK	wikipron	-	-
+тафть	tafc	TAPK	wikipron	-	-
+тиф	tʲif	TIP	wikipron	-	-
+тот	tot	TOT	wikipron	-	-
+тоӈӄ	toŋq	TONK	wikipron	-	-
+тяӄр̌	caqr̥	KAKR	wikipron	-	-
+тёр̌	cor̥	KOR	wikipron	-	-
+тёӈр̌	coŋr̥	KONR	wikipron	-	-
+умгу	umɡu	UMGU	wikipron	-	-
+ур̌	ur̥	UR	wikipron	-	-
+урк	urk	URK	wikipron	-	-
+ут	ut	UT	wikipron	-	-
+ух	ux	UK	wikipron	-	-
+чалу	cʰalu	KALU	wikipron	-	-
+чарб	cʰarb	KARB	wikipron	-	-
+чарӈи	cʰarŋi	KARNI	wikipron	-	-
+Чока	cʰoka	KOKA	wikipron	-	-
+ызӈ	əzŋ	ESN	wikipron	-	-
+ыр̌к	ɤr̥k	RK	wikipron	-	-
+ыс	əs	ES	wikipron	-	-
+ытик	ɤtik	TIK	wikipron	-	-
+ытиксо	ɤtikso	TIKSO	wikipron	-	-
+ытс	ɤts	TS	wikipron	-	-
+ытӈунивх	ɤtŋuɲivx	TNUNIBK	wikipron	-	-
+ыу	ɤu	U	wikipron	-	-
+ыф	ɤf	P	wikipron	-	-
+ығр̌	ɤɣr̥	GR	wikipron	-	-
+эӻлӈ	eʁlŋ	ERLN	wikipron	-	-
+эӻлӈ	æʁlŋ	ARLN	wikipron	-	-
+ӄʼави	qʰavi	KABI	wikipron	-	-
+ӄʼос	qʰos	KOS	wikipron	-	-
+ӄʼотр̌	qʰotr̥	KOTR	wikipron	-	-
+ӄʼоӻӈи	qʰoʁŋi	KORNI	wikipron	-	-
+ӄан	qan	KAN	wikipron	-	-
+ӈ	ŋ	N	wikipron	-	-
+ӈазл	ŋazl	NASL	wikipron	-	-
+ӈамк	ŋamk	NAMK	wikipron	-	-
+ӈарғыр̌	ŋarɣɤr̥	NARGR	wikipron	-	-
+ӈатьх	ŋacx	NAKK	wikipron	-	-
+ӈафӄ	ŋafq	NAPK	wikipron	-	-
+ӈах	ŋax	NAK	wikipron	-	-
+ӈаўр̌	ŋawr̥	NAWR	wikipron	-	-
+ӈаӻри	ŋaʁri	NARRI	wikipron	-	-
+Ӿ	h	H	wikipron	-	-
+ӿаймӈар̌	hajmŋar̥	HAYMNAR	wikipron	-	-
+ӿағску	haɣsku	HAGSKU	wikipron	-	-
+ӿемар	hemar	HEMAR	wikipron	-	-
+ӿоло	holo	HOLO	wikipron	-	-

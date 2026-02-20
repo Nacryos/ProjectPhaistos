@@ -24,8 +24,9 @@ class Corpus:
 
 
 _PROJECT_ROOT = Path(__file__).resolve().parents[1]
+_REPO_ROOT = _PROJECT_ROOT.parent  # ProjectPhaistos top-level
 _THIRD_PARTY = _PROJECT_ROOT / "third_party"
-_ASD_DATA = _THIRD_PARTY / "ancient-scripts-datasets" / "data"
+_ASD_DATA = _REPO_ROOT / "ancient-scripts-datasets" / "data"
 _VALIDATION_DIR = _ASD_DATA / "validation"
 
 _CANONICAL_SOURCES = {
@@ -253,7 +254,7 @@ def _build_validation_corpus(branch: str, variant: Optional[str]) -> Corpus:
 
 
 def _build_gothic_default() -> Corpus:
-    source = _THIRD_PARTY / "ancient-scripts-datasets" / "data" / "gothic"
+    source = _ASD_DATA / "gothic"
     gotica_path = source / "gotica.txt"
     lost_text = _tokenize_plain_text(_read_lines(gotica_path))
     metadata = {
@@ -277,7 +278,7 @@ def _build_gothic_default() -> Corpus:
 
 
 def _build_gothic_religious() -> Corpus:
-    path = _THIRD_PARTY / "ancient-scripts-datasets" / "data" / "religious_terms" / "gothic_religious.tsv"
+    path = _ASD_DATA / "religious_terms" / "gothic_religious.tsv"
     rows = _read_tsv_with_comments(path)
     lost = [row.get("gothic_word", "").strip() for row in rows if row.get("gothic_word", "").strip()]
     english = [row.get("english_meaning", "").strip() for row in rows if row.get("gothic_word", "").strip()]
@@ -344,7 +345,7 @@ def _build_ugaritic_default() -> Corpus:
 
 
 def _build_ugaritic_religious() -> Corpus:
-    path = _THIRD_PARTY / "ancient-scripts-datasets" / "data" / "religious_terms" / "ugaritic_hebrew_religious.tsv"
+    path = _ASD_DATA / "religious_terms" / "ugaritic_hebrew_religious.tsv"
     rows = _read_tsv_with_comments(path)
     lost: List[str] = []
     heb: List[str] = []
@@ -421,7 +422,7 @@ def _build_iberian_default() -> Corpus:
 
 
 def _build_iberian_religious() -> Corpus:
-    path = _THIRD_PARTY / "ancient-scripts-datasets" / "data" / "religious_terms" / "iberian_religious.tsv"
+    path = _ASD_DATA / "religious_terms" / "iberian_religious.tsv"
     rows = _read_tsv_with_comments(path)
     # The header in this file currently starts with "3category".
     first_col = next(iter(rows[0].keys())) if rows else "category"

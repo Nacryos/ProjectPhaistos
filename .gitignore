@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Cloned source repos (large, regenerable)
+ancient-scripts-datasets/sources/
+
+# Export artifacts (regenerable)
+ancient-scripts-datasets/exports/

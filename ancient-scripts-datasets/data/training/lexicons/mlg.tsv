@@ -1,0 +1,398 @@
+Word	IPA	SCA	Source	Concept_ID	Cognate_Set_ID
+*-taN	tan	TAN	abvd	HOLD	abvd_89_tohold_55
+*abi	abi	ABI	abvd	ALL	abvd_191_all_32
+*afu	afu	APU	abvd	FIRE	abvd_143_fire_1
+*aha *i	ahai	AHAI	abvd	IF	abvd_193_if_88
+*aheT	ahet	AHET	abvd	GRASS	abvd_118_grass_34
+*ahuan	ahuan	AHUAN	abvd	HOW	abvd_194_how_70
+*aia	aia	AIA	abvd	WHERE	abvd_181_where_89
+*akuri	akuri	AKURI	abvd	HOW	abvd_194_how_76
+*ala	ala	ALA	abvd	FOREST	abvd_127_woodsforest_1
+*alem	alem	ALEM	abvd	NIGHT	abvd_167_night_20
+*ambani	ambani	AMBANI	abvd	BELOW OR UNDER	abvd_176_below_1
+*ambuni	ambuni	AMBUNI	abvd	ABOVE	abvd_175_above_2
+*aN-	an	AN	abvd	AT	abvd_173_at_22
+*anak	anak	ANAK	abvd	CHILD	abvd_56_child_1
+*andru	andru	ANDRU	abvd	DAY (NOT NIGHT)	abvd_168_day_1
+*anteT	antet	ANTET	abvd	OLD	abvd_162_old_72
+*ariwu	ariwu	ARIWU	abvd	THOUSAND	abvd_210_onethousand_5
+*ate	ate	ATE	abvd	LIVER	abvd_17_liver_1
+*atuli	atuli	ATULI	abvd	EGG	abvd_98_egg_1
+*awae	awae	AWAE	abvd	SHOULDER	abvd_19_shoulder_1
+*awe	awe	AWE	abvd	COME	abvd_7_tocome_70
+*aŋaran	aaran	AARAN	abvd	NAME	abvd_63_name_1
+*aŋateni	aateni	AATENI	abvd	IN	abvd_174_ininside_74
+*aŋin	ain	AIN	abvd	WIND	abvd_136_wind_1
+*bey	bey	BEU	abvd	BIG	abvd_153_big_46
+*bibi *lawa	bibilawa	BIBILAWA	abvd	SNAKE	abvd_106_snake_70
+*Daŋo	dao	DAO	abvd	HOUSE	abvd_61_house_18
+*dumbu	dumbu	DUMBU	abvd	BLUNT	abvd_82_dullblunt_29
+*Duuk	duuk	DUUK	abvd	BELLY	abvd_14_belly_31
+*efaT	efat	EPAT	abvd	FOUR	abvd_200_four_1
+*elaT	elat	ELAT	abvd	WING	abvd_100_wing_23
+*enem	enem	ENEM	abvd	SIX	abvd_202_six_1
+*fanjaiT	fanjait	PANYAIT	abvd	NEEDLE (FOR SEWING)	abvd_68_needle_45
+*fasi	fasi	PASI	abvd	SAND	abvd_121_sand_18
+*fehe	fehe	PEHE	abvd	FASTEN	abvd_66_totieupfasten_139
+*fia	fia	PIA	abvd	SQUEEZE	abvd_88_tosqueeze_76
+*fitu	fitu	PITU	abvd	SEVEN	abvd_203_seven_1
+*fuhe	fuhe	PUHE	abvd	SHORT	abvd_154_short_47
+*fulu	fulu	PULU	abvd	TEN	abvd_206_ten_5
+*futi	futi	PUTI	abvd	WHITE	abvd_148_white_1
+*h<um>eŋaT	humeat	HUMEAT	abvd	SHY OR ASHAMED	abvd_161_shyashamed_80
+*hafa	hafa	HAPA	abvd	OTHER	abvd_190_other_70
+*hau	hau	HAU	abvd	LOUSE	abvd_108_louse_33
+*hawanan	hawanan	HAWANAN	abvd	RIGHT	abvd_3_right_1
+*hawia	hawia	HAWIA	abvd	LEFT	abvd_2_left_1
+*hehet	hehet	HEHET	abvd	BITE	abvd_41_tobite_20
+*helaT	helat	HELAT	abvd	LIGHTNING	abvd_135_lightning_1
+*hena	hena	HENA	abvd	FLESH OR MEAT	abvd_103_meatflesh_55
+*heŋaT	heat	HEAT	abvd	SHY OR ASHAMED	abvd_161_shyashamed_80
+*hinan	hinan	HINAN	abvd	EAT	abvd_37_toeat_1
+*huDuk	huduk	HUDUK	abvd	THUNDER	abvd_134_thunder_2
+*huhi	huhi	HUHI	abvd	TAIL	abvd_105_tail_1
+*hulit	hulit	HULIT	abvd	SKIN	abvd_12_skin_1
+*i *ahai	iahai	IAHAI	abvd	WE	abvd_185_we_76
+*i *ahu	iahu	IAHU	abvd	I	abvd_182_i_1
+*i *tikaN	itikan	ITIKAN	abvd	WE	abvd_185_we_2
+*ia	ia	IA	abvd	WHO	abvd_189_who_59
+*ie	ie	IE	abvd	HE OR SHE	abvd_184_heshe_1
+*ifiT	ifit	IPIT	abvd	NARROW	abvd_158_narrow_68
+*iha	iha	IHA	abvd	THOU	abvd_183_thou_36
+*inun	inun	INUN	abvd	WHAT	abvd_188_what_61
+*irai	irai	IRAI	abvd	ONE	abvd_197_one_21
+*ire *u	ireu	IREU	abvd	THEY	abvd_187_they_1
+*iti	iti	ITI	abvd	THIS	abvd_177_this_10
+*kaiket	kaiket	KAIKET	abvd	BITE	-
+*kele	kele	KELE	abvd	SMALL	abvd_152_small_126
+*kubai	kubai	KUBAI	abvd	STICK	abvd_79_stickwood_51
+*kuDuk	kuduk	KUDUK	abvd	THUNDER	abvd_134_thunder_2
+*kuliŋ	kuli	KULI	abvd	TURN	abvd_8_toturn_96
+*lahi	lahi	LAHI	abvd	MALE PERSON	abvd_54_manmale_2
+*lalan	lalan	LALAN	abvd	PATH OR ROAD	abvd_6_roadpath_1
+*lambu	lambu	LAMBU	abvd	BACK	abvd_13_back_47
+*lawa	lawa	LAWA	abvd	LONG	abvd_155_long_27
+*lawenun	lawenun	LAWENUN	abvd	ASH	abvd_146_ashes_95
+*lawiT	lawit	LAWIT	abvd	FAR	abvd_180_far_100
+*lawu	lawu	LAWU	abvd	FALL	abvd_95_tofall_1
+*laŋit	lait	LAIT	abvd	SKY	abvd_128_sky_1
+*leeN	leen	LEEN	abvd	WET	abvd_141_wet_118
+*lela	lela	LELA	abvd	TONGUE	abvd_32_tongue_4
+*lima-m-pulu	limampulu	LIMAMPULU	abvd	FIFTY	abvd_208_fifty_1
+*lime	lime	LIME	abvd	FIVE	abvd_201_five_1
+*lu	lu	LU	abvd	ROTTEN	abvd_112_rotten_108
+*luha	luha	LUHA	abvd	HEAD	abvd_24_head_84
+*lumbu	lumbu	LUMBU	abvd	BLUNT	abvd_82_dullblunt_3
+*m-ili	mili	MILI	abvd	FLOW	abvd_123_toflow_56
+*m-inum	minum	MINUM	abvd	DRINK	abvd_40_todrink_1
+*ma-fana	mafana	MAPANA	abvd	WARM	abvd_138_warm_1
+*ma-handru	mahandru	MAHANDRU	abvd	COOK (SOMETHING)	abvd_39_tocook_102
+*ma-hilala	mahilala	MAHILALA	abvd	KNOW (SOMETHING)	abvd_20_toknowbeknowledgeable_18
+*ma-hita	mahita	MAHITA	abvd	SEE	abvd_46_tosee_1
+*ma-intem	maintem	MAINTEM	abvd	BLACK	abvd_147_black_1
+*ma-itsu	maitsu	MAITSU	abvd	GREEN	abvd_151_green_25
+*ma-lalak	malalak	MALALAK	abvd	WIDE	abvd_159_wide_27
+*ma-lutu	malutu	MALUTU	abvd	DIRTY	abvd_10_dirty_108
+*ma-nifi	manifi	MANIPI	abvd	THIN	abvd_156_thin_1
+*ma-rare	marare	MARARE	abvd	PAINFUL OR SICK	abvd_160_painfulsick_118
+*ma-tahut	matahut	MATAHUT	abvd	FEAR (BE AFRAID)	abvd_22_tofear_1
+*maiK	maik	MAIK	abvd	DRY	abvd_140_dry_113
+*maiN	main	MAIN	abvd	DRY	abvd_140_dry_113
+*mam-bule	mambule	MAMBULE	abvd	PLANT (SOMETHING)	abvd_84_toplant_1
+*mamaki	mamaki	MAMAKI	abvd	SPLIT	abvd_80_tosplit_95
+*mamu	mamu	MAMU	abvd	MOSQUITO	abvd_109_mosquito_1
+*mamunu	mamunu	MAMUNU	abvd	KILL	abvd_74_tokill_1
+*maN- + *ha-tsiaka	manhatsiaka	MANHATSIAKA	abvd	COLD	abvd_139_cold_130
+*man-dreŋe	mandree	MANDREE	abvd	HEAR	abvd_44_tohear_1
+*manampak	manampak	MANAMPAK	abvd	CUT OR HACK	abvd_78_tocuthack_25
+*mandeha	mandeha	MANDEHA	abvd	WALK	abvd_5_towalk_61
+*mandre	mandre	MANDRE	abvd	SLEEP	abvd_48_tosleep_34
+*mandrura	mandrura	MANDRURA	abvd	SPIT	abvd_36_tospit_1
+*mandua	mandua	MANDUA	abvd	VOMIT	abvd_35_tovomit_8
+*manewe	manewe	MANEWE	abvd	THICK	abvd_157_thick_26
+*manurak	manurak	MANURAK	abvd	THROW	abvd_94_tothrow_1
+*manutu	manutu	MANUTU	abvd	POUND	abvd_93_topoundbeat_20
+*masu	masu	MASU	abvd	EYE	abvd_45_eye_36
+*mate	mate	MATE	abvd	BE DEAD OR DIE	abvd_75_todiebedead_1
+*maŋ-anik	maanik	MAANIK	abvd	CLIMB	abvd_172_toclimb_1
+*maŋ-imbu	maimbu	MAIMBU	abvd	SMELL (PERCEIVE)	abvd_29_tosniffsmell_36
+*maŋ-isa	maisa	MAISA	abvd	COUNT	abvd_196_tocount_87
+*maŋ-uaT	mauat	MAUAT	abvd	YAWN	abvd_47_toyawn_19
+*maŋ-uruk	mauruk	MAURUK	abvd	SMELL (PERCEIVE)	abvd_29_tosniffsmell_120
+*maŋgali	magali	MAGALI	abvd	DIG	abvd_90_todig_1
+*maŋu-nufi	maunufi	MAUNUPI	abvd	DREAM (SOMETHING)	abvd_50_todream_1
+*mena	mena	MENA	abvd	RED	abvd_149_red_1
+*mi-aeŋ	miae	MIAE	abvd	BREATHE	abvd_28_tobreathe_23
+*mi-aiŋ	miai	MIAI	abvd	BE ALIVE	abvd_76_tolivebealive_83
+*mi-asa	miasa	MIASA	abvd	WORK (ACTIVITY)	abvd_83_towork_94
+*mi-buntiŋ	mibunti	MIBUNTI	abvd	SWELL	abvd_87_toswell_49
+*mi-h<um>an	mihuman	MIHUMAN	abvd	EAT	abvd_37_toeat_1
+*mi-hauT	mihaut	MIHAUT	abvd	SCRATCH	abvd_77_toscratch_44
+*mi-haya	mihaya	MIHAUA	abvd	HUNT	abvd_69_tohunt_87
+*mi-hehe	mihehe	MIHEHE	abvd	LAUGH	abvd_33_tolaugh_107
+*mi-huta	mihuta	MIHUTA	abvd	CHEW	abvd_38_tochew_69
+*mi-laŋu	milau	MILAU	abvd	SWIM	abvd_9_toswim_1
+*mi-nunu	minunu	MINUNU	abvd	SUCK	abvd_42_tosuck_76
+*mi-peDak	mipedak	MIPEDAK	abvd	SIT	abvd_51_tosit_163
+*mi-pili	mipili	MIPILI	abvd	CHOOSE	abvd_85_tochoose_1
+*mi-sukaT	misukat	MISUKAT	abvd	OPEN	abvd_92_toopenuncover_26
+*mi-tiuk	mitiuk	MITIUK	abvd	BLOW (OF WIND)	abvd_137_toblow_1
+*mi-tsaŋgaŋ	mitsaga	MITSAGA	abvd	STAND	abvd_52_tostand_101
+*mi-tumbu	mitumbu	MITUMBU	abvd	GROW	abvd_86_togrow_1
+*mi-wili	miwili	MIWILI	abvd	BUY	abvd_91_tobuy_1
+*muuk	muuk	MUUK	abvd	MOSQUITO	abvd_109_mosquito_1
+*nau	nau	NAU	abvd	YOU	abvd_186_you_9
+*nife	nife	NIPE	abvd	TOOTH	abvd_31_tooth_1
+*nufu	nufu	NUPU	abvd	FLESH OR MEAT	-
+*nunu	nunu	NUNU	abvd	BREAST	abvd_18_breast_3
+*raa	raa	RAA	abvd	BLOOD	abvd_23_blood_1
+*rae	rae	RAE	abvd	FATHER	abvd_60_father_22
+*rahun	rahun	RAHUN	abvd	CLOUD	abvd_131_cloud_1
+*rantsaŋ	rantsa	RANTSA	abvd	BRANCH	abvd_113_branch_63
+*ranu	ranu	RANU	abvd	WATER	abvd_122_water_10
+*rati	rati	RATI	abvd	BAD OR EVIL	abvd_165_badevil_116
+*rawen	rawen	RAWEN	abvd	LEAF	abvd_114_leaf_1
+*raŋit	rait	RAIT	abvd	SHARP	abvd_81_sharp_43
+*rene	rene	RENE	abvd	MOTHER	abvd_59_mother_1
+*riwut	riwut	RIWUT	abvd	WIND	abvd_136_wind_24
+*ru	ru	RU	abvd	TWO	abvd_198_two_1
+*rua-m-pulu	ruampulu	RUAMPULU	abvd	TWENTY	abvd_207_twenty_3
+*seDuk	seduk	SEDUK	abvd	SMOKE (EXHAUST)	abvd_145_smoke_90
+*si	si	SI	abvd	AND	abvd_192_and_66
+*sira	sira	SIRA	abvd	SALT	abvd_125_salt_1
+*siwe	siwe	SIWE	abvd	NINE	abvd_205_nine_5
+*sua	sua	SUA	abvd	GOOD	abvd_164_good_138
+*suruk	suruk	SURUK	abvd	SHOULDER	-
+*t<um>aŋis	tumais	TUMAIS	abvd	CRY	abvd_34_tocry_1
+*tafu	tafu	TAPU	abvd	THATCH OR ROOF	abvd_62_thatchroof_15
+*tali	tali	TALI	abvd	ROPE	abvd_65_rope_1
+*taliŋe	talie	TALIE	abvd	EAR	abvd_43_ear_1
+*talukut	talukut	TALUKUT	abvd	BACK	abvd_13_back_1
+*tane	tane	TANE	abvd	EARTH (SOIL)	abvd_119_earthsoil_1
+*taulaŋ	taula	TAULA	abvd	BONE	abvd_15_bone_1
+*taun	taun	TAUN	abvd	YEAR	abvd_169_year_1
+*tawe	tawe	TAWE	abvd	FAT (ORGANIC SUBSTANCE)	abvd_104_fatgrease_23
+*taŋan	taan	TAAN	abvd	HAND	abvd_1_hand_18
+*telu	telu	TELU	abvd	THREE	abvd_199_three_1
+*ti	ti	TI	abvd	NO OR NOT	abvd_195_nonot_68
+*tifi	tifi	TIPI	abvd	THIN	abvd_156_thin_1
+*tiliŋ	tili	TILI	abvd	FLY (MOVE THROUGH AIR)	abvd_101_tofly_97
+*tinai	tinai	TINAI	abvd	INTESTINES	abvd_16_intestines_1
+*tsitsiN	tsitsin	TSITSIN	abvd	COLD	abvd_139_cold_131
+*tuu	tuu	TUU	abvd	CORRECT (RIGHT)	abvd_166_correcttrue_6
+*uleT	ulet	ULET	abvd	WORM	abvd_107_wormearthworm_36
+*ulun	ulun	ULUN	abvd	PERSON	abvd_53_personhumanbeing_17
+*umbian	umbian	UMBIAN	abvd	WHEN	abvd_170_when_86
+*uran	uran	URAN	abvd	RAIN (PRECIPITATION)	abvd_133_rain_1
+*uru	uru	URU	abvd	BURN	abvd_144_toburn_98
+*uruŋ	uru	URU	abvd	NOSE	abvd_27_nose_1
+*uwian	uwian	UWIAN	abvd	WHEN	abvd_170_when_86
+*wahaT	wahat	WAHAT	abvd	ROOT	abvd_115_root_2
+*walawu	walawu	WALAWU	abvd	RAT	abvd_102_rat_1
+*wali	wali	WALI	abvd	HUSBAND	abvd_57_husband_88
+*walu	walu	WALU	abvd	EIGHT	abvd_204_eight_3
+*wasiaŋ	wasia	WASIA	abvd	STAR	abvd_130_star_90
+*watu	watu	WATU	abvd	STONE	abvd_120_stone_1
+*wau	wau	WAU	abvd	NEW	abvd_163_new_1
+*wawa	wawa	WAWA	abvd	MOUTH	abvd_30_mouth_1
+*wawe	wawe	WAWE	abvd	FEMALE PERSON	abvd_55_womanfemale_1
+*welum	welum	WELUM	abvd	BE ALIVE	abvd_76_tolivebealive_11
+*wua	wua	WUA	abvd	FRUIT	abvd_117_fruit_1
+*wulan	wulan	WULAN	abvd	MOON	abvd_129_moon_1
+*wulu	wulu	WULU	abvd	HAIR	abvd_26_hair_31
+*wuni	wuni	WUNI	abvd	HIDE	abvd_171_tohide_1
+*wuruŋ	wuru	WURU	abvd	BIRD	abvd_97_bird_17
+*wuwuk	wuwuk	WUWUK	abvd	DUST	abvd_11_dust_56
+*wuyuŋ	wuyu	WUUU	abvd	NECK	abvd_25_neck_131
+*wuŋe	wue	WUE	abvd	FLOWER	abvd_116_flower_1
+*yaiT	yait	UAIT	abvd	SEW	abvd_67_tosew_2
+*yatuh	yatuh	UATUH	abvd	HUNDRED	abvd_209_onehundred_4
+*yawun	yawun	UAWUN	abvd	FOG	abvd_132_fog_27
+ababe	ababe	ABABE	wikipron	-	-
+abahana	baːn	BAN	wikipron	-	-
+abahana	ə̥bahə̥nə̥	EBAHENE	wikipron	-	-
+abaribary	abaɾibaɾʲ	ABARIBAR	wikipron	-	-
+abidy	abidʲ	ABID	wikipron	-	-
+abily	abilʲ	ABIL	wikipron	-	-
+aboretaka	abuɾetakạ	ABURETAK	wikipron	-	-
+adala	adalạ	ADAL	wikipron	-	-
+adana	ad	AD	wikipron	-	-
+adary	adaɾʲ	ADAR	wikipron	-	-
+adiady	adiadʲ	ADIAD	wikipron	-	-
+adiditra	adidit͡ʂạ	ADIDIT	wikipron	-	-
+adidy	adidʲ	ADID	wikipron	-	-
+adilotra	adilut͡ʂạ	ADILUT	wikipron	-	-
+adina	adinạ	ADIN	wikipron	-	-
+adiny	adinʲ	ADIN	wikipron	-	-
+adisanina	adisaninạ	ADISANIN	wikipron	-	-
+adonadona	adunadunạ	ADUNADUN	wikipron	-	-
+ady	adʲ	AD	wikipron	-	-
+afafa	afafạ	APAP	wikipron	-	-
+afafy	afafʲ	APAP	wikipron	-	-
+afahy	afaʔʲ	APAH	wikipron	-	-
+afaitra	afait͡ʂạ	APAIT	wikipron	-	-
+afaka	afakạ	APAK	wikipron	-	-
+afakampitso	afakaᵐpit͡sʷ	APAKAPIS	wikipron	-	-
+afakomaly	afakumalʲ	APAKUMAL	wikipron	-	-
+afatotra	afatut͡ʂạ	APATUT	wikipron	-	-
+afatra	afat͡ʂạ	APAT	wikipron	-	-
+afioka	afiukạ	APIUK	wikipron	-	-
+afo	afʷ	AP	wikipron	-	-
+afofandiovana	afufaⁿdiuvanạ	APUPADIUBAN	wikipron	-	-
+afokasoka	afukasukạ	APUKASUK	wikipron	-	-
+afonafona	afunafunạ	APUNAPUN	wikipron	-	-
+afondolo	afuⁿdulʷ	APUDUL	wikipron	-	-
+aforano	afuɾanʷ	APURAN	wikipron	-	-
+afotana	afutanạ	APUTAN	wikipron	-	-
+afotroa	afut͡ʂuạ	APUTU	wikipron	-	-
+afovato	afuvatʷ	APUBAT	wikipron	-	-
+afovoany	afuvuanʲ	APUBUAN	wikipron	-	-
+afoy	afuʲ	APU	wikipron	-	-
+afy	afʲ	AP	wikipron	-	-
+ahady	aʔadʲ	AHAD	wikipron	-	-
+ahaingo	aʔaiᵑɡʲʷ	AHAIG	wikipron	-	-
+ahanahana	aʔanaʔanạ	AHANAHAN	wikipron	-	-
+ahiahy	aʔiaʔʲ	AHIAH	wikipron	-	-
+ahidrano	aʔiɖ͡ʐanʷ	AHIDAN	wikipron	-	-
+ahimaina	aʔimainạ	AHIMAIN	wikipron	-	-
+ahitra	aʔit͡ʂạ	AHIT	wikipron	-	-
+aholo	aʔulʷ	AHUL	wikipron	-	-
+ahonahona	aʔunaʔunạ	AHUNAHUN	wikipron	-	-
+ahy	aʔi	AHI	wikipron	-	-
+aiay	ajaj	AYAY	wikipron	-	-
+aidina	aidinạ	AIDIN	wikipron	-	-
+ainginaingina	aiᵑɡinaiᵑɡinạ	AIGINAIGIN	wikipron	-	-
+aingitraingitra	aiᵑɡit͡ʂaiᵑɡit͡ʂạ	AIGITAIGIT	wikipron	-	-
+akanakana	akanakanạ	AKANAKAN	wikipron	-	-
+akanga	akaᵑɡạ	AKAG	wikipron	-	-
+akanjo	akaⁿd͡zʷ	AKAS	wikipron	-	-
+akarenjy	akaɾeⁿd͡zʲ	AKARES	wikipron	-	-
+akatra	akat͡ʂạ	AKAT	wikipron	-	-
+akimpy	akiᵐpʲ	AKIP	wikipron	-	-
+akio	akiʷ	AKI	wikipron	-	-
+akisa	akisạ	AKIS	wikipron	-	-
+akofa	akufạ	AKUP	wikipron	-	-
+akohokely	akuhukelʲ	AKUHUKEL	wikipron	-	-
+ala	ala	ALA	wikipron	-	-
+alazy	alazʲ	ALAS	wikipron	-	-
+alika	alika	ALIKA	wikipron	-	-
+amalona	amalunḁ	AMALUN	wikipron	-	-
+amboa	aᵐbua	ABUA	wikipron	-	-
+amboadia	aᵐbuadiạ	ABUADI	wikipron	-	-
+amboahaolo	aᵐbuaʔaulʷ	ABUAHAUL	wikipron	-	-
+amboanala	aᵐbuanalạ	ABUANAL	wikipron	-	-
+ampaha	aᵐpaʔḁ	APAH	wikipron	-	-
+ampondra	aᵐpuⁿɖ͡ʐa	APUDA	wikipron	-	-
+ampongabendanitra	aᵐpuᵑɡabeⁿdanit͡ʂḁ	APUGABEDANIT	wikipron	-	-
+ampongy	aᵐpuᵑɡi	APUGI	wikipron	-	-
+andevokorova	aⁿdevukuɾuvạ	ADEBUKURUB	wikipron	-	-
+andriana	aⁿɖ͡ʐena	ADENA	wikipron	-	-
+andriana	aⁿɖ͡ʐiana	ADIANA	wikipron	-	-
+anglisy	ãŋɡliʂ	NGLIS	wikipron	-	-
+anoratana	ənuɽətənə	ENURETENE	wikipron	-	-
+Antananarivo	ə̥ntə̥naⁿd͡ʐivʷ	ENTENADIB	wikipron	-	-
+antsangy	aⁿt͡saᵑɡi	ASAGI	wikipron	-	-
+aositrisy	osit͡ʂisʲ	OSITIS	wikipron	-	-
+avaratra	avaɾat͡ʂạ	ABARAT	wikipron	-	-
+babakoto	babakutu	BABAKUTU	wikipron	-	-
+balaonina	baloninḁ	BALONIN	wikipron	-	-
+bibibiby	bibibibʲ	BIBIBIB	wikipron	-	-
+bibikely	bibikelʲ	BIBIKEL	wikipron	-	-
+bibilava	bibʲlav	BIBLAB	wikipron	-	-
+biriky	biɾikʲ	BIRIK	wikipron	-	-
+diakona	diakunạ	DIAKUN	wikipron	-	-
+dite	dite	DITE	wikipron	-	-
+ditra	dit͡ʂạ	DIT	wikipron	-	-
+elefanta	elefaⁿta	ELEPATA	wikipron	-	-
+endrika	eᶯɖ͡ʐika	EDIKA	wikipron	-	-
+endrina	eᶯɖ͡ʐina	EDINA	wikipron	-	-
+engana	eᵑɡana	EGANA	wikipron	-	-
+faitra	fait͡ʂạ	PAIT	wikipron	-	-
+fala	fala	PALA	wikipron	-	-
+fana	fana	PANA	wikipron	-	-
+fanihy	faniʔi	PANIHI	wikipron	-	-
+fanontany	fanuⁿtanʲ	PANUTAN	wikipron	-	-
+fantatra	faⁿtat͡ʂạ	PATAT	wikipron	-	-
+farara	faɾaɾạ	PARAR	wikipron	-	-
+farihy	faɾihi	PARIHI	wikipron	-	-
+fary	farʲ	PAR	wikipron	-	-
+firaka	firəkə̥	PIREKE	wikipron	-	-
+fivoriana	fivurʲanạ	PIBURAN	wikipron	-	-
+frantsay	frantsaj	PRANTSAY	wikipron	-	-
+gidro	ɡiɖ͡ʐu	GIDU	wikipron	-	-
+goaika	ɡuaikʲa	GUAIKA	wikipron	-	-
+hetsi	het͡si	HESI	wikipron	-	-
+hidirôzenina	ʔidiɾôzeninḁ	HIDIRSENIN	wikipron	-	-
+hoala	ʔualạ	HUAL	wikipron	-	-
+horita	urit	URIT	wikipron	-	-
+isoratana	isuratana	ISURATANA	wikipron	-	-
+ividiana	ividen	IBIDEN	wikipron	-	-
+jejy	d͡zed͡zʲ	SES	wikipron	-	-
+jery	d͡zɛrʲ	SER	wikipron	-	-
+karaoty	kaɾotʲ	KAROT	wikipron	-	-
+karibonetra	kaɾibunet͡ʂḁ	KARIBUNET	wikipron	-	-
+kilema	kilema	KILEMA	wikipron	-	-
+kiraru	kilaru	KILARU	wikipron	-	-
+kolejy	kuled͡zʲ	KULES	wikipron	-	-
+konseritra	kunseɾit͡ʂḁ	KUNSERIT	wikipron	-	-
+lakolosy	lakulusʲ	LAKULUS	wikipron	-	-
+laposety	lapusetʲ	LAPUSET	wikipron	-	-
+lasosy	lasusʲ	LASUS	wikipron	-	-
+ma-wesaT	mawesat	MAWESAT	abvd	HEAVY	abvd_142_heavy_1
+Madagasikara	madaɡasikʲara	MADAGASIKARA	wikipron	-	-
+maky	makʲ	MAK	wikipron	-	-
+manoratra	manurat͡ʂa	MANURATA	wikipron	-	-
+maŋgalaT	magalat	MAGALAT	abvd	STEAL	abvd_73_tosteal_57
+mi-teŋe	mitee	MITEE	abvd	SAY	abvd_64_tosay_52
+miaraka	merək	MEREK	wikipron	-	-
+misoratra	misurat͡ʂa	MISURATA	wikipron	-	-
+mitsoka	mit͡sukạ	MISUK	wikipron	-	-
+mozika	muzikʲḁ	MUSIK	wikipron	-	-
+nify	nifʲ	NIP	wikipron	-	-
+N̈	ŋ	N	wikipron	-	-
+orona	uɾunḁ	URUN	wikipron	-	-
+osy	usʲ	US	wikipron	-	-
+paoma	paumạ	PAUM	wikipron	-	-
+papango	papaᵑɡu	PAPAGU	wikipron	-	-
+rafiky	rafiki	RAPIKI	wikipron	-	-
+rambo	ɾaᵐbʷ	RAB	wikipron	-	-
+sahona	saun	SAUN	wikipron	-	-
+Sakamasay	sakamasai	SAKAMASAI	wikipron	-	-
+Sakave	sakave	SAKABE	wikipron	-	-
+salama	salamə̥	SALAME	wikipron	-	-
+saosisy	sosisʲ	SOSIS	wikipron	-	-
+sendrasendra	seⁿd͡ʐaseⁿdʐa	SEDASEDA	wikipron	-	-
+siN	sin	SIN	abvd	BACK	abvd_13_back_47
+sivy	sivʲ	SIB	wikipron	-	-
+sodina	sudina	SUDINA	wikipron	-	-
+solo	sulu	SULU	wikipron	-	-
+sombily	suᵐbili	SUBILI	wikipron	-	-
+sorabe	surabe	SURABE	wikipron	-	-
+soratra	surat͡ʂa	SURATA	wikipron	-	-
+tanety	taneti	TANETI	wikipron	-	-
+taratra	taɾat͡ʂḁ	TARAT	wikipron	-	-
+tiorka	tiuɾkạ	TIURK	wikipron	-	-
+tsidiala	tsidiala	TSIDIALA	wikipron	-	-
+tsy	tsi	TSI	wikipron	-	-
+tsy	tsʲ	TS	wikipron	-	-
+vaovao	vawvaw	BAWBAW	wikipron	-	-
+vaovao	vovo	BOBO	wikipron	-	-
+varika	varika	BARIKA	wikipron	-	-
+vary	varʲ	BAR	wikipron	-	-
+vehivavy	vehivavi	BEHIBABI	wikipron	-	-
+veloma	velumə̥	BELUME	wikipron	-	-
+vivy	vivʲ	BIB	wikipron	-	-
+voanio	vʷanʲu̥	BANU	wikipron	-	-
+voanjo	vʷaⁿd͡zʷ	BAS	wikipron	-	-
+voasoratra	vosurat͡ʂa	BOSURATA	wikipron	-	-
+voasoratra	vuasurat͡ʂa	BUASURATA	wikipron	-	-
+voay	vuaj	BUAY	wikipron	-	-
+volo	vulʷ	BUL	wikipron	-	-
+voromahery	vuɾumaʔeɾʲ	BURUMAHER	wikipron	-	-
+vorombato	vuɾuᵐbatʷ	BURUBAT	wikipron	-	-
+vorombola	vuɾuᵐbulḁ	BURUBUL	wikipron	-	-
+vorona	vuɾunḁ	BURUN	wikipron	-	-
+vozona	vuzunạ	BUSUN	wikipron	-	-
+zamany	zamani	SAMANI	wikipron	-	-
+zanabolana	zanabulanḁ	SANABULAN	wikipron	-	-
+zavamaneno	zavamanenʷ	SABAMANEN	wikipron	-	-

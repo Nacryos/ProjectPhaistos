@@ -1,3 +1,1 @@
-# Large training/validation TSV files tracked via Git LFS
-data/training/validation/**/*.tsv filter=lfs diff=lfs merge=lfs -text
-data/training/validation/*.tsv filter=lfs diff=lfs merge=lfs -text
+# LFS tracking removed — fork cannot upload LFS objects

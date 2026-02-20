@@ -1,16 +1,16 @@
 ISO	Family	Glottocode	Entries	Sources
-rus	balto_slavic	russ1263	411125	wikipron
-por	italic	port1283	201945	wikipron
+rus	balto_slavic	russ1263	412134	northeuralex,wikipron
+por	italic	port1283	203068	northeuralex,wikipron
 zho	sino_tibetan	mand1415	159038	wikipron
 fin	uralic	finn1318	158400	northeuralex,wikipron
-pol	balto_slavic	poli1260	130133	wikipron
+pol	balto_slavic	poli1260	131170	northeuralex,wikipron
 grc	hellenic	anci1242	119462	wikipron
-spa	italic	stan1288	116648	wikipron
+spa	italic	stan1288	117660	northeuralex,wikipron
 eng	germanic	stan1293	111862	northeuralex,wikipron,wold
 yue	sino_tibetan	yuec1235	102881	wikipron
 fra	italic	stan1290	81198	northeuralex,wikipron
 ita	italic	ital1282	80406	northeuralex,wikipron
-vie	austroasiatic	viet1252	71686	wikipron
+vie	austroasiatic	viet1252	73098	wikipron,wold
 lat	italic	lati1261	66316	northeuralex,wikipron
 hun	uralic	hung1274	63280	northeuralex,wikipron
 mkd	balto_slavic	mace1250	62051	wikipron
@@ -19,78 +19,80 @@ hbs	balto_slavic	serb1264	47414	wikipron
 ces	balto_slavic	czec1258	44472	northeuralex,wikipron
 bul	balto_slavic	bulg1262	43334	northeuralex,wikipron
 nld	germanic	dutc1256	42414	northeuralex,wikipron,wold
-ukr	balto_slavic	ukra1253	39517	wikipron
+ukr	balto_slavic	ukra1253	40561	northeuralex,wikipron
 jpn	japonic	nucl1643	36411	northeuralex,wikipron,wold
 hye	armenian	nucl1235	31737	northeuralex,wikipron
 kor	koreanic	kore1280	26774	northeuralex,wikipron
 hin	indo_iranian	hind1269	26634	northeuralex,wikipron
 ang	germanic	olde1238	22094	wikipron
 cym	celtic	wels1247	21820	northeuralex,wikipron
+tgl	austronesian	taga1270	18556	abvd,wikipron
+tha	tai_kadai	thai1261	18504	wikipron,wold
 mlt	semitic	malt1254	18353	wikipron
 kat	kartvelian	nucl1302	18320	northeuralex,wikipron
-tgl	austronesian	taga1270	17909	wikipron
-tha	tai_kadai	thai1261	16689	wikipron
 ell	hellenic	mode1248	16195	northeuralex,wikipron
 gle	celtic	iris1253	15372	northeuralex,wikipron
+san	indo_iranian	sans1269	13390	wikipron
 ara	semitic	arab1395	13339	wikipron
-san	indo_iranian	sans1269	12907	wikipron
 isl	germanic	icel1247	10873	northeuralex,wikipron
 ben	indo_iranian	beng1280	10580	northeuralex,wikipron
 enm	germanic	midd1317	10523	wikipron
 eus	isolates	basq1248	9072	northeuralex,wikipron
+ron	italic	roma1327	8892	northeuralex,wikipron,wold
+tur	turkic	nucl1301	8282	northeuralex,wikipron
 mal	dravidian	mala1464	8066	northeuralex,wikipron
 ido	constructed	idoo1234	7989	wikipron
+tam	dravidian	tami1289	7846	northeuralex,wikipron
 izh	uralic	ingr1248	7561	wikipron
-tur	turkic	nucl1301	7221	wikipron
-tam	dravidian	tami1289	6903	wikipron
 ind	austronesian	indo1316	6873	abvd,wikipron,wold
 bel	balto_slavic	bela1254	6550	northeuralex,wikipron
 syc	semitic	clas1252	6319	wikipron
 khm	austroasiatic	cent1989	6302	wikipron
 mya	sino_tibetan	nucl1310	6075	wikipron
-ron	italic	roma1327	6056	wikipron
 ady	northwest_caucasian	adyg1241	6046	northeuralex,wikipron
+slv	balto_slavic	slov1268	5882	northeuralex,wikipron
+swe	germanic	swed1254	5726	northeuralex,wikipron
 dan	germanic	dani1285	5650	northeuralex,wikipron
 bcl	austronesian	cent2004	5356	abvd,wikipron
+sme	uralic	nort2671	5169	northeuralex,wikipron
+yor	atlantic_congo	yoru1245	5106	wikipron
 glg	italic	gali1258	5015	wikipron
-yor	atlantic_congo	yoru1245	4850	wikipron
-slv	balto_slavic	slov1268	4777	wikipron
-nno	germanic	norw1262	4675	wikipron
-swe	germanic	swed1254	4614	wikipron
+nno	germanic	norw1262	4676	wikipron
 aii	semitic	assy1241	4543	wikipron
 urd	indo_iranian	urdu1245	4493	wikipron
+tel	dravidian	telu1262	4222	northeuralex,wikipron
 msa	austronesian	stan1306	4181	wikipron
 lao	tai_kadai	laoo1244	4180	wikipron
-sme	uralic	nort2671	4094	wikipron
 egy	egyptian	egyp1253	4046	wikipron
 ltz	germanic	luxe1241	4002	wikipron
 epo	constructed	espe1235	3947	wikipron
 dsb	balto_slavic	lowe1385	3807	wikipron,wold
+slk	balto_slavic	slov1269	3668	northeuralex,wikipron
 yid	germanic	yidd1255	3572	wikipron
 mon	mongolic	mong1331	3442	wikipron
 hau	afroasiatic_chadic	haus1257	3370	wikipron,wold
-tel	dravidian	telu1262	3295	wikipron
 ceb	austronesian	cebu1242	3190	abvd,wikipron
 nob	germanic	norw1259	3188	wikipron
 ajp	semitic	sout3123	3124	wikipron
 gla	celtic	scot1245	3121	wikipron
 kmr	indo_iranian	nort2641	3108	northeuralex,wikipron
-bod	sino_tibetan	clas1255	2996	sinotibetan,wikipron
+sqi	albanian	alba1268	3028	northeuralex,wikipron
 heb	semitic	hebr1245	2945	northeuralex,wikipron
 asm	indo_iranian	assa1263	2925	wikipron
 cmn	sino_tibetan	mand1415	2850	northeuralex,wold
+bod	sino_tibetan	clas1255	2699	wikipron
 mar	indo_iranian	mara1378	2681	wikipron
 mnc	tungusic	manc1252	2672	northeuralex,wikipron
-slk	balto_slavic	slov1269	2540	wikipron
+sjd	uralic	kild1236	2639	northeuralex,wikipron,wold
+lav	balto_slavic	latv1249	2521	northeuralex,wikipron
 wln	italic	wall1255	2518	wikipron
-lav	balto_slavic	latv1249	2517	northeuralex,wikipron
 kal	eskimo_aleut	kala1399	2480	northeuralex,wikipron
 shn	tai_kadai	shan1277	2455	wikipron
 nor	germanic	norw1258	2436	northeuralex,wikipron
 acw	semitic	hija1235	2252	wikipron
 haw	austronesian	hawa1245	2173	abvd,wikipron,wold
 phl	indo_iranian	phal1254	2144	wikipron
-mwo	austronesian		2139	abvd
+mwo	austronesian	cent2058	2139	abvd
 vot	uralic	voti1245	2117	wikipron
 ote	otomanguean	mezt1237	2078	wold
 guj	indo_iranian	guja1252	2058	wikipron
@@ -99,10 +101,9 @@ sga	celtic	oldi1245	2044	wikipron
 ary	semitic	moro1292	2043	wikipron
 afr	germanic	afri1274	2019	wikipron
 klj	turkic	turk1304	2001	wikipron
-sqi	albanian	alba1268	1977	wikipron
 fao	germanic	faro1244	1932	wikipron
 nep	indo_iranian	nepa1254	1926	wikipron
-nms	austronesian		1922	abvd
+nms	austronesian	lete1241	1922	abvd
 szl	balto_slavic	sile1253	1886	wikipron
 kpv	uralic	komi1268	1865	northeuralex,wikipron
 crs	creole	seyc1239	1844	wold
@@ -120,15 +121,15 @@ swh	niger_congo_bantu	swah1253	1610	wold
 aar	afroasiatic_cushitic	afar1241	1582	wikipron
 lit	balto_slavic	lith1251	1574	northeuralex,wikipron
 krl	uralic	kare1335	1531	northeuralex,wikipron
-omb	austronesian		1528	abvd
+omb	austronesian	east2443	1528	abvd
 rif	afroasiatic_berber	tari1263	1525	wold
 div	indo_iranian	dhiv1236	1524	wikipron
 bar	germanic	bava1246	1516	wikipron
 tay	austronesian	atay1247	1507	abvd
-ivv	austronesian		1496	abvd
-bzg	austronesian		1486	abvd
+ivv	austronesian	ivat1242	1496	abvd
+bzg	austronesian	babu1240	1486	abvd
 olo	uralic	livv1244	1477	northeuralex,wikipron
-dru	austronesian		1469	abvd
+dru	austronesian	ruka1240	1469	abvd
 hat	creole	hait1244	1449	wikipron
 kaz	turkic	kaza1248	1439	northeuralex,wikipron
 tbc	austronesian	taki1248	1437	abvd,wold
@@ -136,32 +137,36 @@ liv	uralic	livn1244	1424	northeuralex,wikipron
 uig	turkic	uigh1240	1418	wikipron
 knc	saharan	cent2050	1414	wold
 zha	tai_kadai	zhua1236	1399	wikipron
-upv	austronesian		1387	abvd
-ljp	austronesian		1373	abvd
+upv	austronesian	urip1239	1387	abvd
+ljp	austronesian	lamp1243	1373	abvd
 yaq	uto_aztecan	yaqu1251	1369	wold
+xal	mongolic	kalm1243	1356	northeuralex,wikipron
 mah	austronesian	rata1243	1349	abvd,wikipron
 kap	northeast_caucasian	bezh1248	1333	wold
 uby	northwest_caucasian	ubyk1235	1314	wikipron
 bua	mongolic	buri1258	1292	northeuralex,wikipron
 arn	araucanian	mapu1245	1267	wold
 pus	indo_iranian	sout2649	1252	wikipron
+yrk	uralic	tund1250	1247	northeuralex,wikipron
 evn	tungusic	even1259	1244	northeuralex,wikipron
 pan	indo_iranian	panj1256	1241	wikipron
 hrv	balto_slavic	croa1245	1220	northeuralex
 cat	italic	stan1289	1213	northeuralex,wikipron
 smj	uralic	lule1254	1192	northeuralex
-apb	austronesian		1188	abvd
-tzz	unknown		1188	wold
-bdl	austronesian		1184	abvd
+apb	austronesian	saaa1240	1188	abvd
+tzz	unknown	tzot1264	1188	wold
+bdl	austronesian	indo1317	1184	abvd
 car	cariban	gali1262	1182	wold
-mll	austronesian		1180	abvd
+mll	austronesian	malu1245	1180	abvd
 mzh	matacoan	wich1264	1179	wold
+sah	turkic	yaku1245	1174	northeuralex,wikipron
 arc	semitic	offi1241	1167	wikipron
+kik	atlantic_congo	kiku1240	1156	wikipron
 scn	italic	sici1248	1154	wikipron
 khk	mongolic	halh1238	1152	northeuralex
-kik	atlantic_congo	kiku1240	1147	wikipron
 oss	indo_iranian	osse1243	1143	northeuralex
 sco	germanic	scot1243	1142	wikipron
+sms	uralic	skol1241	1141	northeuralex,wikipron
 koi	uralic	komi1269	1132	northeuralex,wikipron
 mdf	uralic	moks1248	1124	northeuralex,wikipron
 orh	tungusic	oroq1238	1122	wold
@@ -172,7 +177,7 @@ che	northeast_caucasian	chec1245	1104	northeuralex,wikipron
 aqc	northeast_caucasian	arch1244	1101	wold
 arb	semitic	stan1318	1087	northeuralex
 bak	turkic	bash1264	1086	northeuralex,wikipron
-srm	unknown		1082	wold
+srm	unknown	sara1340	1082	wold
 mnw	austroasiatic	monn1252	1079	wikipron
 qvi	quechuan	imba1240	1075	wold
 orv	balto_slavic	oldr1238	1064	wikipron
@@ -181,14 +186,14 @@ ekk	uralic	esto1258	1057	northeuralex
 pbu	indo_iranian	nort2646	1057	northeuralex
 dar	northeast_caucasian	darg1241	1055	northeuralex
 smn	uralic	inar1241	1053	northeuralex
-pyu	austronesian		1050	abvd
+pyu	austronesian	puyu1239	1050	abvd
 sma	uralic	sout2674	1050	northeuralex
 lbe	northeast_caucasian	lakk1252	1048	northeuralex
 chv	turkic	chuv1255	1042	northeuralex
 nio	uralic	ngan1291	1023	northeuralex
 mrj	uralic	west2392	1018	northeuralex
 azj	turkic	nort2697	1017	northeuralex
-tmb	austronesian		1014	abvd
+tmb	austronesian	katb1237	1014	abvd
 ast	italic	astu1245	1010	wikipron
 tat	turkic	tata1255	1009	northeuralex
 ale	eskimo_aleut	aleu1260	1008	northeuralex,wikipron
@@ -197,9 +202,10 @@ vep	uralic	veps1250	1004	northeuralex
 ckt	chukotko_kamchatkan	chuk1273	993	northeuralex
 mhr	uralic	east2328	992	northeuralex
 mns	uralic	mans1258	992	northeuralex
-brj	austronesian		988	abvd
+brj	austronesian	bier1246	988	abvd
 jup	naduhup	hupp1235	979	wold
 pam	austronesian	kapa1256	979	abvd,wikipron
+yux	yukaghir	sout2750	977	northeuralex,wikipron
 udm	uralic	udmu1245	973	northeuralex
 gwd	afroasiatic_cushitic	gaww1239	971	wold
 lez	northeast_caucasian	lezg1247	969	northeuralex
@@ -210,17 +216,17 @@ myv	uralic	erzy1239	957	northeuralex
 ava	northeast_caucasian	avar1256	954	northeuralex
 lim	germanic	limb1263	935	wikipron
 fro	italic	oldf1239	929	wikipron
-nwi	austronesian		928	abvd
-kge	austronesian		901	abvd
-bnn	austronesian		900	abvd
-ppu	austronesian		888	abvd
+nwi	austronesian	sout2869	928	abvd
+kge	austronesian	kome1238	901	abvd
+bnn	austronesian	bunu1267	900	abvd
+ppu	austronesian	papo1239	888	abvd
 gld	tungusic	nana1257	887	northeuralex
-fos	austronesian		886	abvd
+fos	austronesian	sira1267	886	abvd
 sel	uralic	selk1253	886	northeuralex
 xho	atlantic_congo	xhos1239	875	wikipron
-llp	austronesian		874	abvd
+llp	austronesian	nort2836	874	abvd
 ddo	northeast_caucasian	tsez1241	868	northeuralex
-ahb	austronesian		867	abvd
+ahb	austronesian	axam1237	867	abvd
 pms	italic	pied1254	866	wikipron
 bsk	isolates	buru1296	863	northeuralex
 kca	uralic	khan1273	863	northeuralex
@@ -228,884 +234,865 @@ kbd	northwest_caucasian	kaba1278	858	wikipron
 ain	isolates	ainu1240	857	northeuralex
 cwg	austroasiatic	ceqw1242	854	wold
 nci	uto_aztecan	clas1258	854	wikipron
-lmu	austronesian		845	abvd
+lmu	austronesian	lame1260	845	abvd
 gue	pama_nyungan	guri1247	841	wold
-baa	austronesian		839	abvd
+baa	austronesian	baba1268	839	abvd
 enf	uralic	fore1255	838	northeuralex
 nya	atlantic_congo	nyan1308	824	wikipron
 cop	afroasiatic_egyptian	copt1239	820	wikipron
 csb	balto_slavic	kash1274	817	wikipron
 ess	eskimo_aleut	cent2127	814	northeuralex
 lij	italic	ligu1248	814	wikipron
-klv	austronesian		813	abvd
+klv	austronesian	mask1242	813	abvd
+urk	austronesian	urak1238	813	abvd,wikipron
 ykg	yukaghir	nort2745	812	northeuralex
 stq	germanic	sate1242	797	wikipron
-mqs	unknown		793	wikipron
-aul	austronesian		790	abvd
+mqs	unknown	west2600	793	wikipron
+aul	austronesian	aulu1238	790	abvd
 iba	austronesian	iban1264	763	abvd,wikipron
-lml	austronesian		757	abvd
-mwi	austronesian		743	abvd
-ckv	austronesian		742	abvd
-sns	austronesian		740	abvd
+lml	austronesian	hano1246	757	abvd
+mwi	austronesian	labo1244	743	abvd
+ckv	austronesian	kava1241	742	abvd
+sns	austronesian	sout2857	740	abvd
 jje	koreanic	jeju1234	739	wikipron
-lww	austronesian		735	abvd
-xbr	austronesian		735	abvd
-mwv	austronesian		722	abvd
+lww	austronesian	lewo1242	735	abvd
+xbr	austronesian	kamb1299	735	abvd
+mwv	austronesian	ment1249	722	abvd
 afb	semitic	gulf1241	719	wikipron
-aty	austronesian		708	abvd
-vnm	austronesian		702	abvd
+aty	austronesian	anei1239	708	abvd
+vnm	austronesian	vinm1237	702	abvd
 ban	austronesian	bali1278	696	abvd,wikipron
 tgk	indo_iranian	taji1245	696	wikipron
 tzm	afroasiatic_berber	cent1933	694	wikipron
 hil	austronesian	hili1240	692	abvd,wikipron
 srd	italic	sard1257	689	wikipron
 uun	austronesian		684	abvd
-mlx	austronesian		681	abvd
+guw	atlantic_congo	gunn1249	682	wikipron
+mlx	austronesian	malf1237	681	abvd
 pwn	austronesian	paiw1248	678	abvd
-trv	austronesian		676	abvd
-eno	austronesian		662	abvd
-guw	atlantic_congo	gunn1249	657	wikipron
+trv	austronesian	taro1264	676	abvd
+eno	austronesian	engg1245	662	abvd
 zsm	austronesian	stan1306	644	abvd
 ami	austronesian	amis1246	643	abvd
 mak	austronesian	maka1311	634	abvd,wikipron
-tlr	austronesian		618	abvd
-mxd	austronesian		617	abvd
+tlr	austronesian	tali1259	618	abvd
+mxd	austronesian	moda1244	617	abvd
 osp	italic	olds1249	614	wikipron
-lbw	austronesian		611	abvd
+lbw	austronesian	tola1247	611	abvd
 itl	chukotko_kamchatkan	itel1242	603	northeuralex
-mrs	austronesian		603	abvd
+mrs	austronesian	mara1399	603	abvd
 akk	semitic	akka1240	601	wikipron
 kaw	austronesian	kawi1241	592	wikipron
-cal	austronesian		589	abvd
-okm	koreanic	midd1372	587	wikipron
+okm	koreanic	midd1372	592	wikipron
+cal	austronesian	caro1242	589	abvd
 chk	austronesian	chuu1238	585	abvd
-vrt	austronesian		583	abvd
-atk	austronesian		579	abvd
+vrt	austronesian	burm1263	583	abvd
+atk	austronesian	atii1237	579	abvd
 oci	italic	occi1239	579	wikipron
-tnl	austronesian		577	abvd
-nij	austronesian		567	abvd
-urk	austronesian		565	wikipron
+tnl	austronesian	lena1238	577	abvd
+nij	austronesian	ngaj1237	567	abvd
 kir	turkic	kirg1245	562	wikipron
-pma	austronesian		561	abvd
-itv	austronesian		557	abvd
+pma	austronesian	paam1238	561	abvd
+itv	austronesian	itaw1240	557	abvd
 fas	indo_iranian	west2369	554	wikipron
-ane	austronesian		551	abvd
-lzl	austronesian		551	abvd
-mme	austronesian		549	abvd
-ksd	austronesian		548	abvd
-app	austronesian		544	abvd
-tnk	austronesian		544	abvd
+ane	austronesian	xara1244	551	abvd
+lzl	austronesian	litz1237	551	abvd
+mme	austronesian	maee1241	549	abvd
+ksd	austronesian	kuan1248	548	abvd
+app	austronesian	apma1240	544	abvd
+tnk	austronesian	kwam1252	544	abvd
 fij	austronesian	bauu1243	543	abvd
-woe	austronesian		543	abvd
-yly	austronesian		543	abvd
-nmb	austronesian		542	abvd
+woe	austronesian	wole1240	543	abvd
+yly	austronesian	nyal1254	543	abvd
+nmb	austronesian	bign1238	542	abvd
 fax	italic	fala1242	538	wikipron
-cir	austronesian		529	abvd
-tsu	austronesian		529	abvd
-tah	austronesian		527	abvd
+cir	austronesian	tiri1258	529	abvd
+tsu	austronesian	tsou1248	529	abvd
+tah	austronesian	tahi1242	527	abvd
 kas	indo_iranian	kash1277	524	wikipron
-jaz	austronesian		521	abvd
-nmk	austronesian		521	abvd
-bkz	austronesian		519	abvd
-bnk	austronesian		517	abvd
+jaz	austronesian	jawe1237	521	abvd
+nmk	austronesian	nama1268	521	abvd
+bkz	austronesian	bung1269	519	abvd
+bnk	austronesian	bier1244	517	abvd
 kxd	austronesian	brun1242	517	abvd,wikipron
-gri	austronesian		516	abvd
-kld	unknown		515	wikipron
-snc	austronesian		502	abvd
+gri	austronesian	ghar1239	516	abvd
+kld	unknown	gami1243	515	wikipron
+snc	austronesian	sina1266	502	abvd
 khb	tai_kadai	luuu1242	499	wikipron
-dix	austronesian		497	abvd
-mvt	austronesian		495	abvd
+dix	austronesian	dixo1238	497	abvd
+mvt	austronesian	mpot1241	495	abvd
+tyv	turkic	tuvi1240	493	wikipron
 pag	austronesian	pang1290	492	abvd,wikipron
-tyv	turkic	tuvi1240	492	wikipron
-nak	austronesian		488	abvd
+nak	austronesian	naka1262	488	abvd
 lmo	italic	lomb1257	486	wikipron
-mrb	austronesian		481	abvd
-fut	austronesian		480	abvd
-bpa	austronesian		478	abvd
-abl	austronesian		477	abvd
-bxa	austronesian		473	abvd
+mrb	austronesian	mari1426	481	abvd
+fut	austronesian	futu1245	480	abvd
+bpa	austronesian	daka1243	478	abvd
+abl	austronesian	lamp1242	477	abvd
+bxa	austronesian	baur1252	473	abvd
 cos	italic	cors1242	473	wikipron
-mrn	austronesian		472	abvd
+mrn	austronesian	chek1238	472	abvd
+tkl	austronesian	toke1240	471	abvd,wikipron
 gsw	germanic	swis1247	466	wikipron
 rar	austronesian	raro1241	464	abvd
-loc	austronesian		463	abvd
-pgk	austronesian		462	abvd
-pse	austronesian		457	abvd
-lbk	austronesian		456	abvd
-xsy	austronesian		454	abvd
-akg	austronesian		451	abvd
-onu	austronesian		450	abvd
-vao	austronesian		449	abvd
-ltg	balto_slavic	east1454	443	wikipron
-faf	austronesian		439	abvd
-hnn	austronesian		436	abvd
-sov	austronesian		435	abvd
-mrq	austronesian		434	abvd
-nsn	austronesian		434	abvd
-sxr	austronesian		434	abvd
-tvk	austronesian		432	abvd
-llu	austronesian		430	abvd
-xmz	austronesian		425	abvd
-alu	austronesian		424	abvd
-mrm	austronesian		421	abvd
-wsi	austronesian		421	abvd
-cam	austronesian		420	abvd
-mek	austronesian		418	abvd
-ibl	austronesian		417	abvd
-lpa	austronesian		417	abvd
-ski	austronesian		417	abvd
-agw	austronesian		415	abvd
-lrz	austronesian		415	abvd
-nem	austronesian		415	abvd
-tao	austronesian		414	abvd
-bgt	austronesian		413	abvd
+loc	austronesian	inon1237	463	abvd
+pgk	austronesian	rere1240	462	abvd
+pse	austronesian	cent2053	457	abvd
+lbk	austronesian	cent2292	456	abvd
+xsy	austronesian	sais1237	454	abvd
+akg	austronesian	anak1240	451	abvd
+onu	austronesian	unua1237	450	abvd
+vao	austronesian	vaoo1237	449	abvd
+ltg	balto_slavic	east1454	444	wikipron
+faf	austronesian	faga1239	439	abvd
+hnn	austronesian	hanu1241	436	abvd
+sov	austronesian	sons1242	435	abvd
+mrq	austronesian	nort2845	434	abvd
+nsn	austronesian	neha1247	434	abvd
+sxr	austronesian	saar1237	434	abvd
+tvk	austronesian	sout2859	432	abvd
+llu	austronesian	lauu1247	430	abvd
+xmz	austronesian	mori1268	425	abvd
+alu	austronesian	area1240	424	abvd
+mrm	austronesian	merl1237	421	abvd
+wsi	austronesian	wusi1237	421	abvd
+cam	austronesian	cemu1238	420	abvd
+mek	austronesian	meke1243	418	abvd
+ibl	austronesian	ibal1244	417	abvd
+lpa	austronesian	lele1267	417	abvd
+ski	austronesian	sika1262	417	abvd
+agw	austronesian	kahu1241	415	abvd
+lrz	austronesian	leme1238	415	abvd
+nem	austronesian	nemi1240	415	abvd
+nup	atlantic_congo	nupe1254	414	wikipron
+tao	austronesian	yami1254	414	abvd
+bgt	austronesian	bugh1239	413	abvd
 new	sino_tibetan	newa1246	413	wikipron
-bku	austronesian		410	abvd
-btr	austronesian		408	abvd
-nup	atlantic_congo	nupe1254	408	wikipron
-aut	austronesian		406	abvd
-sgd	austronesian		403	abvd
-sww	austronesian		402	abvd
-lgr	austronesian		399	abvd
-ace	austronesian		397	abvd
-mhz	austronesian		397	abvd
+bku	austronesian	buhi1245	410	abvd
+btr	austronesian	baet1237	408	abvd
+aut	austronesian	aust1304	406	abvd
+sgd	austronesian	suri1273	403	abvd
+sww	austronesian	sowa1244	402	abvd
+lgr	austronesian	leng1259	399	abvd
+ace	austronesian	achi1257	397	abvd
+mhz	austronesian	morm1235	397	abvd
 mlg	austronesian	plat1254	397	abvd,wikipron
-lex	austronesian		394	abvd
-sku	austronesian		392	abvd
-dob	austronesian		390	abvd
-ghn	austronesian		390	abvd
+lex	austronesian	luan1263	394	abvd
+sku	austronesian	saka1289	392	abvd
+dob	austronesian	dobu1241	390	abvd
+ghn	austronesian	ghan1242	390	abvd
 vol	constructed	vola1234	388	wikipron
-kod	austronesian		387	abvd
-sax	austronesian		385	abvd
-tqp	austronesian		385	abvd
-tvl	austronesian		385	abvd
-lgk	austronesian		384	abvd
+kod	austronesian	kodi1247	387	abvd
+sax	austronesian	saaa1241	385	abvd
+tqp	austronesian	tomo1244	385	abvd
+tvl	austronesian	tuva1244	385	abvd
+lgk	austronesian	ling1265	384	abvd
 mri	austronesian	maor1246	383	abvd
-ske	austronesian		383	abvd
+ske	austronesian	seke1241	383	abvd
 zlm	austronesian	mala1479	383	abvd
 aze	turkic	nort2697	382	wikipron
-hvn	austronesian		382	abvd
-txn	austronesian		382	abvd
+hvn	austronesian	sabu1255	382	abvd
+txn	austronesian	west2538	382	abvd
 amh	semitic	amha1245	378	wikipron
-bty	austronesian		378	abvd
-irh	austronesian		378	abvd
-mlv	austronesian		378	abvd
-psw	austronesian		378	abvd
-nur	austronesian		377	abvd
-sbl	austronesian		377	abvd
-nen	austronesian		376	abvd
-alp	austronesian		375	abvd
-dhv	austronesian		374	abvd
-mwh	austronesian		374	abvd
-mxe	austronesian		374	abvd
-erg	austronesian		372	abvd
-mnv	austronesian		372	abvd
-lga	austronesian		370	abvd
-bnf	austronesian		366	abvd
-mfb	austronesian		366	abvd
-mtt	austronesian		365	abvd
-aek	austronesian		363	abvd
-mte	austronesian		363	abvd
-pri	austronesian		363	abvd
-tdt	austronesian		363	abvd
-mlu	austronesian		362	abvd
-nee	austronesian		362	abvd
-mbq	austronesian		361	abvd
-iai	austronesian		360	abvd
+bty	austronesian	bobo1254	378	abvd
+irh	austronesian	irar1238	378	abvd
+mlv	austronesian	motl1237	378	abvd
+psw	austronesian	port1285	378	abvd
+nur	austronesian	nuku1259	377	abvd
+sbl	austronesian	boto1242	377	abvd
+nen	austronesian	neng1238	376	abvd
+alp	austronesian	alun1238	375	abvd
+dhv	austronesian	dehu1237	374	abvd
+mwh	austronesian	mouk1239	374	abvd
+mxe	austronesian	mele1250	374	abvd
+erg	austronesian	siee1239	372	abvd
+mnv	austronesian	renn1242	372	abvd
+lga	austronesian	lung1249	370	abvd
+bnf	austronesian	masi1266	366	abvd
+mfb	austronesian	bang1365	366	abvd
+mtt	austronesian	mota1237	365	abvd
+aek	austronesian	haek1239	363	abvd
+mte	austronesian	mono1273	363	abvd
+pri	austronesian	paic1239	363	abvd
+tdt	austronesian	tetu1246	363	abvd
+mlu	austronesian	toab1237	362	abvd
+nee	austronesian	kuma1276	362	abvd
+mbq	austronesian	mais1250	361	abvd
+iai	austronesian	iaai1238	360	abvd
 kos	austronesian	kosr1238	359	abvd
-pkp	austronesian		359	abvd
-aji	austronesian		358	abvd
-cia	austronesian		358	abvd
-mrl	austronesian		358	abvd
-xks	austronesian		358	abvd
+pkp	austronesian	puka1242	359	abvd
+aji	austronesian	ajie1238	358	abvd
+cia	austronesian	ciac1237	358	abvd
+mrl	austronesian	mort1237	358	abvd
+xks	austronesian	kumb1274	358	abvd
 hsb	balto_slavic	uppe1395	356	wikipron
-nmy	unknown		356	wikipron
-plw	austronesian		355	abvd
-bhw	austronesian		354	abvd
-kvr	austronesian		354	abvd
-leu	austronesian		354	abvd
-wyy	austronesian		354	abvd
+nmy	unknown	namu1246	356	wikipron
+plw	austronesian	broo1239	355	abvd
+bhw	austronesian	biak1248	354	abvd
+kvr	austronesian	keri1250	354	abvd
+leu	austronesian	kara1486	354	abvd
+wyy	austronesian	west2519	354	abvd
 tpw	tupian	tupi1273	353	wikipron
-wed	austronesian		353	abvd
-sjm	austronesian		352	abvd
-ify	austronesian		351	abvd
-myw	austronesian		351	abvd
-piz	austronesian		351	abvd
-tkw	austronesian		351	abvd
+wed	austronesian	weda1241	353	abvd
+sjm	austronesian	mapu1244	352	abvd
+ify	austronesian	kele1259	351	abvd
+myw	austronesian	muyu1244	351	abvd
+piz	austronesian	pije1237	351	abvd
+tkw	austronesian	tean1237	351	abvd
 cnk	sino_tibetan	khum1248	350	wikipron
-xnb	austronesian		350	abvd
-mnb	austronesian		349	abvd
-ues	austronesian		349	abvd
-war	austronesian		349	abvd
+xnb	austronesian	kana1286	350	abvd
+mnb	austronesian	muna1247	349	abvd
+ton	austronesian	tong1325	349	abvd,wikipron
+ues	austronesian	kiok1239	349	abvd
+war	austronesian	wara1300	349	abvd
 rap	austronesian	rapa1244	348	abvd
-vrs	austronesian		348	abvd
-bbn	atlantic_congo		346	abvd,wikipron
-fwa	austronesian		346	abvd
-lmy	austronesian		346	abvd,wikipron
-sxn	austronesian		346	abvd
-tdx	austronesian		345	abvd
-mla	austronesian		344	abvd
-hiw	austronesian		343	abvd
-hvk	austronesian		343	abvd
-khz	austronesian		343	abvd
-aia	austronesian		341	abvd
-mky	austronesian		340	abvd
-tzn	austronesian		339	abvd
+vrs	austronesian	vari1239	348	abvd
+bbn	atlantic_congo	unea1237	346	abvd,wikipron
+fwa	austronesian	fwai1237	346	abvd
+lmy	austronesian	lamb1273	346	abvd,wikipron
+sxn	austronesian	sang1336	346	abvd
+tdx	austronesian	tand1256	345	abvd
+mla	austronesian	malo1243	344	abvd
+hiw	austronesian	hiww1237	343	abvd
+hvk	austronesian	have1241	343	abvd
+khz	austronesian	keap1239	343	abvd
+aia	austronesian	aros1241	341	abvd
+mky	austronesian	east2440	340	abvd
+tzn	austronesian	tugu1245	339	abvd
 gil	austronesian	gilb1244	338	abvd
-gdd	austronesian		334	abvd
-plv	austronesian		333	abvd
-mbb	austronesian		332	abvd
-suc	austronesian		332	abvd
-uvl	austronesian		331	abvd
-tsr	austronesian		330	abvd
-nnd	austronesian		328	abvd
-sgb	austronesian		328	abvd
-tkl	austronesian	toke1240	328	wikipron
-xal	mongolic	kalm1243	328	wikipron
-met	austronesian		327	abvd
-axx	austronesian		326	abvd
-lif	sino_tibetan	limb1266	326	sinotibetan,wikipron
-msq	austronesian		325	abvd
-duf	austronesian		324	abvd
-lsi	unknown		324	wikipron
-woc	austronesian		324	abvd
-msn	austronesian		323	abvd
-sjd	uralic	kild1236	322	wikipron
+gdd	austronesian	geda1237	334	abvd
+plv	austronesian	sout2916	333	abvd
+mbb	austronesian	west2555	332	abvd
+suc	austronesian	west2557	332	abvd
+uvl	austronesian	lote1237	331	abvd
+tsr	austronesian	akei1237	330	abvd
+nnd	austronesian	west2513	328	abvd
+sgb	austronesian	maga1263	328	abvd
+met	austronesian	mato1252	327	abvd
+axx	austronesian	xara1243	326	abvd
+msq	austronesian	caac1237	325	abvd
+duf	austronesian	dumb1241	324	abvd
+lsi	unknown	lash1243	324	wikipron
+woc	austronesian	woge1237	324	abvd
+msn	austronesian	vure1239	323	abvd
 ina	constructed	inte1239	321	wikipron
-erk	austronesian		318	abvd
+erk	austronesian	sout2856	318	abvd
 mga	celtic	midd1360	317	wikipron
-lmb	austronesian		316	abvd
+lmb	austronesian	mere1242	316	abvd
 sdc	italic	sass1235	316	wikipron
-uli	austronesian		316	abvd
-asl	austronesian		314	abvd
-puw	austronesian		314	abvd
-gal	austronesian		313	abvd
-huu	unknown		313	wikipron
-lid	austronesian		313	abvd
-sml	austronesian		312	abvd
-blp	austronesian		311	abvd
+uli	austronesian	ulit1238	316	abvd
+asl	austronesian	asil1242	314	abvd
+puw	austronesian	pulu1242	314	abvd
+gal	austronesian	galo1243	313	abvd
+huu	unknown	muru1274	313	wikipron
+lid	austronesian	nyin1250	313	abvd
+sml	austronesian	cent2092	312	abvd
+blp	austronesian	blab1237	311	abvd
 nav	na_dene	nava1243	311	wikipron
-nfl	austronesian		310	abvd
-skg	austronesian		308	abvd
-mpr	austronesian		307	abvd
+nfl	austronesian	ayiw1239	310	abvd
+skg	austronesian	saka1291	308	abvd
+mpr	austronesian	vang1243	307	abvd
 pox	balto_slavic	pola1255	307	wikipron
-hts	unknown		306	wikipron
-nrz	austronesian		306	abvd
-bwd	austronesian		305	abvd
+hts	unknown	hadz1240	306	wikipron
+nrz	austronesian	lala1268	306	abvd
+bwd	austronesian	bwai1242	305	abvd
 lzz	kartvelian	lazz1240	305	wikipron
 nhg	uto_aztecan	tete1251	305	wikipron
-ilu	austronesian		304	abvd
-kdk	austronesian		304	abvd
-pop	austronesian		303	abvd
-abd	austronesian		300	abvd
-mqz	austronesian		300	abvd
-nal	austronesian		300	abvd
-sih	austronesian		299	abvd
+ilu	austronesian	iliu1237	304	abvd
+kdk	austronesian	nume1242	304	abvd
+pop	austronesian	pwap1237	303	abvd
+abd	austronesian	cama1250	300	abvd
+mqz	austronesian	mala1487	300	abvd
+nal	austronesian	nali1244	300	abvd
+sih	austronesian	zire1240	299	abvd
 arg	italic	arag1245	298	wikipron
-fud	austronesian		298	abvd
-uur	austronesian		298	abvd
-pnh	austronesian		296	abvd
+fud	austronesian	east2447	298	abvd
+uur	austronesian	urav1235	298	abvd
+pnh	austronesian	penr1237	296	abvd
 sid	afroasiatic_cushitic	sida1246	296	wikipron
 smo	austronesian	samo1305	296	abvd
-xkl	austronesian		296	abvd
-mdh	austronesian		294	abvd
-mmw	austronesian		293	abvd
+xkl	austronesian	main1275	296	abvd
+mdh	austronesian	magu1243	294	abvd
+mmw	austronesian	emae1237	293	abvd
 syl	indo_iranian	sylh1242	292	wikipron
-tgo	austronesian		292	abvd
-ssz	austronesian		291	abvd
-och	sino_tibetan	oldc1244	289	sinotibetan
+tgo	austronesian	sude1239	292	abvd
+ssz	austronesian	seng1281	291	abvd
 uzb	turkic	uzbe1247	289	wikipron
 ckb	indo_iranian	cent1972	288	wikipron
-tbf	austronesian		288	abvd
-tlx	austronesian		288	abvd
-ttv	austronesian		288	abvd
-wwo	austronesian		288	abvd
-rkh	austronesian		287	abvd
+tbf	austronesian	mand1440	288	abvd
+tlx	austronesian	kheh1237	288	abvd
+ttv	austronesian	tita1241	288	abvd
+wwo	austronesian	weta1242	288	abvd
+rkh	austronesian	raka1237	287	abvd
 cic	muskogean	chic1270	286	wikipron
-sbe	austronesian		286	abvd
+sbe	austronesian	sali1295	286	abvd
 tet	austronesian	tetu1245	286	abvd
-bgi	austronesian		285	abvd
-emi	austronesian		283	abvd
+bgi	austronesian	gian1241	285	abvd
+emi	austronesian	muss1246	283	abvd
 sin	indo_iranian	sinh1246	282	wikipron
-stn	austronesian		281	abvd
-abx	austronesian		279	abvd
-akr	austronesian		278	abvd
+stn	austronesian	owaa1237	281	abvd
+abx	austronesian	inab1237	279	abvd
+akr	austronesian	arak1252	278	abvd
 cha	austronesian	cham1312	275	abvd
-wuv	austronesian		274	abvd
-btw	austronesian		273	abvd
-ssv	austronesian		272	abvd
-qxs	sino_tibetan	mawo1239	269	sinotibetan
-txs	austronesian		269	abvd
-bca	sino_tibetan	jian1238	268	sinotibetan
-mpx	austronesian		268	abvd
-lcm	austronesian		267	abvd
-wls	austronesian		267	abvd
+wuv	austronesian	wuvu1239	274	abvd
+btw	austronesian	butu1244	273	abvd
+ssv	austronesian	shar1244	272	abvd
+txs	austronesian	tons1240	269	abvd
+mpx	austronesian	misi1243	268	abvd
+lcm	austronesian	tung1290	267	abvd
+wls	austronesian	wall1257	267	abvd
 rgn	italic	roma1328	266	wikipron
-tnp	austronesian		265	abvd
-lek	austronesian		264	abvd
+tnp	austronesian	whit1269	265	abvd
+lek	austronesian	leip1237	264	abvd
 ppl	uto_aztecan	pipi1250	264	wikipron
-ilk	austronesian		263	abvd
-duu	sino_tibetan	drun1238	262	sinotibetan
-kpg	austronesian		262	abvd
-pmt	austronesian		262	abvd
-sas	austronesian		262	abvd
-tva	austronesian		262	abvd
-nxq	sino_tibetan	naxi1245	261	sinotibetan
-ssg	austronesian		260	abvd
-gvs	austronesian		259	abvd
-jya	sino_tibetan	japh1234	259	sinotibetan
-kac	sino_tibetan	jinp1238	259	sinotibetan
-tbl	austronesian		259	abvd
-kij	austronesian		258	abvd
-mrv	austronesian		258	abvd
-msb	austronesian		257	abvd
-byq	austronesian		256	abvd
-mqn	austronesian		256	abvd
+ilk	austronesian	ilon1239	263	abvd
+kpg	austronesian	kapi1249	262	abvd
+pmt	austronesian	tuam1242	262	abvd
+sas	austronesian	sasa1249	262	abvd
+tva	austronesian	vagh1249	262	abvd
+ssg	austronesian	seim1238	260	abvd
+gvs	austronesian	guma1254	259	abvd
+tbl	austronesian	tbol1240	259	abvd
+kij	austronesian	kili1267	258	abvd
+mrv	austronesian	mang1401	258	abvd
+msb	austronesian	masb1238	257	abvd
+byq	austronesian	basa1287	256	abvd
+mqn	austronesian	moro1287	256	abvd
 dng	sino_tibetan	dung1259	255	wikipron
-wrp	austronesian		255	abvd
-yap	austronesian		255	abvd
-pmi	sino_tibetan	nort2743	254	sinotibetan
-wmh	austronesian		254	abvd
-lbq	austronesian		253	abvd
-lwl	unknown		253	wikipron
+wrp	austronesian	waro1242	255	abvd
+yap	austronesian	yape1248	255	abvd
+wmh	austronesian	waim1252	254	abvd
+lbq	austronesian	wamp1247	253	abvd
+lwl	unknown	east2330	253	wikipron
 niu	austronesian	niue1239	253	abvd
-lis	sino_tibetan	lisu1250	252	sinotibetan
-pon	austronesian		252	abvd
-tio	austronesian		252	abvd
-ray	austronesian		251	abvd
-yog	austronesian		251	abvd
-mox	austronesian		250	abvd
-pwg	austronesian		250	abvd
-nke	austronesian		249	abvd
-nrg	austronesian		249	abvd
+pon	austronesian	pohn1238	252	abvd
+tio	austronesian	teop1238	252	abvd
+ray	austronesian	rapa1245	251	abvd
+yog	austronesian	yoga1237	251	abvd
+mox	austronesian	moli1248	250	abvd
+pwg	austronesian	gapa1238	250	abvd
+nke	austronesian	duke1237	249	abvd
+nrg	austronesian	nara1263	249	abvd
 osx	germanic	olds1250	249	wikipron
-wlo	austronesian		249	abvd
-bcm	austronesian		247	abvd
-bcu	austronesian		247	abvd
-tes	austronesian		246	abvd
-bwa	austronesian		245	abvd
-alj	austronesian		244	abvd
-jmd	austronesian		244	abvd
-mrp	austronesian		244	abvd
-slm	austronesian		244	abvd
-mmg	austronesian		243	abvd
-nsw	austronesian		243	abvd
-piv	austronesian		243	abvd
-inn	austronesian		242	abvd
-rad	austronesian		242	abvd
-tiy	austronesian		242	abvd
-tkp	austronesian		242	abvd
-urv	austronesian		242	abvd
-bhp	austronesian		241	abvd
-obr	sino_tibetan	oldb1235	241	sinotibetan
-tji	sino_tibetan	nort2726	241	sinotibetan
-viv	austronesian		241	abvd
+wlo	austronesian	woli1241	249	abvd
+bcm	austronesian	bann1247	247	abvd
+bcu	austronesian	awad1244	247	abvd
+tes	austronesian	teng1272	246	abvd
+bwa	austronesian	bwat1240	245	abvd
+alj	austronesian	alan1249	244	abvd
+jmd	austronesian	yamd1240	244	abvd
+mrp	austronesian	moro1286	244	abvd
+slm	austronesian	pang1291	244	abvd
+mmg	austronesian	nort2839	243	abvd
+nsw	austronesian	navu1237	243	abvd
+piv	austronesian	pile1238	243	abvd
+inn	austronesian	isin1239	242	abvd
+rad	austronesian	rade1240	242	abvd
+tiy	austronesian	tiru1241	242	abvd
+tkp	austronesian	tiko1237	242	abvd
+urv	austronesian	urua1242	242	abvd
+bhp	austronesian	bima1247	241	abvd
+viv	austronesian	idun1242	241	abvd
 lou	creole	loui1240	240	wikipron
 non	germanic	oldn1244	240	wikipron
-tdy	austronesian		240	abvd
-yml	austronesian		240	abvd
+tdy	austronesian	tady1237	240	abvd
+yml	austronesian	iama1237	240	abvd
 blt	tai_kadai	taid1247	239	wikipron
 bug	austronesian	bugi1244	239	abvd
-meu	austronesian		238	abvd
-nlg	austronesian		238	abvd
-agn	austronesian		237	abvd
-akb	austronesian		237	abvd
-kxa	austronesian		237	abvd
-ppk	austronesian		237	abvd
-kse	austronesian		236	abvd
-mhs	austronesian		236	abvd
-akl	austronesian		235	abvd
-gay	austronesian		235	abvd
-jra	austronesian		235	abvd
-wad	austronesian		235	abvd
-sbb	austronesian		234	abvd
-atd	austronesian		233	abvd
-gzn	austronesian		233	abvd
-klr	sino_tibetan	khal1275	233	sinotibetan
-swp	austronesian		233	abvd
-yrk	uralic	tund1250	233	wikipron
-bnq	austronesian		232	abvd
-bpr	austronesian		232	abvd
-rej	austronesian		232	abvd
-rug	austronesian		232	abvd
-sne	austronesian		232	abvd
-bbc	austronesian		231	abvd
-bto	austronesian		231	abvd
-cgc	austronesian		231	abvd
-vmg	austronesian		231	abvd
-duo	austronesian		230	abvd
-klx	austronesian		230	abvd
-tft	unknown		229	wikipron
-tih	austronesian		229	abvd
-otd	austronesian		228	abvd
-vlp	austronesian		228	abvd
-yka	austronesian		228	abvd
-dtp	austronesian		227	abvd
-kmk	austronesian		227	abvd
-krj	austronesian		227	abvd
-kwh	austronesian		227	abvd
-mqy	austronesian		227	abvd
-kvc	austronesian		226	abvd
-msk	austronesian		226	abvd
-dbj	austronesian		225	abvd
-lgu	austronesian		225	abvd
-ntu	austronesian		225	abvd
-udj	austronesian		225	abvd
-dul	austronesian		224	abvd
-emb	austronesian		224	abvd
-kwf	austronesian		224	abvd
-kzi	austronesian		224	abvd
-sij	austronesian		224	abvd
-cja	austronesian		223	abvd
-kne	austronesian		223	abvd
-lih	austronesian		223	abvd
-lnd	austronesian		223	abvd
-bek	austronesian		222	abvd
-bps	austronesian		222	abvd
-kyk	austronesian		222	abvd
-mog	austronesian		222	abvd
-nau	austronesian		221	abvd
-tox	austronesian		221	abvd
-kud	austronesian		220	abvd
-pmo	austronesian		220	abvd
-rri	austronesian		220	abvd
-gfk	austronesian		219	abvd
-mhy	austronesian		219	abvd
-mwt	austronesian		219	abvd
-txe	austronesian		219	abvd
-vkl	austronesian		219	abvd
-btx	austronesian		218	abvd
+meu	austronesian	motu1246	238	abvd
+nlg	austronesian	gela1263	238	abvd
+agn	austronesian	agut1237	237	abvd
+akb	austronesian	bata1290	237	abvd
+kxa	austronesian	kair1263	237	abvd
+ppk	austronesian	umaa1242	237	abvd
+kse	austronesian	kuni1263	236	abvd
+mhs	austronesian	buru1303	236	abvd
+akl	austronesian	akla1240	235	abvd
+gay	austronesian	gayo1244	235	abvd
+jra	austronesian	jara1266	235	abvd
+wad	austronesian	wand1267	235	abvd
+sbb	austronesian	simb1256	234	abvd
+atd	austronesian	atam1240	233	abvd
+gzn	austronesian	gane1237	233	abvd
+swp	austronesian	suau1242	233	abvd
+bnq	austronesian	bant1286	232	abvd
+bpr	austronesian	koro1310	232	abvd
+rej	austronesian	reja1240	232	abvd
+rug	austronesian	rovi1238	232	abvd
+sne	austronesian	baub1235	232	abvd
+bbc	austronesian	bata1289	231	abvd
+bto	austronesian	irig1242	231	abvd
+cgc	austronesian	kaga1256	231	abvd
+vmg	austronesian	mini1251	231	abvd
+duo	austronesian	dupa1235	230	abvd
+klx	austronesian	kolu1245	230	abvd
+tft	unknown	tern1247	229	wikipron
+tih	austronesian	timu1262	229	abvd
+otd	austronesian	otda1235	228	abvd
+vlp	austronesian	valp1237	228	abvd
+yka	austronesian	yaka1277	228	abvd
+dtp	austronesian	cent2100	227	abvd
+kmk	austronesian	limo1248	227	abvd
+krj	austronesian	kina1250	227	abvd
+kwh	austronesian	kowi1239	227	abvd
+mqy	austronesian	mang1405	227	abvd
+kvc	austronesian	kove1237	226	abvd
+msk	austronesian	mans1262	226	abvd
+dbj	austronesian	idaa1241	225	abvd
+lgu	austronesian	long1395	225	abvd
+ntu	austronesian	natu1246	225	abvd
+udj	austronesian	ujir1237	225	abvd
+dul	austronesian	alab1246	224	abvd
+emb	austronesian	emba1238	224	abvd
+kwf	austronesian	kwar1239	224	abvd
+kzi	austronesian	kela1258	224	abvd
+sij	austronesian	numb1247	224	abvd
+cja	austronesian	west2650	223	abvd
+kne	austronesian	kank1243	223	abvd
+lih	austronesian	lihi1237	223	abvd
+lnd	austronesian	lund1271	223	abvd
+bek	austronesian	bebe1252	222	abvd
+bps	austronesian	sara1326	222	abvd
+kyk	austronesian	kama1363	222	abvd
+mog	austronesian	mong1342	222	abvd
+nau	austronesian	naur1243	221	abvd
+tox	austronesian	tobi1238	221	abvd
+kud	austronesian	auhe1237	220	abvd
+pmo	austronesian	pomm1237	220	abvd
+rri	austronesian	riri1237	220	abvd
+gfk	austronesian	patp1243	219	abvd
+mhy	austronesian	maan1238	219	abvd
+mwt	austronesian	moke1242	219	abvd
+txe	austronesian	toto1304	219	abvd
+vkl	austronesian	kuli1254	219	abvd
+btx	austronesian	bata1293	218	abvd
 min	austronesian	mina1268	218	abvd
-mvo	austronesian		218	abvd
-sky	austronesian		218	abvd
-slp	austronesian		218	abvd
-aie	austronesian		217	abvd
-mel	austronesian		217	abvd
-nxg	austronesian		217	abvd
-rtm	austronesian		217	abvd
+mvo	austronesian	maro1244	218	abvd
+sky	austronesian	sika1261	218	abvd
+slp	austronesian	lama1277	218	abvd
+aie	austronesian	amar1272	217	abvd
+mel	austronesian	cent2101	217	abvd
+nxg	austronesian	ngad1261	217	abvd
+rtm	austronesian	rotu1241	217	abvd
 sun	austronesian	sund1252	217	abvd
-bzb	austronesian		216	abvd
-llm	austronesian		216	abvd
-lti	austronesian		216	abvd
-tsg	austronesian		216	abvd
-wnk	austronesian		216	abvd
-aud	austronesian		215	abvd
+bzb	austronesian	andi1257	216	abvd
+llm	austronesian	lasa1237	216	abvd
+lti	austronesian	leti1246	216	abvd
+tsg	austronesian	taus1251	216	abvd
+wnk	austronesian	wanu1241	216	abvd
+aud	austronesian	anut1237	215	abvd
 dum	germanic	midd1318	215	wikipron
-kzs	austronesian		215	abvd
-kzt	austronesian		215	abvd
-pau	austronesian		215	abvd
-bhq	austronesian		214	abvd
-ill	austronesian		214	abvd
-knb	austronesian		214	abvd
-mrw	austronesian		214	abvd
-ssb	austronesian		214	abvd
-txm	austronesian		214	abvd
-bei	austronesian		213	abvd
-mad	austronesian		213	abvd
+kzs	austronesian	sugu1243	215	abvd
+kzt	austronesian	tamb1254	215	abvd
+pau	austronesian	pala1344	215	abvd
+bhq	austronesian	tuka1249	214	abvd
+ill	austronesian	iran1262	214	abvd
+knb	austronesian	lubu1243	214	abvd
+mrw	austronesian	mara1404	214	abvd
+ssb	austronesian	sout2918	214	abvd
+txm	austronesian	tomi1243	214	abvd
+bei	austronesian	beka1241	213	abvd
+mad	austronesian	nucl1460	213	abvd
 skr	indo_iranian	sara1340	213	wikipron
-smw	austronesian		213	abvd
-tlv	austronesian		213	abvd
-bzq	austronesian		212	abvd
+smw	austronesian	sumb1241	213	abvd
+tlv	austronesian	tali1262	213	abvd
+bzq	austronesian	buli1255	212	abvd
 dzo	sino_tibetan	dzon1239	212	wikipron
-gor	austronesian		212	abvd
-ojv	austronesian		212	abvd
-pmf	austronesian		212	abvd
-ssf	austronesian		212	abvd
-vnk	austronesian		212	abvd
-bjn	austronesian		211	abvd
-ibg	austronesian		211	abvd
-lgb	austronesian		211	abvd
-mln	austronesian		211	abvd
-xsi	austronesian		211	abvd
-beg	austronesian		210	abvd
+gor	austronesian	goro1259	212	abvd
+ojv	austronesian	onto1237	212	abvd
+pmf	austronesian	pamo1252	212	abvd
+ssf	austronesian	thao1240	212	abvd
+vnk	austronesian	vano1237	212	abvd
+bjn	austronesian	banj1239	211	abvd
+ibg	austronesian	iban1267	211	abvd
+lgb	austronesian	lagh1246	211	abvd
+mln	austronesian	mala1484	211	abvd
+xsi	austronesian	sioo1240	211	abvd
+beg	austronesian	bela1260	210	abvd
 grn	tupian	para1311	210	wikipron
-jax	austronesian		210	abvd
-ksx	austronesian		210	abvd
-mee	austronesian		210	abvd
+jax	austronesian	jamb1236	210	abvd
+ksx	austronesian	keda1252	210	abvd
+mee	austronesian	meng1267	210	abvd
 nds	germanic	lowg1239	210	wikipron
-rol	austronesian		210	abvd
-zbw	austronesian		210	abvd
-bkd	austronesian		209	abvd
-jae	austronesian		209	abvd
-sda	austronesian		209	abvd
-sew	austronesian		209	abvd
-atz	austronesian		208	abvd
-bny	austronesian		208	abvd
+rol	austronesian	romb1245	210	abvd
+zbw	austronesian	west2564	210	abvd
+bkd	austronesian	binu1244	209	abvd
+jae	austronesian	yabe1254	209	abvd
+sda	austronesian	tora1261	209	abvd
+sew	austronesian	sewa1251	209	abvd
+atz	austronesian	arta1239	208	abvd
+bny	austronesian	bint1246	208	abvd
 glv	celtic	manx1243	208	wikipron
-kvv	austronesian		208	abvd
-lmg	austronesian		208	abvd
+kvv	austronesian	kola1285	208	abvd
+lmg	austronesian	lamo1244	208	abvd
 ett	tyrsenian	etru1241	207	wikipron
-max	austronesian		207	abvd
-sah	turkic	yaku1245	207	wikipron
-wiv	austronesian		207	abvd
-akt	austronesian		206	abvd
-kei	austronesian		206	abvd
-los	austronesian		206	abvd
-mvn	austronesian		206	abvd
-nia	austronesian		206	abvd
-nsy	austronesian		206	abvd
-tbo	austronesian		206	abvd
-tnt	austronesian		206	abvd
-aoz	austronesian		205	abvd
-bay	austronesian		205	abvd
-blf	austronesian		205	abvd
-bnd	austronesian		205	abvd
-hrw	austronesian		205	abvd
+max	austronesian	nort2828	207	abvd
+wiv	austronesian	mudu1242	207	abvd
+akt	austronesian	akol1237	206	abvd
+kei	austronesian	keii1239	206	abvd
+los	austronesian	loni1238	206	abvd
+mvn	austronesian	mina1269	206	abvd
+nia	austronesian	nias1242	206	abvd
+nsy	austronesian	nasa1239	206	abvd
+tbo	austronesian	tawa1275	206	abvd
+tnt	austronesian	tont1239	206	abvd
+aoz	austronesian	uabm1237	205	abvd
+bay	austronesian	batu1258	205	abvd
+blf	austronesian	buol1237	205	abvd
+bnd	austronesian	band1355	205	abvd
+hrw	austronesian	anir1237	205	abvd
 mfe	creole	mori1278	205	wikipron
-nea	austronesian		205	abvd
-ree	austronesian		205	abvd
+nea	austronesian	east2464	205	abvd
+ree	austronesian	reja1241	205	abvd
 jam	creole	jama1262	204	wikipron
-ljl	austronesian		204	abvd
-mna	austronesian		204	abvd
-wew	austronesian		204	abvd
-bgz	austronesian		203	abvd
-bvd	austronesian		203	abvd
-iry	austronesian		203	abvd
+ljl	austronesian	lioo1240	204	abvd
+mna	austronesian	mbul1263	204	abvd
+wew	austronesian	weje1237	204	abvd
+bgz	austronesian	bang1368	203	abvd
+bvd	austronesian	baeg1237	203	abvd
+iry	austronesian	iray1237	203	abvd
 mic	algic	mikm1235	203	wikipron
-mva	austronesian		203	abvd
-amq	austronesian		202	abvd
-bdd	austronesian		202	abvd
-pss	austronesian		202	abvd
-rro	austronesian		202	abvd
-ssq	austronesian		202	abvd
-bch	austronesian		201	abvd
-brr	austronesian		201	abvd
+mva	austronesian	mana1295	203	abvd
+amq	austronesian	amah1245	202	abvd
+bdd	austronesian	buna1276	202	abvd
+pss	austronesian	kaul1240	202	abvd
+rro	austronesian	waim1251	202	abvd
+ssq	austronesian	cent2074	202	abvd
+bch	austronesian	bari1286	201	abvd
+brr	austronesian	bira1254	201	abvd
 nap	italic	neap1235	201	wikipron
-nkr	austronesian		201	abvd
-nxa	austronesian		201	abvd
-sge	austronesian		201	abvd
-sob	austronesian		201	abvd
-tgi	austronesian		201	abvd
-uge	austronesian		201	abvd
-abs	austronesian		200	abvd
+nkr	austronesian	nuku1260	201	abvd
+nxa	austronesian	naue1237	201	abvd
+sge	austronesian	sega1243	201	abvd
+sob	austronesian	sobe1238	201	abvd
+tgi	austronesian	lawu1237	201	abvd
+uge	austronesian	ughe1237	201	abvd
+abs	austronesian	ambo1250	200	abvd
 arz	semitic	egyp1253	200	wikipron
-att	austronesian		200	abvd
-bwb	austronesian		200	abvd
-cnh	sino_tibetan	hakn1238	200	sinotibetan
-kje	austronesian		200	abvd
-kwd	austronesian		200	abvd
-kzp	austronesian		200	abvd
-rog	austronesian		200	abvd
-uve	austronesian		200	abvd
-yux	yukaghir	sout2750	200	wikipron
-huq	austronesian		199	abvd
-mvd	austronesian		199	abvd
-sgz	austronesian		199	abvd
+att	austronesian	pamp1244	200	abvd
+bwb	austronesian	namo1248	200	abvd
+kje	austronesian	kisa1266	200	abvd
+kwd	austronesian	kwai1243	200	abvd
+kzp	austronesian	kaid1239	200	abvd
+rog	austronesian	nort2994	200	abvd
+uve	austronesian	west2516	200	abvd
+huq	austronesian	tsat1238	199	abvd
+mvd	austronesian	mamb1305	199	abvd
+sgz	austronesian	surs1246	199	abvd
 zza	indo_iranian	diml1238	199	wikipron
-bna	austronesian		198	abvd
-ple	austronesian		198	abvd
-tte	austronesian		198	abvd
-cje	austronesian		197	abvd
-mbh	austronesian		197	abvd
-wow	austronesian		197	abvd
-bnp	austronesian		196	abvd
-hao	austronesian		196	abvd
-kzu	austronesian		196	abvd
-ttu	austronesian		196	abvd
-ges	austronesian		195	abvd
-gga	austronesian		195	abvd
-kji	austronesian		195	abvd
-slu	austronesian		195	abvd
-sol	austronesian		195	abvd
+bna	austronesian	bone1254	198	abvd
+ple	austronesian	palu1252	198	abvd
+tte	austronesian	bwan1241	198	abvd
+cje	austronesian	chru1239	197	abvd
+mbh	austronesian	mang1403	197	abvd
+wow	austronesian	wawo1239	197	abvd
+bnp	austronesian	bola1250	196	abvd
+hao	austronesian	hako1237	196	abvd
+kzu	austronesian	kayu1243	196	abvd
+ttu	austronesian	tora1259	196	abvd
+ges	austronesian	gese1240	195	abvd
+gga	austronesian	gaoo1237	195	abvd
+kji	austronesian	zaba1237	195	abvd
+slu	austronesian	sela1259	195	abvd
+sol	austronesian	solo1257	195	abvd
 srn	creole	sran1240	195	wikipron
-tjg	austronesian		195	abvd
-cyo	austronesian		194	abvd
-dor	austronesian		194	abvd
-ebk	austronesian		194	abvd
-loj	austronesian		194	abvd
-twu	austronesian		194	abvd
-bdq	unknown		193	wikipron
-bvc	austronesian		193	abvd
-cjm	austronesian		193	abvd
-dww	austronesian		193	abvd
-sso	austronesian		193	abvd
-tpf	austronesian		193	abvd
-hrc	austronesian		192	abvd
-hul	austronesian		192	abvd
-ngr	austronesian		192	abvd
-sjr	austronesian		192	abvd
-tlu	austronesian		192	abvd
-htu	austronesian		191	abvd
-jaj	austronesian		191	abvd
-lmr	austronesian		191	abvd
-mmx	austronesian		191	abvd
-ais	austronesian		190	abvd
-btn	austronesian		190	abvd
-lgl	austronesian		190	abvd
-pat	austronesian		190	abvd
-plh	austronesian		190	abvd
-rai	austronesian		190	abvd
-tmy	austronesian		190	abvd
-lbx	austronesian		189	abvd
-mjk	austronesian		189	abvd
+tjg	austronesian	tunj1244	195	abvd
+cyo	austronesian	cuyo1237	194	abvd
+dor	austronesian	dori1246	194	abvd
+ebk	austronesian	east2881	194	abvd
+loj	austronesian	louu1245	194	abvd
+twu	austronesian	term1237	194	abvd
+bdq	unknown	bahn1262	193	wikipron
+bvc	austronesian	bael1237	193	abvd
+cjm	austronesian	east2563	193	abvd
+dww	austronesian	dawa1242	193	abvd
+sso	austronesian	siss1243	193	abvd
+tpf	austronesian	tarp1240	193	abvd
+hrc	austronesian	niwe1234	192	abvd
+hul	austronesian	hula1239	192	abvd
+ngr	austronesian	nang1262	192	abvd
+sjr	austronesian	siar1238	192	abvd
+tlu	austronesian	tule1244	192	abvd
+htu	austronesian	hitu1239	191	abvd
+jaj	austronesian	zaza1245	191	abvd
+lmr	austronesian	lama1278	191	abvd
+mmx	austronesian	mada1285	191	abvd
+ais	austronesian	nata1254	190	abvd
+btn	austronesian	rata1245	190	abvd
+lgl	austronesian	wala1266	190	abvd
+pat	austronesian	papi1254	190	abvd
+plh	austronesian	paul1238	190	abvd
+rai	austronesian	ramo1244	190	abvd
+tmy	austronesian	tami1290	190	abvd
+lbx	austronesian	lawa1257	189	abvd
+mjk	austronesian	matu1261	189	abvd
 ota	turkic	otto1234	189	wikipron
-wah	austronesian		189	abvd
-clu	austronesian		188	abvd
-hoa	austronesian		188	abvd
-kbt	austronesian		188	abvd
-lbv	austronesian		188	abvd
-mta	austronesian		188	abvd
-roe	austronesian		188	abvd
-amk	austronesian		187	abvd
-mgl	austronesian		187	abvd
-ora	austronesian		187	abvd
-pdo	austronesian		187	abvd
-tnx	austronesian		187	abvd
-tuc	austronesian		187	abvd
-bnr	austronesian		186	abvd
-ggt	austronesian		186	abvd
-ksg	austronesian		186	abvd
-mzq	austronesian		186	abvd
+wah	austronesian	watu1247	189	abvd
+clu	austronesian	calu1238	188	abvd
+hoa	austronesian	hoav1238	188	abvd
+kbt	austronesian	abad1241	188	abvd
+lbv	austronesian	lava1239	188	abvd
+mta	austronesian	cota1241	188	abvd
+roe	austronesian	ronj1237	188	abvd
+amk	austronesian	amba1265	187	abvd
+mgl	austronesian	male1289	187	abvd
+ora	austronesian	oroh1237	187	abvd
+pdo	austronesian	pado1242	187	abvd
+tnx	austronesian	tane1237	187	abvd
+tuc	austronesian	mutu1242	187	abvd
+bnr	austronesian	butm1237	186	abvd
+ggt	austronesian	gitu1237	186	abvd
+ksg	austronesian	kusa1251	186	abvd
+mzq	austronesian	mori1269	186	abvd
 nrf	italic	guer1238	186	wikipron
-tbj	austronesian		186	abvd
-tgc	austronesian		186	abvd
-and	austronesian		185	abvd
-skz	austronesian		185	abvd
-bxf	austronesian		184	abvd
-gmb	austronesian		184	abvd
-mgm	austronesian		184	abvd
-mpn	austronesian		184	abvd
-ubr	austronesian		184	abvd
-aua	austronesian		183	abvd
-bvk	austronesian		183	abvd
-far	austronesian		183	abvd
-kkk	austronesian		183	abvd
-tkd	austronesian		183	abvd
-xmt	austronesian		183	abvd
-fnb	austronesian		182	abvd
-hot	austronesian		182	abvd
-mbi	austronesian		182	abvd
-mmn	austronesian		182	abvd
+tbj	austronesian	tian1237	186	abvd
+tgc	austronesian	tiga1245	186	abvd
+and	austronesian	ansu1237	185	abvd
+skz	austronesian	seka1247	185	abvd
+bxf	austronesian	bilu1244	184	abvd
+gmb	austronesian	gula1270	184	abvd
+mgm	austronesian	mamb1306	184	abvd
+mpn	austronesian	mind1255	184	abvd
+ubr	austronesian	ubir1237	184	abvd
+aua	austronesian	asum1237	183	abvd
+bvk	austronesian	buka1261	183	abvd
+far	austronesian	fata1245	183	abvd
+kkk	austronesian	koko1269	183	abvd
+tkd	austronesian	tuku1254	183	abvd
+xmt	austronesian	matb1237	183	abvd
+fnb	austronesian	orko1234	182	abvd
+hot	austronesian	hote1245	182	abvd
+mbi	austronesian	ilia1236	182	abvd
+mmn	austronesian	mama1275	182	abvd
 slr	turkic	sala1264	182	wikipron
-syb	austronesian		182	abvd
+syb	austronesian	cent2089	182	abvd
 aot	austronesian	atay1247	181	wikipron
-kix	unknown		181	wikipron
-kqe	austronesian		181	abvd
-ncn	austronesian		181	abvd
-utp	austronesian		181	abvd
-gad	austronesian		180	abvd
-isd	austronesian		180	abvd
-kml	austronesian		180	abvd
-lib	austronesian		180	abvd
-mbd	austronesian		180	abvd
-sia	unknown		180	wikipron
-tgt	austronesian		180	abvd
-zgr	austronesian		180	abvd
-bya	austronesian		179	abvd
-gei	austronesian		179	abvd
-itb	austronesian		179	abvd
-kqw	austronesian		179	abvd
-mbs	austronesian		179	abvd
-mbt	austronesian		179	abvd
-raz	austronesian		179	abvd
-snl	austronesian		179	abvd
-tbe	austronesian		179	abvd
-agv	austronesian		178	abvd
-blw	austronesian		178	abvd
-kak	austronesian		178	abvd
-tbk	austronesian		178	abvd
-agt	austronesian		177	abvd
-ifa	austronesian		177	abvd
+kix	unknown	khia1236	181	wikipron
+kqe	austronesian	kala1388	181	abvd
+ncn	austronesian	naun1237	181	abvd
+utp	austronesian	amba1266	181	abvd
+gad	austronesian	gadd1244	180	abvd
+isd	austronesian	isna1241	180	abvd
+kml	austronesian	lowe1412	180	abvd
+lib	austronesian	liku1243	180	abvd
+mbd	austronesian	diba1242	180	abvd
+sia	unknown	akka1237	180	wikipron
+tgt	austronesian	cent2090	180	abvd
+zgr	austronesian	mago1248	180	abvd
+bya	austronesian	bata1301	179	abvd
+gei	austronesian	gebe1237	179	abvd
+itb	austronesian	bino1237	179	abvd
+kqw	austronesian	kand1301	179	abvd
+mbs	austronesian	sara1327	179	abvd
+mbt	austronesian	mati1250	179	abvd
+raz	austronesian	raha1237	179	abvd
+snl	austronesian	sang1337	179	abvd
+tbe	austronesian	tani1255	179	abvd
+agv	austronesian	remo1247	178	abvd
+blw	austronesian	bala1310	178	abvd
+kak	austronesian	ahin1234	178	abvd
+tbk	austronesian	cala1258	178	abvd
+agt	austronesian	cent2084	177	abvd
+ifa	austronesian	amga1235	177	abvd
 ksw	sino_tibetan	sgaw1245	177	wikipron
-xnn	austronesian		177	abvd
-agf	austronesian		176	abvd
+xnn	austronesian	nort2877	177	abvd
+agf	austronesian	argu1237	176	abvd
 dlm	italic	dalm1243	176	wikipron
-kem	austronesian		176	abvd
-mmm	austronesian		176	abvd
-sps	austronesian		176	abvd
-bki	austronesian		175	abvd
-crx	unknown		175	wikipron
-dgc	austronesian		175	abvd
-mmt	austronesian		175	abvd
-rnn	austronesian		175	abvd
+kem	austronesian	kema1243	176	abvd
+mmm	austronesian	maii1238	176	abvd
+sps	austronesian	sapo1253	176	abvd
+bki	austronesian	baki1244	175	abvd
+crx	unknown	carr1249	175	wikipron
+dgc	austronesian	casi1235	175	abvd
+mmt	austronesian	mala1489	175	abvd
+rnn	austronesian	roon1237	175	abvd
 rup	italic	arom1237	175	wikipron
-etn	austronesian		174	abvd
-lhn	austronesian		174	abvd
-nho	austronesian		174	abvd
-smr	austronesian		174	abvd
-ubl	austronesian		174	abvd
-vra	austronesian		174	abvd
-stw	austronesian		173	abvd
+etn	austronesian	eton1255	174	abvd
+lhn	austronesian	laha1253	174	abvd
+nho	austronesian	taku1257	174	abvd
+smr	austronesian	sime1241	174	abvd
+ubl	austronesian	buhi1243	174	abvd
+vra	austronesian	vera1241	174	abvd
+stw	austronesian	sata1237	173	abvd
 kok	indo_iranian	konk1267	172	wikipron
-tql	austronesian		172	abvd
-anx	austronesian		171	abvd
+tql	austronesian	leha1243	172	abvd
+anx	austronesian	andr1248	171	abvd
 gml	germanic	midd1319	171	wikipron
-ksc	austronesian		171	abvd
-pif	austronesian		171	abvd
-bxh	austronesian		170	abvd
+ksc	austronesian	sout2908	171	abvd
+pif	austronesian	ping1243	171	abvd
+bxh	austronesian	buhu1237	170	abvd
 cor	celtic	corn1251	170	wikipron
-wru	austronesian		170	abvd
-aps	austronesian		169	abvd
-ifb	austronesian		169	abvd
+wru	austronesian	waru1266	170	abvd
+aps	austronesian	arop1242	169	abvd
+ifb	austronesian	bata1298	169	abvd
 ofs	germanic	oldf1241	169	wikipron
-urr	austronesian		169	abvd
-ddi	austronesian		168	abvd
-nvh	austronesian		168	abvd
-tls	austronesian		168	abvd
-bbl	unknown		167	wikipron
+urr	austronesian	leha1244	169	abvd
+ddi	austronesian	diod1237	168	abvd
+nvh	austronesian	nasa1240	168	abvd
+tls	austronesian	tamb1253	168	abvd
+bbl	unknown	bats1242	167	wikipron
 frr	germanic	nort2626	167	wikipron
-lkn	austronesian		167	abvd
-mkj	austronesian		167	abvd
+lkn	austronesian	lako1245	167	abvd
+mkj	austronesian	moki1238	167	abvd
 nhn	uto_aztecan	cent2120	167	wikipron
-tgs	austronesian		167	abvd
-bjl	austronesian		166	abvd
+tgs	austronesian	nume1241	167	abvd
+bjl	austronesian	bulu1253	166	abvd
 inh	northeast_caucasian	ingu1240	166	wikipron
-kvo	austronesian		166	abvd
-lrv	austronesian		166	abvd
-aui	austronesian		165	abvd
-avb	austronesian		165	abvd
-lht	austronesian		165	abvd
-ton	austronesian	tong1325	165	wikipron
-krf	austronesian		164	abvd
+kvo	austronesian	dobe1238	166	abvd
+lrv	austronesian	lare1249	166	abvd
+aui	austronesian	anuk1239	165	abvd
+avb	austronesian	avau1237	165	abvd
+lht	austronesian	loto1240	165	abvd
+krf	austronesian	koro1308	164	abvd
 mai	indo_iranian	mait1250	164	wikipron
 pdc	germanic	penn1240	164	wikipron
-rpn	austronesian		164	abvd
-tnn	austronesian		164	abvd
+rpn	austronesian	repa1237	164	abvd
+tnn	austronesian	nort2847	164	abvd
 ayl	semitic	liby1240	163	wikipron
 tru	semitic	turo1239	163	wikipron
-wab	austronesian		163	abvd
-nua	austronesian		162	abvd
-crc	austronesian		161	abvd
-asz	austronesian		160	abvd
-oyy	austronesian		160	abvd
-ptp	austronesian		160	abvd
-ptv	austronesian		160	abvd
-ykm	austronesian		160	abvd
-bdg	austronesian		159	abvd
-mxm	austronesian		159	abvd
-mkm	austronesian		158	abvd
-tgp	austronesian		158	abvd
-frt	austronesian		156	abvd
-lbb	austronesian		155	abvd
-mkv	austronesian		155	abvd
-rga	austronesian		155	abvd
-nxl	austronesian		153	abvd
-aor	austronesian		152	abvd
-brz	austronesian		152	abvd
-nuq	austronesian		152	abvd
-wiy	unknown		152	wikipron
-bjk	austronesian		151	abvd
-bmk	austronesian		151	abvd
-cbn	unknown		151	wikipron
-cps	austronesian		151	abvd
-lnn	austronesian		151	abvd
-wau	unknown		151	wikipron
+wab	austronesian	wabb1237	163	abvd
+nua	austronesian	yuag1237	162	abvd
+crc	austronesian	lonw1238	161	abvd
+asz	austronesian	asss1237	160	abvd
+oyy	austronesian	oyao1237	160	abvd
+ptp	austronesian	pate1247	160	abvd
+ptv	austronesian	port1286	160	abvd
+ykm	austronesian	kapp1237	160	abvd
+bdg	austronesian	bong1289	159	abvd
+mxm	austronesian	mera1242	159	abvd
+mkm	austronesian	mokl1243	158	abvd
+tgp	austronesian	tang1347	158	abvd
+frt	austronesian	fort1240	156	abvd
+lbb	austronesian	labe1239	155	abvd
+mkv	austronesian	mafe1237	155	abvd
+rga	austronesian	rori1237	155	abvd
+nxl	austronesian	sout2895	153	abvd
+aor	austronesian	aore1237	152	abvd
+brz	austronesian	bilb1241	152	abvd
+nuq	austronesian	nuku1258	152	abvd
+wiy	unknown	wiyo1248	152	wikipron
+bjk	austronesian	baro1253	151	abvd
+bmk	austronesian	ghay1237	151	abvd
+cbn	unknown	nyah1250	151	wikipron
+cps	austronesian	capi1239	151	abvd
+lnn	austronesian	lore1244	151	abvd
+wau	unknown	waur1244	151	wikipron
 wlm	celtic	midd1361	151	wikipron
-pme	austronesian		150	abvd
-pqm	unknown		150	wikipron
-tgn	austronesian		150	abvd
-tmi	austronesian		150	abvd
-mnl	austronesian		149	abvd
-mrk	austronesian		148	abvd
+pme	austronesian	pwaa1237	150	abvd
+pqm	unknown	male1292	150	wikipron
+tgn	austronesian	tand1258	150	abvd
+tmi	austronesian	tutu1241	150	abvd
+mnl	austronesian	tial1239	149	abvd
+mrk	austronesian	hmwa1243	148	abvd
 apw	na_dene	west2615	147	wikipron
-end	austronesian		147	abvd
-hla	austronesian		147	abvd
+end	austronesian	ende1246	147	abvd
+hla	austronesian	hali1244	147	abvd
 nhx	uto_aztecan	isth1242	146	wikipron
-tlm	austronesian		145	abvd
-dad	austronesian		144	abvd
-mtq	unknown		144	wikipron
-wmn	austronesian		144	abvd
-bpk	austronesian		143	abvd
-mkt	austronesian		143	abvd
+tlm	austronesian	tolo1255	145	abvd
+dad	austronesian	mari1428	144	abvd
+mtq	unknown	muon1246	144	wikipron
+wmn	austronesian	waam1236	144	abvd
+bpk	austronesian	orow1242	143	abvd
+mkt	austronesian	vama1243	143	abvd
 pcc	tai_kadai	bouy1240	143	wikipron
+zom	sino_tibetan	zouu1235	142	wikipron
 goh	germanic	oldh1241	141	wikipron
-don	austronesian		140	abvd
-nek	austronesian		140	abvd
-xsb	austronesian		140	abvd
-zom	sino_tibetan	zouu1235	140	wikipron
-abp	austronesian		139	abvd
-aok	austronesian		139	abvd
-smk	austronesian		139	abvd
-blx	austronesian		138	abvd
-srs	unknown		137	wikipron
-xay	austronesian		137	abvd
-xkq	austronesian		137	abvd
-xsl	unknown		137	wikipron
-bjb	unknown		136	wikipron
-ybi	unknown		136	wikipron
-aqr	austronesian		135	abvd
-bsu	austronesian		135	abvd
-twf	unknown		135	wikipron
-tdi	austronesian		134	abvd
-tlk	austronesian		134	abvd
-tti	austronesian		133	abvd
+don	austronesian	tour1243	140	abvd
+nek	austronesian	neku1237	140	abvd
+xsb	austronesian	tina1248	140	abvd
+abp	austronesian	aben1249	139	abvd
+aok	austronesian	arho1237	139	abvd
+smk	austronesian	boli1256	139	abvd
+blx	austronesian	magi1241	138	abvd
+srs	unknown	sars1236	137	wikipron
+xay	austronesian	kaya1324	137	abvd
+xkq	austronesian	koro1311	137	abvd
+xsl	unknown	sout2959	137	wikipron
+bjb	unknown	bang1339	136	wikipron
+ybi	unknown	yamp1242	136	wikipron
+aqr	austronesian	arha1237	135	abvd
+bsu	austronesian	baho1237	135	abvd
+twf	unknown	nort1550	135	wikipron
+tdi	austronesian	toma1248	134	abvd
+tlk	austronesian	talo1252	134	abvd
+tti	austronesian	toba1266	133	abvd
 tuk	turkic	turk1304	130	wikipron
-bno	austronesian		129	abvd
+bno	austronesian	bant1288	129	abvd
 ewe	atlantic_congo	ewee1241	128	wikipron
 kyu	sino_tibetan	kaya1325	128	wikipron
-rmm	austronesian		127	abvd
-ddw	austronesian		126	abvd
-sce	unknown		125	wikipron
+rmm	austronesian	roma1332	127	abvd
+ddw	austronesian	dawe1237	126	abvd
+sce	unknown	dong1285	125	wikipron
 pjt	pama_nyungan	pitj1243	124	wikipron
-abc	austronesian		123	abvd
-dij	austronesian		123	abvd
-chb	unknown		122	wikipron
-sve	austronesian		122	abvd
-apx	austronesian		121	abvd
-dmr	austronesian		121	abvd
-imr	austronesian		121	abvd
+abc	austronesian	amba1267	123	abvd
+dij	austronesian	daii1240	123	abvd
+chb	unknown	chib1270	122	wikipron
+sve	austronesian	seri1255	122	abvd
+apx	austronesian	aput1237	121	abvd
+dmr	austronesian	east2472	121	abvd
+imr	austronesian	imro1237	121	abvd
 lut	salishan	lush1252	121	wikipron
 snd	indo_iranian	sind1272	121	wikipron
-tvm	austronesian		121	abvd
-bcd	austronesian		120	abvd
-kis	austronesian		120	abvd
+tvm	austronesian	tela1241	121	abvd
+bcd	austronesian	nort2860	120	abvd
+cho	muskogean	choc1276	120	wikipron
+kis	austronesian	kiss1246	120	abvd
 lad	italic	ladi1251	120	wikipron
-mxz	austronesian		120	abvd
+mxz	austronesian	cent2072	120	abvd
 rom	indo_iranian	roma1329	120	wikipron
-wet	austronesian		120	abvd
-cho	muskogean	choc1276	119	wikipron
-drn	austronesian		119	abvd
-emw	austronesian		119	abvd
-srw	austronesian		119	abvd
-nil	austronesian		117	abvd
-tve	austronesian		117	abvd
-wlr	austronesian		116	abvd
-vme	austronesian		115	abvd
-ptr	austronesian		114	abvd
-vbb	austronesian		114	abvd
-vnp	austronesian		114	abvd
-wbk	unknown		112	wikipron
-alm	austronesian		111	abvd
-kcl	austronesian		110	abvd
-nkk	austronesian		110	abvd
-plb	austronesian		110	abvd
+wet	austronesian	pera1257	120	abvd
+drn	austronesian	west2548	119	abvd
+emw	austronesian	empl1237	119	abvd
+srw	austronesian	seru1245	119	abvd
+nil	austronesian	nila1244	117	abvd
+tve	austronesian	teun1241	117	abvd
+wlr	austronesian	wail1242	116	abvd
+vme	austronesian	east2462	115	abvd
+ptr	austronesian	piam1242	114	abvd
+vbb	austronesian	sout2883	114	abvd
+vnp	austronesian	vuna1239	114	abvd
+wbk	unknown	waig1243	112	wikipron
+alm	austronesian	ambl1237	111	abvd
+kcl	austronesian	kela1255	110	abvd
+nkk	austronesian	noku1237	110	abvd
+plb	austronesian	polo1242	110	abvd
 swa	atlantic_congo	swah1253	110	wikipron
-ycl	unknown		110	wikipron
-sbc	austronesian		109	abvd
+ycl	unknown	lolo1259	110	wikipron
+sbc	austronesian	kele1258	109	abvd
 crk	algic	plai1258	108	wikipron
-due	austronesian		107	abvd
-frd	austronesian		106	abvd
-kgp	unknown		106	wikipron
-mft	austronesian		105	abvd
-gur	unknown		104	wikipron
-biq	austronesian		103	abvd
-blq	austronesian		103	abvd
-rak	austronesian		103	abvd
-tmt	austronesian		103	abvd
+lif	sino_tibetan	limb1266	108	wikipron
+due	austronesian	umir1236	107	abvd
+frd	austronesian	ford1242	106	abvd
+kgp	unknown	kain1272	106	wikipron
+mft	austronesian	moke1240	105	abvd
+gur	unknown	fare1241	104	wikipron
+biq	austronesian	bipi1237	103	abvd
+blq	austronesian	balu1257	103	abvd
+rak	austronesian	tulu1259	103	abvd
+tmt	austronesian	tasm1246	103	abvd
 chr	iroquoian	cher1273	102	wikipron
-ncc	austronesian		101	abvd
-pbv	unknown		101	wikipron
-pkg	austronesian		101	abvd
-tby	unknown		100	wikipron
-sbh	austronesian		99	abvd
-ktz	unknown		98	wikipron
-nss	austronesian		98	abvd
-num	austronesian		97	abvd
-llf	austronesian		96	abvd
-kzk	austronesian		95	abvd
-nxe	austronesian		92	abvd
-nuw	austronesian		86	abvd
-nmw	austronesian		83	abvd
-bhv	austronesian		81	abvd
-sms	uralic	skol1241	78	wikipron
-pns	austronesian		76	abvd
-llx	austronesian		73	abvd
-goo	austronesian		72	abvd
-ktk	austronesian		71	abvd
+ncc	austronesian	pona1250	101	abvd
+pbv	unknown	pnar1238	101	wikipron
+pkg	austronesian	pakt1239	101	abvd
+tby	unknown	taba1263	100	wikipron
+sbh	austronesian	sori1242	99	abvd
+ktz	unknown	juho1239	98	wikipron
+nss	austronesian	nali1245	98	abvd
+num	austronesian	niua1240	97	abvd
+llf	austronesian	herm1237	96	abvd
+kzk	austronesian	kazu1245	95	abvd
+nxe	austronesian	nage1237	92	abvd
+nuw	austronesian	ngul1236	86	abvd
+nmw	austronesian	nimo1246	83	abvd
+bhv	austronesian	baha1257	81	abvd
+pns	austronesian	pono1240	76	abvd
+llx	austronesian	laua1243	73	abvd
+goo	austronesian	gone1237	72	abvd
+ktk	austronesian	kani1282	71	abvd
 kwk	wakashan	kwak1269	57	wikipron
-kys	austronesian		55	abvd
-mxr	austronesian		54	abvd
-whk	austronesian		54	abvd
-bvy	austronesian		48	abvd
-iff	austronesian		46	abvd
-bzh	austronesian		38	abvd
+kys	austronesian	bara1370	55	abvd
+mxr	austronesian	muri1259	54	abvd
+whk	austronesian	waha1238	54	abvd
+bvy	austronesian	bayb1234	48	abvd
+iff	austronesian	ifoo1237	46	abvd
+bzh	austronesian	mapo1242	38	abvd

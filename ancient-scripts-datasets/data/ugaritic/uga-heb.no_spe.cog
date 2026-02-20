@@ -400,15 +400,12 @@ b<z	b<wz|b<z
 <Zm	<Sm|<Swm
 bbir	bbar
 bir	bar
-b<d	b<d
 b<dh	b<dh|b<dw
 b<dhm	b<dhm|b<dm
-b<dn	b<dnw
 b<dy	b<dy
 b<l	b<l
 kb<l	kb<l
 lb<l	lb<l
-wb<l	wb<l
 wb<l	wb<l
 b<lh	b<lh|b<lw
 wb<lh	wb<lh|wb<lw
@@ -454,7 +451,6 @@ kbn	kbn|kbyn
 lbn	lbn|lbyn
 wbn	wbn|wbyn
 bnh	bnh|bnw
-wbnh	wbnh|wbnw
 wbnh	wbnh|wbnw
 bbnk	bbnk
 bnk	bnk
@@ -734,7 +730,6 @@ hlkt	hlkh|hlkt|hlkty
 bhlm	bhlm
 hlm	hlm
 hlmn	hmlnw
-bhm	bhm|bm
 hm	hm
 whm	whm
 hmlt	hmlh|hmlt|hmlwt
@@ -748,7 +743,6 @@ hr	hr
 whr	whr
 hrg	hrg
 ht	hnh
-wht	whnh
 hw	hwa
 whw	whw|whwa
 hy	hya
@@ -928,7 +922,6 @@ bkl	bkl
 kl	kl
 lkl	lkl
 wkl	wkl
-wkl	wkl
 kklb	kklb
 klb	klb
 klbm	klbym
@@ -976,7 +969,6 @@ bksp	bksp
 kksp	kksp
 ksp	ksp
 wksp	wksp
-wksp	wksp
 ksph	ksph|kspw
 ksphm	ksphm|kspm
 kspht	kspn
@@ -993,7 +985,6 @@ ktp	ktp
 lktp	lktp
 ktpm	ktpym
 ky	ky
-klb	klb
 lb	lb
 wblb	wblb
 blbh	blbh|blbw
@@ -1011,7 +1002,6 @@ lbnn	lbnwn
 klbnt	klbnh|klbnt|klbnwt
 llbnt	llbnh|llbnt|llbnwt
 lbnt	lbnh|lbnt|lbnwt
-lbny	lbny
 lbnym	lbnym
 klb$	klbw$
 lb$	lb$|lbw$
@@ -1019,14 +1009,11 @@ lb$k	lbw$k
 lb$m	lbw$ym
 wlb$n	wlb$nw|wlbw$nw
 lb$t	lb$h|lb$t|lb$wt|lbw$h|lbw$wt
-klh	klh|klw
-lh	lh|lw
 wlh	wlh|wlw
 lhm	lhm
 lhn	lhn
 blHm	blHm
 llHm	llHm
-lHm	lHm
 wlHm	wlHm
 lHmh	lHmh|lHmw
 wlx$t	wlH$h|wlH$t|wlH$wt
@@ -1241,12 +1228,10 @@ mznm	maznym
 wmznm	wmaznym
 mZah	mSah|mSaw
 wmZah	wmSah|wmSaw
-bn	bn|byn
 wnark	wnark
 n<l	n<l
 n<lm	n<lym
 bn<m	bn<m
-kn<m	kn<m
 ln<m	ln<m
 n<m	n<m
 wn<m	wn<m
@@ -1362,7 +1347,6 @@ plT	plT
 lpn	lpn
 pn	pn
 wpn	wpn
-wpn	wpn
 lpnk	lpnyk
 pnk	pnyk
 lpnm	lpnym
@@ -1398,7 +1382,6 @@ lqdqdh	lqdqdh|lqdqdw
 qdqdh	qdqdh|qdqdw
 qdqdk	qdqdk
 qdqdy	qdqdy
-bqd$	bqd$
 lqd$	lqd$
 qd$	qd$
 wqd$	wqd$
@@ -1624,7 +1607,6 @@ $btk	&ybtk
 $d	&dh
 b$d	b&dh
 w$d	w&dh
-w$d	w&dh
 $dh	&dh|&dhw
 $dk	&dk
 $dm	&dwt
@@ -1728,7 +1710,6 @@ w$t	w$t
 w$tm	w&tm
 $ty	$th
 w$ty	w$th
-bt	bt|byt
 tubd	tabd
 tadm	tadm
 wtadm	wtadm
@@ -1871,7 +1852,6 @@ t$mx	t&mH
 t$r	t$yr
 ttn	ttn
 wttn	wttn
-wttn	wttn
 tTbx	tTbH
 tTHnn	tTHnnw
 tvbr	t$br
@@ -1909,12 +1889,10 @@ bvlHnt	b$lHnwt
 vlHnt	$lHnwt
 bvlHny	b$lHny
 vlHny	$lHny
-bvlv	b$l$
 lvlv	l$l$
 vlv	$l$
 wbvlv	wb$l$
 wvlv	w$l$
-bvlvm	b$l$ym
 lvlvm	l$l$ym
 vlvm	$l$ym
 wvlvm	w$l$ym
@@ -1955,11 +1933,9 @@ vvm	$$ym
 wvvm	w$$ym
 bvvt	b$$h|b$$t|b$$wt
 vvt	$$h|$$t|$$wt
-w<bd	w<bd
 whlk	whlk
 w$lm	w$lm
 wtasp	wtasp
-wvlvm	w$l$ym
 wySq	wySq|wySwq
 yabd	yabd
 wyadm	wyadm
@@ -2144,7 +2120,6 @@ ysgr	ysgr
 yspr	yspr
 lySa	lySa
 wySa	wySa
-wySa	wySa
 wySi	wySa
 wySu	wySa
 ySa	ySa
@@ -2155,7 +2130,6 @@ wySd	wySd
 ySd	ySd
 wySHq	wySHq
 ySmx	ySmH
-wySq	wySq|wySwq
 ySq	ySq|ySwq
 ySr	ySr|ywSr
 ySrk	ySrk|ywSrk
@@ -2170,7 +2144,6 @@ y$lm	y$lm
 y$m<	y$m<
 y$m<k	y$m<k
 y$mx	y&mH
-wy$n	wy$n
 wy$n	wy$n
 y$n	y$n
 y$q	y$q
