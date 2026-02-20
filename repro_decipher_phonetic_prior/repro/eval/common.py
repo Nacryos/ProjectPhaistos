@@ -250,10 +250,96 @@ def apply_whitespace_ratio(lines: Sequence[str], ratio_percent: int, seed: int) 
     return out
 
 
-def build_char_feature_matrix(chars: Sequence[str], use_ipa_geometry: bool) -> torch.Tensor:
-    """Create deterministic character features.
+# ---------------------------------------------------------------------------
+# Panphon-based phonological feature system (Solution D: grouped embeddings)
+# ---------------------------------------------------------------------------
+# Feature groups matching standard phonological categories.  Each group is
+# projected independently by the model so that sound-change dimensions
+# (voicing, place, manner, …) live in orthogonal embedding subspaces.
+# ---------------------------------------------------------------------------
 
-    This approximates phonetic geometry when full IPA feature tables are unavailable.
+# panphon feature names, grouped by phonological category.
+PANPHON_FEATURE_GROUPS: Dict[str, List[str]] = {
+    "major_class": ["syl", "son", "cons"],                       # 3
+    "manner":      ["cont", "delrel", "lat", "nas", "strid"],    # 5
+    "laryngeal":   ["voi", "sg", "cg"],                          # 3
+    "place":       ["ant", "cor", "distr", "lab"],                # 4
+    "vowel_body":  ["hi", "lo", "back", "round", "tense", "long"],  # 6
+}
+PANPHON_GROUP_ORDER: List[str] = list(PANPHON_FEATURE_GROUPS.keys())
+PANPHON_GROUP_SIZES: List[int] = [len(PANPHON_FEATURE_GROUPS[g]) for g in PANPHON_GROUP_ORDER]
+
+# Character -> IPA normalisations for symbols commonly found in our data
+# that panphon does not recognise under their original codepoints.
+_IPA_CHAR_NORM: Dict[str, str] = {
+    "g": "\u0261",   # ASCII g -> IPA ɡ (U+0261)
+    "þ": "θ",        # Gothic thorn -> voiceless dental fricative
+    "ƕ": "xʷ",       # Gothic hwair -> voiceless velar fricative (labialized; use base)
+    "ȝ": "ɣ",        # yogh -> voiced velar fricative
+    "ō": "oː",       # macron vowels -> IPA long (base char used for features)
+    "ē": "eː",
+    "ā": "aː",
+    "ī": "iː",
+    "ū": "uː",
+}
+
+_panphon_ft: Any = None  # lazily initialised FeatureTable
+
+
+def _get_panphon_ft() -> Any:
+    """Return a cached panphon FeatureTable (import is deferred)."""
+    global _panphon_ft
+    if _panphon_ft is None:
+        import os
+        os.environ.setdefault("PYTHONUTF8", "1")
+        import panphon  # type: ignore[import-untyped]
+        _panphon_ft = panphon.FeatureTable()
+    return _panphon_ft
+
+
+def _ipa_char_to_vec(ch: str) -> List[float]:
+    """Map a single IPA character to a panphon feature vector.
+
+    Returns a flat list of floats (values in {-1, 0, +1}) whose length
+    equals the sum of all group sizes (21 features).  Unknown characters
+    get an all-zeros vector.
+    """
+    ft = _get_panphon_ft()
+    # Normalise common ASCII fallbacks
+    lookup = _IPA_CHAR_NORM.get(ch, ch)
+    vecs = ft.word_to_vector_list(lookup, numeric=True)
+    if vecs:
+        # panphon may return >21 features in newer versions; take the
+        # features we care about by name.
+        full_vec = dict(zip(ft.names, vecs[0]))
+        out: List[float] = []
+        for group_name in PANPHON_GROUP_ORDER:
+            for feat_name in PANPHON_FEATURE_GROUPS[group_name]:
+                out.append(float(full_vec.get(feat_name, 0)))
+        return out
+    # Fallback: try stripping combining diacritics and retrying base char
+    import unicodedata
+    base = unicodedata.normalize("NFD", lookup)
+    if base and base[0] != lookup:
+        return _ipa_char_to_vec(base[0])
+    # Unknown character: zero vector
+    total_feats = sum(PANPHON_GROUP_SIZES)
+    return [0.0] * total_feats
+
+
+def build_char_feature_matrix(chars: Sequence[str], use_ipa_geometry: bool) -> torch.Tensor:
+    """Build a phonological feature matrix for a character inventory.
+
+    When *use_ipa_geometry* is True, returns a (num_chars, 21) tensor of
+    panphon articulatory features grouped as:
+        [major_class(3) | manner(5) | laryngeal(3) | place(4) | vowel_body(6)]
+
+    Each group will be projected independently by the model (see
+    ``GroupedIPAProjector`` in phonetic_prior.py) so that sound-change
+    dimensions live in orthogonal embedding subspaces.
+
+    When *use_ipa_geometry* is False, returns a one-hot identity matrix
+    (no phonological structure).
     """
     chars = list(chars)
     if not chars:
@@ -262,23 +348,9 @@ def build_char_feature_matrix(chars: Sequence[str], use_ipa_geometry: bool) -> t
     if not use_ipa_geometry:
         return torch.eye(len(chars), dtype=torch.float32)
 
-    vowels = set("aeiouyáéíóúïöüōēæ")
     rows: List[List[float]] = []
     for ch in chars:
-        code = ord(ch[0]) if ch else 0
-        is_vowel = 1.0 if ch in vowels else 0.0
-        is_consonant = 1.0 - is_vowel
-        feat = [
-            is_vowel,
-            is_consonant,
-            float(code % 2),
-            float(code % 3) / 2.0,
-            float(code % 5) / 4.0,
-            float(code % 7) / 6.0,
-            float(code % 11) / 10.0,
-            float(len(ch) % 3) / 2.0,
-        ]
-        rows.append(feat)
+        rows.append(_ipa_char_to_vec(ch))
     return torch.tensor(rows, dtype=torch.float32)
 
 

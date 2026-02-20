@@ -3,6 +3,7 @@
 from .phonetic_prior import (
     ComputeCharDistr,
     EditDistDP,
+    GroupedIPAProjector,
     PhoneticPriorConfig,
     PhoneticPriorModel,
     TrainStepOutput,
@@ -11,6 +12,7 @@ from .phonetic_prior import (
 )
 
 __all__ = [
+    "GroupedIPAProjector",
     "PhoneticPriorConfig",
     "PhoneticPriorModel",
     "TrainStepOutput",

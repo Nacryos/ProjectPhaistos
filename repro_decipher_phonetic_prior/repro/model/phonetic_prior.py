@@ -5,12 +5,18 @@ This module follows the paper algorithm structure:
 2) EditDistDP
 3) WordBoundaryDP
 4) SGD step
+
+IPA feature geometry uses Solution D: panphon articulatory features with
+grouped projections.  Each phonological category (major_class, manner,
+laryngeal, place, vowel_body) gets its own nn.Linear projector so that
+sound-change dimensions live in orthogonal embedding subspaces — matching
+the paper's compositional IPA embedding design (Section 3.2.1, Figure 3).
 """
 
 from __future__ import annotations
 
 import math
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 
 import torch
@@ -18,6 +24,9 @@ import torch.nn as nn
 
 
 Tensor = torch.Tensor
+
+# Must stay in sync with PANPHON_GROUP_SIZES in common.py.
+_DEFAULT_GROUP_SIZES: List[int] = [3, 5, 3, 4, 6]  # total = 21
 
 
 def _softmin(values: Sequence[Tensor]) -> Tensor:
@@ -37,6 +46,7 @@ class PhoneticPriorConfig:
     lr: float = 0.2
     p_o: float = 0.2
     seed: int = 1234
+    ipa_group_sizes: List[int] = field(default_factory=lambda: list(_DEFAULT_GROUP_SIZES))
 
 
 @dataclass
@@ -46,6 +56,49 @@ class TrainStepOutput:
     omega_cov: float
     omega_loss: float
     num_sequences: int
+
+
+class GroupedIPAProjector(nn.Module):
+    """Per-group linear projections that preserve phonological subspaces.
+
+    Given a feature matrix of shape (K, F) where F = sum(group_sizes), this
+    module slices the features into groups and projects each group through
+    its own ``nn.Linear(group_size, group_dim, bias=False)``.  The outputs
+    are concatenated to form the full character embedding of size
+    ``sum(group_dims) == embedding_dim``.
+
+    This implements the paper's compositional IPA embedding (Section 3.2.1):
+    the phone [b] is represented as the concatenation of its major-class
+    embedding, manner embedding, laryngeal embedding, place embedding, and
+    vowel-body embedding — each learned independently.
+    """
+
+    def __init__(self, group_sizes: Sequence[int], embedding_dim: int) -> None:
+        super().__init__()
+        n_groups = len(group_sizes)
+        # Distribute embedding_dim evenly; give remainder to last group.
+        base = embedding_dim // n_groups
+        remainder = embedding_dim - base * n_groups
+        group_dims = [base] * n_groups
+        group_dims[-1] += remainder
+
+        self.group_sizes = list(group_sizes)
+        self.group_dims = group_dims
+
+        # Build per-group linear projectors.
+        self.projectors = nn.ModuleList()
+        for gs, gd in zip(self.group_sizes, group_dims):
+            self.projectors.append(nn.Linear(gs, gd, bias=False))
+
+    def forward(self, features: Tensor) -> Tensor:
+        """features: (K, F) -> (K, embedding_dim)."""
+        parts: List[Tensor] = []
+        offset = 0
+        for proj, gs in zip(self.projectors, self.group_sizes):
+            group_feats = features[:, offset: offset + gs]
+            parts.append(proj(group_feats))
+            offset += gs
+        return torch.cat(parts, dim=1)
 
 
 class PhoneticPriorModel(nn.Module):
@@ -78,7 +131,15 @@ class PhoneticPriorModel(nn.Module):
 
         feature_dim = int(known_ipa_features.shape[1])
         self.register_buffer("known_ipa_features", known_ipa_features.float())
-        self.ipa_projector = nn.Linear(feature_dim, d, bias=False)
+
+        # Use grouped projections when features match the panphon layout
+        # (sum of group sizes == feature_dim), otherwise fall back to a
+        # single linear projector for compatibility with one-hot features.
+        group_sizes = self.config.ipa_group_sizes
+        if sum(group_sizes) == feature_dim:
+            self.ipa_projector: nn.Module = GroupedIPAProjector(group_sizes, d)
+        else:
+            self.ipa_projector = nn.Linear(feature_dim, d, bias=False)
 
         # Eq.3 logits over known/lost character pairs.
         self.mapping_logits = nn.Parameter(torch.zeros(len(self.known_chars), len(self.lost_chars)))
