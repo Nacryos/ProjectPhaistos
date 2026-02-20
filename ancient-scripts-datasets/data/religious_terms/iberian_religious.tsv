@@ -1,0 +1,114 @@
+3category	subcategory	element	proposed_meaning	occurrences	example_refs	scholarly_basis
+# ============================================================================
+# IBERIAN RELIGIOUS / VOTIVE ELEMENTS
+# Extracted from iberian.csv (Hesperia epigraphy database)
+# NOTE: Iberian is UNDECIPHERED. Meanings are PROPOSED by scholars based on
+# context, find-spots (sanctuaries, necropoleis), associated objects, and
+# comparison with neighboring cultures. All interpretations are tentative.
+# ============================================================================
+#
+# I. PROPOSED DEITY NAMES (THEONYMS)
+#
+deity_name	war_deity	neitin	war deity (cf. Irish Neit?)	6	GI.15.09;GI.01.03;HU.01.01;L.18.01;T.07.03	Widely accepted as theonym; appears on sanctuary lead tablets, often with iunstir; cf. Untermann 1990, Velaza 2015
+deity_name	theophoric	iltiŕ	possible deity element or "city"	30+	GI.15.19;CS.11.01;V.16.01;AUD.05.35-37;B.29.04	Extremely common in personal names and toponyms; may be theophoric (cf. Basque ili "city"?) or divine element; debated
+deity_name	theophoric	beleś	possible deity name element	15	CS.18.01;CS.21.03;TE.19.01	Appears in onomastic compounds; possibly related to Celtic Belenos or independent theonym
+deity_name	theophoric	atin	father? or deity element	27	GI.15.04;AUD.05.37;B.21.01	Very common name element; cf. Latin "atta" (father); possibly theophoric
+#
+# II. VOTIVE FORMULA ELEMENTS
+#
+votive_formula	dedication	iunstir	dedication/offering formula	12+	GI.15.09;T.07.03;T.07.04;A.04.01b;A.03.01;CS.18.01;CS.21.05;V.06.010;PYO.01.11	Core votive term; appears on sanctuary objects and lead tablets; often paired with neitin; variants: iunstiŕ, iumstiŕ, iunsti-
+votive_formula	dedication	ekiar	"made" / "dedicated" (cf. Lat. fecit)	20+	B.20.04;V.22.01;CS.18.01;V.06.010;V.06.011;V.06.012;V.07.07;LAN.01.02;TE.04.03;GI.07.02	Widely accepted as verb of making/dedicating; appears in ownership and votive contexts across many sites
+votive_formula	dedicant	ḿi	first person / dedicatory marker	78	CS.11.01;CS.01.02;CS.08.01;CS.08.02 (and many more)	Extremely common at end of inscriptions; proposed as "I" (1st person) or possessive marker in votive formulas
+votive_formula	offering_term	eban / ebanen	"to give/dedicate" (proposed verb)	17	B.21.01;A.09.05;MU.04.01;TE.06.02;TE.19.01;V.04.01;V.04.03;V.04.05;V.04.06	Proposed as verbal form meaning "to give/offer"; appears in contexts suggesting dedication
+votive_formula	funerary	seltar	tomb/funerary monument	5	TE.18.01;TE.15.01;CS.11.01;V.01.01	Consistently appears in funerary/memorial contexts; proposed as "tomb" or "grave monument"
+votive_formula	funerary	uśtalar	funerary/ritual term	2	CS.21.05;T.07.03	Appears in long votive texts alongside neitin and iunstir; possibly a ritual term
+votive_formula	counting	śalir	silver/money/payment	17	T.07.03;CS.21.05;A.03.01;A.04.01b (and others)	Often appears with numerals; proposed as unit of value or "silver"; possibly offering-payment
+votive_formula	counting	karte	inscription count? / quantity	3	GI.01.03 (karteIII)	Appears with Roman numerals; possibly counting dedicated objects
+#
+# III. COMMON ONOMASTIC ELEMENTS (potentially theophoric)
+#
+onomastic	name_element	ban	determinative/son?	61+	widespread	Extremely common; proposed as article, determinative, or "son" (patronymic)
+onomastic	name_element	bilos	name/title element	19	GI.10.06;AUD.05.35;V.06.013	Common in personal name compounds; possibly a title or name element
+onomastic	name_element	baite	guardian? / ritual title	11	CS.21.03;CS.21.05;AUD.05.35	Appears in votive contexts, possibly a ritual role or title
+onomastic	name_element	kutuŕ	title/designation	8	CS.21.05	May designate a role; appears in long sanctuary texts
+onomastic	name_element	oŕtin / ortin	name element (theophoric?)	16	B.21.01;CS.01.01;T.07.03	Common in names; possibly containing divine element
+onomastic	name_element	sakaŕ	name element (sacred?)	9	CS.05.01;MU.04.01	Appears in sanctuary contexts; possibly related to sacredness
+onomastic	name_element	saltu	forest/wild? / sanctuary	3	GI.15.04;V.06.010	Appears in votive texts; possibly a place designation or sanctuary term
+onomastic	name_element	biuŕ	name element	frequent	GI.15.05;GI.15.18;GI.10.13	Common element in personal names found at sanctuary sites
+#
+# IV. INSCRIPTIONS FROM KNOWN SANCTUARY SITES
+# (entire inscriptions likely to be votive/religious)
+#
+sanctuary_text	Ullastret	GI.15.09	neitin+iunstir inscription	1	GI.15.09	"neitiniunstir anbaikabalika ilbikon..." — sanctuary lead tablet
+sanctuary_text	Ullastret	GI.01.03	neitin+iunstir+karte	1	GI.01.03	"neitin:basetiŕa:iuns tir:baŕbinkite..." — with counting marks
+sanctuary_text	Liria	T.07.03	combined ritual text	1	T.07.03	"uśtalar:ortinbeŕeteŕeikiaŕ śalir o III: neitiniunstir" — votive
+sanctuary_text	Castellon	CS.11.01	seltar dedication	1	CS.11.01	"iltiŕbikis: en:seltar: ḿi" — funerary/votive formula
+sanctuary_text	Castellon	CS.18.01	iunstir+ekiar text	1	CS.18.01	"iunstir:beleśaiŕ...iunstir:ekiartone:beleśtar..." — major votive
+sanctuary_text	Castellon	CS.21.05	long votive text	1	CS.21.05	Contains: iunstirlakú, bototaś, uśtalarilune, banḿiŕeśu — major ritual inscription
+sanctuary_text	Alcoy	A.04.01b	iunstir+śalir text	1	A.04.01b	"iunstir:śalirg:basiŕtiŕ:sabaŕi dai..." — offering with counting
+sanctuary_text	Alcoy	A.03.01	multiple iunstir	1	A.03.01	Contains iunstir 4+ times — repetitive votive/ritual formula
+sanctuary_text	Valencia	V.06.010	ekiar+iumstiŕ	1	V.06.010	"ekiar:saltutibaite:iumstiŕ" — dedication formula
+sanctuary_text	Valencia	V.01.01	seltar+ḿi	1	V.01.01	"seltarbanḿi...kaŕieukiarseltarbanḿi" — double funerary formula
+sanctuary_text	Valencia	V.04.01	aŕetake+eban	1	V.04.01	"aŕe:take aiunibaiseate teban:a" — possible offering text
+sanctuary_text	Huesca	HU.01.01	neitin text	1	HU.01.01	"...neitin..." — northern attestation of deity name
+sanctuary_text	Murcia	MU.04.01	sakaŕ+eban	1	MU.04.01	"sakaŕbeś...ebanalbasusbeliginela" — southern ritual text
+sanctuary_text	Lérida	L.18.01	neitinke	1	L.18.01	"neitinke subake:e:i:tako" — with suffix -ke (possibly ablative)
+#
+# V. RECURRING VOTIVE PATTERNS
+# (structural patterns observed across multiple inscriptions)
+#
+pattern	NPN_formula	[name]:ekiar	"X made/dedicated (this)"	20+	multiple	Parallels Latin "X fecit"; ownership/dedication
+pattern	seltar_formula	[name]:seltar:ḿi	"(this is) the tomb of X, mine"	5	CS.11.01;V.01.01	Funerary dedication formula
+pattern	neitin_formula	neitin(+iunstir)	"(to) Neitin — offering"	6	GI.15.09;T.07.03;GI.01.03	Deity invocation + offering term
+pattern	eban_formula	[name]:eban(en)	"X gave/offered"	17	V.04.03;V.04.05;V.04.06	Verbal phrase of dedication
+pattern	counting	śalir + numeral	"X silver/units"	freq	T.07.03 "śalir o III"	Quantified offerings or payments
+pattern	double_verb	aŕe:take + teban	"performed rite ... gave"	1	V.04.01	Two-verb votive formula (V.04.01)
+pattern	uskeike_iunstir	uskéiké + iunstir	repeated ritual formula	5+	CS.21.05-07	Always co-occur in CS.21 sanctuary texts
+pattern	numeral_prefix	a/o/e/ki/ka + III...	categorized offering counts	45+	widespread	Prefixes may designate different offering types
+#
+# ============================================================================
+# ADDITIONS FROM RECHECK (comprehensive sweep for missing terms)
+# ============================================================================
+#
+# VI. ADDITIONAL VOTIVE VERBS
+#
+votive_formula	ritual_verb	aŕe:take / aŕetake	proposed ritual action verb	2	V.04.01;V.04.06;T.11.05	Appears in bilingual T.11.05 alongside Latin FVLVIA LINTEARIA; paired with teban
+votive_formula	ritual_verb	biteŕoke / biteŕokan	proposed verbal form	2	B.38.01;AUD.05.38a	Appears in AUD.05 Ensérune sanctuary area
+votive_formula	ritual_verb	teban	"gave" (proposed verb)	1	V.04.01	Paired with aŕe:take in same inscription
+votive_formula	ritual_verb	bankite	formula element with iunstir	2	TE.06.02	Adjacent to broken "iusti---tir" (=iunstir)
+votive_formula	ritual_verb	uskéiké	repeated ritual formula word	5+	CS.21.05;CS.21.06;CS.21.07	Exclusive to CS.21 sanctuary; always with iunstir and bototaś
+#
+# VII. ADDITIONAL RITUAL NOUNS
+#
+votive_formula	ritual_noun	bototaś	proposed ritual/divine term	3	CS.21.05;CS.21.06;CS.21.07	Opens CS.21.05 text as "iŕe:bototaś"; inflected forms: bototaśeai, bototaśeiké, bototaśté; exclusive to CS.21
+votive_formula	ritual_noun	basetiŕa	epithet/qualifier with neitin	1	GI.01.03	Appears between neitin (deity) and iunstir in "neitin:basetiŕa:iunstir"; possibly divine epithet
+votive_formula	ritual_noun	etesilir	proposed ritual noun (-lir class)	1	CS.18.01	Flanked by two iunstir; the -lir ending shared with śalir and buranalir may indicate ritual noun class
+votive_formula	ritual_noun	borsté	proposed ritual object	1	GI.15.04	Doubled in text: "borsté:abaŕkeborsté"; co-occurs with saltukó and neitékeŕu
+votive_formula	ritual_noun	saltukó / saltuki	proposed ritual term	1	GI.15.04	Two variants in same text; co-occurs with borsté and neitékeŕu (deity variant?)
+votive_formula	ritual_noun	iŕe	text-opener / invocation marker	18	CS.21.05 (and others)	Opens the longest votive text CS.21.05 as "iŕe:bototaś"; may function as ritual opener
+#
+# VIII. ADDITIONAL PLACE NAMES (sacred geography)
+#
+onomastic	place_name	buŕka / alaśbuŕ	settlement/fortress name	3	AUD.05.35;AUD.05.36a	"kúleśbuŕka", "alaśbuŕ:śal" — sacred site place-names in Ensérune sanctuary texts
+onomastic	place_name	lauŕ	common toponym/name element	15	GI.15.05;CS.21.05;T.11.05	Widespread; appears in GI.15 sanctuary, CS.21 votive, and T.11 bilingual text
+#
+# IX. ADDITIONAL ONOMASTIC ELEMENTS
+#
+onomastic	name_element	tikiŕ / tikeŕ	name element	4	GI.10.12;AB.01.01b	Second element in compound names: akaś-tikeŕ, iltir-tikeŕ
+onomastic	name_element	baś (standalone)	name element	18	GI.15.05;GI.15.19	Very common; also as final element: iltiŕ-baś, biuŕti-baś
+onomastic	name_element	bekon / bekoŕ	name element (in sanctuary texts)	8	A.04.01b;V.04.04;V.06.022	Appears in A.04.01b alongside iunstir and śalir
+onomastic	name_element	neŕse	name element (possible theophoric)	3	T.00.01;V.04.11;CS.16.01	First element of compounds: neŕse-oŕtin, neŕse-atin; CS.16 near sanctuary zone
+onomastic	name_element	taneś / táneś	common name-final element	10	GI.15.04;A.04.06a;AUD.05.37;B.20.02	In compounds: biuŕ-táneś, iltiŕ-táneś, atin-táneś; appears at sanctuary sites with counting marks
+#
+# X. COUNTING AND STRUCTURAL MARKERS
+#
+pattern	counting_marks	Roman numerals (I, III, IIII...)	offering tallies	45	GI.01.03;CS.21;V.07.01;A.04;V.02;B.40	Systematically paired with śalir and karte; V.07.01 has tallies up to 20 strokes
+pattern	category_prefix	a/o/e/ki/ka before numerals	offering category markers	freq	V.07.01;V.02.02;A.04.06a	Different prefixes may designate different offering types or denominations
+pattern	vacat_marker	vacat (intentional blank)	ritual section break	3	CS.18.01;AB.06.04;AUD.05.36a	Marks formal structure in ritual texts; two vacats in CS.18.01 votive text
+#
+# XI. KEY SANCTUARY TEXT ADDITIONS
+#
+sanctuary_text	Ullastret	GI.15.04	borsté+saltukó+neitékeŕu	1	GI.15.04	Major ritual text with unique terms; doubled borsté; neitékeŕu may be variant of neitin
+sanctuary_text	Castellon	CS.21.06	uskéiké+iunstir+bototaś	1	CS.21.06	Continuation of CS.21.05 ritual; repeats uskéiké-iunstir formula
+sanctuary_text	Castellon	CS.21.07	multiple uskéiké+iunstir	1	CS.21.07	Contains 5+ uskéiké-iunstir pairs; longest sustained ritual formula
+sanctuary_text	Ensérune	AUD.05.38a	śalir+biteŕokan	1	AUD.05.38a	"śiśalirbitíŕokánkube" — combined śalir and biteŕokan; "itiatu:ban:kutur:biteŕokan"

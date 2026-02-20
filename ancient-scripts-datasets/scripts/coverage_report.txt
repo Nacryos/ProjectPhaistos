@@ -1,0 +1,315 @@
+CLDF -> TSV Conversion Coverage Report
+============================================================
+
+Total entries:   16,559
+Total languages: 199
+Total concepts:  105
+TSV files:       43
+
+Languages:
+  abk: Abkhaz (northwest_caucasian)
+  ady: Adyghe (northwest_caucasian)
+  ain: Ainu (isolates)
+  ale: Aleut (eskimo_aleut)
+  amh: Amharic (semitic)
+  ami: Amis (Central) (austronesian)
+  ang: Old English (germanic)
+  aqc: Archi (northeast_caucasian)
+  arb: Arabic (semitic)
+  arn: Mapudungun (araucanian)
+  ava: Avar (northeast_caucasian)
+  ave: Avestan (indo_iranian)
+  aze: Azerbaijani (turkic)
+  azj: North Azerbaijani (turkic)
+  bak: Bashkir (turkic)
+  ban: Balinese (austronesian)
+  bca: Jianchuan Bai (sino_tibetan)
+  bel: Belarusian (balto_slavic)
+  ben: Bengali (indo_iranian)
+  bod: Classical Tibetan (sino_tibetan)
+  bre: Breton (celtic)
+  bsk: Burushaski (isolates)
+  bua: Buryat (mongolic)
+  bug: Buginese (Soppeng Dialect) (austronesian)
+  bul: Bulgarian (balto_slavic)
+  car: Kali'na (cariban)
+  cat: Catalan (italic)
+  ceb: Cebuano (austronesian)
+  ces: Czech (balto_slavic)
+  cha: Chamorro (austronesian)
+  che: Chechen (northeast_caucasian)
+  chk: Chuukese (austronesian)
+  chu: Old Church Slavonic (balto_slavic)
+  chv: Chuvash (turkic)
+  ckt: Chukchi (chukotko_kamchatkan)
+  cmn: Mandarin Chinese (sino_tibetan)
+  cnh: Hakha Chin (sino_tibetan)
+  crs: Seychelles Creole (creole)
+  cwg: Ceq Wong (austroasiatic)
+  cym: Welsh (celtic)
+  dan: Danish (germanic)
+  dar: Dargwa (northeast_caucasian)
+  ddo: Tsez (northeast_caucasian)
+  deu: German (germanic)
+  dsb: Lower Sorbian (balto_slavic)
+  duu: Drung (sino_tibetan)
+  ekk: Estonian (NEL) (uralic)
+  ell: Modern Greek (hellenic)
+  enf: Forest Enets (uralic)
+  eng: English (germanic)
+  ess: Central Siberian Yupik (eskimo_aleut)
+  est: Estonian (uralic)
+  eus: Basque (isolates)
+  evn: Evenki (tungusic)
+  fas: Persian (indo_iranian)
+  fij: Fijian (Bau) (austronesian)
+  fin: Finnish (uralic)
+  fra: French (italic)
+  gil: Kiribati (austronesian)
+  gld: Nanai (tungusic)
+  gle: Irish (celtic)
+  gmy: Mycenaean Greek (hellenic)
+  goh: Old High German (germanic)
+  got: Gothic (germanic)
+  grc: Ancient Greek (hellenic)
+  gue: Gurindji (pama_nyungan)
+  gwd: Gawwada (afroasiatic_cushitic)
+  hau: Hausa (afroasiatic_chadic)
+  haw: Hawaiian (austronesian)
+  heb: Hebrew (semitic)
+  hil: Hiligaynon (austronesian)
+  hin: Hindi (indo_iranian)
+  hrv: Croatian (balto_slavic)
+  hun: Hungarian (uralic)
+  hye: Armenian (armenian)
+  ilo: Ilokano (austronesian)
+  ind: Indonesian (austronesian)
+  irk: Iraqw (afroasiatic_cushitic)
+  isl: Icelandic (germanic)
+  ita: Italian (italic)
+  itl: Itelmen (chukotko_kamchatkan)
+  jav: Javanese (austronesian)
+  jpn: Japanese (japonic)
+  jup: Hup (naduhup)
+  jya: Japhug (sino_tibetan)
+  kac: Jingpho (sino_tibetan)
+  kal: Kalaallisut (eskimo_aleut)
+  kan: Kannada (dravidian)
+  kap: Bezhta (northeast_caucasian)
+  kat: Georgian (kartvelian)
+  kaz: Kazakh (turkic)
+  kca: Khanty (uralic)
+  kek: Q'eqchi' (mayan)
+  ket: Ket (isolates)
+  khk: Mongolian (mongolic)
+  klr: Khaling (sino_tibetan)
+  kmr: Northern Kurdish (indo_iranian)
+  knc: Kanuri (saharan)
+  koi: Komi-Permyak (uralic)
+  kor: Korean (koreanic)
+  kos: Kusaie (austronesian)
+  kpv: Komi-Zyrian (uralic)
+  krl: Karelian (uralic)
+  lat: Latin (italic)
+  lav: Latvian (balto_slavic)
+  lbe: Lak (northeast_caucasian)
+  lez: Lezgian (northeast_caucasian)
+  lif: Limbu (sino_tibetan)
+  lis: Lisu (sino_tibetan)
+  lit: Lithuanian (balto_slavic)
+  liv: Livonian (uralic)
+  mah: Marshallese (E. Dialect) (austronesian)
+  mal: Malayalam (dravidian)
+  mdf: Moksha (uralic)
+  mhr: Eastern Mari (uralic)
+  min: Minangkabau (austronesian)
+  mlg: Malagasy (austronesian)
+  mnc: Manchu (tungusic)
+  mns: Mansi (uralic)
+  mri: Maori (austronesian)
+  mrj: Western Mari (uralic)
+  mww: White Hmong (hmong_mien)
+  myv: Erzya (uralic)
+  mzh: Wichi (matacoan)
+  nio: Nganasan (uralic)
+  niu: Niue (austronesian)
+  niv: Nivkh (isolates)
+  nld: Dutch (germanic)
+  nmm: Manange (sino_tibetan)
+  non: Old Norse (germanic)
+  nor: Norwegian (germanic)
+  nxq: Naxi (sino_tibetan)
+  obr: Old Burmese (sino_tibetan)
+  och: Old Chinese (sino_tibetan)
+  olo: Livvi Karelian (uralic)
+  orh: Oroqen (tungusic)
+  osc: Oscan (italic)
+  oss: Ossetian (indo_iranian)
+  ote: Mezquital Otomi (otomanguean)
+  otk: Old Turkic (turkic)
+  pag: Pangasinan (austronesian)
+  pbu: Northern Pashto (indo_iranian)
+  pes: Western Farsi (indo_iranian)
+  plt: Merina (Malagasy) (austronesian)
+  pmi: Pumi (sino_tibetan)
+  pol: Polish (balto_slavic)
+  por: Portuguese (italic)
+  pwn: Paiwan (Kulalao F82) (austronesian)
+  qvi: Imbabura Quechua (quechuan)
+  qxs: Mawo Qiang (sino_tibetan)
+  rap: Rapanui (Easter Island) (austronesian)
+  rar: Rarotongan (austronesian)
+  rif: Tarifiyt Berber (afroasiatic_berber)
+  rmn: Selice Romani (indo_iranian)
+  ron: Romanian (italic)
+  rus: Russian (balto_slavic)
+  sah: Yakut/Sakha (turkic)
+  san: Sanskrit (indo_iranian)
+  sel: Selkup (uralic)
+  sga: Old Irish (celtic)
+  sjd: Kildin Sami (uralic)
+  slk: Slovak (balto_slavic)
+  slv: Slovenian (balto_slavic)
+  sma: Southern Sami (uralic)
+  sme: Northern Sami (uralic)
+  smj: Lule Sami (uralic)
+  smn: Inari Sami (uralic)
+  smo: Samoan (austronesian)
+  sms: Skolt Sami (uralic)
+  spa: Spanish (italic)
+  sqi: Albanian (albanian)
+  sun: Sundanese (austronesian)
+  swe: Swedish (germanic)
+  swh: Swahili (niger_congo_bantu)
+  tam: Tamil (dravidian)
+  tat: Tatar (turkic)
+  tay: Atayal - Squliq F69 (austronesian)
+  tbc: Takia (austronesian)
+  tel: Telugu (dravidian)
+  tet: Tetun Terik (Fehan dialect) (austronesian)
+  tgl: Tagalog (austronesian)
+  tha: Thai (tai_kadai)
+  tji: Northern Tujia (sino_tibetan)
+  ton: Tongan (austronesian)
+  tur: Turkish (turkic)
+  tzo: Zinacantán Tzotzil (mayan)
+  udm: Udmurt (uralic)
+  ukr: Ukrainian (balto_slavic)
+  uzn: Northern Uzbek (turkic)
+  vep: Veps (uralic)
+  vie: Vietnamese (austroasiatic)
+  xal: Kalmyk (mongolic)
+  xum: Umbrian (italic)
+  yaq: Yaqui (uto_aztecan)
+  ykg: Northern Yukaghir (yukaghir)
+  yrk: Tundra Nenets (uralic)
+  yux: Southern Yukaghir (yukaghir)
+  zlm: Melayu Sarawak (dialect) (austronesian)
+  zsm: Melayu (austronesian)
+
+Concepts:
+  ash
+  belly
+  big
+  bird
+  bite
+  black
+  blood
+  bone
+  breast
+  brother
+  burn
+  child
+  cloud
+  come
+  daughter
+  die
+  dog
+  drink
+  ear
+  earth
+  eat
+  egg
+  eye
+  father
+  fire
+  fish
+  fly_insect
+  foot
+  fruit
+  full
+  give
+  god
+  good
+  grass
+  green
+  hair
+  hand
+  head
+  hear
+  heart
+  horn
+  horse
+  house
+  husband
+  ice
+  kill
+  king
+  knee
+  know
+  leaf
+  long
+  louse
+  meat
+  moon
+  mother
+  mountain
+  mouth
+  nail
+  name
+  neck
+  new
+  night
+  nose
+  old
+  one
+  ox
+  person
+  rain
+  red
+  river
+  root
+  round
+  run
+  sand
+  say
+  sea
+  see
+  seed
+  sister
+  sit
+  skin
+  sky
+  sleep
+  small
+  smoke
+  snake
+  son
+  stand
+  star
+  stone
+  sun
+  swim
+  three
+  tongue
+  tooth
+  tree
+  two
+  walk
+  warm
+  water
+  white
+  wife
+  wind
+  worm
+  yellow

@@ -1,0 +1,33 @@
+staging_dir: test_staging
+log_level: DEBUG
+batch_size: 100
+
+sources:
+  - name: test_cldf
+    path: tests/fixtures/sample_cldf
+    format: cldf
+    license: "CC-BY-4.0"
+    license_url: "https://creativecommons.org/licenses/by/4.0/"
+    citation_bibtex: "@misc{test,title={Test}}"
+
+database:
+  host: localhost
+  port: 5432
+  name: cognate_test_db
+  user: postgres
+  password: ""
+
+normalisation:
+  unicode_form: NFC
+  strip_suprasegmentals: false
+  transliteration_passthrough: true
+
+cognate:
+  method: baseline_lev
+  clustering: connected_components
+  threshold: 0.45
+  family_aware: false
+
+export:
+  cldf_output_dir: test_export/cldf
+  jsonld_output_dir: test_export/jsonld

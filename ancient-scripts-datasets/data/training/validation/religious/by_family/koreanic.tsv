@@ -1,0 +1,70 @@
+Lang_A	Word_A	IPA_A	SCA_A	Lang_B	Word_B	IPA_B	SCA_B	Concept_ID	Label	Phylo_Dist	Timespan	Score	Source
+sxr	apouth	apouth	APOUTH	kor	pul	pul	PUL	FIRE	false_positive	L4	modern_modern	0.7000	lexicon
+ady	maːʃʼ̈wa	maːʃʼwa	MASWA	kor	pul	pul	PUL	FIRE	false_positive	L4	modern_modern	0.6200	lexicon
+gfk	teka	teka	TEKA	kor	tal	tal	TAL	MOON	false_positive	L4	modern_modern	0.6250	lexicon
+abk	ɑmzɑ	ɑmzɑ	AMSA	kor	tal	tal	TAL	MOON	false_positive	L4	modern_modern	0.5500	lexicon
+bsu	anaɸula	anaɸula	ANAPULA	kor	pjʌl	pjʌl	PYL	STAR	false_positive	L4	modern_modern	0.5714	lexicon
+abk	ɑdɨd	ɑdɨd	ADID	kor	nwemjʌŋ	nwemjʌŋ	NWEMYN	THUNDER	false_positive	L4	modern_modern	0.5167	lexicon
+ray	rangi	rangi	RANGI	kor	hanɯl	hanɯl	HANUL	SKY	false_positive	L4	modern_modern	0.5400	lexicon
+tgo	nu	nu	NU	kor	t͡ɕuɡida	tɕugida	TSUGIDA	KILL	false_positive	L4	modern_modern	0.6000	lexicon
+abk	ɑʃrɑ	ɑʃrɑ	ASRA	kor	t͡ɕuɡida	tɕugida	TSUGIDA	KILL	false_positive	L4	modern_modern	0.6000	lexicon
+bwd	wayawaina	wayawaina	WAUAWAINA	kor	sʰalais͈nɯn	sʰalais͈nɯn	SALAISNUN	BE ALIVE	false_positive	L4	modern_modern	0.5222	lexicon
+apx	sahi'lor	sahilor	SAHILOR	kor	pada	pada	PADA	SEA	false_positive	L4	modern_modern	0.5571	lexicon
+abk	ɑmʂɨn	ɑmʂɨn	AMSIN	kor	pada	pada	PADA	SEA	false_positive	L4	modern_modern	0.5800	lexicon
+ady	maˈzə	mazə	MASE	kor	sʰup̚	sʰup̚	SUP	FOREST	false_positive	L4	modern_modern	0.5500	lexicon
+ady	ɕəˈnan	ɕənan	SENAN	kor	tuɾjʌwʌnɦada	tuɾjʌwʌnɦada	TURYWNHADA	FEAR (BE AFRAID)	false_positive	L4	modern_modern	0.6600	lexicon
+eus	belduɾ_isan	belduɾisan	BELDURISAN	kor	tuɾjʌwʌnɦada	tuɾjʌwʌnɦada	TURYWNHADA	FEAR (BE AFRAID)	false_positive	L4	modern_modern	0.5100	lexicon
+ale	tynoχtɑːʁoχ	tynoχtɑːʁoχ	TUNOKTAROK	kor	pud͡ʑʌŋ	pudʑʌŋ	PUDSN	SIN	false_positive	L4	modern_modern	0.5600	lexicon
+abk	ɑbziɑbɑrɑ	ɑbziɑbɑrɑ	ABSIABARA	kor	sʰaɾaŋɦada	sʰaɾaŋɦada	SARANHADA	LOVE	false_positive	L4	modern_modern	0.6000	lexicon
+niv	ɤzmud	ɤzmud	SMUD	kor	sʰaɾaŋɦada	sʰaɾaŋɦada	SARANHADA	LOVE	false_positive	L4	modern_modern	0.5778	lexicon
+niv	umlæ	umlæ	UMLA	kor	napp͈͈ɯn	napp͈ɯn	NAPPUN	EVIL	false_positive	L4	modern_modern	0.5167	lexicon
+ale	aŋeqɑʁelix	aŋeqɑʁelix	ANEKARELIK	kor	napp͈͈ɯn	napp͈ɯn	NAPPUN	EVIL	false_positive	L4	modern_modern	0.5400	lexicon
+ady	baːj	baːj	BAY	kor	pʰuŋbuɦan	pʰuŋbuɦan	PUNBUHAN	RICH	false_positive	L4	modern_modern	0.5625	lexicon
+eus	diɾudun	diɾudun	DIRUDUN	kor	pʰuŋbuɦan	pʰuŋbuɦan	PUNBUHAN	RICH	false_positive	L4	modern_modern	0.5750	lexicon
+ady	dəwˈnaːj	dəwnaːj	DEWNAY	kor	sʰesʰaŋ	sʰesʰaŋ	SESAN	WORLD	false_positive	L4	modern_modern	0.6500	lexicon
+abk	ɑdɡʲilbʒɑχɑ	ɑdgʲilbʒɑχɑ	ADGILBSAKA	kor	sʰʌm	sʰʌm	SM	ISLAND	false_positive	L4	modern_modern	0.5400	lexicon
+ady	psəˈχʷa	psəχʷa	PSEKA	kor	kaŋ	kaŋ	KAN	RIVER	false_positive	L4	modern_modern	0.6000	lexicon
+arb	nahr	nahr	NAHR	kor	kaŋ	kaŋ	KAN	RIVER	false_positive	L4	modern_modern	0.5500	lexicon
+chv	juˈχan_ʂɯʋ	juχanʂɯʋ	YUKANSUW	kor	kaŋ	kaŋ	KAN	RIVER	false_positive	L4	modern_modern	0.6875	lexicon
+abk	ɑikʰərχɑrɑ	ɑikʰərχɑrɑ	AIKERKARA	kor	kud͡ʑoɦada	kudʑoɦada	KUDSOHADA	RESCUE	false_positive	L4	modern_modern	0.5667	lexicon
+abk	ɑirɑ	ɑirɑ	AIRA	kor	tʰɛʌnan	tʰɛʌnan	TENAN	BE BORN	false_positive	L4	modern_modern	0.5800	lexicon
+heb	ɛmɛt	ɛmɛt	EMET	kor	cam	cam	KAM	TRUTH	false_positive	L4	modern_modern	0.5500	lexicon
+ady	qaːˈla	qaːla	KALA	kor	toɕʰi	toɕʰi	TOSI	TOWN	false_positive	L4	modern_modern	0.5250	lexicon
+bsk	ˈɕaːr	ɕaːr	SAR	kor	toɕʰi	toɕʰi	TOSI	TOWN	false_positive	L4	modern_modern	0.6500	lexicon
+abk	ɑkʰərɡəɨʁrɑ	ɑkʰərgəɨʁrɑ	AKERGEIRRA	kor	jaksʰokhada	jaksʰokhada	YAKSOKHADA	PROMISE	false_positive	L4	modern_modern	0.5800	lexicon
+ady	ˈqʷaːd͡ʒ	qʷaːdʒ	KADS	kor	colːak̚	colːak̚	KOLAK	VILLAGE	false_positive	L4	modern_modern	0.5800	lexicon
+ain	kotan	kotan	KOTAN	kor	colːak̚	colːak̚	KOLAK	VILLAGE	false_positive	L4	modern_modern	0.7400	lexicon
+abk	ɑkʼəɑʂɑrɑ	ɑkʼəɑʂɑrɑ	AKEASARA	kor	cumcuɦada	cumcuɦada	KUMKUHADA	DANCE	false_positive	L4	modern_modern	0.6222	lexicon
+abk	ɑkʼɨrʈʈ͡ʂʼɑt͡sʼɑrɑ	ɑkʼɨrʈʈʂ’ɑtsʼɑrɑ	AKIRTTSATSARA	kor	sʰaɾjoɾɯld͡ʑuda	sʰaɾjoɾɯldʑuda	SARYORULDSUDA	FEED	false_positive	L4	modern_modern	0.5769	lexicon
+ket	jisaq	jisaq	YISAK	kor	sʰaɾjoɾɯld͡ʑuda	sʰaɾjoɾɯldʑuda	SARYORULDSUDA	FEED	false_positive	L4	modern_modern	0.5923	lexicon
+kal	nɛʁlɛʁpaː	nɛʁlɛʁpaː	NERLERPA	kor	sʰaɾjoɾɯld͡ʑuda	sʰaɾjoɾɯldʑuda	SARYORULDSUDA	FEED	false_positive	L4	modern_modern	0.6385	lexicon
+ale	kadɛːŋɛːdɑχ	kadɛːŋɛːdɑχ	KADENEDAK	kor	toŋɦwa	toŋɦwa	TONHWA	FAIRY TALE	false_positive	L4	modern_modern	0.5444	lexicon
+ady	tħa	tħa	THA	kor	hanɯnim	hanɯnim	HANUNIM	DEITY	false_positive	L4	modern_modern	0.5714	lexicon
+ale	aɡoːʁoχ	agoːʁoχ	AGOROK	kor	hanɯnim	hanɯnim	HANUNIM	DEITY	false_positive	L4	modern_modern	0.5143	lexicon
+abk	ɑnɑnɑmɡɑ	ɑnɑnɑmgɑ	ANANAMGA	kor	kananɦan	kananɦan	KANANHAN	POOR	false_positive	L4	modern_modern	0.6250	lexicon
+ket	bednaj	bednaj	BEDNAY	kor	kananɦan	kananɦan	KANANHAN	POOR	false_positive	L4	modern_modern	0.5500	lexicon
+ady	qajʁablaʁan	qajʁablaʁan	KAYRABLARAN	kor	cocʌŋɦada	cocʌŋɦada	KOKNHADA	INVITE	false_positive	L4	modern_modern	0.6000	lexicon
+ady	baˈnə	banə	BANE	kor	mudʌm	mudʌm	MUDM	GRAVE	false_positive	L4	modern_modern	0.5250	lexicon
+ain	ɾa͡ɪ-i	ɾaɪi	RAII	kor	t͡ɕuɡɯm	tɕugɯm	TSUGUM	DEATH	false_positive	L4	modern_modern	0.5167	lexicon
+ady	ʁaːˈʃʼa	ʁaːʃʼa	RASA	kor	sʰalm	sʰalm	SALM	LIFE	false_positive	L4	modern_modern	0.6000	lexicon
+abk	ɑpʰsɨ	ɑpʰsɨ	APSI	kor	halɡi	halgi	HALGI	SPIRIT	false_positive	L4	modern_modern	0.6400	lexicon
+niv	qʰoʁæ	qʰoʁæ	KORA	kor	halɡi	halgi	HALGI	SPIRIT	false_positive	L4	modern_modern	0.5200	lexicon
+ale	siniɡix	sinigix	SINIGIK	kor	halɡi	halgi	HALGI	SPIRIT	false_positive	L4	modern_modern	0.6286	lexicon
+abk	ɑpʰχɨd͡z	ɑpʰχɨdz	APKIDS	kor	kʰum	kʰum	KUM	DREAM	false_positive	L4	modern_modern	0.5333	lexicon
+eus	amet͡ɕ	ametɕ	AMETS	kor	kʰum	kʰum	KUM	DREAM	false_positive	L4	modern_modern	0.5400	lexicon
+arb	ħulm	ħulm	HULM	kor	kʰum	kʰum	KUM	DREAM	false_positive	L4	modern_modern	0.6250	lexicon
+abk	ɑtʰɑrɑ	ɑtʰɑrɑ	ATARA	kor	t͡ɕuda	tɕuda	TSUDA	GIVE	false_positive	L4	modern_modern	0.6800	lexicon
+abk	ɑtʰɑtʰəɑrɑ	ɑtʰɑtʰəɑrɑ	ATATEARA	kor	tt͈͈aɾɯda	tt͈aɾɯda	TTARUDA	POUR	false_positive	L4	modern_modern	0.7000	lexicon
+abk	ɑtʼəɨlɑ	ɑtʼəɨlɑ	ATEILA	kor	t͡ɕibaŋ	tɕibaŋ	TSIBAN	COUNTRY	false_positive	L4	modern_modern	0.5167	lexicon
+abk	ɑt͡sʰəɑqʼəɑ	ɑtsʰəɑqʼəɑ	ATSEAKEA	kor	mud͡ʑiɡɛ	mudʑigɛ	MUDSIGE	RAINBOW	false_positive	L4	modern_modern	0.6625	lexicon
+abk	ɑt͡sʰəɨχʲt͡ʃʰɑrɑ	ɑtsʰəɨχʲtʃʰɑrɑ	ATSEIKTSARA	kor	poβoɦada	poβoɦada	POBOHADA	PROTECT	false_positive	L4	modern_modern	0.5091	lexicon
+ale	aŋadɛt	aŋadɛt	ANADET	kor	poβoɦada	poβoɦada	POBOHADA	PROTECT	false_positive	L4	modern_modern	0.5500	lexicon
+abk	ɑuɑχəɑmɑ	ɑuɑχəɑmɑ	AUAKEAMA	kor	kjoβwe	kjoβwe	KYOBWE	CHURCH	false_positive	L4	modern_modern	0.5125	lexicon
+bsk	ɡ̇arˈbaːnt͡ṡ	garbaːnts	GARBANTS	kor	koŋdoŋ	koŋdoŋ	KONDON	CAVE	false_positive	L4	modern_modern	0.6000	lexicon
+ady	waˈrad	warad	WARAD	kor	noɾɛ	noɾɛ	NORE	SONG	false_positive	L4	modern_modern	0.5800	lexicon
+eus	abeɕti	abeɕti	ABESTI	kor	noɾɛ	noɾɛ	NORE	SONG	false_positive	L4	modern_modern	0.5167	lexicon
+abk	ɑʃχɑ	ɑʃχɑ	ASKA	kor	sʰan	sʰan	SAN	MOUNTAIN	false_positive	L4	modern_modern	0.6250	lexicon
+bsk	paˈhaːʈ	pahaːʈ	PAHAT	kor	sʰan	sʰan	SAN	MOUNTAIN	false_positive	L4	modern_modern	0.5400	lexicon
+ady	wəjəvəˈχa_tajˈɬən	wəjəvəχatajɬən	WEYEBEKATAYLEN	kor	mitt͈͈a	mitt͈a	MITTA	BELIEVE	false_positive	L4	modern_modern	0.5929	lexicon
+ady	ʁasˈtən	ʁastən	RASTEN	kor	sʰoɕʰilɦada	sʰoɕʰilɦada	SOSILHADA	BURN (SOMETHING)	false_positive	L4	modern_modern	0.6667	lexicon
+ain	uhuika	uhuika	UHUIKA	kor	sʰoɕʰilɦada	sʰoɕʰilɦada	SOSILHADA	BURN (SOMETHING)	false_positive	L4	modern_modern	0.5444	lexicon

@@ -21,10 +21,12 @@
     {
       "name": "ancient-scripts-datasets",
       "url": "https://github.com/Nacryos/ancient-scripts-datasets.git",
-      "commit": "6efefde2cd4378d1ede05dac27d5cba80e78901e",
-      "commit_date": "2026-02-15T19:33:24-08:00",
-      "subject": "Add names validation subset: deity, proper, and place names across 30 languages",
-      "required": true
+      "commit": "871584f76d53edc17908bbfcb7fc2a8b87748991",
+      "commit_date": "2026-02-17",
+      "subject": "Embedded as ../ancient-scripts-datasets/ (no longer a submodule)",
+      "required": true,
+      "embedded": true,
+      "local_path": "../ancient-scripts-datasets"
     },
     {
       "name": "xib",

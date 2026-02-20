@@ -1,0 +1,2483 @@
+Language_ID	Parameter_ID	Form	IPA	Glottocode	Cognate_Set_ID
+ind	earth	tanah	tanah	indo1316	
+mlg	earth	tàny	tà/any	plat1254	
+haw	earth	lepo	lepo	hawa1245	
+ind	sand	pasir	pasir	indo1316	
+mlg	sand	fàsika	fà/asika	plat1254	
+tbc	sand	lul	lul	taki1248	
+haw	sand	one	one	hawa1245	
+ind	water	air	air	indo1316	
+mlg	water	ràno	rà/ano	plat1254	
+tbc	water	you	jou	taki1248	
+haw	water	wai	wai	hawa1245	
+ind	sea	laut	laut	indo1316	
+mlg	sea	ranomàsina	ranomà/asina	plat1254	
+tbc	sea	beig	beig	taki1248	
+haw	sea	kai	kai	hawa1245	
+ind	sky	langit	laŋit	indo1316	
+mlg	sky	lànitra	là/aniʈra	plat1254	
+tbc	sky	keit	keit	taki1248	
+haw	sky	lani	lani	hawa1245	
+ind	sun	matahari	matahari	indo1316	
+mlg	sun	masonàndro	masonà/aɳɖro	plat1254	
+tbc	sun	ad	ad	taki1248	
+haw	sun	lā	lā/a	hawa1245	
+ind	moon	bulan	bulan	indo1316	
+mlg	moon	vòlana	vò/olana	plat1254	
+tbc	moon	kalam	kalam	taki1248	
+haw	moon	mahina	mahina	hawa1245	
+ind	star	bintang	bintaŋ	indo1316	
+mlg	star	kìntana	kì/iⁿtana	plat1254	
+tbc	star	patui	patui	taki1248	
+haw	star	hōkū	hō/okū/u	hawa1245	
+ind	wind	angin	aŋin	indo1316	
+mlg	wind	rìvotra	rì/ivoʈra	plat1254	
+tbc	wind	tim	tim	taki1248	
+haw	wind	makani	makani	hawa1245	
+ind	cloud	awan	awan	indo1316	
+mlg	cloud	ràhona	rà/ahona	plat1254	
+tbc	cloud	tim_tae-n	timtaen	taki1248	
+haw	cloud	ao	ao	hawa1245	
+ind	ice	és	é/es	indo1316	
+mlg	ice	ranomàndry	ranomà/aɳɖry	plat1254	
+tbc	ice	eis	eis	taki1248	
+haw	ice	hau	hau	hawa1245	
+ind	fire	pawaka	pawaka	indo1316	
+mlg	fire	àfo	à/afo	plat1254	
+tbc	fire	yai	jai	taki1248	
+haw	fire	ahi	ahi	hawa1245	
+ind	smoke	asap	asap	indo1316	
+mlg	smoke	sètroka	sè/eʈroka	plat1254	
+tbc	smoke	yai-kas	jaikas	taki1248	
+haw	smoke	uahi	uahi	hawa1245	
+ind	ash	abu	abu	indo1316	
+mlg	ash	lavènona	lavè/enona	plat1254	
+tbc	ash	yai_tae-n	jaitaen	taki1248	
+haw	ash	lehu	lehu	hawa1245	
+ind	burn	membakar	membakar	indo1316	
+mlg	burn	mandòro	maⁿdò/oro	plat1254	
+tbc	burn	-mari	mari	taki1248	
+haw	burn	puhi	puhi	hawa1245	
+ind	person	orang	oraŋ	indo1316	
+mlg	person	òlona	ò/olona	plat1254	
+tbc	person	tamol-pein	tamolpein	taki1248	
+haw	person	kanaka	kanaka	hawa1245	
+ind	husband	suami	suami	indo1316	
+mlg	husband	vàdy	và/ady	plat1254	
+tbc	husband	iwo-	iwo	taki1248	
+haw	husband	kāne	kā/ane	hawa1245	
+ind	wife	istri	istri	indo1316	
+mlg	wife	vàdy	và/ady	plat1254	
+tbc	wife	iwo-	iwo	taki1248	
+haw	wife	wahine	wahine	hawa1245	
+ind	father	bapa	bapa	indo1316	
+mlg	father	ray	ray	plat1254	
+tbc	father	tama-	tama	taki1248	
+haw	father	makuakāne	makuakā/ane	hawa1245	
+ind	mother	ibu	ibu	indo1316	
+mlg	mother	rèny	rè/eny	plat1254	
+tbc	mother	tna-	tna	taki1248	
+haw	mother	makuahine	makuahine	hawa1245	
+ind	son	putra	putra	indo1316	
+mlg	son	zànaka_làhy	zà/anakalà/ahy	plat1254	
+tbc	son	nanu-	nanu	taki1248	
+haw	son	keiki_kāne	keikikā/ane	hawa1245	
+ind	daughter	putri	putri	indo1316	
+mlg	daughter	zànaka_vàvy	zà/anakavà/avy	plat1254	
+tbc	daughter	nanu-	nanu	taki1248	
+haw	daughter	kaikamahine	kaikamahine	hawa1245	
+mlg	brother	rahalàhy	rahalà/ahy	plat1254	
+tbc	brother	tei-	tei	taki1248	
+haw	brother	kaikua`ana	kaikua`a/ana	hawa1245	
+ind	hair	aku	aku	indo1316	
+mlg	hair	izàho	izà/aho	plat1254	
+tbc	hair	ŋai	ŋai	taki1248	
+haw	hair	wau	wau	hawa1245	
+mlg	ox	òmby	ò/oⁿby	plat1254	
+tbc	ox	bigbel	bigbel	taki1248	
+haw	ox	pipi_po`a	pipipo`a/a	hawa1245	
+ind	horse	kuda	kuda	indo1316	
+mlg	horse	soavàly	soavà/aly	plat1254	
+tbc	horse	wos	wos	taki1248	
+haw	horse	lio	lio	hawa1245	
+ind	bird	burung	buruŋ	indo1316	
+mlg	bird	vòrona	vò/orona	plat1254	
+tbc	bird	aŋkanak	aŋkanak	taki1248	
+haw	bird	manu	manu	hawa1245	
+ind	dog	anjing	aɲiŋ	indo1316	
+mlg	dog	àlika	à/alika	plat1254	
+tbc	dog	goun	goun	taki1248	
+haw	dog	`īlio	`ī/ilio	hawa1245	
+ind	fish	ikan	ikan	indo1316	
+mlg	fish	hazandràno	hazaɳɖrà/ano	plat1254	
+tbc	fish	i	i	taki1248	
+haw	fish	i`a	i`a/a	hawa1245	
+ind	good	monyét	moɲé/et	indo1316	
+mlg	good	jàko	dzà/ako	plat1254	
+tbc	good	moŋi	moŋi	taki1248	
+haw	good	keko	keko	hawa1245	
+ind	fly_insect	lalat	lalat	indo1316	
+mlg	fly_insect	làlitra	là/aliʈra	plat1254	
+tbc	fly_insect	gbdai	gbdai	taki1248	
+haw	fly_insect	nalo	nalo	hawa1245	
+ind	worm	cacing	tʃatʃiŋ	indo1316	
+mlg	worm	kànkana	kà/aŋkana	plat1254	
+tbc	worm	kllid	klːid	taki1248	
+haw	worm	ko`e	ko`e/e	hawa1245	
+ind	snake	ular	ular	indo1316	
+mlg	snake	bibilàva	bibilà/ava	plat1254	
+tbc	snake	mot	mot	taki1248	
+haw	snake	nahesa	nahesa	hawa1245	
+ind	skin	kulit	kulit	indo1316	
+mlg	skin	hòditra	hò/odiʈra	plat1254	
+tbc	skin	sklo-	sklo	taki1248	
+haw	skin	`ili	`i/ili	hawa1245	
+ind	blood	darah	darah	indo1316	
+mlg	blood	ra	ra	plat1254	
+tbc	blood	dar	dar	taki1248	
+haw	blood	koko	koko	hawa1245	
+ind	bone	tulang	tulaŋ	indo1316	
+mlg	bone	tàolana	tà/aolana	plat1254	
+tbc	bone	tatu	tatu	taki1248	
+haw	bone	iwi	iwi	hawa1245	
+ind	horn	tanduk	tanduʔ	indo1316	
+mlg	horn	tàndroka	tà/aɳɖroka	plat1254	
+tbc	horn	fai	fai	taki1248	
+haw	horn	kiwi	kiwi	hawa1245	
+ind	head	kepala	kepala	indo1316	
+mlg	head	lòha	lò/oha	plat1254	
+tbc	head	grma-	grma	taki1248	
+haw	head	po`o	po`o/o	hawa1245	
+ind	eye	mata	mata	indo1316	
+mlg	eye	màso	mà/aso	plat1254	
+tbc	eye	mala-	mala	taki1248	
+haw	eye	maka	maka	hawa1245	
+ind	ear	telinga	teliŋa	indo1316	
+mlg	ear	sòfina	sò/ofina	plat1254	
+tbc	ear	kkdo-	kːdo	taki1248	
+haw	ear	pepeiao	pepeiao	hawa1245	
+ind	nose	hidung	hiduŋ	indo1316	
+mlg	nose	òrona	ò/orona	plat1254	
+tbc	nose	ŋdu-	ŋdu	taki1248	
+haw	nose	ihu	ihu	hawa1245	
+ind	mouth	mulut	mulut	indo1316	
+mlg	mouth	vàva	và/ava	plat1254	
+tbc	mouth	awa-	awa	taki1248	
+haw	mouth	waha	waha	hawa1245	
+ind	tongue	lidah	lidah	indo1316	
+mlg	tongue	lèla	lè/ela	plat1254	
+tbc	tongue	bale-	bale	taki1248	
+haw	tongue	alelo	alelo	hawa1245	
+ind	tooth	gigi	gigi	indo1316	
+mlg	tooth	nìfy	nì/ify	plat1254	
+tbc	tooth	lwo-	lʷo	taki1248	
+haw	tooth	niho	niho	hawa1245	
+ind	neck	léhér	lé/ehé/er	indo1316	
+mlg	neck	vòzona	vò/ozona	plat1254	
+tbc	neck	bro-	bro	taki1248	
+haw	neck	`ā`ī	`ā/a`ī/i	hawa1245	
+ind	hand	tangan	taŋan	indo1316	
+mlg	hand	tànana	tà/anana	plat1254	
+tbc	hand	bani-	bani	taki1248	
+haw	hand	lima	lima	hawa1245	
+ind	nail	kuku	kuku	indo1316	
+mlg	nail	hòho	hò/oho	plat1254	
+tbc	nail	tka-	tka	taki1248	
+haw	nail	miki`ao	miki`a/ao	hawa1245	
+ind	knee	lutut	lutut	indo1316	
+mlg	knee	lohàlika	lohà/alika	plat1254	
+tbc	knee	tru-	tru	taki1248	
+haw	knee	kuli	kuli	hawa1245	
+ind	foot	kaki	kaki	indo1316	
+mlg	foot	tòngotra	tò/oŋgoʈra	plat1254	
+tbc	foot	ŋe-	ŋe	taki1248	
+haw	foot	wāwae	wā/awae	hawa1245	
+ind	heart	jantung	dʒantuŋ	indo1316	
+mlg	heart	fo	fo	plat1254	
+tbc	heart	babu	babu	taki1248	
+haw	heart	pu`uwai	pu`u/uwai	hawa1245	
+ind	bite	menggigit	meŋgigit	indo1316	
+mlg	bite	manàikitra	manà/aikiʈra	plat1254	
+tbc	bite	-rati	rati	taki1248	
+haw	bite	nahu	nahu	hawa1245	
+ind	sleep	tidur	tidur	indo1316	
+mlg	sleep	matòry	matò/ory	plat1254	
+tbc	sleep	-en	en	taki1248	
+haw	sleep	hiamoe	hiamoe	hawa1245	
+ind	die	mati	mati	indo1316	
+mlg	die	màty	mà/aty	plat1254	
+tbc	die	-mat	mat	taki1248	
+haw	die	make	make	hawa1245	
+ind	kill	membunuh	membunuh	indo1316	
+mlg	kill	mamòno	mamò/ono	plat1254	
+tbc	kill	-fni-mat	fnimat	taki1248	
+haw	kill	ho`omake	ho`o/omake	hawa1245	
+ind	eat	makan	makan	indo1316	
+mlg	eat	mihìnana	mihì/inana	plat1254	
+tbc	eat	-ani	ani	taki1248	
+haw	eat	`ai	`a/ai	hawa1245	
+ind	drink	minum	minum	indo1316	
+mlg	drink	misòtro	misò/oʈro	plat1254	
+tbc	drink	-luk	luk	taki1248	
+haw	drink	inu	inu	hawa1245	
+ind	meat	daging	dagiŋ	indo1316	
+mlg	meat	hèna	hè/ena	plat1254	
+tbc	meat	mda-	mda	taki1248	
+haw	meat	`i`o	`i/i`o/o	hawa1245	
+ind	fruit	buah	buah	indo1316	
+mlg	fruit	vòa	vò/oa	plat1254	
+tbc	fruit	nŋo-	nŋo	taki1248	
+haw	fruit	hua_`ai	hua`a/ai	hawa1245	
+ind	egg	telur	telur	indo1316	
+mlg	egg	atòdy	atò/ody	plat1254	
+tbc	egg	patu-	patu	taki1248	
+haw	egg	hua	hua	hawa1245	
+ind	black	menjahit	meɲahit	indo1316	
+mlg	black	manjàitra	maⁿdzà/aiʈra	plat1254	
+tbc	black	-sti	sti	taki1248	
+haw	black	humuhumu	humuhumu	hawa1245	
+ind	rain	kaos_(kaki)	kaoskaki	indo1316	
+mlg	rain	ba	ba	plat1254	
+tbc	rain	soken	soken	taki1248	
+haw	rain	kākini	kā/akini	hawa1245	
+ind	house	rumah	rumah	indo1316	
+mlg	house	tràno	trà/ano	plat1254	
+tbc	house	ab	ab	taki1248	
+haw	house	hale	hale	hawa1245	
+ind	seed	benih	benih	indo1316	
+mlg	seed	vòa	vò/oa	plat1254	
+tbc	seed	patu-	patu	taki1248	
+haw	seed	`ano`ano	`a/ano`a/ano	hawa1245	
+ind	root	akar	akar	indo1316	
+mlg	root	fàka	fà/aka	plat1254	
+tbc	root	dabi-	dabi	taki1248	
+haw	root	a`a	a`a/a	hawa1245	
+ind	leaf	daun	daun	indo1316	
+mlg	leaf	ràvina	rà/avina	plat1254	
+tbc	leaf	irou-	irou	taki1248	
+haw	leaf	lau	lau	hawa1245	
+ind	tree	pohon	pohon	indo1316	
+mlg	tree	hàzo	hà/azo	plat1254	
+tbc	tree	ai	ai	taki1248	
+haw	tree	kumulā`au	kumulā/a`a/au	hawa1245	
+ind	walk	melipat	melipat	indo1316	
+mlg	walk	mamàlona	mamà/alona	plat1254	
+tbc	walk	-fni	fni	taki1248	
+haw	walk	pelu	pelu	hawa1245	
+ind	old	jatuh	dʒatuh	indo1316	
+mlg	old	mianjèra	miaⁿdzè/era	plat1254	
+tbc	old	-du	du	taki1248	
+haw	old	hā`ule	hā/a`u/ule	hawa1245	
+ind	swim	berenang	berenaŋ	indo1316	
+mlg	swim	milomàno	milomà/ano	plat1254	
+tbc	swim	-log	log	taki1248	
+haw	swim	`au	`a/au	hawa1245	
+ind	child	terbang	terbaŋ	indo1316	
+mlg	child	manìdina	manì/idina	plat1254	
+tbc	child	-rou	rou	taki1248	
+haw	child	lele	lele	hawa1245	
+ind	run	lari	lari	indo1316	
+mlg	run	miolomày	miolomà/ay	plat1254	
+tbc	run	-ma-s-palu	maspalu	taki1248	
+haw	run	holo	holo	hawa1245	
+ind	come	datang	dataŋ	indo1316	
+mlg	come	avy	avy	plat1254	
+tbc	come	-palu	palu	taki1248	
+haw	come	hele_mai	helemai	hawa1245	
+ind	give	memberi(kan)	memberikan	indo1316	
+mlg	give	manòme	manò/ome	plat1254	
+tbc	give	-pani	pani	taki1248	
+haw	give	hā`awi	hā/a`a/awi	hawa1245	
+ind	sit	duduk	duduʔ	indo1316	
+mlg	sit	mipètraka	mipè/eʈraka	plat1254	
+tbc	sit	-ma-si	masi	taki1248	
+haw	sit	noho	noho	hawa1245	
+ind	stand	berdiri	berdiri	indo1316	
+mlg	stand	mitsàngana	mitsà/aŋgana	plat1254	
+tbc	stand	-tur	tur	taki1248	
+haw	stand	kū	kū/u	hawa1245	
+ind	big	besar	besar	indo1316	
+mlg	big	bè	bè/e	plat1254	
+tbc	big	tbu-	tbu	taki1248	
+haw	big	nui	nui	hawa1245	
+ind	small	kecil	ketʃil	indo1316	
+mlg	small	kèly	kè/ely	plat1254	
+tbc	small	tsa-	tsa	taki1248	
+haw	small	li`ili`i	li`i/ili`i/i	hawa1245	
+ind	long	panjang	paɲaŋ	indo1316	
+mlg	long	làva	là/ava	plat1254	
+tbc	long	mlae-	mlae	taki1248	
+haw	long	lō`ihi	lō/o`i/ihi	hawa1245	
+ind	yellow	palang	palaŋ	indo1316	
+mlg	yellow	vokovoko	vokovoko	plat1254	
+tbc	yellow	ai-kbarek	aikbarek	taki1248	
+haw	yellow	ke`a	ke`a/a	hawa1245	
+ind	round	bundar	bundar	indo1316	
+mlg	round	boribòry	boribò/ory	plat1254	
+tbc	round	-tlanti	tlanti	taki1248	
+haw	round	poepoe	poepoe	hawa1245	
+ind	one	satu	satu	indo1316	
+mlg	one	irày	irà/ay	plat1254	
+tbc	one	ksaek	ksaek	taki1248	
+haw	one	kahi	kahi	hawa1245	
+ind	two	dua	dua	indo1316	
+mlg	two	ròa	rò/oa	plat1254	
+tbc	two	raru	raru	taki1248	
+haw	two	lua	lua	hawa1245	
+ind	three	tiga	tiga	indo1316	
+mlg	three	telo	telo	plat1254	
+tbc	three	utol	utol	taki1248	
+haw	three	kolu	kolu	hawa1245	
+ind	full	penuh	penuh	indo1316	
+mlg	full	fèno	fè/eno	plat1254	
+tbc	full	awa-n_i-sa-i	awanisai	taki1248	
+haw	full	piha	piha	hawa1245	
+ind	new	baru	baru	indo1316	
+mlg	new	vaovao	vaovao	plat1254	
+tbc	new	fou-	fou	taki1248	
+haw	new	hou	hou	hawa1245	
+ind	night	malam	malam	indo1316	
+mlg	night	àlina	à/alina	plat1254	
+tbc	night	tdom	tdom	taki1248	
+haw	night	pō	pō/o	hawa1245	
+ind	hear	mendengar	mendeŋar	indo1316	
+mlg	hear	mandrè	maɳɖrè/e	plat1254	
+tbc	hear	-loŋ	loŋ	taki1248	
+haw	hear	lohe	lohe	hawa1245	
+ind	see	melihat	melihat	indo1316	
+mlg	see	mahìta	mahì/ita	plat1254	
+tbc	see	-le	le	taki1248	
+haw	see	`ike	`i/ike	hawa1245	
+ind	white	putih	putih	indo1316	
+mlg	white	fòtsy	fò/otsy	plat1254	
+tbc	white	malkouk	malkouk	taki1248	
+haw	white	ke`oke`o	ke`o/oke`o/o	hawa1245	
+ind	red	mérah	mé/erah	indo1316	
+mlg	red	mèna	mè/ena	plat1254	
+tbc	red	dara-n	daran	taki1248	
+haw	red	`ula`ula	`u/ula`u/ula	hawa1245	
+ind	green	hijau	hidʒaʊ	indo1316	
+mlg	green	maìtso	maì/itso	plat1254	
+tbc	green	ai-rou-k	airouk	taki1248	
+haw	green	`ōma`oma`o	`ō/oma`o/oma`o/o	hawa1245	
+ind	warm	hangat	haŋat	indo1316	
+mlg	warm	ma-fàna	mafà/ana	plat1254	
+tbc	warm	wanana-	wanana	taki1248	
+haw	warm	mehana	mehana	hawa1245	
+ind	know	tahu	tahu	indo1316	
+mlg	know	mahalàla	mahalà/ala	plat1254	
+tbc	know	-loŋ	loŋ	taki1248	
+haw	know	`ike	`i/ike	hawa1245	
+ind	breast	(di)_mana	dimana	indo1316	
+mlg	breast	àiza	à/aiza	plat1254	
+tbc	breast	dgo	dgo	taki1248	
+haw	breast	hea	hea	hawa1245	
+ind	say	mengatakan	meŋatakan	indo1316	
+mlg	say	milàza	milà/aza	plat1254	
+tbc	say	-bol	bol	taki1248	
+haw	say	`ōlelo	`ō/olelo	hawa1245	
+ind	name	nama	nama	indo1316	
+mlg	name	anàrana	anà/arana	plat1254	
+tbc	name	yanga-	janga	taki1248	
+haw	name	inoa	inoa	hawa1245	
+ind	king	raja	radʒa	indo1316	
+mlg	king	mpanjàka	mpaⁿdzà/aka	plat1254	
+tbc	king	kiŋ	kiŋ	taki1248	
+haw	king	mō`ī	mō/o`ī/i	hawa1245	
+ind	god	déwa	dé/ewa	indo1316	
+mlg	god	andriamànitra	aɳɖriamà/aniʈra	plat1254	
+tbc	god	tbud	tbud	taki1248	
+haw	god	akua	akua	hawa1245	
+ind	sister	bukan	bukan	indo1316	
+mlg	sister	tsy	tsy	plat1254	
+tbc	sister	ta	ta	taki1248	
+haw	sister	`ole	`o/ole	hawa1245	
+ind	louse	berang-berang	beraŋberaŋ	indo1316	
+haw	louse	piwa	piwa	hawa1245	
+ind	belly	perut	perut	indo1316	
+mlg	belly	kìbo	kì/ibo	plat1254	
+tbc	belly	lwa-	lʷa	taki1248	
+haw	belly	`ōpū	`ō/opū/u	hawa1245	
+ban	hand	lima	lima	bali1278	abvd_1277_1
+ban	come	təku	təku	bali1278	abvd_1446_17
+ban	swim	nglangi	nglangi	bali1278	abvd_1439_1
+ban	skin	kulit	kulit	bali1278	abvd_763_1
+ban	belly	basang	basang	bali1278	abvd_1251_29?
+ban	bone	tulang	tulang	bali1278	abvd_1394_1
+ban	know	tawang	tawang	bali1278	abvd_1410_36
+ban	blood	getih	getih	bali1278	abvd_946_18
+ban	head	tendas	tendas	bali1278	
+ban	neck	baong	baong	bali1278	abvd_1333_70
+ban	nose	cunguh	cunguh	bali1278	
+ban	mouth	bungut	bungut	bali1278	abvd_674_37
+ban	tooth	gigi	gigi	bali1278	abvd_1380_17
+ban	tongue	layah	layah	bali1278	
+ban	eat	daar	daar	bali1278	abvd_1336_11
+ban	drink	nginem	nginem	bali1278	abvd_1401_1
+ban	bite	nyegut	nyegut	bali1278	abvd_1403_30
+ban	ear	kuping	kuping	bali1278	abvd_1247_15
+ban	hear	ningeh	ningeh	bali1278	abvd_1408_1
+ban	eye	mata	mata	bali1278	abvd_1248_1
+ban	see	ningalin	ningalin	bali1278	
+ban	sleep	puləs	puləs	bali1278	
+ban	sit	negak	negak	bali1278	
+ban	stand	majujuk	majujuk	bali1278	
+ban	person	anak	anak	bali1278	
+ban	husband	kurenan	kurenan	bali1278	
+ban	wife	kurenan	kurenan	bali1278	
+ban	mother	meme	meme	bali1278	abvd_1216_5?
+ban	father	bapa	bapa	bali1278	abvd_1217_5
+ban	house	umah	umah	bali1278	abvd_1252_1
+ban	name	adan	adan	bali1278	abvd_1405_1
+ban	say	ngomong	ngomong	bali1278	abvd_1458_25
+ban	black	nyait	nyait	bali1278	abvd_1457_2
+ban	kill	ngamatiang	ngamatiang	bali1278	abvd_1417_2
+ban	old	ulung	ulung	bali1278	abvd_1280_34
+ban	dog	cicing	cicing	bali1278	
+ban	bird	kedis	kedis	bali1278	
+ban	egg	taluh	taluh	bali1278	abvd_744_1
+ban	child	makeber	makeber	bali1278	abvd_1441_34
+ban	snake	lelipi	lelipi	bali1278	abvd_730_1?
+ban	worm	cacing	cacing	bali1278	abvd_1219_23
+ban	fish	be	be	bali1278	
+ban	leaf	don	don	bali1278	abvd_628_1
+ban	root	akah	akah	bali1278	abvd_670_2
+ban	fruit	woh-wohan	wohwohan	bali1278	abvd_1507_1
+ban	earth	tanah	tanah	bali1278	abvd_1228_1
+ban	stone	batu	batu	bali1278	abvd_857_1
+ban	sand	bias	bias	bali1278	abvd_671_26
+ban	water	yeh	yeh	bali1278	
+ban	sea	pasih	pasih	bali1278	abvd_1474_1?
+ban	sky	langit	langit	bali1278	abvd_1732_1
+ban	moon	bulan	bulan	bali1278	abvd_1313_1
+ban	star	bintang	bintang	bali1278	abvd_1430_1
+ban	cloud	gulem	gulem	bali1278	
+ban	wind	angin	angin	bali1278	abvd_960_1
+ban	warm	panes	panes	bali1278	abvd_1232_1
+ban	fire	api	api	bali1278	abvd_221_1
+ban	smoke	andus	andus	bali1278	
+ban	ash	aon	aon	bali1278	abvd_646_1?
+ban	white	putih	putih	bali1278	abvd_1335_1
+ban	red	barak	barak	bali1278	
+ban	green	gadang	gadang	bali1278	abvd_1425_28
+ban	small	cenik	cenik	bali1278	
+ban	big	gede	gede	bali1278	abvd_1202_27
+ban	long	dawa	dawa	bali1278	abvd_1203_33
+ban	new	mara	mara	bali1278	
+ban	night	peteng	peteng	bali1278	abvd_1233_47
+ban	breast	dija	dija	bali1278	
+ban	hair	icang	icang	bali1278	
+ban	one	sa	sa	bali1278	abvd_1493_1
+ban	two	dadua	dadua	bali1278	abvd_1498_1
+ban	three	telu	telu	bali1278	abvd_492_1
+fij	hand	liga-na	ligana	bauu1243	abvd_1277_1
+fij	come	lako mai	lakomai	bauu1243	abvd_1446_1
+fij	swim	qalo	qalo	bauu1243	abvd_1439_5
+fij	skin	kuli-na	kulina	bauu1243	abvd_763_1
+fij	belly	kete-na	ketena	bauu1243	abvd_1251_7
+fij	bone	sui-na	suina	bauu1243	abvd_1394_52
+fij	know	kila-a	kilaa	bauu1243	abvd_1410_18
+fij	blood	drā	dr	bauu1243	abvd_946_1
+fij	head	ulu-na	uluna	bauu1243	abvd_1256_1
+fij	neck	domo-na	domona	bauu1243	abvd_1333_46
+fij	nose	ucu-na	ucuna	bauu1243	abvd_1221_1
+fij	mouth	gusu-na	gusuna	bauu1243	abvd_674_2
+fij	tooth	bati-na	batina	bauu1243	abvd_1380_6
+fij	tongue	yame-na	yamena	bauu1243	abvd_1205_7
+fij	eat	kani-a	kania	bauu1243	abvd_1336_1
+fij	drink	gunu-va	gunuva	bauu1243	abvd_1401_1
+fij	bite	kati-a	katia	bauu1243	abvd_1403_1
+fij	ear	daliga-na	daligana	bauu1243	abvd_1247_1
+fij	hear	rogo-ca	rogoca	bauu1243	abvd_1408_1
+fij	eye	mata-na	matana	bauu1243	abvd_1248_1
+fij	see	rai-ca	raica	bauu1243	abvd_1409_37
+fij	sleep	moce	moce	bauu1243	abvd_1585_10
+fij	sit	dabe-ca	dabeca	bauu1243	abvd_1416_62
+fij	stand	tū	t	bauu1243	abvd_1442_2
+fij	person	tamata	tamata	bauu1243	abvd_683_1
+fij	husband	wati-na	watina	bauu1243	
+fij	wife	wati-na	watina	bauu1243	abvd_1199_30
+fij	mother	tina-na	tinana	bauu1243	abvd_1216_1
+fij	father	tama-na	tamana	bauu1243	abvd_1217_1
+fij	house	vale	vale	bauu1243	abvd_1252_14
+fij	name	yaca-na	yacana	bauu1243	abvd_1405_1
+fij	say	kaya	kaya	bauu1243	abvd_1458_168
+fij	black	cula-a	culaa	bauu1243	abvd_1457_31
+fij	kill	moku-ta	mokuta	bauu1243	
+fij	old	lutu-ka	lutuka	bauu1243	abvd_1280_58
+fij	dog	koli	koli	bauu1243	abvd_2009_7
+fij	bird	manumanu	manumanu	bauu1243	abvd_937_1
+fij	egg	yaloka	yaloka	bauu1243	abvd_744_30
+fij	child	vuka	vuka	bauu1243	abvd_1441_45
+fij	snake	gata	gata	bauu1243	abvd_730_12
+fij	worm	baca ni qele	bacaniqele	bauu1243	abvd_1219_16
+fij	fish	ika	ika	bauu1243	abvd_227_1
+fij	leaf	drau ni kau	draunikau	bauu1243	abvd_628_1
+fij	root	vū-na	vna	bauu1243	
+fij	fruit	vua-na	vuana	bauu1243	abvd_1507_1
+fij	earth	qele	qele	bauu1243	abvd_1228_10
+fij	stone	vatu	vatu	bauu1243	abvd_857_1
+fij	sand	nuku	nuku	bauu1243	abvd_671_41
+fij	water	wai	wai	bauu1243	abvd_948_2
+fij	sea	wasawasa	wasawasa	bauu1243	abvd_1474_12
+fij	sky	lomālagi	lomlagi	bauu1243	abvd_1732_1
+fij	moon	vula	vula	bauu1243	abvd_1313_1
+fij	star	kalokalo	kalokalo	bauu1243	abvd_1430_28
+fij	wind	cagi	cagi	bauu1243	abvd_960_1
+fij	warm	katakata	katakata	bauu1243	abvd_1232_36
+fij	fire	bukawaqa	bukawaqa	bauu1243	abvd_221_17
+fij	smoke	kubou	kubou	bauu1243	abvd_778_57
+fij	ash	dravu	dravu	bauu1243	abvd_646_67
+fij	white	vulavula	vulavula	bauu1243	abvd_1335_3
+fij	red	damudamu	damudamu	bauu1243	abvd_156_51
+fij	green	karakarawa	karakarawa	bauu1243	abvd_1425_13
+fij	small	lailai	lailai	bauu1243	abvd_1246_32
+fij	big	levu	levu	bauu1243	abvd_1202_10
+fij	long	balavu	balavu	bauu1243	abvd_1203_16
+fij	new	vou	vou	bauu1243	abvd_1231_1
+fij	night	bogi	bogi	bauu1243	abvd_1233_1
+fij	breast	e vei	evei	bauu1243	abvd_1237_3
+fij	hair	iau	iau	bauu1243	abvd_1209_1
+fij	one	e dua	edua	bauu1243	abvd_1493_18
+fij	two	e rua	erua	bauu1243	abvd_1498_1
+fij	three	e tolu	etolu	bauu1243	abvd_492_1
+cha	hand	kannai	kannai	cham1312	
+cha	come	maila'	maila	cham1312	abvd_1446_1
+cha	swim	nangu	nangu	cham1312	abvd_1439_1
+cha	skin	lassas	lassas	cham1312	
+cha	belly	estomagu	estomagu	cham1312	
+cha	bone	to'lang	tolang	cham1312	abvd_1394_1
+cha	know	tungo'	tungo	cham1312	
+cha	blood	haga'	haga	cham1312	abvd_946_1
+cha	head	kabesa	kabesa	cham1312	
+cha	neck	aga'ga'	agaga	cham1312	
+cha	nose	gui'eng	guieng	cham1312	abvd_1221_1
+cha	mouth	pachot	pachot	cham1312	
+cha	tooth	nifen	nifen	cham1312	abvd_1380_1
+cha	tongue	hula'	hula	cham1312	abvd_1205_4
+cha	eat	chochu	chochu	cham1312	
+cha	drink	gimen	gimen	cham1312	abvd_1401_1?
+cha	bite	akka'	akka	cham1312	
+cha	ear	talanga	talanga	cham1312	abvd_1247_1
+cha	hear	hungok	hungok	cham1312	abvd_1408_1
+cha	eye	mata	mata	cham1312	abvd_1248_1
+cha	see	li'e'	lie	cham1312	
+cha	sleep	maigo'	maigo	cham1312	
+cha	sit	mata'chong	matachong	cham1312	
+cha	stand	tachu	tachu	cham1312	
+cha	person	taotao	taotao	cham1312	abvd_683_1
+cha	husband	asagua	asagua	cham1312	abvd_1200_2?
+cha	wife	asagua	asagua	cham1312	abvd_1199_1?
+cha	mother	nana	nana	cham1312	abvd_1216_5?
+cha	father	tata	tata	cham1312	abvd_1217_1
+cha	house	guma'	guma	cham1312	abvd_1252_1
+cha	name	na'an	naan	cham1312	abvd_1405_1
+cha	say	sangan	sangan	cham1312	
+cha	black	lakse	lakse	cham1312	
+cha	kill	puno'	puno	cham1312	abvd_1417_1
+cha	old	lotgon	lotgon	cham1312	
+cha	dog	ga'lagu	galagu	cham1312	abvd_2009_1
+cha	bird	páharu	pharu	cham1312	
+cha	egg	chada'	chada	cham1312	abvd_744_22
+cha	child	gupu	gupu	cham1312	abvd_1441_1
+cha	snake	kolepbla	kolepbla	cham1312	
+cha	worm	ulo'	ulo	cham1312	abvd_1219_36
+cha	fish	guihan	guihan	cham1312	
+cha	leaf	hagon	hagon	cham1312	
+cha	root	hale'	hale	cham1312	
+cha	fruit	inasahan	inasahan	cham1312	
+cha	earth	tåno'	tno	cham1312	
+cha	stone	acho'	acho	cham1312	
+cha	sand	unai	unai	cham1312	abvd_671_1
+cha	water	agua	agua	cham1312	
+cha	sea	tasi	tasi	cham1312	abvd_1474_1
+cha	sky	langet	langet	cham1312	abvd_1732_1
+cha	moon	pulan	pulan	cham1312	abvd_1313_1
+cha	star	puti'on	pution	cham1312	abvd_1430_1
+cha	cloud	mapagahes	mapagahes	cham1312	
+cha	wind	manglo'	manglo	cham1312	
+cha	warm	maipe	maipe	cham1312	
+cha	fire	guafi	guafi	cham1312	abvd_221_1
+cha	smoke	asu	asu	cham1312	abvd_778_2
+cha	ash	apu	apu	cham1312	abvd_646_1
+cha	white	á'paka	paka	cham1312	abvd_1335_1?
+cha	red	agaga'	agaga	cham1312	
+cha	green	betde	betde	cham1312	
+cha	small	díkike'	dkike	cham1312	abvd_1246_1
+cha	big	dánkolo	dnkolo	cham1312	abvd_1202_22?
+cha	long	laguas	laguas	cham1312	abvd_1203_1?
+cha	new	nuebu	nuebu	cham1312	
+cha	night	puengi	puengi	cham1312	abvd_1233_1?
+cha	breast	amanu	amanu	cham1312	
+cha	hair	guahu	guahu	cham1312	abvd_1209_1
+cha	one	unu	unu	cham1312	
+cha	two	dos	dos	cham1312	
+cha	three	tres	tres	cham1312	abvd_492_1
+jav	hand	taŋan	taŋan	java1254	abvd_1277_18
+jav	come	təka	təka	java1254	abvd_1446_17
+jav	swim	ŋlaŋi	ŋlaŋi	java1254	abvd_1439_1
+jav	skin	kulit	kulit	java1254	abvd_763_1
+jav	belly	wətəŋ	wətəŋ	java1254	abvd_1251_29
+jav	bone	baluŋ	baluŋ	java1254	abvd_1394_17
+jav	know	ŋərti	ŋərti	java1254	abvd_1410_140
+jav	blood	gətih	gətih	java1254	abvd_946_18
+jav	head	sirah	sirah	java1254	abvd_1256_31
+jav	neck	gulu	gulu	java1254	abvd_1333_39
+jav	nose	iruŋ	iruŋ	java1254	abvd_1221_1
+jav	mouth	caŋkəm	caŋkəm	java1254	abvd_674_101
+jav	tooth	untu	untu	java1254	abvd_1380_18
+jav	tongue	ilat	ilat	java1254	abvd_1205_4
+jav	eat	maŋan	maŋan	java1254	abvd_1336_1
+jav	drink	ŋombe	ŋombe	java1254	
+jav	bite	ñokot	okot	java1254	
+jav	ear	kupiŋ	kupiŋ	java1254	abvd_1247_15
+jav	hear	kruŋu	kruŋu	java1254	abvd_1408_1
+jav	eye	mata	mata	java1254	abvd_1248_1
+jav	see	ndələŋ	ndələŋ	java1254	
+jav	sleep	turu	turu	java1254	abvd_1585_1
+jav	sit	loŋguh	loŋguh	java1254	abvd_1416_38
+jav	stand	ŋadek	ŋadek	java1254	abvd_1442_22
+jav	person	uwoŋ	uwoŋ	java1254	abvd_683_20
+jav	husband	bojo	bojo	java1254	
+jav	wife	bojo	bojo	java1254	
+jav	mother	ibu	ibu	java1254	abvd_1216_12
+jav	father	bapak	bapak	java1254	abvd_1217_5
+jav	house	omah	omah	java1254	abvd_1252_1
+jav	name	jənəŋ	jənəŋ	java1254	
+jav	say	kanda	kanda	java1254	
+jav	black	dondom	dondom	java1254	
+jav	kill	mateni	mateni	java1254	abvd_1417_2
+jav	old	tiba	tiba	java1254	abvd_1280_36
+jav	dog	asu	asu	java1254	abvd_2009_1
+jav	bird	manuk	manuk	java1254	abvd_937_1
+jav	egg	ənḍog	ənog	java1254	abvd_744_20
+jav	child	mabur	mabur	java1254	abvd_1441_34
+jav	snake	ula	ula	java1254	abvd_730_2
+jav	worm	caciŋ	caciŋ	java1254	abvd_1219_23
+jav	fish	iwak	iwak	java1254	abvd_227_25
+jav	leaf	godoŋ	godoŋ	java1254	abvd_628_20
+jav	root	oyot	oyot	java1254	abvd_670_1
+jav	fruit	woh-wohan	wohwohan	java1254	abvd_1507_1
+jav	earth	ləmah	ləmah	java1254	
+jav	stone	watu	watu	java1254	abvd_857_1
+jav	sand	wəḍi	wəi	java1254	
+jav	water	bañu	bau	java1254	abvd_948_18
+jav	sea	səgara	səgara	java1254	abvd_1474_30
+jav	sky	laŋit	laŋit	java1254	abvd_1732_1
+jav	moon	mbulan	mbulan	java1254	abvd_1313_1
+jav	star	lintaŋ	lintaŋ	java1254	abvd_1430_1
+jav	cloud	mega	mega	java1254	abvd_1489_113
+jav	wind	barat	barat	java1254	abvd_960_8
+jav	warm	panas	panas	java1254	abvd_1232_1
+jav	fire	gəni	gəni	java1254	
+jav	smoke	kəbul	kəbul	java1254	
+jav	ash	awu	awu	java1254	abvd_646_1
+jav	white	putih	putih	java1254	abvd_1335_1
+jav	red	abaŋ	abaŋ	java1254	abvd_156_33
+jav	green	ijo	ijo	java1254	abvd_1425_25
+jav	small	cilik	cilik	java1254	
+jav	big	gəde	gəde	java1254	abvd_1202_27
+jav	long	dawa	dawa	java1254	abvd_1203_33
+jav	new	añar	aar	java1254	abvd_1231_16
+jav	night	bəŋi	bəŋi	java1254	abvd_1233_1
+jav	breast	ana ŋəndi	anaŋəndi	java1254	
+jav	hair	aku	aku	java1254	abvd_1209_1
+jav	one	siji	siji	java1254	abvd_1493_1
+jav	two	loro	loro	java1254	abvd_1498_1
+jav	three	təlu	təlu	java1254	abvd_492_1
+bug	hand	lima	lima	bugi1244	abvd_1277_1
+bug	come	lao komai	laokomai	bugi1244	abvd_1446_1
+bug	swim	naŋe	naŋe	bugi1244	abvd_1439_1
+bug	skin	oli	oli	bugi1244	abvd_763_1
+bug	belly	baua	baua	bugi1244	
+bug	bone	buku	buku	bugi1244	abvd_1394_16
+bug	know	issəŋ	issəŋ	bugi1244	abvd_1410_31
+bug	blood	dara	dara	bugi1244	abvd_946_1
+bug	head	ulu	ulu	bugi1244	abvd_1256_1
+bug	neck	əlloŋ	əlloŋ	bugi1244	abvd_1333_76
+bug	nose	iŋəʔ	iŋəʔ	bugi1244	abvd_1221_76
+bug	mouth	bawa	bawa	bugi1244	abvd_674_1
+bug	tooth	isi	isi	bugi1244	abvd_1380_24
+bug	tongue	lila	lila	bugi1244	abvd_1205_4
+bug	eat	manre	manre	bugi1244	
+bug	drink	menuŋ	menuŋ	bugi1244	abvd_1401_1
+bug	bite	mak-kokko	makkokko	bugi1244	abvd_1403_1
+bug	ear	doccili	doccili	bugi1244	
+bug	hear	mar-eŋkaliŋa	mareŋkaliŋa	bugi1244	abvd_1408_1
+bug	eye	mata	mata	bugi1244	abvd_1248_1
+bug	see	mak-kita	makkita	bugi1244	abvd_1409_1
+bug	sleep	ma-tinro	matinro	bugi1244	abvd_1585_25
+bug	sit	tudaŋ	tudaŋ	bugi1244	abvd_1416_1
+bug	stand	təttoŋ	təttoŋ	bugi1244	
+bug	person	tau	tau	bugi1244	abvd_683_1
+bug	husband	lakkai	lakkai	bugi1244	abvd_1200_28
+bug	wife	baine	baine	bugi1244	abvd_1199_5
+bug	mother	indoʔ	indoʔ	bugi1244	abvd_1216_10
+bug	father	amboʔ	amboʔ	bugi1244	abvd_1217_13
+bug	house	bola	bola	bugi1244	abvd_1252_14?
+bug	name	asəŋ	asəŋ	bugi1244	abvd_1405_1
+bug	say	mak-kədaa	makkədaa	bugi1244	
+bug	black	maʔ-jai	maʔjai	bugi1244	abvd_1457_2
+bug	kill	maʔ-buno	maʔbuno	bugi1244	abvd_1417_1
+bug	old	mabuəŋ	mabuəŋ	bugi1244	
+bug	dog	asu	asu	bugi1244	abvd_2009_1
+bug	bird	manuʔ manuʔ	manuʔmanuʔ	bugi1244	abvd_937_1
+bug	egg	təllo	təllo	bugi1244	abvd_744_1
+bug	child	luttu	luttu	bugi1244	
+bug	snake	ula	ula	bugi1244	abvd_730_2
+bug	worm	lati	lati	bugi1244	abvd_1219_1
+bug	fish	bale	bale	bugi1244	abvd_227_23
+bug	leaf	dauŋ	dauŋ	bugi1244	abvd_628_1
+bug	root	urəʔ	urəʔ	bugi1244	abvd_670_1
+bug	fruit	bua	bua	bugi1244	abvd_1507_1
+bug	earth	tana	tana	bugi1244	abvd_1228_1
+bug	stone	batu	batu	bugi1244	abvd_857_1
+bug	sand	kəssiʔ	kəssiʔ	bugi1244	abvd_671_24
+bug	water	uae	uae	bugi1244	abvd_948_2?
+bug	sea	tasiʔ	tasiʔ	bugi1244	abvd_1474_1
+bug	sky	laŋi	laŋi	bugi1244	abvd_1732_1
+bug	moon	wuləŋ	wuləŋ	bugi1244	abvd_1313_1
+bug	star	wittaiŋ	wittaiŋ	bugi1244	abvd_1430_1
+bug	cloud	əlluŋ	əlluŋ	bugi1244	
+bug	wind	aŋiŋ	aŋiŋ	bugi1244	abvd_960_1
+bug	warm	ma-pəlla	mapəlla	bugi1244	
+bug	fire	api	api	bugi1244	abvd_221_1
+bug	smoke	rumpu	rumpu	bugi1244	abvd_778_25
+bug	ash	awu	awu	bugi1244	abvd_646_1
+bug	white	ma-pute	mapute	bugi1244	abvd_1335_1
+bug	red	ma-cəllaʔ	macəllaʔ	bugi1244	
+bug	green	ma-kudaraʔ	makudaraʔ	bugi1244	
+bug	small	ma-biccuʔ	mabiccuʔ	bugi1244	
+bug	big	ma-raja	maraja	bugi1244	abvd_1202_1
+bug	long	ma-lampe	malampe	bugi1244	abvd_1203_30
+bug	new	ma-baru	mabaru	bugi1244	abvd_1231_1
+bug	night	wənni	wənni	bugi1244	abvd_1233_1
+bug	breast	kegi	kegi	bugi1244	
+bug	hair	iaʔ	iaʔ	bugi1244	abvd_1209_1
+bug	one	seʔdi	seʔdi	bugi1244	abvd_1493_1
+bug	two	dua	dua	bugi1244	abvd_1498_1
+bug	three	təllu	təllu	bugi1244	abvd_492_1
+haw	stone	pōhaku	phaku	hawa1245	abvd_857_1
+rar	hand	rima	rima	raro1241	abvd_1277_1
+rar	come	tātā'i	tti	raro1241	
+rar	swim	kau	kau	raro1241	abvd_1439_5
+rar	skin	kiri	kiri	raro1241	abvd_763_1
+rar	belly	kona	kona	raro1241	abvd_1251_8
+rar	bone	ivi	ivi	raro1241	abvd_1394_52
+rar	know	kite	kite	raro1241	abvd_1410_12
+rar	blood	toto	toto	raro1241	abvd_946_4
+rar	head	upoko	upoko	raro1241	abvd_1256_10
+rar	neck	kakii	kakii	raro1241	abvd_1333_20
+rar	nose	putaangiqu	putaangiqu	raro1241	abvd_1221_1
+rar	mouth	vaà	va	raro1241	abvd_674_1
+rar	tooth	ni'o	nio	raro1241	abvd_1380_1
+rar	tongue	arero	arero	raro1241	abvd_1205_15
+rar	eat	kai-nga	kainga	raro1241	abvd_1336_1
+rar	drink	inu	inu	raro1241	abvd_1401_1
+rar	bite	kati	kati	raro1241	abvd_1403_1
+rar	ear	taringa	taringa	raro1241	abvd_1247_1
+rar	hear	rongo	rongo	raro1241	abvd_1408_1
+rar	eye	kanoì	kano	raro1241	abvd_1248_4
+rar	see	kite	kite	raro1241	abvd_1409_1
+rar	sleep	moe	moe	raro1241	abvd_1585_10
+rar	sit	no'o	noo	raro1241	abvd_1416_16
+rar	stand	tuu	tuu	raro1241	abvd_1442_2
+rar	person	tangata	tangata	raro1241	abvd_683_1
+rar	husband	taane	taane	raro1241	abvd_1200_14
+rar	wife	va'ine	vaine	raro1241	abvd_1199_5
+rar	mother	māmā	mm	raro1241	abvd_1216_5
+rar	father	metua	metua	raro1241	abvd_1217_9
+rar	house	àre	re	raro1241	abvd_1252_14
+rar	name	ingoa	ingoa	raro1241	abvd_1405_6
+rar	say	araara	araara	raro1241	abvd_1458_60
+rar	black	tui	tui	raro1241	abvd_1457_13
+rar	kill	kikini	kikini	raro1241	
+rar	old	makuru	makuru	raro1241	abvd_1280_11
+rar	dog	kurii	kurii	raro1241	abvd_2009_7
+rar	bird	manu	manu	raro1241	abvd_937_1
+rar	egg	ua	ua	raro1241	abvd_744_5
+rar	child	rere	rere	raro1241	abvd_1441_11
+rar	snake	'ōuī	u	raro1241	
+rar	worm	toke	toke	raro1241	abvd_1219_7
+rar	fish	ika	ika	raro1241	abvd_227_1
+rar	leaf	rau	rau	raro1241	abvd_628_1
+rar	root	paki-aka	pakiaka	raro1241	abvd_670_2
+rar	fruit	'ua	ua	raro1241	abvd_1507_1
+rar	earth	keremaroo	keremaroo	raro1241	abvd_1228_10
+rar	stone	pooàtu	pootu	raro1241	abvd_857_1
+rar	sand	one	one	raro1241	abvd_671_1
+rar	water	vai	vai	raro1241	abvd_948_2
+rar	sea	moana	moana	raro1241	abvd_1474_10
+rar	sky	rangi	rangi	raro1241	abvd_1732_1
+rar	moon	marama	marama	raro1241	abvd_1313_7
+rar	star	'eetuu	eetuu	raro1241	abvd_1430_1
+rar	cloud	tiao	tiao	raro1241	abvd_1489_12
+rar	wind	matangi	matangi	raro1241	abvd_960_1
+rar	warm	maàna	mana	raro1241	abvd_1232_1
+rar	fire	aì	a	raro1241	abvd_221_1
+rar	smoke	au	au	raro1241	abvd_778_2
+rar	ash	rèu	ru	raro1241	abvd_646_67
+rar	white	tea	tea	raro1241	abvd_1335_8
+rar	red	kura	kura	raro1241	abvd_156_13
+rar	green	matie	matie	raro1241	abvd_1425_1
+rar	small	iti	iti	raro1241	abvd_1246_1
+rar	big	ākā	k	raro1241	abvd_1202_31
+rar	long	roa	roa	raro1241	abvd_1203_12
+rar	new	'oou	oou	raro1241	abvd_1231_1
+rar	night	poo	poo	raro1241	abvd_1233_1
+rar	breast	'ea	ea	raro1241	abvd_1237_3
+rar	hair	au	au	raro1241	abvd_1209_1
+rar	one	taì	ta	raro1241	abvd_1493_41
+rar	two	rua	rua	raro1241	abvd_1498_1
+rar	three	toru	toru	raro1241	abvd_492_1
+kos	hand	paho	paho	kosr1238	
+kos	come	tuhkuh	tuhkuh	kosr1238	abvd_1446_9
+kos	swim	kofkof	kofkof	kosr1238	
+kos	skin	kolo	kolo	kosr1238	abvd_763_1
+kos	belly	in-siyac	insiyac	kosr1238	
+kos	bone	sri	sri	kosr1238	abvd_1394_2
+kos	know	etuh	etuh	kosr1238	abvd_1410_35
+kos	blood	srah	srah	kosr1238	abvd_946_1
+kos	head	in-sifac	insifac	kosr1238	
+kos	neck	in-kwacwac	inkwacwac	kosr1238	
+kos	nose	fwac	fwac	kosr1238	abvd_1221_73
+kos	mouth	oal	oal	kosr1238	abvd_674_36
+kos	tooth	wihs	wihs	kosr1238	abvd_1380_54
+kos	tongue	loh	loh	kosr1238	abvd_1205_18
+kos	eat	kihmihs	kihmihs	kosr1238	
+kos	drink	nihm	nihm	kosr1238	abvd_1401_1
+kos	bite	ŋalŋuhl	ŋalŋuhl	kosr1238	
+kos	ear	srwac	srwac	kosr1238	
+kos	hear	lohŋ	lohŋ	kosr1238	abvd_1408_1
+kos	eye	muhta	muhta	kosr1238	abvd_1248_1
+kos	see	muh	muh	kosr1238	
+kos	sleep	mutul	mutul	kosr1238	abvd_1585_1
+kos	sit	pihtuhk	pihtuhk	kosr1238	
+kos	stand	tu	tu	kosr1238	abvd_1442_2
+kos	person	mwet	mwet	kosr1238	abvd_683_70
+kos	husband	tuhmwac	tuhmwac	kosr1238	
+kos	wife	kaŋkuh	kaŋkuh	kosr1238	
+kos	mother	ninac	ninac	kosr1238	abvd_1216_1
+kos	father	pahpah	pahpah	kosr1238	abvd_1217_48
+kos	house	lohm	lohm	kosr1238	abvd_1252_1
+kos	name	e	e	kosr1238	abvd_1405_66
+kos	say	aŋwe	aŋwe	kosr1238	
+kos	black	tuh	tuh	kosr1238	abvd_1457_17
+kos	kill	uni	uni	kosr1238	abvd_1417_1
+kos	old	ikor	ikor	kosr1238	
+kos	bird	tuhram	tuhram	kosr1238	
+kos	egg	ahtro	ahtro	kosr1238	
+kos	child	sohk	sohk	kosr1238	
+kos	worm	wet	wet	kosr1238	abvd_1219_10
+kos	fish	ik	ik	kosr1238	abvd_227_1
+kos	leaf	sra	sra	kosr1238	abvd_628_1
+kos	root	okah	okah	kosr1238	abvd_670_2
+kos	earth	infohk	infohk	kosr1238	
+kos	stone	yot	yot	kosr1238	abvd_857_46
+kos	sand	puhk	puhk	kosr1238	abvd_671_13
+kos	water	kof	kof	kosr1238	
+kos	sea	meoha	meoha	kosr1238	abvd_1474_13
+kos	sky	lucŋ	lucŋ	kosr1238	
+kos	moon	mahlwem	mahlwem	kosr1238	abvd_1313_7
+kos	star	itih	itih	kosr1238	abvd_1430_1
+kos	cloud	puhkuhn yeŋ	puhkuhnyeŋ	kosr1238	
+kos	wind	eŋ	eŋ	kosr1238	abvd_960_1
+kos	warm	fuhsr fuhsr	fuhsrfuhsr	kosr1238	abvd_1232_10
+kos	fire	e	e	kosr1238	abvd_221_1
+kos	smoke	kuhlahsr	kuhlahsr	kosr1238	
+kos	ash	apact	apact	kosr1238	
+kos	white	fasrfasr	fasrfasr	kosr1238	abvd_1335_11
+kos	red	sruhsrah	sruhsrah	kosr1238	
+kos	green	folfol sra	folfolsra	kosr1238	
+kos	small	srihk	srihk	kosr1238	abvd_1246_66
+kos	big	yohk	yohk	kosr1238	
+kos	long	loes	loes	kosr1238	abvd_1203_87
+kos	new	sasuh	sasuh	kosr1238	
+kos	night	fohŋ	fohŋ	kosr1238	abvd_1233_1
+kos	breast	piyac	piyac	kosr1238	abvd_1237_3
+kos	hair	ŋa	ŋa	kosr1238	abvd_1209_12
+kos	one	se	se	kosr1238	abvd_1493_14
+kos	two	luo	luo	kosr1238	abvd_1498_1
+kos	three	tolu	tolu	kosr1238	abvd_492_1
+mri	hand	ringa	ringa	maor1246	abvd_1277_1
+mri	come	haere mai	haeremai	maor1246	abvd_1446_1
+mri	swim	kauhoe	kauhoe	maor1246	abvd_1439_5
+mri	skin	kiri	kiri	maor1246	abvd_763_1
+mri	belly	puku	puku	maor1246	
+mri	bone	iwi	iwi	maor1246	abvd_1394_52
+mri	know	moohio	moohio	maor1246	abvd_1410_52
+mri	blood	toto	toto	maor1246	abvd_946_4
+mri	head	upoko	upoko	maor1246	abvd_1256_10
+mri	neck	ua	ua	maor1246	abvd_1333_18
+mri	nose	ihu	ihu	maor1246	abvd_1221_1
+mri	mouth	waha	waha	maor1246	abvd_674_1
+mri	tooth	niho	niho	maor1246	abvd_1380_1
+mri	tongue	arero	arero	maor1246	abvd_1205_15
+mri	eat	kai	kai	maor1246	abvd_1336_1
+mri	drink	inu	inu	maor1246	abvd_1401_1
+mri	bite	ngau	ngau	maor1246	abvd_1403_7
+mri	ear	taringa	taringa	maor1246	abvd_1247_1
+mri	hear	rongo	rongo	maor1246	abvd_1408_1
+mri	eye	mata	mata	maor1246	abvd_1248_1
+mri	see	kite	kite	maor1246	abvd_1409_1
+mri	sleep	moe	moe	maor1246	abvd_1585_10
+mri	sit	noho	noho	maor1246	abvd_1416_16
+mri	stand	tuu	tuu	maor1246	abvd_1442_2
+mri	person	tangata	tangata	maor1246	abvd_683_1
+mri	husband	taane	taane	maor1246	abvd_1200_14
+mri	wife	wahine	wahine	maor1246	abvd_1199_5
+mri	mother	whaea	whaea	maor1246	abvd_1216_6
+mri	father	matua	matua	maor1246	abvd_1217_9
+mri	house	whare	whare	maor1246	abvd_1252_14
+mri	name	ingoa	ingoa	maor1246	abvd_1405_6
+mri	say	koorero	koorero	maor1246	abvd_1458_11
+mri	black	tui	tui	maor1246	abvd_1457_13
+mri	kill	patu	patu	maor1246	abvd_1417_9
+mri	old	makere	makere	maor1246	abvd_1280_10
+mri	dog	kurii	kurii	maor1246	abvd_2009_7
+mri	bird	manu	manu	maor1246	abvd_937_1
+mri	egg	heeki	heeki	maor1246	
+mri	child	rere	rere	maor1246	abvd_1441_11
+mri	snake	naakahi	naakahi	maor1246	
+mri	worm	noke	noke	maor1246	abvd_1219_7
+mri	fish	ika	ika	maor1246	abvd_227_1
+mri	leaf	rau	rau	maor1246	abvd_628_1
+mri	root	paki|aka	pakiaka	maor1246	abvd_670_2
+mri	fruit	hua	hua	maor1246	abvd_1507_1
+mri	earth	oneone	oneone	maor1246	abvd_1228_35
+mri	stone	koowhatu	koowhatu	maor1246	abvd_857_1
+mri	sand	one	one	maor1246	abvd_671_1
+mri	water	wai	wai	maor1246	abvd_948_2
+mri	sea	moana	moana	maor1246	abvd_1474_10
+mri	sky	rangi	rangi	maor1246	abvd_1732_1
+mri	moon	marama	marama	maor1246	abvd_1313_7
+mri	star	whetuu	whetuu	maor1246	abvd_1430_1
+mri	cloud	kapua	kapua	maor1246	abvd_1489_67
+mri	wind	hau	hau	maor1246	abvd_960_10
+mri	warm	mahana	mahana	maor1246	abvd_1232_1
+mri	fire	ahi	ahi	maor1246	abvd_221_1
+mri	smoke	au|ahi	auahi	maor1246	abvd_778_2
+mri	ash	pungarehu	pungarehu	maor1246	abvd_646_67
+mri	white	maa	maa	maor1246	
+mri	red	whero	whero	maor1246	abvd_156_36
+mri	green	kaakaariki	kaakaariki	maor1246	
+mri	small	iti	iti	maor1246	abvd_1246_1
+mri	big	nui	nui	maor1246	abvd_1202_11
+mri	long	roa	roa	maor1246	abvd_1203_12
+mri	new	hoou	hoou	maor1246	abvd_1231_1
+mri	night	poo	poo	maor1246	abvd_1233_1
+mri	breast	whea	whea	maor1246	abvd_1237_3
+mri	hair	au	au	maor1246	abvd_1209_1
+mri	one	tahi	tahi	maor1246	abvd_1493_41
+mri	two	rua	rua	maor1246	abvd_1498_1
+mri	three	toru	toru	maor1246	abvd_492_1
+plt	hand	tánana	tnana	meri1243	abvd_1277_18
+plt	come	ávy	vy	meri1243	abvd_1446_70
+plt	swim	l-om-áno	lomno	meri1243	abvd_1439_1
+plt	skin	hóditra	hditra	meri1243	abvd_763_1
+plt	belly	kíbo	kbo	meri1243	
+plt	bone	táolana	tolana	meri1243	abvd_1394_1
+plt	know	maha-lála	mahalla	meri1243	abvd_1410_18
+plt	blood	rá	r	meri1243	abvd_946_1
+plt	head	lóha	lha	meri1243	abvd_1256_84
+plt	neck	vózona	vzona	meri1243	abvd_1333_131
+plt	nose	órona	rona	meri1243	abvd_1221_1
+plt	mouth	váva	vva	meri1243	abvd_674_1
+plt	tooth	nífy	nfy	meri1243	abvd_1380_1
+plt	tongue	léla	lla	meri1243	abvd_1205_4
+plt	eat	h-óm-ana	hmana	meri1243	abvd_1336_1
+plt	drink	mi-sótro	mistro	meri1243	abvd_1401_70
+plt	bite	man-aikitra	manaikitra	meri1243	abvd_1403_20
+plt	ear	tadíny	tadny	meri1243	abvd_1247_1
+plt	hear	man-dré	mandr	meri1243	abvd_1408_1
+plt	eye	máso	mso	meri1243	abvd_1248_36
+plt	see	ma-híta	mahta	meri1243	abvd_1409_1
+plt	sleep	ma-tóry	matry	meri1243	abvd_1585_1
+plt	sit	ma-metraka	mametraka	meri1243	
+plt	stand	mi-tsángana	mitsngana	meri1243	abvd_1442_101
+plt	person	ólona	lona	meri1243	abvd_683_17
+plt	husband	vády	vdy	meri1243	abvd_1200_88
+plt	wife	vády	vdy	meri1243	abvd_1199_107
+plt	mother	rény	rny	meri1243	abvd_1216_1
+plt	father	ráy	ry	meri1243	abvd_1217_22
+plt	house	tráno	trno	meri1243	abvd_1252_18
+plt	name	anárana	anrana	meri1243	abvd_1405_1
+plt	say	mi-tény	mitny	meri1243	abvd_1458_52
+plt	black	man-jáitra	manjitra	meri1243	abvd_1457_2
+plt	kill	ma-móno	mamno	meri1243	abvd_1417_1
+plt	old	lávo	lvo	meri1243	abvd_1280_1
+plt	dog	alíka	alka	meri1243	
+plt	bird	vórona	vrona	meri1243	abvd_937_17
+plt	egg	atódy	atdy	meri1243	abvd_744_1
+plt	child	manídina	mandina	meri1243	abvd_1441_97
+plt	snake	bibiláva	bibilva	meri1243	abvd_730_70
+plt	worm	kánkana	knkana	meri1243	abvd_1219_91
+plt	fish	haza-n-dráno	hazandrno	meri1243	
+plt	leaf	rávina	rvina	meri1243	abvd_628_1
+plt	root	fáka	fka	meri1243	
+plt	fruit	vóa	va	meri1243	abvd_1507_1
+plt	earth	tány	tny	meri1243	abvd_1228_1
+plt	stone	váto	vto	meri1243	abvd_857_1
+plt	sand	fásika	fsika	meri1243	abvd_671_18
+plt	water	ráno	rno	meri1243	abvd_948_10
+plt	sea	ranomásina	ranomsina	meri1243	
+plt	sky	lánitra	lnitra	meri1243	abvd_1732_1
+plt	moon	vólana	vlana	meri1243	abvd_1313_1
+plt	star	kíntana	kntana	meri1243	
+plt	cloud	ráhona	rhona	meri1243	abvd_1489_1
+plt	wind	rívotra	rvotra	meri1243	
+plt	warm	ma-fána	mafna	meri1243	abvd_1232_1
+plt	fire	áfo	fo	meri1243	abvd_221_1
+plt	smoke	sétroka	stroka	meri1243	abvd_778_90
+plt	ash	lavénona	lavnona	meri1243	abvd_646_95
+plt	white	fótsy	ftsy	meri1243	abvd_1335_1
+plt	red	ména	mna	meri1243	abvd_156_1
+plt	green	ma-itso	maitso	meri1243	abvd_1425_25
+plt	small	kély	kly	meri1243	abvd_1246_126
+plt	big	lehibé	lehib	meri1243	abvd_1202_46
+plt	long	láva	lva	meri1243	abvd_1203_27
+plt	new	váo	vo	meri1243	abvd_1231_1
+plt	night	álina	lina	meri1243	abvd_1233_20
+plt	breast	áiza	iza	meri1243	abvd_1237_89
+plt	hair	iz	iz	meri1243	abvd_1209_1
+plt	one	ísa	sa	meri1243	abvd_1493_1
+plt	two	róa	ra	meri1243	abvd_1498_1
+plt	three	télo	tlo	meri1243	abvd_492_1
+smo	hand	lima	lima	samo1305	abvd_1277_1
+smo	come	sau	sau	samo1305	abvd_1446_44
+smo	swim	ʔaʔau	ʔaʔau	samo1305	abvd_1439_5
+smo	skin	'ili	ili	samo1305	abvd_763_1
+smo	belly	manava	manava	samo1305	abvd_1251_9
+smo	bone	ivi	ivi	samo1305	abvd_1394_52
+smo	know	ilo-a	iloa	samo1305	abvd_1410_13
+smo	blood	toto	toto	samo1305	abvd_946_4
+smo	head	ulu	ulu	samo1305	abvd_1256_1
+smo	neck	ua	ua	samo1305	abvd_1333_18
+smo	nose	isu	isu	samo1305	abvd_1221_1
+smo	mouth	ŋutu	ŋutu	samo1305	abvd_674_2
+smo	tooth	nifo	nifo	samo1305	abvd_1380_1
+smo	tongue	laulaufaiva	laulaufaiva	samo1305	
+smo	eat	ʔai	ʔai	samo1305	abvd_1336_1
+smo	drink	inu	inu	samo1305	abvd_1401_1
+smo	bite	ʔati	ʔati	samo1305	abvd_1403_1
+smo	ear	taliŋa	taliŋa	samo1305	abvd_1247_1
+smo	hear	faʔa-loŋo	faʔaloŋo	samo1305	abvd_1408_1
+smo	eye	mata	mata	samo1305	abvd_1248_1
+smo	see	vaʔai	vaʔai	samo1305	
+smo	sleep	moe	moe	samo1305	abvd_1585_10
+smo	sit	nofo	nofo	samo1305	abvd_1416_16
+smo	stand	tū	t	samo1305	abvd_1442_2
+smo	person	taŋata	taŋata	samo1305	abvd_683_1
+smo	husband	tāne	tne	samo1305	abvd_1200_14
+smo	wife	āvā	v	samo1305	abvd_1199_8
+smo	mother	tinā	tin	samo1305	abvd_1216_1
+smo	father	tamā	tam	samo1305	abvd_1217_1
+smo	house	fale	fale	samo1305	abvd_1252_14
+smo	name	iŋoa	iŋoa	samo1305	abvd_1405_6
+smo	say	tautala	tautala	samo1305	abvd_1458_60
+smo	black	suʔi	suʔi	samo1305	abvd_1457_17
+smo	kill	fasioti	fasioti	samo1305	
+smo	old	paʔū	paʔ	samo1305	abvd_1280_59
+smo	dog	ʔulī	ʔul	samo1305	abvd_2009_7
+smo	bird	manulele	manulele	samo1305	abvd_937_1
+smo	egg	fuāmoa	fumoa	samo1305	abvd_744_5
+smo	child	lele	lele	samo1305	abvd_1441_11
+smo	snake	ŋata	ŋata	samo1305	abvd_730_12
+smo	worm	ʔanufe	ʔanufe	samo1305	abvd_1219_45
+smo	fish	iʔa	iʔa	samo1305	abvd_227_1
+smo	leaf	lau	lau	samo1305	abvd_628_1
+smo	root	aʔa	aʔa	samo1305	abvd_670_2
+smo	fruit	fua	fua	samo1305	abvd_1507_1
+smo	earth	lalolaŋi	lalolaŋi	samo1305	
+smo	stone	maʔa	maʔa	samo1305	abvd_857_4
+smo	sand	oneone	oneone	samo1305	abvd_671_1
+smo	water	vai	vai	samo1305	abvd_948_2
+smo	sea	sami	sami	samo1305	
+smo	sky	laŋi	laŋi	samo1305	abvd_1732_1
+smo	moon	māsina	msina	samo1305	abvd_1313_37
+smo	star	fetū	fet	samo1305	abvd_1430_1
+smo	cloud	ao	ao	samo1305	abvd_1489_12
+smo	wind	mat|aŋi	mataŋi	samo1305	abvd_960_1
+smo	warm	vevela	vevela	samo1305	abvd_1232_8
+smo	fire	afi	afi	samo1305	abvd_221_1
+smo	smoke	asu	asu	samo1305	abvd_778_2
+smo	ash	lefulefu	lefulefu	samo1305	abvd_646_67
+smo	white	paʔepaʔe	paʔepaʔe	samo1305	
+smo	red	ʔula	ʔula	samo1305	abvd_156_13
+smo	green	lanumeamata	lanumeamata	samo1305	abvd_1425_1
+smo	small	itiiti	itiiti	samo1305	abvd_1246_1
+smo	big	tele	tele	samo1305	
+smo	long	ʔumi	ʔumi	samo1305	abvd_1203_63
+smo	new	fou	fou	samo1305	abvd_1231_1
+smo	night	pō	p	samo1305	abvd_1233_1
+smo	breast	ʔo fea	ʔofea	samo1305	abvd_1237_3
+smo	hair	aʔu	aʔu	samo1305	abvd_1209_1
+smo	one	e tasi	etasi	samo1305	abvd_1493_41
+smo	two	e lua	elua	samo1305	abvd_1498_1
+smo	three	e tolu	etolu	samo1305	abvd_492_1
+ton	hand	nima	nima	tong1325	abvd_1277_1
+ton	come	haʔu	haʔu	tong1325	abvd_1446_44
+ton	swim	kakau	kakau	tong1325	abvd_1439_5
+ton	skin	kili	kili	tong1325	abvd_763_1
+ton	belly	kete	kete	tong1325	abvd_1251_7
+ton	bone	hui	hui	tong1325	abvd_1394_52
+ton	know	ʔilo	ʔilo	tong1325	abvd_1410_13
+ton	blood	toto	toto	tong1325	abvd_946_4
+ton	head	ʔulu	ʔulu	tong1325	abvd_1256_1
+ton	neck	kia	kia	tong1325	abvd_1333_20
+ton	nose	ihu	ihu	tong1325	abvd_1221_1
+ton	mouth	ŋutu	ŋutu	tong1325	abvd_674_2
+ton	tooth	nifo	nifo	tong1325	abvd_1380_1
+ton	tongue	ʔelelo	ʔelelo	tong1325	abvd_1205_15
+ton	eat	kai	kai	tong1325	abvd_1336_1
+ton	drink	inu	inu	tong1325	abvd_1401_1
+ton	bite	uʔu	uʔu	tong1325	abvd_1403_8
+ton	ear	teliŋa	teliŋa	tong1325	abvd_1247_1
+ton	hear	fenoŋo	fenoŋo	tong1325	abvd_1408_1
+ton	eye	mata	mata	tong1325	abvd_1248_1
+ton	see	sio	sio	tong1325	abvd_1409_132
+ton	sleep	mohe	mohe	tong1325	abvd_1585_10
+ton	sit	nofo	nofo	tong1325	abvd_1416_16
+ton	stand	tuʔu	tuʔu	tong1325	abvd_1442_2
+ton	person	taŋata	taŋata	tong1325	abvd_683_1
+ton	husband	mali	mali	tong1325	
+ton	wife	mali	mali	tong1325	
+ton	mother	faʔē	faʔ	tong1325	abvd_1216_6
+ton	father	tama|i	tamai	tong1325	abvd_1217_1
+ton	house	fale	fale	tong1325	abvd_1252_14
+ton	name	hiŋoa	hiŋoa	tong1325	abvd_1405_6
+ton	say	pehē	peh	tong1325	abvd_1458_59
+ton	black	tuitui	tuitui	tong1325	abvd_1457_13
+ton	kill	tāmateʔi	tmateʔi	tong1325	abvd_1417_2
+ton	old	tō	t	tong1325	abvd_1280_14
+ton	dog	kulī	kul	tong1325	abvd_2009_7
+ton	bird	manu	manu	tong1325	abvd_937_1
+ton	egg	foʔi manu	foʔimanu	tong1325	abvd_744_5
+ton	child	puna	puna	tong1325	
+ton	snake	ŋata	ŋata	tong1325	abvd_730_12
+ton	worm	kelemutu	kelemutu	tong1325	abvd_1219_9
+ton	fish	ika	ika	tong1325	abvd_227_1
+ton	leaf	lau	lau	tong1325	abvd_628_1
+ton	root	aka	aka	tong1325	abvd_670_2
+ton	fruit	fua	fua	tong1325	abvd_1507_1
+ton	earth	kelekele	kelekele	tong1325	abvd_1228_10
+ton	stone	maka	maka	tong1325	abvd_857_4
+ton	sand	ʔoneʔone	ʔoneʔone	tong1325	abvd_671_1
+ton	water	vai	vai	tong1325	abvd_948_2
+ton	sea	tahi	tahi	tong1325	abvd_1474_1
+ton	sky	laŋi	laŋi	tong1325	abvd_1732_1
+ton	moon	māhina	mhina	tong1325	abvd_1313_37
+ton	star	fetuʔu	fetuʔu	tong1325	abvd_1430_1
+ton	cloud	ʔao	ʔao	tong1325	abvd_1489_12
+ton	wind	mat|aŋi	mataŋi	tong1325	abvd_960_1
+ton	warm	mafana	mafana	tong1325	abvd_1232_1
+ton	fire	afi	afi	tong1325	abvd_221_1
+ton	smoke	ʔahu	ʔahu	tong1325	abvd_778_2
+ton	ash	efuefu	efuefu	tong1325	abvd_646_1
+ton	white	hinehina	hinehina	tong1325	abvd_1335_66
+ton	red	kulokula	kulokula	tong1325	abvd_156_13
+ton	green	lanu-mata	lanumata	tong1325	abvd_1425_1
+ton	small	siʔi	siʔi	tong1325	abvd_1246_141
+ton	big	fuʔu	fuʔu	tong1325	abvd_1202_13
+ton	long	lōloa	lloa	tong1325	abvd_1203_12
+ton	new	foʔou	foʔou	tong1325	abvd_1231_1
+ton	night	pō	p	tong1325	abvd_1233_1
+ton	breast	ʔi fē	ʔif	tong1325	abvd_1237_3
+ton	hair	au	au	tong1325	abvd_1209_1
+ton	one	taha	taha	tong1325	abvd_1493_41
+ton	two	ua	ua	tong1325	abvd_1498_1
+ton	three	tolu	tolu	tong1325	abvd_492_1
+ceb	hand	kamút	kamt	cebu1242	abvd_1277_21
+ceb	come	moanhi	moanhi	cebu1242	
+ceb	swim	molangóy	molangy	cebu1242	abvd_1439_1
+ceb	skin	pánit	pnit	cebu1242	abvd_763_2
+ceb	belly	tiyán	tiyn	cebu1242	abvd_1251_1
+ceb	bone	bukóg	bukg	cebu1242	abvd_1394_16
+ceb	know	maalamon	maalamon	cebu1242	abvd_1410_58
+ceb	blood	dugố	dugố	cebu1242	abvd_946_16
+ceb	head	úlo	lo	cebu1242	abvd_1256_1
+ceb	neck	líog	log	cebu1242	abvd_1333_1
+ceb	nose	ilóng	ilng	cebu1242	abvd_1221_1
+ceb	mouth	ba'ʔba'ʔ	baʔbaʔ	cebu1242	abvd_674_1
+ceb	tooth	ngípon	ngpon	cebu1242	abvd_1380_1
+ceb	tongue	díla	dla	cebu1242	abvd_1205_4
+ceb	eat	mokáon	mokon	cebu1242	abvd_1336_1
+ceb	drink	moinúm	moinm	cebu1242	abvd_1401_1
+ceb	bite	mopáak	mopak	cebu1242	
+ceb	ear	dalúnggan	dalnggan	cebu1242	abvd_1247_11
+ceb	hear	madungóg	madungg	cebu1242	abvd_1408_1
+ceb	eye	matá	mat	cebu1242	abvd_1248_1
+ceb	see	motan-aw	motanaw	cebu1242	abvd_1409_111
+ceb	sleep	matúlog	matlog	cebu1242	abvd_1585_1
+ceb	sit	molíngkod	molngkod	cebu1242	abvd_1416_45
+ceb	stand	motíndog	motndog	cebu1242	abvd_1442_20
+ceb	person	tau	tau	cebu1242	abvd_683_1
+ceb	husband	bána	bna	cebu1242	abvd_1200_1
+ceb	wife	asáwa	aswa	cebu1242	abvd_1199_1
+ceb	mother	inahán	inahn	cebu1242	abvd_1216_1
+ceb	father	amahán	amahn	cebu1242	abvd_1217_1
+ceb	house	baláy	baly	cebu1242	abvd_1252_14
+ceb	name	ngálan	nglan	cebu1242	abvd_1405_1
+ceb	say	búngat	bngat	cebu1242	
+ceb	black	magtahí	magtah	cebu1242	abvd_1457_1
+ceb	kill	mopatáy	mopaty	cebu1242	abvd_1417_2
+ceb	old	mahúlog	mahlog	cebu1242	abvd_1280_29
+ceb	dog	irô	irô	cebu1242	abvd_2009_21
+ceb	bird	lánggam	lnggam	cebu1242	abvd_937_72
+ceb	egg	ítlog	tlog	cebu1242	abvd_744_1
+ceb	child	molupád	molupd	cebu1242	abvd_1441_21
+ceb	snake	hálas	hlas	cebu1242	abvd_730_26
+ceb	worm	watí	wat	cebu1242	abvd_1219_1
+ceb	fish	ísda	sda	cebu1242	abvd_227_18
+ceb	leaf	dáhon	dhon	cebu1242	abvd_628_1
+ceb	root	gamút	gamt	cebu1242	abvd_670_3
+ceb	fruit	búnga	bnga	cebu1242	abvd_1507_9
+ceb	earth	yúta	yta	cebu1242	abvd_1228_25
+ceb	stone	bató	bat	cebu1242	abvd_857_1
+ceb	sand	balás	bals	cebu1242	abvd_671_19
+ceb	water	túbig	tbig	cebu1242	abvd_948_14
+ceb	sea	dágat	dgat	cebu1242	abvd_1474_25
+ceb	sky	lángit	lngit	cebu1242	abvd_1732_1
+ceb	moon	búlan	blan	cebu1242	abvd_1313_1
+ceb	star	bitóon	biton	cebu1242	abvd_1430_1
+ceb	cloud	pangánud	pangnud	cebu1242	abvd_1489_27
+ceb	wind	hángin	hngin	cebu1242	abvd_960_1
+ceb	warm	init	init	cebu1242	abvd_1232_23
+ceb	fire	kalayo	kalayo	cebu1242	abvd_221_10
+ceb	smoke	asó	as	cebu1242	abvd_778_2
+ceb	ash	ágiw	giw	cebu1242	
+ceb	white	putí	put	cebu1242	abvd_1335_1
+ceb	red	pulá	pul	cebu1242	abvd_156_28
+ceb	green	hilaw	hilaw	cebu1242	abvd_1425_25
+ceb	small	gamáy	gamy	cebu1242	abvd_1246_29
+ceb	big	daku'	daku	cebu1242	abvd_1202_22
+ceb	long	taʔas	taʔas	cebu1242	abvd_1203_28
+ceb	new	bág-o	bgo	cebu1242	abvd_1231_1
+ceb	night	gabi'i	gabii	cebu1242	abvd_1233_21
+ceb	breast	asa	asa	cebu1242	
+ceb	hair	ako	ako	cebu1242	abvd_1209_1
+ceb	one	usa	usa	cebu1242	abvd_1493_1
+ceb	two	duhá	duh	cebu1242	abvd_1498_1
+ceb	three	tulo	tulo	cebu1242	abvd_492_1
+mah	hand	pā	p	rata1243	abvd_1277_8
+mah	come	atok	atok	rata1243	abvd_1446_9
+mah	swim	aō	a	rata1243	abvd_1439_26
+mah	skin	kil	kil	rata1243	abvd_763_1
+mah	belly	je	je	rata1243	abvd_1251_1
+mah	bone	di	di	rata1243	abvd_1394_2
+mah	know	jeļā	je	rata1243	abvd_1410_35
+mah	blood	da	da	rata1243	abvd_946_1
+mah	head	pet	pet	rata1243	abvd_1256_9
+mah	neck	kōnwa	knwa	rata1243	
+mah	nose	boti	boti	rata1243	abvd_1221_1
+mah	mouth	loŋi	loŋi	rata1243	
+mah	tooth	ŋi	ŋi	rata1243	abvd_1380_30
+mah	tongue	lo	lo	rata1243	abvd_1205_18
+mah	eat	kaikai	kaikai	rata1243	abvd_1336_1
+mah	drink	idaak	idaak	rata1243	
+mah	bite	kkij	kkij	rata1243	abvd_1403_9
+mah	ear	lo|jilŋi	lojilŋi	rata1243	abvd_1247_1
+mah	hear	roŋ	roŋ	rata1243	abvd_1408_1
+mah	eye	māj	mj	rata1243	abvd_1248_1
+mah	see	lale	lale	rata1243	abvd_1409_14
+mah	sleep	mājur	mjur	rata1243	abvd_1585_1
+mah	sit	jijet	jijet	rata1243	abvd_1416_143
+mah	stand	ju|tak	jutak	rata1243	abvd_1442_2
+mah	person	armej	armej	rata1243	abvd_683_67
+mah	husband	pālee-	plee	rata1243	abvd_1200_16
+mah	wife	pālee-	plee	rata1243	abvd_1199_10
+mah	mother	jine-	jine	rata1243	abvd_1216_1
+mah	father	jema-	jema	rata1243	abvd_1217_1
+mah	house	eṃ	e	rata1243	abvd_1252_1
+mah	name	āt	t	rata1243	abvd_1405_1
+mah	say	ba	ba	rata1243	abvd_1458_13
+mah	black	keke	keke	rata1243	
+mah	kill	ṃanṃan	anan	rata1243	abvd_1417_90
+mah	old	buŋ	buŋ	rata1243	abvd_1280_15
+mah	dog	kidu	kidu	rata1243	abvd_2009_7
+mah	bird	bao	bao	rata1243	
+mah	egg	lep	lep	rata1243	abvd_744_82
+mah	child	kā-	k	rata1243	abvd_1441_14
+mah	snake	jabōn	jabn	rata1243	
+mah	worm	ṃajkadāl	ajkadl	rata1243	abvd_1219_10
+mah	fish	ek	ek	rata1243	abvd_227_1
+mah	leaf	bōlōk	blk	rata1243	
+mah	root	okar	okar	rata1243	abvd_670_2
+mah	fruit	kwōle	kwle	rata1243	
+mah	earth	bwidej	bwidej	rata1243	abvd_1228_87
+mah	stone	dekā	dek	rata1243	
+mah	sand	bok	bok	rata1243	abvd_671_13
+mah	water	dān	dn	rata1243	abvd_948_1
+mah	sea	lojet	lojet	rata1243	abvd_1474_1
+mah	sky	laŋ	laŋ	rata1243	abvd_1732_1
+mah	moon	allōŋ	allŋ	rata1243	abvd_1313_62
+mah	star	iju	iju	rata1243	abvd_1430_1
+mah	cloud	kōdo	kdo	rata1243	abvd_1489_15
+mah	wind	aŋ	aŋ	rata1243	abvd_960_1
+mah	warm	māāņāņ	m	rata1243	abvd_1232_1
+mah	fire	kijeek	kijeek	rata1243	abvd_221_42
+mah	smoke	baat	baat	rata1243	
+mah	ash	melkwaarar	melkwaarar	rata1243	
+mah	white	mouj	mouj	rata1243	abvd_1335_96
+mah	red	būrōrō	brr	rata1243	abvd_156_96
+mah	green	kūriin	kriin	rata1243	
+mah	small	dik	dik	rata1243	abvd_1246_81
+mah	big	ļap	ap	rata1243	abvd_1202_10
+mah	long	aetok	aetok	rata1243	
+mah	new	kāāl	kl	rata1243	abvd_1231_52
+mah	night	boŋ	boŋ	rata1243	abvd_1233_1
+mah	breast	ewi	ewi	rata1243	
+mah	hair	ŋa	ŋa	rata1243	abvd_1209_12
+mah	one	juon	juon	rata1243	
+mah	two	ruo	ruo	rata1243	abvd_1498_1
+mah	three	jilu	jilu	rata1243	abvd_492_1
+min	hand	taŋan	taŋan	mina1268	abvd_1277_18
+min	come	tibo	tibo	mina1268	
+min	swim	baranaŋ	baranaŋ	mina1268	abvd_1439_23
+min	skin	kulik	kulik	mina1268	abvd_763_1
+min	belly	paruit	paruit	mina1268	abvd_1251_32
+min	bone	tulang	tulang	mina1268	abvd_1394_1
+min	know	tau	tau	mina1268	abvd_1410_1
+min	blood	darah	darah	mina1268	abvd_946_1
+min	head	kapalo	kapalo	mina1268	abvd_1256_45
+min	neck	lihie	lihie	mina1268	abvd_1333_1
+min	nose	iduaŋ	iduaŋ	mina1268	abvd_1221_1
+min	mouth	muncuaŋ	muncuaŋ	mina1268	abvd_674_47
+min	tooth	gigi	gigi	mina1268	abvd_1380_17
+min	tongue	lidah	lidah	mina1268	abvd_1205_4
+min	eat	makan	makan	mina1268	abvd_1336_1
+min	drink	minun	minun	mina1268	abvd_1401_1
+min	bite	maŋgigiʔ	maŋgigiʔ	mina1268	abvd_1403_21
+min	ear	taliŋo	taliŋo	mina1268	abvd_1247_1
+min	hear	mandaŋa	mandaŋa	mina1268	abvd_1408_1
+min	eye	mato	mato	mina1268	abvd_1248_1
+min	see	malieʔ	malieʔ	mina1268	abvd_1409_23
+min	sleep	laloʔ	laloʔ	mina1268	
+min	sit	duduaʔ	duduaʔ	mina1268	abvd_1416_35
+min	stand	tagaʔ	tagaʔ	mina1268	abvd_1442_26
+min	person	uraŋ	uraŋ	mina1268	abvd_683_20
+min	husband	laki	laki	mina1268	abvd_1200_28
+min	wife	bini	bini	mina1268	abvd_1199_5
+min	mother	amaʔ	amaʔ	mina1268	abvd_1216_35
+min	father	apaʔ	apaʔ	mina1268	abvd_1217_12
+min	house	rumah	rumah	mina1268	abvd_1252_1
+min	name	namo	namo	mina1268	abvd_1405_12
+min	say	maŋeceʔ	maŋeceʔ	mina1268	abvd_1458_26
+min	black	manjaiʔ	manjaiʔ	mina1268	abvd_1457_2
+min	kill	mambunuah	mambunuah	mina1268	abvd_1417_1
+min	old	jatuah	jatuah	mina1268	abvd_1280_38
+min	dog	anjiaŋ	anjiaŋ	mina1268	abvd_2009_27
+min	bird	buruaŋ	buruaŋ	mina1268	abvd_937_17
+min	egg	talua	talua	mina1268	abvd_744_1
+min	child	tabaŋ	tabaŋ	mina1268	abvd_1441_18
+min	snake	ula	ula	mina1268	abvd_730_2
+min	worm	caciaŋ	caciaŋ	mina1268	abvd_1219_23
+min	fish	ikan	ikan	mina1268	abvd_227_1
+min	leaf	daun	daun	mina1268	abvd_628_1
+min	root	ureʔ	ureʔ	mina1268	abvd_670_1
+min	fruit	buah-buahan	buahbuahan	mina1268	abvd_1507_1
+min	earth	tanah	tanah	mina1268	abvd_1228_1
+min	stone	batu	batu	mina1268	abvd_857_1
+min	sand	kasiaʔ	kasiaʔ	mina1268	abvd_671_24
+min	water	aie	aie	mina1268	abvd_948_2
+min	sea	lauiʔ	lauiʔ	mina1268	abvd_1474_6
+min	sky	laŋiʔ	laŋiʔ	mina1268	abvd_1732_1
+min	moon	bulan	bulan	mina1268	abvd_1313_1
+min	star	bintang	bintang	mina1268	abvd_1430_1
+min	cloud	awan	awan	mina1268	abvd_1489_1
+min	wind	angin	angin	mina1268	abvd_960_1
+min	warm	paneh	paneh	mina1268	abvd_1232_1
+min	fire	api	api	mina1268	abvd_221_1
+min	smoke	asoʔ	asoʔ	mina1268	abvd_778_49
+min	ash	abu	abu	mina1268	abvd_646_1
+min	white	putiah	putiah	mina1268	abvd_1335_1
+min	red	sirah	sirah	mina1268	abvd_156_1
+min	green	ijau	ijau	mina1268	abvd_1425_25
+min	small	keteʔ	keteʔ	mina1268	abvd_1246_28
+min	big	gadaŋ	gadaŋ	mina1268	abvd_1202_27
+min	long	panjaŋ	panjaŋ	mina1268	abvd_1203_24
+min	new	baru	baru	mina1268	abvd_1231_1
+min	night	malam	malam	mina1268	abvd_1233_20
+min	breast	dima	dima	mina1268	
+min	hair	ambo	ambo	mina1268	abvd_1209_9
+min	one	cieʔ	cieʔ	mina1268	
+min	two	duo	duo	mina1268	abvd_1498_1
+min	three	tigo	tigo	mina1268	abvd_492_8
+chk	hand	kumwuch	kumwuch	chuu1238	abvd_1277_9
+chk	come	too-	too	chuu1238	abvd_1446_9
+chk	skin	siin	siin	chuu1238	abvd_763_1
+chk	belly	wuupw	wuupw	chuu1238	abvd_1251_11
+chk	bone	chúú	ch	chuu1238	abvd_1394_2
+chk	know	sineēy	siney	chuu1238	abvd_1410_18
+chk	blood	chcha	chcha	chuu1238	abvd_946_1
+chk	head	mékúr	mkr	chuu1238	abvd_1256_13
+chk	neck	wúú	w	chuu1238	abvd_1333_18
+chk	nose	pwéét	pwt	chuu1238	abvd_1221_1
+chk	mouth	aaw	aaw	chuu1238	abvd_674_36
+chk	tooth	nii	nii	chuu1238	abvd_1380_30
+chk	tongue	chénn-aaw	chnnaaw	chuu1238	abvd_1205_19
+chk	eat	mwéngé	mwng	chuu1238	abvd_1336_8
+chk	drink	wún	wn	chuu1238	abvd_1401_1
+chk	bite	k-kúú-w	kkw	chuu1238	abvd_1403_9
+chk	ear	senig	senig	chuu1238	abvd_1247_1
+chk	hear	rongo-rong	rongorong	chuu1238	abvd_1408_1
+chk	eye	maas	maas	chuu1238	abvd_1248_1
+chk	see	weri	weri	chuu1238	abvd_1409_10
+chk	sleep	méwúr	mwr	chuu1238	abvd_1585_1
+chk	sit	móót	mt	chuu1238	abvd_1416_18
+chk	stand	wúú-	w	chuu1238	abvd_1442_2
+chk	person	aramas	aramas	chuu1238	abvd_683_67
+chk	husband	punuwomw	punuwomw	chuu1238	abvd_1200_16
+chk	mother	iin	iin	chuu1238	abvd_1216_1
+chk	father	saam	saam	chuu1238	abvd_1217_1
+chk	house	iimw	iimw	chuu1238	abvd_1252_1
+chk	name	iit	iit	chuu1238	abvd_1405_66
+chk	say	érá	r	chuu1238	abvd_1458_14
+chk	black	tee-te	teete	chuu1238	abvd_1457_2
+chk	kill	nnii-y	nniiy	chuu1238	abvd_1417_11
+chk	old	púngú-	png	chuu1238	abvd_1280_15
+chk	dog	konaak	konaak	chuu1238	
+chk	bird	maan	maan	chuu1238	abvd_937_1
+chk	egg	sókkun	skkun	chuu1238	abvd_744_1
+chk	child	áás	s	chuu1238	
+chk	worm	nikénúúnúpwpwún	niknnpwpwn	chuu1238	abvd_1219_78
+chk	fish	iik	iik	chuu1238	abvd_227_1
+chk	leaf	chéé	ch	chuu1238	abvd_628_1
+chk	root	waar	waar	chuu1238	abvd_670_2
+chk	fruit	wuwa	wuwa	chuu1238	abvd_1507_1
+chk	earth	sóón	sn	chuu1238	abvd_1228_1
+chk	stone	faaw	faaw	chuu1238	abvd_857_1
+chk	sand	ppi	ppi	chuu1238	abvd_671_12
+chk	water	chaan	chaan	chuu1238	abvd_948_1
+chk	sea	sáát	st	chuu1238	abvd_1474_1
+chk	sky	nááng	nng	chuu1238	abvd_1732_1
+chk	moon	maram	maram	chuu1238	abvd_1313_7
+chk	star	fúú	f	chuu1238	abvd_1430_1
+chk	cloud	kuchu	kuchu	chuu1238	abvd_1489_15
+chk	wind	eni-	eni	chuu1238	abvd_960_1
+chk	warm	pwichi-kkar	pwichikkar	chuu1238	abvd_1232_10
+chk	fire	efi-	efi	chuu1238	abvd_221_1
+chk	smoke	éét	t	chuu1238	abvd_778_2
+chk	ash	fanang	fanang	chuu1238	abvd_646_8
+chk	white	pwecha-	pwecha	chuu1238	abvd_1335_11
+chk	red	par	par	chuu1238	abvd_156_17
+chk	green	araw	araw	chuu1238	abvd_1425_13
+chk	small	kisi-kiis	kisikiis	chuu1238	abvd_1246_80
+chk	big	watte	watte	chuu1238	
+chk	long	nááney	nney	chuu1238	abvd_1203_13
+chk	new	ffé	ff	chuu1238	abvd_1231_1
+chk	night	pwongú-	pwong	chuu1238	abvd_1233_1
+chk	breast	iiya	iiya	chuu1238	abvd_1237_37
+chk	hair	ngaang	ngaang	chuu1238	abvd_1209_12
+chk	one	eet	eet	chuu1238	abvd_1493_1
+chk	two	rúwa-	rwa	chuu1238	abvd_1498_1
+chk	three	één	n	chuu1238	abvd_492_1
+pwn	hand	lima	lima	paiw1248	abvd_1277_1
+pwn	come	ma-ŋetjez	maŋetjez	paiw1248	abvd_1446_36
+pwn	swim	ɬaŋuy	ɬaŋuy	paiw1248	abvd_1439_1
+pwn	skin	qaɬits	qaɬits	paiw1248	abvd_763_2
+pwn	belly	tjiaɬ	tjiaɬ	paiw1248	abvd_1251_1
+pwn	bone	tsuqelaɬ	tsuqelaɬ	paiw1248	abvd_1394_1
+pwn	know	k-m-eɬaŋ	kmeɬaŋ	paiw1248	abvd_1410_73
+pwn	blood	djamuq	djamuq	paiw1248	abvd_946_20
+pwn	head	qulu	qulu	paiw1248	abvd_1256_1
+pwn	neck	liqe	liqe	paiw1248	abvd_1333_1
+pwn	nose	ŋudjus	ŋudjus	paiw1248	abvd_1221_42
+pwn	mouth	aŋaɬ	aŋaɬ	paiw1248	abvd_674_69
+pwn	tooth	aɬis	aɬis	paiw1248	abvd_1380_2
+pwn	tongue	sema	sema	paiw1248	abvd_1205_1
+pwn	eat	k-m-an	kman	paiw1248	abvd_1336_1
+pwn	drink	t-m-ekel	tmekel	paiw1248	abvd_1401_44
+pwn	bite	k-m-ats	kmats	paiw1248	abvd_1403_1
+pwn	ear	tsaliŋa	tsaliŋa	paiw1248	abvd_1247_1
+pwn	hear	l-m-aŋeda	lmaŋeda	paiw1248	abvd_1408_49
+pwn	eye	matsa	matsa	paiw1248	abvd_1248_1
+pwn	see	patsun	patsun	paiw1248	abvd_1409_75
+pwn	sleep	q-m-ereŋ	qmereŋ	paiw1248	abvd_1585_47
+pwn	sit	q-m-iladj	qmiladj	paiw1248	abvd_1416_92
+pwn	stand	mi-gatsaɬ	migatsaɬ	paiw1248	abvd_1442_51
+pwn	person	tsau-tsau	tsautsau	paiw1248	abvd_683_1
+pwn	husband	tsekeɬ	tsekeɬ	paiw1248	
+pwn	wife	tsekeɬ	tsekeɬ	paiw1248	
+pwn	mother	kina	kina	paiw1248	abvd_1216_1
+pwn	father	kama	kama	paiw1248	abvd_1217_1
+pwn	house	umaq	umaq	paiw1248	abvd_1252_1
+pwn	name	ŋadán	ŋadn	paiw1248	abvd_1405_1
+pwn	say	aya	aya	paiw1248	
+pwn	black	ts-m-aqis	tsmaqis	paiw1248	abvd_1457_1
+pwn	kill	pa-patsay	papatsay	paiw1248	abvd_1417_2
+pwn	old	ma-tjani	matjani	paiw1248	abvd_1280_4
+pwn	dog	vatu	vatu	paiw1248	abvd_2009_1
+pwn	bird	qaya-qayam	qayaqayam	paiw1248	abvd_937_2
+pwn	egg	qetsilu	qetsilu	paiw1248	abvd_744_1
+pwn	child	mi-layap	milayap	paiw1248	abvd_1441_2
+pwn	snake	qatjuvi	qatjuvi	paiw1248	abvd_730_57
+pwn	worm	qatjuday	qatjuday	paiw1248	abvd_1219_55
+pwn	fish	tsiqaw	tsiqaw	paiw1248	abvd_227_30
+pwn	leaf	asaw	asaw	paiw1248	abvd_628_10
+pwn	root	kapaz	kapaz	paiw1248	abvd_670_24
+pwn	fruit	vaŋaɬ	vaŋaɬ	paiw1248	abvd_1507_31
+pwn	earth	qipu	qipu	paiw1248	abvd_1228_86
+pwn	stone	qatsiɬay	qatsiɬay	paiw1248	abvd_857_37
+pwn	sand	vudas	vudas	paiw1248	abvd_671_72
+pwn	water	zaɬum	zaɬum	paiw1248	abvd_948_1
+pwn	sea	ɬavek	ɬavek	paiw1248	abvd_1474_51
+pwn	sky	kalevlevan	kalevlevan	paiw1248	abvd_1732_2
+pwn	moon	qiɬas	qiɬas	paiw1248	abvd_1313_2
+pwn	star	vitjuqan	vitjuqan	paiw1248	abvd_1430_1
+pwn	cloud	qerepes	qerepes	paiw1248	abvd_1489_82
+pwn	wind	vali	vali	paiw1248	abvd_960_2
+pwn	warm	ma-seɬets	maseɬets	paiw1248	
+pwn	fire	sapuy	sapuy	paiw1248	abvd_221_1
+pwn	smoke	tsevuɬ	tsevuɬ	paiw1248	abvd_778_65
+pwn	ash	qavu	qavu	paiw1248	abvd_646_1
+pwn	white	vuqaɬ	vuqaɬ	paiw1248	abvd_1335_112
+pwn	red	qudjiɬ	qudjiɬ	paiw1248	abvd_156_78
+pwn	green	liɬuas	liɬuas	paiw1248	abvd_1425_58
+pwn	small	keḍi	kei	paiw1248	abvd_1246_2
+pwn	big	qatsay	qatsay	paiw1248	abvd_1202_91
+pwn	long	laḍuq	lauq	paiw1248	abvd_1203_1
+pwn	new	vaqu-an	vaquan	paiw1248	abvd_1231_1
+pwn	night	veŋin	veŋin	paiw1248	abvd_1233_1
+pwn	breast	inu	inu	paiw1248	abvd_1237_1
+pwn	hair	ti-aken	tiaken	paiw1248	abvd_1209_1
+pwn	one	ita	ita	paiw1248	abvd_1493_1
+pwn	two	ḍusa	usa	paiw1248	abvd_1498_1
+pwn	three	tjelu	tjelu	paiw1248	abvd_492_1
+hil	hand	kamot	kamot	hili1240	abvd_1277_21
+hil	come	kadto	kadto	hili1240	abvd_1446_2
+hil	swim	langoy	langoy	hili1240	abvd_1439_1
+hil	skin	panit	panit	hili1240	abvd_763_2
+hil	belly	ti-yan	tiyan	hili1240	abvd_1251_1
+hil	bone	tul-an	tulan	hili1240	abvd_1394_1
+hil	know	kabalo	kabalo	hili1240	abvd_1410_11
+hil	blood	dugô	dug	hili1240	abvd_946_16
+hil	head	ulo	ulo	hili1240	abvd_1256_1
+hil	neck	li-og	liog	hili1240	abvd_1333_1
+hil	nose	ilong	ilong	hili1240	abvd_1221_1
+hil	mouth	bâbâ	bb	hili1240	abvd_674_1
+hil	tooth	ngipon	ngipon	hili1240	abvd_1380_1
+hil	tongue	dilâ	dil	hili1240	abvd_1205_4
+hil	eat	ka-on	kaon	hili1240	abvd_1336_1
+hil	drink	inom	inom	hili1240	abvd_1401_1
+hil	bite	kagat	kagat	hili1240	abvd_1403_1
+hil	ear	dulunggan	dulunggan	hili1240	abvd_1247_11
+hil	hear	batian	batian	hili1240	abvd_1408_20
+hil	eye	mata	mata	hili1240	abvd_1248_1
+hil	see	kitâ	kit	hili1240	abvd_1409_1
+hil	sleep	tulog	tulog	hili1240	abvd_1585_1
+hil	sit	pungko	pungko	hili1240	abvd_1416_139
+hil	stand	tindog	tindog	hili1240	abvd_1442_20
+hil	person	tawo	tawo	hili1240	abvd_683_1
+hil	husband	bana	bana	hili1240	abvd_1200_1
+hil	wife	iloy	iloy	hili1240	
+hil	mother	iloy	iloy	hili1240	abvd_1216_77
+hil	father	amay	amay	hili1240	abvd_1217_1
+hil	house	balay	balay	hili1240	abvd_1252_14
+hil	name	ngalan	ngalan	hili1240	abvd_1405_1
+hil	say	siling	siling	hili1240	abvd_1458_57
+hil	black	tahiʔ	tahiʔ	hili1240	abvd_1457_1
+hil	kill	pat-yon	patyon	hili1240	abvd_1417_2
+hil	dog	idu	idu	hili1240	abvd_2009_21
+hil	bird	pispis	pispis	hili1240	abvd_937_27
+hil	egg	itlog	itlog	hili1240	abvd_744_1
+hil	child	lupad	lupad	hili1240	abvd_1441_21
+hil	snake	manʔog	manʔog	hili1240	abvd_730_66
+hil	fish	isdaʔ	isdaʔ	hili1240	abvd_227_18
+hil	sand	balas	balas	hili1240	abvd_671_19
+hil	moon	bulan	bulan	hili1240	abvd_1313_1
+hil	cloud	paŋánod	paŋnod	hili1240	abvd_1489_27
+hil	fire	kalayo	kalayo	hili1240	abvd_221_10
+hil	night	gabʔe	gabʔe	hili1240	abvd_1233_21
+hil	one	isa	isa	hili1240	abvd_1493_1
+hil	two	duha	duha	hili1240	abvd_1498_1
+ind	stone	batu	batu	indo1316	abvd_857_1
+niu	hand	lima	lima	niue1239	abvd_1277_1
+niu	come	auaa	auaa	niue1239	abvd_1446_44
+niu	swim	kakau	kakau	niue1239	abvd_1439_5
+niu	skin	kili	kili	niue1239	abvd_763_1
+niu	belly	manava	manava	niue1239	abvd_1251_9
+niu	bone	hui	hui	niue1239	abvd_1394_52
+niu	know	ilo	ilo	niue1239	abvd_1410_13
+niu	blood	toto	toto	niue1239	abvd_946_4
+niu	head	ulu	ulu	niue1239	abvd_1256_1
+niu	neck	kakia	kakia	niue1239	abvd_1333_20
+niu	nose	ihu	ihu	niue1239	abvd_1221_1
+niu	mouth	ŋutu	ŋutu	niue1239	abvd_674_2
+niu	tooth	nifo	nifo	niue1239	abvd_1380_1
+niu	tongue	alelo	alelo	niue1239	abvd_1205_15
+niu	eat	kai	kai	niue1239	abvd_1336_1
+niu	drink	inu	inu	niue1239	abvd_1401_1
+niu	bite	kakati	kakati	niue1239	abvd_1403_1
+niu	ear	teliŋa	teliŋa	niue1239	abvd_1247_1
+niu	hear	faanoŋonoŋo	faanoŋonoŋo	niue1239	abvd_1408_1
+niu	eye	mata	mata	niue1239	abvd_1248_1
+niu	see	mata	mata	niue1239	abvd_1409_8
+niu	sleep	mohe	mohe	niue1239	abvd_1585_10
+niu	sit	nofo	nofo	niue1239	abvd_1416_16
+niu	stand	tuu	tuu	niue1239	abvd_1442_2
+niu	person	taŋata	taŋata	niue1239	abvd_683_1
+niu	husband	taane	taane	niue1239	abvd_1200_14
+niu	wife	hama	hama	niue1239	
+niu	mother	matua fifina	matuafifina	niue1239	abvd_1216_4
+niu	father	matua taane	matuataane	niue1239	abvd_1217_9
+niu	house	kaina	kaina	niue1239	abvd_1252_6
+niu	name	hinga	hinga	niue1239	abvd_1405_6
+niu	say	ke pehe	kepehe	niue1239	abvd_1458_59
+niu	black	tui	tui	niue1239	abvd_1457_13
+niu	kill	taa	taa	niue1239	abvd_1417_8
+niu	old	mokulu	mokulu	niue1239	abvd_1280_11
+niu	dog	kulii	kulii	niue1239	abvd_2009_7
+niu	bird	manu	manu	niue1239	abvd_937_1
+niu	child	lele	lele	niue1239	abvd_1441_11
+niu	snake	gata	gata	niue1239	abvd_730_12
+niu	worm	kelemutu	kelemutu	niue1239	abvd_1219_9
+niu	fish	ika	ika	niue1239	abvd_227_1
+niu	leaf	lau	lau	niue1239	abvd_628_1
+niu	root	aka	aka	niue1239	abvd_670_2
+niu	fruit	fua	fua	niue1239	abvd_1507_1
+niu	earth	kelekele	kelekele	niue1239	abvd_1228_10
+niu	stone	fatukalaa	fatukalaa	niue1239	abvd_857_1
+niu	sand	one	one	niue1239	abvd_671_1
+niu	water	vai	vai	niue1239	abvd_948_2
+niu	sea	moana	moana	niue1239	abvd_1474_10
+niu	moon	mahina	mahina	niue1239	abvd_1313_37
+niu	star	fetuu	fetuu	niue1239	abvd_1430_1
+niu	cloud	aolagi	aolagi	niue1239	abvd_1489_12
+niu	wind	mataŋi	mataŋi	niue1239	abvd_960_1
+niu	warm	mafana	mafana	niue1239	abvd_1232_1
+niu	fire	afi	afi	niue1239	abvd_221_1
+niu	smoke	ahu	ahu	niue1239	abvd_778_2
+niu	ash	efuefu	efuefu	niue1239	abvd_646_1
+niu	white	tea	tea	niue1239	abvd_1335_8
+niu	red	kula	kula	niue1239	abvd_156_13
+niu	green	lanu laukou	lanulaukou	niue1239	abvd_1425_12
+niu	small	ikiiki	ikiiki	niue1239	abvd_1246_1
+niu	big	lahi	lahi	niue1239	abvd_1202_12
+niu	long	loa	loa	niue1239	abvd_1203_12
+niu	new	foou	foou	niue1239	abvd_1231_1
+niu	night	poo	poo	niue1239	abvd_1233_1
+niu	breast	fee	fee	niue1239	abvd_1237_3
+niu	hair	au	au	niue1239	abvd_1209_1
+niu	one	taha	taha	niue1239	abvd_1493_41
+niu	two	ua	ua	niue1239	abvd_1498_1
+niu	three	tolu	tolu	niue1239	abvd_492_1
+tay	hand	qbaʔ	qbaʔ	atay1247	abvd_1277_2
+tay	come	muah	muah	atay1247	abvd_1446_33
+tay	swim	mələŋiyaq	mələŋiyaq	atay1247	abvd_1439_1
+tay	skin	kiahil	kiahil	atay1247	abvd_763_3
+tay	belly	ktuʔ	ktuʔ	atay1247	abvd_1251_80
+tay	bone	qniʔ	qniʔ	atay1247	abvd_1394_21
+tay	know	baq	baq	atay1247	abvd_1410_2
+tay	blood	ramuʔ	ramuʔ	atay1247	abvd_946_20
+tay	head	btunux	btunux	atay1247	abvd_1256_35
+tay	neck	griuŋ	griuŋ	atay1247	abvd_1333_56
+tay	nose	ŋuhuu	ŋuhuu	atay1247	abvd_1221_27
+tay	mouth	nquaq	nquaq	atay1247	abvd_674_30
+tay	tooth	ʔnux	ʔnux	atay1247	abvd_1380_31
+tay	tongue	hmaliʔ	hmaliʔ	atay1247	abvd_1205_1
+tay	eat	maniq	maniq	atay1247	abvd_1336_2
+tay	drink	mnbuu	mnbuu	atay1247	abvd_1401_3
+tay	bite	kmat	kmat	atay1247	abvd_1403_1
+tay	ear	papak	papak	atay1247	abvd_1247_33
+tay	hear	muŋ	muŋ	atay1247	abvd_1408_3
+tay	eye	loziq	loziq	atay1247	abvd_1248_2
+tay	see	mitaʔ	mitaʔ	atay1247	abvd_1409_1
+tay	sleep	mʔabiʔ	mʔabiʔ	atay1247	abvd_1585_2
+tay	sit	matamaʔ	matamaʔ	atay1247	abvd_1416_2
+tay	stand	sʔurux	sʔurux	atay1247	abvd_1442_47
+tay	person	squliq	squliq	atay1247	abvd_683_2
+tay	mother	iaiaʔ	iaiaʔ	atay1247	abvd_1216_2
+tay	father	iabaʔ	iabaʔ	atay1247	abvd_1217_14
+tay	house	ŋasal	ŋasal	atay1247	abvd_1252_57
+tay	name	laluʔ	laluʔ	atay1247	abvd_1405_2
+tay	say	kmaial	kmaial	atay1247	abvd_1458_3
+tay	black	smaqis	smaqis	atay1247	abvd_1457_1
+tay	kill	phoqil	phoqil	atay1247	abvd_1417_3
+tay	old	mhutau	mhutau	atay1247	abvd_1280_2
+tay	dog	huzil	huzil	atay1247	abvd_2009_2
+tay	bird	qhniq	qhniq	atay1247	abvd_937_3
+tay	egg	baẓiŋ	baiŋ	atay1247	abvd_744_2
+tay	child	mlakaʔ	mlakaʔ	atay1247	abvd_1441_27
+tay	snake	mquʔ	mquʔ	atay1247	abvd_730_3
+tay	worm	kuiʔ	kuiʔ	atay1247	abvd_1219_2
+tay	fish	quleh	quleh	atay1247	abvd_227_57
+tay	leaf	abau	abau	atay1247	abvd_628_3
+tay	root	gamil	gamil	atay1247	abvd_670_21
+tay	fruit	buai	buai	atay1247	abvd_1507_1
+tay	earth	rhial	rhial	atay1247	abvd_1228_2
+tay	stone	btunux	btunux	atay1247	abvd_857_1
+tay	sand	bnaqii	bnaqii	atay1247	abvd_671_2
+tay	water	qsiaʔ	qsiaʔ	atay1247	abvd_948_3
+tay	sea	siluŋ	siluŋ	atay1247	abvd_1474_3
+tay	sky	kaial	kaial	atay1247	abvd_1732_2
+tay	moon	biaciŋ	biaciŋ	atay1247	abvd_1313_65
+tay	star	biŋah	biŋah	atay1247	abvd_1430_59
+tay	cloud	iuluŋ	iuluŋ	atay1247	abvd_1489_35
+tay	wind	bihui	bihui	atay1247	abvd_960_3
+tay	warm	hrhul	hrhul	atay1247	abvd_1232_2
+tay	fire	puniq	puniq	atay1247	abvd_221_1
+tay	smoke	hiloq	hiloq	atay1247	abvd_778_3
+tay	ash	qbuliʔ	qbuliʔ	atay1247	abvd_646_74
+tay	white	plqui	plqui	atay1247	abvd_1335_81
+tay	red	talah	talah	atay1247	abvd_156_2
+tay	green	tasiq	tasiq	atay1247	abvd_1425_62
+tay	small	cipoq	cipoq	atay1247	abvd_1246_11
+tay	big	hupaʔ	hupaʔ	atay1247	
+tay	long	qloiux	qloiux	atay1247	abvd_1203_74
+tay	new	geqas	geqas	atay1247	abvd_1231_41
+tay	night	biŋiʔ	biŋiʔ	atay1247	abvd_1233_1
+tay	breast	inuʔ	inuʔ	atay1247	abvd_1237_1
+tay	hair	sakuʔ	sakuʔ	atay1247	abvd_1209_1
+tay	one	qutux	qutux	atay1247	abvd_1493_2
+tay	two	saziŋ	saziŋ	atay1247	abvd_1498_2
+tay	three	ciugal	ciugal	atay1247	abvd_492_2
+rap	hand	rima	rima	rapa1244	abvd_1277_1
+rap	come	oho	oho	rapa1244	
+rap	swim	kau	kau	rapa1244	abvd_1439_5
+rap	skin	kiri	kiri	rapa1244	abvd_763_1
+rap	belly	kopu	kopu	rapa1244	abvd_1251_2
+rap	bone	ibi	ibi	rapa1244	abvd_1394_52
+rap	know	agi	agi	rapa1244	
+rap	blood	toto	toto	rapa1244	abvd_946_4
+rap	head	puoko	puoko	rapa1244	abvd_1256_10
+rap	neck	kaki	kaki	rapa1244	abvd_1333_20
+rap	nose	ihu	ihu	rapa1244	abvd_1221_1
+rap	mouth	haha	haha	rapa1244	abvd_674_1
+rap	tooth	niho	niho	rapa1244	abvd_1380_1
+rap	tongue	àrero	rero	rapa1244	abvd_1205_15
+rap	eat	kai	kai	rapa1244	abvd_1336_1
+rap	drink	unu	unu	rapa1244	abvd_1401_1
+rap	bite	gau	gau	rapa1244	abvd_1403_7
+rap	ear	tariŋa	tariŋa	rapa1244	abvd_1247_1
+rap	hear	garo'a	garoa	rapa1244	abvd_1408_1
+rap	eye	mata	mata	rapa1244	abvd_1248_1
+rap	see	tikea	tikea	rapa1244	abvd_1409_1
+rap	sleep	moe	moe	rapa1244	abvd_1585_10
+rap	sit	noho	noho	rapa1244	abvd_1416_16
+rap	stand	tu'u	tuu	rapa1244	abvd_1442_2
+rap	person	taŋata	taŋata	rapa1244	abvd_683_1
+rap	husband	kenu	kenu	rapa1244	
+rap	wife	vî'e	ve	rapa1244	abvd_1199_5
+rap	mother	matu'a	matua	rapa1244	abvd_1216_4
+rap	father	matu'a	matua	rapa1244	abvd_1217_9
+rap	house	hare	hare	rapa1244	abvd_1252_14
+rap	name	iŋoa	iŋoa	rapa1244	abvd_1405_6
+rap	say	kî	k	rapa1244	abvd_1458_43
+rap	black	tuitui	tuitui	rapa1244	abvd_1457_13
+rap	kill	tiga'i	tigai	rapa1244	abvd_1417_82
+rap	old	hiŋa	hiŋa	rapa1244	abvd_1280_44
+rap	dog	kuri	kuri	rapa1244	abvd_2009_7
+rap	bird	manu	manu	rapa1244	abvd_937_1
+rap	egg	toua	toua	rapa1244	abvd_744_7
+rap	child	rere	rere	rapa1244	abvd_1441_11
+rap	worm	koreha	koreha	rapa1244	abvd_1219_13
+rap	fish	ika	ika	rapa1244	abvd_227_1
+rap	leaf	rau	rau	rapa1244	abvd_628_1
+rap	root	aka	aka	rapa1244	abvd_670_2
+rap	fruit	kai	kai	rapa1244	
+rap	earth	repo	repo	rapa1244	abvd_1228_11
+rap	stone	maka	maka	rapa1244	abvd_857_4
+rap	sand	one	one	rapa1244	abvd_671_1
+rap	water	bai	bai	rapa1244	abvd_948_2
+rap	sea	moana	moana	rapa1244	abvd_1474_10
+rap	sky	raŋi	raŋi	rapa1244	abvd_1732_1
+rap	moon	mahina	mahina	rapa1244	abvd_1313_37
+rap	star	hetu'u	hetuu	rapa1244	abvd_1430_1
+rap	cloud	kohu	kohu	rapa1244	abvd_1489_14
+rap	wind	matagi	matagi	rapa1244	abvd_960_1
+rap	warm	hana	hana	rapa1244	abvd_1232_1
+rap	fire	afi	afi	rapa1244	abvd_221_1
+rap	smoke	àu	u	rapa1244	abvd_778_2
+rap	ash	éoéo	oo	rapa1244	abvd_646_1
+rap	white	teatea	teatea	rapa1244	abvd_1335_8
+rap	red	mea	mea	rapa1244	abvd_156_1
+rap	green	mata	mata	rapa1244	abvd_1425_1
+rap	small	iti	iti	rapa1244	abvd_1246_1
+rap	big	rahi	rahi	rapa1244	abvd_1202_12
+rap	long	roa	roa	rapa1244	abvd_1203_12
+rap	new	ho'ou	hoou	rapa1244	abvd_1231_1
+rap	night	poo	poo	rapa1244	abvd_1233_1
+rap	breast	hee	hee	rapa1244	abvd_1237_3
+rap	hair	au	au	rapa1244	abvd_1209_1
+rap	one	tahi	tahi	rapa1244	abvd_1493_41
+rap	two	rua	rua	rapa1244	abvd_1498_1
+rap	three	toru	toru	rapa1244	abvd_492_1
+tgl	hand	kamáy	kamy	taga1270	abvd_1277_13
+tgl	come	datíŋ	datŋ	taga1270	abvd_1446_14
+tgl	swim	lumangóy	lumangy	taga1270	abvd_1439_1
+tgl	skin	balát	balt	taga1270	abvd_763_21
+tgl	belly	tiyán	tiyn	taga1270	abvd_1251_1
+tgl	bone	butó	but	taga1270	abvd_1394_39
+tgl	know	alám	alm	taga1270	abvd_1410_58
+tgl	blood	dugóq	dugq	taga1270	abvd_946_16
+tgl	head	úlo	lo	taga1270	abvd_1256_1
+tgl	neck	liqíg	liqg	taga1270	abvd_1333_1
+tgl	nose	ilóŋ	ilŋ	taga1270	abvd_1221_1
+tgl	mouth	bibíg	bibg	taga1270	abvd_674_32
+tgl	tooth	ŋípin	ŋpin	taga1270	abvd_1380_1
+tgl	tongue	dílaq	dlaq	taga1270	abvd_1205_4
+tgl	eat	kumáin	kumin	taga1270	abvd_1336_1
+tgl	drink	uminóm	uminm	taga1270	abvd_1401_1
+tgl	bite	kagatín	kagatn	taga1270	abvd_1403_1
+tgl	ear	taqiŋa	taqiŋa	taga1270	abvd_1247_1
+tgl	hear	makiníg	making	taga1270	abvd_1408_1
+tgl	eye	matá	mat	taga1270	abvd_1248_1
+tgl	see	makíta	makta	taga1270	abvd_1409_1
+tgl	sleep	túlug	tlug	taga1270	abvd_1585_1
+tgl	sit	umupóq	umupq	taga1270	abvd_1416_46
+tgl	stand	tumindíg	tumindg	taga1270	abvd_1442_20
+tgl	person	ta:o	tao	taga1270	abvd_683_1
+tgl	husband	asáwaŋ laláki	aswaŋlalki	taga1270	abvd_1200_2
+tgl	wife	asáwaŋ babáqi	aswaŋbabqi	taga1270	abvd_1199_1
+tgl	mother	iná	in	taga1270	abvd_1216_1
+tgl	father	amá	am	taga1270	abvd_1217_1
+tgl	house	báhay	bhay	taga1270	abvd_1252_14
+tgl	name	paŋálan	paŋlan	taga1270	abvd_1405_1
+tgl	say	magsalitáq	magsalitq	taga1270	abvd_1458_34
+tgl	black	magtahiq	magtahiq	taga1270	abvd_1457_1
+tgl	kill	magpatáy	magpaty	taga1270	abvd_1417_2
+tgl	old	mahúlog	mahlog	taga1270	abvd_1280_29
+tgl	dog	áso	so	taga1270	abvd_2009_1
+tgl	bird	ībon	bon	taga1270	abvd_937_73
+tgl	egg	itlóg	itlg	taga1270	abvd_744_1
+tgl	child	lumipád	lumipd	taga1270	abvd_1441_21
+tgl	snake	áhas	has	taga1270	abvd_730_31
+tgl	worm	uqód	uqd	taga1270	abvd_1219_21
+tgl	fish	isdáq	isdq	taga1270	abvd_227_18
+tgl	leaf	dáhon	dhon	taga1270	abvd_628_1
+tgl	root	ugát	ugt	taga1270	abvd_670_1
+tgl	fruit	buŋá	buŋ	taga1270	abvd_1507_9
+tgl	earth	lúpaq	lpaq	taga1270	abvd_1228_25
+tgl	stone	batú	bat	taga1270	abvd_857_1
+tgl	sand	pásig	psig	taga1270	abvd_671_18
+tgl	water	túbig	tbig	taga1270	abvd_948_14
+tgl	sea	láud	lud	taga1270	abvd_1474_6
+tgl	sky	láŋit	lŋit	taga1270	abvd_1732_1
+tgl	moon	buwán	buwn	taga1270	abvd_1313_1
+tgl	star	bituqín	bituqn	taga1270	abvd_1430_1
+tgl	cloud	úlap	lap	taga1270	abvd_1489_57
+tgl	wind	háŋiŋ	hŋiŋ	taga1270	abvd_960_1
+tgl	warm	maqínit	maqnit	taga1270	abvd_1232_23
+tgl	fire	apóy	apy	taga1270	abvd_221_1
+tgl	smoke	humithít	humitht	taga1270	
+tgl	ash	abú	ab	taga1270	abvd_646_1
+tgl	white	putiq	putiq	taga1270	abvd_1335_1
+tgl	red	pulá	pul	taga1270	abvd_156_28
+tgl	green	luntian	luntian	taga1270	abvd_1425_89
+tgl	small	maliqít	maliqt	taga1270	abvd_1246_66
+tgl	big	malakí	malak	taga1270	abvd_1202_35
+tgl	long	mahábaq	mahbaq	taga1270	abvd_1203_27
+tgl	new	bágo	bgo	taga1270	abvd_1231_1
+tgl	night	gabí	gab	taga1270	abvd_1233_21
+tgl	breast	saqán	saqn	taga1270	abvd_1237_1
+tgl	hair	akó	ak	taga1270	abvd_1209_1
+tgl	one	isá	is	taga1270	abvd_1493_1
+tgl	two	dalawá	dalaw	taga1270	abvd_1498_1
+tgl	three	tatló	tatl	taga1270	abvd_492_1
+sun	hand	leuŋeun	leuŋeun	sund1252	abvd_1277_19
+sun	come	datang	datang	sund1252	abvd_1446_14
+sun	swim	ngojay	ngojay	sund1252	abvd_1439_1
+sun	skin	kulit	kulit	sund1252	abvd_763_1
+sun	belly	beuteung	beuteung	sund1252	abvd_1251_29
+sun	bone	tulang	tulang	sund1252	abvd_1394_1
+sun	know	nyaho	nyaho	sund1252	abvd_1410_1
+sun	blood	getih	getih	sund1252	abvd_946_18
+sun	head	sirah	sirah	sund1252	abvd_1256_31
+sun	neck	beuheung	beuheung	sund1252	
+sun	nose	irung	irung	sund1252	abvd_1221_1
+sun	mouth	sungut	sungut	sund1252	
+sun	tooth	huntu	huntu	sund1252	abvd_1380_18
+sun	tongue	letah	letah	sund1252	abvd_1205_4
+sun	eat	dahar	dahar	sund1252	abvd_1336_11
+sun	drink	nginum	nginum	sund1252	abvd_1401_1
+sun	bite	ngegel	ngegel	sund1252	
+sun	ear	ceuli	ceuli	sund1252	abvd_1247_12
+sun	hear	ngadenge	ngadenge	sund1252	abvd_1408_1
+sun	eye	panon	panon	sund1252	
+sun	see	nenjo	nenjo	sund1252	abvd_1409_36
+sun	sleep	sáre	sre	sund1252	abvd_1585_26
+sun	sit	diuk	diuk	sund1252	abvd_1416_35
+sun	stand	nangtung	nangtung	sund1252	
+sun	person	jelema	jelema	sund1252	abvd_683_16
+sun	husband	salaki	salaki	sund1252	abvd_1200_28
+sun	wife	pamajikan	pamajikan	sund1252	
+sun	mother	indung	indung	sund1252	abvd_1216_10
+sun	father	bapa	bapa	sund1252	abvd_1217_5
+sun	house	imah	imah	sund1252	abvd_1252_1
+sun	name	ngaran	ngaran	sund1252	abvd_1405_1
+sun	say	ngomong	ngomong	sund1252	abvd_1458_25
+sun	black	ngaput	ngaput	sund1252	
+sun	kill	maehan	maehan	sund1252	
+sun	old	ragrag	ragrag	sund1252	
+sun	dog	anjing	anjing	sund1252	abvd_2009_27
+sun	bird	manuk	manuk	sund1252	abvd_937_1
+sun	egg	endog	endog	sund1252	abvd_744_20
+sun	child	hiber	hiber	sund1252	abvd_1441_34
+sun	snake	oray	oray	sund1252	abvd_730_2
+sun	worm	caciŋ	caciŋ	sund1252	abvd_1219_23
+sun	fish	lauk	lauk	sund1252	abvd_227_14
+sun	leaf	daun	daun	sund1252	abvd_628_1
+sun	root	akar	akar	sund1252	abvd_670_2
+sun	fruit	bubuahan	bubuahan	sund1252	abvd_1507_1
+sun	earth	taneuh	taneuh	sund1252	abvd_1228_1
+sun	stone	batu	batu	sund1252	abvd_857_1
+sun	sand	keusik	keusik	sund1252	abvd_671_24
+sun	water	cai	cai	sund1252	abvd_948_2
+sun	sea	laut	laut	sund1252	abvd_1474_6
+sun	sky	langit	langit	sund1252	abvd_1732_1
+sun	moon	bulan	bulan	sund1252	abvd_1313_1
+sun	star	bentang	bentang	sund1252	abvd_1430_1
+sun	cloud	mega	mega	sund1252	abvd_1489_113
+sun	wind	angin	angin	sund1252	abvd_960_1
+sun	warm	panas	panas	sund1252	abvd_1232_1
+sun	fire	seuneu	seuneu	sund1252	
+sun	smoke	haseup	haseup	sund1252	abvd_778_49
+sun	ash	lebu	lebu	sund1252	abvd_646_1?
+sun	white	bodas	bodas	sund1252	
+sun	red	beureum	beureum	sund1252	
+sun	green	hejo	hejo	sund1252	abvd_1425_25
+sun	small	leutik	leutik	sund1252	
+sun	big	gede	gede	sund1252	abvd_1202_27
+sun	long	panjang	panjang	sund1252	abvd_1203_24
+sun	new	anyar	anyar	sund1252	abvd_1231_16
+sun	night	peuting	peuting	sund1252	abvd_1233_47
+sun	breast	dimana	dimana	sund1252	abvd_1237_20
+sun	hair	kuring	kuring	sund1252	
+sun	one	hiji	hiji	sund1252	
+sun	two	dua	dua	sund1252	abvd_1498_1
+sun	three	tilu	tilu	sund1252	abvd_492_1
+ilo	hand	ima	ima	ilok1237	abvd_1277_1
+ilo	come	umay	umay	ilok1237	abvd_1446_1
+ilo	swim	ag-langoy	aglangoy	ilok1237	abvd_1439_1
+ilo	skin	kudil	kudil	ilok1237	abvd_763_1
+ilo	belly	tian	tian	ilok1237	abvd_1251_1
+ilo	bone	tulang	tulang	ilok1237	abvd_1394_1
+ilo	know	ammo	ammo	ilok1237	abvd_1410_25
+ilo	blood	dara	dara	ilok1237	abvd_946_1
+ilo	head	ulo	ulo	ilok1237	abvd_1256_1
+ilo	neck	tengnged	tengnged	ilok1237	abvd_1333_72
+ilo	nose	agong	agong	ilok1237	abvd_1221_1
+ilo	mouth	bibig	bibig	ilok1237	abvd_674_32
+ilo	tooth	ngipen	ngipen	ilok1237	abvd_1380_1
+ilo	tongue	dila	dila	ilok1237	abvd_1205_4
+ilo	eat	mangan	mangan	ilok1237	abvd_1336_1
+ilo	drink	um-inom	uminom	ilok1237	abvd_1401_1
+ilo	bite	ag-kagat	agkagat	ilok1237	abvd_1403_1
+ilo	ear	lapayag	lapayag	ilok1237	abvd_1247_17
+ilo	hear	ag-dengngeg	agdengngeg	ilok1237	abvd_1408_1
+ilo	eye	mata	mata	ilok1237	abvd_1248_1
+ilo	see	k-um-ita	kumita	ilok1237	abvd_1409_1
+ilo	sleep	ma-turog	maturog	ilok1237	abvd_1585_1
+ilo	sit	ag-tugaw	agtugaw	ilok1237	abvd_1416_50
+ilo	stand	ag-takder	agtakder	ilok1237	abvd_1442_85
+ilo	person	tao	tao	ilok1237	abvd_683_1
+ilo	husband	asawa	asawa	ilok1237	abvd_1200_2
+ilo	wife	asawa	asawa	ilok1237	abvd_1199_1
+ilo	mother	ina	ina	ilok1237	abvd_1216_1
+ilo	father	ama	ama	ilok1237	abvd_1217_1
+ilo	house	balay	balay	ilok1237	abvd_1252_14
+ilo	name	nagan	nagan	ilok1237	abvd_1405_1
+ilo	say	ag-kuna	agkuna	ilok1237	
+ilo	black	ag-dait	agdait	ilok1237	abvd_1457_2
+ilo	kill	mang-patay	mangpatay	ilok1237	abvd_1417_2
+ilo	old	ag-tinnag	agtinnag	ilok1237	
+ilo	dog	aso	aso	ilok1237	abvd_2009_1
+ilo	bird	billit	billit	ilok1237	
+ilo	egg	iklog	iklog	ilok1237	abvd_744_1
+ilo	child	ag-tayab	agtayab	ilok1237	abvd_1441_83
+ilo	snake	uleg	uleg	ilok1237	abvd_730_2
+ilo	worm	igges	igges	ilok1237	abvd_1219_76
+ilo	fish	ikan	ikan	ilok1237	abvd_227_1
+ilo	leaf	bulong	bulong	ilok1237	abvd_628_18
+ilo	root	ramut	ramut	ilok1237	abvd_670_3
+ilo	fruit	bunga	bunga	ilok1237	abvd_1507_9
+ilo	earth	daga	daga	ilok1237	abvd_1228_24
+ilo	stone	bato	bato	ilok1237	abvd_857_1
+ilo	sand	darat	darat	ilok1237	abvd_671_36
+ilo	water	danum	danum	ilok1237	abvd_948_1
+ilo	sea	taaw	taaw	ilok1237	abvd_1474_27
+ilo	sky	langit	langit	ilok1237	abvd_1732_1
+ilo	moon	bulan	bulan	ilok1237	abvd_1313_1
+ilo	star	bituen	bituen	ilok1237	abvd_1430_1
+ilo	cloud	ulep	ulep	ilok1237	abvd_1489_57
+ilo	wind	angin	angin	ilok1237	abvd_960_1
+ilo	warm	na-pudot	napudot	ilok1237	abvd_1232_25
+ilo	fire	apoy	apoy	ilok1237	abvd_221_1
+ilo	smoke	asok	asok	ilok1237	abvd_778_2
+ilo	ash	dapo	dapo	ilok1237	abvd_646_17
+ilo	white	puraw	puraw	ilok1237	abvd_1335_3
+ilo	red	na-labaga	nalabaga	ilok1237	abvd_156_29
+ilo	green	na-ata	naata	ilok1237	abvd_1425_1
+ilo	small	bassit	bassit	ilok1237	
+ilo	big	dakkel	dakkel	ilok1237	abvd_1202_22
+ilo	long	a-tiddog	atiddog	ilok1237	abvd_1203_42
+ilo	new	baro	baro	ilok1237	abvd_1231_1
+ilo	night	rabii	rabii	ilok1237	abvd_1233_21
+ilo	breast	sa-dinno	sadinno	ilok1237	abvd_1237_1
+ilo	hair	si-ak	siak	ilok1237	abvd_1209_1
+ilo	one	maysa	maysa	ilok1237	abvd_1493_1
+ilo	two	dua	dua	ilok1237	abvd_1498_1
+ilo	three	tallo	tallo	ilok1237	abvd_492_1
+gil	hand	bái	bi	gilb1244	abvd_1277_8
+gil	come	ke	ke	gilb1244	abvd_1446_16
+gil	swim	uáua	uua	gilb1244	
+gil	skin	kun	kun	gilb1244	abvd_763_1
+gil	belly	bíroto	broto	gilb1244	
+gil	bone	ri	ri	gilb1244	abvd_1394_2
+gil	know	atá	at	gilb1244	abvd_1410_35
+gil	blood	rara	rara	gilb1244	abvd_946_1
+gil	head	átu	tu	gilb1244	abvd_1256_9
+gil	neck	roróa	rora	gilb1244	
+gil	nose	b'áiri	biri	gilb1244	abvd_1221_1
+gil	mouth	wi	wi	gilb1244	
+gil	tooth	wi	wi	gilb1244	abvd_1380_54
+gil	tongue	néwe	nwe	gilb1244	abvd_1205_17
+gil	eat	kang	kang	gilb1244	abvd_1336_1
+gil	drink	nima	nima	gilb1244	abvd_1401_1
+gil	bite	ténaa	tnaa	gilb1244	
+gil	ear	taninga	taninga	gilb1244	abvd_1247_1
+gil	hear	óngo	ngo	gilb1244	abvd_1408_1
+gil	eye	mata	mata	gilb1244	abvd_1248_1
+gil	see	nóra	nra	gilb1244	
+gil	sleep	matu	matu	gilb1244	abvd_1585_1
+gil	sit	tékateka	tkateka	gilb1244	
+gil	stand	teirake	teirake	gilb1244	
+gil	person	aomata	aomata	gilb1244	abvd_683_67
+gil	husband	bu	bu	gilb1244	abvd_1200_16
+gil	wife	bu	bu	gilb1244	abvd_1199_10
+gil	mother	tína	tna	gilb1244	abvd_1216_1
+gil	father	táma	tma	gilb1244	abvd_1217_1
+gil	house	áuti	uti	gilb1244	
+gil	name	ara	ara	gilb1244	abvd_1405_1
+gil	say	atónga	atnga	gilb1244	
+gil	black	itutu	itutu	gilb1244	abvd_1457_17
+gil	kill	márua	mrua	gilb1244	
+gil	old	b'áka	bka	gilb1244	
+gil	dog	kíri	kri	gilb1244	abvd_2009_7
+gil	bird	man	man	gilb1244	abvd_937_1
+gil	egg	bunatoi	bunatoi	gilb1244	abvd_744_80
+gil	child	kíba	kba	gilb1244	
+gil	snake	náeta	neta	gilb1244	
+gil	worm	íbo	bo	gilb1244	abvd_1219_35
+gil	fish	íka	ka	gilb1244	abvd_227_1
+gil	leaf	ba	ba	gilb1244	
+gil	root	wákaa	wkaa	gilb1244	abvd_670_2
+gil	fruit	uaa	uaa	gilb1244	abvd_1507_1
+gil	earth	tano	tano	gilb1244	abvd_1228_1
+gil	stone	ati	ati	gilb1244	abvd_857_1
+gil	sand	bíke	bke	gilb1244	abvd_671_13
+gil	water	ran	ran	gilb1244	abvd_948_1
+gil	sea	tari	tari	gilb1244	abvd_1474_1
+gil	sky	kárawa	krawa	gilb1244	
+gil	moon	namakáina	namakina	gilb1244	
+gil	star	ítoi	toi	gilb1244	abvd_1430_1
+gil	cloud	nang	nang	gilb1244	abvd_1489_37
+gil	wind	ang	ang	gilb1244	abvd_960_1
+gil	warm	kabue	kabue	gilb1244	
+gil	fire	ái	i	gilb1244	abvd_221_1
+gil	smoke	búbu	bbu	gilb1244	
+gil	ash	mannang	mannang	gilb1244	
+gil	white	mái	mi	gilb1244	abvd_1335_106
+gil	red	uráura	urura	gilb1244	
+gil	green	mawáwa	mawwa	gilb1244	abvd_1425_13
+gil	small	kárako	krako	gilb1244	abvd_1246_118
+gil	big	búbura	bbura	gilb1244	
+gil	long	anáu	anu	gilb1244	abvd_1203_13
+gil	new	bou	bou	gilb1244	abvd_1231_1
+gil	night	bong	bong	gilb1244	abvd_1233_1
+gil	breast	ia	ia	gilb1244	abvd_1237_3
+gil	hair	ngái	ngi	gilb1244	abvd_1209_12
+gil	one	teuána	teuna	gilb1244	abvd_1493_14
+gil	two	uóua	uua	gilb1244	abvd_1498_1
+gil	three	tenúa	tena	gilb1244	abvd_492_1
+chk	swim	tukken	tukken	chuu1238	
+chk	wife	pʷúnú-wa-	pnwa	chuu1238	abvd_1199_10
+chk	snake	serepenit	serepenit	chuu1238	
+ami	hand	kamay	kamay	amis1246	abvd_1277_13
+ami	come	tayni	tayni	amis1246	abvd_1446_34
+ami	swim	Languy	languy	amis1246	abvd_1439_1
+ami	skin	faŋes	faŋes	amis1246	abvd_763_26
+ami	belly	tiaL	tial	amis1246	abvd_1251_1
+ami	bone	ukak	ukak	amis1246	abvd_1394_19
+ami	know	ma-fanaq	mafanaq	amis1246	abvd_1410_2
+ami	blood	remes	remes	amis1246	abvd_946_44
+ami	head	tangar	tangar	amis1246	abvd_1256_37
+ami	neck	liqer	liqer	amis1246	abvd_1333_1
+ami	nose	ngusuq	ngusuq	amis1246	abvd_1221_27
+ami	mouth	nguyus	nguyus	amis1246	abvd_674_65
+ami	tooth	waLis	walis	amis1246	abvd_1380_2
+ami	tongue	sema	sema	amis1246	abvd_1205_1
+ami	eat	kaqen	kaqen	amis1246	abvd_1336_1
+ami	drink	helot	helot	amis1246	
+ami	bite	mi-karat	mikarat	amis1246	abvd_1403_1
+ami	ear	taŋila	taŋila	amis1246	abvd_1247_1
+ami	hear	mi-teŋir	miteŋir	amis1246	abvd_1408_46
+ami	eye	mata	mata	amis1246	abvd_1248_1
+ami	see	ma-araw	maaraw	amis1246	abvd_1409_72
+ami	sleep	futiq	futiq	amis1246	abvd_1585_73
+ami	sit	maruq	maruq	amis1246	abvd_1416_89
+ami	stand	t-um-ireng	tumireng	amis1246	abvd_1442_50
+ami	person	tamLaw	tamlaw	amis1246	
+ami	husband	faʔinay	faʔinay	amis1246	
+ami	wife	fafahi	fafahi	amis1246	
+ami	mother	ina	ina	amis1246	abvd_1216_1
+ami	father	mama	mama	amis1246	abvd_1217_1
+ami	house	lumaq	lumaq	amis1246	abvd_1252_1
+ami	name	ŋaŋan	ŋaŋan	amis1246	abvd_1405_1
+ami	say	cinglaw	cinglaw	amis1246	
+ami	black	mi-tapir	mitapir	amis1246	abvd_1457_1
+ami	kill	tapaʔ	tapaʔ	amis1246	
+ami	old	ma-terak	materak	amis1246	
+ami	dog	wacu	wacu	amis1246	abvd_2009_1
+ami	bird	tupi	tupi	amis1246	
+ami	egg	fitaqul	fitaqul	amis1246	abvd_744_50
+ami	child	mafer	mafer	amis1246	abvd_1441_64
+ami	snake	uner	uner	amis1246	abvd_730_56
+ami	worm	atikak	atikak	amis1246	abvd_1219_54
+ami	fish	futiŋ	futiŋ	amis1246	abvd_227_29
+ami	leaf	papah	papah	amis1246	abvd_628_27
+ami	root	lamit	lamit	amis1246	abvd_670_3
+ami	earth	serah	serah	amis1246	abvd_1228_48
+ami	stone	fakeluh	fakeluh	amis1246	abvd_857_36
+ami	sand	tafuk	tafuk	amis1246	abvd_671_3
+ami	water	nanum	nanum	amis1246	abvd_948_1
+ami	sea	riar	riar	amis1246	abvd_1474_56
+ami	sky	kakarayan	kakarayan	amis1246	abvd_1732_2
+ami	moon	fulaL	fulal	amis1246	abvd_1313_1
+ami	star	fuqis	fuqis	amis1246	abvd_1430_49
+ami	cloud	LuLem	lulem	amis1246	abvd_1489_35
+ami	wind	fari	fari	amis1246	abvd_960_2
+ami	fire	namar	namar	amis1246	abvd_221_14
+ami	smoke	ʔacifer	ʔacifer	amis1246	abvd_778_1
+ami	ash	lafuh	lafuh	amis1246	abvd_646_67
+ami	white	fuhecel-ay	fuhecelay	amis1246	abvd_1335_37?
+ami	red	kahengang-ay	kahengangay	amis1246	abvd_156_77
+ami	green	kangraw-ay	kangraway	amis1246	abvd_1425_22
+ami	small	kiqkiq	kiqkiq	amis1246	abvd_1246_78
+ami	big	angay	angay	amis1246	abvd_1202_70
+ami	long	ma-mutuq	mamutuq	amis1246	abvd_1203_1?
+ami	new	faqluh	faqluh	amis1246	abvd_1231_1
+ami	night	taLaya	talaya	amis1246	
+ami	breast	i-cua	icua	amis1246	abvd_1237_23
+ami	hair	aku	aku	amis1246	abvd_1209_1
+ami	one	cecai	cecai	amis1246	abvd_1493_1
+ami	two	tusa	tusa	amis1246	abvd_1498_1
+ami	three	tulu	tulu	amis1246	abvd_492_1
+tet	hand	liman	liman	tetu1245	abvd_1277_1
+tet	come	mai	mai	tetu1245	abvd_1446_1
+tet	swim	nani	nani	tetu1245	abvd_1439_1
+tet	skin	kulit	kulit	tetu1245	abvd_763_1
+tet	belly	kabun	kabun	tetu1245	abvd_1251_2
+tet	bone	ruin	ruin	tetu1245	abvd_1394_2
+tet	know	hatene	hatene	tetu1245	abvd_1410_35
+tet	blood	raan	raan	tetu1245	abvd_946_1
+tet	head	ulun	ulun	tetu1245	abvd_1256_1
+tet	neck	kakorok	kakorok	tetu1245	abvd_1333_12
+tet	nose	inur	inur	tetu1245	abvd_1221_1
+tet	mouth	ibun	ibun	tetu1245	abvd_674_39
+tet	tooth	ne'an	nean	tetu1245	abvd_1380_1
+tet	tongue	nanaan	nanaan	tetu1245	abvd_1205_6
+tet	eat	haa	haa	tetu1245	abvd_1336_1
+tet	drink	hemu	hemu	tetu1245	abvd_1401_1
+tet	bite	tata	tata	tetu1245	
+tet	ear	tilun	tilun	tetu1245	abvd_1247_1
+tet	hear	rona	rona	tetu1245	abvd_1408_1
+tet	eye	matan	matan	tetu1245	abvd_1248_1
+tet	see	haree	haree	tetu1245	abvd_1409_30
+tet	sleep	toba	toba	tetu1245	abvd_1585_43
+tet	sit	tuur	tuur	tetu1245	abvd_1416_15
+tet	stand	hariik	hariik	tetu1245	abvd_1442_33
+tet	person	ema	ema	tetu1245	abvd_683_81
+tet	husband	la'en	laen	tetu1245	abvd_1200_9
+tet	wife	feen	feen	tetu1245	abvd_1199_31
+tet	mother	ina	ina	tetu1245	abvd_1216_1
+tet	father	ama	ama	tetu1245	abvd_1217_1
+tet	house	uma	uma	tetu1245	abvd_1252_1
+tet	name	naran	naran	tetu1245	abvd_1405_1
+tet	say	ha'ak	haak	tetu1245	abvd_1458_151
+tet	black	lita	lita	tetu1245	abvd_1457_44
+tet	kill	ho'o	hoo	tetu1245	
+tet	old	monu	monu	tetu1245	abvd_1280_1
+tet	dog	asu	asu	tetu1245	abvd_2009_1
+tet	bird	manu	manu	tetu1245	abvd_937_1
+tet	egg	tolun	tolun	tetu1245	abvd_744_1
+tet	child	semo	semo	tetu1245	abvd_1441_42
+tet	snake	samea	samea	tetu1245	abvd_730_40
+tet	worm	latik	latik	tetu1245	abvd_1219_1
+tet	fish	ikan	ikan	tetu1245	abvd_227_1
+tet	leaf	tahan	tahan	tetu1245	abvd_628_7
+tet	root	abut	abut	tetu1245	abvd_670_3
+tet	fruit	fuan	fuan	tetu1245	abvd_1507_1
+tet	earth	rai	rai	tetu1245	abvd_1228_4
+tet	stone	fatuk	fatuk	tetu1245	abvd_857_1
+tet	sand	raihenek	raihenek	tetu1245	abvd_671_48
+tet	water	wee	wee	tetu1245	abvd_948_2
+tet	sea	tasi	tasi	tetu1245	abvd_1474_1
+tet	sky	lale'an	lalean	tetu1245	abvd_1732_10?
+tet	moon	fulan	fulan	tetu1245	abvd_1313_1
+tet	star	kfitun	kfitun	tetu1245	abvd_1430_30
+tet	cloud	kalo'an	kaloan	tetu1245	
+tet	wind	anin	anin	tetu1245	abvd_960_1
+tet	warm	manas	manas	tetu1245	abvd_1232_1
+tet	fire	ha'i	hai	tetu1245	
+tet	smoke	dubun	dubun	tetu1245	abvd_778_36
+tet	ash	ahu	ahu	tetu1245	abvd_646_1
+tet	white	mutin	mutin	tetu1245	abvd_1335_1
+tet	red	mean	mean	tetu1245	abvd_156_1
+tet	green	matak	matak	tetu1245	abvd_1425_1
+tet	small	ki'ik	kiik	tetu1245	abvd_1246_121
+tet	big	boot	boot	tetu1245	
+tet	long	naruk	naruk	tetu1245	abvd_1203_1
+tet	new	foun	foun	tetu1245	abvd_1231_1
+tet	night	kalan	kalan	tetu1245	abvd_1233_20
+tet	breast	iha ne'i be	ihaneibe	tetu1245	
+tet	hair	ha'u	hau	tetu1245	abvd_1209_1
+tet	one	ida	ida	tetu1245	abvd_1493_1
+tet	two	rua	rua	tetu1245	abvd_1498_1
+tet	three	tolu	tolu	tetu1245	abvd_492_1
+pag	hand	lima	lima	pang1290	abvd_1277_1
+pag	come	laka	laka	pang1290	
+pag	swim	langoy	langoy	pang1290	abvd_1439_1
+pag	skin	balat	balat	pang1290	abvd_763_21
+pag	belly	eges	eges	pang1290	abvd_1251_53
+pag	bone	pokel	pokel	pang1290	abvd_1394_35
+pag	know	amta	amta	pang1290	abvd_1410_25
+pag	blood	dala	dala	pang1290	abvd_946_1
+pag	head	ulo	ulo	pang1290	abvd_1256_1
+pag	neck	beklew	beklew	pang1290	abvd_1333_75
+pag	nose	eleng	eleng	pang1290	abvd_1221_85
+pag	mouth	sangi	sangi	pang1290	abvd_674_91
+pag	tooth	ngipen	ngipen	pang1290	abvd_1380_1
+pag	tongue	dila	dila	pang1290	abvd_1205_4
+pag	eat	mangan	mangan	pang1290	abvd_1336_1
+pag	drink	inom	inom	pang1290	abvd_1401_1
+pag	bite	quetquet	quetquet	pang1290	abvd_1403_21
+pag	ear	layag	layag	pang1290	abvd_1247_17
+pag	hear	denguel	denguel	pang1290	abvd_1408_1
+pag	eye	mata	mata	pang1290	abvd_1248_1
+pag	see	nengneng	nengneng	pang1290	
+pag	sleep	ogep	ogep	pang1290	abvd_1585_33
+pag	sit	irong	irong	pang1290	abvd_1416_55
+pag	stand	laguey	laguey	pang1290	abvd_1442_31
+pag	person	too	too	pang1290	abvd_683_1
+pag	husband	asawa	asawa	pang1290	abvd_1200_2
+pag	wife	asawa	asawa	pang1290	abvd_1199_1
+pag	mother	ina	ina	pang1290	abvd_1216_1
+pag	father	ama	ama	pang1290	abvd_1217_1
+pag	house	abong	abong	pang1290	abvd_1252_16
+pag	name	ngaran	ngaran	pang1290	abvd_1405_1
+pag	say	baga	baga	pang1290	abvd_1458_22
+pag	black	dait	dait	pang1290	abvd_1457_2
+pag	kill	manpatey	manpatey	pang1290	abvd_1417_2
+pag	old	pelag	pelag	pang1290	abvd_1280_52
+pag	dog	aso	aso	pang1290	abvd_2009_1
+pag	bird	manok	manok	pang1290	abvd_937_1
+pag	egg	itnol	itnol	pang1290	abvd_744_1
+pag	child	tikyab	tikyab	pang1290	
+pag	snake	uleg	uleg	pang1290	abvd_730_2
+pag	worm	alumbayar	alumbayar	pang1290	
+pag	fish	sira	sira	pang1290	abvd_227_18
+pag	leaf	bulong	bulong	pang1290	abvd_628_18
+pag	root	ulat	ulat	pang1290	abvd_670_1
+pag	fruit	prutas	prutas	pang1290	abvd_1507_9
+pag	earth	dalin	dalin	pang1290	abvd_1228_24
+pag	stone	bato	bato	pang1290	abvd_857_1
+pag	sand	buer	buer	pang1290	abvd_671_40
+pag	water	danom	danom	pang1290	abvd_948_1
+pag	sea	dayat	dayat	pang1290	abvd_1474_25
+pag	sky	tawen	tawen	pang1290	abvd_1732_23
+pag	moon	bulan	bulan	pang1290	abvd_1313_1
+pag	star	biteuen	biteuen	pang1290	abvd_1430_1
+pag	cloud	lurem	lurem	pang1290	
+pag	wind	dagem	dagem	pang1290	abvd_960_40
+pag	warm	ampetang	ampetang	pang1290	abvd_1232_39
+pag	fire	po-ol	pool	pang1290	
+pag	smoke	ashoot	ashoot	pang1290	
+pag	ash	dapul	dapul	pang1290	abvd_646_17
+pag	white	amputi	amputi	pang1290	abvd_1335_1
+pag	red	ambalanga	ambalanga	pang1290	abvd_156_42
+pag	green	maeta	maeta	pang1290	abvd_1425_1
+pag	small	melag	melag	pang1290	
+pag	big	baleg	baleg	pang1290	abvd_1202_92
+pag	long	anduquey	anduquey	pang1290	abvd_1203_1
+pag	new	balo	balo	pang1290	abvd_1231_1
+pag	night	labi	labi	pang1290	abvd_1233_21
+pag	breast	iner	iner	pang1290	abvd_1237_1
+pag	hair	siak	siak	pang1290	abvd_1209_1
+pag	one	sakey	sakey	pang1290	abvd_1493_8
+pag	two	duara	duara	pang1290	abvd_1498_1
+pag	three	talura	talura	pang1290	abvd_492_1
+hil	old	hulog	hulog	hili1240	abvd_1280_29
+hil	worm	ulod	ulod	hili1240	abvd_1219_21
+hil	leaf	dahon	dahon	hili1240	abvd_628_1
+hil	root	gingikanan	gingikanan	hili1240	
+hil	fruit	bungángkahoy	bungngkahoy	hili1240	abvd_1507_9
+hil	earth	kalibutan	kalibutan	hili1240	abvd_1228_49
+hil	stone	bató	bat	hili1240	abvd_857_1
+hil	water	tubig	tubig	hili1240	abvd_948_14
+hil	sea	dagat	dagat	hili1240	abvd_1474_25
+hil	sky	langit	langit	hili1240	abvd_1732_1
+hil	star	bituon	bituon	hili1240	abvd_1430_1
+hil	wind	hangin	hangin	hili1240	abvd_960_1
+hil	warm	maalabaab	maalabaab	hili1240	abvd_1232_101
+hil	smoke	asó	as	hili1240	abvd_778_2
+hil	ash	abó	ab	hili1240	abvd_646_1
+hil	white	maputî	maput	hili1240	abvd_1335_1
+hil	red	pula	pula	hili1240	abvd_156_28
+hil	green	lunhaw	lunhaw	hili1240	abvd_1425_33
+hil	small	gamay	gamay	hili1240	abvd_1246_29
+hil	big	dakó	dak	hili1240	abvd_1202_22
+hil	long	kadugayón	kadugayn	hili1240	abvd_1203_110
+hil	new	bag-o	bago	hili1240	abvd_1231_1
+hil	breast	diín	din	hili1240	abvd_1237_1
+hil	hair	ako	ako	hili1240	abvd_1209_1
+hil	three	tatlo	tatlo	hili1240	abvd_492_1
+zsm	hand	tangan	tangan	stan1306	abvd_1277_18
+zsm	come	mari	mari	stan1306	abvd_1446_1
+zsm	swim	berenang	berenang	stan1306	abvd_1439_23
+zsm	skin	kulit	kulit	stan1306	abvd_763_1
+zsm	belly	perut	perut	stan1306	abvd_1251_32
+zsm	bone	tulang	tulang	stan1306	abvd_1394_1
+zsm	know	tahu	tahu	stan1306	abvd_1410_1
+zsm	blood	darah	darah	stan1306	abvd_946_1
+zsm	head	kepala	kepala	stan1306	abvd_1256_45
+zsm	neck	leher	leher	stan1306	abvd_1333_1
+zsm	nose	hidung	hidung	stan1306	abvd_1221_1
+zsm	mouth	mulut	mulut	stan1306	abvd_674_27
+zsm	tooth	gigi	gigi	stan1306	abvd_1380_17
+zsm	tongue	lidah	lidah	stan1306	abvd_1205_4
+zsm	eat	makan	makan	stan1306	abvd_1336_1
+zsm	drink	minum	minum	stan1306	abvd_1401_1
+zsm	bite	gigit	gigit	stan1306	abvd_1403_21
+zsm	ear	telinga	telinga	stan1306	abvd_1247_1
+zsm	hear	mendengar	mendengar	stan1306	abvd_1408_1
+zsm	eye	mata	mata	stan1306	abvd_1248_1
+zsm	see	tengok	tengok	stan1306	abvd_1409_50
+zsm	sleep	tidur	tidur	stan1306	abvd_1585_1
+zsm	sit	duduk	duduk	stan1306	abvd_1416_35
+zsm	stand	berdiri	berdiri	stan1306	abvd_1442_1
+zsm	person	orang	orang	stan1306	abvd_683_20
+zsm	husband	suami	suami	stan1306	abvd_1200_42
+zsm	wife	isteri	isteri	stan1306	abvd_1199_33
+zsm	mother	ibu	ibu	stan1306	abvd_1216_12
+zsm	father	ayah	ayah	stan1306	abvd_1217_22
+zsm	house	rumah	rumah	stan1306	abvd_1252_1
+zsm	name	nama	nama	stan1306	abvd_1405_12
+zsm	say	cakap	cakap	stan1306	
+zsm	black	menjahit	menjahit	stan1306	abvd_1457_2
+zsm	kill	membunuh	membunuh	stan1306	abvd_1417_1
+zsm	old	jatuh	jatuh	stan1306	abvd_1280_38
+zsm	dog	anjing	anjing	stan1306	abvd_2009_27
+zsm	bird	burung	burung	stan1306	abvd_937_17
+zsm	egg	telur	telur	stan1306	abvd_744_1
+zsm	child	terbang	terbang	stan1306	abvd_1441_18
+zsm	snake	ular	ular	stan1306	abvd_730_2
+zsm	worm	ulat	ulat	stan1306	abvd_1219_36
+zsm	fish	ikan	ikan	stan1306	abvd_227_1
+zsm	leaf	daun	daun	stan1306	abvd_628_1
+zsm	root	akar	akar	stan1306	abvd_670_2
+zsm	fruit	buah-buah	buahbuah	stan1306	abvd_1507_1
+zsm	earth	tanah	tanah	stan1306	abvd_1228_1
+zsm	stone	batu	batu	stan1306	abvd_857_1
+zsm	sand	pasir	pasir	stan1306	abvd_671_18
+zsm	water	air	air	stan1306	abvd_948_2
+zsm	sea	laut	laut	stan1306	abvd_1474_6
+zsm	sky	langit	langit	stan1306	abvd_1732_1
+zsm	moon	bulan	bulan	stan1306	abvd_1313_1
+zsm	star	bintang	bintang	stan1306	abvd_1430_1
+zsm	cloud	awan	awan	stan1306	abvd_1489_1
+zsm	wind	angin	angin	stan1306	abvd_960_1
+zsm	warm	suam	suam	stan1306	
+zsm	fire	api	api	stan1306	abvd_221_1
+zsm	smoke	asap	asap	stan1306	abvd_778_49
+zsm	ash	abu	abu	stan1306	abvd_646_1
+zsm	white	putih	putih	stan1306	abvd_1335_1
+zsm	red	merah	merah	stan1306	abvd_156_1
+zsm	green	hijau	hijau	stan1306	abvd_1425_25
+zsm	small	kecil	kecil	stan1306	abvd_1246_28
+zsm	big	besar	besar	stan1306	abvd_1202_28
+zsm	long	panjang	panjang	stan1306	abvd_1203_24
+zsm	new	baru	baru	stan1306	abvd_1231_1
+zsm	night	malam	malam	stan1306	abvd_1233_20
+zsm	breast	mana	mana	stan1306	abvd_1237_20
+zsm	hair	saya	saya	stan1306	abvd_1209_11
+zsm	one	satu	satu	stan1306	abvd_1493_1
+zsm	two	dua	dua	stan1306	abvd_1498_1
+zsm	three	tiga	tiga	stan1306	abvd_492_8
+zlm	hand	tangan	tangan	mala1479	abvd_1277_18
+zlm	come	datang	datang	mala1479	abvd_1446_14
+zlm	swim	berenang	berenang	mala1479	abvd_1439_23
+zlm	skin	kulit	kulit	mala1479	abvd_763_1
+zlm	belly	perut	perut	mala1479	abvd_1251_32
+zlm	bone	tulang	tulang	mala1479	abvd_1394_1
+zlm	know	tauk	tauk	mala1479	abvd_1410_1
+zlm	blood	darah	darah	mala1479	abvd_946_1
+zlm	head	palak	palak	mala1479	abvd_1256_45
+zlm	neck	geruk	geruk	mala1479	
+zlm	nose	idong	idong	mala1479	abvd_1221_1
+zlm	mouth	mulut	mulut	mala1479	abvd_674_27
+zlm	tooth	gigi	gigi	mala1479	abvd_1380_17
+zlm	tongue	lidah	lidah	mala1479	abvd_1205_4
+zlm	eat	makan	makan	mala1479	abvd_1336_1
+zlm	drink	minum	minum	mala1479	abvd_1401_1
+zlm	bite	ngigit	ngigit	mala1479	abvd_1403_21
+zlm	ear	telinga	telinga	mala1479	abvd_1247_1
+zlm	hear	ndengar	ndengar	mala1479	abvd_1408_1
+zlm	eye	mata	mata	mala1479	abvd_1248_1
+zlm	see	nanga	nanga	mala1479	
+zlm	sleep	tido	tido	mala1479	abvd_1585_1
+zlm	sit	duduk	duduk	mala1479	abvd_1416_35
+zlm	stand	berdiri	berdiri	mala1479	abvd_1442_1
+zlm	person	urang	urang	mala1479	abvd_683_20
+zlm	husband	laki	laki	mala1479	abvd_1200_28
+zlm	wife	bini	bini	mala1479	abvd_1199_5
+zlm	mother	mak	mak	mala1479	abvd_1216_35
+zlm	father	bapak	bapak	mala1479	abvd_1217_5
+zlm	house	rumah	rumah	mala1479	abvd_1252_1
+zlm	name	nama	nama	mala1479	abvd_1405_12
+zlm	say	madah	madah	mala1479	
+zlm	black	njait	njait	mala1479	abvd_1457_2
+zlm	kill	munuh	munuh	mala1479	
+zlm	old	guguk	guguk	mala1479	
+zlm	dog	asuk	asuk	mala1479	abvd_2009_1
+zlm	bird	burung	burung	mala1479	abvd_937_17
+zlm	egg	telo	telo	mala1479	abvd_744_1
+zlm	child	terbang	terbang	mala1479	abvd_1441_18
+zlm	snake	ular	ular	mala1479	abvd_730_2
+zlm	worm	cacin	cacin	mala1479	
+zlm	fish	ikan	ikan	mala1479	abvd_227_1
+zlm	leaf	daun	daun	mala1479	abvd_628_1
+zlm	root	akar	akar	mala1479	abvd_670_2
+zlm	fruit	buah	buah	mala1479	abvd_1507_1
+zlm	earth	tanah	tanah	mala1479	abvd_1228_1
+zlm	stone	batu	batu	mala1479	abvd_857_1
+zlm	sand	pasir	pasir	mala1479	abvd_671_18
+zlm	water	aiek	aiek	mala1479	
+zlm	sea	laut	laut	mala1479	abvd_1474_6
+zlm	sky	langit	langit	mala1479	abvd_1732_1
+zlm	moon	bulan	bulan	mala1479	abvd_1313_1
+zlm	star	bintang	bintang	mala1479	abvd_1430_1
+zlm	cloud	awan	awan	mala1479	abvd_1489_1
+zlm	wind	angin	angin	mala1479	abvd_960_1
+zlm	warm	panas	panas	mala1479	abvd_1232_1
+zlm	fire	api	api	mala1479	abvd_221_1
+zlm	smoke	asap	asap	mala1479	abvd_778_49
+zlm	ash	abu	abu	mala1479	abvd_646_1
+zlm	white	putih	putih	mala1479	abvd_1335_1
+zlm	red	mierah	mierah	mala1479	
+zlm	green	gadong	gadong	mala1479	abvd_1425_28
+zlm	small	kecik	kecik	mala1479	abvd_1246_28
+zlm	big	besar	besar	mala1479	abvd_1202_28
+zlm	long	panjang	panjang	mala1479	abvd_1203_24
+zlm	new	mudak	mudak	mala1479	
+zlm	night	malam	malam	mala1479	abvd_1233_20
+zlm	breast	bila	bila	mala1479	abvd_1237_85
+zlm	hair	kamek	kamek	mala1479	abvd_1209_1
+zlm	one	satu	satu	mala1479	abvd_1493_1
+zlm	two	duak	duak	mala1479	abvd_1498_1
+zlm	three	tiga	tiga	mala1479	abvd_492_8
+fij	cloud	o	o	sout2864	abvd_1489_12
+ami	warm	faʔθət	faʔθət	amis1246	abvd_1232_82
+ami	fruit	həciʔ	həciʔ	amis1246	abvd_1507_32
+mlg	stone	*watu	watu	mala1537	abvd_857_1

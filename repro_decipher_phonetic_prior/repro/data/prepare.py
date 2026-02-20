@@ -15,7 +15,7 @@ from datasets.registry import (
     get_corpus,
     list_corpora,
 )
-from repro.paths import ARTIFACTS, DATA_EXTERNAL, DATA_PREPARED, ROOT, THIRD_PARTY
+from repro.paths import ANCIENT_SCRIPTS, ARTIFACTS, DATA_EXTERNAL, DATA_PREPARED, ROOT, THIRD_PARTY
 from repro.third_party import load_lock
 from repro.utils import sha256_file, utc_now_iso, write_json
 
@@ -36,22 +36,22 @@ EXPERIMENT_REQUIREMENTS = {
 def _candidate_sources(corpus_name: str) -> List[Tuple[str, Path]]:
     if corpus_name.startswith("validation_"):
         return [
-            ("ancient-scripts-datasets", THIRD_PARTY / "ancient-scripts-datasets" / "data" / "validation"),
+            ("ancient-scripts-datasets", ANCIENT_SCRIPTS / "data" / "validation"),
         ]
     if corpus_name == "gothic":
         return [
-            ("ancient-scripts-datasets", THIRD_PARTY / "ancient-scripts-datasets" / "data" / "gothic"),
+            ("ancient-scripts-datasets", ANCIENT_SCRIPTS / "data" / "gothic"),
             ("DecipherUnsegmented", THIRD_PARTY / "DecipherUnsegmented" / "data"),
         ]
     if corpus_name == "ugaritic":
         return [
             ("NeuroDecipher", THIRD_PARTY / "NeuroDecipher" / "data"),
-            ("ancient-scripts-datasets", THIRD_PARTY / "ancient-scripts-datasets" / "data" / "ugaritic"),
+            ("ancient-scripts-datasets", ANCIENT_SCRIPTS / "data" / "ugaritic"),
         ]
     if corpus_name == "iberian":
         return [
             ("DecipherUnsegmented", THIRD_PARTY / "DecipherUnsegmented" / "data"),
-            ("ancient-scripts-datasets", THIRD_PARTY / "ancient-scripts-datasets" / "data" / "iberian"),
+            ("ancient-scripts-datasets", ANCIENT_SCRIPTS / "data" / "iberian"),
         ]
     return []
 
@@ -83,7 +83,7 @@ def _repo_commit_map() -> Dict[str, Dict[str, str]]:
 def _copy_optional_assets(corpus: Corpus, out_dir: Path) -> List[str]:
     copied: List[str] = []
     if corpus.name == "gothic" and corpus.variant is None:
-        src_root = THIRD_PARTY / "ancient-scripts-datasets" / "data" / "gothic"
+        src_root = ANCIENT_SCRIPTS / "data" / "gothic"
         assets = ["segments.pkl", "got.pretrained.pth", "gotica.xml.zip"]
         assets_dir = out_dir / "assets"
         assets_dir.mkdir(parents=True, exist_ok=True)

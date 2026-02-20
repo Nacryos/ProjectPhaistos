@@ -1,0 +1,46 @@
+{
+    "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
+    "tables": [
+        {
+            "url": "forms.csv",
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
+            "tableSchema": {
+                "columns": [
+                    {"name": "ID", "datatype": "string"},
+                    {"name": "Language_ID", "datatype": "string"},
+                    {"name": "Parameter_ID", "datatype": "string"},
+                    {"name": "Form", "datatype": "string"},
+                    {"name": "Segments", "separator": " ", "datatype": "string"}
+                ],
+                "primaryKey": ["ID"]
+            }
+        },
+        {
+            "url": "languages.csv",
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+            "tableSchema": {
+                "columns": [
+                    {"name": "ID", "datatype": "string"},
+                    {"name": "Name", "datatype": "string"},
+                    {"name": "Glottocode", "datatype": "string"},
+                    {"name": "Latitude", "datatype": "decimal"},
+                    {"name": "Longitude", "datatype": "decimal"}
+                ],
+                "primaryKey": ["ID"]
+            }
+        },
+        {
+            "url": "parameters.csv",
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+            "tableSchema": {
+                "columns": [
+                    {"name": "ID", "datatype": "string"},
+                    {"name": "Name", "datatype": "string"},
+                    {"name": "Concepticon_ID", "datatype": "string"}
+                ],
+                "primaryKey": ["ID"]
+            }
+        }
+    ]
+}

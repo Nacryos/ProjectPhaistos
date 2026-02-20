@@ -1,0 +1,130 @@
+Lang_A	Word_A	IPA_A	SCA_A	Lang_B	Word_B	IPA_B	SCA_B	Concept_ID	Label	Phylo_Dist	Timespan	Score	Source
+tih	apuy	apuy	APUU	kan	bɛŋki	bɛŋki	BENKI	FIRE	false_positive	L4	modern_modern	0.5200	lexicon
+ree	batuʔ	batuʔ	BATUH	kan	kəlːu	kəlːu	KELU	STONE	false_positive	L4	modern_modern	0.5800	lexicon
+bsk	ˈd̪ad̪an	d̪ad̪an	DADAN	mal	kalːɨ̆	kalːɨ	KALI	STONE	false_positive	L4	modern_modern	0.5800	lexicon
+kdk	me:	me	ME	kan	t͡ʃəŋd̪ra	tʃəŋd̪ra	TSENDRA	MOON	false_positive	L4	modern_modern	0.5000	lexicon
+ady	maːza	maːza	MASA	mal	t͡ʃan̪d̪ɾʲan̪	tʃan̪d̪ɾʲan̪	TSANDRAN	MOON	false_positive	L4	modern_modern	0.5875	lexicon
+piz	thanec	thanec	THANEK	mal	n̪akʂat̪ɾʲam	n̪akʂat̪ɾʲam	NAKSATRAM	STAR	false_positive	L4	modern_modern	0.5111	lexicon
+abk	ɑɛt͡sʼəɑ	ɑɛtsʼəɑ	AETSEA	mal	n̪akʂat̪ɾʲam	n̪akʂat̪ɾʲam	NAKSATRAM	STAR	false_positive	L4	modern_modern	0.6556	lexicon
+abk	ɑbziɑ	ɑbziɑ	ABSIA	mal	n̪alːa	n̪alːa	NALA	GOOD	false_positive	L4	modern_modern	0.6400	lexicon
+ady	ʃəbˈla	ʃəbla	SEBLA	mal	iɖi	iɖi	IDI	THUNDER	false_positive	L4	modern_modern	0.6200	lexicon
+kud	galewa	galewa	GALEWA	kan	baːn̪u	baːn̪u	BANU	SKY	false_positive	L4	modern_modern	0.5667	lexicon
+ady	wəaːˈʂʷa	wəaːʂʷa	WEASA	kan	baːn̪u	baːn̪u	BANU	SKY	false_positive	L4	modern_modern	0.5800	lexicon
+wet	'eʤa	eʤa	EA	mal	kolːuɡa	kolːuga	KOLUGA	KILL	false_positive	L4	modern_modern	0.6167	lexicon
+psw	-maur	maur	MAUR	kan	d͡ʒiːʋəŋt̪a	dʒiːʋəŋt̪a	DSIWENTA	BE ALIVE	false_positive	L4	modern_modern	0.5125	lexicon
+abk	ɑmʂɨn	ɑmʂɨn	AMSIN	kan	kəɖəlu	kəɖəlu	KEDELU	SEA	false_positive	L4	modern_modern	0.5500	lexicon
+sgz	matut	matut	MATUT	mal	peːɖikːʲuɡa	peːɖikʲːuga	PEDIKUGA	FEAR (BE AFRAID)	false_positive	L4	modern_modern	0.5750	lexicon
+abk	ɑd͡zɨd͡zɑrɑ	ɑdzɨdzɑrɑ	ADSIDSARA	mal	peːɖikːʲuɡa	peːɖikʲːuga	PEDIKUGA	FEAR (BE AFRAID)	false_positive	L4	modern_modern	0.5444	lexicon
+abk	áɡənɑħɑ	ágənɑħɑ	GENAHA	kan	paːpa	paːpa	PAPA	SIN	false_positive	L4	modern_modern	0.5000	lexicon
+ket	luvitbet	ɮuvitbet	LUBITBET	kan	priːt̪ɪsu	priːt̪ɪsu	PRITISU	LOVE	false_positive	L4	modern_modern	0.5750	lexicon
+ady	jaːbɣa	jaːbɣa	YABGA	mal	paːbijaːja	paːbijaːja	PABIYAYA	EVIL	false_positive	L4	modern_modern	0.5625	lexicon
+bsk	baɡ̇ˈark	bagark	BAGARK	kan	kɛʈːa	kɛʈːa	KETA	EVIL	false_positive	L4	modern_modern	0.5167	lexicon
+kal	ajɔʁpɔq	ajɔʁpɔq	AYORPOK	kan	kɛʈːa	kɛʈːa	KETA	EVIL	false_positive	L4	modern_modern	0.5143	lexicon
+ady	baːj	baːj	BAY	mal	samban̪ːamaːja	samban̪ːamaːja	SAMBANAMAYA	RICH	false_positive	L4	modern_modern	0.6364	lexicon
+niv	qʰorlæ	qʰorlæ	KORLA	kan	ɕriːməŋt̪a	ɕriːməŋt̪a	SRIMENTA	RICH	false_positive	L4	modern_modern	0.5750	lexicon
+abk	ɑdunɛi	ɑdunɛi	ADUNEI	kan	bʰuːloːka	bʰuːloːka	BULOKA	WORLD	false_positive	L4	modern_modern	0.5167	lexicon
+eus	ludi	ludi	LUDI	mal	loːɡam	loːgam	LOGAM	WORLD	false_positive	L4	modern_modern	0.5800	lexicon
+abk	ɑd͡ziɑs	ɑdziɑs	ADSIAS	mal	n̪ad̪i	n̪ad̪i	NADI	RIVER	false_positive	L4	modern_modern	0.6667	lexicon
+ket	ɕɛɕ	ɕɛɕ	SES	mal	n̪ad̪i	n̪ad̪i	NADI	RIVER	false_positive	L4	modern_modern	0.6500	lexicon
+arb	nahr	nahr	NAHR	mal	n̪ad̪i	n̪ad̪i	NADI	RIVER	false_positive	L4	modern_modern	0.6750	lexicon
+azj	t͡ʃɑj	tʃɑj	TSAY	mal	n̪ad̪i	n̪ad̪i	NADI	RIVER	false_positive	L4	modern_modern	0.5250	lexicon
+abk	ɑfiɡurɑ	ɑfigurɑ	APIGURA	mal	kaɳakːɨ̆	kaɳakːɨ	KANAKI	IDOL	false_positive	L4	modern_modern	0.5143	lexicon
+ket	allel	aɮːeɮ	ALEL	mal	kaɳakːɨ̆	kaɳakːɨ	KANAKI	IDOL	false_positive	L4	modern_modern	0.5667	lexicon
+abk	ɑirɑ	ɑirɑ	AIRA	kan	wʊŋʈaːɡu	wʊŋʈaːgu	WUNTAGU	BE BORN	false_positive	L4	modern_modern	0.5571	lexicon
+kal	saɬːusuisːut	saɬːusuisːut	SALUSUISUT	mal	sadʰjam	sadʰjam	SADYAM	TRUTH	false_positive	L4	modern_modern	0.5400	lexicon
+abk	ɑkʰɑlɑkʰʲ	ɑkʰɑlɑkʲʰ	AKALAK	kan	pəʈːəɳa	pəʈːəɳa	PETENA	TOWN	false_positive	L4	modern_modern	0.5167	lexicon
+eus	hiɾi	hiɾi	HIRI	mal	n̪aɡaɾʲam	n̪agaɾʲam	NAGARAM	TOWN	false_positive	L4	modern_modern	0.5571	lexicon
+ady	ʁaɡʷəˈʁan	ʁagʷəʁan	RAGERAN	mal	ʋaːɡd̪aːn̪am_n̪alkuɡa	ʋaːgd̪aːn̪amn̪alkuga	WAGDANAMNALKUGA	PROMISE	false_positive	L4	modern_modern	0.6267	lexicon
+bsk	mahaˈla	mahala	MAHALA	kan	həɭːi	həɭːi	HELI	VILLAGE	false_positive	L4	modern_modern	0.7333	lexicon
+ady	qaˈʂʷan	qaʂʷan	KASAN	mal	n̪ɾʲ̥t̪ːam_t͡ʃejːuɡa	n̪ɾ̥ʲt̪ːamtʃejːuga	NRTAMTSEYUGA	DANCE	false_positive	L4	modern_modern	0.5417	lexicon
+abk	ɑkʼɨrʈʈ͡ʂʼɑt͡sʼɑrɑ	ɑkʼɨrʈʈʂ’ɑtsʼɑrɑ	AKIRTTSATSARA	mal	t̪iːtːuɡa	t̪iːtːuga	TITUGA	FEED	false_positive	L4	modern_modern	0.6077	lexicon
+ess	nɨχqaqa	nɨχqaqa	NIKKAKA	mal	t̪iːtːuɡa	t̪iːtːuga	TITUGA	FEED	false_positive	L4	modern_modern	0.6571	lexicon
+ady	pʃəsa	pʃəsa	PSESA	kan	sʊɭːʊ_kət̪he	sʊɭːʊkət̪he	SULUKETHE	FAIRY TALE	false_positive	L4	modern_modern	0.6000	lexicon
+ess	uŋɡ̥ipaɣan	uŋg̊ipaɣan	UNGIPAGAN	kan	sʊɭːʊ_kət̪he	sʊɭːʊkət̪he	SULUKETHE	FAIRY TALE	false_positive	L4	modern_modern	0.5000	lexicon
+abk	ɑmrɑ	ɑmrɑ	AMRA	kan	suːrja	suːrja	SURYA	SUN	false_positive	L4	modern_modern	0.6400	lexicon
+ady	tħa	tħa	THA	mal	d̪aiʋam	d̪aiʋam	DAIWAM	DEITY	false_positive	L4	modern_modern	0.5333	lexicon
+ale	aɡoːʁoχ	agoːʁoχ	AGOROK	kan	d̪eːʋəru	d̪eːʋəru	DEWERU	DEITY	false_positive	L4	modern_modern	0.5167	lexicon
+abk	ɑnɑnɑmɡɑ	ɑnɑnɑmgɑ	ANANAMGA	kan	bəɖa	bəɖa	BEDA	POOR	false_positive	L4	modern_modern	0.5500	lexicon
+bsk	t̪aˈraq	t̪araq	TARAK	kan	bəɖa	bəɖa	BEDA	POOR	false_positive	L4	modern_modern	0.5800	lexicon
+ady	qajʁablaʁan	qajʁablaʁan	KAYRABLARAN	mal	kʂaɳikːʲuɡa	kʂaɳikʲːuga	KSANIKUGA	INVITE	false_positive	L4	modern_modern	0.5545	lexicon
+ady	baˈnə	banə	BANE	kan	ɡoːri	goːri	GORI	GRAVE	false_positive	L4	modern_modern	0.5250	lexicon
+ady	aːd͡ʒaːl	aːdʒaːl	ADSAL	kan	mərəɳa	mərəɳa	MERENA	DEATH	false_positive	L4	modern_modern	0.6000	lexicon
+ket	qɔrʲɛŋ	qɔrʲɛŋ	KOREN	mal	maɾʲaɳam	maɾʲaɳam	MARANAM	DEATH	false_positive	L4	modern_modern	0.6286	lexicon
+kal	tɔqu	tɔqu	TOKU	kan	mərəɳa	mərəɳa	MERENA	DEATH	false_positive	L4	modern_modern	0.5167	lexicon
+abk	ɑpʰstʰɑzɑːrɑ	ɑpʰstʰɑzɑːrɑ	APSTASARA	kan	d͡ʒiːʋən̪a	dʒiːʋən̪a	DSIWENA	LIFE	false_positive	L4	modern_modern	0.6111	lexicon
+bsk	d͡ʑiˈi	dʑii	DSII	mal	d͡ʒiːʋan̪	dʒiːʋan̪	DSIWAN	LIFE	false_positive	L4	modern_modern	0.7833	lexicon
+abk	ɑpʰsɨ	ɑpʰsɨ	APSI	kan	aːt̪ma	aːt̪ma	ATMA	SPIRIT	false_positive	L4	modern_modern	0.6000	lexicon
+niv	qʰoʁæ	qʰoʁæ	KORA	kan	aːt̪ma	aːt̪ma	ATMA	SPIRIT	false_positive	L4	modern_modern	0.6000	lexicon
+kal	tɔːɴaq	tɔːɴaq	TONAK	kan	aːt̪ma	aːt̪ma	ATMA	SPIRIT	false_positive	L4	modern_modern	0.5800	lexicon
+arb	ruːħ	ruːħ	RUH	mal	t͡ʃurut͡ʃurukːɨ̆	tʃurutʃurukːɨ	TSURUTSURUKI	SPIRIT	false_positive	L4	modern_modern	0.5417	lexicon
+kal	sinːatːuɣaq	sinːatːuɣaq	SINATUGAK	kan	kən̪əsu	kən̪əsu	KENESU	DREAM	false_positive	L4	modern_modern	0.6222	lexicon
+heb	χalom	χalom	KALOM	kan	kən̪əsu	kən̪əsu	KENESU	DREAM	false_positive	L4	modern_modern	0.6000	lexicon
+ady	jaˈtən	jatən	YATEN	kan	kɔɖu	kɔɖu	KODU	GIVE	false_positive	L4	modern_modern	0.5200	lexicon
+abk	ɑtʰɑtʰəɑrɑ	ɑtʰɑtʰəɑrɑ	ATATEARA	mal	oɻikːʲuɡa	oɻikʲːuga	ORIKUGA	POUR	false_positive	L4	modern_modern	0.5375	lexicon
+abk	ɑtʼəɨlɑ	ɑtʼəɨlɑ	ATEILA	mal	ɾʲaːd͡ʒjam	ɾʲaːdʒjam	RADSYAM	COUNTRY	false_positive	L4	modern_modern	0.5571	lexicon
+ddo	ulka	ulka	ULKA	kan	d̪eːɕa	d̪eːɕa	DESA	COUNTRY	false_positive	L4	modern_modern	0.6000	lexicon
+abk	ɑt͡sʰəɑqʼəɑ	ɑtsʰəɑqʼəɑ	ATSEAKEA	kan	jɪŋd̪rət͡ʃaːpa	jɪŋd̪rətʃaːpa	YINDRETSAPA	RAINBOW	false_positive	L4	modern_modern	0.6000	lexicon
+bsk	raʈ͡ʂʰʉˈɛ_t̪ʂ	raʈʂʰʉɛt̪ʂ	RATSUETS	kan	səŋrəkʂɪsu	səŋrəkʂɪsu	SENREKSISU	PROTECT	false_positive	L4	modern_modern	0.6500	lexicon
+kal	pinɛqaʁtaːlivaː	pinɛqaʁtaːlivaː	PINEKARTALIBA	kan	səŋrəkʂɪsu	səŋrəkʂɪsu	SENREKSISU	PROTECT	false_positive	L4	modern_modern	0.6154	lexicon
+abk	ɑħɑpʰɨ	ɑħɑpʰɨ	AHAPI	mal	ɡuɦa	guɦa	GUHA	CAVE	false_positive	L4	modern_modern	0.6400	lexicon
+bsk	ɡ̇arˈbaːnt͡ṡ	garbaːnts	GARBANTS	mal	ɡuɦa	guɦa	GUHA	CAVE	false_positive	L4	modern_modern	0.5875	lexicon
+abk	ɑɥɡɑrɑ	ɑɥgɑrɑ	AWGARA	mal	samːaːn̪am_koɖukːuɡa	samːaːn̪amkoɖukːuga	SAMANAMKODUKUGA	DONATE	false_positive	L4	modern_modern	0.5733	lexicon
+eus	opaɾitu	opaɾitu	OPARITU	mal	samːaːn̪am_koɖukːuɡa	samːaːn̪amkoɖukːuga	SAMANAMKODUKUGA	DONATE	false_positive	L4	modern_modern	0.6333	lexicon
+ady	waˈrad	warad	WARAD	kan	ɡaːn̪a	gaːn̪a	GANA	SONG	false_positive	L4	modern_modern	0.6400	lexicon
+eus	abeɕti	abeɕti	ABESTI	mal	paːʈːɨ̆	paːʈːɨ	PATI	SONG	false_positive	L4	modern_modern	0.7333	lexicon
+abk	ɑʃχɑ	ɑʃχɑ	ASKA	mal	paɾʲʋːadʰam	paɾʲʋːadʰam	PARWADAM	MOUNTAIN	false_positive	L4	modern_modern	0.5875	lexicon
+bsk	paˈhaːʈ	pahaːʈ	PAHAT	mal	paɾʲʋːadʰam	paɾʲʋːadʰam	PARWADAM	MOUNTAIN	false_positive	L4	modern_modern	0.6500	lexicon
+abk	ɑχɑt͡sʼɑrɑ	ɑχɑtsʼɑrɑ	AKATSARA	kan	n̪əŋbu	n̪əŋbu	NENBU	BELIEVE	false_positive	L4	modern_modern	0.5375	lexicon
+ket	berbet	berbet	BERBET	kan	n̪əŋbu	n̪əŋbu	NENBU	BELIEVE	false_positive	L4	modern_modern	0.6500	lexicon
+ady	ʁasˈtən	ʁastən	RASTEN	kan	sʊɖu	sʊɖu	SUDU	BURN (SOMETHING)	false_positive	L4	modern_modern	0.6333	lexicon
+niv	r̥uvɟ	r̥uvɟ	RUBG	mal	kat̪ːin̪aɕikːʲuɡa	kat̪ːin̪aɕikʲːuga	KATINASIKUGA	BURN (SOMETHING)	false_positive	L4	modern_modern	0.5583	lexicon
+kan	bɛŋki	bɛŋki	BENKI	mal	t̪iː	t̪iː	TI	FIRE	true_cognate	L1	modern_modern	0.6400	religious_gen
+kan	kəlːu	kəlːu	KELU	mal	kalːɨ̆	kalːɨ	KALI	STONE	true_cognate	L1	modern_modern	0.8500	religious_gen
+kan	t͡ʃəŋd̪ra	tʃəŋd̪ra	TSENDRA	mal	t͡ʃan̪d̪ɾʲan̪	tʃan̪d̪ɾʲan̪	TSANDRAN	MOON	true_cognate	L1	modern_modern	0.9000	religious_gen
+kan	t͡ʃʊkːi	tʃʊkːi	TSUKI	mal	n̪akʂat̪ɾʲam	n̪akʂat̪ɾʲam	NAKSATRAM	STAR	true_cognate	L1	modern_modern	0.5667	religious_gen
+kan	wɔɭːɛja	wɔɭːɛja	WOLEYA	mal	n̪alːa	n̪alːa	NALA	GOOD	true_cognate	L1	modern_modern	0.6167	religious_gen
+kan	ɡʊɖʊɡu	gʊɖʊgu	GUDUGU	mal	iɖi	iɖi	IDI	THUNDER	true_cognate	L1	modern_modern	0.6500	religious_gen
+kan	baːn̪u	baːn̪u	BANU	mal	aːɡaːɕam	aːgaːɕam	AGASAM	SKY	true_cognate	L1	modern_modern	0.5667	religious_gen
+kan	kɔlːu	kɔlːu	KOLU	mal	kolːuɡa	kolːuga	KOLUGA	KILL	true_cognate	L1	modern_modern	0.8333	religious_gen
+kan	d͡ʒiːʋəŋt̪a	dʒiːʋəŋt̪a	DSIWENTA	mal	t̪aːmasikːʲuɡa	t̪aːmasikʲːuga	TAMASIKUGA	BE ALIVE	true_cognate	L1	modern_modern	0.5400	religious_gen
+kan	kəɖəlu	kəɖəlu	KEDELU	mal	kaɖal	kaɖal	KADAL	SEA	true_cognate	L1	modern_modern	0.8167	religious_gen
+kan	kaːɖu	kaːɖu	KADU	mal	kaːɖɨ̆	kaːɖɨ	KADI	FOREST	true_cognate	L1	modern_modern	0.9250	religious_gen
+kan	paːpa	paːpa	PAPA	mal	paːbam	paːbam	PABAM	SIN	true_cognate	L1	modern_modern	0.8400	religious_gen
+kan	priːt̪ɪsu	priːt̪ɪsu	PRITISU	mal	sn̪eːɦikːʲuɡa	sn̪eːɦikʲːuga	SNEHIKUGA	LOVE	true_cognate	L1	modern_modern	0.4889	religious_gen
+kan	kɛʈːa	kɛʈːa	KETA	mal	paːbijaːja	paːbijaːja	PABIYAYA	EVIL	true_cognate	L1	modern_modern	0.4625	religious_gen
+kan	ɕriːməŋt̪a	ɕriːməŋt̪a	SRIMENTA	mal	samban̪ːamaːja	samban̪ːamaːja	SAMBANAMAYA	RICH	true_cognate	L1	modern_modern	0.6273	religious_gen
+kan	bʰuːloːka	bʰuːloːka	BULOKA	mal	loːɡam	loːgam	LOGAM	WORLD	true_cognate	L1	modern_modern	0.7000	religious_gen
+kan	d̪ʋiːpa	d̪ʋiːpa	DWIPA	mal	d̪ʋiːbɨ̆	d̪ʋiːbɨ	DWIBI	ISLAND	true_cognate	L1	modern_modern	0.8800	religious_gen
+kan	n̪əd̪i	n̪əd̪i	NEDI	mal	n̪ad̪i	n̪ad̪i	NADI	RIVER	true_cognate	L1	modern_modern	0.9250	religious_gen
+kan	aːkaːra	aːkaːra	AKARA	mal	kaɳakːɨ̆	kaɳakːɨ	KANAKI	IDOL	true_cognate	L1	modern_modern	0.7000	religious_gen
+kan	rəkʂɪsu	rəkʂɪsu	REKSISU	mal	ɾʲakʂikːʲuɡa	ɾʲakʂikʲːuga	RAKSIKUGA	RESCUE	true_cognate	L1	modern_modern	0.7444	religious_gen
+kan	wʊŋʈaːɡu	wʊŋʈaːgu	WUNTAGU	mal	d͡ʒan̪ikːʲuɡa	dʒan̪ikʲːuga	DSANIKUGA	BE BORN	true_cognate	L1	modern_modern	0.5667	religious_gen
+kan	sət̪ja	sət̪ja	SETYA	mal	sadʰjam	sadʰjam	SADYAM	TRUTH	true_cognate	L1	modern_modern	0.8167	religious_gen
+kan	pəʈːəɳa	pəʈːəɳa	PETENA	mal	n̪aɡaɾʲam	n̪agaɾʲam	NAGARAM	TOWN	true_cognate	L1	modern_modern	0.5143	religious_gen
+kan	ʋaːɡd̪aːn̪əmaːɖu	ʋaːgd̪aːn̪əmaːɖu	WAGDANEMADU	mal	ʋaːɡd̪aːn̪am_n̪alkuɡa	ʋaːgd̪aːn̪amn̪alkuga	WAGDANAMNALKUGA	PROMISE	true_cognate	L1	modern_modern	0.8267	religious_gen
+kan	həɭːi	həɭːi	HELI	mal	ɡɾʲaːmam	gɾʲaːmam	GRAMAM	VILLAGE	true_cognate	L1	modern_modern	0.4000	religious_gen
+kan	kʊɳi	kʊɳi	KUNI	mal	n̪ɾʲ̥t̪ːam_t͡ʃejːuɡa	n̪ɾ̥ʲt̪ːamtʃejːuga	NRTAMTSEYUGA	DANCE	true_cognate	L1	modern_modern	0.5083	religious_gen
+kan	meːjɪsu	meːjɪsu	MEYISU	mal	t̪iːtːuɡa	t̪iːtːuga	TITUGA	FEED	true_cognate	L1	modern_modern	0.4500	religious_gen
+kan	sʊɭːʊ_kət̪he	sʊɭːʊkət̪he	SULUKETHE	mal	jakʂikːʲat̪ɦa	jakʂikʲːat̪ɦa	YAKSIKATHA	FAIRY TALE	true_cognate	L1	modern_modern	0.7000	religious_gen
+kan	suːrja	suːrja	SURYA	mal	suːɾʲːan̪	suːɾʲːan̪	SURAN	SUN	true_cognate	L1	modern_modern	0.8000	religious_gen
+kan	d̪eːʋəru	d̪eːʋəru	DEWERU	mal	d̪aiʋam	d̪aiʋam	DAIWAM	DEITY	true_cognate	L1	modern_modern	0.5667	religious_gen
+kan	bəɖa	bəɖa	BEDA	mal	paːʋapːeʈːa	paːʋapːeʈːa	PAWAPETA	POOR	true_cognate	L1	modern_modern	0.6750	religious_gen
+kan	aːhʋaːn̪ɪsu	aːhʋaːn̪ɪsu	AHWANISU	mal	kʂaɳikːʲuɡa	kʂaɳikʲːuga	KSANIKUGA	INVITE	true_cognate	L1	modern_modern	0.5000	religious_gen
+kan	ɡoːri	goːri	GORI	mal	ɕaʋakːuɻi	ɕaʋakːuɻi	SAWAKURI	GRAVE	true_cognate	L1	modern_modern	0.6750	religious_gen
+kan	mərəɳa	mərəɳa	MERENA	mal	maɾʲaɳam	maɾʲaɳam	MARANAM	DEATH	true_cognate	L1	modern_modern	0.8429	religious_gen
+kan	d͡ʒiːʋən̪a	dʒiːʋən̪a	DSIWENA	mal	d͡ʒiːʋan̪	dʒiːʋan̪	DSIWAN	LIFE	true_cognate	L1	modern_modern	0.8857	religious_gen
+kan	aːt̪ma	aːt̪ma	ATMA	mal	t͡ʃurut͡ʃurukːɨ̆	tʃurutʃurukːɨ	TSURUTSURUKI	SPIRIT	true_cognate	L1	modern_modern	0.5333	religious_gen
+kan	kən̪əsu	kən̪əsu	KENESU	mal	sʋabn̪am	sʋabn̪am	SWABNAM	DREAM	true_cognate	L1	modern_modern	0.4714	religious_gen
+kan	kɔɖu	kɔɖu	KODU	mal	koɖukːuɡa	koɖukːuga	KODUKUGA	GIVE	true_cognate	L1	modern_modern	0.7500	religious_gen
+kan	jɛre	jɛre	YERE	mal	oɻikːʲuɡa	oɻikʲːuga	ORIKUGA	POUR	true_cognate	L1	modern_modern	0.5571	religious_gen
+kan	d̪eːɕa	d̪eːɕa	DESA	mal	ɾʲaːd͡ʒjam	ɾʲaːdʒjam	RADSYAM	COUNTRY	true_cognate	L1	modern_modern	0.7000	religious_gen
+kan	jɪŋd̪rət͡ʃaːpa	jɪŋd̪rətʃaːpa	YINDRETSAPA	mal	maɻaʋilːɨ̆	maɻaʋilːɨ	MARAWILI	RAINBOW	true_cognate	L1	modern_modern	0.4818	religious_gen
+kan	səŋrəkʂɪsu	səŋrəkʂɪsu	SENREKSISU	mal	paɾʲiɾʲakʂikːʲuɡa	paɾʲiɾʲakʂikʲːuga	PARIRAKSIKUGA	PROTECT	true_cognate	L1	modern_modern	0.6615	religious_gen
+kan	t͡ʃərt͡ʃu	tʃərtʃu	TSERTSU	mal	paɭːi	paɭːi	PALI	CHURCH	true_cognate	L1	modern_modern	0.5143	religious_gen
+kan	ɡʊhe	gʊhe	GUHE	mal	ɡuɦa	guɦa	GUHA	CAVE	true_cognate	L1	modern_modern	0.9250	religious_gen
+kan	ərpɪsu	ərpɪsu	ERPISU	mal	samːaːn̪am_koɖukːuɡa	samːaːn̪amkoɖukːuga	SAMANAMKODUKUGA	DONATE	true_cognate	L1	modern_modern	0.6000	religious_gen
+kan	ɡaːn̪a	gaːn̪a	GANA	mal	paːʈːɨ̆	paːʈːɨ	PATI	SONG	true_cognate	L1	modern_modern	0.6000	religious_gen
+kan	məle	məle	MELE	mal	paɾʲʋːadʰam	paɾʲʋːadʰam	PARWADAM	MOUNTAIN	true_cognate	L1	modern_modern	0.6000	religious_gen
+kan	n̪əŋbu	n̪əŋbu	NENBU	mal	ʋiɕʋasikːʲuɡa	ʋiɕʋasikʲːuga	WISWASIKUGA	BELIEVE	true_cognate	L1	modern_modern	0.5545	religious_gen
+kan	sʊɖu	sʊɖu	SUDU	mal	kat̪ːin̪aɕikːʲuɡa	kat̪ːin̪aɕikʲːuga	KATINASIKUGA	BURN (SOMETHING)	true_cognate	L1	modern_modern	0.5917	religious_gen
+kan	kaːpɪɖu	kaːpɪɖu	KAPIDU	mal	pɾʲadʰiɾʲoːd̪ɦikːʲuɡa	pɾʲadʰiɾʲoːd̪ɦikʲːuga	PRADIRODHIKUGA	DEFEND	true_cognate	L1	modern_modern	0.5714	religious_gen

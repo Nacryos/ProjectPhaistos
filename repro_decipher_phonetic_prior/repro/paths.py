@@ -5,7 +5,9 @@ from __future__ import annotations
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = ROOT.parent  # ProjectPhaistos top-level
 THIRD_PARTY = ROOT / "third_party"
+ANCIENT_SCRIPTS = REPO_ROOT / "ancient-scripts-datasets"
 ARTIFACTS = ROOT / "artifacts"
 FIGURES = ARTIFACTS / "figures"
 DATA = ROOT / "data"

@@ -1,0 +1,316 @@
+category	subcategory	root	english_meaning	ugaritic_form	hebrew_cognate	notes
+# ============================================================================
+# UGARITIC-HEBREW RELIGIOUS COGNATE PAIRS
+# Extracted from uga-heb.no_spe.cog (j-luo93/NeuroDecipher)
+# Sound correspondences: Ug. d=Heb. z, Ug. v(theta)=Heb. $, Ug. x=Heb. H,
+#   Ug. $p$=Heb. $m$ (sun), Ug. byt>bt (house)
+# ============================================================================
+#
+# I. DEITY NAMES AND DIVINE EPITHETS
+#
+deity_name	supreme_deity	il	god/El	il	al	Supreme Canaanite deity
+deity_name	supreme_deity	il	god/El	ilh	alh|alwh	"his god" / Eloah
+deity_name	supreme_deity	il	god/El	ilhm	alhym|alwhym	"gods" / Elohim
+deity_name	supreme_deity	il	god/El	ilm	alym	"gods" (plural)
+deity_name	storm_deity	b<l	Baal/lord	b<l	b<l	Storm/fertility deity
+deity_name	storm_deity	b<l	Baal/lord	b<lh	b<lh|b<lw	"his lord/Baal"
+deity_name	storm_deity	b<l	Baal/lord	b<lm	b<lym	"lords/Baals" (plural)
+deity_name	storm_deity	b<l	Baal/lord	b<lt	b<lh|b<lt|b<lwt	"lady/mistress" (Baalat)
+deity_name	storm_deity	b<l	Baal/lord	b<ly	b<ly	"my lord/Baal"
+deity_name	storm_deity	b<l	Baal/lord	lb<l	lb<l	"to Baal"
+deity_name	storm_deity	b<l	Baal/lord	wb<l	wb<l	"and Baal"
+deity_name	war_goddess	<nt	Anat	<nt	<th	War/love goddess
+deity_name	war_goddess	<nt	Anat	l<nt	l<th	"to Anat"
+deity_name	war_goddess	<nt	Anat	w<nt	w<th	"and Anat"
+deity_name	grain_deity	dgn	Dagon/grain	dgn	dgn	Grain deity / grain
+deity_name	grain_deity	dgn	Dagon/grain	ldgn	ldgn	"to Dagon"
+deity_name	grain_deity	dgn	Dagon/grain	wdgn	wdgn	"and Dagon"
+deity_name	king_deity	mlk	king/Moloch	mlk	mlk	King; also divine name Moloch
+deity_name	sun_deity	$p$	Shamash/sun	$p$	$m$	Sun deity (Ug. p=Heb. m)
+deity_name	sun_deity	$p$	Shamash/sun	l$p$	l$m$	"to the sun"
+deity_name	sun_deity	$p$	Shamash/sun	w$p$	w$m$	"and the sun"
+deity_name	moon_deity	yrx	Yarikh/moon	yrx	yrH	Moon deity (Ug. x=Heb. H)
+deity_name	moon_deity	yrx	Yarikh/moon	byrx	byrH	"by the moon"
+deity_name	moon_deity	yrx	Yarikh/moon	lyrx	lyrH	"to the moon"
+deity_name	moon_deity	yrx	Yarikh/moon	yrxm	yrHym	"months/moons"
+deity_name	death_deity	mt	Mot/death	mt	mt	Death deity
+deity_name	sea_deity	ym	Yam/sea	ym	ym|ywm	Sea deity / sea / day
+deity_name	craftsman_deity	ktr	Kothar	ktr	_	Craftsman deity (Ug. only)
+deity_name	plague_deity	r$p	Resheph	r$p	r$p	Plague/war deity
+deity_name	plague_deity	r$p	Resheph	lr$p	lr$p	"to Resheph"
+deity_name	plague_deity	r$p	Resheph	r$pm	r$pym	"Reshephim" (plural)
+#
+# THEOPHORIC PERSONAL NAMES (names containing deity elements)
+#
+theophoric_name	il_compound	il	El-names	ilr$p	_	"El-Resheph"
+theophoric_name	il_compound	il	El-names	ildgn	_	"El-Dagon"
+theophoric_name	il_compound	il	El-names	il<nt	_	"El-Anat"
+theophoric_name	il_compound	il	El-names	ilb<l	_	"El-Baal"
+theophoric_name	il_compound	il	El-names	il$lm	_	"El-Shalom"
+theophoric_name	il_compound	il	El-names	ilSdq	_	"El-Righteousness"
+theophoric_name	b<l_compound	b<l	Baal-names	b<l$lm	_	"Baal-Shalom"
+theophoric_name	b<l_compound	b<l	Baal-names	b<lSdq	_	"Baal-Righteousness"
+theophoric_name	b<l_compound	b<l	Baal-names	mtnb<l	_	"Gift-of-Baal"
+theophoric_name	<bd_compound	<bd	Servant-of	<bdmlk	<bdmlk	"Servant of the King"
+theophoric_name	<bd_compound	<bd	Servant-of	<bdr$p	_	"Servant of Resheph"
+theophoric_name	<bd_compound	<bd	Servant-of	<bd<nt	_	"Servant of Anat"
+theophoric_name	<bd_compound	<bd	Servant-of	<bdb<l	_	"Servant of Baal"
+theophoric_name	<bd_compound	<bd	Servant-of	<bdilm	_	"Servant of the Gods"
+theophoric_name	<bd_compound	<bd	Servant-of	<bdrpu	_	"Servant of the Healer"
+theophoric_name	mlk_compound	mlk	King-names	abmlk	abymlk	"Father-King"
+theophoric_name	mlk_compound	mlk	King-names	mlkr$p	_	"King-Resheph"
+theophoric_name	Sdq_compound	Sdq	Righteousness	Sdqil	_	"Righteousness-of-El"
+theophoric_name	Sdq_compound	Sdq	Righteousness	Sdq$lm	_	"Righteousness-Peace"
+#
+# II. RITUAL AND WORSHIP TERMS
+#
+# Verbs of worship
+ritual_verb	sacrifice	dbH/zbH	sacrifice/slaughter	dbH	zbH	Ug. d=Heb. z
+ritual_verb	sacrifice	dbH/zbH	sacrifice/slaughter	wdbH	wzbH	"and he sacrificed"
+ritual_verb	sacrifice	dbH/zbH	sacrifice/slaughter	ydbH	yzbH	"he sacrifices"
+ritual_verb	sacrifice	dbH/zbH	sacrifice/slaughter	ndbH	nzbH	"we sacrifice"
+ritual_verb	sacrifice	dbH/zbH	sacrifice/slaughter	tdbHn	tzbHnw	"you (pl.) sacrifice"
+ritual_verb	sacrifice	dbH/zbH	sacrifice/slaughter	dbHm	zbHym	"sacrifices" (plural)
+ritual_verb	sacrifice	dbH/zbH	sacrifice/slaughter	dbHn	zbHnw	"our sacrifice"
+ritual_verb	approach	qrb	approach/offer	qrb	qrb	Draw near with offering
+ritual_verb	approach	qrb	approach/offer	uqrb	aqrb	"I approach"
+ritual_verb	approach	qrb	approach/offer	tqrb	tqrb	"you approach"
+ritual_verb	approach	qrb	approach/offer	yqrb	yqrb	"he approaches"
+ritual_verb	approach	qrb	approach/offer	wyqrb	wyqrb	"and he approached"
+ritual_verb	libation	nsk	pour libation	nsk	nsk	Ritual pouring
+ritual_verb	libation	nsk	pour libation	nskh	nskh|nskw	"his libation"
+ritual_verb	libation	nsk	pour libation	wynsk	wynsk	"and he poured"
+ritual_verb	bless	brk	bless/kneel	brk	brk	Invoke divine favor
+ritual_verb	bless	brk	bless/kneel	ybrk	ybrk	"he blesses"
+ritual_verb	bless	brk	bless/kneel	tbrk	tbrk	"you/she bless"
+ritual_verb	bless	brk	bless/kneel	ybrkn	ybrknw	"he blesses us"
+ritual_verb	bless	brk	bless/kneel	brkt	brkh|brkt|brkty	"blessing"
+ritual_verb	bless	brk	bless/kneel	brkm	brkym	"blessings"
+ritual_verb	vow	ndr	vow	ndr	ndr	Sacred promise to deity
+ritual_verb	vow	ndr	vow	ndrh	ndrh|ndrw	"his vow"
+ritual_verb	purify	b<r	purify/burn	b<r	b<r	Ritual purification
+ritual_verb	purify	b<r	purify/burn	yb<r	yb<r	"he purifies"
+ritual_verb	serve	<bd	serve/worship	<bd	<bd	Divine service
+ritual_verb	serve	<bd	serve/worship	y<bd	y<bd	"he serves"
+ritual_verb	serve	<bd	serve/worship	<bdm	<bdym	"servants"
+ritual_verb	serve	<bd	serve/worship	<bdy	<bdy	"my servant"
+ritual_verb	oath	$b<	swear/oath	$b<	$b<|&b<	Sacred oath
+ritual_verb	oath	$b<	swear/oath	$b<t	$b<h|$b<t|$b<wt	"oath" (f.)
+ritual_verb	atone	kpr	atone/cover	kpr	kpr	Expiation
+ritual_verb	atone	kpr	atone/cover	bkpr	bkpr	"in atonement"
+ritual_verb	devote	Hrm	ban/devote	xrmvt	Hrm$	"devoted thing" (Ug. x=Heb. H)
+ritual_verb	inherit	yr$	inherit	yrv	yr$|ywr$	"he inherits" (Ug. v=Heb. $)
+#
+# Ritual nouns
+ritual_noun	altar	mdbH/mzbH	altar	mdbH	mzbH	Place of sacrifice
+ritual_noun	altar	mdbH/mzbH	altar	mdbHt	mzbHh|mzbHt|mzbHwt	"altars"
+ritual_noun	offering	mnH	grain offering	mnH	mnHh	Cereal/meal offering
+ritual_noun	offering	mnH	grain offering	mnHt	mnHh|mnHt|mnHwt	"offerings"
+ritual_noun	incense	qTr	incense	qTr	_	Ritual smoke (Ug. only in this file)
+ritual_noun	tithe	<$r	tithe/tenth	<$r	<&r	Sacred portion
+ritual_noun	tithe	<$r	tithe/tenth	<$rt	<&rh|<&rt|<&rwt	"tenth" (f.)
+ritual_noun	offering_burnt	<lt	burnt offering	<lt	_	Ascent offering (Ug. only)
+ritual_noun	offering_burnt	<lt	ascent/offering	m<lt	m<lh|m<lt|m<lwt	"ascent/steps"
+#
+# III. SACRED PLACES
+#
+sacred_place	temple	hkl	temple/palace	hkl	hykl	Main sanctuary
+sacred_place	temple	hkl	temple/palace	bhkl	bhykl	"in the temple"
+sacred_place	temple	hkl	temple/palace	hklh	hyklh|hyklw	"his temple"
+sacred_place	temple	hkl	temple/palace	hklk	hyklk	"your temple"
+sacred_place	temple	hkl	temple/palace	hkly	hykly	"my temple"
+sacred_place	house_temple	bt	house/temple	bt	bt|byt	House; also "temple of X"
+sacred_place	grave	qbr	grave/tomb	qbr	qbr	Burial place
+sacred_place	grave	qbr	grave/tomb	bqbr	bqbr	"in the grave"
+sacred_place	grave	qbr	grave/tomb	wyqbr	wyqbr	"and he buried"
+sacred_place	grave	qbr	grave/tomb	yqbr	yqbr	"he buries"
+sacred_place	high_place	bmh	high place	bmh	_	Open-air sanctuary (Ug. only)
+sacred_place	tabernacle	m$kn	tabernacle	lm$knthm	lm$knm|lm$knthm|lm$knwthm	"to their tabernacles"
+sacred_place	sanctuary	mqd$	sanctuary	mqd$t	mqd$	"sanctuary"
+#
+# IV. THEOLOGICAL / SPIRITUAL CONCEPTS
+#
+# Adjectives
+theology_adj	holy	qd$	holy/sacred	qd$	qd$	Set apart for deity
+theology_adj	holy	qd$	holy/sacred	qd$m	qd$ym	"holy ones"
+theology_adj	holy	qd$	holy/sacred	qd$t	qd$h|qd$t|qd$wt	"holiness"
+theology_adj	holy	qd$	holy/sacred	tqd$	tqd$	"you/she sanctify"
+theology_adj	pure	Thr	pure/clean	Thr	Thr|Thwr	Ritually clean
+theology_adj	pure	Thr	pure/clean	Thrm	Thrym|Thwrym	"pure ones"
+theology_adj	righteous	Sdq	righteous	Sdq	Sdyq	Moral uprightness
+theology_adj	righteous	Sdq	righteous	Sdqh	Sdqh|Sdqw|Sdyqh|Sdyqw	"his righteousness"
+theology_adj	good	Tb	good/repentance	Tb	Twb	Moral/ritual good
+theology_adj	evil	r<	evil/bad	r<	r<	Moral/ritual evil
+theology_adj	glorious	kbd	glory/honor	kbd	kbd	Divine weight/glory
+theology_adj	glorious	kbd	glory/honor	kbdy	kbdy	"my glory"
+theology_adj	glorious	kbd	glory/honor	ykbd	ykbd	"he honors"
+#
+# Nouns — spiritual entities and concepts
+theology_noun	soul	np$	soul/life/self	np$	np$	Life-force
+theology_noun	soul	np$	soul/life/self	np$h	np$h|np$w	"his soul"
+theology_noun	soul	np$	soul/life/self	np$y	np$y	"my soul"
+theology_noun	soul	np$	soul/life/self	np$m	np$ym	"souls"
+theology_noun	spirit	rH	spirit/wind	rH	rwH|ryH	Breath/wind/spirit
+theology_noun	life	Hy	life/living	Hy	Hy	The living
+theology_noun	life	Hy	life/living	Hym	Hyym	"life" (abstract)
+theology_noun	death	mt	death	mt	mt	Also deity Mot
+theology_noun	sin	Ht	sin	Ht	_	Transgression (Ug. only in file)
+theology_noun	name_heaven	$m	name/heavens	$m	$m	Divine name
+theology_noun	name_heaven	$m	name/heavens	$mm	$mym	"heavens"
+theology_noun	peace	$lm	peace/wellbeing	$lm	$lm|$lwm	Wholeness, also offering type
+theology_noun	peace	$lm	peace/wellbeing	$lmk	$lmk|$lwmk	"your peace"
+theology_noun	peace	$lm	peace/wellbeing	$lmm	$lmym	"peace offerings"
+theology_noun	peace	$lm	peace/wellbeing	y$lm	y$lm	"he is at peace"
+theology_noun	grace	Hnn	grace/mercy	Hnn	Hnn	Divine favor
+theology_noun	grace	Hnn	grace/mercy	Hnny	Hnny	"be gracious to me"
+theology_noun	compassion	rHm	compassion/womb	rHm	rHm	Motherly love / divine mercy
+theology_noun	compassion	rHm	compassion/womb	brHm	brHm	"in compassion"
+theology_noun	desire	Hmd	desire/covet	mHmd	mHmd	"desirable thing"
+theology_noun	portion	Hlq	portion/lot	xlq	Hlq	Divinely allotted share (Ug. x=Heb. H)
+theology_noun	portion	Hlq	portion/lot	yxlq	yHlq	"he divides"
+theology_noun	cloud	<nn	cloud	<nn	_	Divine riding-cloud (Ug. only)
+theology_noun	chariot	rkb	rider/chariot	rkb	rkb	"Rider of clouds" epithet
+theology_noun	chariot	rkb	rider/chariot	mrkbt	mrkbh|mrkbt|mrkbwt	"chariot"
+#
+# V. HIGH-RISK ACTIVITIES (subjects of prayer and ritual)
+#
+# Fertility and birth
+high_risk	birth	yld	give birth/beget	yld	yld	Childbirth
+high_risk	birth	yld	give birth/beget	wyld	wyld	"and he begot"
+high_risk	birth	yld	give birth/beget	yldy	yldy	"my offspring"
+high_risk	firstborn	bkr	firstborn	bkrm	bkwrym	"firstborns"
+high_risk	firstborn	bkr	firstborn	bkrk	bkwrk	"your firstborn"
+high_risk	barren	<qr	barren	<qr	_	Barrenness (Heb. only in file)
+#
+# Agriculture and harvest
+high_risk	harvest	qSr	harvest/reap	qSr	qSr	Grain harvest
+high_risk	seed	zr<	seed/sow	dr<	zr<	Sowing (Ug. d=Heb. z)
+high_risk	seed	zr<	seed/sow	*r<	zr<|zrw<	"seed"
+high_risk	seed	zr<	seed/sow	mdr<	mzr<	"sown field"
+high_risk	seed	zr<	seed/sow	tdr<	tzr<	"you sow"
+high_risk	field	Sd	field	Sd	Sd	Agricultural field
+high_risk	field	Sd	field	$dh	&dh|&dhw	"his field"
+high_risk	vineyard	krm	vineyard	krm	krm	Grape cultivation
+high_risk	vineyard	krm	vineyard	krmm	krmym	"vineyards"
+high_risk	vine	gpn	vine	gpn	gpn	Grapevine
+high_risk	vine	gpn	vine	gpnm	gpnym	"vines"
+high_risk	grain	$bl	grain/ear	$bl	_	Ear of wheat
+high_risk	grain	$bl	grain/ear	$blt	$blt	"ear of grain"
+high_risk	wine	yn	wine	yn	yyn	Drink offering / sustenance
+high_risk	oil	$mn	oil/fat	$mn	$mn	Anointing oil / sustenance
+high_risk	oil	$mn	oil/fat	$mny	$mny	"my oil"
+high_risk	rain	mTr	rain	mTr	mTr	Rainfall (critical for crops)
+high_risk	rain	mTr	rain	mTrh	mTrh|mTrw	"his rain"
+high_risk	dew	t<l	dew	t<l	t<l	Morning moisture
+high_risk	dew	t<l	dew	wt<l	wt<l	"and dew"
+high_risk	inheritance	nHl	inheritance/stream	nHl	nHl	Land-portion / watercourse
+high_risk	inheritance	nHl	inheritance/stream	nHlh	nHlh|nHlw	"his inheritance"
+high_risk	inheritance	nHl	inheritance/stream	nHlty	nHlty	"my inheritance"
+#
+# Livestock (sacrifice and sustenance)
+high_risk	ox	alp	ox/cattle	alp	alp	Sacrificial / draft animal
+high_risk	bull	$wr	bull	vr	$wr	Sacrificial bull (Ug. v=Heb. $w)
+high_risk	calf	<gl	calf	<gl	<gl	Young bovine
+high_risk	calf	<gl	calf	<glt	<glh|<glt|<glwt	"heifer"
+high_risk	calf	<gl	calf	<glm	<glym	"calves"
+high_risk	goat	<z	goat	<z	<wz	Sacrificial goat
+high_risk	sheep	$h	sheep/lamb	$h	_	Sacrificial lamb (Ug. only)
+high_risk	donkey	Hmr	donkey	Hmr	Hmwr	Beast of burden
+high_risk	donkey	Hmr	donkey	Hmrm	Hmwrym	"donkeys"
+#
+# War and conflict
+high_risk	bread_war	lHm	bread/fight	lHm	lHm	Sustenance and combat
+high_risk	bread_war	lHm	bread/fight	ylHm	ylHm	"he fights"
+high_risk	bread_war	lHm	bread/fight	tlHm	tlHm	"you fight"
+high_risk	war	mlHm	war/battle	mlHmt	mlHmh|mlHmt|mlHmwt	"war/battle"
+high_risk	journey	drk	way/journey	drk	drk|dwrk	Road/path (perilous travel)
+high_risk	healing	rpa	heal	rpan	_	Healing (Ug. only in file)
+high_risk	sea	any	ship	anyt	anyh|anyt|anywt	"ship" (sea voyage)
+high_risk	sea	any	ship	any	any	"fleet"
+#
+# ============================================================================
+# ADDITIONS FROM RECHECK (comprehensive sweep for missing terms)
+# ============================================================================
+#
+# VI. ADDITIONAL DEITY NAMES
+#
+deity_name	fertility_goddess	<$rh	Asherah	<$r	<&r	Fertility/mother goddess; sacred poles
+deity_name	fertility_goddess	<$rh	Asherah	<$rm	<&rym	"Asherahs" (plural, also cult objects)
+deity_name	fertility_goddess	<$rh	Asherah	<$rt	<&rh|<&rt|<&rwt	"Asherah" (f. form)
+deity_name	underworld_deity	Hrn	Horon	Hrn	Hrn	Underworld/apotropaic deity
+deity_name	divine_epithet	$dy	Shaddai	$dy	_	"El Shaddai" epithet (Ug. only in file)
+deity_name	divine_epithet	<ly	Elyon/Most High	<ly	<lh	"Most High" divine epithet
+#
+# VII. ADDITIONAL SACRIFICE/OFFERING VERBS
+#
+ritual_verb	give	ntn	give/dedicate	ntn	ntn	Core verb of offering/dedicating
+ritual_verb	give	ntn	give/dedicate	ytn	ytn	"he gives"
+ritual_verb	give	ntn	give/dedicate	ttn	ttn	"you/she give"
+ritual_verb	place	$m	place/put/set	$m	$m	Place offering before deity
+ritual_verb	exalt	yrm	raise up/exalt	yrm	yrwm	Lift up / exalt (deity or offering)
+#
+# VIII. COVENANT / SACRED BOND
+#
+theology_noun	covenant	brt	covenant	brt	_	Sacred pact (Ug. only in file)
+theology_noun	judgment	m$pT	judgment	mvpT	m$pT	Divine/legal judgment (Ug. v=Heb. $)
+theology_noun	judgment	m$pT	judgment	mvpTk	m$pTk	"your judgment"
+#
+# IX. BLOOD / FIRE / WATER (sacrifice elements)
+#
+ritual_noun	blood	dm	blood	dm	dm	Sacrificial blood
+ritual_noun	blood	dm	blood	dmm	_	"bloods" (Ug. only)
+ritual_noun	fire	a$/i$t	fire	i$t	a$	Sacred/sacrificial fire (Ug. i$t=Heb. a$)
+ritual_noun	water	mym	water	mym	mym	Ritual water / cosmic waters
+#
+# X. ADDITIONAL SACRED GEOGRAPHY
+#
+sacred_place	mountain	hr	mountain	hr	hr	Sacred mountain (divine abode)
+sacred_place	tree	<S	tree/wood	<S	<S	Sacred grove / ritual wood
+sacred_place	tree	<S	tree/wood	<Sm	<Sym	"trees" (plural)
+sacred_place	stone	abn	stone	abn	abn	Sacred pillar / standing stone (massebah)
+sacred_place	spring	<n	spring/fountain	<n	<yn	Sacred spring (Ug. <n=Heb. <yn)
+sacred_place	river	nhr	river	nhr	nhr	Cosmic river / sacred waterway
+sacred_place	river	nhr	river	nhrm	nhrym	"rivers" (plural)
+#
+# XI. KINGSHIP / SACRED AUTHORITY
+#
+theology_noun	throne	ks	throne	ks	kws	Divine throne (Ug. ks=Heb. kws)
+theology_noun	throne	ks	throne	ksa	ksa	"throne" (variant)
+theology_noun	prince	$r	prince/ruler	$r	$r|$yr|&r	Sacred rulership
+theology_noun	prince	$r	prince/ruler	$rm	$yrym|&rym	"princes" (plural)
+theology_noun	people	<m	people/nation	<m	<m	Covenant people / nation
+#
+# XII. MUSIC / PRAISE (ritual performance)
+#
+ritual_verb	sing	zmr	sing/praise	*mr	zmr	Ritual singing (Ug. *=Heb. z)
+ritual_verb	sing	zmr	sing/praise	azmr	zmwrh	"I sing"
+ritual_verb	sing	zmr	sing/praise	wy*mr	wyzmr	"and he sang"
+ritual_noun	drum	tp	drum/timbrel	tp	tp	Ritual percussion instrument
+#
+# XIII. PROPHETIC / VISIONARY
+#
+theology_noun	dream	Hlm	dream	Hlm	Hlm|Hlwm	Divine dream / prophetic vision
+#
+# XIV. KINSHIP IN DIVINE CONTEXT
+#
+theology_noun	father	ab	father	ab	ab	Divine fatherhood / "Father-god"
+theology_noun	mother	um	mother	um	am	Divine motherhood (Ug. um=Heb. am)
+theology_noun	son	bn	son	bn	bn|byn	Divine sonship / "Son of god"
+theology_noun	daughter	bt	daughter	bt	bt|byt	"Daughter of" (in theophoric names)
+theology_noun	brother	ax	brother	ax	aH	Divine brotherhood (Ug. x=Heb. H)
+#
+# XV. BODY PARTS (divine imagery and ritual)
+#
+theology_noun	hand	yd	hand (of god)	yd	yd	"Hand of El/Baal" — divine power
+theology_noun	hand	yd	hand (of god)	ydm	ydm	"hands"
+theology_noun	heart	lb	heart	lb	lb	Seat of devotion / divine intent
+theology_noun	eye	<yn	eye (divine)	<yn	_	"Eye of god" (Ug. only in file)
+theology_noun	mouth	p	mouth (divine speech)	p	ph	Divine pronouncement
+#
+# XVI. DIVINE ACTIONS
+#
+ritual_verb	call	qra	call/summon	qra	qra	Invoke deity / summon
+ritual_verb	call	qra	call/summon	yqra	yqra	"he calls/invokes"
+ritual_verb	hear	$m<	hear (divine hearing)	$m<	$m<	God hears prayer
+ritual_verb	hear	$m<	hear (divine hearing)	y$m<	y$m<	"he hears"
+theology_noun	voice	ql	voice/thunder	ql	qwl	Divine voice / thunder of storm-god

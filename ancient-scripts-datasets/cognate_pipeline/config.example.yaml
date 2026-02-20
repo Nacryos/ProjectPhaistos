@@ -1,0 +1,445 @@
+staging_dir: staging
+log_level: INFO
+batch_size: 5000
+
+# Glottolog languoid CSV (optional — needed for family-aware cognate detection)
+# glottolog_data_dir: /path/to/glottolog-data
+
+sources:
+  - name: ugaritic_hebrew
+    path: ../ancient-scripts-datasets/data/ugaritic/uga-heb.small.no_spe.cog
+    format: cog
+    license: "Research / Fair Use"
+    license_url: ""
+    citation_bibtex: |
+      @article{luo2021deciphering,
+        title={Deciphering Undersegmented Ancient Scripts Using Phonetic Prior},
+        author={Luo, Jiaming and Hartmann, Frederik and Santus, Enrico and Barzilay, Regina and Cao, Yuan},
+        journal={Transactions of the Association for Computational Linguistics},
+        year={2021}
+      }
+    column_mapping:
+      language: null
+      form: null
+      concept: null
+    delimiter: "\t"
+    extra:
+      lang_a: uga
+      lang_b: heb
+      header_a: "uga-no_spe"
+      header_b: "heb-no_spe"
+
+  - name: religious_terms
+    path: ../ancient-scripts-datasets/data/religious_terms/ugaritic_hebrew_religious.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: null
+      form: ugaritic_form
+      concept: english_meaning
+      ipa: null
+    delimiter: "\t"
+    extra:
+      lang_a_col: ugaritic_form
+      lang_b_col: hebrew_cognate
+
+  # --- Validation branches (9 phylogenetic families) ---
+
+  - name: germanic
+    path: ../ancient-scripts-datasets/data/validation/germanic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: celtic
+    path: ../ancient-scripts-datasets/data/validation/celtic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: balto_slavic
+    path: ../ancient-scripts-datasets/data/validation/balto_slavic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: indo_iranian
+    path: ../ancient-scripts-datasets/data/validation/indo_iranian.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: italic
+    path: ../ancient-scripts-datasets/data/validation/italic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: hellenic
+    path: ../ancient-scripts-datasets/data/validation/hellenic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: semitic
+    path: ../ancient-scripts-datasets/data/validation/semitic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: turkic
+    path: ../ancient-scripts-datasets/data/validation/turkic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: uralic
+    path: ../ancient-scripts-datasets/data/validation/uralic.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  # --- Cross-family names subset (deity, proper, place names) ---
+
+  - name: names
+    path: ../ancient-scripts-datasets/data/validation/names.tsv
+    format: tsv
+    license: "Research / Fair Use"
+    column_mapping:
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  # --- Expanded validation branches (original langs + CLDF additions) ---
+
+  - name: germanic_expanded
+    path: ../ancient-scripts-datasets/data/validation/germanic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: &expanded_cols
+      language: Language_ID
+      form: Form
+      concept: Parameter_ID
+      ipa: IPA
+      glottocode: Glottocode
+
+  - name: celtic_expanded
+    path: ../ancient-scripts-datasets/data/validation/celtic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: balto_slavic_expanded
+    path: ../ancient-scripts-datasets/data/validation/balto_slavic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: indo_iranian_expanded
+    path: ../ancient-scripts-datasets/data/validation/indo_iranian_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: italic_expanded
+    path: ../ancient-scripts-datasets/data/validation/italic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: hellenic_expanded
+    path: ../ancient-scripts-datasets/data/validation/hellenic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: semitic_expanded
+    path: ../ancient-scripts-datasets/data/validation/semitic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: turkic_expanded
+    path: ../ancient-scripts-datasets/data/validation/turkic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: uralic_expanded
+    path: ../ancient-scripts-datasets/data/validation/uralic_expanded.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  # --- New language families ---
+
+  - name: albanian
+    path: ../ancient-scripts-datasets/data/validation/albanian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: armenian
+    path: ../ancient-scripts-datasets/data/validation/armenian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: dravidian
+    path: ../ancient-scripts-datasets/data/validation/dravidian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: kartvelian
+    path: ../ancient-scripts-datasets/data/validation/kartvelian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: austronesian
+    path: ../ancient-scripts-datasets/data/validation/austronesian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: sino_tibetan
+    path: ../ancient-scripts-datasets/data/validation/sino_tibetan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: mongolic
+    path: ../ancient-scripts-datasets/data/validation/mongolic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: tungusic
+    path: ../ancient-scripts-datasets/data/validation/tungusic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: japonic
+    path: ../ancient-scripts-datasets/data/validation/japonic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: koreanic
+    path: ../ancient-scripts-datasets/data/validation/koreanic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: northeast_caucasian
+    path: ../ancient-scripts-datasets/data/validation/northeast_caucasian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: northwest_caucasian
+    path: ../ancient-scripts-datasets/data/validation/northwest_caucasian.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: eskimo_aleut
+    path: ../ancient-scripts-datasets/data/validation/eskimo_aleut.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: isolates
+    path: ../ancient-scripts-datasets/data/validation/isolates.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: afroasiatic_berber
+    path: ../ancient-scripts-datasets/data/validation/afroasiatic_berber.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: afroasiatic_chadic
+    path: ../ancient-scripts-datasets/data/validation/afroasiatic_chadic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: afroasiatic_cushitic
+    path: ../ancient-scripts-datasets/data/validation/afroasiatic_cushitic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: niger_congo_bantu
+    path: ../ancient-scripts-datasets/data/validation/niger_congo_bantu.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: tai_kadai
+    path: ../ancient-scripts-datasets/data/validation/tai_kadai.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: austroasiatic
+    path: ../ancient-scripts-datasets/data/validation/austroasiatic.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: mayan
+    path: ../ancient-scripts-datasets/data/validation/mayan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: uto_aztecan
+    path: ../ancient-scripts-datasets/data/validation/uto_aztecan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: quechuan
+    path: ../ancient-scripts-datasets/data/validation/quechuan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: hmong_mien
+    path: ../ancient-scripts-datasets/data/validation/hmong_mien.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: chukotko_kamchatkan
+    path: ../ancient-scripts-datasets/data/validation/chukotko_kamchatkan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: yukaghir
+    path: ../ancient-scripts-datasets/data/validation/yukaghir.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: saharan
+    path: ../ancient-scripts-datasets/data/validation/saharan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  - name: pama_nyungan
+    path: ../ancient-scripts-datasets/data/validation/pama_nyungan.tsv
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping: *expanded_cols
+
+  # --- Training data (full-dictionary scale) ---
+
+  - name: training_lexicons
+    path: ../ancient-scripts-datasets/data/training/lexicons/
+    format: tsv
+    license: "CC-BY / Research / WikiPron"
+    column_mapping:
+      language: null
+      form: Word
+      concept: Concept_ID
+      ipa: IPA
+    extra:
+      description: "Per-language lexicon TSVs from WikiPron + CLDF sources"
+      entries_target: 4000000
+
+  - name: training_cognate_pairs
+    path: ../ancient-scripts-datasets/data/training/cognate_pairs/
+    format: tsv
+    license: "CC-BY / Research"
+    column_mapping:
+      language: null
+      form: null
+      concept: Concept_ID
+    extra:
+      description: "Cognate pair files (inherited, similarity, borrowing)"
+
+database:
+  host: localhost
+  port: 5432
+  name: cognate_db
+  user: postgres
+  password: ""
+  schema_name: public
+
+normalisation:
+  unicode_form: NFC
+  strip_suprasegmentals: false
+  strip_whitespace: true
+  ipa_backend_priority:
+    - attested
+    - epitran
+    - phonemizer
+  transliteration_passthrough: true
+
+cognate:
+  method: baseline_lev
+  clustering: connected_components
+  threshold: 0.5
+  family_aware: true
+  batch_size: 10000
+
+export:
+  cldf_output_dir: export/cldf
+  jsonld_output_dir: export/jsonld
+  include_provenance: true

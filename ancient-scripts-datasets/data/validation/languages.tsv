@@ -1,0 +1,200 @@
+Language_ID	Name	Family	Glottocode
+abk	Abkhaz	northwest_caucasian	abkh1244
+ady	Adyghe	northwest_caucasian	adyg1241
+ain	Ainu	isolates	ainu1240
+ale	Aleut	eskimo_aleut	aleu1260
+amh	Amharic	semitic	amha1245
+ami	Amis (Central)	austronesian	amis1246
+ang	Old English	germanic	olde1238
+aqc	Archi	northeast_caucasian	arch1244
+arb	Arabic	semitic	stan1318
+arn	Mapudungun	araucanian	mapu1245
+ava	Avar	northeast_caucasian	avar1256
+ave	Avestan	indo_iranian	aves1237
+aze	Azerbaijani	turkic	nort2697
+azj	North Azerbaijani	turkic	nort2697
+bak	Bashkir	turkic	bash1264
+ban	Balinese	austronesian	bali1278
+bca	Jianchuan Bai	sino_tibetan	jian1238
+bel	Belarusian	balto_slavic	bela1254
+ben	Bengali	indo_iranian	beng1280
+bod	Classical Tibetan	sino_tibetan	clas1255
+bre	Breton	celtic	bret1244
+bsk	Burushaski	isolates	buru1296
+bua	Buryat	mongolic	buri1258
+bug	Buginese (Soppeng Dialect)	austronesian	bugi1244
+bul	Bulgarian	balto_slavic	bulg1262
+car	Kali'na	cariban	gali1262
+cat	Catalan	italic	stan1289
+ceb	Cebuano	austronesian	cebu1242
+ces	Czech	balto_slavic	czec1258
+cha	Chamorro	austronesian	cham1312
+che	Chechen	northeast_caucasian	chec1245
+chk	Chuukese	austronesian	chuu1238
+chu	Old Church Slavonic	balto_slavic	chur1257
+chv	Chuvash	turkic	chuv1255
+ckt	Chukchi	chukotko_kamchatkan	chuk1273
+cmn	Mandarin Chinese	sino_tibetan	mand1415
+cnh	Hakha Chin	sino_tibetan	hakn1238
+crs	Seychelles Creole	creole	seyc1239
+cwg	Ceq Wong	austroasiatic	ceqw1242
+cym	Welsh	celtic	wels1247
+dan	Danish	germanic	dani1285
+dar	Dargwa	northeast_caucasian	darg1241
+ddo	Tsez	northeast_caucasian	tsez1241
+deu	German	germanic	stan1295
+dsb	Lower Sorbian	balto_slavic	lowe1385
+duu	Drung	sino_tibetan	drun1238
+ekk	Estonian (NEL)	uralic	esto1258
+ell	Modern Greek	hellenic	mode1248
+enf	Forest Enets	uralic	fore1255
+eng	English	germanic	stan1293
+ess	Central Siberian Yupik	eskimo_aleut	cent2127
+est	Estonian	uralic	esto1258
+eus	Basque	isolates	basq1248
+evn	Evenki	tungusic	even1259
+fas	Persian	indo_iranian	west2369
+fij	Fijian (Bau)	austronesian	bauu1243
+fin	Finnish	uralic	finn1318
+fra	French	italic	stan1290
+gil	Kiribati	austronesian	gilb1244
+gld	Nanai	tungusic	nana1257
+gle	Irish	celtic	iris1253
+gmy	Mycenaean Greek	hellenic	myce1241
+goh	Old High German	germanic	oldh1241
+got	Gothic	germanic	goth1244
+grc	Ancient Greek	hellenic	anci1242
+gue	Gurindji	pama_nyungan	guri1247
+gwd	Gawwada	afroasiatic_cushitic	gaww1239
+hau	Hausa	afroasiatic_chadic	haus1257
+haw	Hawaiian	austronesian	hawa1245
+heb	Hebrew	semitic	hebr1245
+hil	Hiligaynon	austronesian	hili1240
+hin	Hindi	indo_iranian	hind1269
+hrv	Croatian	balto_slavic	croa1245
+hun	Hungarian	uralic	hung1274
+hye	Armenian	armenian	nucl1235
+ilo	Ilokano	austronesian	ilok1237
+ind	Indonesian	austronesian	indo1316
+irk	Iraqw	afroasiatic_cushitic	iraq1241
+isl	Icelandic	germanic	icel1247
+ita	Italian	italic	ital1282
+itl	Itelmen	chukotko_kamchatkan	itel1242
+jav	Javanese	austronesian	java1254
+jpn	Japanese	japonic	nucl1643
+jup	Hup	naduhup	hupp1235
+jya	Japhug	sino_tibetan	japh1234
+kac	Jingpho	sino_tibetan	jinp1238
+kal	Kalaallisut	eskimo_aleut	kala1399
+kan	Kannada	dravidian	nucl1305
+kap	Bezhta	northeast_caucasian	bezh1248
+kat	Georgian	kartvelian	nucl1302
+kaz	Kazakh	turkic	kaza1248
+kca	Khanty	uralic	khan1273
+kek	Q'eqchi'	mayan	keqc1242
+ket	Ket	isolates	kett1243
+khk	Mongolian	mongolic	halh1238
+klr	Khaling	sino_tibetan	khal1275
+kmr	Northern Kurdish	indo_iranian	nort2641
+knc	Kanuri	saharan	cent2050
+koi	Komi-Permyak	uralic	komi1269
+kor	Korean	koreanic	kore1280
+kos	Kusaie	austronesian	kosr1238
+kpv	Komi-Zyrian	uralic	komi1268
+krl	Karelian	uralic	kare1335
+lat	Latin	italic	lati1261
+lav	Latvian	balto_slavic	latv1249
+lbe	Lak	northeast_caucasian	lakk1252
+lez	Lezgian	northeast_caucasian	lezg1247
+lif	Limbu	sino_tibetan	limb1266
+lis	Lisu	sino_tibetan	lisu1250
+lit	Lithuanian	balto_slavic	lith1251
+liv	Livonian	uralic	livn1244
+mah	Marshallese (E. Dialect)	austronesian	rata1243
+mal	Malayalam	dravidian	mala1464
+mdf	Moksha	uralic	moks1248
+mhr	Eastern Mari	uralic	east2328
+min	Minangkabau	austronesian	mina1268
+mlg	Malagasy	austronesian	plat1254
+mnc	Manchu	tungusic	manc1252
+mns	Mansi	uralic	mans1258
+mri	Maori	austronesian	maor1246
+mrj	Western Mari	uralic	west2392
+mww	White Hmong	hmong_mien	hmon1333
+myv	Erzya	uralic	erzy1239
+mzh	Wichi	matacoan	wich1264
+nio	Nganasan	uralic	ngan1291
+niu	Niue	austronesian	niue1239
+niv	Nivkh	isolates	gily1242
+nld	Dutch	germanic	dutc1256
+nmm	Manange	sino_tibetan	mana1288
+non	Old Norse	germanic	oldn1244
+nor	Norwegian	germanic	norw1258
+nxq	Naxi	sino_tibetan	naxi1245
+obr	Old Burmese	sino_tibetan	oldb1235
+och	Old Chinese	sino_tibetan	oldc1244
+olo	Livvi Karelian	uralic	livv1244
+orh	Oroqen	tungusic	oroq1238
+osc	Oscan	italic	osca1245
+oss	Ossetian	indo_iranian	osse1243
+ote	Mezquital Otomi	otomanguean	mezt1237
+otk	Old Turkic	turkic	oldt1247
+pag	Pangasinan	austronesian	pang1290
+pbu	Northern Pashto	indo_iranian	nort2646
+pes	Western Farsi	indo_iranian	west2369
+plt	Merina (Malagasy)	austronesian	meri1243
+pmi	Pumi	sino_tibetan	nort2743
+pol	Polish	balto_slavic	poli1260
+por	Portuguese	italic	port1283
+pwn	Paiwan (Kulalao F82)	austronesian	paiw1248
+qvi	Imbabura Quechua	quechuan	imba1240
+qxs	Mawo Qiang	sino_tibetan	mawo1239
+rap	Rapanui (Easter Island)	austronesian	rapa1244
+rar	Rarotongan	austronesian	raro1241
+rif	Tarifiyt Berber	afroasiatic_berber	tari1263
+rmn	Selice Romani	indo_iranian	seli1249
+ron	Romanian	italic	roma1327
+rus	Russian	balto_slavic	russ1263
+sah	Yakut/Sakha	turkic	yaku1245
+san	Sanskrit	indo_iranian	sans1269
+sel	Selkup	uralic	selk1253
+sga	Old Irish	celtic	oldi1245
+sjd	Kildin Sami	uralic	kild1236
+slk	Slovak	balto_slavic	slov1269
+slv	Slovenian	balto_slavic	slov1268
+sma	Southern Sami	uralic	sout2674
+sme	Northern Sami	uralic	nort2671
+smj	Lule Sami	uralic	lule1254
+smn	Inari Sami	uralic	inar1241
+smo	Samoan	austronesian	samo1305
+sms	Skolt Sami	uralic	skol1241
+spa	Spanish	italic	stan1288
+sqi	Albanian	albanian	alba1268
+sun	Sundanese	austronesian	sund1252
+swe	Swedish	germanic	swed1254
+swh	Swahili	niger_congo_bantu	swah1253
+tam	Tamil	dravidian	tami1289
+tat	Tatar	turkic	tata1255
+tay	Atayal - Squliq F69	austronesian	atay1247
+tbc	Takia	austronesian	taki1248
+tel	Telugu	dravidian	telu1262
+tet	Tetun Terik (Fehan dialect)	austronesian	tetu1245
+tgl	Tagalog	austronesian	taga1270
+tha	Thai	tai_kadai	thai1261
+tji	Northern Tujia	sino_tibetan	nort2726
+ton	Tongan	austronesian	tong1325
+tur	Turkish	turkic	nucl1301
+tzo	Zinacantán Tzotzil	mayan	tzel1254
+udm	Udmurt	uralic	udmu1245
+ukr	Ukrainian	balto_slavic	ukra1253
+uzn	Northern Uzbek	turkic	nort2690
+vep	Veps	uralic	veps1250
+vie	Vietnamese	austroasiatic	viet1252
+xal	Kalmyk	mongolic	kalm1243
+xum	Umbrian	italic	umbr1253
+yaq	Yaqui	uto_aztecan	yaqu1251
+ykg	Northern Yukaghir	yukaghir	nort2745
+yrk	Tundra Nenets	uralic	tund1250
+yux	Southern Yukaghir	yukaghir	sout2750
+zlm	Melayu Sarawak (dialect)	austronesian	mala1479
+zsm	Melayu	austronesian	stan1306

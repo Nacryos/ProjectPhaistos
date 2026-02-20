@@ -1,0 +1,147 @@
+category	subcategory	gothic_word	english_meaning	example_verse	notes
+# ============================================================================
+# GOTHIC RELIGIOUS VOCABULARY
+# Extracted from gotica.txt (Wulfila's Gothic Bible, 4th century CE)
+# Source: Project Wulfila (wulfila.be), Streitberg 1919 edition
+# ============================================================================
+#
+# I. GOD / DEITY TERMS
+#
+deity_term	supreme	guþ	God	Mt 5:34 "stols ist gudis"	Also gen. gudis, dat. guda
+deity_term	supreme	frauja	Lord	Mt 5:33 "usgibais fraujin aiþans"	Also dat. fraujin
+deity_term	messiah	Xristus	Christ	Jn 6:69 "þu is Xristus sunus gudis"	Greek loanword
+deity_term	spirit	ahma	Spirit/Ghost	Jn 6:63 "ahma ist saei liban taujiþ"	Also gen. ahmins
+deity_term	angel	aggilus	angel	Mt 11:10 "insandja aggilu meinana"	Greek loanword
+deity_term	demon	unhulþo	devil/demon	Mt 7:22 "unhulþons uswaurpum"	Native Gothic term for evil spirit
+deity_term	adversary	Satana	Satan	Jn 13:27 "galaiþ in jainana Satana"	Hebrew loanword
+#
+# II. WORSHIP / RITUAL TERMS
+#
+# Ritual verbs
+ritual_verb	sacrifice	hunsl	sacrifice/offering	Mt 9:13 "armahairtiþa wiljau jah ni hunsl"	Also hunslastada=altar/sacrifice-place
+ritual_verb	pray	bidjan	pray	Mt 6:5 "bidjaiþ ni sijaiþ swaswe þai liutans"	Also bidjam, bidjaiþ; core worship verb
+ritual_verb	consecrate	weihnai	hallow/sanctify	Mt 6:9 "weihnai namo þein"	Lord's Prayer: "hallowed be thy name"
+ritual_verb	baptize	daupjan	baptize	Mt 11:11 "Iohanne þamma daupjandin"	Also daupein (baptism)
+ritual_verb	swear	swaran	swear/oath	Mt 5:34 "ni swaran allis ni bi himina"	Sacred oath-taking
+ritual_verb	fast	fastan	fast	Mt 6:16 "biþe fastaiþ"	Ritual abstinence
+ritual_verb	give_alms	armaio	alms/charity	Mt 6:1 "armaion izwara ni taujan"	Charitable offering
+#
+# Ritual nouns
+ritual_noun	gospel	aiwaggeljons	gospel/good news	Mk 1:1 "Anastodeins aiwaggeljons"	"eternal good tidings"
+ritual_noun	prophet	praufetus	prophet	Mt 5:17 "witoþ aiþþau praufetuns"	Greek loanword
+ritual_noun	apostle	apaustaulus	apostle	Jn 13:16 "nih apaustaulus maiza"	Greek loanword
+ritual_noun	assembly	gaqumþ	synagogue/assembly	Mt 6:2 "in gaqumþim jah garunsim"	Place of communal worship
+ritual_noun	temple	alh	temple	Jn 7:14 "usstaig Iesus in alh"	Sacred building
+ritual_noun	oath	aiþs	oath	Mt 5:33 "aiþans þeinans"	Sacred sworn commitment
+ritual_noun	offering	giba	gift/offering	Mt 5:24 "atbair þo giba þeina"	Gift brought to altar
+ritual_noun	law	witoþ	law/Torah	Mt 5:17 "gatairan witoþ"	Mosaic law / divine commandment
+ritual_noun	reward	mizdo	reward/wages	Mt 5:46 "ƕo mizdono habaiþ"	Divine recompense
+#
+# Eucharistic terms
+eucharist	bread	hlaifs	bread	Mt 6:11 "hlaif unsarana þana sinteinan"	Lord's Prayer: daily bread; eucharistic
+eucharist	wine	wein	wine	Mt 9:17 "wein niujata in balgins"	Eucharistic wine; drink offering
+eucharist	cup	stikls	cup	Jn 18:11 "stikl þanei gaf mis atta"	Eucharistic cup
+#
+# III. SIN / SALVATION
+#
+sin_salvation	sin	frawaurht	sin/transgression	Mt 9:2 "afletanda þus frawaurhteis"	Also frawaurhtins (sins)
+sin_salvation	forgive	afletan	forgive/release	Mt 6:12 "aflet uns þatei skulans"	Lord's Prayer: forgive us
+sin_salvation	redeem	lausjan	redeem/deliver	Mt 27:43 "lausjadau nu ina"	Liberation from bondage
+sin_salvation	save	nasjan	save/rescue	Mt 27:49 "nasjan ina"	Also ganasjan; salvation
+sin_salvation	believe	galaubjan	believe/have faith	Mt 6:30 "leitil galaubjandans"	Faith/trust in God
+sin_salvation	resurrection	usstass	resurrection	Jn 11:25 "ik im so usstass jah libains"	Rising from death
+sin_salvation	reconcile	gafriþon	reconcile/make peace	2Cor 5:18 "gafriþondin uns sis þairh Xristu"	Restoration of divine relationship
+sin_salvation	righteous	garaihts	righteous/just	Mt 5:45 "rigneiþ ana garaihtans"	Also garaihteins (righteousness)
+sin_salvation	mercy	armahairtiþa	mercy/compassion	Mt 9:13 "armahairtiþa wiljau"	"arm-heart" = tender-hearted
+#
+# IV. SACRED CONCEPTS
+#
+# Nouns
+sacred_noun	soul	saiwala	soul	Mt 6:25 "ni maurnaiþ saiwalai izwarai"	Immortal essence
+sacred_noun	body	leik	body	Mt 5:29 "allata leik þein"	Physical frame
+sacred_noun	heaven	himins	heaven	Mt 5:16 "attan izwarana þana in himinam"	Divine abode; also himinam (dat. pl.)
+sacred_noun	hell	halja	hell/Hades	Lk 10:15 "und halja gadrausjaza"	Underworld
+sacred_noun	gehenna	gaiainnan	Gehenna/hell-fire	Mt 5:22 "in gaiainnan funins"	Fire of judgment
+sacred_noun	kingdom	þiudangardi	kingdom (of God)	Mt 6:13 "þeina ist þiudangardi"	Lord's Prayer: divine realm
+sacred_noun	glory	wulþus	glory	Mt 6:13 "mahts jah wulþus in aiwins"	Divine radiance
+sacred_noun	power	mahts	power/might	Mt 6:13 "þeina ist þiudangardi jah mahts"	Divine authority
+sacred_noun	grace	ansts	grace/favor	Lk 1:28 "anstai audahafta"	Unmerited divine favor
+sacred_noun	cross	galga	cross/gallows	Mt 10:38 "saei ni nimiþ galgan seinana"	Instrument of execution/salvation
+sacred_noun	word	waurd	word (divine)	Jn 6:60 "hardu ist þata waurd"	Logos / divine speech
+#
+# Relational/familial (in divine context)
+sacred_noun	father	atta	father	Mt 6:9 "atta unsar þu in himinam"	Lord's Prayer: Our Father
+sacred_noun	son	sunus	son	Jn 6:69 "sunus gudis"	Son of God
+sacred_noun	brother	broþar	brother	Mt 5:22 "modags broþr seinamma"	In community of faith
+#
+# V. HIGH-RISK / PRAYED-FOR
+#
+high_risk	sickness	sauhtins	sickness/disease	Mt 9:35 "hailjands allos sauhtins"	Subject of healing prayers
+high_risk	heal	hailjan	heal	Mt 8:7 "ik qimands gahailja ina"	Miraculous/divine healing
+high_risk	birth	gabaurþs	birth	Jn 9:1 "blindamma us gabaurþai"	Also gabaurans (born)
+high_risk	child	barn	child	Jn 16:21 "biþe gabauran ist barn"	Offspring; divine blessing
+high_risk	death	dauþus	death	Mt 8:22 "let þans dauþans"	Also dauþans (the dead)
+high_risk	harvest	asans	harvest	Mt 9:37 "asans raihtis managa"	"pray the Lord of the harvest"
+high_risk	earth	airþa	earth/land	Mt 6:10 "swe in himina jah ana airþai"	Lord's Prayer: on earth
+high_risk	enemy	fijands	enemy	Mt 5:44 "frijoþ fijands izwarans"	Threat to survival
+high_risk	temptation	fraistubni	temptation/trial	Mt 6:13 "ni briggais uns in fraistubnjai"	Lord's Prayer: lead us not into
+high_risk	evil	ubils	evil	Mt 6:13 "lausei uns af þamma ubilin"	Lord's Prayer: deliver us from evil
+#
+# ============================================================================
+# ADDITIONS FROM RECHECK (comprehensive sweep for missing terms)
+# ============================================================================
+#
+# VI. CHURCH / COMMUNITY
+#
+community	church	aikklesjo	church/ecclesia	Rom 16:23 "allaizos aikklesjons"	Greek loanword; assembly of believers
+community	feast	dulþs	feast/festival	Jn 7:2 "dulþs Iudaie so hleþrastakeins"	Religious festival / holy day
+community	sabbath	sabbato	Sabbath	Jn 9:14 "wasuh þan sabbato"	Weekly holy rest day
+community	passover	paska	Passover/Easter	Lk 2:41 "at dulþ paska"	Hebrew loanword; paschal feast
+community	pentecost	paintekuste	Pentecost	1Cor 16:8 "und paintekusten"	Feast of Weeks / Shavuot
+#
+# VII. ADDITIONAL SIN / TRANSGRESSION
+#
+sin_salvation	transgression	missadeds	misdeed/transgression	Mt 6:14 "afletiþ mannam missadedins"	Also missadedins (plural)
+sin_salvation	accusation	fairina	sin/fault/accusation	Jn 18:38 "ainohun fairino ni bigita"	Charge / moral failing
+sin_salvation	dishonor	unswerei	dishonor	Jn 8:49 "jus unsweraiþ mik"	Profaning / showing disrespect
+#
+# VIII. ADDITIONAL SACRED ACTIONS
+#
+ritual_verb	offer	saljan	offer/sacrifice	Jn 16:2 "hunsla saljan guda"	"to offer sacrifice to God"
+ritual_verb	anoint	salbon	anoint	Jn 11:2 "salboda fraujan balsana"	Ritual anointing (messianic act)
+ritual_verb	worship	blotjan	worship/venerate	Mk 7:7 "sware mik blotand"	Native Gothic worship verb
+ritual_verb	bless	þiuþjan	bless/praise	Jn 12:13 "þiuþida sa qimanda in namin fraujins"	Pronounce blessing
+ritual_verb	glorify	mikiljan	magnify/glorify	Lk 2:20 "hairdjos mikiljandans guþ"	Make great / praise God
+ritual_verb	praise	hazjan	praise	Lk 2:13 "harjis himinakundis hazjandane guþ"	Heavenly host praising God
+#
+# IX. COVENANT / LAW
+#
+sacred_noun	covenant	triggwa	covenant/truce	Lk 1:72 "triggwos weihaizos seinaizos"	"holy covenant"; sacred pact
+sacred_noun	commandment	anabusns	commandment	Mt 5:19 "aina anabusne þizo minnistono"	Divine instruction
+sacred_noun	decree	garaideins	decree/ordinance	Rom 13:2 "gudis garaideinai andstoþ"	God's ordinance
+#
+# X. SACRED PERSONS
+#
+sacred_person	priest	gudja	priest	Mt 27:1 "allai gudjans jah sinistans"	Native Gothic: lit. "god-servant"
+sacred_person	deacon	diakaunus	deacon/minister	1Tim 3:8 "diakaununs gariudans"	Greek loanword; church minister
+sacred_person	bishop	aipiskaupus	bishop/overseer	1Tim 3:2 "aipiskaupus ungafairinonds"	Church leader / elder
+sacred_person	servant	þiumagus	servant (of God)	Mt 8:6 "þiumagus meins ligiþ in garda"	Domestic servant; also divine service
+sacred_person	slave	skalks	servant/slave	Mt 10:24 "nih skalks ufar fraujin"	Bondservant; servitude to God
+#
+# XI. ESCHATOLOGICAL
+#
+sacred_noun	coming	qums	coming/advent	Mk 9:1 "þiudinassu gudis qumanana in mahtai"	Divine advent / second coming
+#
+# XII. LIFE EVENTS / BLESSINGS
+#
+high_risk	love	frijaþwa	love	1Cor 16:24 "frijaþwa meina miþ allaim izwis"	Divine/brotherly love; agape
+high_risk	betrothal	gawadjom	betrothed	2Cor 11:2 "gawadjoda auk izwis ainamma waira"	Sacred marriage bond
+high_risk	inheritance	arbi	heir/inheritance	Lk 20:14 "sa ist sa arbinumja"	Divine inheritance; promised land
+high_risk	year	aþn	year (liturgical)	Gal 4:10 "dagam jah menoþum jah aþnam"	Liturgical calendar year
+high_risk	marriage	liugan	marry	Mt 5:32 "sa ize afsatida liugaiþ"	Sacred marriage institution
+#
+# XIII. WATER / CLEANSING
+#
+ritual_noun	water	wato	water	Lk 3:16 "ik izwis watin daupja"	Baptismal/ritual water
+ritual_verb	wash	þwahan	wash (ritual)	Jn 9:7 "gagg þwahan in swumsl Siloamis"	Ritual purification washing
+sacred_place	well	brunna	spring/well	Mk 5:29 "gaþaursnoda sa brunna bloþis"	Sacred spring / source

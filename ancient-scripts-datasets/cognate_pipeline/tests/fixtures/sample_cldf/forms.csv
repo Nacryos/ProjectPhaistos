@@ -1,0 +1,16 @@
+ID,Language_ID,Parameter_ID,Form,Segments
+f1,lang_uga,water,my,m y
+f2,lang_uga,house,bt,b t
+f3,lang_uga,father,ab,a b
+f4,lang_uga,hand,yd,y d
+f5,lang_uga,god,il,i l
+f6,lang_heb,water,maym,m a y m
+f7,lang_heb,house,bayt,b a y t
+f8,lang_heb,father,ab,a b
+f9,lang_heb,hand,yad,y a d
+f10,lang_heb,god,el,e l
+f11,lang_got,water,wato,w a t o
+f12,lang_got,house,razn,r a z n
+f13,lang_got,father,atta,a t t a
+f14,lang_got,hand,handus,h a n d u s
+f15,lang_got,god,guth,g u θ

@@ -67,12 +67,12 @@ closeness_targets:
         known_col_candidates: [old_english_stem, old_english, oe, known, target, cognate]
       Latin:
         source: xml_vocab
-        path: third_party/ancient-scripts-datasets/data/cited_sources/genesis/Latin.xml
+        path: ../ancient-scripts-datasets/data/cited_sources/genesis/Latin.xml
         min_len: 4
         required: true
       Basque:
         source: xml_vocab
-        path: third_party/ancient-scripts-datasets/data/cited_sources/basque/Basque-NT.xml
+        path: ../ancient-scripts-datasets/data/cited_sources/basque/Basque-NT.xml
         min_len: 4
         required: true
       Arabic:
@@ -127,12 +127,12 @@ closeness_targets:
         required: false
       Latin:
         source: xml_vocab
-        path: third_party/ancient-scripts-datasets/data/cited_sources/genesis/Latin.xml
+        path: ../ancient-scripts-datasets/data/cited_sources/genesis/Latin.xml
         min_len: 3
         required: true
       Basque:
         source: xml_vocab
-        path: third_party/ancient-scripts-datasets/data/cited_sources/basque/Basque-NT.xml
+        path: ../ancient-scripts-datasets/data/cited_sources/basque/Basque-NT.xml
         min_len: 3
         required: true
     eval_pairs:
@@ -153,12 +153,12 @@ closeness_targets:
         known_col_candidates: [latin, latin_stem, known, target, cognate]
       Basque:
         source: xml_vocab
-        path: third_party/ancient-scripts-datasets/data/cited_sources/basque/Basque-NT.xml
+        path: ../ancient-scripts-datasets/data/cited_sources/basque/Basque-NT.xml
         min_len: 2
         required: true
       Hebrew:
         source: xml_vocab
-        path: third_party/ancient-scripts-datasets/data/cited_sources/genesis/Hebrew.xml
+        path: ../ancient-scripts-datasets/data/cited_sources/genesis/Hebrew.xml
         min_len: 2
         required: true
       PG:
