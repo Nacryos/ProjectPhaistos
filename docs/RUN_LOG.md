@@ -4,6 +4,64 @@ Reverse-chronological notes, reports, and observations from model investigation,
 
 ---
 
+## 2026-02-20 — Implementation: Panphon + Grouped Projections (commit 419eef7)
+
+**Phase:** Implementation
+**Status:** Complete — pushed to main
+**Commit:** `419eef7`
+
+### Changes Made
+
+**`repro/eval/common.py` — Feature extraction rewrite**
+- Replaced `build_char_feature_matrix()`: was 8-dim pseudo-random (`ord(char) % N`), now 21-dim panphon articulatory features
+- Added `PANPHON_FEATURE_GROUPS` constant defining 5 phonological categories:
+  - `major_class` (3): syl, son, cons
+  - `manner` (5): cont, delrel, lat, nas, strid
+  - `laryngeal` (3): voi, sg, cg
+  - `place` (4): ant, cor, distr, lab
+  - `vowel_body` (6): hi, lo, back, round, tense, long
+- Added `_IPA_CHAR_NORM` mapping for non-IPA characters in our data: Gothic þ->θ, ƕ->x, ȝ->ɣ, macron vowels->IPA long, ASCII g->IPA ɡ
+- Added diacritic fallback: strips combining marks and retries base character
+- Lazy-loaded panphon with `PYTHONUTF8=1` to handle Windows cp1252 encoding issue
+
+**`repro/model/phonetic_prior.py` — Grouped projector architecture**
+- Added `GroupedIPAProjector(nn.Module)`: 5 independent `nn.Linear(group_size, group_dim, bias=False)` modules
+- Embedding dim distributed evenly: e.g., dim=35 -> 5 groups of 7 dims each
+- `PhoneticPriorModel.__init__` auto-selects `GroupedIPAProjector` when feature dim matches panphon layout (sum of group sizes == 21), falls back to single `nn.Linear` for one-hot features
+- Added `ipa_group_sizes` to `PhoneticPriorConfig` dataclass
+
+**`requirements.txt`**
+- Added `panphon>=0.22`
+
+### Verification Results
+
+| Test | Result |
+|---|---|
+| [b] vs [p] feature diff | 1/21 (voicing only) — correct |
+| [d] vs [t] feature diff | 1/21 (voicing only) — correct |
+| [s] vs [z] feature diff | 1/21 (voicing only) — correct |
+| [a] vs [i] feature diff | 3/21 (height, backness, tense) — correct |
+| b-p similarity > b-k similarity | Yes, even at random init |
+| Gradients through all 5 groups | Yes (verified steps 1-5) |
+| One-hot fallback (base model) | Works, uses single nn.Linear |
+| IPA coverage | 29/31 chars direct, 2/2 via normalisation |
+
+### Architecture Before vs After
+
+```
+BEFORE (pseudo-random):
+  char -> [is_vowel, is_cons, ord%2, ord%3/2, ord%5/4, ord%7/6, ord%11/10, len%3/2]
+       -> nn.Linear(8, 35)    # single mixed projection
+       -> 35-dim embedding     # phonologically meaningless
+
+AFTER (panphon + grouped):
+  char -> panphon -> [major_class(3) | manner(5) | laryngeal(3) | place(4) | vowel_body(6)]
+       -> [nn.Linear(3,7) | nn.Linear(5,7) | nn.Linear(3,7) | nn.Linear(4,7) | nn.Linear(6,7)]
+       -> concat -> 35-dim embedding   # 5 independent phonological subspaces
+```
+
+---
+
 ## 2026-02-20 — IPA Feature Bottleneck: Root Cause & Solution Selection
 
 **Phase:** Pre-implementation analysis
