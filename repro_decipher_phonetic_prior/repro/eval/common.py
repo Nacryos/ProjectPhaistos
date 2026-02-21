@@ -19,7 +19,7 @@ from repro.paths import ROOT
 from repro.utils import set_global_seeds, utc_now_iso
 
 
-_TOKEN_RE = re.compile(r"[^\wþðƕȝōēæáéíóúïöüãẽĩõũȳȧḱǫśžčşẓḫʻʿ\-]+", flags=re.UNICODE)
+_TOKEN_RE = re.compile(r"[^\wþðƕȝōēæáéíóúïöüãẽĩõũȳȧḱǫśžčşẓḫʻʿ`@\-]+", flags=re.UNICODE)
 
 
 class MissingDataError(RuntimeError):
@@ -152,6 +152,9 @@ def load_bilingual_dataset(
     for row in rows:
         lost_raw = row.get(lost_col, "") or ""
         known_raw = row.get(known_col, "") or ""
+        # Skip placeholder rows (_.cog convention for missing cognates)
+        if lost_raw.strip() == "_" or known_raw.strip() == "_":
+            continue
         lost_tok = normalize_token(lost_raw)
         if not lost_tok:
             continue

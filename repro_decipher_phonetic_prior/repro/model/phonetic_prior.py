@@ -198,12 +198,19 @@ class PhoneticPriorModel(nn.Module):
         inscription: str,
         known_vocab: Sequence[str],
         char_distr: Tensor,
-    ) -> Tuple[Tensor, float]:
-        """Section 3.3 objective over latent Z with O and E_l tags."""
+    ) -> Tuple[Tensor, Tensor]:
+        """Section 3.3 objective over latent Z with O and E_l tags.
+
+        Returns (quality, soft_coverage) where both are differentiable
+        tensors.  soft_coverage is derived from the DP probabilities: at
+        each position the soft probability of being in a matched span is
+        ``1 - exp(c_o - dp[i])``, giving a gradient signal for coverage.
+        """
         seq = inscription.replace(" ", "")
         n = len(seq)
+        dev = char_distr.device
         if n == 0:
-            return torch.tensor(0.0, device=char_distr.device), 0.0
+            return torch.tensor(0.0, device=dev), torch.tensor(0.0, device=dev)
 
         min_span = max(1, self.config.min_span)
         max_span = max(min_span, self.config.max_span)
@@ -213,10 +220,12 @@ class PhoneticPriorModel(nn.Module):
         remaining = max(1, max_span - min_span + 1)
         log_p_el = {l: math.log((1.0 - p_o) / remaining) for l in range(min_span, max_span + 1)}
 
-        neg_inf = torch.tensor(-1e9, dtype=torch.float32, device=char_distr.device)
+        neg_inf = torch.tensor(-1e9, dtype=torch.float32, device=dev)
         dp = [neg_inf.clone() for _ in range(n + 1)]
-        best_cov = [0.0 for _ in range(n + 1)]
-        dp[0] = torch.tensor(0.0, dtype=torch.float32, device=char_distr.device)
+        dp[0] = torch.tensor(0.0, dtype=torch.float32, device=dev)
+
+        # Soft probability of being matched at each position (differentiable).
+        soft_match: List[Tensor] = []
 
         vocab = [w for w in known_vocab if w]
         if not vocab:
@@ -228,7 +237,6 @@ class PhoneticPriorModel(nn.Module):
             # O: unmatched single char.
             c_o = dp[i - 1] + log_p_o
             candidates.append(c_o)
-            best_cov_i = best_cov[i - 1]
 
             for l in range(min_span, max_span + 1):
                 if i - l < 0:
@@ -239,18 +247,18 @@ class PhoneticPriorModel(nn.Module):
                 c_el = dp[i - l] + log_p_el[l] + p_span
                 candidates.append(c_el)
 
-                # Track best-match coverage for reporting.
-                local_value = float(c_el.detach().cpu().item())
-                current_value = float(candidates[0].detach().cpu().item())
-                if local_value >= current_value:
-                    best_cov_i = best_cov[i - l] + l
-
             dp[i] = torch.logsumexp(torch.stack(candidates, dim=0), dim=0)
-            best_cov[i] = min(float(n), best_cov_i)
+
+            # Soft coverage: probability that position i is in a matched
+            # span = 1 - P(unmatched).  This is differentiable because c_o
+            # and dp[i] both flow through the computation graph.
+            p_unmatched = (c_o - dp[i]).exp().clamp(0.0, 1.0)
+            soft_match.append(1.0 - p_unmatched)
 
         quality = dp[n]
-        coverage_ratio = best_cov[n] / max(1.0, float(n))
-        return quality, coverage_ratio
+        # Differentiable average coverage ratio.
+        soft_coverage = torch.stack(soft_match, dim=0).mean()
+        return quality, soft_coverage
 
     def omega_loss(self, char_distr: Tensor) -> Tensor:
         """Eq.10 sound-loss regularizer discouraging collapsed inventories."""
@@ -262,14 +270,14 @@ class PhoneticPriorModel(nn.Module):
     def objective(self, inscriptions: Sequence[str], known_vocab: Sequence[str]) -> Tuple[Tensor, Tensor, Tensor, Tensor]:
         char_distr = self.compute_char_distr()
         qualities: List[Tensor] = []
-        coverages: List[float] = []
+        coverages: List[Tensor] = []
         for x in inscriptions:
             q_x, cov_x = self.word_boundary_dp(x, known_vocab, char_distr)
             qualities.append(q_x)
             coverages.append(cov_x)
 
         quality = torch.stack(qualities, dim=0).mean() if qualities else torch.tensor(0.0, device=char_distr.device)
-        omega_cov = torch.tensor(sum(coverages) / max(1, len(coverages)), device=char_distr.device)
+        omega_cov = torch.stack(coverages, dim=0).mean() if coverages else torch.tensor(0.0, device=char_distr.device)
         omega_loss = self.omega_loss(char_distr)
 
         s = quality + self.config.lambda_cov * omega_cov - self.config.lambda_loss * omega_loss
@@ -289,7 +297,7 @@ def WordBoundaryDP(
     inscription: str,
     known_vocab: Sequence[str],
     char_distr: Tensor,
-) -> Tuple[Tensor, float]:
+) -> Tuple[Tensor, Tensor]:
     return model.word_boundary_dp(inscription, known_vocab, char_distr)
 
 
