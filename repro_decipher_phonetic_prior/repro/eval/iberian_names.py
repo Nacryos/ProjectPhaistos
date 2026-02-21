@@ -64,6 +64,7 @@ def run_iberian_names(
     seed_base: int,
     max_queries: int,
     smoke: bool,
+    corpus_variant: Optional[str] = None,
 ) -> Dict[str, Any]:
     cfg = load_yaml(config_path)
     train_cfg = cfg.get("training", {})
@@ -106,7 +107,7 @@ def run_iberian_names(
             metadata=dict(names_ds.metadata),
         )
 
-    corpus = get_corpus("iberian")
+    corpus = get_corpus("iberian", variant=corpus_variant)
     train_text = corpus.lost_text
     if not train_text:
         raise MissingDataError("Iberian corpus is empty in dataset registry.")

@@ -140,6 +140,7 @@ def run_iberian_closeness(
     seed_base: int,
     max_queries: int,
     smoke: bool,
+    corpus_variant: Optional[str] = None,
 ) -> Dict[str, Any]:
     cfg = load_yaml(config_path)
     train_cfg = cfg.get("training", {})
@@ -172,7 +173,7 @@ def run_iberian_closeness(
 
         for target_name, target_spec in targets_cfg.items():
             lost_corpus_name = str(target_spec.get("lost_corpus", target_name))
-            corpus = get_corpus(lost_corpus_name)
+            corpus = get_corpus(lost_corpus_name, variant=corpus_variant)
             train_text = corpus.lost_text
             if not train_text:
                 raise MissingDataError(f"Lost corpus {lost_corpus_name!r} has empty text for closeness.")

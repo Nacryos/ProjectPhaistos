@@ -1,4 +1,14 @@
-"""Paper-style Ugaritic experiment (P@1, Table 3 style)."""
+"""Validation-branch experiment runner.
+
+Runs the phonetic-prior model against any language-family branch from the
+ancient-scripts-datasets validation set.  Uses the registry's
+``_build_validation_corpus()`` which provides concept-aligned cognate
+pairs with IPA-first fallback.
+
+Usage:
+    python -m repro.run_experiment validation --branch germanic_expanded --smoke
+    python -m repro.run_experiment validation --branch semitic --lost-lang pair:arabic:hebrew
+"""
 
 from __future__ import annotations
 
@@ -7,16 +17,16 @@ from typing import Any, Dict, List, Mapping, Optional, Sequence
 
 from datasets.registry import get_corpus
 from repro.eval.common import (
+    BilingualDataset,
     MissingDataError,
     TrainVariant,
+    build_char_feature_matrix,
     check_sanity,
     compute_metrics,
-    load_bilingual_dataset,
     load_yaml,
     now_meta,
     rank_queries,
     ranking_records_to_rows,
-    resolve_path,
     restart_seeds,
     summarize_restarts,
     train_model,
@@ -24,23 +34,18 @@ from repro.eval.common import (
     write_json,
     write_jsonl,
 )
-from repro.reference.paper_metrics import TABLE3
-
-
-DEFAULT_LOST_COLS = ["uga-no_spe", "ugaritic", "lost", "source", "lost_stem"]
-DEFAULT_KNOWN_COLS = ["heb-no_spe", "hebrew", "known", "target", "known_stem"]
 
 
 def _load_variants(cfg: Mapping[str, Any], selected: Optional[Sequence[str]]) -> List[TrainVariant]:
     variants_cfg = cfg.get("variants", {})
     if not variants_cfg:
-        raise ValueError("No variants defined in Ugaritic config.")
+        raise ValueError("No variants defined in validation config.")
     names = list(selected) if selected else list(variants_cfg.keys())
     out: List[TrainVariant] = []
     for name in names:
         spec = variants_cfg.get(name)
         if spec is None:
-            raise ValueError(f"Unknown Ugaritic variant {name!r}")
+            raise ValueError(f"Unknown variant {name!r}")
         out.append(
             TrainVariant(
                 name=name,
@@ -54,16 +59,46 @@ def _load_variants(cfg: Mapping[str, Any], selected: Optional[Sequence[str]]) ->
     return out
 
 
-def run_ugaritic(
+def _corpus_to_bilingual(corpus) -> BilingualDataset:
+    """Convert a validation Corpus into a BilingualDataset for evaluation."""
+    gold_map: Dict[str, List[str]] = {}
+    for gt_row in (corpus.ground_truth or []):
+        lost = gt_row.get("lost", "")
+        known_list = gt_row.get("known", [])
+        if isinstance(known_list, str):
+            known_list = [known_list] if known_list else []
+        if lost and known_list:
+            gold_map.setdefault(lost, []).extend(known_list)
+    # Deduplicate
+    gold_map = {k: sorted(set(v)) for k, v in gold_map.items() if v}
+
+    lost_queries = sorted(gold_map.keys())
+    known_union = corpus.known_text.get("known_union", [])
+    if not known_union:
+        for vocab in corpus.known_text.values():
+            known_union.extend(vocab)
+        known_union = sorted(set(known_union))
+
+    return BilingualDataset(
+        name=corpus.name,
+        lost_queries=lost_queries,
+        gold_map=gold_map,
+        known_vocab=known_union,
+        metadata=dict(corpus.metadata),
+    )
+
+
+def run_validation(
     *,
     config_path: Path,
     output_root: Path,
+    branch: str,
+    lost_lang_variant: Optional[str],
     variants: Optional[Sequence[str]],
     restarts: int,
     seed_base: int,
     max_queries: int,
     smoke: bool,
-    corpus_variant: Optional[str] = None,
 ) -> Dict[str, Any]:
     cfg = load_yaml(config_path)
     train_cfg = cfg.get("training", {})
@@ -77,28 +112,27 @@ def run_ugaritic(
         smoke_train_lines_max = 0
     smoke_known_vocab_max = int(cfg.get("smoke_known_vocab_max", 0)) if smoke else 0
 
-    path = resolve_path(str(cfg.get("cognate_path", "")))
-    dataset = load_bilingual_dataset(
-        name="ugaritic_hebrew",
-        path=path,
-        lost_col_candidates=[str(x) for x in cfg.get("lost_col_candidates", DEFAULT_LOST_COLS)],
-        known_col_candidates=[str(x) for x in cfg.get("known_col_candidates", DEFAULT_KNOWN_COLS)],
-        min_lost_len=int(cfg.get("min_lost_stem_len", 1)),
-        min_known_len=int(cfg.get("min_known_stem_len", 3)),
-    )
+    corpus_name = f"validation_{branch}"
+    corpus = get_corpus(corpus_name, variant=lost_lang_variant)
+    dataset = _corpus_to_bilingual(corpus)
+
+    if not dataset.lost_queries:
+        raise MissingDataError(f"No evaluation queries for validation branch {branch!r}.")
+    if not dataset.known_vocab:
+        raise MissingDataError(f"No known vocabulary for validation branch {branch!r}.")
 
     if max_queries > 0:
         kept = dataset.lost_queries[:max_queries]
-        dataset = type(dataset)(
+        dataset = BilingualDataset(
             name=dataset.name,
             lost_queries=kept,
-            gold_map={q: dataset.gold_map[q] for q in kept},
+            gold_map={q: dataset.gold_map[q] for q in kept if q in dataset.gold_map},
             known_vocab=dataset.known_vocab,
             metadata=dict(dataset.metadata),
         )
     if smoke_known_vocab_max > 0 and len(dataset.known_vocab) > smoke_known_vocab_max:
         kept_vocab = set(dataset.known_vocab[:smoke_known_vocab_max])
-        dataset = type(dataset)(
+        dataset = BilingualDataset(
             name=dataset.name,
             lost_queries=list(dataset.lost_queries),
             gold_map={q: [k for k in dataset.gold_map.get(q, []) if k in kept_vocab] for q in dataset.lost_queries},
@@ -106,19 +140,17 @@ def run_ugaritic(
             metadata=dict(dataset.metadata),
         )
 
-    corpus = get_corpus("ugaritic", variant=corpus_variant)
     train_text = corpus.lost_text
     if not train_text:
-        raise MissingDataError("Ugaritic corpus is empty in dataset registry.")
-    if max_queries > 0:
-        train_text = train_text[: max_queries * 8]
+        raise MissingDataError(f"Validation branch {branch!r} produced empty lost text.")
     if smoke_train_lines_max > 0:
         train_text = train_text[:smoke_train_lines_max]
 
-    out_dir = output_root / "ugaritic"
+    out_dir = output_root / f"validation_{branch}"
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    top_k = int(cfg.get("top_k", 10))
+    ks = [int(k) for k in cfg.get("eval_ks", [1, 3, 5, 10])]
+    top_k = max(ks)
     variant_specs = _load_variants(cfg, variants)
 
     table_rows: List[Dict[str, Any]] = []
@@ -149,7 +181,7 @@ def run_ugaritic(
                 known_vocab=dataset.known_vocab,
                 top_k=top_k,
             )
-            metrics = compute_metrics(records, ks=[1, 10])
+            metrics = compute_metrics(records, ks=ks)
             check_sanity(records)
 
             rows = ranking_records_to_rows(records, top_k=top_k)
@@ -159,7 +191,7 @@ def run_ugaritic(
                 run_dir / "metrics.json",
                 {
                     **now_meta(),
-                    "experiment": "ugaritic",
+                    "experiment": f"validation_{branch}",
                     "variant": variant.name,
                     "seed": seed,
                     "metrics": metrics,
@@ -168,17 +200,16 @@ def run_ugaritic(
                 },
             )
 
-            restart_rows.append(
-                {
-                    "seed": seed,
-                    "p_at_1": float(metrics.get("p_at_1", 0.0)),
-                    "p_at_10": float(metrics.get("p_at_10", 0.0)),
-                    "mrr": float(metrics.get("mrr", 0.0)),
-                }
-            )
+            row = {
+                "seed": seed,
+                **{f"p_at_{k}": float(metrics.get(f"p_at_{k}", 0.0)) for k in ks},
+                "mrr": float(metrics.get("mrr", 0.0)),
+            }
+            restart_rows.append(row)
             restart_records.append(rows)
 
-        summary = summarize_restarts(restart_rows, primary_metric="p_at_1")
+        primary_metric = f"p_at_{max(ks)}"
+        summary = summarize_restarts(restart_rows, primary_metric=primary_metric)
         best_idx = next((i for i, r in enumerate(restart_rows) if r["seed"] == summary["best_seed"]), 0)
         best_rows = restart_records[best_idx]
 
@@ -188,10 +219,11 @@ def run_ugaritic(
 
         payload = {
             **now_meta(),
-            "experiment": "ugaritic",
+            "experiment": f"validation_{branch}",
             "variant": variant.name,
             "restarts": restarts,
             "seed_base": seed_base,
+            "primary_metric": primary_metric,
             "summary": summary,
             "restart_rows": restart_rows,
             "config_path": str(config_path),
@@ -201,10 +233,11 @@ def run_ugaritic(
 
         table_rows.append(
             {
-                "lost": "Ugaritic",
-                "known": "Hebrew",
-                "method": variant.name,
-                "metric": "P@1",
+                "branch": branch,
+                "lost_language": corpus.metadata.get("lost_language", "?"),
+                "known_languages": "|".join(corpus.metadata.get("known_languages", [])),
+                "variant": variant.name,
+                "metric": primary_metric,
                 "score_best": float(summary["best"]),
                 "score_mean": float(summary["mean"]),
                 "score_std": float(summary["std"]),
@@ -212,30 +245,15 @@ def run_ugaritic(
             }
         )
 
-    # Add comparison rows from paper baselines for table convenience.
-    for row in TABLE3:
-        if row.get("lost") != "Ugaritic":
-            continue
-        if row.get("method") in {"base", "partial", "full"}:
-            continue
-        table_rows.append(
-            {
-                "lost": row["lost"],
-                "known": row["known"],
-                "method": row["method"],
-                "metric": row["metric"],
-                "score_best": row["score"],
-                "score_mean": row["score"],
-                "score_std": 0.0,
-                "best_seed": "paper",
-            }
-        )
-
-    write_csv(out_dir / "table3_ugaritic.csv", table_rows)
+    write_csv(out_dir / "results.csv", table_rows)
 
     payload = {
         **now_meta(),
-        "experiment": "ugaritic",
+        "experiment": f"validation_{branch}",
+        "branch": branch,
+        "lost_language": corpus.metadata.get("lost_language"),
+        "known_languages": corpus.metadata.get("known_languages"),
+        "available_languages": corpus.metadata.get("available_languages"),
         "config_path": str(config_path),
         "output_dir": str(out_dir),
         "rows": table_rows,
@@ -247,4 +265,4 @@ def run_ugaritic(
 
 
 if __name__ == "__main__":
-    raise SystemExit("Use python -m repro.run_experiment ugaritic")
+    raise SystemExit("Use python -m repro.run_experiment validation --branch <name>")

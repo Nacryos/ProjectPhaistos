@@ -11,6 +11,7 @@ from repro.eval.gothic import run_gothic
 from repro.eval.iberian_closeness import run_iberian_closeness
 from repro.eval.iberian_names import run_iberian_names
 from repro.eval.ugaritic import run_ugaritic
+from repro.eval.validation import run_validation
 from repro.paths import ROOT
 
 
@@ -19,6 +20,7 @@ DEFAULT_CONFIGS = {
     "ugaritic": ROOT / "configs" / "ugaritic.yaml",
     "iberian-names": ROOT / "configs" / "iberian.yaml",
     "iberian-closeness": ROOT / "configs" / "iberian.yaml",
+    "validation": ROOT / "configs" / "validation.yaml",
 }
 
 
@@ -46,6 +48,11 @@ def _common_args(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--max-queries", type=int, default=0)
     parser.add_argument("--smoke", action="store_true", help="Use 1 restart and short runs on <=50 queries.")
     parser.add_argument("--output-root", default="outputs")
+    parser.add_argument(
+        "--corpus-variant",
+        default=None,
+        help="Corpus variant for training data (e.g. 'religious' for religious-text subset).",
+    )
 
 
 def main() -> None:
@@ -64,6 +71,15 @@ def main() -> None:
     p_ic = sub.add_parser("iberian-closeness", help="Run Gothic/Ugaritic/Iberian closeness analysis (Figure 4b/c/d style).")
     _common_args(p_ic)
 
+    p_v = sub.add_parser("validation", help="Run against any validation branch from ancient-scripts-datasets.")
+    _common_args(p_v)
+    p_v.add_argument("--branch", required=True, help="Validation branch name (e.g. germanic_expanded, semitic).")
+    p_v.add_argument(
+        "--lost-lang",
+        default=None,
+        help="Language to treat as lost (default: first alphabetically). Use lang:<name> or pair:<lost>:<known>.",
+    )
+
     p_all = sub.add_parser("all", help="Run all paper experiments.")
     _common_args(p_all)
 
@@ -73,6 +89,8 @@ def main() -> None:
     if not output_root.is_absolute():
         output_root = ROOT / output_root
     output_root.mkdir(parents=True, exist_ok=True)
+
+    corpus_variant = getattr(args, "corpus_variant", None)
 
     try:
         if args.cmd == "gothic":
@@ -84,6 +102,7 @@ def main() -> None:
                 seed_base=args.seed_base,
                 max_queries=args.max_queries,
                 smoke=args.smoke,
+                corpus_variant=corpus_variant,
             )
             print(f"Wrote Gothic outputs under {output_root / 'gothic'}")
             write_json(output_root / "gothic" / "_run_invocation.json", payload)
@@ -98,6 +117,7 @@ def main() -> None:
                 seed_base=args.seed_base,
                 max_queries=args.max_queries,
                 smoke=args.smoke,
+                corpus_variant=corpus_variant,
             )
             print(f"Wrote Ugaritic outputs under {output_root / 'ugaritic'}")
             write_json(output_root / "ugaritic" / "_run_invocation.json", payload)
@@ -112,6 +132,7 @@ def main() -> None:
                 seed_base=args.seed_base,
                 max_queries=args.max_queries,
                 smoke=args.smoke,
+                corpus_variant=corpus_variant,
             )
             print(f"Wrote Iberian names outputs under {output_root / 'iberian_names'}")
             write_json(output_root / "iberian_names" / "_run_invocation.json", payload)
@@ -126,9 +147,29 @@ def main() -> None:
                 seed_base=args.seed_base,
                 max_queries=args.max_queries,
                 smoke=args.smoke,
+                corpus_variant=corpus_variant,
             )
             print(f"Wrote closeness outputs under {output_root / 'iberian_closeness'}")
             write_json(output_root / "iberian_closeness" / "_run_invocation.json", payload)
+            return
+
+        if args.cmd == "validation":
+            branch = args.branch
+            lost_lang = args.lost_lang
+            payload = run_validation(
+                config_path=_resolve_config("validation", args.config),
+                output_root=output_root,
+                branch=branch,
+                lost_lang_variant=lost_lang,
+                variants=_split_variants(args.variants),
+                restarts=args.restarts,
+                seed_base=args.seed_base,
+                max_queries=args.max_queries,
+                smoke=args.smoke,
+            )
+            out_name = f"validation_{branch}"
+            print(f"Wrote validation outputs under {output_root / out_name}")
+            write_json(output_root / out_name / "_run_invocation.json", payload)
             return
 
         if args.cmd == "all":
@@ -141,6 +182,7 @@ def main() -> None:
                 seed_base=args.seed_base,
                 max_queries=args.max_queries,
                 smoke=args.smoke,
+                corpus_variant=corpus_variant,
             )
             payload_u = run_ugaritic(
                 config_path=_resolve_config("ugaritic", None),
@@ -150,6 +192,7 @@ def main() -> None:
                 seed_base=args.seed_base,
                 max_queries=args.max_queries,
                 smoke=args.smoke,
+                corpus_variant=corpus_variant,
             )
             payload_in = run_iberian_names(
                 config_path=_resolve_config("iberian-names", None),
@@ -159,6 +202,7 @@ def main() -> None:
                 seed_base=args.seed_base,
                 max_queries=args.max_queries,
                 smoke=args.smoke,
+                corpus_variant=corpus_variant,
             )
             payload_ic = run_iberian_closeness(
                 config_path=_resolve_config("iberian-closeness", None),
@@ -168,6 +212,7 @@ def main() -> None:
                 seed_base=args.seed_base,
                 max_queries=args.max_queries,
                 smoke=args.smoke,
+                corpus_variant=corpus_variant,
             )
             write_json(
                 output_root / "paper_run_summary.json",

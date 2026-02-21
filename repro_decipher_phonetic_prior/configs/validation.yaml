@@ -1,0 +1,44 @@
+experiment: validation
+
+# Generic config for running against any validation branch from
+# ancient-scripts-datasets.  Use with:
+#   python -m repro.run_experiment validation --branch germanic_expanded
+#   python -m repro.run_experiment validation --branch semitic --lost-lang pair:arabic:hebrew
+#   python -m repro.run_experiment validation --branch turkic --smoke
+
+restarts: 5
+top_k: 10
+eval_ks: [1, 3, 5, 10]
+smoke_num_steps: 3
+smoke_known_vocab_max: 120
+smoke_train_lines_max: 24
+
+min_lost_stem_len: 1
+min_known_stem_len: 2
+
+training:
+  num_steps: 3000
+  anneal_steps: 2000
+  alpha_start: 10.0
+  alpha_end: 3.5
+  temperature: 0.2
+  lambda_cov: 10.0
+  lambda_loss: 100.0
+  min_span: 3
+  max_span: 10
+  learning_rate: 0.2
+  embedding_dim: 50
+  p_o: 0.2
+  log_interval: 100
+
+variants:
+  base:
+    ipa: true
+    omega_loss: true
+    mapping_prior: none
+    prior_strength: 0.0
+  full:
+    ipa: true
+    omega_loss: true
+    mapping_prior: full
+    prior_strength: 10.0

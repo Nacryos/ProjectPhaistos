@@ -217,6 +217,7 @@ def run_gothic(
     seed_base: int,
     max_queries: int,
     smoke: bool,
+    corpus_variant: Optional[str] = None,
 ) -> Dict[str, Any]:
     cfg = load_yaml(config_path)
     train_cfg = cfg.get("training", {})
@@ -240,7 +241,7 @@ def run_gothic(
 
     variant_specs = _load_variants(cfg, variants)
 
-    gothic_corpus = get_corpus("gothic")
+    gothic_corpus = get_corpus("gothic", variant=corpus_variant)
     base_train_lines = gothic_corpus.lost_text
     if not base_train_lines:
         raise MissingDataError("Gothic corpus is empty in datasets registry.")
