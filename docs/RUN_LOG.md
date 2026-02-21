@@ -4,6 +4,39 @@ Reverse-chronological notes, reports, and observations from model investigation,
 
 ---
 
+## 2026-02-20 — Critical Training Performance Fix + Colab Setup (commit f1d2338)
+
+**Phase:** Pre-run optimization
+**Status:** Pipeline optimized, Colab notebook created
+**Commit:** `f1d2338`
+
+### Critical Bug: All Inscriptions Processed Per Step
+
+`train_model()` in `common.py` was passing the **entire** `lost_training_text` list to every training step. For Gothic (5000+ inscriptions), this meant 5000 WordBoundaryDP calls per step, each running O(n × S × V) DP — total ~7 billion Python loop iterations per step. This is why it overloaded the CPU.
+
+**Fix**: Mini-batch sampling. Each step now samples `batch_size=8` inscriptions randomly (matching the paper's Algorithm 1 which processes individual inscriptions per gradient update).
+
+### YAML Boolean Bug
+
+PyYAML 1.1 parses `ON` as boolean `True`. The Gothic config's `known_languages: ON:` was being parsed as `{True: {...}}`, causing `'bool' object has no attribute 'lower'`. Fixed by quoting keys: `"ON":`.
+
+### Training Time Estimates (post-fix, batch_size=8)
+
+| Experiment | Per Step | Per Run (3000 steps) | Total (3 restarts) |
+|---|---|---|---|
+| Ugaritic (275 vocab) | ~6-7s | ~5.5h | ~33h |
+| Gothic (37 vocab/lang) | ~2-3s | ~2.5h | ~60h (24 settings × 3) |
+| Iberian (64 vocab) | ~3-4s | ~3h | ~18h |
+
+**Recommendation**: Run on Google Colab. Created `notebooks/colab_training.ipynb` with full pipeline.
+
+### Additional Optimizations
+
+- `torch.inference_mode()` added to `rank_queries()` evaluation loop
+- `batch_size` config parameter added to all YAML configs
+
+---
+
 ## 2026-02-20 — All Pre-Run Items Complete (commit d256fb0)
 
 **Phase:** Pre-run fixes (final)
