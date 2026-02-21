@@ -4,6 +4,77 @@ Reverse-chronological notes, reports, and observations from model investigation,
 
 ---
 
+## 2026-02-20 — Priority Fixes Complete: Data, Model, and Pipeline (commits 6bfe8c4, 07b33e7)
+
+**Phase:** Pre-run fixes
+**Status:** All 7 priority items resolved — model ready for training runs
+**Commits:** `6bfe8c4` (data/model fixes), `07b33e7` (corpus variants + validation runner)
+
+### Priority Items Resolved
+
+| # | Action | Status | Commit |
+|---|---|---|---|
+| 1 | Fix data file paths in YAML configs | DONE | `6bfe8c4` |
+| 2 | Fix `_` padding filtering | DONE | `6bfe8c4` |
+| 3 | Fix normalize_token for transliteration chars | DONE | `6bfe8c4` |
+| 4 | Wire religious/name subsets into experiment runner | DONE | `07b33e7` |
+| 5 | Create per-branch validation configs | DONE | `07b33e7` |
+| 6 | Replace pseudo-random IPA features | DONE | `419eef7` (prev) |
+| 7 | Fix omega_cov gradient death | DONE | `6bfe8c4` |
+
+### Data Files Created/Downloaded
+
+- `data_external/rodriguez_ramos_2014_personal_names.tsv` — 62 Iberian queries, 64 Latin stems (Bronze of Ascoli + onomastic formants)
+- `data_external/wiktionary_descendants_{pg,on,oe}.tsv` — 37 Gothic cognate pairs each (generated from germanic_expanded.tsv)
+- `third_party/NeuroDecipher/data/uga-heb.{small.,}no_spe.cog` — downloaded from original repo
+- `third_party/DecipherUnsegmented/data/{iberian.csv,got.pretrained.pth,segments.pkl}` — downloaded
+
+All 30 required YAML paths now resolve correctly. 5 optional closeness vocab files (Arabic, Spanish, Hungarian, Turkish, Aramaic) skipped (`required: false`).
+
+### Model Fixes (commit 6bfe8c4)
+
+**omega_cov gradient fix** — `word_boundary_dp()` now returns differentiable soft coverage:
+```python
+p_unmatched = (c_o - dp[i]).exp().clamp(0.0, 1.0)
+soft_match.append(1.0 - p_unmatched)
+```
+Before: coverage was plain float with zero gradient. After: differentiable tensor with `MeanBackward0` grad_fn.
+
+**`_` padding fix** — Filters `_` placeholder rows in `load_bilingual_dataset()` (.cog convention).
+
+**normalize_token fix** — Added `` ` `` and `@` to regex whitelist for Ugaritic transliteration.
+
+### Pipeline Additions (commit 07b33e7)
+
+**`--corpus-variant` flag** — All experiment subcommands accept `--corpus-variant religious` to train on religious-text subsets via `get_corpus(name, variant="religious")`.
+
+**`validation` subcommand** — Run against any of 55 validation branches:
+```bash
+python -m repro.run_experiment validation --branch germanic_expanded --smoke
+python -m repro.run_experiment validation --branch semitic --lost-lang pair:arabic:hebrew
+```
+Uses registry's `_build_validation_corpus()` with concept-aligned cognate pairs.
+
+**`configs/validation.yaml`** — Generic config for validation branches (embedding_dim=50, 3000 steps, base+full variants).
+
+### Smoke Test Results
+
+End-to-end model test (Gothic data, panphon features, GroupedIPAProjector):
+- Feature matrix: 17 chars × 21 features (panphon)
+- GroupedIPAProjector active with 5 groups
+- 3 training steps complete, omega_cov differentiable
+- All data loading tests pass (Ugaritic: 203q/275kv, Gothic: 34q/34kv, Iberian: 62q/64kv)
+
+### Remaining Items (Lower Priority)
+
+| # | Action | Status |
+|---|---|---|
+| 8 | Add cognate annotation to validation branches | Not started — use .cog files first |
+| 9 | Build results visualization dashboard | Not started |
+| 10 | Clean ABVD/WOLD data quality | Not started |
+
+---
+
 ## 2026-02-20 — Implementation: Panphon + Grouped Projections (commit 419eef7)
 
 **Phase:** Implementation
