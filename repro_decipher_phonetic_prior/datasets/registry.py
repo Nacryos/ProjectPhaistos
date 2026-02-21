@@ -113,11 +113,23 @@ def _validation_path(branch: str) -> Path:
     return _VALIDATION_DIR / f"{branch}.tsv"
 
 
+def _strip_wold_slashes(ipa: str) -> str:
+    """Remove WOLD-style slash segmentation from IPA transcriptions.
+
+    WOLD encodes morphological segmentation in IPA fields as 'kʼá/asáa/aː'.
+    We take the full concatenation without slashes (the slashes mark syllable
+    or morpheme boundaries, not phonemic alternatives).
+    """
+    if "/" not in ipa:
+        return ipa
+    return ipa.replace("/", "")
+
+
 def _clean_surface(row: Dict[str, str]) -> str:
     ipa = (row.get("IPA") or "").strip()
     form = (row.get("Form") or "").strip()
     if ipa and ipa != "_":
-        return ipa
+        return _strip_wold_slashes(ipa)
     if form and form != "_":
         return form
     return ""
@@ -136,13 +148,14 @@ def _read_validation_rows(branch: str) -> List[Dict[str, str]]:
             token = _clean_surface(row)
             if not lang or not concept or not token:
                 continue
+            raw_ipa = (row.get("IPA") or "").strip()
             rows.append(
                 {
                     "language": lang,
                     "concept": concept,
                     "token": token,
                     "form": (row.get("Form") or "").strip(),
-                    "ipa": (row.get("IPA") or "").strip(),
+                    "ipa": _strip_wold_slashes(raw_ipa) if raw_ipa and raw_ipa != "_" else raw_ipa,
                     "glottocode": (row.get("Glottocode") or "").strip(),
                 }
             )
@@ -242,6 +255,10 @@ def _build_validation_corpus(branch: str, variant: Optional[str]) -> Corpus:
         "representation": "IPA_first_fallback_form",
         **selection_meta,
     }
+    # Annotate ground truth with cognate confidence scores.
+    from datasets.cognate_scoring import annotate_ground_truth
+    gt = annotate_ground_truth(gt)
+
     return Corpus(
         name=f"validation_{branch}",
         variant=variant,

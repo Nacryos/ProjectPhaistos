@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Mapping, Optional, Sequence, Tuple
 
 from datasets.registry import get_corpus
+from repro.eval.visualize import save_char_distr
 from repro.eval.common import (
     BilingualDataset,
     MissingDataError,
@@ -162,6 +163,7 @@ def _run_setting(
             seed=seed,
             train_cfg=train_cfg,
         )
+        save_char_distr(train_out.model, run_dir)
 
         records = rank_queries(
             model=train_out.model,

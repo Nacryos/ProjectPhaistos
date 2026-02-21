@@ -80,6 +80,10 @@ def main() -> None:
         help="Language to treat as lost (default: first alphabetically). Use lang:<name> or pair:<lost>:<known>.",
     )
 
+    p_viz = sub.add_parser("visualize", help="Generate result visualizations from experiment outputs.")
+    p_viz.add_argument("input", help="Top-level experiment output directory.")
+    p_viz.add_argument("--figures-dir", default=None, help="Directory for generated figures.")
+
     p_all = sub.add_parser("all", help="Run all paper experiments.")
     _common_args(p_all)
 
@@ -170,6 +174,18 @@ def main() -> None:
             out_name = f"validation_{branch}"
             print(f"Wrote validation outputs under {output_root / out_name}")
             write_json(output_root / out_name / "_run_invocation.json", payload)
+            return
+
+        if args.cmd == "visualize":
+            from repro.eval.visualize import plot_all_for_experiment
+            inp = Path(args.input)
+            if not inp.is_absolute():
+                inp = ROOT / inp
+            fig_dir = Path(args.figures_dir) if args.figures_dir else None
+            generated = plot_all_for_experiment(inp, figures_dir=fig_dir)
+            print(f"Generated {len(generated)} figures:")
+            for p in generated:
+                print(f"  {p}")
             return
 
         if args.cmd == "all":
