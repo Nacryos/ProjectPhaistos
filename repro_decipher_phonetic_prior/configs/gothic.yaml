@@ -31,20 +31,21 @@ training:
   learning_rate: 0.2
   embedding_dim: 100
   p_o: 0.2
+  batch_size: 8
   log_interval: 100
 
 # Each file is expected to provide Gothic-to-known cognate correspondences.
 # If these files are absent, the run fails with a clear missing-file message.
 known_languages:
-  PG:
+  "PG":
     path: data_external/wiktionary_descendants_pg.tsv
     lost_col_candidates: [gothic_stem, gothic, got, lost, source, query]
     known_col_candidates: [proto_germanic_stem, proto_germanic, pg, known, target, cognate]
-  ON:
+  "ON":
     path: data_external/wiktionary_descendants_on.tsv
     lost_col_candidates: [gothic_stem, gothic, got, lost, source, query]
     known_col_candidates: [old_norse_stem, old_norse, on, known, target, cognate]
-  OE:
+  "OE":
     path: data_external/wiktionary_descendants_oe.tsv
     lost_col_candidates: [gothic_stem, gothic, got, lost, source, query]
     known_col_candidates: [old_english_stem, old_english, oe, known, target, cognate]
@@ -68,7 +69,7 @@ variants:
     prior_strength: 10.0
 
 ablation:
-  known_language: ON
+  known_language: "ON"
   whitespace_ratio: 75
   rows:
     - label: ipa_on_omega_on

@@ -432,11 +432,27 @@ def train_model(
     alpha_start = float(train_cfg.get("alpha_start", 10.0))
     alpha_end = float(train_cfg.get("alpha_end", 3.5))
     log_interval = int(train_cfg.get("log_interval", 100))
+    batch_size = int(train_cfg.get("batch_size", 8))
+
+    # Pre-convert training text to list for random sampling.
+    all_text = list(lost_training_text)
+    rng = np.random.default_rng(seed)
 
     history: List[Dict[str, float]] = []
     for step in range(1, num_steps + 1):
         model.config.alpha = _annealed_alpha(alpha_start, alpha_end, anneal_steps, step)
-        out = train_one_step(model, optimizer, lost_training_text, known_vocab)
+
+        # Sample a mini-batch of inscriptions per step (Algorithm 1).
+        # The paper processes a small sample per gradient update, not the
+        # entire corpus.  This is critical for performance: WordBoundaryDP
+        # is O(n × S × V) per inscription.
+        if batch_size >= len(all_text):
+            batch = all_text
+        else:
+            idxs = rng.choice(len(all_text), size=batch_size, replace=False)
+            batch = [all_text[i] for i in idxs]
+
+        out = train_one_step(model, optimizer, batch, known_vocab)
         if step == 1 or step == num_steps or step % log_interval == 0:
             history.append(
                 {
@@ -472,7 +488,8 @@ def rank_queries(
     known_vocab: Sequence[str],
     top_k: int,
 ) -> List[RankingRecord]:
-    char_distr = model.compute_char_distr().detach()
+    with torch.inference_mode():
+        char_distr = model.compute_char_distr()
     records: List[RankingRecord] = []
 
     for idx, query in enumerate(queries, start=1):
@@ -480,9 +497,10 @@ def rank_queries(
         gold_set = set(gold)
 
         scored: List[Tuple[str, float, bool]] = []
-        for known in known_vocab:
-            score = float(model.edit_distance_dp(query, known, char_distr).detach().cpu().item())
-            scored.append((known, score, known in gold_set))
+        with torch.inference_mode():
+            for known in known_vocab:
+                score = float(model.edit_distance_dp(query, known, char_distr).item())
+                scored.append((known, score, known in gold_set))
 
         scored.sort(key=lambda x: x[1], reverse=True)
         top = scored[: max(1, top_k)]
