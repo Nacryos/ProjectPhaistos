@@ -4,6 +4,48 @@ Reverse-chronological notes, reports, and observations from model investigation,
 
 ---
 
+## 2026-02-20 — All Pre-Run Items Complete (commit d256fb0)
+
+**Phase:** Pre-run fixes (final)
+**Status:** All 10 items resolved — full pipeline ready for training runs
+**Commit:** `d256fb0`
+
+### Low-Priority Items Resolved
+
+| # | Action | Status | Detail |
+|---|---|---|---|
+| 8 | Cognate annotation for validation branches | DONE | Pure-Python SCA-based scoring (cognate_scoring.py); auto-annotates ground truth with cognate_score |
+| 9 | Results visualization dashboard | DONE | visualize.py with 5 plot types: char heatmaps, P@K curves, training loss, branch comparison, confusion tables |
+| 10 | Clean ABVD/WOLD data quality | DONE | _strip_wold_slashes() removes morphological `/` from IPA fields |
+
+### New Modules
+
+**`datasets/cognate_scoring.py`** — Cognate confidence scoring:
+- SCA (Sound-Class-based) encoding: maps IPA to 14 Dolgopolsky-style classes
+- Weighted edit distance on SCA-encoded strings (similar sounds = lower cost)
+- Combined score: 30% raw Levenshtein + 70% SCA distance
+- `annotate_ground_truth()` adds cognate_score to each GT row
+- Validation: hund~hound=0.94, wasser~water=0.90, pater~father=0.73, hund~table=0.14
+
+**`repro/eval/visualize.py`** — Visualization dashboard:
+- `save_char_distr()` persists P(known|lost) to npz after training
+- `plot_char_heatmap()` — character distribution heatmap with IPA labels
+- `plot_p_at_k()` — P@K comparison curves across variants
+- `plot_training_loss()` — multi-panel training curves (objective, quality, omega_cov, omega_loss)
+- `plot_branch_comparison()` — grouped bar chart across validation branches
+- `plot_confusion_matrix()` — top-N predicted known chars per lost char
+- `plot_all_for_experiment()` — auto-detects output type and generates all applicable plots
+- CLI: `python -m repro.eval.visualize all outputs/gothic`
+- Also wired as `python -m repro.run_experiment visualize outputs/gothic`
+
+### Pipeline Integration
+
+- `save_char_distr()` wired into all 4 experiment runners (gothic, ugaritic, iberian_names, validation)
+- Validation corpus builder automatically annotates GT with cognate_score via cognate_scoring module
+- `visualize` subcommand added to run_experiment.py CLI
+
+---
+
 ## 2026-02-20 — Priority Fixes Complete: Data, Model, and Pipeline (commits 6bfe8c4, 07b33e7)
 
 **Phase:** Pre-run fixes
@@ -65,13 +107,13 @@ End-to-end model test (Gothic data, panphon features, GroupedIPAProjector):
 - 3 training steps complete, omega_cov differentiable
 - All data loading tests pass (Ugaritic: 203q/275kv, Gothic: 34q/34kv, Iberian: 62q/64kv)
 
-### Remaining Items (Lower Priority)
+### Remaining Items (Lower Priority) — Now Complete
 
 | # | Action | Status |
 |---|---|---|
-| 8 | Add cognate annotation to validation branches | Not started — use .cog files first |
-| 9 | Build results visualization dashboard | Not started |
-| 10 | Clean ABVD/WOLD data quality | Not started |
+| 8 | Add cognate annotation to validation branches | DONE (`d256fb0`) |
+| 9 | Build results visualization dashboard | DONE (`d256fb0`) |
+| 10 | Clean ABVD/WOLD data quality | DONE (`d256fb0`) |
 
 ---
 
