@@ -5,6 +5,8 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any, Dict, List, Mapping, Optional, Sequence
 
+from tqdm import tqdm
+
 from datasets.registry import get_corpus
 from repro.eval.visualize import save_char_distr
 from repro.eval.common import (
@@ -125,6 +127,9 @@ def run_ugaritic(
     table_rows: List[Dict[str, Any]] = []
     variant_payloads: Dict[str, Any] = {}
 
+    total_runs = len(variant_specs) * restarts
+    run_bar = tqdm(total=total_runs, desc="Ugaritic", unit="run")
+
     for variant in variant_specs:
         v_dir = out_dir / variant.name
         v_dir.mkdir(parents=True, exist_ok=True)
@@ -136,12 +141,14 @@ def run_ugaritic(
             run_dir = v_dir / "restarts" / f"restart_{restart_idx:02d}"
             run_dir.mkdir(parents=True, exist_ok=True)
 
+            run_bar.set_description(f"Ugaritic {variant.name} r{restart_idx}/{restarts}")
             train_out = train_model(
                 lost_training_text=train_text,
                 known_vocab=dataset.known_vocab,
                 variant=variant,
                 seed=seed,
                 train_cfg=train_cfg,
+                progress_desc=f"{variant.name} restart {restart_idx}",
             )
             save_char_distr(train_out.model, run_dir)
             records = rank_queries(
@@ -179,6 +186,7 @@ def run_ugaritic(
                 }
             )
             restart_records.append(rows)
+            run_bar.update(1)
 
         summary = summarize_restarts(restart_rows, primary_metric="p_at_1")
         best_idx = next((i for i, r in enumerate(restart_rows) if r["seed"] == summary["best_seed"]), 0)
@@ -213,6 +221,8 @@ def run_ugaritic(
                 "best_seed": int(summary["best_seed"]),
             }
         )
+
+    run_bar.close()
 
     # Add comparison rows from paper baselines for table convenience.
     for row in TABLE3:

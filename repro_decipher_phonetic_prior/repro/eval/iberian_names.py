@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Mapping, Optional, Sequence
 
 import matplotlib.pyplot as plt
+from tqdm import tqdm
 
 from datasets.registry import get_corpus
 from repro.eval.visualize import save_char_distr
@@ -126,6 +127,9 @@ def run_iberian_names(
 
     p_at_k_rows: List[Dict[str, Any]] = []
 
+    total_runs = len(variant_specs) * restarts
+    run_bar = tqdm(total=total_runs, desc="Iberian Names", unit="run")
+
     for variant in variant_specs:
         v_dir = out_dir / variant.name
         v_dir.mkdir(parents=True, exist_ok=True)
@@ -137,12 +141,14 @@ def run_iberian_names(
             run_dir = v_dir / "restarts" / f"restart_{restart_idx:02d}"
             run_dir.mkdir(parents=True, exist_ok=True)
 
+            run_bar.set_description(f"Iberian {variant.name} r{restart_idx}/{restarts}")
             train_out = train_model(
                 lost_training_text=train_text,
                 known_vocab=names_ds.known_vocab,
                 variant=variant,
                 seed=seed,
                 train_cfg=train_cfg,
+                progress_desc=f"{variant.name} restart {restart_idx}",
             )
             save_char_distr(train_out.model, run_dir)
             records = rank_queries(
@@ -173,6 +179,7 @@ def run_iberian_names(
 
             restart_rows.append({"seed": seed, **{f"p_at_{k}": float(metrics.get(f"p_at_{k}", 0.0)) for k in ks}, "mrr": float(metrics.get("mrr", 0.0))})
             restart_query_rows.append(rows)
+            run_bar.update(1)
 
         primary_metric = f"p_at_{max(ks)}"
         summary = summarize_restarts(restart_rows, primary_metric=primary_metric)
@@ -206,6 +213,8 @@ def run_iberian_names(
                     "p_at_k_mean": float(sum(vals) / len(vals) if vals else 0.0),
                 }
             )
+
+    run_bar.close()
 
     write_csv(out_dir / "p_at_k.csv", p_at_k_rows)
 

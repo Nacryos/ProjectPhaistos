@@ -13,6 +13,7 @@ from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence, Tuple
 import numpy as np
 import torch
 import yaml
+from tqdm import tqdm
 
 from repro.model import PhoneticPriorConfig, PhoneticPriorModel, train_one_step
 from repro.paths import ROOT
@@ -397,6 +398,7 @@ def train_model(
     variant: TrainVariant,
     seed: int,
     train_cfg: Mapping[str, Any],
+    progress_desc: str = "",
 ) -> TrainResult:
     set_global_seeds(seed)
 
@@ -439,7 +441,13 @@ def train_model(
     rng = np.random.default_rng(seed)
 
     history: List[Dict[str, float]] = []
-    for step in range(1, num_steps + 1):
+    step_iter = tqdm(
+        range(1, num_steps + 1),
+        desc=progress_desc or "Training",
+        unit="step",
+        leave=False,
+    )
+    for step in step_iter:
         model.config.alpha = _annealed_alpha(alpha_start, alpha_end, anneal_steps, step)
 
         # Sample a mini-batch of inscriptions per step (Algorithm 1).
@@ -464,6 +472,7 @@ def train_model(
                     "omega_loss": out.omega_loss,
                 }
             )
+            step_iter.set_postfix(loss=f"{out.objective:.3f}", qual=f"{out.quality:.3f}")
 
     return TrainResult(model=model, history=history)
 

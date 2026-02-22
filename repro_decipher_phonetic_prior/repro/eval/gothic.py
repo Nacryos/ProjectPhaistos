@@ -7,6 +7,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Mapping, Optional, Sequence, Tuple
 
+from tqdm import tqdm
+
 from datasets.registry import get_corpus
 from repro.eval.visualize import save_char_distr
 from repro.eval.common import (
@@ -162,6 +164,7 @@ def _run_setting(
             variant=variant,
             seed=seed,
             train_cfg=train_cfg,
+            progress_desc=f"{setting_name} r{restart_idx}",
         )
         save_char_distr(train_out.model, run_dir)
 
@@ -260,6 +263,10 @@ def run_gothic(
     table2_rows: List[Dict[str, Any]] = []
     variant_summaries: Dict[str, Any] = {}
 
+    n_settings = len(whitespace_ratios) * len(known_datasets)
+    total_runs = len(variant_specs) * n_settings * restarts
+    run_bar = tqdm(total=total_runs, desc="Gothic", unit="run")
+
     for variant in variant_specs:
         v_dir = out_dir / variant.name
         v_dir.mkdir(parents=True, exist_ok=True)
@@ -273,6 +280,7 @@ def run_gothic(
                 seeds = restart_seeds(seed_base + wr * 100 + len(known_label), restarts)
                 train_text = apply_whitespace_ratio(base_train_lines, wr, seed=seeds[0])
 
+                run_bar.set_description(f"Gothic {variant.name} {setting}")
                 run = _run_setting(
                     output_dir=v_dir,
                     setting_name=setting,
@@ -284,6 +292,7 @@ def run_gothic(
                     top_k=top_k,
                 )
 
+                run_bar.update(restarts)
                 summary = run.summary
                 setting_rows.append(
                     {
@@ -320,6 +329,8 @@ def run_gothic(
         }
         write_json(v_dir / "metrics.json", metrics_payload)
         variant_summaries[variant.name] = metrics_payload
+
+    run_bar.close()
 
     key_order = ["base", "partial", "full"]
     rows_by_key: Dict[Tuple[int, str], Dict[str, Any]] = {}
